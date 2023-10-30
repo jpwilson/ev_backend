@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends
 
 from typing import Annotated, List, Optional
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 
 from pydantic import BaseModel
 
@@ -62,6 +62,8 @@ class CarCreate(CarBase):
 
 class CarRead(CarBase):
     id: int
+    make_id: int
+    make_name: str
 
 
 class Car(CarBase):
@@ -154,8 +156,26 @@ async def create_bulk_cars(cars: List[CarBase], db: db_dependency):
 
 @app.get("/cars", response_model=List[CarRead])
 async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
-    cars = db.query(models.Car).offset(skip).limit(limit).all()
-    return cars
+    cars = (
+        db.query(models.Car)
+        .options(joinedload(models.Car.make))
+        .offset(skip)
+        .limit(limit)
+        .all()
+    )
+
+    # Transforming the cars data to include make name
+    result = []
+    for car in cars:
+        car_data = car.__dict__
+        car_data[
+            "make_name"
+        ] = car.make.name  # Assuming you have a relationship set up named "make"
+        result.append(car_data)
+    return result
+
+    # cars = db.query(models.Car).offset(skip).limit(limit).all()
+    # return cars
 
 
 @app.post("/makes/", response_model=MakeCreate)
