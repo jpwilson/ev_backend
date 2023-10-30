@@ -1,0 +1,19 @@
+# .gitignore
+
+# Python cache files
+__pycache__/
+
+# VSCode settings
+.vscode/
+
+# SQLite database (if you don't want to track the database in git, which is generally recommended)
+eevee.db
+*.db
+
+# Python environment files
+env/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
