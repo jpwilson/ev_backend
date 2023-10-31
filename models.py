@@ -151,6 +151,7 @@ class Make(Base):
     #    "CarmakerLocation", back_populates="makes"
     # )  # List of office locations, e.g., ["Palo Alto, CA", "Fremont, CA"]
     unionized = Column(Boolean, default=False)
+    lrg_logo_img_url = Column(String, nullable=True)
     cars = relationship("Car", back_populates="make")
 
 

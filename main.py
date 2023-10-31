@@ -83,6 +83,7 @@ class MakeBase(BaseModel):
     num_ev_models: Optional[int]
     first_ev_model_date: Optional[str]
     unionized: Optional[bool]
+    lrg_logo_img_url: Optional[str]
 
 
 class MakeCreate(MakeBase):
@@ -154,6 +155,21 @@ async def create_bulk_cars(cars: List[CarBase], db: db_dependency):
     return db_cars
 
 
+@app.patch("/cars/{car_id}/", response_model=Car)
+async def update_car(car_id: int, car_data: CarBase, db: db_dependency):
+    db_car = db.query(models.Car).filter(models.Car.id == car_id).first()
+    if not db_car:
+        raise HTTPException(status_code=404, detail="Car not found")
+
+    for key, value in car_data.dict().items():
+        if value is not None:
+            setattr(db_car, key, value)
+
+    db.commit()
+    db.refresh(db_car)
+    return db_car
+
+
 @app.get("/cars", response_model=List[CarRead])
 async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
     cars = (
@@ -200,6 +216,21 @@ async def create_bulk_makes(makes: List[MakeBase], db: db_dependency):
     return db_makes
 
 
+@app.patch("/makes/{make_name}/", response_model=MakeRead)
+async def update_make(make_name: str, make: MakeBase, db: db_dependency):
+    db_make = db.query(models.Make).filter(models.Make.name == make_name).first()
+    if not db_make:
+        raise HTTPException(status_code=404, detail="Make not found")
+
+    for key, value in make.dict().items():
+        if value is not None:
+            setattr(db_make, key, value)
+
+    db.commit()
+    db.refresh(db_make)
+    return db_make
+
+
 @app.get("/makes", response_model=List[MakeRead])
 async def read_makes(db: db_dependency, skip: int = 0, limit: int = 100):
     makes = db.query(models.Make).offset(skip).limit(limit).all()
@@ -226,6 +257,21 @@ async def create_bulk_people(people: List[PersonBase], db: db_dependency):
     for person in db_people:
         db.refresh(person)
     return db_people
+
+
+@app.patch("/people/{person_id}/", response_model=Person)
+async def update_person(person_id: int, person_data: PersonBase, db: db_dependency):
+    db_person = db.query(models.Person).filter(models.Person.id == person_id).first()
+    if not db_person:
+        raise HTTPException(status_code=404, detail="Person not found")
+
+    for key, value in person_data.dict().items():
+        if value is not None:
+            setattr(db_person, key, value)
+
+    db.commit()
+    db.refresh(db_person)
+    return db_person
 
 
 @app.get("/people", response_model=List[PersonRead])
