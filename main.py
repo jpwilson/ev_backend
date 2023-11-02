@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends
 
 from typing import Annotated, List, Optional
-from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.orm import Session, joinedload, subqueryload
 
 from pydantic import BaseModel
 
@@ -92,6 +92,7 @@ class MakeCreate(MakeBase):
 
 class MakeRead(MakeBase):
     id: int
+    car_id_list: List[int] = []
 
 
 class PersonBase(BaseModel):
@@ -233,8 +234,24 @@ async def update_make(make_name: str, make: MakeBase, db: db_dependency):
 
 @app.get("/makes", response_model=List[MakeRead])
 async def read_makes(db: db_dependency, skip: int = 0, limit: int = 100):
-    makes = db.query(models.Make).offset(skip).limit(limit).all()
-    return makes
+    makes = (
+        db.query(models.Make)
+        .options(subqueryload(models.Make.cars))
+        .offset(skip)
+        .limit(limit)
+        .all()
+    )
+    result = []
+
+    for make in makes:
+        make_data = make.__dict__
+        make_data["car_id_list"] = [car.id for car in make.cars]
+        result.append(make_data)
+
+    return result
+
+    # makes = db.query(models.Make).offset(skip).limit(limit).all()
+    # return makes
 
 
 @app.post("/people/", response_model=PersonCreate)
