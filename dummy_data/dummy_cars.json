@@ -1,0 +1,575 @@
+[
+    {
+        "make_id": 2,
+        "model": "R1T",
+        "submodel": "Explore",
+        "generation": "2021",
+        "image_url": "http://example.com/r1t.jpg",
+        "acceleration_0_60": 3.0,
+        "current_price": 67500,
+        "epa_range": 314,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 135,
+        "battery_max_charging_speed": 200,
+        "chargers": [
+            "Type 2",
+            "CCS"
+        ],
+        "carmodel_first_released": "2021-09-01",
+        "color_options": {
+            "2021": [
+                "Forest Green",
+                "Glacier White",
+                "Midnight Black"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Car and Driver": 4.5,
+            "Consumer Reports": 4.0
+        },
+        "drive_assist_features": [
+            "Autopilot",
+            "Lane Assist"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 125,
+        "torque": 830,
+        "reviews": [
+            {
+                "description": "An amazing electric adventure vehicle with off-road capability.",
+                "url": "http://example.com/reviews/r1t"
+            }
+        ],
+        "euroncap_rating": 5,
+        "nhtsa_rating": 5,
+        "sentry_security": true,
+        "vehicle_class": "Pickup"
+    },
+    {
+        "make_id": 2,
+        "model": "R1S",
+        "submodel": "Launch Edition",
+        "generation": "2022",
+        "image_url": "http://example.com/r1s.jpg",
+        "acceleration_0_60": 3.5,
+        "current_price": 70000,
+        "epa_range": 316,
+        "number_of_full_adult_seats": 7,
+        "battery_capacity": 135,
+        "battery_max_charging_speed": 200,
+        "chargers": [
+            "Type 2",
+            "CCS"
+        ],
+        "carmodel_first_released": "2022-01-01",
+        "color_options": {
+            "2022": [
+                "Rivian Blue",
+                "Red Canyon",
+                "Desert Sand"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Top Gear": 4.7,
+            "Edmunds": 4.3
+        },
+        "drive_assist_features": [
+            "Autopilot",
+            "Adaptive Cruise Control"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 120,
+        "torque": 820,
+        "reviews": [
+            {
+                "description": "The R1S sets a new standard for electric SUVs with its impressive range and luxurious interior.",
+                "url": "http://example.com/reviews/r1s"
+            }
+        ],
+        "euroncap_rating": 5,
+        "nhtsa_rating": 5,
+        "sentry_security": true,
+        "vehicle_class": "SUV"
+    },
+    {
+        "make_id": 1,
+        "model": "Model Y",
+        "submodel": "Long Range",
+        "generation": "2021",
+        "image_url": "http://example.com/modely.jpg",
+        "acceleration_0_60": 4.8,
+        "current_price": 58990,
+        "epa_range": 326,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 75,
+        "battery_max_charging_speed": 250,
+        "chargers": [
+            "Type 2",
+            "CCS",
+            "Supercharger"
+        ],
+        "carmodel_first_released": "2020-03-01",
+        "color_options": {
+            "2021": [
+                "Pearl White Multi-Coat",
+                "Solid Black",
+                "Midnight Silver Metallic"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Motor Trend": 4.6,
+            "Consumer Reports": 4.4
+        },
+        "drive_assist_features": [
+            "Autopilot",
+            "Full Self-Driving Capability"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 135,
+        "torque": 510,
+        "reviews": [
+            {
+                "description": "The Model Y offers impressive performance and functionality with its all-electric powertrain and spacious interior.",
+                "url": "http://example.com/reviews/modely"
+            }
+        ],
+        "euroncap_rating": 5,
+        "nhtsa_rating": 5,
+        "sentry_security": true,
+        "vehicle_class": "Crossover"
+    },
+    {
+        "make_id": 1,
+        "model": "Model 3",
+        "submodel": "Performance",
+        "generation": "2021",
+        "image_url": "http://example.com/model3.jpg",
+        "acceleration_0_60": 3.1,
+        "current_price": 55990,
+        "epa_range": 315,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 82,
+        "battery_max_charging_speed": 250,
+        "chargers": [
+            "Type 2",
+            "CCS",
+            "Supercharger"
+        ],
+        "carmodel_first_released": "2017-07-01",
+        "color_options": {
+            "2021": [
+                "Deep Blue Metallic",
+                "Pearl White Multi-Coat",
+                "Red Multi-Coat"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Car and Driver": 4.5,
+            "The Car Connection": 4.3
+        },
+        "drive_assist_features": [
+            "Autopilot",
+            "Full Self-Driving Capability"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 162,
+        "torque": 471,
+        "reviews": [
+            {
+                "description": "Model 3 leads the electric sedan market with its minimalist design, cutting-edge technology, and exhilarating performance.",
+                "url": "http://example.com/reviews/model3"
+            }
+        ],
+        "euroncap_rating": 5,
+        "nhtsa_rating": 5,
+        "sentry_security": true,
+        "vehicle_class": "Sedan"
+    },
+    {
+        "make_id": 1,
+        "model": "Semi",
+        "submodel": "Standard",
+        "generation": "2021",
+        "image_url": "http://example.com/semi.jpg",
+        "acceleration_0_60": 20.0,
+        "current_price": 150000,
+        "epa_range": 300,
+        "number_of_full_adult_seats": 1,
+        "battery_capacity": 600,
+        "battery_max_charging_speed": 1000,
+        "chargers": [
+            "Supercharger",
+            "Megacharger"
+        ],
+        "carmodel_first_released": "2019-11-01",
+        "color_options": {
+            "2021": [
+                "Tesla Red",
+                "Electric Blue",
+                "Midnight Silver Metallic"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Truck Trend": 4.7,
+            "Electrek": 4.5
+        },
+        "drive_assist_features": [
+            "Autopilot",
+            "Lane Keeping Assistance"
+        ],
+        "drive_type": "RWD",
+        "top_speed": 60,
+        "torque": 10000,
+        "reviews": [
+            {
+                "description": "The Tesla Semi is poised to revolutionize the trucking industry with its fully electric powertrain and unprecedented safety features.",
+                "url": "http://example.com/reviews/semi"
+            }
+        ],
+        "euroncap_rating": null,
+        "nhtsa_rating": null,
+        "sentry_security": true,
+        "vehicle_class": "Semi-Truck"
+    },
+    {
+        "make_id": 3,
+        "model": "F150 Lightning",
+        "submodel": "Pro",
+        "generation": "2022",
+        "image_url": "http://example.com/f150lightning.jpg",
+        "acceleration_0_60": 4.5,
+        "current_price": 39974,
+        "epa_range": 230,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 98,
+        "battery_max_charging_speed": 150,
+        "chargers": [
+            "Ford Connected Charge Station",
+            "Ford Mobile Charger"
+        ],
+        "carmodel_first_released": "2022-05-01",
+        "color_options": {
+            "2022": [
+                "Iconic Silver",
+                "Carbonized Gray",
+                "Rapid Red Metallic"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Edmunds": 4.8,
+            "Kelley Blue Book": 4.6
+        },
+        "drive_assist_features": [
+            "Ford Co-Pilot360",
+            "BlueCruise"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 110,
+        "torque": 775,
+        "reviews": [
+            {
+                "description": "The F150 Lightning brings electric power to America's favorite truck, offering impressive performance and utility.",
+                "url": "http://example.com/reviews/f150lightning"
+            }
+        ],
+        "euroncap_rating": null,
+        "nhtsa_rating": 5,
+        "sentry_security": false,
+        "vehicle_class": "Pickup Truck"
+    },
+    {
+        "make_id": 3,
+        "model": "Mustang Mach-E",
+        "submodel": "GT",
+        "generation": "2021",
+        "image_url": "http://example.com/mach-e.jpg",
+        "acceleration_0_60": 3.5,
+        "current_price": 60975,
+        "epa_range": 270,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 88,
+        "battery_max_charging_speed": 150,
+        "chargers": [
+            "Ford Connected Charge Station",
+            "Ford Mobile Charger"
+        ],
+        "carmodel_first_released": "2020-12-01",
+        "color_options": {
+            "2021": [
+                "Cyber Orange",
+                "Infinite Blue Metallic",
+                "Shadow Black"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Car and Driver": 4.0,
+            "AutoWeek": 4.2
+        },
+        "drive_assist_features": [
+            "Ford Co-Pilot360",
+            "BlueCruise"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 130,
+        "torque": 612,
+        "reviews": [
+            {
+                "description": "The Mustang Mach-E GT combines the Mustang's sporting prowess with the efficiency and technology of an electric vehicle.",
+                "url": "http://example.com/reviews/mach-e"
+            }
+        ],
+        "euroncap_rating": null,
+        "nhtsa_rating": 5,
+        "sentry_security": false,
+        "vehicle_class": "Crossover"
+    },
+    {
+        "make_id": 4,
+        "model": "Air",
+        "submodel": "Dream Edition",
+        "generation": "2021",
+        "image_url": "http://example.com/lucidair.jpg",
+        "acceleration_0_60": 2.5,
+        "current_price": 169000,
+        "epa_range": 503,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 113,
+        "battery_max_charging_speed": 300,
+        "chargers": [
+            "CCS",
+            "Lucid Connected Home Charging Station"
+        ],
+        "carmodel_first_released": "2021-09-01",
+        "color_options": {
+            "2021": [
+                "Eureka Gold",
+                "Stellar White",
+                "Infinite Black"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Motor Trend": 4.9,
+            "EV Database": 4.7
+        },
+        "drive_assist_features": [
+            "Lucid DreamDrive",
+            "Highway Assist"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 168,
+        "torque": 1000,
+        "reviews": [
+            {
+                "description": "Lucid Air Dream Edition is setting new standards for luxury electric sedans with its innovative technology and performance.",
+                "url": "http://example.com/reviews/lucidair"
+            }
+        ],
+        "euroncap_rating": null,
+        "nhtsa_rating": null,
+        "sentry_security": false,
+        "vehicle_class": "Sedan"
+    },
+    {
+        "make_id": 9,
+        "model": "iX",
+        "submodel": "xDrive50",
+        "generation": "2022",
+        "image_url": "http://example.com/bmwix.jpg",
+        "acceleration_0_60": 4.6,
+        "current_price": 83000,
+        "epa_range": 300,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 105.2,
+        "battery_max_charging_speed": 200,
+        "chargers": [
+            "BMW Wallbox",
+            "Flexible Fast Charger"
+        ],
+        "carmodel_first_released": "2021-06-01",
+        "color_options": {
+            "2022": [
+                "Sophisto Grey",
+                "Mineral White",
+                "Phytonic Blue"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Car and Driver": 4.3,
+            "Top Gear": 4.0
+        },
+        "drive_assist_features": [
+            "BMW Personal CoPilot",
+            "Parking Assistant Plus"
+        ],
+        "drive_type": "AWD",
+        "top_speed": 124,
+        "torque": 765,
+        "reviews": [
+            {
+                "description": "The BMW iX xDrive50 is a testament to BMW's commitment to sustainability without compromising on luxury and driving dynamics.",
+                "url": "http://example.com/reviews/bmwix"
+            }
+        ],
+        "euroncap_rating": null,
+        "nhtsa_rating": null,
+        "sentry_security": false,
+        "vehicle_class": "SUV"
+    },
+    {
+        "make_id": 12,
+        "model": "ID.4",
+        "submodel": "1st Edition",
+        "generation": "2021",
+        "image_url": "http://example.com/vwid4.jpg",
+        "acceleration_0_60": 7.5,
+        "current_price": 45000,
+        "epa_range": 250,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 77,
+        "battery_max_charging_speed": 125,
+        "chargers": [
+            "CCS Combo 1",
+            "Level 2"
+        ],
+        "carmodel_first_released": "2021-03-01",
+        "color_options": {
+            "2021": [
+                "Glacier White Metallic",
+                "Mythos Black Metallic",
+                "Blue Dusk Metallic"
+            ]
+        },
+        "customer_and_critic_rating": {
+            "Motor Trend": 4.2,
+            "Green Car Reports": 4.0
+        },
+        "drive_assist_features": [
+            "Travel Assist",
+            "Lane Assist",
+            "Adaptive Cruise Control"
+        ],
+        "drive_type": "RWD",
+        "top_speed": 99,
+        "torque": 229,
+        "reviews": [
+            {
+                "description": "The ID.4 marks Volkswagen's push into the electric SUV market, offering a comfortable ride with a spacious interior.",
+                "url": "http://example.com/reviews/vwid4"
+            }
+        ],
+        "euroncap_rating": 5,
+        "nhtsa_rating": null,
+        "sentry_security": false,
+        "vehicle_class": "SUV"
+    },
+    {
+        "make_id": 5,
+        "model": "Geometry A",
+        "submodel": "Standard",
+        "generation": "2019",
+        "image_url": "http://example.com/geelygeometrya.jpg",
+        "acceleration_0_60": null,
+        "current_price": null,
+        "epa_range": 255,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": 51.9,
+        "battery_max_charging_speed": null,
+        "chargers": [
+            "Type 2"
+        ],
+        "carmodel_first_released": "2019-04-23",
+        "color_options": {},
+        "customer_and_critic_rating": {},
+        "drive_assist_features": [],
+        "drive_type": "FWD",
+        "top_speed": null,
+        "torque": null,
+        "reviews": [],
+        "euroncap_rating": null,
+        "nhtsa_rating": null,
+        "sentry_security": false,
+        "vehicle_class": "Sedan"
+    },
+    {
+        "make_id": 6,
+        "model": "P7",
+        "submodel": "Smart Sedan",
+        "generation": "2023",
+        "image_url": "http://example.com/xpengp7.jpg",
+        "acceleration_0_60": null,
+        "current_price": null,
+        "epa_range": null,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": null,
+        "battery_max_charging_speed": null,
+        "chargers": [],
+        "carmodel_first_released": "2023-04-18",
+        "color_options": {},
+        "customer_and_critic_rating": {},
+        "drive_assist_features": [
+            "Lidar-supported autonomous drive system"
+        ],
+        "drive_type": "RWD/AWD",
+        "top_speed": null,
+        "torque": null,
+        "reviews": [],
+        "euroncap_rating": null,
+        "nhtsa_rating": null,
+        "sentry_security": false,
+        "vehicle_class": "Sedan"
+    },
+    {
+        "make_id": 7,
+        "model": "ET7",
+        "submodel": "Electric Sedan",
+        "generation": "2023",
+        "image_url": "http://example.com/nioet7.jpg",
+        "acceleration_0_60": null,
+        "current_price": null,
+        "epa_range": 621,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": null,
+        "battery_max_charging_speed": null,
+        "chargers": [],
+        "carmodel_first_released": "2023",
+        "color_options": {},
+        "customer_and_critic_rating": {},
+        "drive_assist_features": [
+            "Smart Lighting Interaction"
+        ],
+        "drive_type": "AWD",
+        "top_speed": null,
+        "torque": null,
+        "reviews": [],
+        "euroncap_rating": null,
+        "nhtsa_rating": null,
+        "sentry_security": false,
+        "vehicle_class": "Sedan"
+    },
+    {
+        "make_id": 8,
+        "model": "Han EV",
+        "submodel": "Luxury Sedan",
+        "generation": "2023",
+        "image_url": "http://example.com/bydhan.jpg",
+        "acceleration_0_60": null,
+        "current_price": null,
+        "epa_range": null,
+        "number_of_full_adult_seats": 5,
+        "battery_capacity": null,
+        "battery_max_charging_speed": null,
+        "chargers": [],
+        "carmodel_first_released": "2023-09-11",
+        "color_options": {},
+        "customer_and_critic_rating": {},
+        "drive_assist_features": [],
+        "drive_type": "RWD/AWD",
+        "top_speed": null,
+        "torque": null,
+        "reviews": [],
+        "euroncap_rating": null,
+        "nhtsa_rating": null,
+        "sentry_security": false,
+        "vehicle_class": "Sedan"
+    }
+]

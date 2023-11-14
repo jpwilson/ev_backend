@@ -1,0 +1,806 @@
+[
+    {
+        "name": "Elon Musk",
+        "age": 50,
+        "location": "Austin, Texas, USA",
+        "university_degree": "BS in Economics & Physics",
+        "current_company": "Tesla",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Leadership": {
+                "score": 4.5,
+                "description": "Able to motivate a team and lead projects to successful completion."
+            },
+            "Communication": {
+                "score": 4.7,
+                "description": "Expresses ideas clearly and effectively in both written and oral forms."
+            }
+        },
+        "weaknesses": {
+            "Time Management": {
+                "score": 3.0,
+                "description": "Struggles to keep to a schedule when managing multiple projects."
+            },
+            "Delegation": {
+                "score": 2.5,
+                "description": "Often takes on too much work instead of distributing tasks."
+            }
+        }
+    },
+    {
+        "name": "Peter Rawlinson",
+        "age": 60,
+        "location": "Newark, California, USA",
+        "university_degree": "Degree in Engineering",
+        "current_company": "Lucid Motors",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Leadership": {
+                "score": 4.5,
+                "description": "Able to motivate a team and lead projects to successful completion."
+            },
+            "Communication": {
+                "score": 4.7,
+                "description": "Expresses ideas clearly and effectively in both written and oral forms."
+            }
+        },
+        "weaknesses": {
+            "Time Management": {
+                "score": 3.0,
+                "description": "Struggles to keep to a schedule when managing multiple projects."
+            },
+            "Delegation": {
+                "score": 2.5,
+                "description": "Often takes on too much work instead of distributing tasks."
+            }
+        }
+    },
+    {
+        "name": "Jim Farley",
+        "age": 58,
+        "location": "Dearborn, Michigan, USA",
+        "university_degree": "MBA",
+        "current_company": "Ford",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Leadership": {
+                "score": 4.5,
+                "description": "Able to motivate a team and lead projects to successful completion."
+            },
+            "Communication": {
+                "score": 4.7,
+                "description": "Expresses ideas clearly and effectively in both written and oral forms."
+            }
+        },
+        "weaknesses": {
+            "Time Management": {
+                "score": 3.0,
+                "description": "Struggles to keep to a schedule when managing multiple projects."
+            },
+            "Delegation": {
+                "score": 2.5,
+                "description": "Often takes on too much work instead of distributing tasks."
+            }
+        }
+    },
+    {
+        "name": "Li Shufu",
+        "age": 58,
+        "location": "Hangzhou, Zhejiang, China",
+        "university_degree": "Degree in Engineering",
+        "current_company": "Geely",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Leadership": {
+                "score": 4.5,
+                "description": "Able to motivate a team and lead projects to successful completion."
+            },
+            "Communication": {
+                "score": 4.7,
+                "description": "Expresses ideas clearly and effectively in both written and oral forms."
+            }
+        },
+        "weaknesses": {
+            "Time Management": {
+                "score": 3.0,
+                "description": "Struggles to keep to a schedule when managing multiple projects."
+            },
+            "Delegation": {
+                "score": 2.5,
+                "description": "Often takes on too much work instead of distributing tasks."
+            }
+        }
+    },
+    {
+        "name": "JB Straubel",
+        "age": 45,
+        "location": "Redwood City, California, USA",
+        "university_degree": "BS in Energy Systems Engineering",
+        "current_company": "Redwood Materials",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Leadership": {
+                "score": 4.5,
+                "description": "Able to motivate a team and lead projects to successful completion."
+            },
+            "Communication": {
+                "score": 4.7,
+                "description": "Expresses ideas clearly and effectively in both written and oral forms."
+            }
+        },
+        "weaknesses": {
+            "Time Management": {
+                "score": 3.0,
+                "description": "Struggles to keep to a schedule when managing multiple projects."
+            },
+            "Delegation": {
+                "score": 2.5,
+                "description": "Often takes on too much work instead of distributing tasks."
+            }
+        }
+    },
+    {
+        "name": "Franz von Holzhausen",
+        "age": 53,
+        "location": "Los Angeles, California, USA",
+        "university_degree": "Bachelor of Fine Arts in Industrial Design",
+        "current_company": "Tesla",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Mary Barra",
+        "age": 59,
+        "location": "Detroit, Michigan, USA",
+        "university_degree": "MBA",
+        "current_company": "General Motors",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Wang Chuanfu",
+        "age": 55,
+        "location": "Shenzhen, Guangdong, China",
+        "university_degree": "Bachelor of Chemistry, Master of Engineering",
+        "current_company": "BYD Company Ltd.",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "William Li",
+        "age": 46,
+        "location": "Shanghai, China",
+        "university_degree": "Bachelor's in Sociology",
+        "current_company": "NIO",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "He Xiaopeng",
+        "age": 43,
+        "location": "Guangzhou, Guangdong, China",
+        "university_degree": "Bachelor’s in Computer Science",
+        "current_company": "XPeng Motors",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Ola Källenius",
+        "age": 51,
+        "location": "Stuttgart, Germany",
+        "university_degree": "Finance and Accounting",
+        "current_company": "Mercedes-Benz Group",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Oliver Zipse",
+        "age": 57,
+        "location": "Munich, Bavaria, Germany",
+        "university_degree": "MBA",
+        "current_company": "BMW AG",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Li Shufu",
+        "age": 58,
+        "location": "Hangzhou, Zhejiang, China",
+        "university_degree": "Degree in Engineering",
+        "current_company": "Geely",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "William Li",
+        "age": 46,
+        "location": "Shanghai, China",
+        "university_degree": "Bachelor's in Sociology",
+        "current_company": "NIO",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Vincent Cobée",
+        "age": 53,
+        "location": "Paris, France",
+        "university_degree": "MBA",
+        "current_company": "Citroën",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Luca de Meo",
+        "age": 53,
+        "location": "Boulogne-Billancourt, France",
+        "university_degree": "Business Studies",
+        "current_company": "Renault",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Håkan Samuelsson",
+        "age": 70,
+        "location": "Gothenburg, Sweden",
+        "university_degree": "MSc in Mechanical Engineering",
+        "current_company": "Volvo Cars",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Mate Rimac",
+        "age": 33,
+        "location": "Sveta Nedelja, Croatia",
+        "university_degree": "None",
+        "current_company": "Rimac Automobili",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Herbert Diess",
+        "age": 62,
+        "location": "Wolfsburg, Germany",
+        "university_degree": "MSc in Mechanical Engineering",
+        "current_company": "Volkswagen AG",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Euisun Chung",
+        "age": 50,
+        "location": "Seoul, South Korea",
+        "university_degree": "MBA",
+        "current_company": "Hyundai Motor Group",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Ho Sung Song",
+        "age": 58,
+        "location": "Seoul, South Korea",
+        "university_degree": "Bachelor's in Business Administration",
+        "current_company": "Kia Corporation",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Makoto Uchida",
+        "age": 55,
+        "location": "Yokohama, Japan",
+        "university_degree": "MBA",
+        "current_company": "Nissan Motor Corporation",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Linda Jackson",
+        "age": 61,
+        "location": "Paris, France",
+        "university_degree": "MBA",
+        "current_company": "Peugeot",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Wang Xiaoqiu",
+        "age": 56,
+        "location": "Shanghai, China",
+        "university_degree": "MSc in Engineering",
+        "current_company": "SAIC Motor (MG)",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Henrik Fisker",
+        "age": 57,
+        "location": "Los Angeles, California, USA",
+        "university_degree": "Bachelor's in Transportation Design",
+        "current_company": "Fisker Inc.",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Oliver Blume",
+        "age": 53,
+        "location": "Stuttgart, Germany",
+        "university_degree": "Diplom-Wirtschaftsingenieur",
+        "current_company": "Porsche AG",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Christian Meunier",
+        "age": 51,
+        "location": "Toledo, Ohio, USA",
+        "university_degree": "MBA",
+        "current_company": "Jeep",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    },
+    {
+        "name": "Akio Toyoda",
+        "age": 65,
+        "location": "Toyota City, Japan",
+        "university_degree": "MBA",
+        "current_company": "Toyota Motor Corporation",
+        "skills": [
+            "Corporate Management",
+            "Product Development",
+            "Strategic Vision"
+        ],
+        "strengths": {
+            "Design": {
+                "score": 4.9,
+                "description": "Exceptional ability to create cutting-edge vehicle designs."
+            },
+            "Aesthetics": {
+                "score": 4.8,
+                "description": "Has a keen eye for design beauty and aesthetic detail."
+            }
+        },
+        "weaknesses": {
+            "Conservatism": {
+                "score": 2.5,
+                "description": "May be resistant to radical changes in design philosophy."
+            }
+        }
+    }
+]

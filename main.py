@@ -1,9 +1,9 @@
 from fastapi import FastAPI, HTTPException, Depends
 
-from typing import Annotated, List, Optional
+from typing import Annotated, List, Optional, Dict
 from sqlalchemy.orm import Session, joinedload, subqueryload
 
-from pydantic import BaseModel
+from pydantic import BaseModel, HttpUrl, Field
 
 from database import SessionLocal, engine
 import models
@@ -12,48 +12,104 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "http://localhost:5173"]
+origins = ["http://localhost:3000", "http://localhost:5173", "http://localhost:5174"]
 
 app.add_middleware(CORSMiddleware, allow_origins=origins)
 
 from datetime import date
 
+# TODO - move helper methods to a new folder/ file... (Tues 14Nov 2023)
+# helper models:
+
+
+def calculate_average_rating(ratings: Optional[Dict[str, float]]) -> float:
+    # note Im making this mult by 2 as I set ratings between 0 and 10 in react!!!
+    if ratings:
+        total = sum(ratings.values())
+        count = len(ratings)
+        return round((total / count), 2) * 2 if count else 0
+    return 0
+
+
+class Review(BaseModel):
+    description: str
+    url: str  # HttpUrl
+
+
+class StrengthWeaknessItem(BaseModel):
+    score: float
+    description: str
+
 
 class CarBase(BaseModel):
     make_id: int
     model: str
-    submodel: Optional[str]
-    generation: Optional[str]
-    image_url: Optional[str]
-    trim_first_released: Optional[str]
-    carmodel_first_released: Optional[str]
-    current_price: Optional[float]
-    customer_and_critic_rating: Optional[float]
-    price_history: Optional[dict]  # Since we're using JSON columns
-    vehicle_class: Optional[str]
-    color_options: Optional[dict]
-    performance_0_60: Optional[float]
-    top_speed: Optional[float]
-    power: Optional[float]
-    torque: Optional[float]
-    drive_type: Optional[str]
-    battery_capacity: Optional[float]
-    range_city_cold: Optional[float]
-    range_highway_cold: Optional[float]
-    range_combined_cold: Optional[float]
-    range_highway_mid: Optional[float]
-    range_city_mid: Optional[float]
-    range_combined_mid: Optional[float]
-    battery_max_charging_speed: Optional[float]
-    yt_review_link: Optional[str]
-    available_countries: Optional[dict]
-    number_of_seats: Optional[int]
-    has_frunk: Optional[bool]
-    frunk_capacity: Optional[float]
-    has_spare_tire: Optional[bool]
-    autopilot_features: Optional[dict]
-    euroncap_rating: Optional[str]
-    nhtsa_rating: Optional[str]
+    submodel: Optional[str] = None
+    generation: Optional[str] = None
+    image_url: Optional[str] = None
+    acceleration_0_60: Optional[float] = None
+    current_price: Optional[float] = None
+    epa_range: Optional[float] = None
+    number_of_full_adult_seats: Optional[int] = None
+
+    available_countries: Optional[Dict[str, List[str]]] = {}
+
+    # charging
+    battery_capacity: Optional[float] = None
+    battery_max_charging_speed: Optional[float] = None
+    bidirectional_details: Optional[Dict[str, str]] = {}
+    chargers: Optional[List[str]] = []
+
+    # dates
+    carmodel_first_released: Optional[str] = None
+    carmodel_ended: Optional[str] = None
+    trim_first_released: Optional[str] = None
+    trim_ended: Optional[str] = None
+
+    color_options: Optional[
+        Dict[str, List[str]]
+    ] = {}  # the year is the key + list of colors as val
+
+    customer_and_critic_rating: Optional[
+        Dict[str, float]
+    ] = {}  # dict of publication: rating
+
+    drive_assist_features: Optional[List[str]] = None
+    drive_type: Optional[str] = None
+    frunk_capacity: Optional[float] = None
+
+    has_spare_tire: Optional[bool] = None
+
+    # performance
+    power: Optional[float] = None
+    top_speed: Optional[float] = None
+    torque: Optional[float] = None
+    speed_acc: Optional[Dict[str, float]] = {}
+
+    # price
+    price_history: Optional[Dict[str, float]] = {}  # Corrected type annotation
+
+    range_details: Optional[Dict[str, float]] = {}  # Dict of  condition:range
+    reviews: List[Review] = []
+
+    # safety
+    euroncap_rating: Optional[float] = None
+    nhtsa_rating: Optional[float] = None
+    sentry_security: Optional[bool] = None
+    sentry_details: Optional[Dict[str, str]] = {}  # name, desc eg sentry, videos lose
+
+    camping_features: Optional[Dict[str, str]] = {}
+    dog_mode: Optional[Dict[str, str]] = {}  # has_dog_mode:y/n, dog_mode_desc, alter
+    infotainment_details: Optional[Dict[str, str]] = {}
+    interior_ambient_lighting_details: Optional[Dict[str, str]] = {}
+    keyless: Optional[bool] = None
+    number_of_passenger_doors: Optional[int] = None
+    remote_heating_cooling: Optional[Dict[str, str]] = {}
+    seating_details: Optional[Dict[str, str]] = {}
+    towing_details: Optional[Dict[str, str]] = {}
+    regen_details: Optional[Dict[str, str]] = {}
+    vehicle_class: Optional[str] = None
+    vehicle_sound_details: Optional[Dict[str, str]] = {}
 
 
 class CarCreate(CarBase):
@@ -62,6 +118,7 @@ class CarCreate(CarBase):
 
 class CarRead(CarBase):
     id: int
+    average_rating: float
     make_id: int
     make_name: str
 
@@ -101,9 +158,11 @@ class PersonBase(BaseModel):
     location: Optional[str] = None
     university_degree: Optional[str] = None
     current_company: Optional[str] = None
-    skills: Optional[str] = None
-    strengths: Optional[dict] = {}
-    weaknesses: Optional[dict] = {}
+    skills: Optional[List[str]] = None
+    # strengths: Optional[Dict[str, Union[str, int]]] = {}
+    # weaknesses: Optional[Dict[str, Union[str, int]]] = {}
+    strengths: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
+    weaknesses: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
 
 
 class PersonCreate(PersonBase):
@@ -188,6 +247,9 @@ async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
         car_data[
             "make_name"
         ] = car.make.name  # Assuming you have a relationship set up named "make"
+        car_data["average_rating"] = calculate_average_rating(
+            car.customer_and_critic_rating
+        )
         result.append(car_data)
     return result
 
