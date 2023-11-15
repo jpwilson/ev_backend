@@ -9,7 +9,7 @@
         "num_ev_models": 4,
         "first_ev_model_date": "2008-07-01",
         "unionized": false,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=Tesla"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2021/04/Tesla-logo.png"
     },
     {
         "name": "Rivian",
@@ -21,7 +21,7 @@
         "num_ev_models": 2,
         "first_ev_model_date": "2021-09-01",
         "unionized": false,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=Rivian"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2022/08/Rivian-Logo.jpg"
     },
     {
         "name": "Ford",
@@ -33,7 +33,7 @@
         "num_ev_models": 1,
         "first_ev_model_date": "2020-11-17",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=Ford"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo.png"
     },
     {
         "name": "Lucid",
@@ -45,7 +45,7 @@
         "num_ev_models": 1,
         "first_ev_model_date": "2021-10-30",
         "unionized": false,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=Lucid"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2021/11/Lucid-Motors-Logo.png"
     },
     {
         "name": "Geely",
@@ -57,7 +57,7 @@
         "num_ev_models": 3,
         "first_ev_model_date": "2015-01-01",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=Geely"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2020/04/Geely-Logo.png"
     },
     {
         "name": "XPeng",
@@ -69,7 +69,7 @@
         "num_ev_models": 2,
         "first_ev_model_date": "2018-12-12",
         "unionized": false,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=XPeng"
+        "lrg_logo_img_url": "https://s2-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/948/400/original/XPENG.png?1645141546"
     },
     {
         "name": "NIO",
@@ -81,7 +81,7 @@
         "num_ev_models": 5,
         "first_ev_model_date": "2018-06-28",
         "unionized": false,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=NIO"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2023/09/Nio-Logo.png"
     },
     {
         "name": "BYD",
@@ -93,7 +93,7 @@
         "num_ev_models": 10,
         "first_ev_model_date": "2008-01-01",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=BYD"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2020/07/BYD-Logo.png"
     },
     {
         "name": "BMW",
@@ -105,7 +105,7 @@
         "num_ev_models": 5,
         "first_ev_model_date": "2013-11-16",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=BMW"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2018/02/BMW-Logo.png"
     },
     {
         "name": "KIA",
@@ -117,7 +117,7 @@
         "num_ev_models": 3,
         "first_ev_model_date": "2011-02-14",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=KIA"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2020/02/kia-logo.jpeg"
     },
     {
         "name": "Hyundai",
@@ -129,7 +129,7 @@
         "num_ev_models": 4,
         "first_ev_model_date": "2016-04-29",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=Hyundai"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2018/04/Hyundai-Logo.png"
     },
     {
         "name": "VW",
@@ -141,7 +141,7 @@
         "num_ev_models": 8,
         "first_ev_model_date": "2013-02-21",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=VW"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2021/04/Volkswagen-logo.png"
     },
     {
         "name": "Mercedes-Benz",
@@ -153,6 +153,6 @@
         "num_ev_models": 6,
         "first_ev_model_date": "2014-10-27",
         "unionized": true,
-        "lrg_logo_img_url": "https://dummyimage.com/600x400/000/fff&text=Mercedes-Benz"
+        "lrg_logo_img_url": "https://1000logos.net/wp-content/uploads/2018/04/Mercedes-Benz-Logo.png"
     }
 ]
