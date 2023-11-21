@@ -60,6 +60,29 @@ db_dependency = Annotated[Session, Depends(get_db)]
 models.Base.metadata.create_all(bind=engine)
 
 
+@app.get("/cars/{car_id}", response_model=CarRead)
+async def read_car_by_id(car_id: int, db: db_dependency):
+    try:
+        car = db.query(models.Car).filter(models.Car.id == car_id).first()
+        if car:
+            car_data = car.__dict__
+            car_data["average_rating"] = calculate_average_rating(
+                car.customer_and_critic_rating
+            )
+            car_data["make_name"] = (
+                car.make.name if car.make else None
+            )  # Make sure 'make' relationship is correctly set up
+            return car_data
+        else:
+            return JSONResponse(status_code=404, content={"message": "Car not found"})
+    except Exception as e:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Car not found, are you sure {car_id} the correct car id?",
+        )
+        # return JSONResponse(status_code=500, content={"message": str(e)})
+
+
 @app.post("/cars/", response_model=CarCreate)
 async def create_car(car: CarBase, db: db_dependency):
     db_car = models.Car(**car.model_dump())
