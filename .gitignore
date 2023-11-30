@@ -2,6 +2,15 @@
 
 # Python cache files
 __pycache__/
+*.pyc
+*.pyo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
 
 # VSCode settings
 .vscode/
@@ -12,8 +21,12 @@ eevee.db
 
 # Python environment files
 env/
-*.pyc
-*.pyo
-*.egg-info/
-dist/
-build/
+venv/
+ENV/
+
+# macOS system files
+.DS_Store
+
+# .env files containing environment variables
+.env
+.env.*

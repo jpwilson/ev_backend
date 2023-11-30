@@ -26,6 +26,10 @@ from models.pydantic_models import (
     PersonRead,
 )
 
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env
+
 app = FastAPI()
 
 origins = ["http://localhost:3000", "http://localhost:5173", "http://localhost:5174"]

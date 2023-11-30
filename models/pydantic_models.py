@@ -99,7 +99,7 @@ class Car(CarBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class MakeBase(BaseModel):
@@ -149,4 +149,4 @@ class Person(PersonBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
