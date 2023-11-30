@@ -1,4 +1,5 @@
 import sys
+import os
 
 sys.path.append("..")
 from database import metadata
@@ -62,6 +63,9 @@ def run_migrations_online() -> None:
     and associate a connection with the context.
 
     """
+    url = os.getenv("URL_DATABASE")
+    if url:
+        config.set_main_option("sqlalchemy.url", url)
     connectable = engine_from_config(
         config.get_section(config.config_ini_section, {}),
         prefix="sqlalchemy.",
