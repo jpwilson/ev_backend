@@ -33,7 +33,12 @@ load_dotenv()  # take environment variables from .env
 
 app = FastAPI()
 
-origins = ["http://localhost:3000", "http://localhost:5173", "http://localhost:5174"]
+origins = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:4173",
+]
 
 app.add_middleware(CORSMiddleware, allow_origins=origins)
 
