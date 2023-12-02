@@ -38,6 +38,7 @@ origins = [
     "http://localhost:5173",
     "http://localhost:5174",
     "http://localhost:4173",
+    "https://eeveecars-c00olhdyj-jpwilsons-projects.vercel.app",
 ]
 
 app.add_middleware(CORSMiddleware, allow_origins=origins)
