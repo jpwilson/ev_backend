@@ -67,7 +67,7 @@ models.Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 async def wel():
-    return "Yo man, it should work"
+    return "Yo man, it should work now"
 
 
 @app.get("/cars/{car_id}", response_model=CarRead)
