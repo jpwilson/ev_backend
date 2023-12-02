@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends
 
 from typing import Annotated, List, Optional, Dict
+from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session, joinedload, subqueryload
 
 from pydantic import BaseModel, HttpUrl, Field
@@ -62,6 +63,12 @@ def get_db():
 db_dependency = Annotated[Session, Depends(get_db)]
 
 models.Base.metadata.create_all(bind=engine)
+
+
+@app.get("/")
+async def wel():
+    # return JSONResponse(content={"msg": "YOYOYOY"})
+    return "Yo man"
 
 
 @app.get("/cars/{car_id}", response_model=CarRead)
