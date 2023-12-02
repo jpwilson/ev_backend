@@ -10,3 +10,8 @@ name = os.getenv("JP_VAR", "Default Name")
 
 # Print out the variable
 print(f"Hi, my name is {name}")
+
+import sys
+
+# Print the Python version
+print("Python Version:", sys.version)
