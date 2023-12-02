@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# URL_DATABASE = "sqlite:///./eevee.db" - old sqlite db
-URL_DATABASE = os.getenv("URL_DATABASE", "postgresql://user:password@localhost/dbname")
+# DATABASE_URL = "sqlite:///./eevee.db" - old sqlite db
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/dbname")
 
 
-engine = create_engine(URL_DATABASE)  # , connect_args={"check_same_thread": False})
+engine = create_engine(DATABASE_URL)  # , connect_args={"check_same_thread": False})
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
