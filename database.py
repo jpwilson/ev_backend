@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # DATABASE_URL = "sqlite:///./eevee.db" - old sqlite db
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/dbname")
+DATABASE_URL = os.getenv("DATABASE_URL").replace("postgres://", "postgresql://", 1)
 
 
 engine = create_engine(DATABASE_URL)  # , connect_args={"check_same_thread": False})
