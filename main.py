@@ -43,7 +43,9 @@ origins = [
     "https://evlineup.org",
 ]
 
-app.add_middleware(CORSMiddleware, allow_origins=origins)
+app.add_middleware(
+    CORSMiddleware, allow_origins=origins, allow_methods=["GET"]
+)  # Only allow GET requests
 
 from datetime import date
 
