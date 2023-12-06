@@ -33,7 +33,7 @@ from fastapi import Security, HTTPException, status
 from fastapi.security.api_key import APIKeyHeader
 
 
-load_dotenv()  # take environment variables from .env
+load_dotenv()  # take environment variables from .env here
 
 API_KEY = os.getenv("API_SECRET_KEY", "no_key")
 API_KEY_NAME = os.getenv("API_SECRET_KEY_NAME", "no_key_name")
