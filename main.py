@@ -1,4 +1,5 @@
-from fastapi import FastAPI, HTTPException, Depends
+import os
+from fastapi import FastAPI, HTTPException, Depends, Header, Request
 
 from typing import Annotated, List, Optional, Dict
 from fastapi.responses import JSONResponse
@@ -28,8 +29,26 @@ from models.pydantic_models import (
 )
 
 from dotenv import load_dotenv
+from fastapi import Security, HTTPException, status
+from fastapi.security.api_key import APIKeyHeader
+
 
 load_dotenv()  # take environment variables from .env
+
+API_KEY = os.getenv("API_SECRET_KEY", "no_key")
+API_KEY_NAME = os.getenv("API_SECRET_KEY_NAME", "no_key_name")
+api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
+
+
+async def get_api_key(api_key_header: str = Security(api_key_header)):
+    if api_key_header == API_KEY:
+        return api_key_header
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Could not validate credentials here",
+        )
+
 
 app = FastAPI()
 
@@ -44,7 +63,11 @@ origins = [
 ]
 
 app.add_middleware(
-    CORSMiddleware, allow_origins=origins, allow_methods=["GET"]
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_methods=["GET"],
+    allow_credentials=True,
+    allow_headers=["*"],
 )  # Only allow GET requests
 
 from datetime import date
@@ -77,11 +100,13 @@ models.Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 async def wel():
-    return "Yo man, it should work now"
+    return "Yo man, it should work now - but others won't w/o access"
 
 
 @app.get("/cars/{car_id}", response_model=CarRead)
-async def read_car_by_id(car_id: int, db: db_dependency):
+async def read_car_by_id(
+    car_id: int, db: db_dependency, api_key: str = Depends(get_api_key)
+):
     try:
         car = db.query(models.Car).filter(models.Car.id == car_id).first()
         if car:
@@ -103,8 +128,10 @@ async def read_car_by_id(car_id: int, db: db_dependency):
         # return JSONResponse(status_code=500, content={"message": str(e)})
 
 
-@app.post("/cars/", response_model=CarCreate)
-async def create_car(car: CarBase, db: db_dependency):
+@app.post("/cars", response_model=CarCreate)
+async def create_car(
+    car: CarBase, db: db_dependency, api_key: str = Depends(get_api_key)
+):
     db_car = models.Car(**car.model_dump())
     db.add(db_car)
     db.commit()
@@ -112,8 +139,10 @@ async def create_car(car: CarBase, db: db_dependency):
     return db_car
 
 
-@app.post("/cars/bulk/", response_model=List[CarCreate])
-async def create_bulk_cars(cars: List[CarBase], db: db_dependency):
+@app.post("/cars/bulk", response_model=List[CarCreate])
+async def create_bulk_cars(
+    cars: List[CarBase], db: db_dependency, api_key: str = Depends(get_api_key)
+):
     db_cars = []
     for car in cars:
         db_car = models.Car(**car.model_dump())
@@ -125,8 +154,13 @@ async def create_bulk_cars(cars: List[CarBase], db: db_dependency):
     return db_cars
 
 
-@app.patch("/cars/{car_id}/", response_model=CarRead)
-async def update_car(car_id: int, car_data: CarBase, db: db_dependency):
+@app.patch("/cars/{car_id}", response_model=CarRead)
+async def update_car(
+    car_id: int,
+    car_data: CarBase,
+    db: db_dependency,
+    api_key: str = Depends(get_api_key),
+):
     db_car = db.query(models.Car).filter(models.Car.id == car_id).first()
     if not db_car:
         raise HTTPException(status_code=404, detail="Car not found")
@@ -141,7 +175,12 @@ async def update_car(car_id: int, car_data: CarBase, db: db_dependency):
 
 
 @app.get("/cars", response_model=List[CarRead])
-async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
+async def read_cars(
+    db: db_dependency,
+    skip: int = 0,
+    limit: int = 100,
+    api_key: str = Depends(get_api_key),
+):
     cars = (
         db.query(models.Car)
         .options(joinedload(models.Car.make))
@@ -168,14 +207,16 @@ async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
 
 
 @app.get("/car_features")
-async def read_car_features(db: db_dependency):
+async def read_car_features(db: db_dependency, api_key: str = Depends(get_api_key)):
     cars = db.query(models.Car).all()
     car_features = bucket_cars_by_attributes(cars)
     return car_features
 
 
-@app.post("/makes/", response_model=MakeCreate)
-async def create_make(make: MakeBase, db: db_dependency):
+@app.post("/makes", response_model=MakeCreate)
+async def create_make(
+    make: MakeBase, db: db_dependency, api_key: str = Depends(get_api_key)
+):
     db_make = models.Make(**make.model_dump())
     db.add(db_make)
     db.commit()
@@ -183,8 +224,10 @@ async def create_make(make: MakeBase, db: db_dependency):
     return db_make
 
 
-@app.post("/makes/bulk/", response_model=List[MakeCreate])
-async def create_bulk_makes(makes: List[MakeBase], db: db_dependency):
+@app.post("/makes/bulk", response_model=List[MakeCreate])
+async def create_bulk_makes(
+    makes: List[MakeBase], db: db_dependency, api_key: str = Depends(get_api_key)
+):
     db_makes = []
     for make in makes:
         db_make = models.Make(**make.model_dump())
@@ -196,8 +239,13 @@ async def create_bulk_makes(makes: List[MakeBase], db: db_dependency):
     return db_makes
 
 
-@app.patch("/makes/{make_name}/", response_model=MakeRead)
-async def update_make(make_name: str, make: MakeBase, db: db_dependency):
+@app.patch("/makes/{make_name}", response_model=MakeRead)
+async def update_make(
+    make_name: str,
+    make: MakeBase,
+    db: db_dependency,
+    api_key: str = Depends(get_api_key),
+):
     db_make = db.query(models.Make).filter(models.Make.name == make_name).first()
     if not db_make:
         raise HTTPException(status_code=404, detail="Make not found")
@@ -212,7 +260,12 @@ async def update_make(make_name: str, make: MakeBase, db: db_dependency):
 
 
 @app.get("/makes", response_model=List[MakeRead])
-async def read_makes(db: db_dependency, skip: int = 0, limit: int = 100):
+async def read_makes(
+    db: db_dependency,
+    skip: int = 0,
+    limit: int = 100,
+    api_key: str = Depends(get_api_key),
+):
     makes = (
         db.query(models.Make)
         .options(subqueryload(models.Make.cars))
@@ -233,8 +286,10 @@ async def read_makes(db: db_dependency, skip: int = 0, limit: int = 100):
     # return makes
 
 
-@app.post("/people/", response_model=PersonCreate)
-async def create_person(person: PersonBase, db: db_dependency):
+@app.post("/people", response_model=PersonCreate)
+async def create_person(
+    person: PersonBase, db: db_dependency, api_key: str = Depends(get_api_key)
+):
     db_person = models.Person(**person.model_dump())
     db.add(db_person)
     db.commit()
@@ -242,8 +297,10 @@ async def create_person(person: PersonBase, db: db_dependency):
     return db_person
 
 
-@app.post("/people/bulk/", response_model=List[PersonCreate])
-async def create_bulk_people(people: List[PersonBase], db: db_dependency):
+@app.post("/people/bulk", response_model=List[PersonCreate])
+async def create_bulk_people(
+    people: List[PersonBase], db: db_dependency, api_key: str = Depends(get_api_key)
+):
     db_people = []
     for person in people:
         db_person = models.Person(**person.model_dump())
@@ -255,8 +312,13 @@ async def create_bulk_people(people: List[PersonBase], db: db_dependency):
     return db_people
 
 
-@app.patch("/people/{person_id}/", response_model=PersonCreate)
-async def update_person(person_id: int, person_data: PersonBase, db: db_dependency):
+@app.patch("/people/{person_id}", response_model=PersonCreate)
+async def update_person(
+    person_id: int,
+    person_data: PersonBase,
+    db: db_dependency,
+    api_key: str = Depends(get_api_key),
+):
     db_person = db.query(models.Person).filter(models.Person.id == person_id).first()
     if not db_person:
         raise HTTPException(status_code=404, detail="Person not found")
@@ -271,6 +333,11 @@ async def update_person(person_id: int, person_data: PersonBase, db: db_dependen
 
 
 @app.get("/people", response_model=List[PersonRead])
-async def read_people(db: db_dependency, skip: int = 0, limit: int = 100):
+async def read_people(
+    db: db_dependency,
+    skip: int = 0,
+    limit: int = 100,
+    api_key: str = Depends(get_api_key),
+):
     people = db.query(models.Person).offset(skip).limit(limit).all()
     return people
