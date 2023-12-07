@@ -18,6 +18,7 @@ from models.pydantic_models import (
     Review,
     StrengthWeaknessItem,
     CarBase,
+    CarUpdate,
     CarCreate,
     CarRead,
     MakeBase,
@@ -154,10 +155,10 @@ async def create_bulk_cars(
     return db_cars
 
 
-@app.patch("/cars/{car_id}", response_model=CarRead)
+@app.patch("/cars/{car_id}", response_model=CarUpdate)
 async def update_car(
     car_id: int,
-    car_data: CarBase,
+    car_update: CarUpdate,
     db: db_dependency,
     api_key: str = Depends(get_api_key),
 ):
@@ -165,7 +166,10 @@ async def update_car(
     if not db_car:
         raise HTTPException(status_code=404, detail="Car not found")
 
-    for key, value in car_data.dict().items():
+    update_data = car_update.model_dump(
+        exclude_unset=True
+    )  # Only fields provided in the PATCH request will be updated
+    for key, value in update_data.items():
         if value is not None:
             setattr(db_car, key, value)
 
