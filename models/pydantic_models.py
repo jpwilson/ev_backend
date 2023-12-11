@@ -1,5 +1,5 @@
+from datetime import date
 from typing import Dict, List, Optional
-
 from pydantic import BaseModel, Field
 
 
@@ -11,6 +11,104 @@ class Review(BaseModel):
 class StrengthWeaknessItem(BaseModel):
     score: float
     description: str
+
+
+class CEOAssociationBase(BaseModel):
+    person_id: int
+    start_date: Optional[date] = Field(
+        None, description="The start date of the CEO tenure"
+    )
+    end_date: Optional[date] = Field(None, description="The end date of the CEO tenure")
+
+
+# For creating a new CEO association
+class CEOAssociationCreate(CEOAssociationBase):
+    pass
+
+
+# For reading an existing CEO association, including the association ID
+class CEOAssociationRead(CEOAssociationBase):
+    id: int
+
+
+class PersonBase(BaseModel):
+    name: str
+    age: Optional[int]
+    location: Optional[str] = None
+    university_degree: Optional[str] = None
+    current_company: Optional[str] = None
+    skills: Optional[List[str]] = None
+    # strengths: Optional[Dict[str, Union[str, int]]] = {}
+    # weaknesses: Optional[Dict[str, Union[str, int]]] = {}
+    strengths: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
+    weaknesses: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
+
+
+class PersonCreate(PersonBase):
+    pass
+
+
+class PersonRead(PersonBase):
+    id: int
+
+
+class Person(PersonBase):
+    id: int
+
+    class Config:
+        from_attributes = True
+
+
+class MakeBase(BaseModel):
+    name: Optional[str] = Field(None)
+    ceo_id: Optional[int] = Field(None)
+    ceo_pay: Optional[float] = Field(None)
+    headquarters: Optional[str] = Field(None)
+    founding_date: Optional[str] = Field(None)
+    market_cap: Optional[float] = Field(None)
+    revenue: Optional[float] = Field(None)
+    num_ev_models: Optional[int] = Field(None)
+    first_ev_model_date: Optional[str] = Field(None)
+    unionized: Optional[bool] = Field(None)
+    lrg_logo_img_url: Optional[str] = Field(None)
+    # relationship ids:
+    founder_ids: Optional[List[int]] = Field(default_factory=list)
+    ceo_ids: Optional[List[int]] = Field(default_factory=list)
+    key_personnel_ids: Optional[List[int]] = Field(default_factory=list)
+    # relationships:
+    founders: Optional[List[PersonBase]] = Field(None)
+    ceos: Optional[List[PersonBase]] = Field(None)
+    key_personnel: Optional[List[PersonBase]] = Field(None)
+
+
+class MakeUpdate(BaseModel):
+    name: Optional[str] = Field(None)
+    ceo_id: Optional[int] = Field(None)
+    ceo_pay: Optional[float] = Field(None)
+    headquarters: Optional[str] = Field(None)
+    founding_date: Optional[str] = Field(None)
+    market_cap: Optional[float] = Field(None)
+    revenue: Optional[float] = Field(None)
+    num_ev_models: Optional[int] = Field(None)
+    first_ev_model_date: Optional[str] = Field(None)
+    unionized: Optional[bool] = Field(None)
+    lrg_logo_img_url: Optional[str] = Field(None)
+    # relationships
+    founder_ids: Optional[List[int]] = Field(None)
+    ceo_ids: Optional[List[int]] = Field(None)
+    key_personnel_ids: Optional[List[int]] = Field(None)
+    ceo_associations: Optional[List[CEOAssociationCreate]] = Field(
+        None, description="List of CEO associations with tenure dates"
+    )
+
+
+class MakeCreate(MakeBase):
+    pass
+
+
+class MakeRead(MakeBase):
+    id: int
+    car_id_list: List[int] = []
 
 
 class CarBase(BaseModel):
@@ -85,7 +183,7 @@ class CarBase(BaseModel):
 
 
 class CarUpdate(BaseModel):
-    make_id: Optional[int] = Field(None)
+    make_id: Optional[int]
     model: Optional[str] = Field(None)
     submodel: Optional[str] = Field(None)
     generation: Optional[str] = Field(None)
@@ -146,56 +244,6 @@ class CarRead(CarBase):
 
 
 class Car(CarBase):
-    id: int
-
-    class Config:
-        from_attributes = True
-
-
-class MakeBase(BaseModel):
-    name: str
-    ceo_pay: Optional[float]
-    headquarters: Optional[str]
-    founding_date: Optional[str]
-    market_cap: Optional[float]
-    revenue: Optional[float]
-    num_ev_models: Optional[int]
-    first_ev_model_date: Optional[str]
-    unionized: Optional[bool]
-    lrg_logo_img_url: Optional[str]
-
-
-class MakeCreate(MakeBase):
-    pass
-
-
-class MakeRead(MakeBase):
-    id: int
-    car_id_list: List[int] = []
-
-
-class PersonBase(BaseModel):
-    name: str
-    age: Optional[int]
-    location: Optional[str] = None
-    university_degree: Optional[str] = None
-    current_company: Optional[str] = None
-    skills: Optional[List[str]] = None
-    # strengths: Optional[Dict[str, Union[str, int]]] = {}
-    # weaknesses: Optional[Dict[str, Union[str, int]]] = {}
-    strengths: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
-    weaknesses: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
-
-
-class PersonCreate(PersonBase):
-    pass
-
-
-class PersonRead(PersonBase):
-    id: int
-
-
-class Person(PersonBase):
     id: int
 
     class Config:

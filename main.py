@@ -1,4 +1,5 @@
 import os
+from datetime import date
 from fastapi import FastAPI, HTTPException, Depends, Header, Request
 
 from typing import Annotated, List, Optional, Dict
@@ -24,6 +25,7 @@ from models.pydantic_models import (
     MakeBase,
     MakeCreate,
     MakeRead,
+    MakeUpdate,
     PersonBase,
     PersonCreate,
     PersonRead,
@@ -101,7 +103,7 @@ models.Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 async def wel():
-    return "Yo man, it should work now - but others won't w/o access"
+    return "Yo myman, it should work now - but others won't w/o access"
 
 
 @app.get("/cars/{car_id}", response_model=CarRead)
@@ -217,11 +219,29 @@ async def read_car_features(db: db_dependency, api_key: str = Depends(get_api_ke
     return car_features
 
 
+@app.get("/makes/{make_id}", response_model=MakeRead)
+async def read_make(
+    make_id: str,
+    db: db_dependency,
+    api_key: str = Depends(get_api_key),
+):
+    make = db.query(models.Make).filter(models.Make.id == make_id).first()
+    if not make:
+        raise HTTPException(status_code=404, detail="Make not found")
+
+    make_data = make.__dict__
+    make_data["car_id_list"] = [car.id for car in make.cars]
+
+    return make_data
+
+
 @app.post("/makes", response_model=MakeCreate)
 async def create_make(
     make: MakeBase, db: db_dependency, api_key: str = Depends(get_api_key)
 ):
-    db_make = models.Make(**make.model_dump())
+    make_data = make.model_dump(exclude_unset=True)
+    db_make = models.Make(**make_data)
+
     db.add(db_make)
     db.commit()
     db.refresh(db_make)
@@ -243,20 +263,70 @@ async def create_bulk_makes(
     return db_makes
 
 
-@app.patch("/makes/{make_name}", response_model=MakeRead)
+@app.patch("/makes/{make_id}", response_model=MakeUpdate)
 async def update_make(
-    make_name: str,
-    make: MakeBase,
+    make_id: int,
+    make_update: MakeUpdate,
     db: db_dependency,
     api_key: str = Depends(get_api_key),
 ):
-    db_make = db.query(models.Make).filter(models.Make.name == make_name).first()
+    db_make = db.query(models.Make).filter(models.Make.id == make_id).first()
+    print(f"This is what db_make name is: {db_make}")
     if not db_make:
         raise HTTPException(status_code=404, detail="Make not found")
 
-    for key, value in make.dict().items():
+    update_data = make_update.model_dump(exclude_unset=True)
+    print(update_data, "  <--- this is the attribute on the make model ()")
+    for key, value in update_data.items():
+        print(f"key: {key}, value:{value}")
         if value is not None:
             setattr(db_make, key, value)
+
+    # Check and update the founders
+    if make_update.founder_ids is not None:
+        founders = (
+            db.query(models.Person)
+            .filter(models.Person.id.in_(make_update.founder_ids))
+            .all()
+        )
+        if len(founders) != len(make_update.founder_ids):
+            raise HTTPException(
+                status_code=400, detail="One or more founder IDs not found"
+            )
+        db_make.founders = founders
+
+    # Check and update the key personnel
+    if make_update.key_personnel_ids is not None:
+        key_personnel = (
+            db.query(models.Person)
+            .filter(models.Person.id.in_(make_update.key_personnel_ids))
+            .all()
+        )
+        if len(key_personnel) != len(make_update.key_personnel_ids):
+            raise HTTPException(
+                status_code=400, detail="One or more key personnel IDs not found"
+            )
+        db_make.key_personnel = key_personnel
+
+        # Handle CEO updates with start and end dates
+    if make_update.ceo_associations:
+        # Remove current associations for this make
+        # (consider whether you want to remove or update existing entries)
+        db.query(models.make_ceo_association).filter_by(make_id=make_id).delete(
+            synchronize_session=False
+        )
+        db.commit()  # Commit the deletions before adding new associations
+
+        # Insert new CEO associations with start and end dates
+        for ceo_association in make_update.ceo_associations:
+            # Create a new CEO association record
+            new_ceo_assoc = models.make_ceo_association.insert().values(
+                make_id=make_id,
+                person_id=ceo_association.person_id,
+                start_date=ceo_association.start_date,
+                end_date=ceo_association.end_date,
+            )
+            db.execute(new_ceo_assoc)
 
     db.commit()
     db.refresh(db_make)
