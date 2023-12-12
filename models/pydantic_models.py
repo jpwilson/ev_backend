@@ -72,13 +72,13 @@ class MakeBase(BaseModel):
     unionized: Optional[bool] = Field(None)
     lrg_logo_img_url: Optional[str] = Field(None)
     # relationship ids:
-    founder_ids: Optional[List[int]] = Field(default_factory=list)
-    ceo_ids: Optional[List[int]] = Field(default_factory=list)
-    key_personnel_ids: Optional[List[int]] = Field(default_factory=list)
-    # relationships:
-    founders: Optional[List[PersonBase]] = Field(None)
-    ceos: Optional[List[PersonBase]] = Field(None)
-    key_personnel: Optional[List[PersonBase]] = Field(None)
+    # founder_ids: Optional[List[int]] = Field(default_factory=list)
+    # ceo_ids: Optional[List[int]] = Field(default_factory=list)
+    # key_personnel_ids: Optional[List[int]] = Field(default_factory=list)
+    # # relationships:
+    # founders: Optional[List[PersonBase]] = Field(None)
+    # ceos: Optional[List[PersonBase]] = Field(None)
+    # key_personnel: Optional[List[PersonBase]] = Field(None)
 
 
 class MakeUpdate(BaseModel):
