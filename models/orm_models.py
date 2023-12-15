@@ -9,9 +9,11 @@ from sqlalchemy import (
     JSON,
     Table,
 )
+from sqlalchemy import event, inspect
 from sqlalchemy.orm import relationship
 from database import Base
 from sqlalchemy.ext.mutable import MutableDict, MutableList
+from services.slug_service import SlugService
 
 # ==== ASSOCIATION TABLES =======
 
@@ -58,6 +60,11 @@ class Car(Base):
     current_price = Column(Float)
     epa_range = Column(Float)
     number_of_full_adult_seats = Column(Integer)
+    full_slug = Column(String, index=True, unique=True)
+    make_model_slug = Column(String)
+    # is_make_rep = Column(
+    #     Boolean, default=False
+    # )  # the model on model page representing all submodels
 
     # Availability
     available_countries = Column(
@@ -127,6 +134,37 @@ class Car(Base):
     )
     vehicle_class = Column(String)  # SUV, SEDAN etc.
     vehicle_sound_details = Column(MutableDict.as_mutable(JSON), default={})
+
+
+# Event listener for the Car model before an insert
+@event.listens_for(Car, "before_insert")
+def receive_before_insert(mapper, connection, target):
+    # Generate the full make-model-submodel slug
+    make_name = target.make.name if target.make else "unknown-make"
+    model_name = target.model if target.model else "unknown-model"
+    submodel_name = target.submodel if target.submodel else ""
+    target.full_slug = SlugService.create_slug(make_name, model_name, submodel_name)
+    # Generate the make-model slug
+    target.make_model_slug = SlugService.create_slug(make_name, model_name)
+
+
+# Event listener for the Car model before an update
+@event.listens_for(Car, "before_update")
+def receive_before_update(mapper, connection, target):
+    # Check if any of the fields that make up the slugs have changed.
+    # If so, update the slugs.
+    if (
+        inspect(target).attrs.make.loaded_value != target.make
+        or inspect(target).attrs.model.loaded_value != target.model
+        or inspect(target).attrs.submodel.loaded_value != target.submodel
+    ):
+        make_name = target.make.name if target.make else "unknown-make"
+        model_name = target.model if target.model else "unknown-model"
+        submodel_name = target.submodel if target.submodel else ""
+        # Update the full make-model-submodel slug
+        target.full_slug = SlugService.create_slug(make_name, model_name, submodel_name)
+        # Update the make-model slug
+        target.make_model_slug = SlugService.create_slug(make_name, model_name)
 
 
 class Make(Base):

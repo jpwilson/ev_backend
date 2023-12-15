@@ -112,6 +112,7 @@ async def read_car_by_id(
 ):
     try:
         car = db.query(models.Car).filter(models.Car.id == car_id).first()
+        print("did we get here??")
         if car:
             car_data = car.__dict__
             car_data["average_rating"] = calculate_average_rating(
@@ -124,6 +125,7 @@ async def read_car_by_id(
         else:
             return JSONResponse(status_code=404, content={"message": "Car not found"})
     except Exception as e:
+        print("no, we didn't get in to the try block...")
         raise HTTPException(
             status_code=404,
             detail=f"Car not found, are you sure {car_id} the correct car id?",

@@ -121,6 +121,10 @@ class CarBase(BaseModel):
     current_price: Optional[float] = None
     epa_range: Optional[float] = None
     number_of_full_adult_seats: Optional[int] = None
+    is_make_rep: Optional[bool] = Field(
+        default=False,
+        description="Indicates if the car is representative of the make and model",
+    )
 
     available_countries: Optional[Dict[str, List[str]]] = {}
 
@@ -192,6 +196,7 @@ class CarUpdate(BaseModel):
     current_price: Optional[float] = Field(None)
     epa_range: Optional[float] = Field(None)
     number_of_full_adult_seats: Optional[int] = Field(None)
+    is_make_rep: Optional[bool] = None
     available_countries: Optional[Dict[str, List[str]]] = Field(None)
     battery_capacity: Optional[float] = Field(None)
     battery_max_charging_speed: Optional[float] = Field(None)
