@@ -5,6 +5,11 @@ from services.slug_service import SlugService  # Import SlugService
 
 
 def populate_slugs():
+    """
+    This was used on 15 Dec 2023 when slugs were added for car detail pages.
+    Slugs will prob be used on other pages as well in the future.
+    """
+
     db = SessionLocal()
     try:
         # cars = db.query(Car).all()

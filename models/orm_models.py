@@ -8,6 +8,7 @@ from sqlalchemy import (
     Boolean,
     JSON,
     Table,
+    Text,
 )
 from sqlalchemy import event, inspect
 from sqlalchemy.orm import relationship
@@ -54,6 +55,7 @@ class Car(Base):
     # make = Column(String)
     model = Column(String, index=True)  # Model e.g., Model S, Leaf
     submodel = Column(String)  # Trim level e.g., Long Range, Performance
+    desc = Column(Text, nullable=True)
     generation = Column(String)
     image_url = Column(String)  # Link to car image
     acceleration_0_60 = Column(Float)  # 0-60 mph time
@@ -62,7 +64,7 @@ class Car(Base):
     number_of_full_adult_seats = Column(Integer)
     full_slug = Column(String, index=True, unique=True)
     make_model_slug = Column(String)
-    # is_make_rep = Column(
+    # is_model_rep = Column(
     #     Boolean, default=False
     # )  # the model on model page representing all submodels
 
