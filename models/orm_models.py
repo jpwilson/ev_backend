@@ -69,6 +69,12 @@ class Car(Base):
     )  # the model on model page representing all submodels
 
     # Availability
+    production_availability = Column(
+        Boolean, default=True, nullable=True
+    )  # Whether the car is currently in production
+    availability_desc = Column(
+        String, nullable=True, index=True
+    )  # eg available, unreleased, discontinued, deprecatedmodel
     available_countries = Column(
         MutableDict.as_mutable(JSON), default={}
     )  # JSON serialized list of countries

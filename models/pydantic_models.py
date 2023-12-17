@@ -131,6 +131,12 @@ class CarBase(BaseModel):
         max_length=5000,  # or whatever max length you want
     )
 
+    production_availability: Optional[bool] = Field(
+        True, description="Whether the car is currently in production"
+    )
+    availability_desc: Optional[str] = Field(
+        None, description="Available, or deprecated, unreleased etc"
+    )
     available_countries: Optional[Dict[str, List[str]]] = {}
 
     # charging
@@ -213,6 +219,13 @@ class CarUpdate(BaseModel):
     )
 
     is_make_rep: Optional[bool] = None
+
+    availability_desc: Optional[str] = Field(
+        default=None, description="eg available, unreleased, discontinued"
+    )
+    production_availability: Optional[bool] = Field(
+        default=None, description="Whether the car is currently in production"
+    )
     available_countries: Optional[Dict[str, List[str]]] = Field(None)
     battery_capacity: Optional[float] = Field(None)
     battery_max_charging_speed: Optional[float] = Field(None)
