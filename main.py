@@ -106,6 +106,34 @@ async def wel():
     return "Yo myman, it should work now - but others won't w/o access"
 
 
+@app.get("/cars/model-reps", response_model=List[CarRead])
+async def read_representative_models(
+    db: db_dependency,
+    api_key: str = Depends(get_api_key),
+):
+    representative_cars = (
+        db.query(models.Car).filter(models.Car.is_model_rep == True).all()
+    )
+    for car in representative_cars:
+        car.average_rating = calculate_average_rating(car.customer_and_critic_rating)
+
+    return representative_cars
+
+
+@app.get("/cars/submodels/{make_model_slug}", response_model=List[CarRead])
+async def read_submodels(
+    make_model_slug: str,
+    db: db_dependency,
+    api_key: str = Depends(get_api_key),
+):
+    submodels = (
+        db.query(models.Car).filter(models.Car.make_model_slug == make_model_slug).all()
+    )
+    for car in submodels:
+        car.average_rating = calculate_average_rating(car.customer_and_critic_rating)
+    return submodels
+
+
 @app.get("/cars/{car_id}", response_model=CarRead)
 async def read_car_by_id(
     car_id: int, db: db_dependency, api_key: str = Depends(get_api_key)

@@ -113,6 +113,7 @@ class MakeRead(MakeBase):
 
 class CarBase(BaseModel):
     make_id: int
+    make_name: Optional[str] = None
     model: str
     submodel: Optional[str] = None
     generation: Optional[str] = None
@@ -218,8 +219,6 @@ class CarUpdate(BaseModel):
         max_length=5000,
     )
 
-    is_make_rep: Optional[bool] = None
-
     availability_desc: Optional[str] = Field(
         default=None, description="eg available, unreleased, discontinued"
     )
@@ -274,7 +273,6 @@ class CarRead(CarBase):
     id: int
     average_rating: float
     make_id: int
-    make_name: str
 
 
 class Car(CarBase):

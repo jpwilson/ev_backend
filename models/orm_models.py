@@ -52,7 +52,8 @@ class Car(Base):
         "Make", back_populates="cars"
     )  # Manufacturer e.g., Tesla, Nissan
     make_id = Column(Integer, ForeignKey("makes.id"))
-    # make = Column(String)
+    make_name = Column(String, nullable=True)
+
     model = Column(String, index=True)  # Model e.g., Model S, Leaf
     submodel = Column(String)  # Trim level e.g., Long Range, Performance
     desc = Column(Text, nullable=True)
