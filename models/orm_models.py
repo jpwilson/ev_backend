@@ -64,9 +64,9 @@ class Car(Base):
     number_of_full_adult_seats = Column(Integer)
     full_slug = Column(String, index=True, unique=True)
     make_model_slug = Column(String)
-    # is_model_rep = Column(
-    #     Boolean, default=False
-    # )  # the model on model page representing all submodels
+    is_model_rep = Column(
+        Boolean, default=False, index=True
+    )  # the model on model page representing all submodels
 
     # Availability
     available_countries = Column(
