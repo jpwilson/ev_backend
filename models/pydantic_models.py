@@ -275,6 +275,17 @@ class CarRead(CarBase):
     make_id: int
 
 
+class SubmodelInfo(BaseModel):
+    id: int
+    submodel: str
+    image_url: Optional[str]
+
+
+class ModelDetailResponse(BaseModel):
+    representative_model: CarRead
+    submodels: List[SubmodelInfo]
+
+
 class Car(CarBase):
     id: int
 

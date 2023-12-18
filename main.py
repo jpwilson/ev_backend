@@ -26,9 +26,11 @@ from models.pydantic_models import (
     MakeCreate,
     MakeRead,
     MakeUpdate,
+    ModelDetailResponse,
     PersonBase,
     PersonCreate,
     PersonRead,
+    SubmodelInfo,
 )
 
 from dotenv import load_dotenv
@@ -132,6 +134,43 @@ async def read_submodels(
     for car in submodels:
         car.average_rating = calculate_average_rating(car.customer_and_critic_rating)
     return submodels
+
+
+@app.get("/cars/model-details/{make_model_slug}", response_model=ModelDetailResponse)
+async def read_model_details_and_submodels(
+    make_model_slug: str,
+    db: db_dependency,
+    api_key: str = Depends(get_api_key),
+):
+    # Find the representative model
+    representative_model = (
+        db.query(models.Car)
+        .filter(
+            models.Car.make_model_slug == make_model_slug,
+            models.Car.is_model_rep == True,
+        )
+        .first()
+    )
+
+    if representative_model:
+        representative_model.average_rating = calculate_average_rating(
+            representative_model.customer_and_critic_rating
+        )
+
+    # Get simplified data for all submodels
+    submodels_data = (
+        db.query(models.Car.id, models.Car.submodel, models.Car.image_url)
+        .filter(models.Car.make_model_slug == make_model_slug)
+        .all()
+    )
+
+    # Create submodel info instances
+    submodels = [
+        SubmodelInfo(id=id, submodel=submodel, image_url=image_url)
+        for id, submodel, image_url in submodels_data
+    ]
+
+    return {"representative_model": representative_model, "submodels": submodels}
 
 
 @app.get("/cars/{car_id}", response_model=CarRead)
