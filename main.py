@@ -170,6 +170,8 @@ async def read_model_details_and_submodels(
         for id, submodel, image_url in submodels_data
     ]
 
+    print(f"printing for debugging in prod: {representative_model}, {submodels}")
+
     return {"representative_model": representative_model, "submodels": submodels}
 
 
