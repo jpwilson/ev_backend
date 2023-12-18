@@ -151,11 +151,14 @@ async def read_model_details_and_submodels(
         )
         .first()
     )
-    print("earlier in the method is here")
+
     if representative_model:
         representative_model.average_rating = calculate_average_rating(
             representative_model.customer_and_critic_rating
         )
+
+    if not representative_model:
+        raise HTTPException(status_code=404, detail="Representative model not found")
 
     # Get simplified data for all submodels
     submodels_data = (
@@ -169,10 +172,6 @@ async def read_model_details_and_submodels(
         SubmodelInfo(id=id, submodel=submodel, image_url=image_url)
         for id, submodel, image_url in submodels_data
     ]
-
-    print(
-        f"printing for debugging in prod:++++==-=-=-=-=- {representative_model},IS ANYTHING GETTING PRINCTED  {submodels}"
-    )
 
     return {"representative_model": representative_model, "submodels": submodels}
 
