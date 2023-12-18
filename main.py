@@ -151,7 +151,7 @@ async def read_model_details_and_submodels(
         )
         .first()
     )
-
+    print("earlier in the method is here")
     if representative_model:
         representative_model.average_rating = calculate_average_rating(
             representative_model.customer_and_critic_rating
@@ -170,7 +170,9 @@ async def read_model_details_and_submodels(
         for id, submodel, image_url in submodels_data
     ]
 
-    print(f"printing for debugging in prod: {representative_model}, {submodels}")
+    print(
+        f"printing for debugging in prod:++++==-=-=-=-=- {representative_model},IS ANYTHING GETTING PRINCTED  {submodels}"
+    )
 
     return {"representative_model": representative_model, "submodels": submodels}
 
