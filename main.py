@@ -66,6 +66,7 @@ origins = [
     "https://eeveecars-mc7i63xu9-jpwilsons-projects.vercel.app",
     "https://www.evlineup.org",
     "https://evlineup.org",
+    "http://evlineup.org",
 ]
 
 app.add_middleware(
