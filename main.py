@@ -63,6 +63,7 @@ origins = [
     "http://localhost:5174",
     "http://localhost:4173",
     "https://eeveecars.vercel.app",
+    "https://eeveecars-mc7i63xu9-jpwilsons-projects.vercel.app",
     "https://www.evlineup.org",
     "https://evlineup.org",
 ]
