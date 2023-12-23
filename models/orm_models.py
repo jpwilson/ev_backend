@@ -57,6 +57,7 @@ class Car(Base):
     model = Column(String, index=True)  # Model e.g., Model S, Leaf
     submodel = Column(String)  # Trim level e.g., Long Range, Performance
     desc = Column(Text, nullable=True)
+    model_desc = Column(Text, nullable=True)
     generation = Column(String)
     image_url = Column(String)  # Link to car image
     acceleration_0_60 = Column(Float)  # 0-60 mph time

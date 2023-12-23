@@ -219,6 +219,12 @@ class CarUpdate(BaseModel):
         max_length=5000,
     )
 
+    model_desc: Optional[str] = Field(
+        default=None,  # Use None as the default for partial updates
+        description="A long description of the car, like an article",
+        max_length=5000,
+    )
+
     availability_desc: Optional[str] = Field(
         default=None, description="eg available, unreleased, discontinued"
     )
