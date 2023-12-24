@@ -122,6 +122,8 @@ class CarBase(BaseModel):
     current_price: Optional[float] = None
     epa_range: Optional[float] = None
     number_of_full_adult_seats: Optional[int] = None
+    full_slug: Optional[str] = None
+    make_model_slug: Optional[str] = None
     is_model_rep: Optional[bool] = Field(
         default=False,
         description="Indicates if the car is representative of the make and model",
@@ -213,13 +215,13 @@ class CarUpdate(BaseModel):
         default=None,  # Use None as the default for partial updates
         description="Indicates if the car is representative of the make and model",
     )
-    desc: Optional[str] = Field(
+    car_description: Optional[str] = Field(
         default=None,  # Use None as the default for partial updates
         description="A long description of the car, like an article",
         max_length=5000,
     )
 
-    model_desc: Optional[str] = Field(
+    model_description: Optional[str] = Field(
         default=None,  # Use None as the default for partial updates
         description="A long description of the car, like an article",
         max_length=5000,
