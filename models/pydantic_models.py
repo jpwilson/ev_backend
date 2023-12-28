@@ -128,10 +128,16 @@ class CarBase(BaseModel):
         default=False,
         description="Indicates if the car is representative of the make and model",
     )
-    desc: Optional[str] = Field(
-        None,
+    car_description: Optional[str] = Field(
+        default=None,  # Use None as the default for partial updates
         description="A long description of the car, like an article",
-        max_length=5000,  # or whatever max length you want
+        max_length=5000,
+    )
+
+    model_description: Optional[str] = Field(
+        default=None,  # Use None as the default for partial updates
+        description="A long description of the car, like an article",
+        max_length=5000,
     )
 
     production_availability: Optional[bool] = Field(
