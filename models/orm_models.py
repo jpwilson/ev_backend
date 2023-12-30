@@ -150,7 +150,7 @@ class Car(Base):
 @event.listens_for(Car, "before_insert")
 def receive_before_insert(mapper, connection, target):
     # Generate the full make-model-submodel slug
-    make_name = target.make.name if target.make else "unknown-make"
+    make_name = target.make_name if target.make_name else "unknown-make"
     model_name = target.model if target.model else "unknown-model"
     submodel_name = target.submodel if target.submodel else ""
     target.full_slug = SlugService.create_slug(make_name, model_name, submodel_name)
