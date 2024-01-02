@@ -164,15 +164,31 @@ async def read_model_details_and_submodels(
 
     # Get simplified data for all submodels
     submodels_data = (
-        db.query(models.Car.id, models.Car.submodel, models.Car.image_url)
+        db.query(
+            models.Car.id,
+            models.Car.submodel,
+            models.Car.image_url,
+            models.Car.current_price,
+            models.Car.acceleration_0_60,
+            models.Car.top_speed,
+            models.Car.epa_range,
+        )
         .filter(models.Car.make_model_slug == make_model_slug)
         .all()
     )
 
     # Create submodel info instances
     submodels = [
-        SubmodelInfo(id=id, submodel=submodel, image_url=image_url)
-        for id, submodel, image_url in submodels_data
+        SubmodelInfo(
+            id=id,
+            submodel=submodel,
+            image_url=image_url,
+            current_price=current_price,
+            acceleration_0_60=acceleration_0_60,
+            top_speed=top_speed,
+            epa_range=epa_range,
+        )
+        for id, submodel, image_url, current_price, acceleration_0_60, top_speed, epa_range in submodels_data
     ]
 
     return {"representative_model": representative_model, "submodels": submodels}

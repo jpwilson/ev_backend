@@ -293,6 +293,10 @@ class SubmodelInfo(BaseModel):
     id: int
     submodel: str
     image_url: Optional[str]
+    current_price: float
+    acceleration_0_60: float
+    top_speed: int
+    epa_range: int
 
 
 class ModelDetailResponse(BaseModel):
