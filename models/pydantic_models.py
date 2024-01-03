@@ -150,7 +150,7 @@ class CarBase(BaseModel):
 
     # charging
     battery_capacity: Optional[float] = None
-    battery_max_charging_speed: Optional[float] = None
+    battery_max_charging_speed: Optional[float] = None  # kW
     bidirectional_details: Optional[Dict[str, str]] = {}
     chargers: Optional[List[str]] = []
 
@@ -170,14 +170,14 @@ class CarBase(BaseModel):
 
     drive_assist_features: Optional[List[str]] = None
     drive_type: Optional[str] = None
-    frunk_capacity: Optional[float] = None
+    frunk_capacity: Optional[float] = None  # cu-ft
 
     has_spare_tire: Optional[bool] = None
 
     # performance
-    power: Optional[float] = None
-    top_speed: Optional[float] = None
-    torque: Optional[float] = None
+    power: Optional[float] = None  # hp
+    top_speed: Optional[float] = None  # mph
+    torque: Optional[float] = None  # lb-ft
     speed_acc: Optional[Dict[str, float]] = {}
 
     # price

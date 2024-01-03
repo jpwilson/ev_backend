@@ -107,13 +107,13 @@ class Car(Base):
 
     drive_assist_features = Column(MutableList.as_mutable(JSON), default=[])  # FSD, etc
     drive_type = Column(String)  # e.g., RWD, AWD
-    frunk_capacity = Column(Float)  # in liters or cubic feet
+    frunk_capacity = Column(Float)  # in cubic feet
     has_spare_tire = Column(Boolean)
 
     # Performance
-    power = Column(Float)
-    top_speed = Column(Float)
-    torque = Column(Float)
+    power = Column(Float)  # hp
+    top_speed = Column(Float)  # mph
+    torque = Column(Float)  # lb-ft
     speed_acc = Column(MutableDict.as_mutable(JSON), default={})  # various acce
 
     # Pricing
