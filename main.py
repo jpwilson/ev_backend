@@ -88,7 +88,7 @@ def calculate_average_rating(ratings: Optional[Dict[str, float]]) -> float:
     if ratings:
         total = sum(ratings.values())
         count = len(ratings)
-        return round((total / count), 2) * 2 if count else 0
+        return round((total / count), 2) if count else 0
     return 0
 
 
