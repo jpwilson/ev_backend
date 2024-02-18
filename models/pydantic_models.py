@@ -6,6 +6,8 @@ from pydantic import BaseModel, Field
 class Review(BaseModel):
     description: str
     url: str  # HttpUrl
+    media_type: str
+    reviewer_id: Optional[int] = None
 
 
 class StrengthWeaknessItem(BaseModel):

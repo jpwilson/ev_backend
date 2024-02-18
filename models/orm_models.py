@@ -241,3 +241,4 @@ class Person(Base):
     companies_as_ceo = relationship(
         "Make", secondary=make_ceo_association, back_populates="ceos"
     )
+    
