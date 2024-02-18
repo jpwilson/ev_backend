@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 class Review(BaseModel):
     description: str
     url: str  # HttpUrl
-    media_type: str
+    media_type: Optional[str] = None
     reviewer_id: Optional[int] = None
 
 
