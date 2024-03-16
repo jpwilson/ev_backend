@@ -301,9 +301,21 @@ class SubmodelInfo(BaseModel):
     epa_range: int
 
 
+class MakeDetails(BaseModel):
+    id: int
+    name: str
+    lrg_logo_img_url: Optional[str] = None
+    
+    class Config:
+        orm_mode = True
+        from_attributes = True  # This line should fix the PydanticUserError
+
+
+
 class ModelDetailResponse(BaseModel):
     representative_model: CarRead
     submodels: List[SubmodelInfo]
+    make_details: Optional[MakeDetails] = None
 
 
 class Car(CarBase):

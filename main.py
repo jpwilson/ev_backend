@@ -24,6 +24,7 @@ from models.pydantic_models import (
     CarRead,
     MakeBase,
     MakeCreate,
+    MakeDetails,
     MakeRead,
     MakeUpdate,
     ModelDetailResponse,
@@ -150,7 +151,7 @@ async def read_model_details_and_submodels(
         .filter(
             models.Car.make_model_slug == make_model_slug,
             models.Car.is_model_rep == True,
-        )
+        ).options(joinedload(models.Car.make))
         .first()
     )
 
@@ -161,6 +162,13 @@ async def read_model_details_and_submodels(
 
     if not representative_model:
         raise HTTPException(status_code=404, detail="Representative model not found")
+    
+    # Extract make details
+    make_details = None
+    if representative_model.make:
+        make_details = MakeDetails.from_orm(representative_model.make)
+    
+    # Fetch and process the submodels as you have been doing
 
     # Get simplified data for all submodels
     submodels_data = (
@@ -191,7 +199,8 @@ async def read_model_details_and_submodels(
         for id, submodel, image_url, current_price, acceleration_0_60, top_speed, epa_range in submodels_data
     ]
 
-    return {"representative_model": representative_model, "submodels": submodels}
+    return {"representative_model": representative_model, "submodels": submodels,
+        "make_details": make_details}
 
 
 @app.get("/cars/{car_id}", response_model=CarRead)
