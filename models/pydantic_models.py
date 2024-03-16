@@ -130,6 +130,7 @@ class CarBase(BaseModel):
         default=False,
         description="Indicates if the car is representative of the make and model",
     )
+    model_webpage: Optional[str] = None
     car_description: Optional[str] = Field(
         default=None,  # Use None as the default for partial updates
         description="A long description of the car, like an article",
@@ -223,6 +224,7 @@ class CarUpdate(BaseModel):
         default=None,  # Use None as the default for partial updates
         description="Indicates if the car is representative of the make and model",
     )
+    model_webpage: Optional[str] = None
     car_description: Optional[str] = Field(
         default=None,  # Use None as the default for partial updates
         description="A long description of the car, like an article",
@@ -289,6 +291,7 @@ class CarRead(CarBase):
     id: int
     average_rating: float
     make_id: int
+    model_webpage: Optional[str] = None
 
 
 class SubmodelInfo(BaseModel):

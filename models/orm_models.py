@@ -69,6 +69,7 @@ class Car(Base):
     is_model_rep = Column(
         Boolean, default=False, index=True
     )  # the model on model page representing all submodels
+    model_webpage = Column(String, nullable=True) # A link to the official model page
 
     # Availability
     production_availability = Column(
