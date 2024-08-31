@@ -69,7 +69,7 @@ class Car(Base):
     is_model_rep = Column(
         Boolean, default=False, index=True
     )  # the model on model page representing all submodels
-    model_webpage = Column(String, nullable=True) # A link to the official model page
+    model_webpage = Column(String, nullable=True)  # A link to the official model page
 
     # Availability
     production_availability = Column(
@@ -232,6 +232,10 @@ class Person(Base):
     skills = Column(MutableList.as_mutable(JSON), default=[])
     strengths = Column(MutableDict.as_mutable(JSON), default={})
     weaknesses = Column(MutableDict.as_mutable(JSON), default={})
+    current_roles = Column(MutableList.as_mutable(JSON), default=[])
+    previous_roles = Column(MutableList.as_mutable(JSON), default=[])
+
+    # Existing relationships
     car_companies_associated = relationship(
         "Make", secondary=make_person_association, back_populates="key_personnel"
     )
@@ -242,4 +246,3 @@ class Person(Base):
     companies_as_ceo = relationship(
         "Make", secondary=make_ceo_association, back_populates="ceos"
     )
-    

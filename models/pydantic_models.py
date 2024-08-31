@@ -1,5 +1,5 @@
 from datetime import date
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 from pydantic import BaseModel, Field
 
 
@@ -33,6 +33,11 @@ class CEOAssociationRead(CEOAssociationBase):
     id: int
 
 
+class Role(BaseModel):
+    title: str
+    company: str
+
+
 class PersonBase(BaseModel):
     name: str
     age: Optional[int]
@@ -40,10 +45,10 @@ class PersonBase(BaseModel):
     university_degree: Optional[str] = None
     current_company: Optional[str] = None
     skills: Optional[List[str]] = None
-    # strengths: Optional[Dict[str, Union[str, int]]] = {}
-    # weaknesses: Optional[Dict[str, Union[str, int]]] = {}
     strengths: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
     weaknesses: Optional[Dict[str, StrengthWeaknessItem]] = Field(default_factory=dict)
+    current_roles: List[Role] = Field(default_factory=list)
+    previous_roles: List[Role] = Field(default_factory=list)
 
 
 class PersonCreate(PersonBase):
@@ -163,13 +168,13 @@ class CarBase(BaseModel):
     trim_first_released: Optional[str] = None
     trim_ended: Optional[str] = None
 
-    color_options: Optional[
-        Dict[str, List[str]]
-    ] = {}  # the year is the key + list of colors as val
+    color_options: Optional[Dict[str, List[str]]] = (
+        {}
+    )  # the year is the key + list of colors as val
 
-    customer_and_critic_rating: Optional[
-        Dict[str, float]
-    ] = {}  # dict of publication: rating
+    customer_and_critic_rating: Optional[Dict[str, float]] = (
+        {}
+    )  # dict of publication: rating
 
     drive_assist_features: Optional[List[str]] = None
     drive_type: Optional[str] = None
@@ -308,11 +313,10 @@ class MakeDetails(BaseModel):
     id: int
     name: str
     lrg_logo_img_url: Optional[str] = None
-    
+
     class Config:
         orm_mode = True
         from_attributes = True  # This line should fix the PydanticUserError
-
 
 
 class ModelDetailResponse(BaseModel):
