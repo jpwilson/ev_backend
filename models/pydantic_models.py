@@ -1,6 +1,6 @@
-from datetime import date
+from datetime import date, datetime
 from typing import Dict, List, Optional, Tuple
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Review(BaseModel):
@@ -78,6 +78,12 @@ class MakeBase(BaseModel):
     first_ev_model_date: Optional[str] = Field(None)
     unionized: Optional[bool] = Field(None)
     lrg_logo_img_url: Optional[str] = Field(None)
+    status: Optional[str] = Field("active", description="active, defunct, acquired, pre-production")
+    status_details: Optional[str] = Field(None, description="Details about company status")
+    description: Optional[str] = Field(None, description="Company overview")
+    website_url: Optional[str] = Field(None, description="Official company website")
+    country: Optional[str] = Field(None, description="HQ country code (e.g., US, DE, CN)")
+    updated_at: Optional[datetime] = Field(None)
     # relationship ids:
     # founder_ids: Optional[List[int]] = Field(default_factory=list)
     # ceo_ids: Optional[List[int]] = Field(default_factory=list)
@@ -100,6 +106,11 @@ class MakeUpdate(BaseModel):
     first_ev_model_date: Optional[str] = Field(None)
     unionized: Optional[bool] = Field(None)
     lrg_logo_img_url: Optional[str] = Field(None)
+    status: Optional[str] = Field(None)
+    status_details: Optional[str] = Field(None)
+    description: Optional[str] = Field(None)
+    website_url: Optional[str] = Field(None)
+    country: Optional[str] = Field(None)
     # relationships
     founder_ids: Optional[List[int]] = Field(None)
     ceo_ids: Optional[List[int]] = Field(None)
@@ -119,6 +130,8 @@ class MakeRead(MakeBase):
 
 
 class CarBase(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
     make_id: int
     make_name: Optional[str] = None
     model: str
@@ -212,9 +225,13 @@ class CarBase(BaseModel):
     regen_details: Optional[Dict[str, str]] = {}
     vehicle_class: Optional[str] = None
     vehicle_sound_details: Optional[Dict[str, str]] = {}
+    images: Optional[List[str]] = []
+    updated_at: Optional[datetime] = None
 
 
 class CarUpdate(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
     make_id: Optional[int]
     model: Optional[str] = Field(None)
     submodel: Optional[str] = Field(None)
@@ -286,6 +303,7 @@ class CarUpdate(BaseModel):
     regen_details: Optional[Dict[str, str]] = Field(None)
     vehicle_class: Optional[str] = Field(None)
     vehicle_sound_details: Optional[Dict[str, str]] = Field(None)
+    images: Optional[List[str]] = Field(None)
 
 
 class CarCreate(CarBase):
@@ -300,6 +318,8 @@ class CarRead(CarBase):
 
 
 class SubmodelInfo(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
     id: int
     submodel: str
     image_url: Optional[str]
@@ -310,16 +330,23 @@ class SubmodelInfo(BaseModel):
 
 
 class MakeDetails(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
     id: int
     name: str
     lrg_logo_img_url: Optional[str] = None
-
-    class Config:
-        orm_mode = True
-        from_attributes = True  # This line should fix the PydanticUserError
+    status: Optional[str] = None
+    status_details: Optional[str] = None
+    description: Optional[str] = None
+    website_url: Optional[str] = None
+    country: Optional[str] = None
+    headquarters: Optional[str] = None
+    founding_date: Optional[str] = None
 
 
 class ModelDetailResponse(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
     representative_model: CarRead
     submodels: List[SubmodelInfo]
     make_details: Optional[MakeDetails] = None

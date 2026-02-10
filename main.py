@@ -324,7 +324,12 @@ async def read_make(
     db: db_dependency,
     api_key: str = Depends(get_api_key),
 ):
-    make = db.query(models.Make).filter(models.Make.id == make_id).first()
+    make = (
+        db.query(models.Make)
+        .options(subqueryload(models.Make.cars))
+        .filter(models.Make.id == make_id)
+        .first()
+    )
     if not make:
         raise HTTPException(status_code=404, detail="Make not found")
 

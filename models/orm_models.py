@@ -1,5 +1,6 @@
 from sqlalchemy import (
     Column,
+    DateTime,
     Integer,
     String,
     Float,
@@ -9,6 +10,7 @@ from sqlalchemy import (
     JSON,
     Table,
     Text,
+    func,
 )
 from sqlalchemy import event, inspect
 from sqlalchemy.orm import relationship
@@ -146,6 +148,10 @@ class Car(Base):
     vehicle_class = Column(String)  # SUV, SEDAN etc.
     vehicle_sound_details = Column(MutableDict.as_mutable(JSON), default={})
 
+    # Additional media & tracking
+    images = Column(MutableList.as_mutable(JSON), default=[])  # Array of image URLs
+    updated_at = Column(DateTime, nullable=True, server_default=func.now(), onupdate=func.now())
+
 
 # Event listener for the Car model before an insert
 @event.listens_for(Car, "before_insert")
@@ -217,6 +223,15 @@ class Make(Base):
     # )  # List of office locations, e.g., ["Palo Alto, CA", "Fremont, CA"]
     unionized = Column(Boolean, default=False)
     lrg_logo_img_url = Column(String, nullable=True)
+
+    # Manufacturer status & info
+    status = Column(String, nullable=True, default="active")  # active, defunct, acquired, pre-production
+    status_details = Column(Text, nullable=True)  # e.g., "Filed for bankruptcy in Feb 2024"
+    description = Column(Text, nullable=True)  # Company overview for manufacturer detail page
+    website_url = Column(String, nullable=True)  # Official company website
+    country = Column(String, nullable=True)  # HQ country code, e.g., "US", "DE", "CN"
+    updated_at = Column(DateTime, nullable=True, server_default=func.now(), onupdate=func.now())
+
     cars = relationship("Car", back_populates="make")
 
 
