@@ -118,10 +118,15 @@ async def read_representative_models(
     api_key: str = Depends(get_api_key),
 ):
     representative_cars = (
-        db.query(models.Car).filter(models.Car.is_model_rep == True).all()
+        db.query(models.Car)
+        .options(joinedload(models.Car.make))
+        .filter(models.Car.is_model_rep == True)
+        .all()
     )
     for car in representative_cars:
         car.average_rating = calculate_average_rating(car.customer_and_critic_rating)
+        if car.make and not car.make_name:
+            car.make_name = car.make.name
 
     return representative_cars
 
