@@ -327,6 +327,8 @@ class SubmodelInfo(BaseModel):
     acceleration_0_60: float
     top_speed: int
     epa_range: int
+    generation: Optional[str] = None
+    availability_desc: Optional[str] = None
 
 
 class MakeDetails(BaseModel):
@@ -344,12 +346,21 @@ class MakeDetails(BaseModel):
     founding_date: Optional[str] = None
 
 
+class PreviousGeneration(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
+    generation: Optional[str] = None
+    image_url: Optional[str] = None
+    submodels: List[SubmodelInfo] = []
+
+
 class ModelDetailResponse(BaseModel):
     model_config = ConfigDict(protected_namespaces=())
 
     representative_model: CarRead
     submodels: List[SubmodelInfo]
     make_details: Optional[MakeDetails] = None
+    previous_generations: List[PreviousGeneration] = []
 
 
 class Car(CarBase):

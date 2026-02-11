@@ -31,6 +31,7 @@ from models.pydantic_models import (
     PersonBase,
     PersonCreate,
     PersonRead,
+    PreviousGeneration,
     SubmodelInfo,
 )
 
@@ -170,7 +171,7 @@ async def read_model_details_and_submodels(
     
     # Fetch and process the submodels as you have been doing
 
-    # Get simplified data for all submodels
+    # Get simplified data for all submodels (including previous generations)
     submodels_data = (
         db.query(
             models.Car.id,
@@ -180,14 +181,20 @@ async def read_model_details_and_submodels(
             models.Car.acceleration_0_60,
             models.Car.top_speed,
             models.Car.epa_range,
+            models.Car.generation,
+            models.Car.availability_desc,
         )
         .filter(models.Car.make_model_slug == make_model_slug)
         .all()
     )
 
-    # Create submodel info instances
-    submodels = [
-        SubmodelInfo(
+    # Separate current submodels from previous generations
+    current_submodels = []
+    prev_gen_map = {}  # generation -> list of SubmodelInfo
+
+    for row in submodels_data:
+        id, submodel, image_url, current_price, acceleration_0_60, top_speed, epa_range, generation, availability_desc = row
+        info = SubmodelInfo(
             id=id,
             submodel=submodel,
             image_url=image_url,
@@ -195,12 +202,33 @@ async def read_model_details_and_submodels(
             acceleration_0_60=acceleration_0_60,
             top_speed=top_speed,
             epa_range=epa_range,
+            generation=generation,
+            availability_desc=availability_desc,
         )
-        for id, submodel, image_url, current_price, acceleration_0_60, top_speed, epa_range in submodels_data
+        if availability_desc == "previous_generation":
+            gen_key = generation or "Earlier Generation"
+            if gen_key not in prev_gen_map:
+                prev_gen_map[gen_key] = {"image_url": image_url, "submodels": []}
+            prev_gen_map[gen_key]["submodels"].append(info)
+        else:
+            current_submodels.append(info)
+
+    # Build previous generations list
+    previous_generations = [
+        PreviousGeneration(
+            generation=gen_key,
+            image_url=data["image_url"],
+            submodels=data["submodels"],
+        )
+        for gen_key, data in prev_gen_map.items()
     ]
 
-    return {"representative_model": representative_model, "submodels": submodels,
-        "make_details": make_details}
+    return {
+        "representative_model": representative_model,
+        "submodels": current_submodels,
+        "make_details": make_details,
+        "previous_generations": previous_generations,
+    }
 
 
 @app.get("/cars/{car_id}", response_model=CarRead)
