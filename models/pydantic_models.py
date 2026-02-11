@@ -233,6 +233,7 @@ class CarUpdate(BaseModel):
     model_config = ConfigDict(protected_namespaces=())
 
     make_id: Optional[int]
+    make_name: Optional[str] = Field(None)
     model: Optional[str] = Field(None)
     submodel: Optional[str] = Field(None)
     generation: Optional[str] = Field(None)

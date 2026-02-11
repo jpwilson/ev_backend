@@ -165,6 +165,8 @@ async def read_model_details_and_submodels(
         representative_model.average_rating = calculate_average_rating(
             representative_model.customer_and_critic_rating
         )
+        if representative_model.make and not representative_model.make_name:
+            representative_model.make_name = representative_model.make.name
 
     if not representative_model:
         raise HTTPException(status_code=404, detail="Representative model not found")
