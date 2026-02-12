@@ -88,6 +88,7 @@ origins = [
     "https://www.evlineup.org",
     "https://evlineup.org",
     "http://evlineup.org",
+    "https://ev-backend-three.vercel.app",
 ]
 
 app.add_middleware(
