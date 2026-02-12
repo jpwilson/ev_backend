@@ -9,7 +9,7 @@ load_dotenv()
 
 # Use SQLite for local dev if USE_LOCAL_DB=true, otherwise use PostgreSQL
 _use_local = os.getenv("USE_LOCAL_DB", "").lower() == "true"
-_db_url = os.getenv("DATABASE_URL")
+_db_url = os.getenv("SUPABASE_DATABASE_URL") or os.getenv("DATABASE_URL")
 
 if _use_local:
     # Local development - SQLite
