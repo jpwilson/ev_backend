@@ -2,6 +2,7 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.pool import NullPool
 
 from dotenv import load_dotenv
 
@@ -17,7 +18,11 @@ if _use_local:
     engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 elif _db_url:
     DATABASE_URL = _db_url.replace("postgres://", "postgresql://", 1)
-    engine = create_engine(DATABASE_URL)
+    engine = create_engine(
+        DATABASE_URL,
+        poolclass=NullPool,
+        pool_pre_ping=True,
+    )
 else:
     # Fallback to SQLite if no DATABASE_URL
     DATABASE_URL = "sqlite:///./ev_local.db"
