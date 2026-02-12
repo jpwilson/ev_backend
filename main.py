@@ -44,7 +44,9 @@ load_dotenv()  # take environment variables from .env here
 
 API_KEY = os.getenv("API_SECRET_KEY", "no_key")
 API_KEY_NAME = os.getenv("API_SECRET_KEY_NAME", "no_key_name")
+ADMIN_SECRET_KEY = os.getenv("ADMIN_SECRET_KEY", "")
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
+admin_key_header = APIKeyHeader(name="X-Admin-Key", auto_error=False)
 
 
 async def get_api_key(api_key_header: str = Security(api_key_header)):
@@ -55,6 +57,23 @@ async def get_api_key(api_key_header: str = Security(api_key_header)):
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Could not validate credentials here",
         )
+
+
+async def get_admin_api_key(
+    api_key_header: str = Security(api_key_header),
+    admin_key: str = Security(admin_key_header),
+):
+    if api_key_header != API_KEY:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Invalid API key",
+        )
+    if not ADMIN_SECRET_KEY or admin_key != ADMIN_SECRET_KEY:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Invalid admin key",
+        )
+    return admin_key
 
 
 app = FastAPI()
@@ -74,10 +93,10 @@ origins = [
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST", "PATCH", "OPTIONS"],
     allow_credentials=True,
     allow_headers=["*"],
-)  # Only allow GET requests
+)
 
 from datetime import date
 
@@ -265,9 +284,14 @@ async def read_car_by_id(
         # return JSONResponse(status_code=500, content={"message": str(e)})
 
 
+@app.get("/admin/verify")
+async def verify_admin_key(admin_key: str = Depends(get_admin_api_key)):
+    return {"status": "ok", "message": "Admin key verified"}
+
+
 @app.post("/cars", response_model=CarCreate)
 async def create_car(
-    car: CarBase, db: db_dependency, api_key: str = Depends(get_api_key)
+    car: CarBase, db: db_dependency, api_key: str = Depends(get_admin_api_key)
 ):
     db_car = models.Car(**car.model_dump())
     db.add(db_car)
@@ -278,7 +302,7 @@ async def create_car(
 
 @app.post("/cars/bulk", response_model=List[CarCreate])
 async def create_bulk_cars(
-    cars: List[CarBase], db: db_dependency, api_key: str = Depends(get_api_key)
+    cars: List[CarBase], db: db_dependency, api_key: str = Depends(get_admin_api_key)
 ):
     db_cars = []
     for car in cars:
@@ -296,7 +320,7 @@ async def update_car(
     car_id: int,
     car_update: CarUpdate,
     db: db_dependency,
-    api_key: str = Depends(get_api_key),
+    api_key: str = Depends(get_admin_api_key),
 ):
     db_car = db.query(models.Car).filter(models.Car.id == car_id).first()
     if not db_car:
@@ -346,6 +370,41 @@ async def read_cars(
     # return cars
 
 
+@app.get("/cars/admin-list")
+async def read_cars_admin_list(
+    db: db_dependency,
+    api_key: str = Depends(get_admin_api_key),
+):
+    """Return all cars with basic info for admin car picker."""
+    cars = (
+        db.query(
+            models.Car.id,
+            models.Car.make_name,
+            models.Car.model,
+            models.Car.submodel,
+            models.Car.generation,
+            models.Car.is_model_rep,
+            models.Car.image_url,
+            models.Car.availability_desc,
+        )
+        .order_by(models.Car.make_name, models.Car.model, models.Car.submodel)
+        .all()
+    )
+    return [
+        {
+            "id": c.id,
+            "make_name": c.make_name,
+            "model": c.model,
+            "submodel": c.submodel,
+            "generation": c.generation,
+            "is_model_rep": c.is_model_rep,
+            "image_url": c.image_url,
+            "availability_desc": c.availability_desc,
+        }
+        for c in cars
+    ]
+
+
 @app.get("/car_features")
 async def read_car_features(db: db_dependency, api_key: str = Depends(get_api_key)):
     cars = db.query(models.Car).all()
@@ -376,7 +435,7 @@ async def read_make(
 
 @app.post("/makes", response_model=MakeCreate)
 async def create_make(
-    make: MakeBase, db: db_dependency, api_key: str = Depends(get_api_key)
+    make: MakeBase, db: db_dependency, api_key: str = Depends(get_admin_api_key)
 ):
     make_data = make.model_dump(exclude_unset=True)
     db_make = models.Make(**make_data)
@@ -389,7 +448,7 @@ async def create_make(
 
 @app.post("/makes/bulk", response_model=List[MakeCreate])
 async def create_bulk_makes(
-    makes: List[MakeBase], db: db_dependency, api_key: str = Depends(get_api_key)
+    makes: List[MakeBase], db: db_dependency, api_key: str = Depends(get_admin_api_key)
 ):
     db_makes = []
     for make in makes:
@@ -407,7 +466,7 @@ async def update_make(
     make_id: int,
     make_update: MakeUpdate,
     db: db_dependency,
-    api_key: str = Depends(get_api_key),
+    api_key: str = Depends(get_admin_api_key),
 ):
     db_make = db.query(models.Make).filter(models.Make.id == make_id).first()
     print(f"This is what db_make name is: {db_make}")
@@ -501,7 +560,7 @@ async def read_makes(
 
 @app.post("/people", response_model=PersonCreate)
 async def create_person(
-    person: PersonBase, db: db_dependency, api_key: str = Depends(get_api_key)
+    person: PersonBase, db: db_dependency, api_key: str = Depends(get_admin_api_key)
 ):
     db_person = models.Person(**person.model_dump())
     db.add(db_person)
@@ -512,7 +571,7 @@ async def create_person(
 
 @app.post("/people/bulk", response_model=List[PersonCreate])
 async def create_bulk_people(
-    people: List[PersonBase], db: db_dependency, api_key: str = Depends(get_api_key)
+    people: List[PersonBase], db: db_dependency, api_key: str = Depends(get_admin_api_key)
 ):
     db_people = []
     for person in people:
@@ -530,7 +589,7 @@ async def update_person(
     person_id: int,
     person_data: PersonBase,
     db: db_dependency,
-    api_key: str = Depends(get_api_key),
+    api_key: str = Depends(get_admin_api_key),
 ):
     db_person = db.query(models.Person).filter(models.Person.id == person_id).first()
     if not db_person:
