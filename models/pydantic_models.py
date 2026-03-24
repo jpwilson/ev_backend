@@ -3,6 +3,36 @@ from typing import Dict, List, Optional, Tuple
 from pydantic import BaseModel, ConfigDict, Field
 
 
+class NewsletterSubscribeRequest(BaseModel):
+    email: str = Field(..., description="Subscriber email address")
+
+
+class NewsletterSubscribeResponse(BaseModel):
+    message: str
+    email: str
+    already_subscribed: bool = False
+
+
+class ContactRequest(BaseModel):
+    name: str = Field(..., min_length=1, max_length=200)
+    email: str = Field(..., min_length=1)
+    message: str = Field(..., min_length=1, max_length=5000)
+
+
+class ContactResponse(BaseModel):
+    message: str
+    id: int
+
+
+class PaginatedCarsResponse(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
+    items: List["CarRead"] = []
+    total: int
+    limit: int
+    offset: int
+
+
 class Review(BaseModel):
     description: str
     url: str  # HttpUrl

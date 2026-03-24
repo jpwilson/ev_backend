@@ -1,10 +1,12 @@
 import os
-from datetime import date
+import re
+from datetime import date, datetime
 from fastapi import FastAPI, HTTPException, Depends, Header, Request
 
 from typing import Annotated, List, Optional, Dict
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, Response
 from sqlalchemy.orm import Session, joinedload, subqueryload
+from sqlalchemy import func as sa_func
 
 from pydantic import BaseModel, HttpUrl, Field
 
@@ -33,6 +35,11 @@ from models.pydantic_models import (
     PersonRead,
     PreviousGeneration,
     SubmodelInfo,
+    NewsletterSubscribeRequest,
+    NewsletterSubscribeResponse,
+    ContactRequest,
+    ContactResponse,
+    PaginatedCarsResponse,
 )
 
 from dotenv import load_dotenv
@@ -99,8 +106,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from datetime import date
-
 # TODO - move helper methods to a new folder/ file... (Tues 14Nov 2023)
 # helper models:
 
@@ -132,23 +137,42 @@ async def wel():
     return "Yo myman, it should work now - but others won't w/o access"
 
 
-@app.get("/cars/model-reps", response_model=List[CarRead])
+@app.get("/cars/model-reps", response_model=PaginatedCarsResponse)
 async def read_representative_models(
     db: db_dependency,
     api_key: str = Depends(get_api_key),
+    limit: Optional[int] = None,
+    offset: int = 0,
 ):
-    representative_cars = (
+    """Get representative models with optional pagination.
+
+    - If limit is omitted, returns ALL model reps (backwards-compatible).
+    - If limit is provided, returns paginated results with total count.
+    """
+    base_query = (
         db.query(models.Car)
         .options(joinedload(models.Car.make))
         .filter(models.Car.is_model_rep == True)
-        .all()
     )
+
+    total = base_query.count()
+
+    if limit is not None:
+        representative_cars = base_query.offset(offset).limit(limit).all()
+    else:
+        representative_cars = base_query.all()
+
     for car in representative_cars:
         car.average_rating = calculate_average_rating(car.customer_and_critic_rating)
         if car.make and not car.make_name:
             car.make_name = car.make.name
 
-    return representative_cars
+    return PaginatedCarsResponse(
+        items=representative_cars,
+        total=total,
+        limit=limit if limit is not None else total,
+        offset=offset,
+    )
 
 
 @app.get("/cars/submodels/{make_model_slug}", response_model=List[CarRead])
@@ -614,3 +638,258 @@ async def read_people(
 ):
     people = db.query(models.Person).offset(skip).limit(limit).all()
     return people
+
+
+# ==================== NEWSLETTER ====================
+
+
+@app.post("/api/newsletter/subscribe", response_model=NewsletterSubscribeResponse)
+async def newsletter_subscribe(
+    payload: NewsletterSubscribeRequest,
+    db: db_dependency,
+):
+    """Subscribe an email to the newsletter. Handles duplicates via upsert."""
+    email = payload.email.strip().lower()
+
+    # Basic email validation
+    if not re.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", email):
+        raise HTTPException(status_code=400, detail="Invalid email address")
+
+    existing = (
+        db.query(models.NewsletterSubscriber)
+        .filter(models.NewsletterSubscriber.email == email)
+        .first()
+    )
+
+    if existing:
+        # Re-subscribe if previously unsubscribed
+        if existing.unsubscribed_at is not None:
+            existing.unsubscribed_at = None
+            existing.subscribed_at = datetime.utcnow()
+            db.commit()
+            return NewsletterSubscribeResponse(
+                message="Successfully re-subscribed",
+                email=email,
+                already_subscribed=False,
+            )
+        return NewsletterSubscribeResponse(
+            message="Email is already subscribed",
+            email=email,
+            already_subscribed=True,
+        )
+
+    subscriber = models.NewsletterSubscriber(email=email)
+    db.add(subscriber)
+    db.commit()
+    return NewsletterSubscribeResponse(
+        message="Successfully subscribed",
+        email=email,
+        already_subscribed=False,
+    )
+
+
+# ==================== CONTACT FORM ====================
+
+
+@app.post("/api/contact", response_model=ContactResponse)
+async def contact_submit(
+    payload: ContactRequest,
+    db: db_dependency,
+):
+    """Store a contact form submission."""
+    submission = models.ContactSubmission(
+        name=payload.name.strip(),
+        email=payload.email.strip().lower(),
+        message=payload.message.strip(),
+    )
+    db.add(submission)
+    db.commit()
+    db.refresh(submission)
+    return ContactResponse(
+        message="Message received. We'll get back to you soon.",
+        id=submission.id,
+    )
+
+
+# ==================== DYNAMIC SITEMAP ====================
+
+FRONTEND_BASE_URL = "https://www.evlineup.org"
+
+
+@app.get("/sitemap.xml")
+async def sitemap_xml(db: db_dependency):
+    """Generate a dynamic sitemap with all public pages, car models, and manufacturers."""
+
+    # Static pages
+    static_pages = [
+        {"loc": "/", "priority": "1.0", "changefreq": "weekly"},
+        {"loc": "/about", "priority": "0.5", "changefreq": "monthly"},
+    ]
+
+    # Fetch all model-rep cars for model detail pages
+    cars = (
+        db.query(
+            models.Car.make_model_slug,
+            models.Car.id,
+            models.Car.updated_at,
+        )
+        .filter(models.Car.is_model_rep == True)
+        .all()
+    )
+
+    # Fetch all makes for manufacturer pages
+    makes = (
+        db.query(models.Make.id, models.Make.name, models.Make.updated_at)
+        .all()
+    )
+
+    # Build XML
+    urls = []
+
+    for page in static_pages:
+        urls.append(
+            f'  <url>\n'
+            f'    <loc>{FRONTEND_BASE_URL}{page["loc"]}</loc>\n'
+            f'    <changefreq>{page["changefreq"]}</changefreq>\n'
+            f'    <priority>{page["priority"]}</priority>\n'
+            f'  </url>'
+        )
+
+    for car in cars:
+        lastmod = ""
+        if car.updated_at:
+            lastmod = f"\n    <lastmod>{car.updated_at.strftime('%Y-%m-%d')}</lastmod>"
+        # Model detail page
+        if car.make_model_slug:
+            urls.append(
+                f'  <url>\n'
+                f'    <loc>{FRONTEND_BASE_URL}/model_detail/{car.make_model_slug}</loc>{lastmod}\n'
+                f'    <changefreq>weekly</changefreq>\n'
+                f'    <priority>0.8</priority>\n'
+                f'  </url>'
+            )
+        # Car detail page by ID
+        urls.append(
+            f'  <url>\n'
+            f'    <loc>{FRONTEND_BASE_URL}/car_detail/{car.id}</loc>{lastmod}\n'
+            f'    <changefreq>weekly</changefreq>\n'
+            f'    <priority>0.7</priority>\n'
+            f'  </url>'
+        )
+
+    for make in makes:
+        lastmod = ""
+        if make.updated_at:
+            lastmod = f"\n    <lastmod>{make.updated_at.strftime('%Y-%m-%d')}</lastmod>"
+        make_slug = make.name.lower().replace(" ", "-") if make.name else str(make.id)
+        urls.append(
+            f'  <url>\n'
+            f'    <loc>{FRONTEND_BASE_URL}/manufacturer/{make_slug}</loc>{lastmod}\n'
+            f'    <changefreq>monthly</changefreq>\n'
+            f'    <priority>0.6</priority>\n'
+            f'  </url>'
+        )
+
+    xml_content = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(urls)
+        + "\n</urlset>"
+    )
+
+    return Response(content=xml_content, media_type="application/xml")
+
+
+# ==================== PRE-RENDERING / OG META SUPPORT ====================
+
+
+@app.get("/api/og-meta/{path:path}")
+async def og_meta(path: str, db: db_dependency):
+    """Return OG meta tags as HTML for social media crawlers.
+
+    Use with Vercel rewrites to serve this to crawlers (facebookexternalhit,
+    Twitterbot, LinkedInBot, etc.) while serving the SPA to regular users.
+    """
+    title = "EV Lineup — Electric Vehicle Comparison"
+    description = "Compare electric vehicles side by side. Specs, pricing, range, and reviews for every EV on the market."
+    image = f"{FRONTEND_BASE_URL}/og-default.png"
+    url = f"{FRONTEND_BASE_URL}/{path}"
+
+    # Model detail page: /model_detail/{slug}
+    if path.startswith("model_detail/"):
+        slug = path.replace("model_detail/", "")
+        car = (
+            db.query(models.Car)
+            .options(joinedload(models.Car.make))
+            .filter(
+                models.Car.make_model_slug == slug,
+                models.Car.is_model_rep == True,
+            )
+            .first()
+        )
+        if car:
+            make_name = car.make_name or (car.make.name if car.make else "")
+            title = f"{make_name} {car.model} — EV Lineup"
+            description = car.model_description or car.car_description or f"Compare {make_name} {car.model} specs, range, pricing, and reviews."
+            if car.image_url:
+                image = car.image_url
+
+    # Car detail page: /car_detail/{id}
+    elif path.startswith("car_detail/"):
+        car_id_str = path.replace("car_detail/", "")
+        if car_id_str.isdigit():
+            car = (
+                db.query(models.Car)
+                .options(joinedload(models.Car.make))
+                .filter(models.Car.id == int(car_id_str))
+                .first()
+            )
+            if car:
+                make_name = car.make_name or (car.make.name if car.make else "")
+                submodel = f" {car.submodel}" if car.submodel else ""
+                title = f"{make_name} {car.model}{submodel} — EV Lineup"
+                description = car.car_description or f"Detailed specs, pricing, and reviews for the {make_name} {car.model}{submodel}."
+                if car.image_url:
+                    image = car.image_url
+
+    # Manufacturer page: /manufacturer/{slug}
+    elif path.startswith("manufacturer/"):
+        make_slug = path.replace("manufacturer/", "")
+        make = (
+            db.query(models.Make)
+            .filter(sa_func.lower(models.Make.name) == make_slug.replace("-", " "))
+            .first()
+        )
+        if make:
+            title = f"{make.name} Electric Vehicles — EV Lineup"
+            description = make.description or f"Explore all {make.name} electric vehicles, specs, and pricing."
+            if make.lrg_logo_img_url:
+                image = make.lrg_logo_img_url
+
+    # Truncate description for OG tags
+    if len(description) > 200:
+        description = description[:197] + "..."
+
+    html = f"""<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{title}</title>
+    <meta property="og:title" content="{title}" />
+    <meta property="og:description" content="{description}" />
+    <meta property="og:image" content="{image}" />
+    <meta property="og:url" content="{url}" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:description" content="{description}" />
+    <meta name="twitter:image" content="{image}" />
+    <meta name="description" content="{description}" />
+</head>
+<body>
+    <p>{description}</p>
+    <p><a href="{url}">View on EV Lineup</a></p>
+</body>
+</html>"""
+
+    return Response(content=html, media_type="text/html")
