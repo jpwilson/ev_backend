@@ -45,6 +45,25 @@ make_ceo_association = Table(
 )
 
 
+class NewsletterSubscriber(Base):
+    __tablename__ = "newsletter_subscribers"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    email = Column(String, unique=True, nullable=False, index=True)
+    subscribed_at = Column(DateTime, nullable=False, server_default=func.now())
+    unsubscribed_at = Column(DateTime, nullable=True)
+
+
+class ContactSubmission(Base):
+    __tablename__ = "contact_submissions"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    name = Column(String, nullable=False)
+    email = Column(String, nullable=False)
+    message = Column(Text, nullable=False)
+    submitted_at = Column(DateTime, nullable=False, server_default=func.now())
+
+
 class Car(Base):
     __tablename__ = "cars"
 
