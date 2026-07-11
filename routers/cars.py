@@ -1,7 +1,7 @@
 """Car endpoints."""
 
 from typing import List
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Response
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import joinedload
 
@@ -16,9 +16,55 @@ from services.car_features import bucket_cars_by_attributes
 
 router = APIRouter(tags=["cars"])
 
+# CDN cache: catalog changes rarely; serve stale while revalidating
+CACHE_LIST = "public, s-maxage=300, stale-while-revalidate=3600"
+CACHE_DETAIL = "public, s-maxage=600, stale-while-revalidate=3600"
+
+# Card-sized projection for the home grid/table — full objects are 60 fields
+# (~288KB for the list); cards need these (~30KB).
+CARD_COLUMNS = (
+    models.Car.id,
+    models.Car.make_id,
+    models.Car.make_name,
+    models.Car.model,
+    models.Car.submodel,
+    models.Car.generation,
+    models.Car.image_url,
+    models.Car.current_price,
+    models.Car.epa_range,
+    models.Car.acceleration_0_60,
+    models.Car.top_speed,
+    models.Car.make_model_slug,
+    models.Car.vehicle_class,
+    models.Car.production_availability,
+    models.Car.availability_desc,
+    models.Car.trim_first_released,
+    models.Car.carmodel_first_released,
+    models.Car.customer_and_critic_rating,  # collapsed to average_rating below
+)
+
+
+@router.get("/cars/cards")
+async def read_car_cards(db: db_dependency, response: Response):
+    """Slim card list for the home grid: representative models only."""
+    rows = (
+        db.query(*CARD_COLUMNS)
+        .filter(models.Car.is_model_rep == True)  # noqa: E712
+        .all()
+    )
+    result = []
+    for row in rows:
+        d = dict(zip([c.key for c in CARD_COLUMNS], row))
+        d["average_rating"] = calculate_average_rating(
+            d.pop("customer_and_critic_rating")
+        )
+        result.append(d)
+    response.headers["Cache-Control"] = CACHE_LIST
+    return result
+
 
 @router.get("/cars/model-reps", response_model=List[CarRead])
-async def read_representative_models(db: db_dependency):
+async def read_representative_models(db: db_dependency, response: Response):
     representative_cars = (
         db.query(models.Car)
         .options(joinedload(models.Car.make))
@@ -29,6 +75,7 @@ async def read_representative_models(db: db_dependency):
         car.average_rating = calculate_average_rating(car.customer_and_critic_rating)
         if car.make and not car.make_name:
             car.make_name = car.make.name
+    response.headers["Cache-Control"] = CACHE_LIST
     return representative_cars
 
 
@@ -43,7 +90,10 @@ async def read_submodels(make_model_slug: str, db: db_dependency):
 
 
 @router.get("/cars/model-details/{make_model_slug}", response_model=ModelDetailResponse)
-async def read_model_details_and_submodels(make_model_slug: str, db: db_dependency):
+async def read_model_details_and_submodels(
+    make_model_slug: str, db: db_dependency, response: Response
+):
+    response.headers["Cache-Control"] = CACHE_DETAIL
     representative_model = (
         db.query(models.Car)
         .filter(
@@ -201,7 +251,8 @@ async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
 
 
 @router.get("/car_features")
-async def read_car_features(db: db_dependency):
+async def read_car_features(db: db_dependency, response: Response):
+    response.headers["Cache-Control"] = CACHE_LIST
     cars = db.query(models.Car).all()
     car_features = bucket_cars_by_attributes(cars)
     return car_features

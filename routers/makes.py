@@ -1,7 +1,7 @@
 """Make endpoints."""
 
 from typing import List
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Response
 from sqlalchemy.orm import subqueryload
 
 import models.orm_models as models
@@ -29,7 +29,10 @@ async def read_make(make_id: str, db: db_dependency):
 
 
 @router.get("/makes", response_model=List[MakeRead])
-async def read_makes(db: db_dependency, skip: int = 0, limit: int = 100):
+async def read_makes(
+    db: db_dependency, response: Response, skip: int = 0, limit: int = 100
+):
+    response.headers["Cache-Control"] = "public, s-maxage=3600, stale-while-revalidate=86400"
     makes = (
         db.query(models.Make)
         .options(subqueryload(models.Make.cars))
