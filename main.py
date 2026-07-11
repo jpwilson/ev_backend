@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import cars, makes, people, admin, user_routes
+from routers import cars, makes, people, admin, user_routes, seo
 
 app = FastAPI()
 
@@ -40,6 +40,7 @@ app.include_router(makes.router)
 app.include_router(people.router)
 app.include_router(admin.router)
 app.include_router(user_routes.router)
+app.include_router(seo.router)
 
 
 @app.get("/")
