@@ -184,6 +184,18 @@ def receive_before_update(mapper, connection, target):
         target.make_model_slug = SlugService.create_slug(make_name, model_name)
 
 
+class NewsletterSubscriber(Base):
+    """Matches the existing public.newsletter_subscribers table in Supabase."""
+
+    __tablename__ = "newsletter_subscribers"
+    __table_args__ = {"extend_existing": True}
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    email = Column(String, nullable=False, unique=True)
+    subscribed_at = Column(DateTime(timezone=True), server_default=func.now())
+    unsubscribed_at = Column(DateTime(timezone=True), nullable=True)
+
+
 class Make(Base):
     __tablename__ = "makes"
 
