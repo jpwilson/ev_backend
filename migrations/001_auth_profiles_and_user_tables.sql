@@ -33,6 +33,16 @@ CREATE TRIGGER on_auth_user_created
   AFTER INSERT ON auth.users
   FOR EACH ROW EXECUTE FUNCTION public.handle_new_user();
 
+-- 2b. Backfill profiles for any users who signed up BEFORE this migration ran
+-- (makes deploy order irrelevant: the auth UI can ship first, migration later)
+INSERT INTO public.profiles (id, display_name, avatar_url)
+SELECT u.id,
+       COALESCE(u.raw_user_meta_data->>'full_name', u.raw_user_meta_data->>'name', u.email),
+       COALESCE(u.raw_user_meta_data->>'avatar_url', u.raw_user_meta_data->>'picture')
+FROM auth.users u
+LEFT JOIN public.profiles p ON p.id = u.id
+WHERE p.id IS NULL;
+
 -- 3. User favorites
 CREATE TABLE IF NOT EXISTS public.user_favorites (
   id BIGSERIAL PRIMARY KEY,
