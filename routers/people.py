@@ -5,25 +5,21 @@ from fastapi import APIRouter, Depends, HTTPException
 
 import models.orm_models as models
 from models.pydantic_models import PersonBase, PersonCreate, PersonRead
-from dependencies import db_dependency, get_api_key, get_admin_api_key
+from auth import get_admin_access
+from dependencies import db_dependency
 
 router = APIRouter(tags=["people"])
 
 
 @router.get("/people", response_model=List[PersonRead])
-async def read_people(
-    db: db_dependency,
-    skip: int = 0,
-    limit: int = 100,
-    api_key: str = Depends(get_api_key),
-):
+async def read_people(db: db_dependency, skip: int = 0, limit: int = 100):
     people = db.query(models.Person).offset(skip).limit(limit).all()
     return people
 
 
 @router.post("/people", response_model=PersonCreate)
 async def create_person(
-    person: PersonBase, db: db_dependency, api_key: str = Depends(get_admin_api_key)
+    person: PersonBase, db: db_dependency, admin: dict = Depends(get_admin_access)
 ):
     db_person = models.Person(**person.model_dump())
     db.add(db_person)
@@ -34,7 +30,7 @@ async def create_person(
 
 @router.post("/people/bulk", response_model=List[PersonCreate])
 async def create_bulk_people(
-    people: List[PersonBase], db: db_dependency, api_key: str = Depends(get_admin_api_key)
+    people: List[PersonBase], db: db_dependency, admin: dict = Depends(get_admin_access)
 ):
     db_people = []
     for person in people:
@@ -52,7 +48,7 @@ async def update_person(
     person_id: int,
     person_data: PersonBase,
     db: db_dependency,
-    api_key: str = Depends(get_admin_api_key),
+    admin: dict = Depends(get_admin_access),
 ):
     db_person = db.query(models.Person).filter(models.Person.id == person_id).first()
     if not db_person:

@@ -10,17 +10,15 @@ from models.pydantic_models import (
     CarBase, CarUpdate, CarCreate, CarRead,
     ModelDetailResponse, MakeDetails, SubmodelInfo, PreviousGeneration,
 )
-from dependencies import db_dependency, get_api_key, get_admin_api_key, calculate_average_rating
+from auth import get_admin_access
+from dependencies import db_dependency, calculate_average_rating
 from services.car_features import bucket_cars_by_attributes
 
 router = APIRouter(tags=["cars"])
 
 
 @router.get("/cars/model-reps", response_model=List[CarRead])
-async def read_representative_models(
-    db: db_dependency,
-    api_key: str = Depends(get_api_key),
-):
+async def read_representative_models(db: db_dependency):
     representative_cars = (
         db.query(models.Car)
         .options(joinedload(models.Car.make))
@@ -35,11 +33,7 @@ async def read_representative_models(
 
 
 @router.get("/cars/submodels/{make_model_slug}", response_model=List[CarRead])
-async def read_submodels(
-    make_model_slug: str,
-    db: db_dependency,
-    api_key: str = Depends(get_api_key),
-):
+async def read_submodels(make_model_slug: str, db: db_dependency):
     submodels = (
         db.query(models.Car).filter(models.Car.make_model_slug == make_model_slug).all()
     )
@@ -49,11 +43,7 @@ async def read_submodels(
 
 
 @router.get("/cars/model-details/{make_model_slug}", response_model=ModelDetailResponse)
-async def read_model_details_and_submodels(
-    make_model_slug: str,
-    db: db_dependency,
-    api_key: str = Depends(get_api_key),
-):
+async def read_model_details_and_submodels(make_model_slug: str, db: db_dependency):
     representative_model = (
         db.query(models.Car)
         .filter(
@@ -138,7 +128,7 @@ async def read_model_details_and_submodels(
 @router.get("/cars/admin-list")
 async def read_cars_admin_list(
     db: db_dependency,
-    api_key: str = Depends(get_admin_api_key),
+    admin: dict = Depends(get_admin_access),
 ):
     """Return all cars with basic info for admin car picker."""
     cars = (
@@ -171,9 +161,7 @@ async def read_cars_admin_list(
 
 
 @router.get("/cars/{car_id}", response_model=CarRead)
-async def read_car_by_id(
-    car_id: int, db: db_dependency, api_key: str = Depends(get_api_key)
-):
+async def read_car_by_id(car_id: int, db: db_dependency):
     try:
         car = db.query(models.Car).filter(models.Car.id == car_id).first()
         if car:
@@ -193,12 +181,7 @@ async def read_car_by_id(
 
 
 @router.get("/cars", response_model=List[CarRead])
-async def read_cars(
-    db: db_dependency,
-    skip: int = 0,
-    limit: int = 100,
-    api_key: str = Depends(get_api_key),
-):
+async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
     cars = (
         db.query(models.Car)
         .options(joinedload(models.Car.make))
@@ -218,7 +201,7 @@ async def read_cars(
 
 
 @router.get("/car_features")
-async def read_car_features(db: db_dependency, api_key: str = Depends(get_api_key)):
+async def read_car_features(db: db_dependency):
     cars = db.query(models.Car).all()
     car_features = bucket_cars_by_attributes(cars)
     return car_features
@@ -226,7 +209,7 @@ async def read_car_features(db: db_dependency, api_key: str = Depends(get_api_ke
 
 @router.post("/cars", response_model=CarCreate)
 async def create_car(
-    car: CarBase, db: db_dependency, api_key: str = Depends(get_admin_api_key)
+    car: CarBase, db: db_dependency, admin: dict = Depends(get_admin_access)
 ):
     db_car = models.Car(**car.model_dump())
     db.add(db_car)
@@ -237,7 +220,7 @@ async def create_car(
 
 @router.post("/cars/bulk", response_model=List[CarCreate])
 async def create_bulk_cars(
-    cars: List[CarBase], db: db_dependency, api_key: str = Depends(get_admin_api_key)
+    cars: List[CarBase], db: db_dependency, admin: dict = Depends(get_admin_access)
 ):
     db_cars = []
     for car in cars:
@@ -255,7 +238,7 @@ async def update_car(
     car_id: int,
     car_update: CarUpdate,
     db: db_dependency,
-    api_key: str = Depends(get_admin_api_key),
+    admin: dict = Depends(get_admin_access),
 ):
     db_car = db.query(models.Car).filter(models.Car.id == car_id).first()
     if not db_car:

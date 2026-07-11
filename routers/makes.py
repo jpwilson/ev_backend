@@ -6,17 +6,14 @@ from sqlalchemy.orm import subqueryload
 
 import models.orm_models as models
 from models.pydantic_models import MakeBase, MakeCreate, MakeRead, MakeUpdate
-from dependencies import db_dependency, get_api_key, get_admin_api_key
+from auth import get_admin_access
+from dependencies import db_dependency
 
 router = APIRouter(tags=["makes"])
 
 
 @router.get("/makes/{make_id}", response_model=MakeRead)
-async def read_make(
-    make_id: str,
-    db: db_dependency,
-    api_key: str = Depends(get_api_key),
-):
+async def read_make(make_id: str, db: db_dependency):
     make = (
         db.query(models.Make)
         .options(subqueryload(models.Make.cars))
@@ -32,12 +29,7 @@ async def read_make(
 
 
 @router.get("/makes", response_model=List[MakeRead])
-async def read_makes(
-    db: db_dependency,
-    skip: int = 0,
-    limit: int = 100,
-    api_key: str = Depends(get_api_key),
-):
+async def read_makes(db: db_dependency, skip: int = 0, limit: int = 100):
     makes = (
         db.query(models.Make)
         .options(subqueryload(models.Make.cars))
@@ -55,7 +47,7 @@ async def read_makes(
 
 @router.post("/makes", response_model=MakeCreate)
 async def create_make(
-    make: MakeBase, db: db_dependency, api_key: str = Depends(get_admin_api_key)
+    make: MakeBase, db: db_dependency, admin: dict = Depends(get_admin_access)
 ):
     make_data = make.model_dump(exclude_unset=True)
     db_make = models.Make(**make_data)
@@ -67,7 +59,7 @@ async def create_make(
 
 @router.post("/makes/bulk", response_model=List[MakeCreate])
 async def create_bulk_makes(
-    makes: List[MakeBase], db: db_dependency, api_key: str = Depends(get_admin_api_key)
+    makes: List[MakeBase], db: db_dependency, admin: dict = Depends(get_admin_access)
 ):
     db_makes = []
     for make in makes:
@@ -85,7 +77,7 @@ async def update_make(
     make_id: int,
     make_update: MakeUpdate,
     db: db_dependency,
-    api_key: str = Depends(get_admin_api_key),
+    admin: dict = Depends(get_admin_access),
 ):
     db_make = db.query(models.Make).filter(models.Make.id == make_id).first()
     if not db_make:
