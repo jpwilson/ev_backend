@@ -20,7 +20,7 @@ router = APIRouter(tags=["seo"])
 
 CANONICAL_HOST = "https://www.evlineup.org"
 
-STATIC_PATHS = ["/", "/about", "/people", "/marketplace"]
+STATIC_PATHS = ["/", "/about", "/people", "/marketplace", "/advertise", "/privacy", "/terms"]
 
 
 def make_name_to_slug(name: str) -> str:
