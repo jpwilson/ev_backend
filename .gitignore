@@ -30,3 +30,7 @@ ENV/
 # .env files containing environment variables
 .env
 .env.*
+
+# Database dumps (contain full data — never commit)
+heroku_dump.sql
+*.dump
