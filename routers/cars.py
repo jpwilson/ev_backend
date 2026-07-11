@@ -36,6 +36,7 @@ CARD_COLUMNS = (
     models.Car.top_speed,
     models.Car.make_model_slug,
     models.Car.vehicle_class,
+    models.Car.number_of_full_adult_seats,
     models.Car.production_availability,
     models.Car.availability_desc,
     models.Car.trim_first_released,

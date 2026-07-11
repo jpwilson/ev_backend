@@ -22,6 +22,30 @@ CANONICAL_HOST = "https://www.evlineup.org"
 
 STATIC_PATHS = ["/", "/about", "/people", "/marketplace", "/advertise", "/privacy", "/terms"]
 
+# Programmatic SEO pages — long-tail comparison + best-of queries are the
+# traffic engine for spec-database sites. Keep in sync with the frontend's
+# src/data/seoPages.ts and api/prerender.js.
+BEST_PATHS = [
+    "/best/evs-under-40k",
+    "/best/longest-range-evs",
+    "/best/fastest-evs",
+    "/best/cheapest-evs",
+    "/best/3-row-evs",
+]
+
+COMPARE_PAIRS = [
+    "tesla-model-3-vs-bmw-i4",
+    "hyundai-ioniq-5-vs-kia-ev6",
+    "tesla-model-y-vs-ford-mustang-mach-e",
+    "rivian-r1s-vs-tesla-model-x",
+    "tesla-model-3-vs-hyundai-ioniq-6",
+    "ford-f150-lightning-vs-tesla-cybertruck",
+    "chevrolet-equinox-ev-vs-tesla-model-y",
+    "kia-ev9-vs-rivian-r1s",
+    "tesla-model-y-vs-hyundai-ioniq-5",
+    "rivian-r1t-vs-ford-f150-lightning",
+]
+
 
 def make_name_to_slug(name: str) -> str:
     """Mirror of frontend makeNameToSlug (src/utils/makeSlug.ts):
@@ -55,6 +79,12 @@ async def sitemap(db: db_dependency):
     for path in STATIC_PATHS:
         priority = "1.0" if path == "/" else "0.6"
         parts.append(_url(f"{CANONICAL_HOST}{path}", today, priority))
+
+    for path in BEST_PATHS:
+        parts.append(_url(f"{CANONICAL_HOST}{path}", today, "0.8"))
+
+    for pair in COMPARE_PAIRS:
+        parts.append(_url(f"{CANONICAL_HOST}/compare/{pair}", today, "0.8"))
 
     # Model pages — only slugs with a representative car (others 404)
     model_rows = (
