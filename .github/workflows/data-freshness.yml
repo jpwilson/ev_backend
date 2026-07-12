@@ -1,0 +1,23 @@
+# Daily data-freshness crawl — fetchers file change proposals into the
+# Data Inbox (/admin on the site); nothing writes the catalog directly.
+# Requires repo secret EV_ADMIN_KEY (Settings → Secrets → Actions).
+name: data-freshness
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # daily 09:00 UTC
+  workflow_dispatch: {} # manual runs from the Actions tab
+
+jobs:
+  epa-range-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify EPA ranges against fueleconomy.gov
+        env:
+          EV_ADMIN_KEY: ${{ secrets.EV_ADMIN_KEY }}
+        run: python scripts/fetchers/epa_range_check.py
