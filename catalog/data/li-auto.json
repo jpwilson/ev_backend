@@ -8,6 +8,12 @@
     "founded": 2015,
     "parent_group": null,
     "website_url": "https://www.lixiang.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/li-auto.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_logo.svg",
+      "credit": "Li Auto",
+      "license": "Public domain"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,
@@ -625,7 +631,17 @@
           "end_year": null,
           "status": "current",
           "description": "October 2026 update: in-house Lianshan 96 kWh LFP pack, single 29-inch screen, Mach M100 chip, 200 km/h top speed.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/li-auto-i6-2026.jpg",
+              "page_url": "https://www.lixiang.com/i6.html",
+              "credit": "Li Auto press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

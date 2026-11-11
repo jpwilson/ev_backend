@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
         "name": "Wikipedia: Alpha Motor Corporation"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/alpha-motor.png",
+      "page_url": "https://www.alphamotorinc.com/montage",
+      "credit": "Alpha Motor Corporation",
+      "license": "Trademark of Alpha Motor Corporation; brand logo from the maker's website"
+    }
   },
   "models": [
     {
@@ -72,7 +78,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Concept/prototype stage; no production date announced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/alpha-motor-ace-2025.jpg",
+              "page_url": "https://www.alphamotorinc.com/ace",
+              "credit": "Alpha Motor press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -178,7 +194,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Concept/prototype stage; no production date announced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/alpha-motor-jax-2025.jpg",
+              "page_url": "https://www.alphamotorinc.com/jax",
+              "credit": "Alpha Motor press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -429,7 +455,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Concept/prototype stage; no production date announced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/alpha-motor-saga-2025.jpg",
+              "page_url": "https://www.alphamotorinc.com/saga",
+              "credit": "Alpha Motor press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -521,7 +557,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Concept/prototype stage; no production date announced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/alpha-motor-montage-2025.jpg",
+              "page_url": "https://www.alphamotorinc.com/montage",
+              "credit": "Alpha Motor press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -599,7 +645,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Concept/prototype stage; no production date announced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/alpha-motor-rex-2025.jpg",
+              "page_url": "https://www.alphamotorinc.com/rex",
+              "credit": "Alpha Motor press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

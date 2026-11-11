@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/Luxeed",
         "name": "Wikipedia: Luxeed"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/luxeed.png",
+      "page_url": "https://www.luxeed-auto.com/",
+      "credit": "Luxeed (Chery / HIMA)",
+      "license": "Trademark of the manufacturer; logo from official site"
+    }
   },
   "models": [
     {
@@ -511,7 +517,17 @@
           "end_year": null,
           "status": "current",
           "description": "New packs and a 227 kW rear motor, higher ranges.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/luxeed-r7-2026.jpg",
+              "page_url": "https://hima.auto/zhijie/r7/",
+              "credit": "Luxeed press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

@@ -41,7 +41,13 @@
         "url": "https://www.autoconnectedcar.com/2026/04/court-ordered-auction-of-bollinger-motors-mullen-assets-5-13-upfitting-possible/",
         "name": "AutoConnectedCar: court-ordered auction of Bollinger assets (Apr 2026)"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/bollinger.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Bollinger_Motors_logo.png",
+      "credit": "Bollinger Motors",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "models": [
     {
@@ -270,7 +276,17 @@
           "end_year": 2025,
           "status": "discontinued",
           "description": "The only version.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bollinger-b4-2024.jpg",
+              "page_url": "https://www.prnewswire.com/news-releases/bollinger-reveals-b4-commercial-electric-truck-301616602.html",
+              "credit": "Bollinger Motors press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

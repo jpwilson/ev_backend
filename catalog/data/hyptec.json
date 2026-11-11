@@ -8,6 +8,12 @@
     "founded": 2022,
     "parent_group": "GAC Group",
     "website_url": "https://www.hyptec.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/hyptec.png",
+      "page_url": "https://www.gacgroup.com/en/suv/hyptec-ht",
+      "credit": "GAC Group",
+      "license": "Trademark of GAC Aion; logo from the GAC Group global site"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,

@@ -30,7 +30,13 @@
         "url": "https://lightyear.one/",
         "name": "Lightyear (company site)"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/lightyear.svg",
+      "page_url": "https://lightyear.one/",
+      "credit": "Lightyear",
+      "license": "Trademark of Lightyear; logo taken from the lightyear.one site header"
+    }
   },
   "models": [
     {

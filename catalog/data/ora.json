@@ -12,6 +12,12 @@
   "status_date": null,
   "status_details": null,
   "description": "Great Wall Motor's electric car brand, announced in May 2018 (Chinese name Oula). Known for cat-named cars such as the Good Cat (Funky Cat / Ora 03 abroad), Ballet Cat and Lightning Cat, it is sold as GWM Ora in Australia and other export markets.",
+  "logo": {
+   "file_url": "/pub_assets/logos/ora.png",
+   "page_url": "https://www.oraev.com/",
+   "credit": "Great Wall Motor (Ora)",
+   "license": "Trademark of Great Wall Motor; used to identify the brand"
+  },
   "sources": [
    {
     "fields": [
@@ -978,7 +984,17 @@
      "end_year": 2024,
      "status": "discontinued",
      "description": "Full-size electric performance sedan.",
-     "images": [],
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Salon_Jijialong_by_Great_Wall_Motor_Salon_front_quarter_view.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Salon_Jijialong_by_Great_Wall_Motor_Salon_front_quarter_view.jpg",
+       "credit": "Great Wall Motors Shalong",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {

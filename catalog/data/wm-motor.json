@@ -8,6 +8,12 @@
     "founded": 2015,
     "parent_group": null,
     "website_url": "https://www.wm-motor.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/wm-motor.png",
+      "page_url": "https://web.archive.org/web/20240402055053/https://www.wm-motor.com/M7/",
+      "credit": "WM Motor (Weltmeister) site logo, archived; recoloured from white to black for a light tile",
+      "license": "Trademark of WM Motor"
+    },
     "status": "acquired",
     "status_date": "2025-09",
     "status_details": "Filed for pre-restructuring bankruptcy in October 2023 and stopped production and in-car services; in September 2025 a restructuring investor took over its four companies and announced that E5 and EX5 production would resume. Production at scale is not confirmed.",
@@ -504,7 +510,17 @@
           "end_year": null,
           "status": "cancelled",
           "description": "Planned AWD sedan with an 89-98 kWh pack and about 700 km of range.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/wm-motor-m7-2022.jpg",
+              "page_url": "https://web.archive.org/web/20240402055053/https://www.wm-motor.com/M7/",
+              "credit": "WM Motor press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": []
         }

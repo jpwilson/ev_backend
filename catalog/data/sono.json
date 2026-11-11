@@ -12,6 +12,12 @@
     "status_date": "2023-02",
     "status_details": "Cancelled the Sion and stopped car development in February 2023, entered insolvency proceedings in 2023 and pivoted to solar kits for buses; Wikipedia reports the company went bankrupt in the third quarter of 2026.",
     "description": "Sono Motors was a Munich startup that crowdfunded the Sion, a cheap five-seat electric hatchback covered in solar cells. It never reached production; the company abandoned the car in 2023.",
+    "logo": {
+      "file_url": "/pub_assets/logos/sono.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Sono_Motors_logo.svg",
+      "credit": null,
+      "license": "Public domain (Wikimedia Commons); trademark"
+    },
     "sources": [
       {
         "fields": [
@@ -81,7 +87,17 @@
           "end_year": null,
           "status": "cancelled",
           "description": "Final 2022 design with a 54 kWh LFP battery; never produced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/sono-sion-2023.jpg",
+              "page_url": "https://web.archive.org/web/20221005054950/https://sonomotors.com/en/sion/",
+              "credit": "Sono Motors press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

@@ -22,7 +22,13 @@
     "url": "https://en.wikipedia.org/wiki/Radar_Auto",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/radar.svg",
+   "page_url": "https://www.radar-ev.com/",
+   "credit": "Radar Auto (Geely)",
+   "license": "Trademark of Radar New Energy Vehicle Co.; wordmark from the maker's website"
+  }
  },
  "models": [
   {

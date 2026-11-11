@@ -12,6 +12,12 @@
     "status_date": "2021",
     "status_details": "Suspended operations in June 2020; its German subsidiary went bankrupt in April 2021, China operations stopped in July 2021, and Foxconn put the joint production project on hold in September 2021.",
     "description": "Chinese-German EV start-up co-founded by former BMW and Nissan executives, known for the M-Byte SUV with a 48-inch dashboard screen. It never started series production.",
+    "logo": {
+      "file_url": "/pub_assets/logos/byton.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Byton_logo.svg",
+      "credit": null,
+      "license": "Public domain (Wikimedia Commons); trademark"
+    },
     "sources": [
       {
         "fields": [

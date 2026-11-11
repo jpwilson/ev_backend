@@ -8,6 +8,12 @@
   "founded": 2020,
   "parent_group": "SAIC Motor",
   "website_url": "https://www.immotors.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/im-motors.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:IM_Motors_2025.svg",
+   "credit": "IM Motors (via Wikimedia Commons)",
+   "license": "Public domain (Wikimedia Commons); trademark of IM Motors"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,
@@ -210,7 +216,17 @@
      "end_year": null,
      "status": "current",
      "description": "February 2024 update with longer CLTC ranges and a price cut of 38,900 yuan.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/im-motors-l7-2024.jpg",
+       "page_url": "https://www.immotors.com/website/l7_detail",
+       "credit": "IM Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {
@@ -432,7 +448,17 @@
      "end_year": null,
      "status": "current",
      "description": "June 2025 facelift with stronger motors (300 kW RWD, 579 kW AWD) and up to 700 km CLTC.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/im-motors-ls7-2025.jpg",
+       "page_url": "https://www.immotors.com/website/ls7_detail",
+       "credit": "IM Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {

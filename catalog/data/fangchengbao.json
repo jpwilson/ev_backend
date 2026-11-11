@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": null,
     "description": "BYD brand announced in June 2023 (the name means 'Formula Leopard'), known for off-road plug-in hybrids (Bao 5, Bao 8) and, since 2025, electric SUVs and Formula-series sedans. Several models are exported under the Denza or BYD names.",
+    "logo": {
+      "file_url": "/pub_assets/logos/fangchengbao.svg",
+      "page_url": "https://www.fangchengbao.com/",
+      "credit": "Fangchengbao (BYD); white site-header emblem recoloured black for a white tile",
+      "license": "Trademark of BYD; used to identify the brand"
+    },
     "sources": [
       {
         "fields": [
@@ -810,7 +816,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Announced; not yet on sale.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/fangchengbao-formula-sl-2027.jpg",
+              "page_url": "https://www.fangchengbao.com/fangchengSL",
+              "credit": "Fangchengbao (BYD) press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": []
         }

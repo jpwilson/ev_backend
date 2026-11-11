@@ -966,7 +966,17 @@
           "end_year": null,
           "status": "current",
           "description": "800-volt system, new in-house rear motor, 92 kWh (Rear Motor) or 106 kWh packs, up to 350 kW DC charging and a faster Nvidia computer. Exterior essentially unchanged.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/polestar-three-2026.jpg",
+              "page_url": "https://media.polestar.com/models/polestar-3/photos",
+              "credit": "Polestar press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

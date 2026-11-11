@@ -12,6 +12,12 @@
   "status_date": null,
   "status_details": null,
   "description": "Chinese mass-market brand built by the SAIC-GM-Wuling joint venture in Liuzhou. It made cheap electric microcars mainstream with the 2020 Hongguang Mini EV, followed by the Air EV, Bingo family and the Cloud EV, and exports them widely in Southeast Asia.",
+  "logo": {
+   "file_url": "/pub_assets/logos/wuling.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Wuling_logo_(dark_blue-gray).svg",
+   "credit": "SAIC-GM-Wuling",
+   "license": "Public domain (Wikimedia Commons); trademark"
+  },
   "sources": [
    {
     "fields": [

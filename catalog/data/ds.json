@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": null,
     "description": "French premium brand that began in 2009 as a Citroën sub-brand and became a separate marque in 2014, later part of PSA and Stellantis. Its electric cars are the DS 3 E-Tense (formerly DS 3 Crossback E-Tense), the N°4 E-Tense and the STLA Medium-based N°8 and N°7.",
+    "logo": {
+      "file_url": "/pub_assets/logos/ds.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:DS_Automobiles_2009_logo.svg",
+      "credit": "Automobiles Citroën S.A.",
+      "license": "Public domain (Wikimedia Commons); trademark"
+    },
     "sources": [
       {
         "fields": [

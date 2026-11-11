@@ -8,6 +8,12 @@
   "founded": 1941,
   "parent_group": "Stellantis",
   "website_url": "https://www.jeep.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/jeep.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jeep_logo.svg",
+   "credit": "AxG (Wikimedia Commons)",
+   "license": "Public domain"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

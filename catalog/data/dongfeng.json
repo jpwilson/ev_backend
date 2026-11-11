@@ -20,7 +20,13 @@
         "url": "https://en.wikipedia.org/wiki/Dongfeng_Nammi",
         "name": "Wikipedia: Dongfeng Nammi"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/dongfeng.png",
+      "page_url": "https://www.dongfeng-global.com/",
+      "credit": "Dongfeng Motor Corporation",
+      "license": "Trademark of Dongfeng Motor Corporation; logo from the maker's website, shown in black"
+    }
   },
   "models": [
     {

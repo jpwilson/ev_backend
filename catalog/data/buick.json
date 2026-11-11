@@ -28,7 +28,13 @@
     "url": "https://www.buick.com.cn/",
     "name": "Buick China (official site, model list Nov 2026)"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/buick.png",
+   "page_url": "https://www.buick.com/",
+   "credit": "Buick (General Motors)",
+   "license": "Trademark of General Motors; brand logo from the maker's website"
+  }
  },
  "models": [
   {

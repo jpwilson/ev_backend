@@ -35,7 +35,13 @@
         "url": "https://www.ocbj.com/automobiles/bollinger-innovations-struggles-to-survive-ev-market/",
         "name": "OC Business Journal: Bollinger Innovations struggles (Jul 2026)"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/mullen.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Mullen_logo.png",
+      "credit": "Mullen Technologies, via Wikimedia Commons",
+      "license": "CC0 1.0"
+    }
   },
   "models": [
     {
@@ -90,7 +96,17 @@
           "end_year": null,
           "status": "current",
           "description": "Launch version with a 42 kWh battery and 60 kW motor.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mullen-one-2023.jpg",
+              "page_url": "https://web.archive.org/web/20230508064352/https://www.mullenusa.com/commercial",
+              "credit": "Mullen press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -199,7 +215,17 @@
           "end_year": null,
           "status": "current",
           "description": "Launch version: 89 kWh battery, 120 kW motor.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mullen-three-2023.jpg",
+              "page_url": "https://web.archive.org/web/20230508064352/https://www.mullenusa.com/commercial",
+              "credit": "Mullen press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -399,7 +425,17 @@
           "end_year": null,
           "status": "cancelled",
           "description": "Announced only.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mullen-gt-2021.jpg",
+              "page_url": "https://web.archive.org/web/20240117054918/https://www.mullenusa.com/mullengt",
+              "credit": "Mullen press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -477,7 +513,17 @@
           "end_year": null,
           "status": "cancelled",
           "description": "Announced only.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mullen-go-2023.jpg",
+              "page_url": "https://web.archive.org/web/20240117054918/https://www.mullenusa.com/mullen-go",
+              "credit": "Mullen press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -560,7 +606,17 @@
           "end_year": 2019,
           "status": "discontinued",
           "description": "Rebadged Coda sedan.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mullen-700e-2014.jpg",
+              "page_url": "https://web.archive.org/web/20171022102120/http://www.mullenusa.com/mullen-models/700e/",
+              "credit": "Mullen press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

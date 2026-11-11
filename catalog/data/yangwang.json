@@ -8,6 +8,12 @@
     "founded": 2023,
     "parent_group": "BYD Auto",
     "website_url": "https://www.yangwangauto.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/yangwang.svg",
+      "page_url": "https://www.yangwangauto.com/en",
+      "credit": "Yangwang (BYD)",
+      "license": "Trademark of BYD; emblem from the Yangwang site header, recoloured from white to black for the white logo tile"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,
@@ -397,7 +403,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Announced; specifications not yet published.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/yangwang-altior-2027.jpg",
+              "page_url": "https://www.byd.com/de/presse/yangwang-altior-weltpremiere-2026",
+              "credit": "BYD (Yangwang) press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": []
         }

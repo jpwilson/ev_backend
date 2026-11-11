@@ -8,6 +8,12 @@
   "founded": 1919,
   "parent_group": "Volkswagen Group",
   "website_url": "https://www.bentleymotors.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/bentley.svg",
+   "page_url": "https://www.bentleymedia.com/en/",
+   "credit": "Bentley Motors",
+   "license": "Trademark of Bentley Motors; logo from the Bentley media site"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

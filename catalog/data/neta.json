@@ -8,6 +8,12 @@
     "founded": 2014,
     "parent_group": "Hozon New Energy Automobile",
     "website_url": "https://www.hozonauto.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/neta.svg",
+      "page_url": "https://www.hozonauto.com/",
+      "credit": "Hozon Auto / Neta emblem from hozonauto.com; fill changed from white to black for a light tile",
+      "license": "Trademark of Hozon New Energy Automobile"
+    },
     "status": "defunct",
     "status_date": "2025-06-13",
     "status_details": "Hozon New Energy entered court bankruptcy review on 13 June 2025 after all three plants (Yichun, Nanning, Tongxiang) stopped production; a creditor-backed plan reported in September 2026 proposes restarting Neta X production, but no restart is confirmed.",

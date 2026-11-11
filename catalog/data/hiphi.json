@@ -12,6 +12,12 @@
     "status_date": "2024-02-18",
     "status_details": "Halted production in February 2024; a court accepted Human Horizons' bankruptcy pre-reorganization application in August 2024. Lebanon's EV Electra announced an investment in May 2025 to restart the brand, but a production restart has not been confirmed.",
     "description": "Luxury EV brand of Human Horizons, known for the gull-winged HiPhi X, HiPhi Z and HiPhi Y. Production stopped in February 2024.",
+    "logo": {
+      "file_url": "/pub_assets/logos/hiphi.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:HiPhi_logo.svg",
+      "credit": "HiPhi / Human Horizons",
+      "license": "Public domain (trademarked)"
+    },
     "sources": [
       {
         "fields": [

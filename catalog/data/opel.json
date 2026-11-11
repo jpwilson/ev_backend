@@ -8,6 +8,12 @@
     "founded": 1862,
     "parent_group": "Stellantis",
     "website_url": "https://www.opel.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/opel.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Opel_logo_2023.svg",
+      "credit": "Opel Automobile GmbH",
+      "license": "Public domain (trademarked logo)"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,

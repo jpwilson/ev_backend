@@ -30,7 +30,13 @@
         "url": "https://www.microlino-car.com/en",
         "name": "Microlino"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/microlino.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Microlino_Logo.png",
+      "credit": "Microlino",
+      "license": "Public domain (Wikimedia Commons)"
+    }
   },
   "models": [
     {

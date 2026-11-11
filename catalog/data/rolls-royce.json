@@ -298,7 +298,17 @@
           "end_year": null,
           "status": "current",
           "description": "Mid-life update revealed June 2026: re-engineered cells for about 16-18% more range, more power, shorter charging times and a native NACS port in the US.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/rolls-royce-spectre-2027.jpg",
+              "page_url": "https://www.press.rolls-roycemotorcars.com/rolls-royce-motor-cars-pressclub/article/detail/T0458258EN",
+              "credit": "Rolls-Royce Motor Cars press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [
             {
               "fields": [

@@ -21,7 +21,13 @@
     "url": "https://en.wikipedia.org/wiki/ICAR_03",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/icar.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:ICar_2024_logo.svg",
+   "credit": "Chery Automobile",
+   "license": "Public domain (Wikimedia Commons; trademarked)"
+  }
  },
  "models": [
   {

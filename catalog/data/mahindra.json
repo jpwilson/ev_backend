@@ -32,7 +32,13 @@
         "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
         "name": "Wikipedia"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/mahindra.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Mahindra_Rise_New_Logo.svg",
+      "credit": "Mahindra & Mahindra",
+      "license": "Public domain (Wikimedia Commons); trademark of Mahindra & Mahindra"
+    }
   },
   "models": [
     {
@@ -639,7 +645,17 @@
           "end_year": null,
           "status": "current",
           "description": "Launch generation; specifications not yet sourced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mahindra-xuv-3xo-ev-2026.jpg",
+              "page_url": "https://auto.mahindra.com/suv/xuv3xo-ev.html",
+              "credit": "Mahindra press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -1060,7 +1076,17 @@
           "end_year": null,
           "status": "current",
           "description": "Launch generation with 59, 70 and 79 kWh LFP packs.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mahindra-xev-9s-2026.jpg",
+              "page_url": "https://www.mahindraelectricsuv.com/esuv/xev-9s.html",
+              "credit": "Mahindra press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

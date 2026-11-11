@@ -8,6 +8,12 @@
   "founded": 2016,
   "parent_group": "Zhejiang Geely Holding Group",
   "website_url": "https://www.geelycv.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/farizon.svg",
+   "page_url": "https://global.geelycv.com/",
+   "credit": "Farizon (Geely Commercial Vehicles)",
+   "license": "Trademark of Farizon; used to identify the brand"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

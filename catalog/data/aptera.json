@@ -8,6 +8,12 @@
     "founded": 2019,
     "parent_group": null,
     "website_url": "https://aptera.us",
+    "logo": {
+      "file_url": "/pub_assets/logos/aptera.svg",
+      "page_url": "https://aptera.us/",
+      "credit": "Aptera Motors",
+      "license": "Trademark of Aptera Motors; used to identify the brand"
+    },
     "status": "pre-production",
     "status_date": null,
     "status_details": "Pre-production: listed on Nasdaq (SEV) in 2025, but in March 2026 said low-volume production would start no earlier than March 2027 unless it raised another $50 million.",

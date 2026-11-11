@@ -8,6 +8,12 @@
   "founded": 1963,
   "parent_group": "Volkswagen Group",
   "website_url": "https://www.lamborghini.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/lamborghini.svg",
+   "page_url": "https://www.lamborghini.com/en-en",
+   "credit": "Automobili Lamborghini (2024 bull mark from lamborghini.com; fill changed from white to black for a light tile)",
+   "license": "Trademark of Automobili Lamborghini S.p.A."
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

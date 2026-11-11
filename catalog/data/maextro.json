@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/Maextro",
         "name": "Wikipedia: Maextro"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/maextro.svg",
+      "page_url": "https://hima.auto/",
+      "credit": "Maextro (JAC / HIMA)",
+      "license": "Trademark of JAC Group; official emblem file from hima.auto"
+    }
   },
   "models": [
     {

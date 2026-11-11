@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/AITO_(marque)",
         "name": "Wikipedia: AITO (marque)"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/aito.svg",
+      "page_url": "https://aito.auto/",
+      "credit": "AITO (Seres / HIMA)",
+      "license": "Trademark of Seres; official white wordmark from aito.auto recoloured black for a white tile"
+    }
   },
   "models": [
     {

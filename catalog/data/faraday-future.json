@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": "Still operating in 2026 but deeply loss-making: it delivered only about 16 FF 91s by January 2025, has been under Nasdaq minimum-bid notices, and has shifted focus to the Faraday X (FX) brand and robotics.",
     "description": "Faraday Future was founded in 2014 by Jia Yueting and spent nearly a decade developing the FF 91 luxury electric crossover, which finally entered low-volume production at Hanford, California in 2023. Its newer Faraday X brand sells the Super One MPV, based on a Chinese Great Wall model.",
+    "logo": {
+      "file_url": "/pub_assets/logos/faraday-future.svg",
+      "page_url": "https://www.ff.com/us/",
+      "credit": "Faraday Future",
+      "license": "Trademark of Faraday Future; used to identify the brand"
+    },
     "sources": [
       {
         "fields": [
@@ -323,7 +329,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "800-volt battery-electric version under evaluation as of 2026; no specifications published.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/faraday-future-fx-super-one-2026.jpg",
+              "page_url": "https://www.ff.com/us/fx/super-one/",
+              "credit": "Faraday Future press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

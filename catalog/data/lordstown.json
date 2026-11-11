@@ -12,6 +12,12 @@
     "status_date": "2023-06-27",
     "status_details": "Filed for Chapter 11 bankruptcy on 27 June 2023 after Endurance production stopped; it emerged in March 2024 as Nu Ride Inc., a shell with no vehicle business.",
     "description": "Lordstown Motors was founded in 2018 by Steve Burns to build the Endurance electric pickup in the former GM Lordstown plant in Ohio, which it later sold to Foxconn. Only a few hundred trucks were built in 2022-2023 before the company went bankrupt.",
+    "logo": {
+      "file_url": "/pub_assets/logos/lordstown.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Lordstown_Motors_logo.svg",
+      "credit": null,
+      "license": "Public domain (Wikimedia Commons); trademark"
+    },
     "sources": [
       {
         "fields": [

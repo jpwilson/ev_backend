@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/KG_Mobility",
         "name": "Wikipedia"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/kgm.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:KG_Mobility_brand_logo.svg",
+      "credit": "KG Mobility",
+      "license": "Public domain (Wikimedia Commons); trademark of KG Mobility"
+    }
   },
   "models": [
     {

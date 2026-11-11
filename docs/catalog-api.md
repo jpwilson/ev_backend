@@ -25,7 +25,7 @@ long arrays are cut to one or two items. Nothing else is changed.
 | Battery | `battery_kwh` with `battery_basis` (`usable`, `gross`, or `null` = not stated). |
 | `model_year` | `null` on offerings in markets without model years (EU, CN, ...): "currently offered". |
 | Markets | `US, CA, EU, UK, CN, JP, KR, IN, AU`. `EU` = EEA + Switzerland. |
-| Images | Only images a researcher opened and confirmed (`verified_by_viewing`) are returned. A generation with no verified photo returns `images: []`: show a "no photo of this generation yet" placeholder, never another generation's photo. Show `credit` + `license` linked to `page_url` when present (Wikimedia Commons needs attribution). `source: legacy` = a file from `eeveecars/public/pub_assets/car_images/` (relative URL). |
+| Images | Only images a researcher opened and confirmed (`verified_by_viewing`) are returned. A generation with no verified photo returns `images: []`: show a "no photo of this generation yet" placeholder, never another generation's photo. Show `credit` + `license` linked to `page_url` when present (Wikimedia Commons needs attribution). `source: legacy` = a file from `eeveecars/public/pub_assets/car_images/` (relative URL). `source: press` is either an https URL or a press photo saved to the site under `/pub_assets/car_images/catalog/` (relative URL, with `credit` and `page_url`). Relative URLs are site paths: use them as `src` as-is and prefix `https://www.evlineup.org` for og:image / JSON-LD. |
 | Sources | `sources: [{"fields": [...], "url": "...", "name": "..."}]` at make, model, generation and variant level. A variant's sources cover its offerings. |
 | Default generation | Newest `current` generation; else newest not `cancelled`; else newest. The model page shows it first; `is_default: true`. Generations are returned newest first. |
 | Caching | Lists: `public, s-maxage=300, stale-while-revalidate=3600`; details and resolve: `s-maxage=600`; `/catalog/makes` and the sitemap: `s-maxage=3600, stale-while-revalidate=86400` (same policies as the legacy GETs). |
@@ -88,7 +88,8 @@ long arrays are cut to one or two items. Nothing else is changed.
 ### `GET /catalog/makes`
 
 Sorted by name. `status` filter = comma-separated `display_status` values. `logo_url` is the legacy logo
-(relative or absolute URL). `model_counts` counts models by effective status.
+(relative or absolute URL). A seed `make.logo` fills it only when the make had none; seed logos are
+site paths under `/pub_assets/logos/` (SVG or PNG) or https URLs. `model_counts` counts models by effective status.
 
 ```json
 {

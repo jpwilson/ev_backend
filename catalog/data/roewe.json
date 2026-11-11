@@ -28,7 +28,13 @@
     "url": "https://en.wikipedia.org/wiki/Rising_Auto",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/roewe.png",
+   "page_url": "https://www.roewe.com.cn/",
+   "credit": "Roewe (SAIC Motor)",
+   "license": "Trademark of SAIC Motor; white site logo recoloured dark for a white tile"
+  }
  },
  "models": [
   {

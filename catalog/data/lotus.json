@@ -29,7 +29,13 @@
         "url": "https://www.electrive.com/2026/05/12/lotus-doubles-down-on-hybrids-while-scaling-back-bev-ambitions/",
         "name": "electrive"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/lotus.svg",
+      "page_url": "https://www.lotuscars.com/en-GB",
+      "credit": "Lotus Cars",
+      "license": "Trademark of Lotus Cars; taken from its website"
+    }
   },
   "models": [
     {

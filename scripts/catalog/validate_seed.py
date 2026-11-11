@@ -10,6 +10,11 @@ Usage:
 A directory expands to its *.json files, skipping names that start with "_"
 (the same rule the loader uses). Files named explicitly are always validated.
 Errors exit 1; warnings (plausibility, cross-file references) never fail.
+
+Site paths (a press photo under /pub_assets/car_images/catalog/, a make logo under
+/pub_assets/logos/) must exist under the frontend's public folder
+(eeveecars/public, or --public-dir). When that folder is not there (a server
+without the frontend checkout) the existence check is skipped.
 """
 import argparse
 import json
@@ -43,6 +48,15 @@ COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
 CURRENCY_RE = re.compile(r"^[A-Z]{3}$")
 URL_RE = re.compile(r"^https?://\S+$")
 LEGACY_IMG_PREFIX = "/pub_assets/car_images/"
+PRESS_LOCAL_PREFIX = "/pub_assets/car_images/catalog/"   # press photos stored on the site
+LOGO_PREFIX = "/pub_assets/logos/"
+HTTPS_RE = re.compile(r"^https://\S+$")
+SITE_FILE_RE = re.compile(r"^/pub_assets/[A-Za-z0-9._/-]+$")
+PRESS_LOCAL_EXT = (".jpg", ".jpeg", ".png", ".webp")
+LOGO_EXT = (".svg", ".png")
+# eeveecars/public next to ev_backend; a missing folder = skip existence checks
+PUBLIC_DIR = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                           "..", "..", "..", "eeveecars", "public"))
 
 YEAR_MIN, YEAR_MAX = 1990, 2035
 
@@ -53,7 +67,10 @@ TOP_REQ = {"make", "models"}
 TOP_OPT = {"legacy_notes", "gaps"}
 MAKE_REQ = {"slug", "name", "status"}
 MAKE_OPT = {"legacy_id", "country", "headquarters", "founded", "parent_group",
-            "website_url", "status_date", "status_details", "description", "sources"}
+            "website_url", "status_date", "status_details", "description", "sources",
+            "logo"}
+LOGO_REQ = {"file_url", "page_url"}
+LOGO_OPT = {"credit", "license"}
 MODEL_REQ = {"slug", "url_slug", "name", "body_style", "status", "generations"}
 MODEL_OPT = {"aliases", "is_commercial", "official_url", "description",
              "markets", "relations", "sources"}
@@ -130,9 +147,11 @@ def valid_date(s):
 class FileCheck:
     """Validates one parsed seed document."""
 
-    def __init__(self, rep, fname):
+    def __init__(self, rep, fname, public_dir=None):
         self.rep = rep
         self.f = fname
+        # read the module default at call time so callers/tests can repoint it
+        self.public_dir = public_dir if public_dir is not None else PUBLIC_DIR
         self.make_slug = None
         self.model_slugs = {}      # slug -> path
         self.claims = {}           # legacy car id -> path
@@ -187,6 +206,25 @@ class FileCheck:
             return
         if not isinstance(v, str) or not URL_RE.match(v):
             self.e(path, "expected an http(s) URL, got %r" % (v,))
+
+    def site_file(self, v, path, prefix, exts, what):
+        """A site path under `prefix` (served from eeveecars/public). Returns the local
+        file path when it was checked and exists, else None."""
+        if not isinstance(v, str) or not v.startswith(prefix) or not SITE_FILE_RE.match(v) \
+                or "/../" in v or "/./" in v or "//" in v:
+            self.e(path, "%s must be an https URL or a site path under %s, got %r"
+                   % (what, prefix, v))
+            return None
+        if not v.lower().endswith(exts):
+            self.e(path, "%s must end in %s, got %r" % (what, "/".join(exts), v))
+            return None
+        if not self.public_dir or not os.path.isdir(self.public_dir):
+            return None  # no frontend checkout here (e.g. a server): skip the check
+        local = os.path.join(self.public_dir, *v.lstrip("/").split("/"))
+        if not os.path.isfile(local):
+            self.e(path, "file %s not found under %s" % (v, self.public_dir))
+            return None
+        return local
 
     def date(self, v, path):
         if v is not None and not valid_date(v):
@@ -303,6 +341,8 @@ class FileCheck:
         self.date(mk.get("status_date"), path + ".status_date")
         self.string(mk.get("status_details"), path + ".status_details")
         self.string(mk.get("description"), path + ".description")
+        if mk.get("logo") is not None:
+            self.logo(mk["logo"], path + ".logo")
         srcs = self.sources(mk.get("sources"), path + ".sources")
         if mk.get("status") in ("defunct", "acquired"):
             self.needs_status_source(srcs, path + ".sources",
@@ -311,6 +351,32 @@ class FileCheck:
                 self.w(path + ".status_date", "defunct/acquired make has no status_date")
             if mk.get("status_details") is None:
                 self.w(path + ".status_details", "defunct/acquired make has no status_details")
+
+    def logo(self, lg, path):
+        if not self.obj(lg, path, LOGO_REQ, LOGO_OPT):
+            return
+        fu = lg.get("file_url")
+        if isinstance(fu, str) and fu.startswith("/"):
+            local = self.site_file(fu, path + ".file_url", LOGO_PREFIX, LOGO_EXT, "logo file_url")
+            base = os.path.splitext(fu.rsplit("/", 1)[-1])[0]
+            if self.make_slug and base != self.make_slug:
+                self.w(path + ".file_url", "logo file name '%s' does not match make slug '%s'"
+                       % (base, self.make_slug))
+            if local and local.lower().endswith(".svg"):
+                try:
+                    with open(local, encoding="utf-8", errors="replace") as fh:
+                        head = fh.read(4096)
+                    if "viewBox" not in head:
+                        self.w(path + ".file_url", "SVG logo has no viewBox; it may not scale "
+                               "to fit the logo tile")
+                except OSError:
+                    pass
+        elif fu is not None and (not isinstance(fu, str) or not HTTPS_RE.match(fu)):
+            self.e(path + ".file_url", "logo file_url must be an https URL or a site path "
+                   "under %s, got %r" % (LOGO_PREFIX, fu))
+        self.url(lg.get("page_url"), path + ".page_url")
+        self.string(lg.get("credit"), path + ".credit")
+        self.string(lg.get("license"), path + ".license")
 
     def model(self, m, path, url_slugs):
         if not self.obj(m, path, MODEL_REQ, MODEL_OPT):
@@ -475,7 +541,12 @@ class FileCheck:
                 self.e(path + ".verified_by_viewing",
                        "legacy images may only be used after viewing (must be true)")
         else:
-            self.url(fu, path + ".file_url")
+            if src == "press" and isinstance(fu, str) and fu.startswith("/"):
+                # press photo saved into the site (eeveecars/public)
+                self.site_file(fu, path + ".file_url", PRESS_LOCAL_PREFIX, PRESS_LOCAL_EXT,
+                               "press image file_url")
+            else:
+                self.url(fu, path + ".file_url")
             self.url(im.get("page_url"), path + ".page_url")
             if im.get("page_url") is None:
                 self.e(path + ".page_url", "%s image needs page_url" % src)
@@ -664,6 +735,9 @@ def main(argv=None):
     ap.add_argument("--legacy", action="append", default=[],
                     help="legacy/{make}.json; every car id in it must be claimed once")
     ap.add_argument("--json", action="store_true", help="print a JSON summary")
+    ap.add_argument("--public-dir", default=None,
+                    help="frontend public folder for site-path existence checks "
+                         "(default: eeveecars/public next to ev_backend; skipped if missing)")
     args = ap.parse_args(argv)
 
     rep = Report()
@@ -677,7 +751,7 @@ def main(argv=None):
         rep.counts["files"] += 1
         if not ok:
             continue
-        fc = FileCheck(rep, f)
+        fc = FileCheck(rep, f, args.public_dir)
         fc.run(doc)
         checks.append(fc)
 

@@ -22,7 +22,13 @@
         "url": "https://en.wikipedia.org/wiki/Peugeot",
         "name": "Wikipedia"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/peugeot.png",
+      "page_url": "https://www.peugeot.co.uk/",
+      "credit": "Peugeot",
+      "license": "Trademark of Peugeot (Stellantis); official logo file from peugeot.co.uk"
+    }
   },
   "models": [
     {
@@ -2827,7 +2833,17 @@
           "end_year": null,
           "status": "current",
           "description": "April 2024 facelift with the new Peugeot face and more range from the 75 kWh pack.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/peugeot-e-traveller-2024.jpg",
+              "page_url": "https://www.peugeot.co.uk/models/peugeot-e-traveller.html",
+              "credit": "Peugeot press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

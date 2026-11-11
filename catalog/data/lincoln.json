@@ -34,7 +34,13 @@
         "url": "https://fordauthority.com/2026/08/lincoln-lineup-set-to-expand-with-all-new-fully-electric-crossover/",
         "name": "Ford Authority: Lincoln to add UEV-based electric crossover (Aug 2026)"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/lincoln.svg",
+      "page_url": "https://www.lincoln.com.cn/",
+      "credit": "Lincoln (Ford Motor Company)",
+      "license": "Trademark of Ford Motor Company; logo from the maker's China website, shown in black"
+    }
   },
   "models": [],
   "legacy_notes": [],

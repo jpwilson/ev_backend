@@ -24,7 +24,12 @@ Any field you cannot source is `null`; arrays may be empty; do not add fields th
     "status_date": null,                // "YYYY-MM-DD" (or "YYYY-MM", "YYYY") when defunct/acquired
     "status_details": null,             // one plain sentence: "Filed for Chapter 11 bankruptcy on 17 June 2024; assets sold..."
     "description": "2-3 plain sentences.",
-    "sources": [{"fields": ["status"], "url": "https://...", "name": "Reuters"}]
+    "sources": [{"fields": ["status"], "url": "https://...", "name": "Reuters"}],
+    "logo": {                           // optional; omit or null when you have no logo
+      "file_url": "/pub_assets/logos/tesla.svg",   // site path (file in eeveecars/public/pub_assets/logos/{make_slug}.svg|png) or an https URL
+      "page_url": "https://...",        // where the logo came from (press kit, brand page, Commons file page)
+      "credit": "Tesla",                // or null
+      "license": null}                  // or e.g. "Public domain (simple geometric shapes)"
   },
   "models": [
     {
@@ -56,7 +61,8 @@ Any field you cannot source is `null`; arrays may be empty; do not add fields th
           "description": "1-2 sentences: what changed in this version.",
           "images": [
             {"source": "commons",       // commons | press | legacy
-             "file_url": "https://upload.wikimedia.org/...jpg",   // direct file URL (commons/press) or legacy path "/pub_assets/car_images/x.png"
+             "file_url": "https://upload.wikimedia.org/...jpg",   // direct file URL (commons/press), a press photo saved to the site
+                                        // "/pub_assets/car_images/catalog/kia-ev3-2025-front.jpg", or legacy path "/pub_assets/car_images/x.png"
              "page_url": "https://commons.wikimedia.org/wiki/File:...",
              "credit": "Author name", "license": "CC BY-SA 4.0",
              "view": "front_3q",        // front_3q|rear_3q|side|front|rear|interior|dashboard|detail
@@ -104,6 +110,23 @@ What the validator enforces beyond the comments above: EPA range is in `mi`, eve
 a discontinued/cancelled model and a defunct/acquired make need a source whose `fields` include `"status"`;
 every variant needs a source with a URL; commons/press images need `page_url` and `credit` (commons also
 `license`); legacy images must sit under `/pub_assets/car_images/` and have `verified_by_viewing: true`.
+
+Press photos saved to the site: `source: "press"` may use a site path under
+`/pub_assets/car_images/catalog/` (`.jpg`, `.jpeg`, `.png` or `.webp`) instead of an https URL. Put the file in
+`eeveecars/public` at that path. `page_url` (the press page it came from) and `credit` (e.g. `"Kia press photo"`)
+are required; `license` may be null or a short string such as `"Manufacturer press photo, editorial use"`.
+
+Make logos: `make.logo.file_url` is an https URL or a site path under `/pub_assets/logos/` ending in `.svg` or
+`.png` (name it `{make_slug}.svg|png`; another name is a warning). `page_url` is required, `credit` and `license`
+may be null. Prefer SVG with a `viewBox` (an SVG without one is a warning: it may not scale to the logo tile);
+a PNG should have a transparent or white background, since logos sit on a white tile. The loader writes
+`file_url` into `makes.lrg_logo_img_url` only when that column is empty: it never replaces a logo a make
+already has, so changing `logo` later does not change a make that already shows one. The logo's `page_url`,
+`credit` and `license` stay in this file (no database column).
+
+Site paths (press photos and logos) are checked against `eeveecars/public` when that folder exists next to
+`ev_backend` (or `--public-dir DIR`); a missing file is an error. Where the folder is absent (a server) the
+check is skipped.
 Implausible numbers (EPA range outside 30-800 mi, 0-60 outside 1.5-20 s, battery outside 5-250 kWh,
 DC charging outside 3-1000 kW, power outside 10-2500 hp) are warnings, not errors.
 

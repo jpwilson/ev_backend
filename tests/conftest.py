@@ -135,6 +135,19 @@ def canonical(path, body, drop_car_ids=(), drop_make_ids=()):
     return json.dumps(data, ensure_ascii=False)
 
 
+def fill_empty_logos(path, before, after):
+    """The loader may fill an empty makes.lrg_logo_img_url from a seed logo (never replace
+    one). For /makes, give `before` the logo that was filled so the rest still compares."""
+    if path != "/makes":
+        return before
+    filled = {m["id"]: m.get("lrg_logo_img_url") for m in json.loads(after)}
+    data = json.loads(before)
+    for m in data:
+        if not (m.get("lrg_logo_img_url") or "").strip() and filled.get(m["id"]):
+            m["lrg_logo_img_url"] = filled[m["id"]]
+    return json.dumps(data, ensure_ascii=False)
+
+
 def added_rows(engine):
     with engine.connect() as conn:
         cars = {r[0] for r in conn.execute(text("SELECT id FROM cars WHERE catalog_origin = 'seed'"))}

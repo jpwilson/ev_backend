@@ -8,6 +8,12 @@
     "founded": 1989,
     "parent_group": "Toyota Motor Corporation",
     "website_url": "https://www.lexus.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/lexus.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Lexus.svg",
+      "credit": "Gaspard (Wikimedia Commons)",
+      "license": "Public domain (trademarked logo)"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,

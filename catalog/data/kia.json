@@ -3835,7 +3835,17 @@
      "end_year": null,
      "status": "current",
      "description": "Electric version of the facelifted Carens Clavis MPV, Kia's first EV made in India, with 42 or 51.4 kWh packs.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-carens-clavis-ev-2025.jpg",
+       "page_url": "https://www.kia.com/in/our-vehicles/carens-clavis-ev/showroom.html",
+       "credit": "Kia India press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {
@@ -3981,7 +3991,17 @@
      "end_year": null,
      "status": "current",
      "description": "Electric version of the boxy Syros crossover on the K1 BEV platform, launched in India in July 2026.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-syros-ev-2026.jpg",
+       "page_url": "https://www.kia.com/in/our-vehicles/syros-ev/showroom.html",
+       "credit": "Kia India press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {

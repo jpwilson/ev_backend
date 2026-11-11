@@ -8,6 +8,12 @@
   "founded": 2016,
   "parent_group": "Zeekr Group (Geely Auto)",
   "website_url": "https://www.lynkco.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/lynk-co.svg",
+   "page_url": "https://www.lynkco.com/",
+   "credit": "Lynk & Co",
+   "license": "Trademark of Lynk & Co; used to identify the brand"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

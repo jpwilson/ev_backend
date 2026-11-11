@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/E.GO_Mobile",
         "name": "Wikipedia: e.GO Mobile"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/e-go.svg",
+      "page_url": "https://web.archive.org/web/20231221075923/https://e-go-mobile.com/en",
+      "credit": "e.GO Mobile",
+      "license": "Trademark of e.GO Mobile; taken from its website (archived)"
+    }
   },
   "models": [
     {
