@@ -93,13 +93,13 @@
      "description": "Built by GM in Ramos Arizpe, Mexico, from January 2024. For 2025 an upgraded front motor raised output (220 hp 2WD, 300 hp AWD) and EPA range (up to 308 mi).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2024_Honda_Prologue_Touring%2C_front_7.11.25.jpg",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-prologue-2024.jpg",
+       "page_url": "https://hondanews.com/en-US/honda-automobiles/photos/photo-a463299e9046a088b84018a758282335-2024-honda-prologue-elite",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
-       "verified_by_viewing": true,
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Honda_Prologue_Touring,_front_7.11.25.jpg",
-       "credit": "Kevauto",
-       "license": "CC BY-SA 4.0"
+       "verified_by_viewing": true
       }
      ],
      "sources": [

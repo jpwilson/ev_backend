@@ -990,20 +990,11 @@
      "description": "Mid-cycle update (revealed February 2024): 89/105 kWh gross packs, more power, up to 320 kW DC charging and much longer EPA range; adds the Turbo GT.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Porsche_Taycan_9J1_II_Carrara_White_Metallic_01.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_9J1_II_Carrara_White_Metallic_01.jpg",
-       "credit": "Ethan Llamas",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
-       "verified_by_viewing": true
-      },
-      {
-       "source": "legacy",
-       "file_url": "/pub_assets/car_images/porsche_taycan_turbo_gt.png",
-       "page_url": null,
-       "credit": null,
-       "license": null,
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/porsche-taycan-2025.jpg",
+       "page_url": "https://newsroom.porsche.com/en_US/2025/products/sporty-elegant-looks-and-increased-standard-equipment-the-2026-taycan-black-edition-sedans.html",
+       "credit": "Porsche press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2340,11 +2331,11 @@
      "description": "Facelifted Sport Turismo with the larger batteries and more power of the 2025 Taycan.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Porsche_Taycan_4S_Sport_Turismo_-_54839235130.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_4S_Sport_Turismo_-_54839235130.jpg",
-       "credit": "Alexandre Prevot",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/porsche-taycan-sport-turismo-2025.jpg",
+       "page_url": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-taycan-35190.html",
+       "credit": "Porsche press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3258,11 +3249,11 @@
      "description": "Facelifted Cross Turismo with the 105 kWh gross battery, more power and longer range.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/2024_Porsche_Taycan_Cross_Turismo_DSC_7028.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Porsche_Taycan_Cross_Turismo_DSC_7028.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/porsche-taycan-cross-turismo-2025.jpg",
+       "page_url": "https://newsroom.porsche.com/en/2024/products/porsche-the-new-taycan-35190.html",
+       "credit": "Porsche press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -4438,12 +4429,12 @@
      "description": "First electric Cayenne; series production began in February 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Porsche_Cayenne_Electric_IMG_8081_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_Electric_IMG_8081_(cropped).jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
-       "view": "rear_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/porsche-cayenne-electric-2026.jpg",
+       "page_url": "https://newsroom.porsche.com/en/2026/products/porsche-the-new-cayenne-s-electric-41864.html",
+       "credit": "Porsche press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
        "verified_by_viewing": true
       }
      ],

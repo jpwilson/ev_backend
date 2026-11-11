@@ -397,21 +397,12 @@
           "description": "Shares the pickup's drivetrains and removable roof; 830 hp in tri-motor 3X form.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2024_GMC_Hummer_EV3X_SUV%2C_front_left%2C_10-29-2023.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_GMC_Hummer_EV3X_SUV,_front_left,_10-29-2023.jpg",
-              "credit": "MercurySable99",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
-              "verified_by_viewing": true
-            },
-            {
-              "source": "legacy",
-              "file_url": "/pub_assets/car_images/gmc_hummer_ev_suv.png",
-              "page_url": null,
-              "credit": null,
-              "license": null,
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/gmc-hummer-ev-suv-2024.jpg",
+              "page_url": "https://news.gmc.com/newsroom.detail.html/Pages/news/us/en/2025/may/0515-2026-GMC-HUMMER-EV-capable-advanced-supertruck.html",
+              "credit": "GMC press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -666,11 +657,11 @@
           "description": "Crew-cab Ultium pickup with midgate, 800 V fast charging up to 350 kW and optional four-wheel steering.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/2024_GMC_Sierra_EV_Denali_in_Eugene%2C_Oregon.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_GMC_Sierra_EV_Denali_in_Eugene,_Oregon.jpg",
-              "credit": "Wlb5V",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/gmc-sierra-ev-2024.jpg",
+              "page_url": "https://news.gmc.com/newsroom.detail.html/Pages/news/us/en/2024/aug/0821-gmcsierradenaliev.html",
+              "credit": "GMC press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

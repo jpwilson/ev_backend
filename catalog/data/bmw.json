@@ -828,11 +828,11 @@
           "description": "Electric 3 Series on the 800-volt Neue Klasse platform, unveiled 18 March 2026 and built in Munich from August 2026; China gets a long-wheelbase version.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/BMW_i3_50_xDrive_First_Edition_%28NA0%29_%E2%80%93_f2_20082026.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_i3_50_xDrive_First_Edition_(NA0)_%E2%80%93_f2_20082026.jpg",
-              "credit": "© M 93",
-              "license": "CC BY-SA 3.0 de",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-i3-2027.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/the-new-bmw-3-series-en-us",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1423,11 +1423,11 @@
           "description": "Restyled lights and bumpers, new interior screens; xDrive40 added in Europe. From July 2025 the M50 became the 442 kW M60 xDrive and rear-drive models gained silicon-carbide inverters.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/BMW_i4_eDrive40_Gran_Coup%C3%A9_M_Sportpaket_%28G26%2C_Facelift%29_%E2%80%93_f_18042025.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_i4_eDrive40_Gran_Coup%C3%A9_M_Sportpaket_(G26,_Facelift)_%E2%80%93_f_18042025.jpg",
-              "credit": "© M 93",
-              "license": "CC BY-SA 3.0 de",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-i4-2025.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/the-new-2025-bmw-i4-and-4-series-gran-coupe",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2742,12 +2742,12 @@
           "description": "Production from July 2026: new 112.5 kWh pack with sixth-generation cylindrical cells (about 20% denser), rare-earth-free motors, 250 kW DC and standard NACS port; models renamed 50 xDrive / 60 xDrive.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/2027_BMW_i7_M70_IMG_7303.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2027_BMW_i7_M70_IMG_7303.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
-              "view": "rear_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-i7-2027.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/the-new-bmw-7-series_20261020102729809",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
@@ -3937,11 +3937,11 @@
           "description": "First Neue Klasse model: 800-volt architecture, 108.7 kWh cylindrical-cell pack, 400 kW DC. Global launch as 50 xDrive; China gets a long-wheelbase iX3 L (NA6) with its own drivetrains.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/BMW_iX3_NA5_IAA_2025_DSC_1682.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_iX3_NA5_IAA_2025_DSC_1682.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-ix3-2027.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/bmw-officially-announces-pricing-and-range-for-2027-bmw-ix3-50-xdrive",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -4205,12 +4205,12 @@
           "description": "Shares the iX3's 800-volt Neue Klasse platform with a sloping roofline.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/BMW_iX4_M60_xDrive_in_der_BMW_Welt_Bild_1_2026-10-18.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_iX4_M60_xDrive_in_der_BMW_Welt_Bild_1_2026-10-18.jpg",
-              "credit": "Strubbl",
-              "license": "CC BY-SA 4.0",
-              "view": "front",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-ix4-2027.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/the-bmw-ix4/",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
@@ -4381,11 +4381,11 @@
           "description": "Launch version 60 xDrive with a 141 kWh (Europe) / 144 kWh (North America) pack and 460 kW DC charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/BMW_iX5_60_xDrive_%28G65%29_%E2%80%93_f_20082026.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_iX5_60_xDrive_(G65)_%E2%80%93_f_20082026.jpg",
-              "credit": "© M 93",
-              "license": "CC BY-SA 3.0 de",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-ix5-2027.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/the-new-bmw-x5-and-ix5",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

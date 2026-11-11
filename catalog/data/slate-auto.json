@@ -95,11 +95,11 @@
           "description": "Launch version with a 65 kWh LFP battery and a single 181 hp rear motor; earlier 2025 plans for two battery sizes were replaced by one pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Slate_truck_at_demo_event_in_Chestnut_Hill%2C_MA_October_2026_1_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Slate_truck_at_demo_event_in_Chestnut_Hill,_MA_October_2026_1_(cropped).jpg",
-              "credit": "4300streetcar",
-              "license": "CC BY 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/slate-auto-truck-2027.jpg",
+              "page_url": "https://www.slate.auto/en",
+              "credit": "Slate Auto press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

@@ -1072,11 +1072,11 @@
           "description": "Mid-cycle refresh revealed in 2025: hammerhead nose, 57.7 or 74.7 kWh packs, silicon-carbide e-axles (up to 221 hp FWD, 338 hp AWD), battery preconditioning, 11 kW onboard charger and a NACS port in North America, where it is sold as the bZ.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/2026_Toyota_bZ4X_IMG_5806.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Toyota_bZ4X_IMG_5806.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-bz4x-2026.jpg",
+              "page_url": "https://global.toyota/en/album/images/42383534/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1784,12 +1784,12 @@
           "description": "140 mm longer and 20 mm taller than the bZ, single 74.7 kWh pack, 375 hp dual-motor AWD in North America.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/2026_Toyota_bZ_Woodland_au_SIAM_2026.JPG",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Toyota_bZ_Woodland_au_SIAM_2026.JPG",
-              "credit": "Bull-Doser",
-              "license": "Public domain",
-              "view": "front",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-bz-woodland-2026.jpg",
+              "page_url": "https://global.toyota/en/album/images/42757175/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
@@ -2044,11 +2044,11 @@
           "description": "57.7 or 77 kWh packs in Europe; the US C-HR uses a 74.7 kWh pack with standard 338 hp dual-motor AWD and a NACS port.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Toyota_C-HR%2B_Teamplayer_%E2%80%93_f_05042026.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_C-HR%2B_Teamplayer_%E2%80%93_f_05042026.jpg",
-              "credit": "M 93",
-              "license": "CC BY-SA 3.0 de",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-c-hr-plus-2026.jpg",
+              "page_url": "https://global.toyota/en/album/images/42383534/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

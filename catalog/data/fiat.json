@@ -286,11 +286,11 @@
      "description": "All-new electric-only 500 built at Mirafiori, Turin, from 2020 as hatchback, cabrio and 3+1 (extra rear-hinged door); 24 kWh and 42 kWh batteries. Reached North America for model year 2024 with the 42 kWh battery only.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Fiat_500e_%282020%29_Auto_Zuerich_2021_IMG_0604.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_500e_%282020%29_Auto_Zuerich_2021_IMG_0604.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/fiat-500e-2020.jpg",
+       "page_url": "https://media.stellantisnorthamerica.com/image-gallery.do?method=view&imageGalleryId=1561&mid=351",
+       "credit": "Fiat press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1033,12 +1033,12 @@
      "description": "Fiat-styled version of the Citroen Ami quadricycle, built in Kenitra, Morocco, as a closed car or the open Dolcevita; 6 kW motor, 45 km/h top speed and about 75 km (WMTC) of range.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fiat_Topolino_%282023%29_IMG_0728.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_Topolino_%282023%29_IMG_0728.jpg",
-       "credit": "Alexander-93",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/fiat-topolino-2023.jpg",
+       "page_url": "https://media.stellantisnorthamerica.com/image-gallery.do?method=view&imageGalleryId=1573&mid=1594",
+       "credit": "Fiat press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "rear_3q",
        "verified_by_viewing": true
       }
      ],

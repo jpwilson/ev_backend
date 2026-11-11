@@ -81,11 +81,11 @@
           "description": "Pre-production design.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Telo_MT1_prototype_2_-_front_quarter.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Telo_MT1_prototype_2_-_front_quarter.jpg",
-              "credit": "Dael Franke",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/telo-mt1-2026.jpg",
+              "page_url": "https://www.telotrucks.com/",
+              "credit": "Telo press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

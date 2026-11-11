@@ -615,11 +615,11 @@
      "description": "Dual-motor electric mid-size SUV on STLA Large, built in Toluca, Mexico; 2024 Launch Edition (600 hp) reached dealers in January 2025, the cheaper 500 hp Limited followed for 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2024_Jeep_Wagoneer_S_Launch_Edition%2C_front_right%2C_09-12-2026.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Jeep_Wagoneer_S_Launch_Edition%2C_front_right%2C_09-12-2026.jpg",
-       "credit": "MercurySable99",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/jeep-wagoneer-s-2024.jpg",
+       "page_url": "https://media.stellantisnorthamerica.com/image-gallery.do?method=view&imageGalleryId=1501&mid=1540",
+       "credit": "Jeep press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -875,11 +875,11 @@
      "description": "Trail Rated electric off-roader with removable doors, built in Toluca, Mexico; launched in June 2026 in the Moab trim only.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/26_Jeep_Recon_Moab_AZIAS.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:26_Jeep_Recon_Moab_AZIAS.jpg",
-       "credit": "HJUdall",
-       "license": "CC0 1.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/jeep-recon-2026.jpg",
+       "page_url": "https://media.stellantisnorthamerica.com/image-gallery.do?method=view&imageGalleryId=1537&mid=1571",
+       "credit": "Jeep press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

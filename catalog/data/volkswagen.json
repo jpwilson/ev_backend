@@ -5173,11 +5173,11 @@
      "description": "Successor to the ID.4 with new Pure Positive design, triple-screen interior and 58/77 kWh batteries.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Volkswagen_ID.Tiguan_Auto_Zuerich_2026_IMG_8986.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.Tiguan_Auto_Zuerich_2026_IMG_8986.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/volkswagen-id-tiguan-2027.jpg",
+       "page_url": "https://www.volkswagen-newsroom.com/en/images/detail/id-tiguan-88761",
+       "credit": "Volkswagen press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

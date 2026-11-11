@@ -321,11 +321,11 @@
      "description": "Facelift with more power (up to 912 hp in the RS performance), 320 kW DC charging and longer EPA range; US line-up is S and RS performance.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/2025_Audi_e-tron_GT.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Audi_e-tron_GT.jpg",
-       "credit": "Oleg Yunakov",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/audi-e-tron-gt-2025.jpg",
+       "page_url": "https://www.audi.com/en/images/detail/audi-s-e-tron-gt-124730",
+       "credit": "Audi press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1444,11 +1444,11 @@
      "description": "Facelift presented 27 April 2026: restyled front and rear, new displays, bidirectional charging, more range and up to 185 kW DC. European deliveries from summer 2026; US arrival expected as a 2027 model.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2027_Audi_Q4_e-tron_IMG_7137.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2027_Audi_Q4_e-tron_IMG_7137.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/audi-e-tron-q4-2027.jpg",
+       "page_url": "https://www.audi.com/en/images/detail/the-right-car-for-any-situation-the-audi-q4-e-tron-takes-to-the-streets-132712",
+       "credit": "Audi press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1715,11 +1715,11 @@
      "description": "83 or 100 kWh gross batteries, up to 270 kW DC charging.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/2025_Audi_Q6_e-tron_quattro_Premium_Plus_in_Plasma_Blue%2C_front_left.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Audi_Q6_e-tron_quattro_Premium_Plus_in_Plasma_Blue,_front_left.jpg",
-       "credit": "Mr.choppers",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/audi-q6-e-tron-2025.jpg",
+       "page_url": "https://www.audi.com/en/images/detail/audi-q6-e-tron-quattro-123351",
+       "credit": "Audi press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2261,11 +2261,11 @@
      "description": "83 or 100 kWh gross batteries; up to 750 km WLTP and 270 kW DC charging.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Audi_A6_e-tron_DSC_2835_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_A6_e-tron_DSC_2835_(cropped).jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/audi-a6-e-tron-2025.jpg",
+       "page_url": "https://www.audi.com/en/images/detail/audi-s6-sportback-e-tron-126869",
+       "credit": "Audi press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

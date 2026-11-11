@@ -830,11 +830,11 @@
           "description": "First electric Countryman; production of electric versions began in Leipzig in March 2024.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/BMW_MINI_COUNTRYMAN_E_%28U25%29_front.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_MINI_COUNTRYMAN_E_(U25)_front.jpg",
-              "credit": "Tokumeigakarinoaoshima",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mini-countryman-2025.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/mini-celebrates-65-years-with-the-arrival-of-the-2025-countryman-se-all4-in-the-united-states/",
+              "credit": "MINI press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

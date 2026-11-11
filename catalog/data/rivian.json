@@ -630,12 +630,12 @@
      "description": "Heavily re-engineered R1T revealed in June 2024 for the 2025 model year: in-house Enduro motors (new Tri and 1,025 hp Quad), zonal electronics, new cameras and computers, and an LFP Standard pack, with near-identical styling. For the 2027 model year Rivian renamed the trims Premium (dual), Premium Long Range, Performance (tri) and Quad, and the Standard pack was dropped in 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/2025_Rivian_R1T_Adventure_in_LA_Silver_with_the_Road_Trip_Package%2C_front_left.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Rivian_R1T_Adventure_in_LA_Silver_with_the_Road_Trip_Package,_front_left.jpg",
-       "credit": "Mr.choppers",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/rivian-r1t-2025.jpg",
+       "page_url": "https://rivian.com/r1t",
+       "credit": "Rivian press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
        "verified_by_viewing": true
       }
      ],
@@ -1955,11 +1955,11 @@
      "description": "Heavily re-engineered R1S revealed in June 2024 for the 2025 model year: in-house Enduro motors (new Tri and 1,025 hp Quad), zonal electronics, new cameras and computers, and an LFP Standard pack, with near-identical styling. For the 2027 model year Rivian renamed the trims Premium (dual), Premium Long Range, Performance (tri) and Quad, and the Standard pack was dropped in 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2025_Rivian_R1S_Ascend_Tri_Max%2C_front_right%2C_11-21-2025.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Rivian_R1S_Ascend_Tri_Max,_front_right,_11-21-2025.jpg",
-       "credit": "MercurySable99",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/rivian-r1s-2025.jpg",
+       "page_url": "https://rivian.com/r1s",
+       "credit": "Rivian press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2748,11 +2748,11 @@
      "description": "First R2, sold as a 2027 model year in the US (EPA) with an 87.9 kWh pack and a NACS charge port.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/RivianR2.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:RivianR2.jpg",
-       "credit": "Lcaa9",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/rivian-r2-2027.jpg",
+       "page_url": "https://rivian.com/r2",
+       "credit": "Rivian press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

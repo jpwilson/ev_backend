@@ -172,12 +172,12 @@
           "description": "Production-style car shown in 2025.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Karma_Kaveya_2025.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Karma_Kaveya_2025.jpg",
-              "credit": "Calreyn88",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/karma-kaveya-2026.jpg",
+              "page_url": "https://karmaautomotive.com/kaveya/",
+              "credit": "Karma press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

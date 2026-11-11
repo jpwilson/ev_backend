@@ -87,12 +87,12 @@
      "description": "Battery-electric version of the eighth-generation Charger, built in Windsor, Ontario, with two 250 kW motors and a 100.5 kWh battery. The two-door arrived first (dealers January 2025); a four-door liftback followed for 2026, and the R/T trim was paused for the 2026 model year.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/2024_Dodge_Charger_Daytona_RT%2C_front_4.14.25.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Dodge_Charger_Daytona_RT%2C_front_4.14.25.jpg",
-       "credit": "Kevauto",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/dodge-charger-daytona-2024.jpg",
+       "page_url": "https://media.stellantisnorthamerica.com/image-gallery.do?method=view&imageGalleryId=1509&mid=60",
+       "credit": "Dodge press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
        "verified_by_viewing": true
       }
      ],

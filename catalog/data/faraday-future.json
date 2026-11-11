@@ -87,11 +87,11 @@
           "description": "Production version (\"2.0\") with three motors, 1,050 hp and a 142 kWh battery.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Faraday_Future_FF91.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Faraday_Future_FF91.jpg",
-              "credit": "Carsandcoasters7",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/faraday-future-ff-91-2023.jpg",
+              "page_url": "https://www.ff.com/us/product/ff-91-Alliance/",
+              "credit": "Faraday Future press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

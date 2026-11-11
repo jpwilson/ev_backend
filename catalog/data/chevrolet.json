@@ -592,11 +592,11 @@
           "description": "Crossover body derived from the Bolt EUV, 65 kWh LFP pack with CATL cells, 150 kW DC charging, a factory NACS port and the Equinox EV's drive unit. Built at Fairfax, Kansas from January 2026 as a single 2027 model-year run.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/2027_Chevrolet_Bolt_at_Ikea_parking_lot_in_Stoughton%2C_MA_October_2026.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2027_Chevrolet_Bolt_at_Ikea_parking_lot_in_Stoughton,_MA_October_2026.jpg",
-              "credit": "4300streetcar",
-              "license": "CC BY 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/chevrolet-bolt-2027.jpg",
+              "page_url": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2025/oct/1009-2027-Chevrolet-Bolt.html",
+              "credit": "Chevrolet press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -869,21 +869,12 @@
           "description": "Launched for 2024 (2LT/3LT/2RS/3RS); simplified to LT and RS for 2025 with more power, then LT 1, LT 2 and RS.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/2025_Chevrolet_Equinox_EV%2C_front_left_4.26.25.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_Equinox_EV,_front_left_4.26.25.jpg",
-              "credit": "Kevauto",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/chevrolet-equinox-ev-2024.jpg",
+              "page_url": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2024/may/0514-equinoxev.html",
+              "credit": "Chevrolet press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
-              "verified_by_viewing": true
-            },
-            {
-              "source": "legacy",
-              "file_url": "/pub_assets/car_images/chevy_equinox_ev.png",
-              "page_url": null,
-              "credit": null,
-              "license": null,
-              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -1201,11 +1192,11 @@
           "description": "Launched with 2LT and RS trims (85 kWh AWD and 102 kWh RWD); FWD and the SS were added for 2025.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/2024_Chevrolet_Blazer_EV_2LT_AWD_in_Summit_White%2C_front_right%2C_2024-03-31.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Blazer_EV_2LT_AWD_in_Summit_White,_front_right,_2024-03-31.jpg",
-              "credit": "Elise240SX",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/chevrolet-blazer-ev-2024.jpg",
+              "page_url": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2022/jul/0718-blazerev.html",
+              "credit": "Chevrolet press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1695,11 +1686,11 @@
           "description": "Same body throughout; capability changes by battery size (Standard, Extended, Max Range) and model year.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/2024_Chevrolet_Silverado_EV_4WT_AWD_in_Summit_White%2C_front_left%2C_2024-06-30.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Silverado_EV_4WT_AWD_in_Summit_White,_front_left,_2024-06-30.jpg",
-              "credit": "Elise240SX",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/chevrolet-silverado-ev-2024.jpg",
+              "page_url": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2022/jan/ces/0105-2024-silverado.html",
+              "credit": "Chevrolet press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

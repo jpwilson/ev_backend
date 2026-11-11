@@ -644,11 +644,11 @@
      "description": "84 kWh pack (Korean range up to 481 km), new bumpers and a larger screen; US cars get a NACS port.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Genesis_GV60_JW1_PE_Uyuni_White_%281%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_GV60_JW1_PE_Uyuni_White_(1).jpg",
-       "credit": "Damian B Oh",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/genesis-gv60-2026.jpg",
+       "page_url": "https://www.genesis.com/us/en/gv60",
+       "credit": "Genesis press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -900,12 +900,12 @@
      "description": "84 kWh, dual-motor AWD; 641 hp and 583 lb-ft in Boost mode.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Genesis_GV60_Magma_JW1_Magma_Design_Obsidian_Black_Mono-tone_Magma_Orange_%281%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_GV60_Magma_JW1_Magma_Design_Obsidian_Black_Mono-tone_Magma_Orange_(1).jpg",
-       "credit": "Damian B Oh",
-       "license": "CC BY-SA 4.0",
-       "view": "interior",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/genesis-gv60-magma-2027.jpg",
+       "page_url": "https://www.genesis.com/us/en/gv60-magma",
+       "credit": "Genesis press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
        "verified_by_viewing": true
       }
      ],
@@ -1142,11 +1142,11 @@
      "description": "84 kWh pack (Korean rating 423 km on 19-inch wheels), refreshed cabin, NACS port in the US.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Genesis_Electrified_GV70_JK1_PE_EV_Makalu_Gray_%2813%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_Electrified_GV70_JK1_PE_EV_Makalu_Gray_(13).jpg",
-       "credit": "Damian B Oh",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/genesis-gv70-2026.jpg",
+       "page_url": "https://www.genesis.com/us/en/electrified-gv70",
+       "credit": "Genesis press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

@@ -1314,12 +1314,12 @@
      "description": "Bigger packs (63 / 84 kWh), restyled bumpers, a native NACS port in the US, and the off-road-styled XRT.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Hyundai_Ioniq_5_N_Line_IMG_3869.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_5_N_Line_IMG_3869.jpg",
-       "credit": "Alexander-93",
-       "license": "CC BY-SA 4.0",
-       "view": "rear_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-ioniq-5-2025.jpg",
+       "page_url": "https://www.hyundainews.com/models/hyundai-ioniq_5-2026-ioniq_5/photos",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
        "verified_by_viewing": true
       }
      ],
@@ -1734,11 +1734,11 @@
      "description": "84 kWh, dual-motor AWD; 601 hp normally and 641 hp with N Grin Boost.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hyundai_Ioniq_5_N_IMG_0053.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_5_N_IMG_0053.jpg",
-       "credit": "Alexander-93",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-ioniq-5-n-2025.jpg",
+       "page_url": "https://www.hyundainews.com/models/hyundai-ioniq_5-2025-ioniq_5_n/photos",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2362,11 +2362,11 @@
      "description": "Based on the facelifted Ioniq 6 with N chassis, aero and the Ioniq 5 N's dual-motor drivetrain.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Hyundai_ioniq_6_N_1.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_ioniq_6_N_1.jpg",
-       "credit": "Calreyn88",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-ioniq-6-n-2026.jpg",
+       "page_url": "https://www.hyundainews.com/models/hyundai-ioniq_6_N-2027-ioniq_6_N/photos",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2524,11 +2524,11 @@
      "description": "Single-motor RWD, dual-motor AWD and a 422 hp Performance AWD, all with 110.3 kWh.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hyundai_Ioniq_9_IMG_5950.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_9_IMG_5950.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-ioniq-9-2026.jpg",
+       "page_url": "https://www.hyundainews.com/models/hyundai-ioniq_9-2026-ioniq_9/photos",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

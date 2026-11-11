@@ -217,12 +217,12 @@
           "description": "Launch version: tri-motor (one front, two rear) with torque vectoring, 118 kWh usable battery and 350 kW DC charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Jaguar_Type_01_Front_at_London_Showroom.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Jaguar_Type_01_Front_at_London_Showroom.jpg",
-              "credit": "Lcaa9",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/jaguar-type-01-2027.jpg",
+              "page_url": "https://media.jlr.com/jaguar/news/2026/10/jaguar-type-01-new-era-begins",
+              "credit": "Jaguar press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

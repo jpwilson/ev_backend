@@ -86,12 +86,12 @@
           "description": "Production-intent design shown from late 2024; in 2024 the planned in-wheel motors were replaced by a single front motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Aptera_Side_View_with_Open_Door.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Aptera_Side_View_with_Open_Door.jpg",
-              "credit": "ApteraMotorsMedia",
-              "license": "CC BY-SA 4.0",
-              "view": "side",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/aptera-launch-edition-2027.jpg",
+              "page_url": "https://aptera.us/media-room/",
+              "credit": "Aptera press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
