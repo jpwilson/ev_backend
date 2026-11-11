@@ -1,0 +1,1386 @@
+{
+  "make": {
+    "slug": "lexus",
+    "name": "Lexus",
+    "legacy_id": null,
+    "country": "JP",
+    "headquarters": "Nagoya, Aichi, Japan",
+    "founded": 1989,
+    "parent_group": "Toyota Motor Corporation",
+    "website_url": "https://www.lexus.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Toyota's luxury brand. Its first battery-electric car was the UX 300e (2020), followed by the RZ on the e-TNGA platform in 2022, the electric eighth-generation ES sedan in 2025 and the three-row TZ SUV in 2026.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Lexus",
+        "name": "Wikipedia: Lexus"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "lexus-ux-300e",
+      "url_slug": "ux-300e",
+      "name": "UX 300e",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric version of the UX compact crossover and Lexus's first EV, revealed in November 2019 and sold in Europe, China, Japan and Australia but not the US. A 2023 update raised the pack from 54.3 to 72.8 kWh; Wikipedia lists the 300e for model years 2019-2025.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "discontinued",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "JP": {
+          "status": "discontinued",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "range",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lexus_UX",
+          "name": "Wikipedia: Lexus UX (UX 300e)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "UX 300e",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "KMA10",
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "54.3 kWh pack (45 kWh usable), 150 kW front motor, CHAdeMO-era 50 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Lexus_UX_300e_%28KMA10%29_IMG_4018.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_UX_300e_(KMA10)_IMG_4018.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "range",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Lexus_UX",
+              "name": "Wikipedia: Lexus UX (UX 300e)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd-54kwh",
+              "name": "FWD 54.3 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 54.3,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": 221,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.5,
+              "top_speed_mph": 99,
+              "dc_kw": 50,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 299,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_UX",
+                  "name": "Wikipedia: Lexus UX (UX 300e)"
+                },
+                {
+                  "fields": [
+                    "years"
+                  ],
+                  "url": "https://global.toyota/en/newsroom/lexus/30609957.html",
+                  "name": "Toyota Global Newsroom: UX 300e world premiere (22 Nov 2019)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Updated UX 300e",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": "KMA10",
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Battery change to 72.8 kWh (64 kWh usable) raising WLTP range to about 450 km.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Lexus_UX_300e_%22version_L%22_%28ZAA-KMA10-AWDBS%28L%29%29_front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_UX_300e_%22version_L%22_(ZAA-KMA10-AWDBS(L))_front.jpg",
+              "credit": "Tokumeigakarinoaoshima",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "range",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Lexus_UX",
+              "name": "Wikipedia: Lexus UX (UX 300e)"
+            },
+            {
+              "fields": [
+                "specs"
+              ],
+              "url": "https://www.drive.com.au/news/2023-lexus-ux300e-price-and-specs/",
+              "name": "Drive: 2023 Lexus UX 300e update"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd-73kwh",
+              "name": "FWD 72.8 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 72.8,
+              "battery_basis": "gross",
+              "power_hp": 204,
+              "torque_lbft": 221,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.5,
+              "top_speed_mph": 99,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 450,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_UX",
+                  "name": "Wikipedia: Lexus UX (UX 300e)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.drive.com.au/news/2023-lexus-ux300e-price-and-specs/",
+                  "name": "Drive: 2023 Lexus UX 300e update"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lexus-rz",
+      "url_slug": "rz",
+      "name": "RZ",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.lexus.com/models/RZ",
+      "description": "Lexus's dedicated electric SUV on the e-TNGA platform shared with the Toyota bZ4X, on sale since 2022 (US model year 2023). A 2026 update brought new e-axles, more range, an RZ 550e F Sport with simulated gearshifts and a NACS port in the US.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "JP": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+          "name": "Wikipedia: Lexus RZ"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range"
+          ],
+          "url": "https://www.lexus.com/models/RZ",
+          "name": "Lexus USA: RZ (2026 model year)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Launched as the dual-motor RZ 450e (308 hp); the front-drive RZ 300e (201 hp) followed for 2024. CCS1 port in the US.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Lexus_RZ_300e_%28XEBM10%29_IMG_6622.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_RZ_300e_(XEBM10)_IMG_6622.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+              "name": "Wikipedia: Lexus RZ"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "rz-450e",
+              "name": "RZ 450e AWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 220,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 59650,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 220,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 59850,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 220,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 48675,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+                  "name": "Wikipedia: Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/lexus/rz/2023/",
+                  "name": "Kelley Blue Book: 2023 Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/lexus/rz/2024/",
+                  "name": "Kelley Blue Book: 2024 Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/lexus/rz/2025/",
+                  "name": "Kelley Blue Book: 2025 Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46986.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 Lexus RZ 450e AWD (18 inch Wheels)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47834.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 Lexus RZ 450e AWD (18 inch wheels)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49101.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 Lexus RZ 450e AWD (18 inch wheels)"
+                }
+              ]
+            },
+            {
+              "slug": "rz-300e",
+              "name": "RZ 300e FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": 195,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 266,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 55150,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 266,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 43975,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+                  "name": "Wikipedia: Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/lexus/rz/2024/",
+                  "name": "Kelley Blue Book: 2024 Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/lexus/rz/2025/",
+                  "name": "Kelley Blue Book: 2025 Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47832.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 Lexus RZ 300e (18 inch wheels)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49099.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 Lexus RZ 300e (18 inch wheels)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "Update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "2026 update: RZ 350e (221 hp FWD), RZ 450e (308 hp AWD) and RZ 550e F Sport (402 hp) in the US, RZ 500e in Europe, longer range, NACS port and Plug & Charge.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Lexus_RZ_550e_%28XEBM25%29_Auto_Zuerich_2025_DSC_3058.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_RZ_550e_(XEBM25)_Auto_Zuerich_2025_DSC_3058.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+              "name": "Wikipedia: Lexus RZ"
+            },
+            {
+              "fields": [
+                "years",
+                "connector"
+              ],
+              "url": "https://pressroom.lexus.com/2026-lexus-rz-goes-on-sale-with-upgraded-convenience-features-expanded-charging-network-options-for-all-lexus-bev-owners/",
+              "name": "Lexus Pressroom: 2026 RZ goes on sale (3 Nov 2025)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "rz-350e",
+              "name": "RZ 350e FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 301,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 47395,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.lexus.com/models/RZ",
+                  "name": "Lexus USA: RZ (2026 model year)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+                  "name": "Wikipedia: Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "years",
+                    "connector"
+                  ],
+                  "url": "https://pressroom.lexus.com/2026-lexus-rz-goes-on-sale-with-upgraded-convenience-features-expanded-charging-network-options-for-all-lexus-bev-owners/",
+                  "name": "Lexus Pressroom: 2026 RZ goes on sale (3 Nov 2025)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50291.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Lexus RZ 350e FWD (18 inch wheels)"
+                }
+              ]
+            },
+            {
+              "slug": "rz-450e",
+              "name": "RZ 450e AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 264,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 50895,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.lexus.com/models/RZ",
+                  "name": "Lexus USA: RZ (2026 model year)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+                  "name": "Wikipedia: Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "years",
+                    "connector"
+                  ],
+                  "url": "https://pressroom.lexus.com/2026-lexus-rz-goes-on-sale-with-upgraded-convenience-features-expanded-charging-network-options-for-all-lexus-bev-owners/",
+                  "name": "Lexus Pressroom: 2026 RZ goes on sale (3 Nov 2025)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50217.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Lexus RZ 450e AWD (18 inch wheels)"
+                }
+              ]
+            },
+            {
+              "slug": "rz-550e-f-sport",
+              "name": "RZ 550e F Sport AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 229,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 58395,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.lexus.com/models/RZ",
+                  "name": "Lexus USA: RZ (2026 model year)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+                  "name": "Wikipedia: Lexus RZ"
+                },
+                {
+                  "fields": [
+                    "years",
+                    "connector"
+                  ],
+                  "url": "https://pressroom.lexus.com/2026-lexus-rz-goes-on-sale-with-upgraded-convenience-features-expanded-charging-network-options-for-all-lexus-bev-owners/",
+                  "name": "Lexus Pressroom: 2026 RZ goes on sale (3 Nov 2025)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50220.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Lexus RZ 550e AWD"
+                }
+              ]
+            },
+            {
+              "slug": "rz-500e",
+              "name": "RZ 500e AWD (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 375,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+                  "name": "Wikipedia: Lexus RZ"
+                }
+              ]
+            },
+            {
+              "slug": "rz-600e-f-sport-performance",
+              "name": "RZ 600e F Sport Performance",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 420,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_RZ",
+                  "name": "Wikipedia: Lexus RZ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lexus-es",
+      "url_slug": "es",
+      "name": "ES",
+      "aliases": [
+        "ES 350e",
+        "ES 500e"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.lexus.com/models/ES",
+      "description": "The eighth-generation ES, unveiled at Auto Shanghai in April 2025, added battery-electric ES 350e and ES 500e versions alongside a hybrid. This catalog entry covers the electric versions.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "IN": {
+          "status": "current",
+          "launch": "2026-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lexus_ES",
+          "name": "Wikipedia: Lexus ES (eighth generation)"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range"
+          ],
+          "url": "https://www.lexus.com/models/ES",
+          "name": "Lexus USA: ES (2026 model year)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Eighth generation",
+          "kind": "generation",
+          "ordinal": 8,
+          "code_name": "XZ20",
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "First electric ES: front-drive ES 350e (221 hp in the US) and dual-motor ES 500e (338 hp), NACS port in the US.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Lexus_ES350e_2026_For_Guangzhou_Auto_Show_2025.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_ES350e_2026_For_Guangzhou_Auto_Show_2025.jpg",
+              "credit": "Nissangeniss",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "range"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Lexus_ES",
+              "name": "Wikipedia: Lexus ES (eighth generation)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "es-350e",
+              "name": "ES 350e FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 307,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 48895,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 307,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 685,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.lexus.com/models/ES",
+                  "name": "Lexus USA: ES (2026 model year)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_ES",
+                  "name": "Wikipedia: Lexus ES (eighth generation)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50450.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Lexus ES 350e (19 inch Wheels)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/51037.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Lexus ES 350e (19 inch Wheels)"
+                }
+              ]
+            },
+            {
+              "slug": "es-500e",
+              "name": "ES 500e AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 276,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 51895,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 276,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.lexus.com/models/ES",
+                  "name": "Lexus USA: ES (2026 model year)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lexus_ES",
+                  "name": "Wikipedia: Lexus ES (eighth generation)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50452.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Lexus ES 500e AWD (19 inch Wheels)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/51039.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Lexus ES 500e AWD (19 inch Wheels)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lexus-tz",
+      "url_slug": "tz",
+      "name": "TZ",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": "https://www.lexus.com/models/TZ",
+      "description": "Three-row, six-seat electric flagship SUV revealed on 7 May 2026, to be built in Japan and Kentucky. Lexus USA lists the 2027 TZ 450e as available in late 2026, with further grades arriving in early 2027.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lexus_TZ",
+          "name": "Wikipedia: Lexus TZ"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range",
+            "status"
+          ],
+          "url": "https://www.lexus.com/models/TZ",
+          "name": "Lexus USA: TZ (2027 model year)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "77 or 95.8 kWh packs, standard DIRECT4 dual-motor AWD, 308 hp in the TZ 450e.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lexus_TZ550e_AWD.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_TZ550e_AWD.jpg",
+              "credit": "TTTNIS",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Lexus_TZ",
+              "name": "Wikipedia: Lexus TZ"
+            },
+            {
+              "fields": [
+                "specs"
+              ],
+              "url": "https://pressroom.lexus.com/vehicle/2027-lexus-tz/",
+              "name": "Lexus Pressroom: 2027 TZ"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "tz-450e-premium",
+              "name": "TZ 450e Premium AWD (77 kWh)",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 76.96,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 253,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 64050,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://www.lexus.com/models/TZ",
+                  "name": "Lexus USA: TZ (2027 model year)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://pressroom.lexus.com/vehicle/2027-lexus-tz/",
+                  "name": "Lexus Pressroom: 2027 TZ"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/51041.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Lexus TZ 450e 11kW  (20 inch Wheels)"
+                }
+              ]
+            },
+            {
+              "slug": "tz-450e-premium-touring",
+              "name": "TZ 450e Premium Touring AWD (95.8 kWh)",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 95.82,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 315,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 72050,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://www.lexus.com/models/TZ",
+                  "name": "Lexus USA: TZ (2027 model year)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://pressroom.lexus.com/vehicle/2027-lexus-tz/",
+                  "name": "Lexus Pressroom: 2027 TZ"
+                }
+              ]
+            },
+            {
+              "slug": "tz-450e-luxury",
+              "name": "TZ 450e Luxury AWD",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 279,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 80550,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://www.lexus.com/models/TZ",
+                  "name": "Lexus USA: TZ (2027 model year)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "UX 300e: exact end of sale per market not sourced (Wikipedia lists model years 2019-2025); never sold in the US.",
+    "RZ: battery kWh per variant not sourced (Wikipedia lists 71.4/72.8/77 kWh without mapping); 0-60 times not sourced.",
+    "RZ 2023-2025 prices are Kelley Blue Book original MSRPs and appear to include destination; 2023 base RZ 450e Premium only.",
+    "RZ 500e / RZ 600e F Sport Performance: market, price and range not sourced (Wikipedia only).",
+    "ES 350e/500e: US battery kWh not sourced (Wikipedia gives 74.69-77.4 kWh for both); Lexus lists 2026 prices only.",
+    "TZ: Premium Touring and Luxury ranges are Lexus estimates, not EPA; on-sale status late 2026 not confirmed as delivered."
+  ]
+}

@@ -1,0 +1,227 @@
+{
+ "make": {
+  "slug": "bentley",
+  "name": "Bentley",
+  "legacy_id": null,
+  "country": "GB",
+  "headquarters": "Crewe, England, UK",
+  "founded": 1919,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.bentleymotors.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "British luxury car maker, owned by the Volkswagen Group since 1998 and managed under Audi since 2022. Its first battery-electric model, the Torcal SUV, was unveiled in September 2026 and is not yet on sale.",
+  "sources": [
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Bentley_Motors",
+    "name": "Wikipedia: Bentley Motors"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "bentley-torcal",
+   "url_slug": "torcal",
+   "name": "Torcal",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Bentley's first battery-electric car, a five-door luxury SUV designed and built in Crewe. Named in July 2026 and unveiled on 23 September 2026; prices and delivery dates have not been announced.",
+   "markets": {
+    "UK": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range",
+      "status"
+     ],
+     "url": "https://electrek.co/2026/09/23/bentley-torcal-first-electric-bentley-unveiled/",
+     "name": "Electrek: Bentley Torcal unveiled"
+    },
+    {
+     "fields": [
+      "history",
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Bentley_Torcal",
+     "name": "Wikipedia: Bentley Torcal"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.motor1.com/news/808994/2028-bentley-torcal-ev-debut-specs-price/",
+     "name": "Motor1: 2028 Bentley Torcal debut"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2028",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2028,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "800-volt platform with a 113 kWh (net) battery and up to 400 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Bentley_Torcal_Auto_Zuerich_2026_IMG_8651.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Bentley_Torcal_Auto_Zuerich_2026_IMG_8651.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range",
+        "status"
+       ],
+       "url": "https://electrek.co/2026/09/23/bentley-torcal-first-electric-bentley-unveiled/",
+       "name": "Electrek: Bentley Torcal unveiled"
+      },
+      {
+       "fields": [
+        "history",
+        "specs",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Bentley_Torcal",
+       "name": "Wikipedia: Bentley Torcal"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "torcal",
+       "name": "Torcal",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "usable",
+       "power_hp": 810,
+       "torque_lbft": 881,
+       "accel_0_60_s": 3.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": 155,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 600,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://electrek.co/2026/09/23/bentley-torcal-first-electric-bentley-unveiled/",
+         "name": "Electrek: Bentley Torcal unveiled"
+        },
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Bentley_Torcal",
+         "name": "Wikipedia: Bentley Torcal"
+        }
+       ]
+      },
+      {
+       "slug": "torcal-s",
+       "name": "Torcal S",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "usable",
+       "power_hp": 876,
+       "torque_lbft": 996,
+       "accel_0_60_s": 2.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": 162,
+       "dc_kw": 400,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://electrek.co/2026/09/23/bentley-torcal-first-electric-bentley-unveiled/",
+         "name": "Electrek: Bentley Torcal unveiled"
+        },
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Bentley_Torcal",
+         "name": "Wikipedia: Bentley Torcal"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Torcal price, production start, net vs gross battery basis confirmation and EPA range not announced; WLTP 600 km is Bentley's 'up to' claim (marked estimate, recorded on the base Torcal).",
+  "US model year assumed from Motor1/Car and Driver headlines ('2028 Bentley Torcal'); generation slug 2028.",
+  "Bentley Bentayga/Continental PHEVs are not battery-electric and are excluded."
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "make": {
+    "slug": "tesla", "name": "Tesla", "legacy_id": 1, "country": "US", "headquarters": null, "founded": 2003,
+    "parent_group": null, "website_url": "https://www.tesla.com", "status": "active", "status_date": null,
+    "status_details": null,
+    "description": "TEST FIXTURE for tests/test_catalog_*.py. Values are copied from the legacy snapshot rows, not researched.",
+    "sources": []
+  },
+  "models": [
+    {
+      "slug": "tesla-model-3", "url_slug": "model-3", "name": "Model 3", "aliases": [], "body_style": "sedan",
+      "is_commercial": false, "status": "current", "official_url": "https://www.tesla.com/model3",
+      "description": "Fixture.",
+      "markets": {"US": {"status": "current", "launch": "2017-07", "end": null, "local_name": null},
+                  "EU": {"status": "current", "launch": null, "end": null, "local_name": null}},
+      "relations": [{"relation": "twin", "model": "nobody-not-loaded"}],
+      "sources": [],
+      "generations": [
+        {"slug": "2017", "name": "Original", "kind": "generation", "ordinal": 1, "code_name": null, "platform": null,
+         "start_year": 2017, "end_year": 2023, "status": "discontinued", "description": null,
+         "images": [{"source": "legacy", "file_url": "/pub_assets/car_images/tes_m3_lng_range.png", "page_url": null,
+                     "credit": null, "license": null, "view": "front_3q", "verified_by_viewing": true}],
+         "sources": [],
+         "variants": [
+           {"slug": "standard-range", "name": "Standard Range", "legacy_ids": [23], "status": null,
+            "year_from": 2021, "year_to": 2023, "drivetrain": "RWD", "body_type": null, "seats": 5,
+            "battery_kwh": 57.5, "battery_basis": null, "power_hp": null, "torque_lbft": null,
+            "accel_0_60_s": 5.8, "accel_0_100_s": null, "top_speed_mph": null, "dc_kw": null,
+            "offerings": [{"market": "US", "model_year": 2021, "range": 272, "range_unit": "mi", "range_cycle": "EPA",
+                           "price": 38990, "launch_price": null, "currency": "USD",
+                           "price_basis": "msrp_excl_destination", "connector": "NACS", "is_estimate": false}],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/m3", "name": "Test fixture"}]},
+           {"slug": "long-range", "name": "Long Range", "legacy_ids": [24], "status": null, "year_from": 2021,
+            "year_to": 2023, "drivetrain": "AWD", "body_type": null, "seats": 5, "battery_kwh": 82.0,
+            "battery_basis": null, "power_hp": null, "torque_lbft": null, "accel_0_60_s": 4.2,
+            "accel_0_100_s": null, "top_speed_mph": null, "dc_kw": null, "offerings": [],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/m3", "name": "Test fixture"}]},
+           {"slug": "performance", "name": "Performance", "legacy_ids": [4], "status": null, "year_from": 2021,
+            "year_to": 2023, "drivetrain": "AWD", "body_type": null, "seats": 5, "battery_kwh": 82.0,
+            "battery_basis": null, "power_hp": null, "torque_lbft": null, "accel_0_60_s": 3.1,
+            "accel_0_100_s": null, "top_speed_mph": null, "dc_kw": null, "offerings": [],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/m3", "name": "Test fixture"}]}
+         ]},
+        {"slug": "2024", "name": "Highland", "kind": "refresh", "ordinal": 1, "code_name": "Highland", "platform": null,
+         "start_year": 2024, "end_year": null, "status": "current", "description": null,
+         "images": [{"source": "commons", "file_url": "https://upload.wikimedia.org/test-fixture/unverified.jpg",
+                     "page_url": "https://commons.wikimedia.org/wiki/File:Test_fixture.jpg", "credit": "Fixture",
+                     "license": "CC BY-SA 4.0", "view": "front_3q", "verified_by_viewing": false}],
+         "sources": [],
+         "variants": [
+           {"slug": "rwd", "name": "RWD", "legacy_ids": [204], "status": null, "year_from": 2024, "year_to": null,
+            "drivetrain": "RWD", "body_type": null, "seats": 5, "battery_kwh": 57.5, "battery_basis": null,
+            "power_hp": null, "torque_lbft": null, "accel_0_60_s": null, "accel_0_100_s": null,
+            "top_speed_mph": null, "dc_kw": null,
+            "offerings": [{"market": "US", "model_year": 2025, "range": 363, "range_unit": "mi", "range_cycle": "EPA",
+                           "price": 42490, "launch_price": null, "currency": "USD",
+                           "price_basis": "msrp_excl_destination", "connector": "NACS", "is_estimate": false}],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/m3", "name": "Test fixture"}]},
+           {"slug": "long-range-awd", "name": "Long Range AWD", "legacy_ids": [], "status": null, "year_from": 2024,
+            "year_to": null, "drivetrain": "AWD", "body_type": null, "seats": 5, "battery_kwh": null,
+            "battery_basis": null, "power_hp": null, "torque_lbft": null, "accel_0_60_s": 4.2,
+            "accel_0_100_s": null, "top_speed_mph": null, "dc_kw": null,
+            "offerings": [{"market": "US", "model_year": 2026, "range": 346, "range_unit": "mi", "range_cycle": "EPA",
+                           "price": 47490, "launch_price": null, "currency": "USD",
+                           "price_basis": "msrp_excl_destination", "connector": "NACS", "is_estimate": false},
+                          {"market": "EU", "model_year": null, "range": 629, "range_unit": "km", "range_cycle": "WLTP",
+                           "price": 49990, "launch_price": null, "currency": "EUR",
+                           "price_basis": "list_incl_vat", "connector": "CCS2", "is_estimate": false}],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/m3", "name": "Test fixture"}]}
+         ]}
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": []
+}

@@ -1,0 +1,792 @@
+{
+  "make": {
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Beijing, China",
+    "founded": 2021,
+    "parent_group": "Xiaomi Corporation",
+    "website_url": "https://www.xiaomiev.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Car division of the Chinese electronics company Xiaomi (Xiaomi Auto), set up in 2021. Its first car, the SU7, launched in March 2024, followed by the YU7 SUV in June 2025; range-extender SkyNomad SUVs are planned (not listed here).",
+    "sources": [
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Xiaomi_Auto",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "xiaomi-su7",
+      "url_slug": "su7",
+      "name": "SU7",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xiaomiev.com/su7",
+      "description": "Xiaomi's first car, a large four-door sports sedan launched on 28 March 2024 that sold over 200,000 units in under a year. A facelifted 'new-generation' SU7 with semi-hidden mechanical door handles and longer range went on sale on 19 March 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Xiaomi_Auto",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "MS11",
+          "platform": "Modena",
+          "start_year": 2024,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Modena platform; Standard and Pro are rear-drive with 220 kW, Max is dual-motor with 495 kW.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/%28CHN-Shanghai%29_Private_Xiaomi_SU7_%E6%B2%AAA7WE106_2024-11-24.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Shanghai%29_Private_Xiaomi_SU7_%E6%B2%AAA7WE106_2024-11-24.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard",
+              "name": "SU7 (73.6 kWh RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.6,
+              "battery_basis": null,
+              "power_hp": 295,
+              "torque_lbft": 295,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.28,
+              "top_speed_mph": 130,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 700,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 215900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "pro",
+              "name": "SU7 Pro (94.3 kWh RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 94.3,
+              "battery_basis": null,
+              "power_hp": 295,
+              "torque_lbft": 295,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.7,
+              "top_speed_mph": 130,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 830,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 245900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "max",
+              "name": "SU7 Max (101 kWh AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 101.0,
+              "battery_basis": null,
+              "power_hp": 664,
+              "torque_lbft": 618,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 2.78,
+              "top_speed_mph": 165,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 800,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 299900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 facelift (new-generation SU7)",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": "MS11",
+          "platform": "Modena",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "V6s Plus motors, mechanical semi-hidden door handles, wider rear tyres, 752 V (Standard/Pro) and 897 V (Max) electrics, and longer range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Xiaomi_SU7_MY2026_IMG01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_SU7_MY2026_IMG01.jpg",
+              "credit": "Poprace",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard",
+              "name": "SU7 (73 kWh RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": 372,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 720,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2026/03/13/xiaomi-su7-to-launch-in-march-with-lidar-and-897v-platform-mass-deliveries-planned/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "pro",
+              "name": "SU7 Pro (96.3 kWh RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 96.3,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": 372,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 902,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2026/03/13/xiaomi-su7-to-launch-in-march-with-lidar-and-897v-platform-mass-deliveries-planned/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "max",
+              "name": "SU7 Max (101.7 kWh AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 101.7,
+              "battery_basis": null,
+              "power_hp": 681,
+              "torque_lbft": 639,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.08,
+              "top_speed_mph": 165,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 835,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2026/03/13/xiaomi-su7-to-launch-in-march-with-lidar-and-897v-platform-mass-deliveries-planned/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-su7-ultra",
+      "url_slug": "su7-ultra",
+      "name": "SU7 Ultra",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xiaomiev.com/su7-ultra",
+      "description": "Three-motor, 1,138 kW track-focused version of the SU7 with carbon aero, launched on 27 February 2025. It lapped the Nurburgring Nordschleife in 7:05 in standard form.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-02",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Modena",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Two HyperEngine V8s rear motors and one V6s front motor, 93.7 kWh Qilin 2.0 pack, carbon-ceramic brakes.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Xiaomi_SU7_Ultra_0001_China_2025-03-28.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_SU7_Ultra_0001_China_2025-03-28.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ultra",
+              "name": "SU7 Ultra",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 93.7,
+              "battery_basis": null,
+              "power_hp": 1526,
+              "torque_lbft": 1306,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 1.98,
+              "top_speed_mph": 217,
+              "dc_kw": 490,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 529900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_SU7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xiaomi-yu7",
+      "url_slug": "yu7",
+      "name": "YU7",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xiaomiev.com/yu7",
+      "description": "Xiaomi's second car, a mid-size coupe SUV aimed at the Tesla Model Y, launched on 26 June 2025. A 738 kW YU7 GT followed in May 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-06",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Xiaomi_YU7",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "MX11",
+          "platform": "Modena",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "HyperEngine V6s Plus motors on an 871 V architecture; LFP pack on YU7/Pro, NMC on Max/GT.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Xiaomi_YU7_Emerald_Green_Metallic_01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_YU7_Emerald_Green_Metallic_01.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard",
+              "name": "YU7 (RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 96.3,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": 389,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.88,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 835,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 253500,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_YU7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/06/26/xiaomi-launches-yu7-suv/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "pro",
+              "name": "YU7 Pro (AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 96.3,
+              "battery_basis": null,
+              "power_hp": 489,
+              "torque_lbft": 509,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.27,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 770,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 279900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_YU7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/06/26/xiaomi-launches-yu7-suv/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "max",
+              "name": "YU7 Max (AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 101.7,
+              "battery_basis": null,
+              "power_hp": 681,
+              "torque_lbft": 639,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.23,
+              "top_speed_mph": 157,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 760,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 329900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_YU7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/06/26/xiaomi-launches-yu7-suv/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "gt",
+              "name": "YU7 GT (AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 101.7,
+              "battery_basis": null,
+              "power_hp": 990,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 186,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Xiaomi_YU7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "2026 SU7 facelift prices not sourced per trim; 0-100 km/h for 2026 SU7 Standard/Pro not sourced.",
+    "YU7 GT 2.92 s figure is labelled both 0-100 km/h and 0-60 mph in the source; left null. YU7 GT price not sourced.",
+    "SU7 long-wheelbase (SU7 L) was announced for 2026 but no launch details were found; not listed."
+  ]
+}

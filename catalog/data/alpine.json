@@ -1,0 +1,485 @@
+{
+ "make": {
+  "slug": "alpine",
+  "name": "Alpine",
+  "legacy_id": null,
+  "country": "FR",
+  "headquarters": "Dieppe, France",
+  "founded": 1955,
+  "parent_group": "Renault Group",
+  "website_url": "https://www.alpinecars.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "French sports-car brand founded by Jean Redele in 1955 and owned by Renault. It is becoming an electric-only brand: the A290 hot hatch (2024) and A390 crossover (2026) are on sale, and an electric A110 is announced.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "founded",
+     "headquarters",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Alpine_(automobile)",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "alpine-a290",
+   "url_slug": "a290",
+   "name": "A290",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.alpinecars.com",
+   "description": "Alpine's first electric car: a hot hatch derived from the Renault 5 E-Tech on the AmpR Small platform, with a 52 kWh battery and 130 kW or 160 kW front motors. Revealed in June 2024 and on sale from late 2024; 2025 European Car of the Year.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://de.wikipedia.org/wiki/Renault_5_E-Tech",
+     "name": "Wikipedia (de)"
+    },
+    {
+     "fields": [
+      "specs",
+      "price"
+     ],
+     "url": "https://www.carscoops.com/2024/06/217-hp-alpine-a290-gt-hot-hatch-kicks-off-alpines-electric-transformation/",
+     "name": "Carscoops"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "AmpR Small",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "52 kWh battery, front motor of 130 kW (GT, GT Premium) or 160 kW (GT Performance, GTS), 100 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2024_Alpine_A290.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Alpine_A290.jpg",
+       "credit": "Calreyn88",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Renault_5_E-Tech",
+       "name": "Wikipedia (de)"
+      },
+      {
+       "fields": [
+        "specs",
+        "price"
+       ],
+       "url": "https://www.carscoops.com/2024/06/217-hp-alpine-a290-gt-hot-hatch-kicks-off-alpines-electric-transformation/",
+       "name": "Carscoops"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "gt-180",
+       "name": "GT / GT Premium (180 PS)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": null,
+       "power_hp": 178,
+       "torque_lbft": 210,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.4,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 379,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": 38000,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_5_E-Tech",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://www.carscoops.com/2024/06/217-hp-alpine-a290-gt-hot-hatch-kicks-off-alpines-electric-transformation/",
+         "name": "Carscoops"
+        }
+       ]
+      },
+      {
+       "slug": "gts-220",
+       "name": "GT Performance / GTS (220 PS)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": null,
+       "power_hp": 217,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.4,
+       "top_speed_mph": 106,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 362,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_5_E-Tech",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://www.carscoops.com/2024/06/217-hp-alpine-a290-gt-hot-hatch-kicks-off-alpines-electric-transformation/",
+         "name": "Carscoops"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "alpine-a390",
+   "url_slug": "a390",
+   "name": "A390",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.alpinecars.com",
+   "description": "Alpine's electric 'sport fastback' crossover, built at Dieppe on the AmpR Medium platform with three motors and an 89 kWh battery. Revealed in May 2025; customer deliveries began in the first quarter of 2026.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range",
+      "price"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Alpine_A390",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "price",
+      "specs",
+      "range"
+     ],
+     "url": "https://www.electrive.com/2025/10/28/from-e67500-alpine-reveals-prices-for-the-a390/",
+     "name": "electrive"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "AmpR Medium",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Tri-motor all-wheel drive, 89 kWh NMC battery, 295 kW (GT) or 345 kW (GTS).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Alpine_A390_IMG_4939_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Alpine_A390_IMG_4939_(cropped).jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range",
+        "price"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Alpine_A390",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "gt",
+       "name": "GT",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 89.0,
+       "battery_basis": null,
+       "power_hp": 400,
+       "torque_lbft": 488,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.8,
+       "top_speed_mph": 124,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 555,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 67500,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Alpine_A390",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "specs",
+          "range"
+         ],
+         "url": "https://www.electrive.com/2025/10/28/from-e67500-alpine-reveals-prices-for-the-a390/",
+         "name": "electrive"
+        }
+       ]
+      },
+      {
+       "slug": "gts",
+       "name": "GTS",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 89.0,
+       "battery_basis": null,
+       "power_hp": 470,
+       "torque_lbft": 608,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.9,
+       "top_speed_mph": 137,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 515,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 78000,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Alpine_A390",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "specs",
+          "range"
+         ],
+         "url": "https://www.electrive.com/2025/10/28/from-e67500-alpine-reveals-prices-for-the-a390/",
+         "name": "electrive"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "alpine-a110",
+   "url_slug": "a110",
+   "name": "A110",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "The petrol A110 sports car ended production in mid-2026; its announced successor is a fully electric A110, the first car on Alpine's own 800 V Alpine Performance Platform (APP). Specifications have not been released.",
+   "markets": {},
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history"
+     ],
+     "url": "https://www.electrive.com/2025/10/27/alpine-confirms-electric-successor-to-the-a110/",
+     "name": "electrive"
+    },
+    {
+     "fields": [
+      "status",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Alpine_A110_(2017)",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Third generation (electric)",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": null,
+     "platform": "Alpine Performance Platform (APP)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Electric two-seat sports car on the APP platform; no production specifications published.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history"
+       ],
+       "url": "https://www.electrive.com/2025/10/27/alpine-confirms-electric-successor-to-the-a110/",
+       "name": "electrive"
+      },
+      {
+       "fields": [
+        "status",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Alpine_A110_(2017)",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": []
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "A290 prices per version not sourced (only the pre-launch 'from 38,000 EUR', marked estimate); GT top speed not sourced.",
+  "A390 GTS price 78,000 EUR was provisional at announcement (marked estimate).",
+  "Images: none verified (Wikimedia rate-limited). Candidate: Alpine_A390_GT_–_f_11042026.jpg; A290 file not identified.",
+  "Electric A110: no reveal date or specs found; launch year 2026 is Alpine's 2023 APP target and may slip. A310 Vision is a concept only; Alpine's planned North American EVs not modelled."
+ ]
+}

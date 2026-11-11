@@ -1,0 +1,2832 @@
+{
+ "make": {
+  "slug": "skoda",
+  "name": "Škoda",
+  "legacy_id": null,
+  "country": "CZ",
+  "headquarters": "Mladá Boleslav, Czech Republic",
+  "founded": 1895,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.skoda-auto.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Czech carmaker founded in 1895 and part of the Volkswagen Group since 1991. Its electric range runs from the Epiq and Elroq to the Enyaq and the seven-seat Peaq, all built on Volkswagen Group platforms.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Auto",
+    "name": "Wikipedia: Škoda Auto"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "skoda-citigo-e-iv",
+   "url_slug": "citigo-e-iv",
+   "name": "Citigo-e iV",
+   "aliases": [
+    "CITIGOe iV"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the Citigo city car and Škoda's first production EV, a rebadged Volkswagen e-up! built in Bratislava. It replaced the petrol Citigo in 2019 and sales ended in 2020.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2020",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": "2020",
+     "end": "2020",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "volkswagen-e-up"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Up",
+     "name": "Wikipedia: Volkswagen Up"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "Citigo-e iV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Volkswagen Group NSF",
+     "start_year": 2019,
+     "end_year": 2020,
+     "status": "discontinued",
+     "description": "Electric-only Citigo with a 36.8 kWh battery and 61 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%A0koda_Citigo-e_iV_1X7A7291.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Citigo-e_iV_1X7A7291.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "36kwh",
+       "name": "Citigo-e iV (36.8 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2020,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 32.3,
+       "battery_basis": "usable",
+       "power_hp": 82,
+       "torque_lbft": 156,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.3,
+       "top_speed_mph": 81,
+       "dc_kw": 40,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2020,
+         "range": 258,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 24534,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2020,
+         "range": 258,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 17455,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1190/Skoda-CITIGOe-iV",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Up",
+         "name": "Wikipedia: Volkswagen Up (Škoda Citigo)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "skoda-enyaq",
+   "url_slug": "enyaq",
+   "name": "Enyaq",
+   "aliases": [
+    "Enyaq iV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.skoda-auto.com/models/range/enyaq",
+   "description": "Mid-size electric SUV and Škoda's first MEB-based model, built in Mladá Boleslav since November 2020 (sold as Enyaq iV until 2024). It was facelifted in January 2025 with the Modern Solid front, and updated again in mid-2026 with Android Automotive infotainment and new 58 kWh LFP entry battery.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+     "name": "Wikipedia: Škoda Enyaq"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation (Enyaq iV)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2020,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original Enyaq iV with 50/60/80/80x/RS versions; the 2024 model year brought the 210 kW 85 and 85x and a 250 kW RS.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/%C5%A0koda_Enyaq_IMG_1190.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Enyaq_IMG_1190.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "50",
+       "name": "Enyaq iV 50",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 146,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.3,
+       "top_speed_mph": 99,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 370,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1187/Skoda-Enyaq-iV-50",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "60",
+       "name": "Enyaq iV 60",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 177,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.7,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 413,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 42100,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 413,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38970,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1279/Skoda-Enyaq-iV-60",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "80",
+       "name": "Enyaq iV 80",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.6,
+       "top_speed_mph": 99,
+       "dc_kw": 125,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 548,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 548,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 42925,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1280/Skoda-Enyaq-iV-80",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "80x",
+       "name": "Enyaq iV 80x",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 261,
+       "torque_lbft": 313,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 99,
+       "dc_kw": 125,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 524,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 49050,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 524,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 50805,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1281/Skoda-Enyaq-iV-80x",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "rs",
+       "name": "Enyaq iV RS (220 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": 339,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.2,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2023,
+         "range": 517,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 63300,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2023,
+         "range": 517,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 52670,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1282/Skoda-Enyaq-iV-RS",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "50-2024",
+       "name": "Enyaq 50 (2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.1,
+       "top_speed_mph": 99,
+       "dc_kw": 145,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 377,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 36970,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2250/Skoda-Enyaq-50",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "60-2024",
+       "name": "Enyaq 60 (2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 177,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.7,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 401,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44200,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 401,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38970,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2019/Skoda-Enyaq-60",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85",
+       "name": "Enyaq 85",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 580,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 580,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44540,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2020/Skoda-Enyaq-85",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85x",
+       "name": "Enyaq 85x",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 539,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51150,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 539,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48605,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2021/Skoda-Enyaq-85x",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "rs-2024",
+       "name": "Enyaq RS (250 kW, 2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 542,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 61050,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 542,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53120,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2022/Skoda-Enyaq-RS",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "January 2025 facelift with the Modern Solid front design and lower drag; mid-2026 update (2027 model) adds a 58 kWh LFP 60, 220 kW 85x and Android Automotive.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/2025_%C5%A0koda_Enyaq_DSC_8029.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_%C5%A0koda_Enyaq_DSC_8029.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "60",
+       "name": "Enyaq 60 (63 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.1,
+       "top_speed_mph": 99,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 437,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44400,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 437,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38020,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3096/Skoda-Enyaq-60",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85",
+       "name": "Enyaq 85",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 586,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 586,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 40560,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 584,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3097/Skoda-Enyaq-85",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85x",
+       "name": "Enyaq 85x (210 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 549,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51150,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 549,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48760,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3098/Skoda-Enyaq-85x",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "rs",
+       "name": "Enyaq RS (79 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": null,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 562,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "60-lfp",
+       "name": "Enyaq 60 (58 kWh, 2027 model)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 188,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.6,
+       "top_speed_mph": null,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 457,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85x-220kw",
+       "name": "Enyaq 85x (220 kW, 2027 model)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.3,
+       "top_speed_mph": null,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 584,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "rs-2027",
+       "name": "Enyaq RS (77 kWh, 2027 model)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": null,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 569,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "skoda-enyaq-coupe",
+   "url_slug": "enyaq-coupe",
+   "name": "Enyaq Coupé",
+   "aliases": [
+    "Enyaq Coupé iV",
+    "Enyaq Coupe"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.skoda-auto.com/models/range/enyaq-coupe",
+   "description": "Coupe-roofed version of the Enyaq, built on the same Mladá Boleslav line since February 2022 (originally Enyaq Coupé iV). Facelifted with the Enyaq in January 2025.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+     "name": "Wikipedia: Škoda Enyaq"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation (Enyaq Coupé iV)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2022,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original Enyaq Coupé iV, including the first RS; 2024 model year brought 85/85x and the 250 kW RS.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/%C5%A0koda_Enyaq_Coup%C3%A9_DSC_7070.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Enyaq_Coup%C3%A9_DSC_7070.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "60",
+       "name": "Enyaq Coupé iV 60",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 177,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.8,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2023,
+         "range": 408,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1628/Skoda-Enyaq-Coupe-iV-60",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "80",
+       "name": "Enyaq Coupé iV 80",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.7,
+       "top_speed_mph": 99,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2023,
+         "range": 560,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 54400,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2023,
+         "range": 560,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44825,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1629/Skoda-Enyaq-Coupe-iV-80",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "80x",
+       "name": "Enyaq Coupé iV 80x",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 261,
+       "torque_lbft": 313,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.0,
+       "top_speed_mph": 99,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2023,
+         "range": 534,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 56650,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2023,
+         "range": 534,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 52505,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1630/Skoda-Enyaq-Coupe-iV-80x",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "rs",
+       "name": "Enyaq Coupé RS iV (220 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": 339,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.5,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2023,
+         "range": 523,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 63300,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2023,
+         "range": 523,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 54370,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1631/Skoda-Enyaq-Coupe-iV-RS",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "60-2024",
+       "name": "Enyaq Coupé 60 (2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 177,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.8,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 408,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46850,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2023/Skoda-Enyaq-Coupe-60",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85",
+       "name": "Enyaq Coupé 85",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 589,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51150,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 589,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46440,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2024/Skoda-Enyaq-Coupe-85",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85x",
+       "name": "Enyaq Coupé 85x",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 548,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53400,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 548,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 50305,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2025/Skoda-Enyaq-Coupe-85x",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "rs-2024",
+       "name": "Enyaq Coupé RS (250 kW, 2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 549,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 63300,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 549,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 54820,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2026/Skoda-Enyaq-Coupe-RS",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "January 2025 facelift (Modern Solid front, drag down to Cd 0.225).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/2025_%C5%A0koda_Enyaq_Coup%C3%A9_DSC_8491.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_%C5%A0koda_Enyaq_Coup%C3%A9_DSC_8491.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "60",
+       "name": "Enyaq Coupé 60 (63 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.1,
+       "top_speed_mph": 99,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 446,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46850,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3099/Skoda-Enyaq-Coupe-60",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85",
+       "name": "Enyaq Coupé 85",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 596,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51150,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 596,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 45220,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3100/Skoda-Enyaq-Coupe-85",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "85x",
+       "name": "Enyaq Coupé 85x",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 558,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53400,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 558,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 50660,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3101/Skoda-Enyaq-Coupe-85x",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      },
+      {
+       "slug": "rs",
+       "name": "Enyaq Coupé RS (79 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Enyaq",
+         "name": "Wikipedia: Škoda Enyaq"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "skoda-elroq",
+   "url_slug": "elroq",
+   "name": "Elroq",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.skoda-auto.com/models/range/elroq",
+   "description": "Compact electric SUV on the MEB platform, unveiled in October 2024 as the first Škoda in the Modern Solid design and built in Mladá Boleslav since January 2025. It was Europe's second-best-selling EV in 2025; a mid-2026 update added an LFP 60 and Android Automotive.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+     "name": "Wikipedia: Škoda Elroq"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Launched with 50, 60 and 85, then 85x and RS (2025); 2027 model year from mid-2026 brings a 58 kWh LFP 60.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/%C5%A0koda_Elroq_DSC_9260.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Elroq_DSC_9260.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "50",
+       "name": "Elroq 50",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 99,
+       "dc_kw": 145,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 377,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 33900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 377,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 30210,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3031/Skoda-Elroq-50",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      },
+      {
+       "slug": "60",
+       "name": "Elroq 60 (63 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.0,
+       "top_speed_mph": 99,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 430,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38680,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 430,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 32470,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3032/Skoda-Elroq-60",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      },
+      {
+       "slug": "85",
+       "name": "Elroq 85",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 581,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44180,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 581,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 35560,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3033/Skoda-Elroq-85",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      },
+      {
+       "slug": "85x",
+       "name": "Elroq 85x (210 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      },
+      {
+       "slug": "rs",
+       "name": "Elroq RS (79 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      },
+      {
+       "slug": "60-lfp",
+       "name": "Elroq 60 (58 kWh LFP, 2027 model)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 188,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      },
+      {
+       "slug": "85x-220kw",
+       "name": "Elroq 85x (220 kW, 2027 model)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      },
+      {
+       "slug": "rs-2027",
+       "name": "Elroq RS (77 kWh, 2027 model)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Elroq",
+         "name": "Wikipedia: Škoda Elroq"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "skoda-epiq",
+   "url_slug": "epiq",
+   "name": "Epiq",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.skoda-auto.com",
+   "description": "Front-wheel-drive subcompact electric SUV on the MEB+ (MEB Entry) platform, built at Volkswagen Navarra in Pamplona since June 2026 alongside the VW ID. Cross. It is Škoda's smallest electric SUV.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Epiq",
+     "name": "Wikipedia: Škoda Epiq"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB+ (MEB Entry)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Production from June 2026; 37 kWh LFP (Epiq 35/40) and 55 kWh NMC (Epiq 55) batteries.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/%C5%A0koda_Epiq_Auto_Zuerich_2026_IMG_8960.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Epiq_Auto_Zuerich_2026_IMG_8960.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "35",
+       "name": "Epiq 35",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 38.5,
+       "battery_basis": "gross",
+       "power_hp": 114,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Epiq",
+         "name": "Wikipedia: Škoda Epiq"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3620/Skoda-Epiq-35",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "40",
+       "name": "Epiq 40",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 38.5,
+       "battery_basis": "gross",
+       "power_hp": 133,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Epiq",
+         "name": "Wikipedia: Škoda Epiq"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3621/Skoda-Epiq-40",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "55",
+       "name": "Epiq 55",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 55.0,
+       "battery_basis": "gross",
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Epiq",
+         "name": "Wikipedia: Škoda Epiq"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3622/Skoda-Epiq-55",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "skoda-peaq",
+   "url_slug": "peaq",
+   "name": "Peaq",
+   "aliases": [
+    "Vision 7S"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.skoda-auto.com",
+   "description": "Large five- or seven-seat electric SUV, the production version of the 2022 Vision 7S concept. Built in Mladá Boleslav on the MEB+ platform and on sale since August 2026.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Peaq",
+     "name": "Wikipedia: Škoda Peaq"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB+",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Production from August 2026; 63/59 kWh and 91/86 kWh NMC batteries, rear- or all-wheel drive.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%C5%A0koda_Peaq_Sindelfingen_2026_IMG_8235.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%C5%A0koda_Peaq_Sindelfingen_2026_IMG_8235.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "60",
+       "name": "Peaq 60",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 160,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 459,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Peaq",
+         "name": "Wikipedia: Škoda Peaq"
+        }
+       ]
+      },
+      {
+       "slug": "90",
+       "name": "Peaq 90",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 199,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 647,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Peaq",
+         "name": "Wikipedia: Škoda Peaq"
+        }
+       ]
+      },
+      {
+       "slug": "90x",
+       "name": "Peaq 90x",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 199,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 613,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Peaq",
+         "name": "Wikipedia: Škoda Peaq"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "ev-database blocked requests (HTTP 429) mid-research, so post-2025 variants (Elroq 85x/RS, Enyaq/Coupé RS facelift, all 2027-model versions, Epiq, Peaq) lack prices and some lack WLTP range, torque and 0-100.",
+  "Elroq 50 is listed as 'not listed' for the 2027 model year on Wikipedia; its end date is not confirmed, so it is left without year_to.",
+  "ev-database also lists newer 'Elroq 85 84 kWh' and 'Enyaq 85 84 kWh' entries that could not be read.",
+  "Enyaq 50 (2021-2023) WLTP: ev-database gives 370 km, Wikipedia 340 km; used ev-database.",
+  "Citigo-e iV WLTP: ev-database 258 km vs Wikipedia 270 km; used ev-database. Discontinuation (autumn 2020) is sourced only to Wikipedia."
+ ]
+}

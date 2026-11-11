@@ -1,0 +1,277 @@
+{
+ "make": {
+  "slug": "afeela",
+  "name": "Afeela",
+  "legacy_id": null,
+  "country": "JP",
+  "headquarters": "Minato, Tokyo, Japan",
+  "founded": 2022,
+  "parent_group": "Sony Honda Mobility (Sony Group and Honda)",
+  "website_url": null,
+  "status": "defunct",
+  "status_date": "2026-03-25",
+  "status_details": "Sony Honda Mobility cancelled the Afeela 1 and its planned SUV on 25 March 2026, ahead of planned mid-2026 deliveries, and on 21 April 2026 restructured, moving nearly all staff back to Sony and Honda.",
+  "description": "Car brand of Sony Honda Mobility, a Sony-Honda joint venture founded in October 2022. Its only production model, the Afeela 1 sedan, was cancelled in March 2026 just after trial production began in Ohio.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "status"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Afeela",
+    "name": "Wikipedia: Sony Honda Mobility / Afeela"
+   },
+   {
+    "fields": [
+     "status"
+    ],
+    "url": "https://www.cbtnews.com/sony-honda-ev-venture-scales-back-afeela-cancelled/",
+    "name": "CBT News (Sony-Honda EV venture scales back)"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "afeela-1",
+   "url_slug": "afeela-1",
+   "name": "Afeela 1",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Five-door electric sedan with Level 3 driver assistance from the Sony-Honda joint venture, announced from $89,900 for California deliveries in mid-2026. It was cancelled on 25 March 2026, ahead of its planned mid-2026 deliveries.",
+   "markets": {
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "JP": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Afeela",
+     "name": "Wikipedia: Sony Honda Mobility / Afeela"
+    },
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Afeela_1",
+     "name": "Wikipedia: Afeela 1"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.cbtnews.com/sony-honda-ev-venture-scales-back-afeela-cancelled/",
+     "name": "CBT News (Sony-Honda EV venture scales back)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Production version (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Production version shown at CES 2025, with two 180 kW motors and a 91 kWh pack; trial production began at Honda's East Liberty, Ohio plant in January 2026 before the car was cancelled on 25 March 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Afeela_car.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Afeela_car.jpg",
+       "credit": "Jack145945",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Afeela_1",
+       "name": "Wikipedia: Afeela 1"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "Afeela 1 (dual motor AWD)",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 91,
+       "battery_basis": null,
+       "power_hp": 483,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": null,
+         "range": 300,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Afeela_1",
+         "name": "Wikipedia: Afeela 1"
+        },
+        {
+         "fields": [
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Afeela",
+         "name": "Wikipedia: Sony Honda Mobility / Afeela"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "afeela-suv",
+   "url_slug": "suv",
+   "name": "Afeela SUV",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Second Afeela model, shown as a prototype at CES 2026 and planned for 2028; cancelled together with the Afeela 1 on 25 March 2026.",
+   "markets": {
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Afeela",
+     "name": "Wikipedia: Sony Honda Mobility / Afeela"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.cbtnews.com/sony-honda-ev-venture-scales-back-afeela-cancelled/",
+     "name": "CBT News (Sony-Honda EV venture scales back)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2028",
+     "name": "Prototype 2026 (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2028,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Electric SUV shown as the Afeela Prototype 2026 at CES 2026 for a planned 2028 release.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Afeela",
+       "name": "Wikipedia: Sony Honda Mobility / Afeela"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "planned",
+       "name": "Afeela SUV (planned)",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Afeela",
+         "name": "Wikipedia: Sony Honda Mobility / Afeela"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Afeela 1 range (about 300 mi) is a manufacturer estimate; no EPA rating was issued.",
+  "Afeela 1 announced price from $89,900 is not stored as an offering because its destination basis is unknown.",
+  "Whether Sony Honda Mobility has been formally dissolved is not confirmed; status 'defunct' reflects the cancelled products and staff reassignment.",
+  "No image: Wikimedia rate-limited this machine before the candidate (File:October 2024, Afeela at Tokyo Node.jpg) could be checked.",
+  "Primary sources for the cancellation (The Verge, Car and Driver, Reuters) could not be fetched; facts come from Wikipedia and CBT News."
+ ]
+}

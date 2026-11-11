@@ -1,0 +1,549 @@
+{
+  "make": {
+    "slug": "lancia",
+    "name": "Lancia",
+    "legacy_id": null,
+    "country": "IT",
+    "headquarters": "Turin, Italy",
+    "founded": 1906,
+    "parent_group": "Stellantis",
+    "website_url": "https://www.lancia.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Italian car maker founded by Vincenzo Lancia in Turin in 1906, part of Fiat and now Stellantis. After years selling only the Ypsilon in Italy, it relaunched with the electric fourth-generation Ypsilon (2024) and the Gamma (2026), with a new Delta announced for 2028.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters",
+          "parent_group",
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Lancia",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "lancia-ypsilon",
+      "url_slug": "ypsilon",
+      "name": "Ypsilon",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.lancia.com",
+      "description": "The fourth-generation Ypsilon (2024) is Lancia's first electric car, a supermini on the eCMP platform shared with the Peugeot 208 and Opel Corsa. It launched with a 51 kWh battery, moved to 54 kWh in 2025 and gained a 206 kW Ypsilon HF in 2025.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lancia_Ypsilon",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Fourth generation",
+          "kind": "generation",
+          "ordinal": 4,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Revealed February 2024; first model in Lancia's Pu+Ra design language.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/2024_Lancia_Ypsilon_Cassina_BEV_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Lancia_Ypsilon_Cassina_BEV_(cropped).jpg",
+              "credit": "LC005YP",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "51-kwh",
+              "name": "51 kWh (MY24)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 51.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 403,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lancia_Ypsilon",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2117/Lancia-Ypsilon",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 425,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lancia_Ypsilon",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3224/Lancia-Ypsilon-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "hf",
+              "name": "HF",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 276,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lancia_Ypsilon",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3225/Lancia-Ypsilon-54-kWh-HF",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lancia-gamma",
+      "url_slug": "gamma",
+      "name": "Gamma",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Fastback crossover on STLA Medium, unveiled on 26 May 2026 and built in Melfi alongside the DS N°7 and N°8, with mild-hybrid and battery-electric versions. The electric versions use 73.7 kWh or 97.2 kWh batteries; the dual-motor HF Integrale was shown in July 2026. Orders opened in October 2026.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Gamma",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "STLA Medium",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "STLA Medium, Melfi-built.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/2026_Lancia_Gamma_EV_front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Lancia_Gamma_EV_front.jpg",
+              "credit": "Abra65",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd-standard-range",
+              "name": "FWD Standard Range 73.7 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.7,
+              "battery_basis": "usable",
+              "power_hp": 230,
+              "torque_lbft": 253,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.7,
+              "top_speed_mph": 118,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 543,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "history",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+                  "name": "Wikipedia (de)"
+                }
+              ]
+            },
+            {
+              "slug": "fwd-long-range",
+              "name": "FWD Long Range 97.2 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 97.2,
+              "battery_basis": "usable",
+              "power_hp": 245,
+              "torque_lbft": 253,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.8,
+              "top_speed_mph": 118,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 741,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "history",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3844/Lancia-Gamma-97-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "hf-integrale",
+              "name": "HF Integrale AWD 97.2 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 97.2,
+              "battery_basis": "usable",
+              "power_hp": 375,
+              "torque_lbft": 375,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.1,
+              "top_speed_mph": 118,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 676,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "history",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Lancia_Gamma_(2026)",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3845/Lancia-Gamma-97-kWh-HF-Integrale",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lancia-delta",
+      "url_slug": "delta",
+      "name": "Delta",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Lancia has announced a new, fourth-generation Delta compact hatchback with hybrid and fully electric versions, expected to enter production in late 2028 at Cassino.",
+      "markets": {
+        "EU": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lancia_Delta",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2028",
+          "name": "Fourth generation",
+          "kind": "generation",
+          "ordinal": 4,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2028,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced; no specifications published yet.",
+          "images": [],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Lancia is not listed with German or UK prices on EV Database; Netherlands prices exist (Ypsilon 54 kWh EUR 33,700, HF EUR 40,950; Gamma 97 kWh EUR 51,950, HF Integrale EUR 58,950) but were left out so EU prices stay German-based.",
+    "Ypsilon HF WLTP range, torque and top speed not sourced; Ypsilon torque and DC charging not sourced.",
+    "Gamma power is from English Wikipedia (230 / 245 / 375 hp; the AWD figure is a combined/boost output); German Wikipedia gives 191 / 206 / 276 kW maximum.",
+    "Delta: announced only; no specs, no image."
+  ]
+}

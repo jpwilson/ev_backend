@@ -1,0 +1,385 @@
+{
+ "make": {
+  "slug": "dodge",
+  "name": "Dodge",
+  "legacy_id": null,
+  "country": "US",
+  "headquarters": "Auburn Hills, Michigan, USA",
+  "founded": 1900,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.dodge.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Dodge is Stellantis's American performance brand. Its first battery-electric car is the Charger Daytona, built in Canada since late 2024 alongside the petrol Charger Sixpack.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Dodge",
+    "name": "Wikipedia: Dodge"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "dodge-charger-daytona",
+   "url_slug": "charger-daytona",
+   "name": "Charger Daytona",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.dodge.com/charger-daytona.html",
+   "description": "The Charger Daytona is Dodge's first battery-electric muscle car, sold alongside the petrol Charger Sixpack. It launched as a two-door coupe in R/T (496 hp) and Scat Pack (670 hp) forms; a four-door was added for 2026 while the R/T was postponed.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2025-01",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Dodge_Charger_(2024)",
+     "name": "Wikipedia: Dodge Charger (2024)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.jalopnik.com/1861959/dodge-postponing-2026-charger-daytona-ev-rt/",
+     "name": "Jalopnik"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Eighth generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "STLA Large",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Battery-electric version of the eighth-generation Charger, built in Windsor, Ontario, with two 250 kW motors and a 100.5 kWh battery. The two-door arrived first (dealers January 2025); a four-door liftback followed for 2026, and the R/T trim was paused for the 2026 model year.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/2024_Dodge_Charger_Daytona_RT%2C_front_4.14.25.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Dodge_Charger_Daytona_RT%2C_front_4.14.25.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "platform",
+        "start_year"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Dodge_Charger_(2024)",
+       "name": "Wikipedia: Dodge Charger (2024)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "r-t",
+       "name": "Daytona R/T (2-door)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": "coupe",
+       "seats": 5,
+       "battery_kwh": 100.5,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": 404,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 308,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 59595,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 308,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=26052",
+         "name": "Stellantis media: 2024 Charger Daytona pricing and specs"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Dodge_Charger_(2024)",
+         "name": "Wikipedia: Dodge Charger (2024)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48784",
+         "name": "fueleconomy.gov (EPA) vehicle 48784"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48994",
+         "name": "fueleconomy.gov (EPA) vehicle 48994"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.jalopnik.com/1861959/dodge-postponing-2026-charger-daytona-ev-rt/",
+         "name": "Jalopnik (May 2025): R/T postponed for 2026"
+        }
+       ]
+      },
+      {
+       "slug": "scat-pack",
+       "name": "Daytona Scat Pack (2-door)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": "coupe",
+       "seats": 5,
+       "battery_kwh": 100.5,
+       "battery_basis": null,
+       "power_hp": 670,
+       "torque_lbft": 627,
+       "accel_0_60_s": 3.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 241,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 73190,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 279,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 267,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 59995,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 267,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://media.stellantisnorthamerica.com/newsrelease.do?id=26052",
+         "name": "Stellantis media: 2024 Charger Daytona pricing and specs"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Dodge_Charger_(2024)",
+         "name": "Wikipedia: Dodge Charger (2024)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48786",
+         "name": "fueleconomy.gov (EPA) vehicle 48786"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49075",
+         "name": "fueleconomy.gov (EPA) vehicle 49075"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49648",
+         "name": "fueleconomy.gov (EPA) vehicle 49648"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50631",
+         "name": "fueleconomy.gov (EPA) vehicle 50631"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://electrek.co/2025/05/16/dodge-scrapping-charger-daytona-r-t-ev-but-theres-more/",
+         "name": "Electrek (May 2025): 2026 Scat Pack price cut to $59,995"
+        }
+       ]
+      },
+      {
+       "slug": "scat-pack-4-door",
+       "name": "Daytona Scat Pack (4-door)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": "sedan",
+       "seats": 5,
+       "battery_kwh": 100.5,
+       "battery_basis": null,
+       "power_hp": 670,
+       "torque_lbft": 627,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 267,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "specs"
+         ],
+         "url": "https://cdn-fastly.thetruthaboutcars.com/cars/news-blog/the-four-door-2026-dodge-charger-daytona-has-arrived-44514043",
+         "name": "The Truth About Cars: the four-door 2026 Charger Daytona has arrived"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/dodge-charger-viii-4-door-daytona-scat-pack-100.5-kwh-680hp-awd-electric-56049",
+         "name": "auto-data.net: Charger VIII 4-door Daytona Scat Pack"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49648",
+         "name": "fueleconomy.gov (EPA) vehicle 49648"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "DC fast-charging peak kW for the Charger Daytona not found in an accessible source (Stellantis quotes 20-80% in just over 24 minutes).",
+  "US prices for the 2025 model year and for the 2026 four-door, and the 2027 price, not sourced.",
+  "EPA lists 2026 R/T ratings although Dodge said R/T production was postponed for 2026; R/T is marked discontinued after MY2025 and no 2027 R/T rating exists.",
+  "Connector for 2026+ cars (CCS1 vs NACS) not confirmed; left null.",
+  "Battery basis: 100.5 kWh is the gross figure per Stellantis STLA Large; auto-data lists 93.9 kWh usable; left basis null as Stellantis does not label it."
+ ]
+}

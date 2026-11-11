@@ -1,0 +1,382 @@
+{
+ "make": {
+  "slug": "alfa-romeo",
+  "name": "Alfa Romeo",
+  "legacy_id": null,
+  "country": "IT",
+  "headquarters": "Turin, Italy",
+  "founded": 1910,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.alfaromeo.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Alfa Romeo is Stellantis's Italian premium sports brand, founded in Milan in 1910. Its first battery-electric car is the Junior (2024); the limited 33 Stradale was also offered with an electric powertrain.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Alfa_Romeo",
+    "name": "Wikipedia: Alfa Romeo"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "alfa-romeo-junior",
+   "url_slug": "junior",
+   "name": "Junior",
+   "aliases": [
+    "Milano"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.alfaromeo.com/junior",
+   "description": "The Junior is Alfa Romeo's first battery-electric car and smallest SUV, sold in Europe since 2024. It shares its platform with the Jeep Avenger and Fiat 600e; the 281 PS Elettrica Veloce is the performance version.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "jeep-avenger"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_Junior_(2024)",
+     "name": "Wikipedia: Alfa Romeo Junior (2024)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e-CMP",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Built in Tychy, Poland; revealed 10 April 2024 as the Milano and renamed Junior five days later after Italian government objections. Offered as Elettrica (115 kW), Elettrica Veloce (207 kW) and mild hybrid.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Alfa_Romeo_Junior_Veloce_Auto_Zuerich_2025_DSC_3338.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Junior_Veloce_Auto_Zuerich_2025_DSC_3338.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_Junior_(2024)",
+       "name": "Wikipedia: Alfa Romeo Junior (2024)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "elettrica",
+       "name": "Junior Elettrica",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 54.0,
+       "battery_basis": "gross",
+       "power_hp": 154,
+       "torque_lbft": 192,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 410,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39500,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 32400,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_Junior_(2024)",
+         "name": "Wikipedia: Alfa Romeo Junior (2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/alfa-romeo-junior-54-kwh-156hp-electric-51553",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2184/Alfa-Romeo-Junior-Elettrica-54-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "elettrica-veloce",
+       "name": "Junior Elettrica Veloce",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 54.0,
+       "battery_basis": "gross",
+       "power_hp": 278,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 347,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48500,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 42300,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_Junior_(2024)",
+         "name": "Wikipedia: Alfa Romeo Junior (2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/alfa-romeo-junior-veloce-54-kwh-282hp-electric-52151",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2185/Alfa-Romeo-Junior-Elettrica-54-kWh-Veloce",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "alfa-romeo-33-stradale",
+   "url_slug": "33-stradale",
+   "name": "33 Stradale",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "The 33 Stradale is a limited run of 33 coachbuilt supercars unveiled in August 2023, offered with a 620 hp petrol V6 or a 750 hp electric powertrain with about 450 km WLTP range. All 33 were sold before production; how many were ordered as EVs has not been published.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_33_Stradale_(2023)",
+     "name": "Wikipedia: Alfa Romeo 33 Stradale (2023)"
+    },
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://www.motor1.com/news/684235/alfa-romeo-33-stradale-debut/",
+     "name": "Motor1 (Aug 2023): 33 Stradale debut"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "2023 revival",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Maserati MC20 carbon monocoque",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Hand-built by Touring Superleggera from December 2024; buyers chose either the MC20's twin-turbo V6 or a tri-motor electric powertrain.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alfa_Romeo_33_Stradale_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_33_Stradale_%28cropped%29.jpg",
+       "credit": "Alexandre Prevot (derivative by Danyele)",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "start_year"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_33_Stradale_(2023)",
+       "name": "Wikipedia: Alfa Romeo 33 Stradale (2023)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric",
+       "name": "33 Stradale Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 102.0,
+       "battery_basis": "gross",
+       "power_hp": 750,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.0,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.motor1.com/news/684235/alfa-romeo-33-stradale-debut/",
+         "name": "Motor1 (Aug 2023): 33 Stradale debut"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/alfa-romeo-33-stradale-2023-102-kwh-750hp-electric-awd-53179",
+         "name": "auto-data.net"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Next-generation Stelvio and Giulia on STLA Large (planned with BEV versions) have not launched; current status could not be checked (web search budget exhausted), so they are not listed.",
+  "Junior DC charging peak kW not confirmed (shares the 100 kW e-CMP system per Avenger/600e, not stated for Alfa).",
+  "33 Stradale electric: number built unknown; top speed for the EV not separately sourced; torque not sourced.",
+  "Junior Ibrida Q4 and mild hybrids are out of scope (not BEV)."
+ ]
+}

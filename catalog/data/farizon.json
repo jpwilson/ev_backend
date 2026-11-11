@@ -1,0 +1,316 @@
+{
+ "make": {
+  "slug": "farizon",
+  "name": "Farizon",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Hangzhou, Zhejiang, China",
+  "founded": 2016,
+  "parent_group": "Zhejiang Geely Holding Group",
+  "website_url": "https://www.geelycv.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Geely's commercial-vehicle arm (formerly Geely New Energy Commercial Vehicle Group), making electric vans, trucks and buses. Its SV (SuperVAN) electric van is sold in China, the UK and Europe, and a seven-seat passenger version is sold in China as the Xingfuhao.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Farizon_Auto",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "farizon-sv",
+   "url_slug": "sv",
+   "name": "SV (SuperVAN)",
+   "aliases": [
+    "SuperVAN",
+    "Farizon SuperVAN"
+   ],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Large battery-electric van on a dedicated EV platform, built in China since 2024 and sold in the UK and Europe from 2025.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Farizon_SV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "SV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation; 67 or 83 kWh LFP or 106 kWh NMC packs and a 169 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Farizon_SV_004.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Farizon_SV_004.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "67-kwh",
+       "name": "67 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 67.0,
+       "battery_basis": null,
+       "power_hp": 227,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Farizon_SV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "83-kwh",
+       "name": "83 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 83.0,
+       "battery_basis": null,
+       "power_hp": 227,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Farizon_SV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "106-kwh",
+       "name": "106 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 106.0,
+       "battery_basis": null,
+       "power_hp": 227,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Farizon_SV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "farizon-xingfuhao",
+   "url_slug": "xingfuhao",
+   "name": "Xingfuhao",
+   "aliases": [],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Seven-seat passenger MPV version of the SV van with a single tailgate, produced in China from July 2024.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "farizon-sv"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Farizon_SV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Xingfuhao",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation; batteries of about 66.6 and 68.0 kWh.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Farizon_Xingfuhao_%28%E5%B9%B8%E7%A6%8F%E5%8F%B7%29_001_China_2025-04-03.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Farizon_Xingfuhao_%28%E5%B9%B8%E7%A6%8F%E5%8F%B7%29_001_China_2025-04-03.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "66-kwh",
+       "name": "66.6 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 66.57,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Farizon_SV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "68-kwh",
+       "name": "68.0 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 68.03,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Farizon_SV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "No legacy rows for Farizon.",
+  "Only passenger-relevant light vehicles are listed (SV van as commercial, Xingfuhao MPV); trucks, buses and micro-vans are out of scope.",
+  "Wikipedia says Farizon announced in May 2024 it would stop producing finished vehicles, yet SV sales continued into 2025-2026; not resolved, make kept active.",
+  "SV: Wikipedia gives conflicting WLTP figures (397 km in text, up to 558 km in infobox) and approximate UK prices (about GBP 45,000-56,000, VAT basis unknown); none recorded.",
+  "Xingfuhao battery figures are given by Wikipedia as '68.03kW and 66.57kW' (assumed kWh); power, range and price not found."
+ ]
+}

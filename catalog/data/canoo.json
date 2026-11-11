@@ -1,0 +1,948 @@
+{
+  "make": {
+    "slug": "canoo",
+    "name": "Canoo",
+    "legacy_id": 18,
+    "country": "US",
+    "headquarters": "Justin, Texas, USA",
+    "founded": 2017,
+    "parent_group": null,
+    "website_url": "https://www.canoo.com",
+    "status": "defunct",
+    "status_date": "2025-01-17",
+    "status_details": "Filed for Chapter 7 bankruptcy on 17 January 2025 and ceased operations the same day; in April 2025 the court let former CEO Tony Aquila's company buy most remaining assets for about $4 million.",
+    "description": "Canoo was founded in 2017 as Evelozcity and renamed in 2019, building pod-shaped electric vans on a skateboard platform. It delivered only a few dozen vehicles, mostly Lifestyle Delivery Vehicles to Walmart, the state of Oklahoma, NASA and the US Postal Service, before running out of money.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://investors.canoo.com/news-presentations/press-releases/detail/159/canoo-inc-announces-chapter-7-bankruptcy-filing",
+        "name": "Canoo: Chapter 7 bankruptcy filing (17 Jan 2025)"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://techcrunch.com/2025/04/10/canoo-ceo-can-buy-bankrupt-ev-startups-assets-judge-rules",
+        "name": "TechCrunch: Canoo CEO can buy assets (Apr 2025)"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Canoo",
+        "name": "Wikipedia: Canoo"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "canoo-lifestyle-vehicle",
+      "url_slug": "lifestyle-vehicle",
+      "name": "Lifestyle Vehicle",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Pod-shaped five- or seven-seat electric minivan on Canoo's skateboard platform, first shown in 2019 and priced from $34,750 to $49,950 in 2021. Only the delivery-van version (LDV) reached small-scale production; the passenger Lifestyle Vehicle was never sold to private buyers before the 2025 bankruptcy.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+          "name": "Wikipedia: Canoo Lifestyle Vehicle"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://investors.canoo.com/news-presentations/press-releases/detail/159/canoo-inc-announces-chapter-7-bankruptcy-filing",
+          "name": "Canoo: Chapter 7 bankruptcy filing (17 Jan 2025)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "cancelled",
+          "description": "Passenger version of the 80 kWh, rear-motor Canoo platform; reservations opened in 2021 but retail deliveries never started.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/canoo_lifestyle_premium.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Base",
+              "legacy_ids": [
+                121
+              ],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 250,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+                  "name": "Wikipedia: Canoo Lifestyle Vehicle"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/508024/canoo-order-books-open-reservation/",
+                  "name": "InsideEVs: Canoo pricing and order books (May 2021)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://greencarreports.com/news/1132297_canoo-prices-its-evs-starting-at-34-750-for-lifestyle-vehicle-due-in-2022",
+                  "name": "Green Car Reports: Canoo prices (May 2021)"
+                }
+              ]
+            },
+            {
+              "slug": "premium",
+              "name": "Premium",
+              "legacy_ids": [
+                120
+              ],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 80.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 250,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 49950,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+                  "name": "Wikipedia: Canoo Lifestyle Vehicle"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/508024/canoo-order-books-open-reservation/",
+                  "name": "InsideEVs: Canoo pricing and order books (May 2021)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://greencarreports.com/news/1132297_canoo-prices-its-evs-starting-at-34-750-for-lifestyle-vehicle-due-in-2022",
+                  "name": "Green Car Reports: Canoo prices (May 2021)"
+                }
+              ]
+            },
+            {
+              "slug": "adventure",
+              "name": "Adventure",
+              "legacy_ids": [
+                119
+              ],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 80.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+                  "name": "Wikipedia: Canoo Lifestyle Vehicle"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/508024/canoo-order-books-open-reservation/",
+                  "name": "InsideEVs: Canoo pricing and order books (May 2021)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "canoo-ldv-130",
+      "url_slug": "ldv-130",
+      "name": "LDV 130",
+      "aliases": [
+        "Lifestyle Delivery Vehicle",
+        "Lifestyle Vehicle Delivery"
+      ],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Two-seat Lifestyle Delivery Vehicle, the cargo version of the Lifestyle Vehicle, priced from $34,750. Small numbers were built from late 2022 and used by Walmart, the state of Oklahoma and others; it was renamed and upgraded as the LDV 190 in August 2023.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2022-11",
+          "end": "2023-08",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+          "name": "Wikipedia: Canoo Lifestyle Vehicle"
+        },
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://www.dbusiness.com/daily-news/canoo-technologies-unveils-lifestyle-delivery-vehicle-190/",
+          "name": "DBusiness: Canoo unveils LDV 190 (Aug 2023)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insideevs.com/news/606193/canoo-ldvs-began-deliveries-for-walmart-inhome-dallas-fort-worth/",
+          "name": "InsideEVs: Canoo LDVs begin Walmart deliveries"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Original two-seat delivery van with 1,464 lb cargo capacity on the 80 kWh, rear-motor platform.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/canoo_ldv_130.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "LDV 130",
+              "legacy_ids": [
+                127,
+                122
+              ],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 80.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 250,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 34750,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+                  "name": "Wikipedia: Canoo Lifestyle Vehicle"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/508024/canoo-order-books-open-reservation/",
+                  "name": "InsideEVs: Canoo pricing and order books (May 2021)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://greencarreports.com/news/1132297_canoo-prices-its-evs-starting-at-34-750-for-lifestyle-vehicle-due-in-2022",
+                  "name": "Green Car Reports: Canoo prices (May 2021)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "canoo-ldv-190",
+      "url_slug": "ldv-190",
+      "name": "LDV 190",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Class 2 version of the Lifestyle Delivery Vehicle announced in August 2023, with reinforced suspension, 172 cubic feet of cargo space and a modular rear cargo cartridge. A handful went to customers including the US Postal Service (six vans) before production stopped with the January 2025 bankruptcy.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2023-08",
+          "end": "2025-01",
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "successor",
+          "model": "canoo-ldv-130"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://www.dbusiness.com/daily-news/canoo-technologies-unveils-lifestyle-delivery-vehicle-190/",
+          "name": "DBusiness: Canoo unveils LDV 190 (Aug 2023)"
+        },
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+          "name": "Wikipedia: Canoo Lifestyle Vehicle"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://investors.canoo.com/news-presentations/press-releases/detail/159/canoo-inc-announces-chapter-7-bankruptcy-filing",
+          "name": "Canoo: Chapter 7 bankruptcy filing (17 Jan 2025)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Upgraded LDV with higher payload rating; built in very small numbers in 2023-2024.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/canoo_ldv_190.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "LDV 190",
+              "legacy_ids": [
+                126
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 80.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.dbusiness.com/daily-news/canoo-technologies-unveils-lifestyle-delivery-vehicle-190/",
+                  "name": "DBusiness: Canoo unveils LDV 190 (Aug 2023)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+                  "name": "Wikipedia: Canoo Lifestyle Vehicle"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "canoo-mpdv",
+      "url_slug": "mpdv",
+      "name": "MPDV",
+      "aliases": [
+        "Multi-Purpose Delivery Vehicle"
+      ],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Multi-Purpose Delivery Vehicle: a larger electric cargo van announced in December 2020 with a quoted base price of $33,000 and about 200 hp. It never reached production.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Canoo",
+          "name": "Wikipedia: Canoo"
+        },
+        {
+          "fields": [
+            "price"
+          ],
+          "url": "https://greencarreports.com/news/1132297_canoo-prices-its-evs-starting-at-34-750-for-lifestyle-vehicle-due-in-2022",
+          "name": "Green Car Reports: Canoo prices (May 2021)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Announced for 2022-2023 production; cancelled before production.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/canoo_mpdv.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "MPDV",
+              "legacy_ids": [
+                125
+              ],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 200,
+              "torque_lbft": 236,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 33000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/508024/canoo-order-books-open-reservation/",
+                  "name": "InsideEVs: Canoo pricing and order books (May 2021)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://greencarreports.com/news/1132297_canoo-prices-its-evs-starting-at-34-750-for-lifestyle-vehicle-due-in-2022",
+                  "name": "Green Car Reports: Canoo prices (May 2021)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "canoo-pickup",
+      "url_slug": "pickup",
+      "name": "Pickup",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Electric pickup announced in March 2021 for a 2023 launch, with single-motor RWD or dual-motor AWD, over 200 miles of range and a 1,800 lb payload. Related prototypes went to the US Army (Light Tactical Vehicle) and were shown as the American Bulldog, but no pickup was sold.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Canoo",
+          "name": "Wikipedia: Canoo"
+        },
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Canoo_Lifestyle_Vehicle",
+          "name": "Wikipedia: Canoo Lifestyle Vehicle"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range"
+          ],
+          "url": "https://insideevs.com/news/508024/canoo-order-books-open-reservation/",
+          "name": "InsideEVs: Canoo pricing and order books (May 2021)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Pickup on the Canoo skateboard platform with a fold-out work surface; never produced for sale.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/canoo_pickup_awd.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "Dual-motor AWD",
+              "legacy_ids": [
+                123
+              ],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 500,
+              "torque_lbft": 550,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 200,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/508024/canoo-order-books-open-reservation/",
+                  "name": "InsideEVs: Canoo pricing and order books (May 2021)"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Canoo",
+                  "name": "Wikipedia: Canoo"
+                }
+              ]
+            },
+            {
+              "slug": "rwd",
+              "name": "Single-motor RWD",
+              "legacy_ids": [
+                124
+              ],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Canoo",
+                  "name": "Wikipedia: Canoo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "canoo-sedan",
+      "url_slug": "sedan",
+      "name": "Sport Sedan",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "A sporty five-seat sedan was part of Canoo's original four-vehicle plan, slated for 2025, and a prototype was photographed in 2021. No specifications or price were ever published and it died with the company.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://www.digitaltrends.com/cars/electric-car-startup-canoo-announces-four-car-lineup/",
+          "name": "Digital Trends: Canoo four-vehicle lineup"
+        },
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://jalopnik.com/someone-caught-canoos-ev-sedan-out-in-the-wild-1847255665",
+          "name": "Jalopnik: Canoo sedan spotted (2021)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://investors.canoo.com/news-presentations/press-releases/detail/159/canoo-inc-announces-chapter-7-bankruptcy-filing",
+          "name": "Canoo: Chapter 7 bankruptcy filing (17 Jan 2025)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Teased only; never produced.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/canoo_sedan.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Sport Sedan (announced)",
+              "legacy_ids": [
+                128
+              ],
+              "status": "cancelled",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.digitaltrends.com/cars/electric-car-startup-canoo-announces-four-car-lineup/",
+                  "name": "Digital Trends: Canoo four-vehicle lineup"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://jalopnik.com/someone-caught-canoos-ev-sedan-out-in-the-wild-1847255665",
+                  "name": "Jalopnik: Canoo sedan spotted (2021)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 122,
+      "note": "Legacy 'Lifestyle Vehicle Delivery' trim is the same vehicle as the LDV 130 (the 2021 Delivery trim became the LDV); claimed on the LDV 130 variant together with 127."
+    },
+    {
+      "legacy_id": 119,
+      "note": "Legacy Adventure row had a $54,950 price, 200 mi range, 150 kW charging and 125 mph top speed; Canoo never published an Adventure price and none of those numbers were sourced, so they were dropped. Status is cancelled (never sold)."
+    },
+    {
+      "legacy_id": 121,
+      "note": "Legacy Base price $44,950 is unsourced (2021 prices ran $34,750-$49,950 across Delivery/Base/Premium without a confirmed Base figure); dropped."
+    },
+    {
+      "legacy_id": 125,
+      "note": "Legacy MPDV copied LV specs (350 hp, 6.3 s, $59,950); Canoo quoted about 200 hp and a $33,000 base. Cancelled, never built."
+    },
+    {
+      "legacy_id": 128,
+      "note": "Legacy sedan row had invented specs copied from the LV; Canoo never published sedan specs. Its model_webpage was a fan Twitter post."
+    },
+    {
+      "legacy_id": 126,
+      "note": "Legacy LDV 190 price $49,950, 217 mi range and 8.9 s 0-60 could not be sourced; dropped."
+    },
+    {
+      "legacy_id": 127,
+      "note": "Legacy LDV 130 price $39,950 conflicts with the $34,750 Delivery base price; launch price set to $34,750."
+    }
+  ],
+  "gaps": [
+    "No EPA ratings exist for any Canoo vehicle; the 250 mi range is Canoo's preliminary claim and is marked as an estimate.",
+    "LDV 190 range, power and price could not be sourced.",
+    "Canoo's per-trim prices for Base and Adventure were never confirmed."
+  ]
+}

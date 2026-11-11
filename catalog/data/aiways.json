@@ -1,0 +1,254 @@
+{
+  "make": {
+    "slug": "aiways",
+    "name": "Aiways",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shanghai, China",
+    "founded": 2017,
+    "parent_group": null,
+    "website_url": "https://www.ai-ways.eu",
+    "status": "active",
+    "status_date": null,
+    "status_details": "Production stopped during a 2023 cash crisis; state-backed financing in March 2024; exited China in May 2024 with a planned Nasdaq SPAC listing. Status in 2025-2026 not verified.",
+    "description": "Shanghai EV start-up founded in 2017 and the first Chinese brand to sell an EV across Western Europe (U5, 2020). After a 2023 cash crisis it left the Chinese market in May 2024 to focus on Europe and other export markets.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.electrive.com/2024/05/17/aiways-exiting-china-ev-europe/",
+        "name": "electrive"
+      },
+      {
+        "fields": [
+          "status",
+          "founded"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Aiways",
+        "name": "Wikipedia: Aiways"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "aiways-u5",
+      "url_slug": "u5",
+      "name": "U5",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Compact electric SUV launched in China in 2019 and in Europe in 2020, the first Chinese EV sold across Western Europe; production ended in 2023.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2019-12",
+          "end": "2023",
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2020-08",
+          "end": "2023",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aiways_U5",
+          "name": "Wikipedia: Aiways U5"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "MAS",
+          "start_year": 2019,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "MAS platform; 150 kW front motor and a 63 kWh CATL pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Aiways_U5_IMG_4448.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aiways_U5_IMG_4448.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "63",
+              "name": "63 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 63.0,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": 229,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 410,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 39950,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aiways_U5",
+                  "name": "Wikipedia: Aiways U5"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://insideevs.com/news/402482/aiways-u5-europe-range-price/",
+                  "name": "InsideEVs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aiways-u6",
+      "url_slug": "u6",
+      "name": "U6",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Coupe-SUV designed by Ken Okuyama's team, built from 2021 and sold in Europe from 2022; production ended in 2023.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": "2023",
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2022",
+          "end": "2023",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aiways_U6",
+          "name": "Wikipedia: Aiways U6"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "MAS",
+          "start_year": 2021,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "MAS platform; 150 kW front motor and a 63 kWh pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Aiways_U6_Auto_Zuerich_2023_1X7A1153.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aiways_U6_Auto_Zuerich_2023_1X7A1153.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "63",
+              "name": "63 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 63.0,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aiways_U6",
+                  "name": "Wikipedia: Aiways U6"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://pushevs.com/2021/06/02/aiways-u6-electric-suv-gets-closer-to-mass-production/",
+                  "name": "PushEVs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Aiways' 2025-2026 status (Europe-only operations, SPAC listing) could not be verified after the web search budget ran out.",
+    "Aiways U6 WLTP range and European price not sourced.",
+    "The U5 Netherlands price (EUR 39,950) is from 2020; WLTP 410 km is the standard trim."
+  ]
+}

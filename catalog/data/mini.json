@@ -1,0 +1,1018 @@
+{
+  "make": {
+    "slug": "mini",
+    "name": "MINI",
+    "legacy_id": 25,
+    "country": "GB",
+    "headquarters": "Oxford, England (brand managed by BMW Group, Munich)",
+    "founded": 1959,
+    "parent_group": "BMW Group",
+    "website_url": "https://www.mini.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "British small-car brand owned by the BMW Group since 1994. Its electric line-up is the Cooper (E/SE, J01) and Aceman built in China by the BMW-Great Wall joint venture Spotlight Automotive, and the Leipzig-built Countryman E/SE ALL4; only the Countryman SE ALL4 is currently sold in the US.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://insideevs.com/news/741709/mini-cooper-se-aceman-delayed/",
+        "name": "InsideEVs"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.motoringfile.com/2025/02/21/bmw-officially-pauses-electric-mini-cooper-uk-production-plans/",
+        "name": "MotoringFile"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "mini-e",
+      "url_slug": "mini-e",
+      "name": "MINI E",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Converted MINI Cooper built for BMW's first electric field trial: about 600 two-seat cars leased to private drivers in the US, UK and other markets from 2009 to 2010. The battery filled the rear seat area; the cars were returned to BMW at the end of the trial.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2009-06",
+          "end": "2010",
+          "local_name": null
+        },
+        "UK": {
+          "status": "discontinued",
+          "launch": "2009-12",
+          "end": "2011-03",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mini_E",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2008",
+          "name": "Field-trial car",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2008,
+          "end_year": 2010,
+          "status": "discontinued",
+          "description": "Lease-only demonstration car based on the second-generation (R56) MINI hatch.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Mini_E_--_2010_DC.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mini_E_--_2010_DC.jpg",
+              "credit": "IFCAR",
+              "license": "Public domain",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "mini-e",
+              "name": "MINI E",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2008,
+              "year_to": 2010,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 35.0,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2008,
+                  "range": 100,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_E",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/30978.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mini-cooper",
+      "url_slug": "cooper",
+      "name": "Cooper",
+      "aliases": [
+        "MINI Electric",
+        "Cooper SE",
+        "Cooper E"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.mini.co.uk/en_GB/home/range/mini-cooper-electric.html",
+      "description": "MINI's three-door hatch. The first series electric version (F56 Cooper SE, sold as MINI Electric in the UK) was built in Oxford from 2019 to 2024; the second (J01 Cooper E/SE) is built in China by the BMW-Great Wall joint venture Spotlight Automotive and has not been sold in the US.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2020-03",
+          "end": "2024",
+          "local_name": "Cooper SE Hardtop 2 Door"
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": "MINI Electric (F56), Cooper Electric (J01)"
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "successor",
+          "model": "mini-e"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insideevs.com/news/741709/mini-cooper-se-aceman-delayed/",
+          "name": "InsideEVs"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.motoringfile.com/2025/02/21/bmw-officially-pauses-electric-mini-cooper-uk-production-plans/",
+          "name": "MotoringFile"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "Cooper SE (F56)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "F56",
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Electric version of the third-generation hatch using BMW i3 drive components; 32.6 kWh battery, front-wheel drive. A facelift in 2021 toned down the yellow trim.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/mini_cooper_se.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Mini_Electric",
+              "name": "Wikipedia"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "cooper-se",
+              "name": "Cooper SE / MINI Electric",
+              "legacy_ids": [
+                180
+              ],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 32.6,
+              "battery_basis": "gross",
+              "power_hp": 181,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 93,
+              "dc_kw": 50,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2020,
+                  "range": 110,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 29900,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 110,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 114,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 114,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 114,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Electric",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.wardsauto.com/mini/u-s-pricing-for-electric-mini-cooper-se-announced",
+                  "name": "WardsAuto"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/42508.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/42634.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/43953.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45330.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46972.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "cooper-se-convertible",
+              "name": "Cooper SE Convertible",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": "convertible",
+              "seats": 4,
+              "battery_kwh": 32.6,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Electric",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Cooper E / SE (J01)",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": "J01",
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "All-new electric-only hatch on a dedicated EV platform with a round OLED centre screen; built in Zhangjiagang, China. Planned Oxford production was paused in 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Mini_Hatch_%28J01%29_Ditzingen_Mobil_IMG_9772_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mini_Hatch_(J01)_Ditzingen_Mobil_IMG_9772_(cropped).jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "status"
+              ],
+              "url": "https://www.motoringfile.com/2025/02/21/bmw-officially-pauses-electric-mini-cooper-uk-production-plans/",
+              "name": "MotoringFile"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "cooper-e",
+              "name": "Cooper E",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 40.7,
+              "battery_basis": "gross",
+              "power_hp": 181,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.3,
+              "top_speed_mph": null,
+              "dc_kw": 75,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 305,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 26905,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Hatch#J01",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.press.bmwgroup.com/global/article/detail/T0439700EN/the-new-mini-cooper-e-in-classic-trim-electrical-efficient-emotional",
+                  "name": "BMW Group PressClub"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.mini.co.uk/content/dam/MINI/marketDSM_GB/mini_co_uk/range/PDF/Equipment/J01_MINI_Cooper_Electric_Website_Spec_Sheet_8_.pdf.asset.1769697702557.pdf",
+                  "name": "MINI UK spec sheet"
+                }
+              ]
+            },
+            {
+              "slug": "cooper-se",
+              "name": "Cooper SE",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 54.2,
+              "battery_basis": "gross",
+              "power_hp": 215,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.7,
+              "top_speed_mph": null,
+              "dc_kw": 95,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 402,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 29905,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Hatch#J01",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.mini.co.uk/content/dam/MINI/marketDSM_GB/mini_co_uk/range/PDF/Equipment/J01_MINI_Cooper_Electric_Website_Spec_Sheet_8_.pdf.asset.1769697702557.pdf",
+                  "name": "MINI UK spec sheet"
+                }
+              ]
+            },
+            {
+              "slug": "jcw-electric",
+              "name": "John Cooper Works Electric",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 54.2,
+              "battery_basis": "gross",
+              "power_hp": 255,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": null,
+              "dc_kw": 95,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 371,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Hatch#J01",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.autoexpress.co.uk/mini/mini-cooper-electric/prices-specs",
+                  "name": "Auto Express"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mini-aceman",
+      "url_slug": "aceman",
+      "name": "Aceman",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.mini.co.uk/en_GB/home/range/mini-aceman.html",
+      "description": "Electric-only small crossover positioned between the Cooper and the Countryman, built in China by Spotlight Automotive since 2024. Offered as Aceman E, Aceman SE and John Cooper Works; not sold in the US.",
+      "markets": {
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mini_Aceman",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insideevs.com/news/741709/mini-cooper-se-aceman-delayed/",
+          "name": "InsideEVs"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "J05",
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Production version revealed at the 2024 Beijing show; shares the J01 Cooper's platform and drivetrains.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Mini_Aceman_DSC_7114.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mini_Aceman_DSC_7114.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "aceman-e",
+              "name": "Aceman E",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 42.5,
+              "battery_basis": "gross",
+              "power_hp": 181,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Aceman",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "aceman-se",
+              "name": "Aceman SE",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.2,
+              "battery_basis": "gross",
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Aceman",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "jcw-aceman",
+              "name": "John Cooper Works Aceman",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.2,
+              "battery_basis": "gross",
+              "power_hp": 255,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Aceman",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mini-countryman",
+      "url_slug": "countryman",
+      "name": "Countryman",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.miniusa.com/model/countryman.html",
+      "description": "MINI's largest model. The third generation (U25, 2024) is the first with fully electric versions, the front-drive Countryman E and the dual-motor Countryman SE ALL4, built in Leipzig alongside petrol versions. Only the electric versions are listed here.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2024-09",
+          "end": null,
+          "local_name": "Countryman SE ALL4"
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.press.bmwgroup.com/usa/article/detail/T0456795EN_US",
+          "name": "MINI USA press"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.motoringfile.com/?p=77332",
+          "name": "MotoringFile"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Third generation (U25)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "U25",
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "First electric Countryman; production of electric versions began in Leipzig in March 2024.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/BMW_MINI_COUNTRYMAN_E_%28U25%29_front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_MINI_COUNTRYMAN_E_(U25)_front.jpg",
+              "credit": "Tokumeigakarinoaoshima",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "countryman-e",
+              "name": "Countryman E",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 66.5,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": 184,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 462,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Countryman#U25",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.motor1.com/news/684504/2024-mini-countryman-ev-debut/",
+                  "name": "Motor1"
+                }
+              ]
+            },
+            {
+              "slug": "countryman-se-all4",
+              "name": "Countryman SE ALL4",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 66.5,
+              "battery_basis": "gross",
+              "power_hp": 308,
+              "torque_lbft": 364,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 212,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 45200,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 212,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 216,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mini_Countryman#U25",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/729369/2025-mini-countryman-se-all4-pricing-specs-overview/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.press.bmwgroup.com/usa/article/detail/T0456795EN_US",
+                  "name": "MINI USA press"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48398.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50222.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50374.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 180,
+      "note": "This is the F56 Cooper SE (2020-2024). Legacy row is badly mixed: price 46,375 (launch MSRP was 29,900), EPA 212 mi is the Countryman SE ALL4's figure (Cooper SE was 110-114 mi), 0-60 4.8 s is wrong, generation '1\\n' and availability_desc '2022' are junk, and available_countries lists China/Japan. The F56 Cooper SE is discontinued; its J01 successor is not sold in the US."
+    }
+  ],
+  "gaps": [
+    "Aceman WLTP ranges and prices only found in miles/third-party sources; offerings left empty.",
+    "J01 JCW Electric UK price and launch year not sourced; Cooper E/SE UK prices are the current MINI UK spec-sheet prices (model year not stated).",
+    "F56 Cooper SE US prices after 2020 and EU/UK WLTP range not sourced.",
+    "Countryman SE ALL4 WLTP range and 2026/2027 US prices not sourced (sources conflict: 45,200 vs 47,800).",
+    "Countryman E/SE gross 66.5 kWh used; net (~64.6-64.7 kWh) not confirmed by a primary source.",
+    "MINI E power given as 150 kW (201 hp) from Wikipedia; production count not recorded."
+  ]
+}

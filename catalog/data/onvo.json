@@ -1,0 +1,562 @@
+{
+  "make": {
+    "slug": "onvo",
+    "name": "Onvo",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shanghai, China",
+    "founded": 2024,
+    "parent_group": "NIO Inc.",
+    "website_url": "https://www.onvo.cn",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Mass-market brand of NIO Inc., launched in May 2024 (Chinese name Ledao). Its cars use 900-volt drives and can swap batteries at Nio stations.",
+    "sources": [
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Onvo",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "onvo-l60",
+      "url_slug": "l60",
+      "name": "L60",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.onvo.cn",
+      "description": "Onvo's first model, a mid-size coupe SUV aimed squarely at the Tesla Model Y, on sale in China since 19 September 2024. It uses a 900-volt drive, supports Nio battery swapping, and was updated in 2025 and again in June 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Onvo_L60",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "DOM",
+          "platform": "NT 3.0",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "240 kW rear motor (plus a 100 kW front motor on AWD) with a 60 kWh LFP or 85 kWh NMC pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Onvo_L60_001_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Onvo_L60_001_%28cropped%29.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "60-kwh-rwd",
+              "name": "60 kWh RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 60.6,
+              "battery_basis": null,
+              "power_hp": 322,
+              "torque_lbft": 225,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 555,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 206900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L60",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2024/09/20/nio-onvo-launches-l60/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "60-kwh-awd",
+              "name": "60 kWh AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 60.6,
+              "battery_basis": null,
+              "power_hp": 456,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.6,
+              "top_speed_mph": 126,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 525,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L60",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "85-kwh-rwd",
+              "name": "85 kWh RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": null,
+              "power_hp": 322,
+              "torque_lbft": 225,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 730,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 235900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L60",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2024/09/20/nio-onvo-launches-l60/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "85-kwh-awd",
+              "name": "85 kWh AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": null,
+              "power_hp": 456,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.6,
+              "top_speed_mph": 126,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 700,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L60",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "onvo-l90",
+      "url_slug": "l90",
+      "name": "L90",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.onvo.cn",
+      "description": "Three-row, six- or seven-seat family SUV launched on 31 July 2025, with a large front trunk and battery swapping. A lidar option was added in April 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-07",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Onvo_L90",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 3.0",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "85 kWh NMC pack with a 340 kW rear motor; AWD adds a 100 kW front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Onvo_L90_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Onvo_L90_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 85.1,
+              "battery_basis": null,
+              "power_hp": 456,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 605,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L90",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 85.1,
+              "battery_basis": null,
+              "power_hp": 590,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.7,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 570,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L90",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "onvo-l80",
+      "url_slug": "l80",
+      "name": "L80",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.onvo.cn",
+      "description": "Two-row, five-seat version of the L90, delayed from 2025 and delivered from May 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-05",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "onvo-l90"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Onvo_L90",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 3.0",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Shares the L90's body front, platform and powertrains with a two-row cabin.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Onvo_L80_in_Tianhe%2C_Guangzhou_20260522.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Onvo_L80_in_Tianhe%2C_Guangzhou_20260522.jpg",
+              "credit": "Tim Wu",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.1,
+              "battery_basis": null,
+              "power_hp": 456,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L90",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.1,
+              "battery_basis": null,
+              "power_hp": 590,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Onvo_L90",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Onvo L90 and L80 final launch prices not sourced (only the L90 pre-sale price was found).",
+    "Onvo L80 range ratings not sourced."
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "make": {
+    "slug": "lightyear",
+    "name": "Lightyear",
+    "legacy_id": null,
+    "country": "NL",
+    "headquarters": null,
+    "founded": null,
+    "parent_group": null,
+    "website_url": "https://lightyear.one",
+    "status": "defunct",
+    "status_date": "2023-01",
+    "status_details": "Stopped making cars in January 2023, when production of the Lightyear 0 was halted and its car-making subsidiary Atlas Technologies B.V. went bankrupt; the restarted company now only develops solar charging technology for other carmakers.",
+    "description": "Lightyear was a Dutch startup that built the Lightyear 0, a solar-assisted electric sedan, in tiny numbers in 2022-2023. After the 2023 bankruptcy of its car-making arm it dropped car production and the planned cheaper Lightyear 2, and now supplies vehicle-integrated solar systems.",
+    "sources": [
+      {
+        "fields": [
+          "specs",
+          "status",
+          "price",
+          "range"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Lightyear_0",
+        "name": "Wikipedia: Lightyear 0"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://lightyear.one/",
+        "name": "Lightyear (company site)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "lightyear-0",
+      "url_slug": "lightyear-0",
+      "name": "Lightyear 0",
+      "aliases": [
+        "Lightyear One"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Aerodynamic five-seat electric sedan with solar panels on the body, first shown in 2019 as the Lightyear One. About a dozen were built in Finland in 2022-2023 at around EUR 250,000 before production was halted.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2022-12",
+          "end": "2023-01",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status",
+            "price",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lightyear_0",
+          "name": "Wikipedia: Lightyear 0"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "The only version.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Lightyear_One_Motorworld_Munich_1X7A0060.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lightyear_One_Motorworld_Munich_1X7A0060.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Lightyear 0",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 60.0,
+              "battery_basis": null,
+              "power_hp": 170,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2023,
+                  "range": 625,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 250000,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lightyear_0",
+                  "name": "Wikipedia: Lightyear 0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lightyear-2",
+      "url_slug": "lightyear-2",
+      "name": "Lightyear 2",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Planned lower-cost solar-assisted electric car announced in 2022 for production around 2025. After the 2023 restart the company dropped car making and the Lightyear 2 with it.",
+      "markets": {
+        "EU": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status",
+            "price",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lightyear_0",
+          "name": "Wikipedia: Lightyear 0"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://lightyear.one/",
+          "name": "Lightyear (company site)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Announced only.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Lightyear 2 (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lightyear_0",
+                  "name": "Wikipedia: Lightyear 0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Lightyear 0 price: Wikipedia gives EUR 250,000 but is inconsistent on whether VAT is included.",
+    "Lightyear founding year and HQ not in a fetched source; left null.",
+    "Lightyear 2 announced specs/price (about EUR 40,000 target) not sourced; left null."
+  ]
+}

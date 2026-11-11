@@ -1,0 +1,828 @@
+{
+  "make": {
+    "slug": "fangchengbao",
+    "name": "Fangchengbao",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shenzhen, Guangdong, China",
+    "founded": 2023,
+    "parent_group": "BYD Auto",
+    "website_url": "https://www.fangchengbao.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "BYD brand announced in June 2023 (the name means 'Formula Leopard'), known for off-road plug-in hybrids (Bao 5, Bao 8) and, since 2025, electric SUVs and Formula-series sedans. Several models are exported under the Denza or BYD names.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Fangchengbao",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "fangchengbao-tai-3",
+      "url_slug": "tai-3",
+      "name": "Tai 3",
+      "aliases": [
+        "Bao 3",
+        "Denza B3",
+        "BYD Ti3",
+        "Super 3"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Boxy compact electric SUV previewed by the Super 3 concept (2024), on sale in China from April 2025; exported as the Denza B3 and BYD Ti3. A top version carries a roof-mounted DJI drone.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fangchengbao_Tai_3",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "URE",
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "e-Platform 3.0 Evo; 160 kW rear drive or 310 kW dual-motor AWD, Blade packs of 65 to 79 kWh.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Fangchengbao_Tai_3_%28%E9%92%9B3%29_02_China_2025-03-31.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Fangchengbao_Tai_3_(%E9%92%9B3)_02_China_2025-03-31.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 501,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Tai_3",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/31/fang-cheng-bao-starts-pre-sales-tai-3/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 416,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Tai_3",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/31/fang-cheng-bao-starts-pre-sales-tai-3/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fangchengbao-ti7",
+      "url_slug": "ti7",
+      "name": "Ti7 EV",
+      "aliases": [
+        "BYD Ti7",
+        "Denza B7"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size SUV launched in China in 2025 as a range-extender; battery-electric versions were added in 2026. Shown abroad as the BYD Ti7 and Denza B7.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fangchengbao_Ti7",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "QZE",
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Only the 2026 battery-electric versions are listed: 92 or 106 kWh Blade packs, rear drive or AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fangchengbao_Ti7_004.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Fangchengbao_Ti7_004.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-92",
+              "name": "EV RWD 92 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 92.093,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": 269,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.3,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 675,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Ti7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "history"
+                  ],
+                  "url": "https://electrek.co/2026/04/03/byds-new-ev-lures-buyers-with-5-min-charging-low-prices/",
+                  "name": "Electrek"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-106",
+              "name": "EV RWD 106 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 105.792,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": 269,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.5,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 755,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Ti7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-106",
+              "name": "EV AWD 106 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 105.792,
+              "battery_basis": null,
+              "power_hp": 690,
+              "torque_lbft": 498,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 675,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Ti7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fangchengbao-formula-s",
+      "url_slug": "formula-s",
+      "name": "Formula S",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric five-door liftback sedan launched in China on 16 September 2026 with second-generation Blade packs and flash charging.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "fangchengbao-formula-s-gt"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fangchengbao_Formula_S",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "HBE",
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Rear-drive 245 or 300 kW, or 490 kW dual-motor AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Fangchengbao_Formula_S_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Fangchengbao_Formula_S_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-77",
+              "name": "RWD 76.7 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 76.744,
+              "battery_basis": null,
+              "power_hp": 329,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.8,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 730,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 189900,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Formula_S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/16/byd-fang-cheng-bao-launches-formula-s/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-92",
+              "name": "RWD Long Range 92.1 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 92.093,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.8,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 900,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 209900,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Formula_S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/16/byd-fang-cheng-bao-launches-formula-s/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 92.093,
+              "battery_basis": null,
+              "power_hp": 657,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 750,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 229900,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Formula_S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/16/byd-fang-cheng-bao-launches-formula-s/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fangchengbao-formula-s-gt",
+      "url_slug": "formula-s-gt",
+      "name": "Formula S GT",
+      "aliases": [],
+      "body_style": "wagon",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Estate version of the Formula S, launched with it in China in September 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "fangchengbao-formula-s"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fangchengbao_Formula_S",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "HBE",
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "92.1 kWh second-generation Blade pack; 300 kW rear drive or 490 kW AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Fangchengbao_Formula_S_GT_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Fangchengbao_Formula_S_GT_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 92.093,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.8,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 850,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Formula_S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/16/byd-fang-cheng-bao-launches-formula-s/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 92.093,
+              "battery_basis": null,
+              "power_hp": 657,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 730,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fangchengbao_Formula_S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/16/byd-fang-cheng-bao-launches-formula-s/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fangchengbao-formula-sl",
+      "url_slug": "formula-sl",
+      "name": "Formula SL",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Announced full-size electric sedan in the Formula series, listed as upcoming; no specifications published yet.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "models",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/List_of_BYD_Auto_vehicles",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced; not yet on sale.",
+          "images": [],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Tai 3: battery-to-trim mapping and per-trim prices not given by sources (139,800-203,800 yuan range).",
+    "Ti7 EV prices not sourced.",
+    "Formula S GT per-trim prices not given (219,900-239,900 yuan range).",
+    "Formula SL: launch year assumed 2027 for the generation slug; only listed as 'upcoming'.",
+    "Bao 5, Bao 8, Ti9 and Shark are plug-in hybrids and Ti7 range-extender versions are EREV, so they are excluded."
+  ]
+}

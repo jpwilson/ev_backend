@@ -1,0 +1,1178 @@
+{
+ "make": {
+  "slug": "cupra",
+  "name": "Cupra",
+  "legacy_id": null,
+  "country": "ES",
+  "headquarters": "Martorell, Catalonia, Spain",
+  "founded": 2018,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.cupraofficial.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Performance-oriented brand spun off from SEAT as a standalone marque in 2018, part of the Volkswagen Group. Its electric cars are the Born hatchback, the Tavascan coupe SUV and the Raval supermini.",
+  "sources": [
+   {
+    "fields": [
+     "founded"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Cupra_(marque)",
+    "name": "Wikipedia: Cupra"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "cupra-born",
+   "url_slug": "born",
+   "name": "Born",
+   "aliases": [
+    "SEAT el-Born"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cupraofficial.com/cars/born",
+   "description": "Compact electric hatchback on the MEB platform, built in Zwickau alongside the related Volkswagen ID.3. First shown as the SEAT el-Born concept in 2019 and launched as a Cupra in 2021; a 2024 update added the 240 kW VZ and larger batteries, and a facelift followed in 2026.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2021-11",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+     "name": "Wikipedia: Cupra Born"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2021,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Original Born (2021-2026); 2024 update added e-Boost 59/79 kWh versions and the 240 kW VZ.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cupra_Born_%E2%80%93_f_03042026.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Cupra_Born_%E2%80%93_f_03042026.jpg",
+       "credit": "© M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "150kw-58kwh",
+       "name": "Born 58 kWh (150 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.3,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 427,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39370,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 427,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 34125,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1516/CUPRA-Born-150-kW---58-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "170kw-58kwh",
+       "name": "Born 58 kWh e-Boost (170 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 228,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 422,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 40750,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 422,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 35085,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1517/CUPRA-Born-170-kW---58-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "170kw-77kwh",
+       "name": "Born 77 kWh e-Boost (170 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 228,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.0,
+       "top_speed_mph": 99,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 552,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46450,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 552,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39625,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1518/CUPRA-Born-170-kW---77-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "170kw-59kwh",
+       "name": "Born 59 kWh e-Boost (170 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": 228,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 99,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 427,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41450,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 427,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 34190,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2233/CUPRA-Born-170-kW---59-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "170kw-77kwh-2024",
+       "name": "Born 77 kWh e-Boost (170 kW, 2024 update)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 228,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.1,
+       "top_speed_mph": 99,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 555,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47250,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 555,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41795,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2234/CUPRA-Born-170-kW---77-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "vz",
+       "name": "Born VZ (240 kW, 79 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 322,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.6,
+       "top_speed_mph": 124,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 594,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 52870,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 594,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44820,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2128/CUPRA-Born-VZ",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "45kwh",
+       "name": "Born 45 kWh (110 kW)",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 45.0,
+       "battery_basis": "usable",
+       "power_hp": 148,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.9,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "March 2026 facelift: triangular headlights and taillights, physical steering-wheel buttons, Android-based infotainment.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2026_Cupra_Born_IMG_7551.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Cupra_Born_IMG_7551.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "140kw-58kwh",
+       "name": "Born 58 kWh (140 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 188,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3511/CUPRA-Born-140-kW---58-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "170kw-79kwh",
+       "name": "Born 79 kWh (170 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 228,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3512/CUPRA-Born-170-kW---79-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      },
+      {
+       "slug": "vz",
+       "name": "Born VZ",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3513/CUPRA-Born-VZ",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Born",
+         "name": "Wikipedia: Cupra Born"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cupra-tavascan",
+   "url_slug": "tavascan",
+   "name": "Tavascan",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cupraofficial.com/cars/tavascan",
+   "description": "Electric coupe SUV on the MEB platform, built in China by Volkswagen Anhui and sold in China as the Volkswagen ID. Unyx 06. Launched in Europe in 2024 with a rear-drive Endurance and an all-wheel-drive VZ; a 2026 update added a 58 kWh entry version.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "volkswagen-id-unyx-06"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Cupra_Tavascan",
+     "name": "Wikipedia: Cupra Tavascan"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Production from December 2023 in Hefei, China; 82 kWh (77 usable) battery at launch, 2026 update adds a 58 kWh version and Android-based infotainment.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cupra_Tavascan_Endurance_%E2%80%93_f_18042026.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Cupra_Tavascan_Endurance_%E2%80%93_f_18042026.jpg",
+       "credit": "© M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "endurance",
+       "name": "Tavascan Endurance (210 kW, 77 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 570,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53340,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 570,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47350,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1971/CUPRA-Tavascan-Endurance",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Tavascan",
+         "name": "Wikipedia: Cupra Tavascan"
+        }
+       ]
+      },
+      {
+       "slug": "vz",
+       "name": "Tavascan VZ (250 kW, 77 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": 112,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 521,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 57910,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 521,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 55945,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1972/CUPRA-Tavascan-VZ",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Tavascan",
+         "name": "Wikipedia: Cupra Tavascan"
+        }
+       ]
+      },
+      {
+       "slug": "140kw-58kwh",
+       "name": "Tavascan 58 kWh (140 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 188,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 435,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3608/CUPRA-Tavascan-140-kW---58-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Tavascan",
+         "name": "Wikipedia: Cupra Tavascan"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cupra-raval",
+   "url_slug": "raval",
+   "name": "Raval",
+   "aliases": [
+    "UrbanRebel"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cupraofficial.com",
+   "description": "Front-wheel-drive electric supermini on the MEB+ (MEB Entry) platform, built in Martorell, Spain. Previewed by the UrbanRebel concept (2021) and presented in April 2026; it shares its hardware with the Volkswagen ID. Polo and Skoda Epiq.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Cupra_Raval",
+     "name": "Wikipedia: Cupra Raval"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB+ (MEB Entry)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Production from June 2026 in Martorell; 37 kWh LFP and 52 kWh NMC batteries, up to 166 kW in the VZ.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cupra_Raval_VZ_IMG_6967_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Cupra_Raval_VZ_IMG_6967_(cropped).jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "85kw-37kwh",
+       "name": "Raval 37 kWh (85 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 37.0,
+       "battery_basis": "usable",
+       "power_hp": 114,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3507/CUPRA-Raval-85-kW---37-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "99kw-37kwh",
+       "name": "Raval Plus 37 kWh (99 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 37.0,
+       "battery_basis": "usable",
+       "power_hp": 133,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 328,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3508/CUPRA-Raval-99-kW---37-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.cupra.com/en/cars/raval",
+         "name": "CUPRA (global site)"
+        }
+       ]
+      },
+      {
+       "slug": "155kw-52kwh",
+       "name": "Raval Endurance 52 kWh (155 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 446,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3509/CUPRA-Raval-155-kW---52-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.cupra.com/en/cars/raval",
+         "name": "CUPRA (global site)"
+        }
+       ]
+      },
+      {
+       "slug": "vz",
+       "name": "Raval VZ (166 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 223,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 440,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3510/CUPRA-Raval-VZ",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Raval",
+         "name": "Wikipedia: Cupra Raval"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.cupra.com/en/cars/raval",
+         "name": "CUPRA (global site)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "cupra.com (global site, Nov 2026) says the Raval is 'currently not available for sale and pending on homologation' there, while Wikipedia says production began in June 2026; prices not published on that page.",
+  "ev-database blocked further requests (HTTP 429) during research, so 2026 Born facelift, Tavascan 58 kWh and Raval variants carry battery/power from the ev-database listing titles and WLTP from cupra.com; prices, torque and 0-100 are missing (the 85 kW Raval has no range).",
+  "Born 77 kWh (2021-2024) DC peak: Wikipedia says 170 kW, ev-database 175 kW; used 170.",
+  "Prices are ev-database snapshot list prices (Germany EUR, UK GBP) without a stated model year for pre-2024 versions."
+ ]
+}

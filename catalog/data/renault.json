@@ -1,0 +1,3457 @@
+{
+ "make": {
+  "slug": "renault",
+  "name": "Renault",
+  "legacy_id": 29,
+  "country": "FR",
+  "headquarters": "Boulogne-Billancourt, France",
+  "founded": 1899,
+  "parent_group": "Renault Group",
+  "website_url": "https://www.renault.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "French carmaker and one of Europe's earliest volume EV makers: the Zoe (2012-2024) was Europe's best-selling EV for years, and the Kangoo Z.E. its best-selling electric van. Today's E-Tech Electric range includes the Renault 5, 4, Twingo, Megane and Scenic, plus electric Kangoo, Trafic and Master vans.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Renault",
+    "name": "Wikipedia"
+   },
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "renault-r5",
+   "url_slug": "5-e-tech",
+   "name": "5 E-Tech Electric",
+   "aliases": [
+    "R5 E-Tech",
+    "Renault 5"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.renault.co.uk/electric-vehicles/r5-e-tech-electric.html",
+   "description": "Retro-styled electric supermini inspired by the 1972 Renault 5, built at Douai, France, on the AmpR Small platform. Revealed in February 2024 and on sale from late 2024; an August 2026 update added an LFP entry version and more range.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "nissan-micra"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_5_E-Tech",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "range",
+      "status"
+     ],
+     "url": "https://www.renault.co.uk/electric-vehicles/r5-e-tech-electric.html",
+     "name": "Renault UK"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "AmpR Small",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Launched with 40 kWh (95 or 120 hp) and 52 kWh (150 hp) batteries. From August 2026 the entry 'Five' version uses a 36.5 kWh LFP pack with 110 hp, and the other versions gained range.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/renault_5_etech.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_5_E-Tech",
+       "name": "Wikipedia"
+      },
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://media.renault.com/the-renault-5-e-tech-electric-range-gains-fresh-appeal-with-greater-efficiency-range-and-versatility-right-from-entry-level-along-with-new-colours-and-features/",
+       "name": "Renault Group press release (Aug 2026)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "five-95-40kwh",
+       "name": "Five 95hp 40 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 40.0,
+       "battery_basis": null,
+       "power_hp": 94,
+       "torque_lbft": 159,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.0,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_5_E-Tech",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://media.renault.com/the-renault-5-e-tech-electric-range-gains-fresh-appeal-with-greater-efficiency-range-and-versatility-right-from-entry-level-along-with-new-colours-and-features/",
+         "name": "Renault Group press release (Aug 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "five-110-36kwh-lfp",
+       "name": "Five 110hp 36.5 kWh LFP",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 36.5,
+       "battery_basis": null,
+       "power_hp": 107,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 80,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 305,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://media.renault.com/the-renault-5-e-tech-electric-range-gains-fresh-appeal-with-greater-efficiency-range-and-versatility-right-from-entry-level-along-with-new-colours-and-features/",
+         "name": "Renault Group press release (Aug 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "urban-range-120-40kwh",
+       "name": "Urban Range 120hp 40 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 40.0,
+       "battery_basis": null,
+       "power_hp": 121,
+       "torque_lbft": 166,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": null,
+       "dc_kw": 80,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 312,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 315,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_5_E-Tech",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://media.renault.com/the-renault-5-e-tech-electric-range-gains-fresh-appeal-with-greater-efficiency-range-and-versatility-right-from-entry-level-along-with-new-colours-and-features/",
+         "name": "Renault Group press release (Aug 2026)"
+        },
+        {
+         "fields": [
+          "range",
+          "status"
+         ],
+         "url": "https://www.renault.co.uk/electric-vehicles/r5-e-tech-electric.html",
+         "name": "Renault UK"
+        }
+       ]
+      },
+      {
+       "slug": "comfort-range-150-52kwh",
+       "name": "Comfort Range 150hp 52 kWh",
+       "legacy_ids": [
+        182
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": null,
+       "power_hp": 148,
+       "torque_lbft": 181,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.0,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 410,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 430,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_5_E-Tech",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://media.renault.com/the-renault-5-e-tech-electric-range-gains-fresh-appeal-with-greater-efficiency-range-and-versatility-right-from-entry-level-along-with-new-colours-and-features/",
+         "name": "Renault Group press release (Aug 2026)"
+        },
+        {
+         "fields": [
+          "range",
+          "status"
+         ],
+         "url": "https://www.renault.co.uk/electric-vehicles/r5-e-tech-electric.html",
+         "name": "Renault UK"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-5-turbo-3e",
+   "url_slug": "5-turbo-3e",
+   "name": "5 Turbo 3E",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Limited-run (1,980 cars) high-performance electric homage to the 1980s Renault 5 Turbo, announced in March 2025 with a carbon-fibre body, rear in-wheel motors and an 800 V, 70 kWh battery. Deliveries are planned from 2027.",
+   "markets": {},
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_5_E-Tech",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "800 V (CMF-EV derived)",
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Rear-wheel drive by two in-wheel motors, about 400 kW in total.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Renault_5_Turbo_3E_%28pre-series%29_Auto_Zuerich_2025_DSC_3619.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_5_Turbo_3E_(pre-series)_Auto_Zuerich_2025_DSC_3619.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_5_E-Tech",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "turbo-3e",
+       "name": "5 Turbo 3E",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 70.0,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_5_E-Tech",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-4-e-tech",
+   "url_slug": "4-e-tech",
+   "name": "4 E-Tech Electric",
+   "aliases": [
+    "R4 E-Tech",
+    "Renault 4"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.renault.co.uk/electric-vehicles/r4-e-tech-electric.html",
+   "description": "Electric small crossover reviving the Renault 4 name, built at Maubeuge, France, on the AmpR Small platform shared with the Renault 5. Sales began in March 2025 with deliveries from June 2025; an N1 van version followed in December 2025.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_4_E-Tech",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status",
+      "range"
+     ],
+     "url": "https://www.renault.co.uk/electric-vehicles/r4-e-tech-electric.html",
+     "name": "Renault UK"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "AmpR Small",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Launched with 40 kWh (120 hp) and 52 kWh (150 hp) batteries; a two-seat van with the 52 kWh battery was added in December 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Renault_4_E-Tech_Electric_DSC_2688.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_4_E-Tech_Electric_DSC_2688.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_4_E-Tech",
+       "name": "Wikipedia"
+      },
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Renault_4_E-Tech",
+       "name": "Wikipedia (de)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "urban-range-120-40kwh",
+       "name": "Urban Range 120hp 40 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 40.0,
+       "battery_basis": null,
+       "power_hp": 121,
+       "torque_lbft": 166,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.2,
+       "top_speed_mph": 93,
+       "dc_kw": 80,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 308,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_4_E-Tech",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "comfort-range-150-52kwh",
+       "name": "Comfort Range 150hp 52 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": null,
+       "power_hp": 148,
+       "torque_lbft": 181,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.2,
+       "top_speed_mph": 93,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 409,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_4_E-Tech",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "status",
+          "range"
+         ],
+         "url": "https://www.renault.co.uk/electric-vehicles/r4-e-tech-electric.html",
+         "name": "Renault UK"
+        }
+       ]
+      },
+      {
+       "slug": "van-52kwh",
+       "name": "Van 52 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "van",
+       "seats": 2,
+       "battery_kwh": 52.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_4_E-Tech",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-twingo",
+   "url_slug": "twingo",
+   "name": "Twingo E-Tech Electric",
+   "aliases": [
+    "Twingo Electric",
+    "Twingo Z.E."
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Renault's A-segment city car. The third-generation Twingo got a rear-motor electric version (Twingo Electric) in 2020-2024; the fourth-generation Twingo, built at Novo Mesto, Slovenia from 2026, is electric only and priced under 20,000 euros.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2020",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Twingo",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "range",
+      "status"
+     ],
+     "url": "https://media.renault.com/renault-twingo-e-tech-electric-behind-the-wheel-of-the-new-a-segment-standard-setter/?lang=eng",
+     "name": "Renault Group press release (Mar 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "Third generation (Twingo Electric)",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Electric version of the rear-engined Twingo III: 22 kWh battery, 60 kW rear motor, AC charging only (up to 22 kW). Not sold in the UK.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Renault_Twingo_Z.E._IMG_4003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Twingo_Z.E._IMG_4003.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Twingo",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric-22kwh",
+       "name": "Electric 22 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 22.0,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": 118,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.6,
+       "top_speed_mph": 84,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2020,
+         "range": 190,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": 21350,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Twingo",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.renaultgroup.com/en/news-on-air/news/twingo-electric-the-ultimate-electric-city-car/",
+         "name": "Renault Group press release (Feb 2020)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Fourth generation",
+     "kind": "generation",
+     "ordinal": 4,
+     "code_name": null,
+     "platform": "RGEV small",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "All-new electric-only Twingo on the RGEV small platform: 27.5 kWh LFP battery, 60 kW front motor, 50 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Renault_Twingo_E-Tech_IMG_4935.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Twingo_E-Tech_IMG_4935.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range",
+        "status"
+       ],
+       "url": "https://media.renault.com/renault-twingo-e-tech-electric-behind-the-wheel-of-the-new-a-segment-standard-setter/?lang=eng",
+       "name": "Renault Group press release (Mar 2026)"
+      },
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://insideevs.com/news/778201/renault-twingo-e-tech-ev/",
+       "name": "InsideEVs"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e-tech-27kwh",
+       "name": "E-Tech Electric 27.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 27.5,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": 129,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.1,
+       "top_speed_mph": 81,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 263,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://media.renault.com/renault-twingo-e-tech-electric-behind-the-wheel-of-the-new-a-segment-standard-setter/?lang=eng",
+         "name": "Renault Group press release (Mar 2026)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://insideevs.com/news/778201/renault-twingo-e-tech-ev/",
+         "name": "InsideEVs"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-megane",
+   "url_slug": "megane-e-tech-electric",
+   "name": "Megane E-Tech Electric",
+   "aliases": [
+    "Megane E-Tech",
+    "Mégane E-Tech Electric"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric compact crossover-hatchback built at Douai, France, on the CMF-EV / AmpR Medium platform shared with the Nissan Ariya. On sale in Europe since February 2022; a June 2026 facelift switched to a single 67 kWh LFP battery with 165 kW DC charging.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2022-02",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Megane_E-Tech_Electric",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://thedriven.io/2026/06/23/renault-updates-megane-e-tech-with-v2l-new-battery-and-longer-range/",
+     "name": "The Driven"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "CMF-EV (AmpR Medium)",
+     "start_year": 2022,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Launch version with 40 kWh or 60 kWh NMC batteries and 96 kW or 160 kW front motors. The 40 kWh version was dropped in March 2025.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/renault_megane_etech.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Megane_E-Tech_Electric",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "ev40-130",
+       "name": "EV40 130hp",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 40.0,
+       "battery_basis": null,
+       "power_hp": 129,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.5,
+       "top_speed_mph": 93,
+       "dc_kw": 85,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 300,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Megane_E-Tech_Electric",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_M%C3%A9gane_E-Tech_Electric",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "ev60-130",
+       "name": "EV60 130hp",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 60.0,
+       "battery_basis": null,
+       "power_hp": 129,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Megane_E-Tech_Electric",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_M%C3%A9gane_E-Tech_Electric",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "ev60-220",
+       "name": "EV60 220hp",
+       "legacy_ids": [
+        186
+       ],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 60.0,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.5,
+       "top_speed_mph": 99,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 470,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Megane_E-Tech_Electric",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_M%C3%A9gane_E-Tech_Electric",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Facelift (LFP)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "AmpR Medium",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "June 2026 facelift: new front end, a single 67 kWh LFP battery (up from 60 kWh NMC), DC charging up to 165 kW, 11 kW bidirectional AC with V2L, and only the 160 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/2026_Renault_M%C3%A9gane_E-Tech_Auto_Zuerich_2026_IMG_8585.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Renault_M%C3%A9gane_E-Tech_Auto_Zuerich_2026_IMG_8585.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://thedriven.io/2026/06/23/renault-updates-megane-e-tech-with-v2l-new-battery-and-longer-range/",
+       "name": "The Driven"
+      },
+      {
+       "fields": [
+        "specs",
+        "price",
+        "range"
+       ],
+       "url": "https://ecomento.de/2026/09/25/renault-megane-e-tech-elektrisch-startet-ab-34990-euro-ins-neue-modelljahrrenault-megane-e-tech-elektrisch-startet-ab-ab-34990-euro-ins-neue-modelljahr/",
+       "name": "ecomento.de"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "220-comfort-range-67kwh",
+       "name": "220 Comfort Range 67 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 67.0,
+       "battery_basis": "usable",
+       "power_hp": 215,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 494,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 34990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ecomento.de/2026/09/25/renault-megane-e-tech-elektrisch-startet-ab-34990-euro-ins-neue-modelljahrrenault-megane-e-tech-elektrisch-startet-ab-ab-34990-euro-ins-neue-modelljahr/",
+         "name": "ecomento.de"
+        },
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://thedriven.io/2026/06/23/renault-updates-megane-e-tech-with-v2l-new-battery-and-longer-range/",
+         "name": "The Driven"
+        },
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Megane_E-Tech_Electric",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-scenic",
+   "url_slug": "scenic-e-tech",
+   "name": "Scenic E-Tech Electric",
+   "aliases": [
+    "Scénic E-Tech"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric family crossover on the AmpR Medium platform, revealed in September 2023 and on sale from spring 2024; European Car of the Year 2024. In September 2026 the batteries were updated (67 kWh LFP and 89 kWh NMC).",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "mitsubishi-eclipse-cross"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://de.wikipedia.org/wiki/Renault_Sc%C3%A9nic_E-Tech",
+     "name": "Wikipedia (de)"
+    },
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://thedriven.io/2026/06/23/renault-updates-megane-e-tech-with-v2l-new-battery-and-longer-range/",
+     "name": "The Driven"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "AmpR Medium",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Five-seat crossover replacing the combustion Scenic MPV. Launched with 60 kWh (125 kW) and 87 kWh (160 kW) NMC batteries; from September 2026 these became 67 kWh LFP and 89 kWh NMC.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/renault_scenic_etech_lr.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/renault_scenic_etech_cr.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech",
+       "name": "Wikipedia"
+      },
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Renault_Sc%C3%A9nic_E-Tech",
+       "name": "Wikipedia (de)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "comfort-range-60kwh",
+       "name": "Comfort Range 60 kWh (170hp)",
+       "legacy_ids": [
+        188
+       ],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 60.0,
+       "battery_basis": null,
+       "power_hp": 168,
+       "torque_lbft": 207,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.6,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 420,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Sc%C3%A9nic_E-Tech",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-87kwh",
+       "name": "Long Range 87 kWh (220hp)",
+       "legacy_ids": [
+        187
+       ],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.9,
+       "top_speed_mph": 106,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Sc%C3%A9nic_E-Tech",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "comfort-range-67kwh",
+       "name": "Comfort Range 67 kWh LFP",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 67.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 459,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Sc%C3%A9nic_E-Tech",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-89kwh",
+       "name": "Long Range 89 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 89.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 621,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Sc%C3%A9nic_E-Tech",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-zoe",
+   "url_slug": "zoe",
+   "name": "Zoe",
+   "aliases": [
+    "Zoe Z.E. 40",
+    "Zoe Z.E. 50",
+    "Zoe E-Tech Electric"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Renault's first purpose-built electric supermini and for years Europe's best-selling EV. Built at Flins, France, from December 2012 to March 2024 (about 427,000 cars); a 2019 facelift (Z.E. 50) added a 52 kWh battery and CCS fast charging.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2012",
+     "end": "2024-03",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": null,
+     "end": "2024",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2012",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2012,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "Original Zoe: 22 kWh battery with the Chameleon AC charger (no DC), then the 41 kWh Z.E. 40 battery from late 2016 and the 80 kW R110 motor from 2018.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/renault_zoe_base.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/renault_zoe_r110.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "q210-22kwh",
+       "name": "Q210 22 kWh",
+       "legacy_ids": [
+        184
+       ],
+       "status": null,
+       "year_from": 2012,
+       "year_to": 2015,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 22.0,
+       "battery_basis": "usable",
+       "power_hp": 87,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 84,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2013,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "r240-22kwh",
+       "name": "R240 22 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2015,
+       "year_to": 2016,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 22.0,
+       "battery_basis": "usable",
+       "power_hp": 87,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2015,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "r90-41kwh",
+       "name": "R90 / Q90 Z.E. 40",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2016,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 41.0,
+       "battery_basis": "usable",
+       "power_hp": 89,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2017,
+         "range": 300,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "r110-41kwh",
+       "name": "R110 Z.E. 40",
+       "legacy_ids": [
+        185
+       ],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 41.0,
+       "battery_basis": "usable",
+       "power_hp": 107,
+       "torque_lbft": 166,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2018,
+         "range": 316,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2019",
+     "name": "Facelift (Z.E. 50)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Restyled front and new interior, 52 kWh battery, the 100 kW R135 motor and optional 50 kW CCS DC charging. Production ended at Flins in March 2024.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/renault_zoe_r135.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "r110-52kwh",
+       "name": "R110 Z.E. 50",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 107,
+       "torque_lbft": 166,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2020,
+         "range": 395,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "r135-52kwh",
+       "name": "R135 Z.E. 50",
+       "legacy_ids": [
+        183
+       ],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 134,
+       "torque_lbft": 181,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.5,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2020,
+         "range": 386,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Zoe",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-twizy",
+   "url_slug": "twizy",
+   "name": "Twizy",
+   "aliases": [
+    "Twizy Z.E."
+   ],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Two-seat (tandem) electric quadricycle sold mainly in Europe. Built in Valladolid, Spain (2012-2018) and then Busan, South Korea (2019-2023); production ended in September 2023 and the Mobilize Duo replaces it.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2012",
+     "end": "2023-09",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Twizy",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.auto-moto.com/renault/actualites/le-renault-twizy-tirera-sa-reverence-en-septembre-2023-22781",
+     "name": "Auto Moto"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2012",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2012,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "6.1 kWh battery; 45 km/h (4 kW) and 80 km/h (13 kW) versions, plus a one-seat Cargo.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Eng_Renault_Twizy_ZE.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Eng_Renault_Twizy_ZE.jpg",
+       "credit": "Jwh",
+       "license": "CC BY-SA 3.0 lu",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Twizy",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "urban-45",
+       "name": "Urban 45",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2012,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 6.1,
+       "battery_basis": null,
+       "power_hp": 5,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 28,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Twizy",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "urban-80",
+       "name": "Urban 80",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2012,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 6.1,
+       "battery_basis": null,
+       "power_hp": 17,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 50,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Twizy",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "cargo",
+       "name": "Cargo",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2012,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 1,
+       "battery_kwh": 6.1,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Twizy",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-fluence-z-e",
+   "url_slug": "fluence-z-e",
+   "name": "Fluence Z.E.",
+   "aliases": [
+    "Renault Samsung SM3 Z.E."
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the Fluence compact sedan with a 22 kWh battery, built in Bursa, Turkey (2011-2013) and designed for Better Place battery swapping. Production then moved to Busan, where it was sold as the Renault Samsung SM3 Z.E. until 2020.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2011",
+     "end": "2013",
+     "local_name": null
+    },
+    "KR": {
+     "status": "discontinued",
+     "launch": "2013",
+     "end": "2020",
+     "local_name": "Renault Samsung SM3 Z.E."
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Fluence",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status",
+      "history"
+     ],
+     "url": "https://web.archive.org/web/20201027074256/http://green.autoblog.com/2014/02/04/renault-moves-all-fluence-z-e-production-to-korea/",
+     "name": "Autoblog Green (archived)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2011",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2011,
+     "end_year": 2020,
+     "status": "discontinued",
+     "description": "Front-wheel-drive sedan with a 22 kWh swappable battery behind the rear seats.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Renault_Fluence_Z.E._%E2%80%93_Frontansicht%2C_25._Februar_2012%2C_D%C3%BCsseldorf.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Fluence_Z.E._%E2%80%93_Frontansicht,_25._Februar_2012,_D%C3%BCsseldorf.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Fluence",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fluence-z-e",
+       "name": "Fluence Z.E.",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2011,
+       "year_to": 2013,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 22.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": 167,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 84,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2011,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Fluence",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "sm3-z-e",
+       "name": "SM3 Z.E. (Korea)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2013,
+       "year_to": 2020,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 22.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "KR",
+         "model_year": 2013,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Fluence",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "status",
+          "history"
+         ],
+         "url": "https://web.archive.org/web/20201027074256/http://green.autoblog.com/2014/02/04/renault-moves-all-fluence-z-e-production-to-korea/",
+         "name": "Autoblog Green (archived)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-city-k-ze",
+   "url_slug": "city-k-ze",
+   "name": "City K-ZE",
+   "aliases": [
+    "K-ZE",
+    "Kwid E-Tech",
+    "Kwid E-Tech Electric"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Small electric hatchback based on the Kwid, built in Shiyan, China by the eGT New Energy joint venture (Dongfeng, Renault, Nissan) from 2019. Sold in Europe as the Dacia Spring and in Brazil and Latin America as the Renault Kwid E-Tech.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2019-09",
+     "end": null,
+     "local_name": "City K-ZE"
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "dacia-spring"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "price"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_City_K-ZE",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Kwid",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.iprofesional.com/autos/459610-famosa-marca-tomo-drastica-decision-no-vendera-mas-autos-electricos-en-argentina",
+     "name": "iProfesional (Jul 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2019,
+     "end_year": null,
+     "status": "current",
+     "description": "26.8 kWh battery and a 33 kW motor in China; the Kwid E-Tech for Brazil (2022) has a 48 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Renault_City_K-ZE_IMG001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_City_K-ZE_IMG001.jpg",
+       "credit": "Zotyefan",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "price"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_City_K-ZE",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "city-k-ze",
+       "name": "City K-ZE (China)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 26.8,
+       "battery_basis": null,
+       "power_hp": 44,
+       "torque_lbft": 92,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2019,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": 72888,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_City_K-ZE",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/373767/renault-city-k-ze-available-china/",
+         "name": "InsideEVs"
+        }
+       ]
+      },
+      {
+       "slug": "kwid-e-tech",
+       "name": "Kwid E-Tech (Brazil)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 64,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Kwid",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-kangoo-e-tech",
+   "url_slug": "kangoo-e-tech",
+   "name": "Kangoo E-Tech Electric",
+   "aliases": [
+    "Kangoo Z.E.",
+    "Kangoo Van E-Tech Electric"
+   ],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric version of Renault's compact van and leisure-activity vehicle. The Kangoo Z.E. (2011-2021) was Europe's best-selling electric light commercial vehicle; the third-generation Kangoo E-Tech Electric (2022-) adds a passenger version and optional 80 kW DC charging.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2011",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "nissan-townstar-ev"
+    },
+    {
+     "relation": "twin",
+     "model": "mercedes-benz-ecitan"
+    },
+    {
+     "relation": "twin",
+     "model": "mercedes-benz-eqt"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2011",
+     "name": "Second generation (Kangoo Z.E.)",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": "X61",
+     "platform": null,
+     "start_year": 2011,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Kangoo II van with a 22 kWh battery and 44 kW motor; the Z.E. 33 (2017) raised the battery to 33 kWh. AC charging only.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/2021_Renault_Kangoo_Z.E._i_33_Business%2B_ML20_Front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2021_Renault_Kangoo_Z.E._i_33_Business%2B_ML20_Front.jpg",
+       "credit": "Vauxford",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "z-e-22kwh",
+       "name": "Z.E. 22 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2011,
+       "year_to": 2017,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 22.0,
+       "battery_basis": null,
+       "power_hp": 59,
+       "torque_lbft": 167,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "z-e-33",
+       "name": "Z.E. 33",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2017,
+       "year_to": 2021,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 33.0,
+       "battery_basis": null,
+       "power_hp": 59,
+       "torque_lbft": 167,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.press.renault.co.uk/assets/documents/original/17935-RE37517KangooZEPressKitV1.pdf",
+         "name": "Renault UK press kit (Kangoo Z.E. 33)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2022",
+     "name": "Third generation (Kangoo E-Tech Electric)",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": "XFK",
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "All-new Kangoo III: 45 kWh battery, 90 kW motor, 11 kW AC standard and 80 kW DC optional. Van from June 2022, passenger version from October 2022.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Renault_Kangoo_III_E-Tech_Automesse_Ludwigsburg_2023_1X7A0092.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Kangoo_III_E-Tech_Automesse_Ludwigsburg_2023_1X7A0092.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "van-45kwh",
+       "name": "Van E-Tech Electric 45 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 45.0,
+       "battery_basis": null,
+       "power_hp": 121,
+       "torque_lbft": 181,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.6,
+       "top_speed_mph": 84,
+       "dc_kw": 80,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 300,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://cdn.group.renault.com/ren/gb/transversal-assets/brochures/van-ebrochures/KANGOO-eBrochure.pdf",
+         "name": "Renault UK Kangoo eBrochure"
+        }
+       ]
+      },
+      {
+       "slug": "passenger-45kwh",
+       "name": "Passenger E-Tech Electric 45 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "minivan",
+       "seats": 5,
+       "battery_kwh": 45.0,
+       "battery_basis": null,
+       "power_hp": 121,
+       "torque_lbft": 181,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 84,
+       "dc_kw": 80,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-trafic-e-tech",
+   "url_slug": "trafic-e-tech",
+   "name": "Trafic Van E-Tech Electric",
+   "aliases": [
+    "Trafic E-Tech"
+   ],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric version of Renault's mid-size van. The Trafic III-based Trafic Van E-Tech Electric (presented 2022) uses the Master's 52 kWh battery; a new skateboard-platform, 800 V Trafic Van E-Tech electric built at Sandouville opens for orders from late 2026.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Trafic",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "range",
+      "status"
+     ],
+     "url": "https://media.renault.com/trafic-van-e-tech-electric-devoile-ses-tarifs/?lang=fra",
+     "name": "Renault Group press release (Oct 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Third generation (Trafic Van E-Tech Electric)",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Trafic III with a 90 kW motor, 52 kWh battery and optional 50 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Renault_Trafic_E-Tech_100%25_%C3%A9lectrique.png",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Trafic_E-Tech_100%25_%C3%A9lectrique.png",
+       "credit": "Renault France",
+       "license": "CC BY 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Trafic",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e-tech-52kwh",
+       "name": "E-Tech Electric 52 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 52.0,
+       "battery_basis": null,
+       "power_hp": 121,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2023,
+         "range": 297,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Trafic",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.topgear.com/car-news/electric/meet-new-renault-trafic-van-e-tech-electric",
+         "name": "Top Gear"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "New Trafic Van E-Tech electric (SDV platform)",
+     "kind": "generation",
+     "ordinal": 4,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Software-defined skateboard platform with 800 V architecture, 60 or 81 kWh batteries; 81 kWh orders from late 2026, 60 kWh from early 2027.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Renault_Trafic_E-Tech_-_Avant.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Trafic_E-Tech_-_Avant.jpg",
+       "credit": "Y.Leclercq",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range",
+        "status"
+       ],
+       "url": "https://media.renault.com/trafic-van-e-tech-electric-devoile-ses-tarifs/?lang=fra",
+       "name": "Renault Group press release (Oct 2026)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "60kwh",
+       "name": "60 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 350,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://media.renault.com/trafic-van-e-tech-electric-devoile-ses-tarifs/?lang=fra",
+         "name": "Renault Group press release (Oct 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "81kwh",
+       "name": "81 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 81.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 470,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://media.renault.com/trafic-van-e-tech-electric-devoile-ses-tarifs/?lang=fra",
+         "name": "Renault Group press release (Oct 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "renault-master-e-tech",
+   "url_slug": "master-e-tech",
+   "name": "Master E-Tech Electric",
+   "aliases": [
+    "Master Z.E."
+   ],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric version of Renault's large van. The third-generation Master Z.E. (2018) started with a 33 kWh battery and was upgraded to 52 kWh as Master E-Tech; the fourth-generation Master (2024-) offers 40 or 87 kWh batteries and 130 kW DC charging.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2018",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Renault_Master",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://de.wikipedia.org/wiki/Renault_Master_IV",
+     "name": "Wikipedia (de)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2018",
+     "name": "Third generation (Master Z.E.)",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Master III with the 57 kW R75 motor; 33 kWh at launch, 52 kWh with 22 kW DC from late 2021.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Renault_Master_Z.E._in_service_with_PostNL.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Master_Z.E._in_service_with_PostNL.jpg",
+       "credit": "Jean Housen",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Renault_Master",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "z-e-33kwh",
+       "name": "Z.E. 33 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2021,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 33.0,
+       "battery_basis": null,
+       "power_hp": 76,
+       "torque_lbft": 166,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2018,
+         "range": 120,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Master",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Master_IV",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.renaultgroup.com/en/news-on-air/news/renault-master-z-e-a-large-electric-van-an-ideal-workhorse-to-reach-city-centers-with-zero-emissions/",
+         "name": "Renault Group press release (2018)"
+        }
+       ]
+      },
+      {
+       "slug": "e-tech-52kwh",
+       "name": "E-Tech 52 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 52.0,
+       "battery_basis": null,
+       "power_hp": 76,
+       "torque_lbft": 166,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 22,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Renault_Master",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Master_IV",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "Fourth generation",
+     "kind": "generation",
+     "ordinal": 4,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "All-new Master presented November 2023, on sale spring 2024: 40 or 87 kWh battery, 96 kW or 105 kW motor, 300 Nm, up to 130 kW DC.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Renault_Pro%2B%2C_IAA_2024%2C_Hanover_%28P1200061%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Renault_Pro%2B,_IAA_2024,_Hanover_(P1200061).jpg",
+       "credit": "Matti Blume",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Renault_Master_IV",
+       "name": "Wikipedia (de)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e-tech-40kwh",
+       "name": "E-Tech 40 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 40.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Master_IV",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "e-tech-87kwh",
+       "name": "E-Tech 87 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 87.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Renault_Master_IV",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 182,
+   "note": "Renault 5 E-Tech: legacy row shows an 'EPA range' of 180 mi (never EPA-rated; not sold in the US), a 50 kWh battery (actual 52 kWh), a currency-less price of 27000 and a link to the 2021 prototype page. Mapped to Comfort Range 150hp 52 kWh."
+  },
+  {
+   "legacy_id": 183,
+   "note": "Zoe R135 marked 'available', but Zoe production ended in March 2024; 'EPA range' 180 mi is invented, and 130 kW DC charging is wrong (Zoe max 50 kW DC). carmodel_ended '2024-30--03' is malformed."
+  },
+  {
+   "legacy_id": 184,
+   "note": "Zoe 22 kWh (2012) marked 'available' with 130 kW charging: the 22 kWh Zoe had no DC charging and ended in 2016. Mapped to Q210 22 kWh."
+  },
+  {
+   "legacy_id": 185,
+   "note": "Zoe R110 41 kWh (Z.E. 40, 2018-2019) marked 'available'; 'EPA range' 140 mi invented. trim_first_released contains a stray newline."
+  },
+  {
+   "legacy_id": 186,
+   "note": "Megane E-Tech EV60 220hp. 'EPA range' 217 mi invented (not sold in US). Replaced by the June 2026 facelift with a 67 kWh LFP battery; mapped to the 2022 EV60 220hp variant."
+  },
+  {
+   "legacy_id": 187,
+   "note": "Scenic E-Tech Long Range 87 kWh: first released '2023' is the reveal; production/sales began 2024. 'EPA range' 265 mi invented. Superseded by the 89 kWh battery in September 2026."
+  },
+  {
+   "legacy_id": 188,
+   "note": "Scenic E-Tech Comfort Range 60 kWh (170hp). Legacy row reuses full_slug 'renault-scenic-etech' of row 187 (duplicate slug). Superseded by the 67 kWh LFP Comfort Range in September 2026."
+  }
+ ],
+ "gaps": [
+  "Prices: no clean list prices sourced for most current Renault versions (UK site prices include the Electric Car Grant; French configurator not readable). Only Megane 2026 (DE), Twingo Electric (launch) and City K-ZE (CN) carry prices.",
+  "Renault 4 E-Tech: ev-database lists 2026 LFP versions (37 kWh 110hp, 40 kWh 120hp, revised 52 kWh) mirroring the Renault 5 update, but no Renault source could be read to confirm; not added.",
+  "Renault 5 E-Tech 2026 update: press release confirms LFP only for the 36.5 kWh Five; whether the 40/52 kWh versions also switched to LFP is unconfirmed.",
+  "Scenic E-Tech 2026 battery update: power/torque/0-100 for the 67 kWh and 89 kWh versions not sourced; 60 kWh DC kW not reliably sourced.",
+  "Zoe 22 kWh versions: only NEDC ranges exist (210/240 km); NEDC is not an allowed cycle, so range left null.",
+  "Master Z.E. 52 kWh WLTP range conflicts (190 km en-wiki vs 244 km de-wiki); left null. Master IV power per battery and WLTP ranges not sourced.",
+  "Kangoo E-Tech: 2025-2026 changes not checked; Grand Kangoo E-Tech (7-seat) not verified.",
+  "City K-ZE: current production status in China not verified (model left 'current' because the Kwid E-Tech was still sold in Latin America; Renault Argentina withdrew it before July 2026).",
+  "Not added (outside makes or unverified): Mobilize Duo/Bento/Limo (Renault Group's Mobilize brand), first-generation Kangoo Electri'Cité (pre-2008), Zoe Van, Kangoo Z.E. Maxi, Flexis Estafette/Goelette E-Tech vans (no source read), Renault Korea EVs, E-Space and Emblème concepts.",
+  "Images: no verified image for Renault 4, Twingo Electric (III), Kangoo Z.E., City K-ZE, Trafic, Master IV, Megane 2026 facelift, 5 Turbo 3E. Commons candidates exist (e.g. Renault_4_E-Tech_150_Comfort_Range_Techno_–_f_22062025.jpg, Renault_Twingo_Electric_Vibes_(III,_Facelift)_–_f_30012021.jpg, 2012_Renault_Kangoo_Z.E._front_II.JPG, Renault_City_K-ZE_IMG001.jpg) but Wikimedia rate-limited downloads, so they could not be viewed."
+ ]
+}

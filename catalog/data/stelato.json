@@ -1,0 +1,550 @@
+{
+  "make": {
+    "slug": "stelato",
+    "name": "Stelato",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Beijing, China",
+    "founded": 2024,
+    "parent_group": "BAIC Group",
+    "website_url": "https://hima.auto/xiangjie/",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Luxury brand of BAIC BluePark built with Huawei under the HIMA alliance (Xiangjie in Chinese), introduced in 2024 with the S9 sedan.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Stelato",
+        "name": "Wikipedia: Stelato"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "stelato-s9",
+      "url_slug": "s9",
+      "name": "S9",
+      "aliases": [
+        "Xiangjie S9",
+        "Stelato S9T"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size luxury sedan launched in August 2024 as a BEV (range-extender from April 2025), facelifted in November 2025. The S9T station wagon, HIMA's first estate, followed in September 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Stelato_S9",
+          "name": "Wikipedia: Stelato S9"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "227 kW rear motor (385 kW AWD) and a 100 kWh CATL/Huawei 'Whale' NMC pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%28CHN-Hubei%29_Showcar_Stelato_S9_No-plate_2024-12-04.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Hubei)_Showcar_Stelato_S9_No-plate_2024-12-04.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 304,
+              "torque_lbft": 292,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.0,
+              "top_speed_mph": 133,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 816,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Stelato_S9",
+                  "name": "Wikipedia: Stelato S9"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/08/06/huawei-baic-launched-stelato-s9-to-rival-mercedes-benz-eqs-starting-at-55900-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 516,
+              "torque_lbft": 496,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": 133,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 721,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Stelato_S9",
+                  "name": "Wikipedia: Stelato S9"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/08/06/huawei-baic-launched-stelato-s9-to-rival-mercedes-benz-eqs-starting-at-55900-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "s9t-ev-rwd",
+              "name": "S9T wagon EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 304,
+              "torque_lbft": 292,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 131,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 801,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Stelato_S9",
+                  "name": "Wikipedia: Stelato S9"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2025/07/17/huaweis-stelato-s9t-wagon-unveiled-with-100-kwh-battery-516-hp-and-ads-4-to-launch-in-september/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "s9t-ev-awd",
+              "name": "S9T wagon EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 516,
+              "torque_lbft": 496,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 131,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Stelato_S9",
+                  "name": "Wikipedia: Stelato S9"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2025/07/17/huaweis-stelato-s9t-wagon-unveiled-with-100-kwh-battery-516-hp-and-ads-4-to-launch-in-september/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stelato-g9",
+      "url_slug": "g9",
+      "name": "G9",
+      "aliases": [
+        "Xiangjie G9"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size luxury off-road SUV launched on 20 August 2026 from 429,800 yuan, offered as an 800 V BEV and a range-extender.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Stelato_G9",
+          "name": "Wikipedia: Stelato G9"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor AWD (586 hp) with a 120 kWh CATL Qilin pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stelato_G9_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Stelato_G9_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD (120 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 120.0,
+              "battery_basis": "gross",
+              "power_hp": 586,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 137,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 728,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Stelato_G9",
+                  "name": "Wikipedia: Stelato G9"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "price"
+                  ],
+                  "url": "https://cnevpost.com/2026/08/20/stelato-launches-g9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stelato-v8",
+      "url_slug": "v8",
+      "name": "V8",
+      "aliases": [
+        "Xiangjie V8"
+      ],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Seven-seat full-size luxury MPV shown at the 2026 Chengdu Auto Show; pre-sales opened on 28 September 2026 with launch expected in November 2026.",
+      "markets": {
+        "CN": {
+          "status": "upcoming",
+          "launch": "2026-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Stelato_V8",
+          "name": "Wikipedia: Stelato V8"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "800 V; BEV uses a 120 kWh CATL NMC pack with 305 hp RWD or 519 hp AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Stelato_V8_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Stelato_V8_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 120.0,
+              "battery_basis": "gross",
+              "power_hp": 305,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 134,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 830,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Stelato_V8",
+                  "name": "Wikipedia: Stelato V8"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/28/stelato-v8-starts-pre-sales/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 120.0,
+              "battery_basis": "gross",
+              "power_hp": 519,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 775,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Stelato_V8",
+                  "name": "Wikipedia: Stelato V8"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/28/stelato-v8-starts-pre-sales/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Web search budget ran out; data comes from Wikipedia and the news articles it cites.",
+    "Stelato V8 launch (expected November 2026) not confirmed; status left as upcoming.",
+    "S9T AWD range and BEV list prices not sourced.",
+    "G9 BEV seats and torque not sourced."
+  ]
+}

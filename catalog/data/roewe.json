@@ -1,0 +1,830 @@
+{
+ "make": {
+  "slug": "roewe",
+  "name": "Roewe",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Shanghai, China",
+  "founded": 2006,
+  "parent_group": "SAIC Motor",
+  "website_url": "https://www.roewe.com.cn",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "SAIC Motor's mainstream Chinese brand, founded in 2006 from Rover heritage. Its electric cars include the early E50, the Ei5 estate (exported as the MG5 EV), the Marvel X SUV and the current D7 and D6 sedans. Since October 2024 the former Rising Auto brand (R7, F7) has been a product line under Roewe.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "models"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Roewe",
+    "name": "Wikipedia"
+   },
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Rising_Auto",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "roewe-e50",
+   "url_slug": "e50",
+   "name": "E50",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "SAIC's first mass-produced electric car, a three-door four-seat supermini sold in China from 2012 to 2016. Its successor is the Roewe Clever.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2012",
+     "end": "2016",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Roewe_E50",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2012",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2012,
+     "end_year": 2016,
+     "status": "discontinued",
+     "description": "Three-door, four-seat electric supermini with an 18 kWh A123 LFP battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Roewe_E50_01_China_2014-04-20.JPG",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_E50_01_China_2014-04-20.JPG",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "e50",
+       "name": "E50",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2012,
+       "year_to": 2016,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 18.0,
+       "battery_basis": null,
+       "power_hp": 63,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2012,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": 234900,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Roewe_E50",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "roewe-ei5",
+   "url_slug": "ei5",
+   "name": "Ei5",
+   "aliases": [],
+   "body_style": "wagon",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric estate car built in China from 2017 to 2025, exported as the MG5 EV (MG EP in Thailand).",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2017",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "mg-mg5-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/MG5_EV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2017",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2017,
+     "end_year": 2020,
+     "status": "discontinued",
+     "description": "Electric estate launched in China in 2017 with an 87 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Roewe_Ei5_001_China_2018-03-28.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_Ei5_001_China_2018-03-28.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ei5",
+       "name": "Ei5",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2017,
+       "year_to": 2020,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 117,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 90,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/MG5_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2021",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "2021 model-year facelift with a 135 kW motor and a 61 kWh battery (501 km NEDC claimed).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Roewe_Ei5_facelift_2022091501.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_Ei5_facelift_2022091501.jpg",
+       "credit": "Evnerd",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ei5-61-kwh",
+       "name": "Ei5 61 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 61.0,
+       "battery_basis": null,
+       "power_hp": 181,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2021,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/MG5_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "roewe-marvel-x",
+   "url_slug": "marvel-x",
+   "name": "Marvel X",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Roewe's first electric SUV, sold in China from 2018 to 2021 with a 52.5 kWh battery and rear- or all-wheel drive.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2018",
+     "end": "2021",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rising_Auto_Marvel_R",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2018",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Roewe's first electric SUV, with two-motor RWD or three-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Roewe_Marvel_X_IMG002_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_Marvel_X_IMG002_(cropped).jpg",
+       "credit": "Zotyefan",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "Marvel X RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2021,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 52.5,
+       "battery_basis": null,
+       "power_hp": 184,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_Marvel_R",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "Marvel X AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2021,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 52.5,
+       "battery_basis": null,
+       "power_hp": 298,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_Marvel_R",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "roewe-clever",
+   "url_slug": "clever",
+   "name": "Clever",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Three-door electric city car sold in China from 2020 to 2025, the successor to the E50.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2020",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "roewe-e50"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Roewe_Clever",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Three-door A-segment city car with a 27 kWh battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2020_SAIC_Clever_EV360_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2020_SAIC_Clever_EV360_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "clever",
+       "name": "Clever",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 27.0,
+       "battery_basis": null,
+       "power_hp": 50,
+       "torque_lbft": 74,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Roewe_Clever",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "roewe-d7",
+   "url_slug": "d7",
+   "name": "D7",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size sedan launched in China in August 2023 in electric and plug-in hybrid form; the EV has a rear motor and up to 610 km CLTC range.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-08",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Roewe_D7",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size sedan launched in August 2023 as an EV and a plug-in hybrid (DMH).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Roewe_D7_EV_005.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_D7_EV_005.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev-510",
+       "name": "D7 EV 510",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 194,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 510,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Roewe_D7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "ev-610",
+       "name": "D7 EV 610",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 610,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Roewe_D7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "roewe-d6",
+   "url_slug": "d6",
+   "name": "D6",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Front-drive electric compact sedan introduced in China in spring 2025, sold only as an EV; the 2026 petrol Roewe i6 is based on it.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Roewe_D6",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Front-drive electric compact sedan with SAIC-CATL LFP batteries.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Roewe_D6_China_2025-03-31.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_D6_China_2025-03-31.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "42-8-kwh",
+       "name": "D6 42.8 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 42.8,
+       "battery_basis": null,
+       "power_hp": 127,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Roewe_D6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "54-kwh",
+       "name": "D6 54 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 53.95,
+       "battery_basis": null,
+       "power_hp": 141,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 520,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Roewe_D6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341).",
+  "Ei5 pre-facelift: 300 km range has no test cycle in the source, left out.",
+  "E50: 180 km range has no test cycle in the source, left out.",
+  "D7 EV: battery sizes (59.2 kWh LFP / 68.5 kWh NMC) are not mapped to the 510/610 versions in the source; prices not sourced.",
+  "Not included (powertrain not confirmed as battery-electric): Roewe iMAX8 EV, i6 Max EV / ei6 Max (ambiguous EV/PHEV), Jiayue 07, eRX5 (PHEV). Rising Auto ER6, Marvel R, R7 and F7 are in rising-auto.json.",
+  "NEDC ranges are not a supported cycle, so they are kept out of offerings: Ei5 61 kWh: 501 km NEDC (CN); Clever: 260 km NEDC (CN)."
+ ]
+}

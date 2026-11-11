@@ -1,0 +1,1043 @@
+{
+  "make": {
+    "slug": "gmc",
+    "name": "GMC",
+    "legacy_id": 22,
+    "country": "US",
+    "headquarters": "Detroit, Michigan, USA",
+    "founded": 1911,
+    "parent_group": "General Motors",
+    "website_url": "https://www.gmc.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "General Motors' truck and SUV brand. Its electric line-up is the Hummer EV pickup and SUV, which revived the Hummer name on GM's Ultium-based BT1 platform, and the Sierra EV pickup.",
+    "sources": [
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/GMC_(marque)",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "hummer-ev",
+      "url_slug": "hummer-ev-pickup",
+      "name": "Hummer EV Pickup",
+      "aliases": [
+        "Hummer EV",
+        "HEV"
+      ],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.gmc.com/electric/hummer-ev/pickup-truck",
+      "description": "GMC's electric 'supertruck' on GM's BT1 platform, built at Factory Zero in Detroit since November 2021. It launched as the 1,000 hp Edition 1 and is now sold as the dual-motor 2X and tri-motor 3X (with a 2026 Carbon Fiber Edition of the 3X).",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2021-12",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.cars.com/articles/how-much-is-the-2026-gmc-hummer-ev-513920",
+          "name": "Cars.com"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BT1",
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Removable roof panels, four-wheel steering with CrabWalk and air suspension; 20- or 24-module Ultium packs.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/gmc_hummer_ev_pickup.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "edition-1",
+              "name": "Edition 1",
+              "legacy_ids": [
+                143
+              ],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2022,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 212.7,
+              "battery_basis": "usable",
+              "power_hp": 1000,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 329,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "3x",
+              "name": "EV3X / 3X (tri-motor)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 1000,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 314,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 107195,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46951",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48344",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/how-much-is-the-2026-gmc-hummer-ev-513920",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "2x",
+              "name": "EV2X / 2X (dual-motor)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 570,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 311,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 318,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 99095,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48787",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48343",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/how-much-is-the-2026-gmc-hummer-ev-513920",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "ev2",
+              "name": "EV2 (planned base model)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gmc-hummer-ev-suv",
+      "url_slug": "hummer-ev-suv",
+      "name": "Hummer EV SUV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.gmc.com/electric/hummer-ev/suv",
+      "description": "Shorter-wheelbase SUV version of the Hummer EV, unveiled in April 2021 and in production at Factory Zero since January 2023 for the 2024 model year, offered as the dual-motor 2X and tri-motor 3X.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.cars.com/articles/how-much-is-the-2026-gmc-hummer-ev-513920",
+          "name": "Cars.com"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BT1",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Shares the pickup's drivetrains and removable roof; 830 hp in tri-motor 3X form.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2024_GMC_Hummer_EV3X_SUV%2C_front_left%2C_10-29-2023.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_GMC_Hummer_EV3X_SUV,_front_left,_10-29-2023.jpg",
+              "credit": "MercurySable99",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            },
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/gmc_hummer_ev_suv.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "3x",
+              "name": "EV3X / 3X (tri-motor)",
+              "legacy_ids": [
+                144
+              ],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 830,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 314,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 107195,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46953",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48348",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/GMC_Hummer_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/how-much-is-the-2026-gmc-hummer-ev-513920",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "2x",
+              "name": "2X (dual-motor)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 570,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 303,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 315,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 99095,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48789",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48347",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/how-much-is-the-2026-gmc-hummer-ev-513920",
+                  "name": "Cars.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gmc-sierra-ev",
+      "url_slug": "sierra-ev",
+      "name": "Sierra EV",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.gmc.com/electric/sierra-ev",
+      "description": "GMC's version of the Silverado EV, revealed in October 2022 and built at Factory Zero from 2024, launched as the Denali Edition 1. For 2026 it gained Elevation and AT4 trims, a cheaper Standard Range pack and new drive units.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "chevrolet-silverado-ev"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Silverado_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51027",
+          "name": "fueleconomy.gov (EPA)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.cars.com/research/gmc-sierra_ev-2026/",
+          "name": "Cars.com"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BT1",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Crew-cab Ultium pickup with midgate, 800 V fast charging up to 350 kW and optional four-wheel steering.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/2024_GMC_Sierra_EV_Denali_in_Eugene%2C_Oregon.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_GMC_Sierra_EV_Denali_in_Eugene,_Oregon.jpg",
+              "credit": "Wlb5V",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "denali-edition-1",
+              "name": "Denali Edition 1",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 754,
+              "torque_lbft": 785,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 440,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.cars.com/research/gmc-sierra_ev-2024/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "denali-2025",
+              "name": "Denali Extended Range (2025)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 390,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48709",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range",
+              "name": "Elevation / Denali Standard Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 283,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 62400,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49660",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/gmc-sierra_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range",
+              "name": "Elevation / Denali Extended Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 645,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 410,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 70600,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 396,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49658",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51027",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/gmc-sierra_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "at4-extended-range",
+              "name": "AT4 Extended Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 625,
+              "torque_lbft": 775,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 79300,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/gmc-sierra_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "at4-max-range",
+              "name": "AT4 Max Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 725,
+              "torque_lbft": 775,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 89600,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/gmc-sierra_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "denali-max-range",
+              "name": "Denali Max Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 760,
+              "torque_lbft": 785,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 460,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 98600,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/gmc-sierra_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 143,
+      "note": "Legacy 'Hummer EV Pickup' row matches the 2022 Edition 1 (1,000 hp, 329 mi EPA), so it is mapped there. Its 11,500 lb-ft 'torque' is GM's wheel-torque marketing figure, not motor torque, and the $96,550 price matches no sourced trim. The legacy make_model_slug 'hummer-ev' is kept for the pickup model; the SUV is now its own model."
+    },
+    {
+      "legacy_id": 144,
+      "note": "Legacy 'Hummer EV SUV' row is mapped to the SUV 3X but copies pickup figures: the SUV 3X is 830 hp (not 1,000) and its best EPA range is 314 mi (not 329). The $108,700 price could not be sourced. It is moved from make_model_slug 'hummer-ev' to the new model 'gmc-hummer-ev-suv'."
+    }
+  ],
+  "gaps": [
+    "Hummer EV 2026 EPA ratings not published on fueleconomy.gov (2026 offerings carry price only); 2026 Carbon Fiber Edition (3X package, 0-60 in 2.8 s per GMC) is not a separate variant. Hummer EV 2027 status not found.",
+    "Hummer EV 3X pickup comes with 20- or 24-module packs in some years; battery size not set on the 3X/2X variants. EPA ranges listed are fueleconomy.gov's base rating for each model year.",
+    "Hummer EV SUV Edition 1 and the 2024 Omega Edition are limited editions of existing configurations and are not listed separately.",
+    "Sierra EV battery capacities, 2027 prices and output, and 2024 Denali Edition 1 price (sources conflict) not set; 2026 Standard Range output not published. Prices are Cars.com trim listings excluding the $2,095 destination charge.",
+    "Canadian / Middle East availability of the Hummer EV not sourced."
+  ]
+}

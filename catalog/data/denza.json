@@ -1,0 +1,1880 @@
+{
+  "make": {
+    "slug": "denza",
+    "name": "Denza",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shenzhen, Guangdong, China",
+    "founded": 2010,
+    "parent_group": "BYD Auto",
+    "website_url": "https://www.denza.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Premium brand founded in 2010 as a BYD-Daimler joint venture; BYD took 90% in 2021 and full control in 2024. After early electric hatchbacks it relaunched with the D9 MPV (2022) and now sells large EVs and plug-in hybrids in China, Europe (from 2025-2026), Australia and Asia. It also sells Fangchengbao models abroad (B3, B5, B7, B8).",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group",
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Denza",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://carnewschina.com/2025/04/10/byds-luxury-brand-denza-officially-enters-europe-with-z9-gt-unveiling-in-milan/",
+        "name": "CarNewsChina"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "denza-ev",
+      "url_slug": "ev",
+      "name": "Denza EV / 400 / 500",
+      "aliases": [
+        "Denza 400",
+        "Denza 500"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "The first Denza, an electric compact built on Mercedes-Benz B-Class underpinnings with a BYD powertrain, sold in selected Chinese cities from late 2014. It became the Denza 400 in 2016 and the Denza 500 after a 2018 facelift, and ended in 2019.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2014",
+          "end": "2019",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_500",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "models",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/List_of_BYD_Auto_vehicles",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2014",
+          "name": "Denza EV / 400",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2014,
+          "end_year": 2018,
+          "status": "discontinued",
+          "description": "Launch car (2014) and the 2016 Denza 400 with a larger, about 62 kWh LFP pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2014_Denza_EV_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2014_Denza_EV_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "400",
+              "name": "Denza 400",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2016,
+              "year_to": 2018,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 62.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_500",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://chargedevs.com/newswire/daimlerbyd-introduce-new-denza-400-kilometer-ev-for-china/",
+                  "name": "Charged EVs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2018",
+          "name": "Denza 500",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2018,
+          "end_year": 2019,
+          "status": "discontinued",
+          "description": "2018 facelift with restyled front and rear and a 70 kWh battery.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Denza_500_01_China_2019-03-28.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_500_01_China_2019-03-28.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "500",
+              "name": "Denza 500",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": 2019,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 70.0,
+              "battery_basis": null,
+              "power_hp": 181,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_500",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2018/03/daimler-unveils-denza-500-chinese-ev-500km-range/",
+                  "name": "Carscoops"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-x",
+      "url_slug": "x",
+      "name": "X",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Seven-seat SUV based on the second-generation BYD Tang, offered as an EV and plug-in hybrid in China from late 2020; it was dropped in 2021 and replaced by the plug-in hybrid N8.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2020",
+          "end": "2021",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_N8",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2021,
+          "status": "discontinued",
+          "description": "Mercedes-styled Tang derivative; electric and plug-in hybrid versions.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Denza_X_IMG001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_X_IMG001.jpg",
+              "credit": "Zotyefan",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev",
+              "name": "X EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": 2021,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_N8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2019/11/mercedes-styled-denza-x-production-crossover-unveiled-in-ev-and-phev-guise/",
+                  "name": "Carscoops"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-n7",
+      "url_slug": "n7",
+      "name": "N7",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric mid-size coupe-SUV launched in China in July 2023 on the platform shared with the BYD Seal and Sealion 07; facelifted for 2024 and dropped in 2026.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2023-07",
+          "end": "2026",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_N7",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "models",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/List_of_BYD_Auto_vehicles",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Rear-drive 230 kW or dual-motor 390 kW; up to 702 km CLTC.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2024_Denza_N7_%28facelift%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Denza_N7_(facelift).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2026,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_N7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2023/03/09/denza-n7-unveiled-in-china-with-loads-of-byd-tech/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 523,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_N7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2023/03/09/denza-n7-unveiled-in-china-with-loads-of-byd-tech/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-d9",
+      "url_slug": "d9",
+      "name": "D9 EV",
+      "aliases": [
+        "Danza D9"
+      ],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.denza.com",
+      "description": "Large luxury MPV launched in China in August 2022 as a plug-in hybrid and EV; it became China's best-selling MPV and is exported to Europe, Australia and Asia. A 2026 update moved the EV to the Super e-Platform with a 115 kWh pack.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022-08",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_D9",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://cnevpost.com/2022/08/24/byds-denza-brand-officially-launches-d9-mpv-in-china/",
+          "name": "CnEVPost"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://www.carexpert.com.au/car-news/2026-denza-d9-price-and-specs",
+          "name": "CarExpert"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "MRE",
+          "platform": "e-Platform 3.0",
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "e-Platform 3.0 EV with a 103.36 kWh Blade battery; front-drive or 275 kW AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Denza_D9_EV_001_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_D9_EV_001_(cropped).jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-620",
+              "name": "EV 620 FWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 103.36,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_D9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://denza.sg/wp-content/uploads/2024/12/Denza-Catalogue_FA_Single_28NOV.pdf",
+                  "name": "Denza Singapore"
+                }
+              ]
+            },
+            {
+              "slug": "ev-600-awd",
+              "name": "EV 600 AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 103.36,
+              "battery_basis": null,
+              "power_hp": 369,
+              "torque_lbft": 347,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 480,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_D9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://denza.sg/wp-content/uploads/2024/12/Denza-Catalogue_FA_Single_28NOV.pdf",
+                  "name": "Denza Singapore"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Super e-Platform",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Super e-Platform with a 115 kWh second-generation Blade pack and much more power.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-extended",
+              "name": "EV Extended FWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 115.0,
+              "battery_basis": null,
+              "power_hp": 456,
+              "torque_lbft": 269,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 800,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_D9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://car.autohome.com.cn/config/series/6669.html",
+                  "name": "Autohome"
+                }
+              ]
+            },
+            {
+              "slug": "ev-performance-awd",
+              "name": "EV Performance AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 115.0,
+              "battery_basis": null,
+              "power_hp": 550,
+              "torque_lbft": 328,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 750,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_D9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://car.autohome.com.cn/config/series/6669.html",
+                  "name": "Autohome"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-z9",
+      "url_slug": "z9",
+      "name": "Z9",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Full-size luxury sedan launched in China in September 2024 alongside the Z9 GT, with EV and plug-in hybrid versions; the sedan ended in 2026 and was replaced by the Z9S.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2024-09",
+          "end": "2026",
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "denza-z9-gt"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_Z9",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "models",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/List_of_BYD_Auto_vehicles",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Tri-motor EV with a 100 kWh Blade battery.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Denza_Z9_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_Z9_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-tri-motor",
+              "name": "EV tri-motor AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 952,
+              "torque_lbft": 848,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 630,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2024/09/20/denza-z9-gt-launched-in-china-for-47450-usd-eyeing-europe/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-z9-gt",
+      "url_slug": "z9-gt",
+      "name": "Z9 GT",
+      "aliases": [
+        "Danza Z9 GT"
+      ],
+      "body_style": "wagon",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Five-door shooting brake launched in China in September 2024 with EV and plug-in hybrid versions and BYD's three-motor torque-vectoring drive. Updated for 2026 with flash charging and up to 1036 km CLTC; launched in Europe in April 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-09",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2026-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "denza-z9"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_Z9",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch EV with a 100 kWh Blade battery and three motors.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Denza_Z9_GT_001_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_Z9_GT_001_(cropped).jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-tri-motor",
+              "name": "EV tri-motor AWD (100 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 952,
+              "torque_lbft": 848,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 270,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2024,
+                  "range": 630,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2024/09/20/denza-z9-gt-launched-in-china-for-47450-usd-eyeing-europe/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Second-generation Blade packs of 102.3 or 122.5 kWh, rear-drive versions and flash charging up to 1100 kW.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-102",
+              "name": "EV RWD 102.3 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 102.3,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": 369,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 880,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-122",
+              "name": "EV RWD 122.5 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 122.5,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": 369,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 1100,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 1036,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "tri-motor-122",
+              "name": "EV tri-motor AWD 122.5 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 122.5,
+              "battery_basis": null,
+              "power_hp": 1140,
+              "torque_lbft": 892,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 820,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 599,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2026/04/09/denza-z9-gt-with-flash-charging-and-1036-km-range-launches-in-europe-starting-from-115000-euro/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-z9s",
+      "url_slug": "z9s",
+      "name": "Z9S",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Shorter-wheelbase, EV-only sports sedan sold alongside (and replacing) the Z9 sedan in China from 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_Z9S",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Second-generation Blade packs; single rear motor or three-motor AWD.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 102.326,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": 369,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.2,
+              "top_speed_mph": 155,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 920,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.autohome.com.cn/news/202607/1315811.html",
+                  "name": "Autohome"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-long-range",
+              "name": "RWD Long Range",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 122.496,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": 369,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.3,
+              "top_speed_mph": 155,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 1100,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9S",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "tri-motor-awd",
+              "name": "Tri-motor AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 102.326,
+              "battery_basis": null,
+              "power_hp": 1194,
+              "torque_lbft": 797,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 2.68,
+              "top_speed_mph": 168,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 780,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z9S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.autohome.com.cn/news/202607/1315811.html",
+                  "name": "Autohome"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-z",
+      "url_slug": "z",
+      "name": "Z",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Two-door electric sports car, shown as a concept in 2025 and unveiled in production form (Spider first) at the April 2026 Beijing show, with a European launch at Goodwood in July 2026. Offered as a coupe and a convertible with three motors.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_Z",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "price"
+          ],
+          "url": "https://cleantechnica.com/2026/07/10/as-byd-cancels-introduces-chinese-models-global-product-diverges/",
+          "name": "CleanTechnica"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Tri-motor AWD with a 76 kWh second-generation Blade pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Denza_Z_Auto_Zuerich_2026_IMG_8686.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_Z_Auto_Zuerich_2026_IMG_8686.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "coupe",
+              "name": "Coupe",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 76.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/04/24/denza-z-convertible-unveiled-in-beijing-eyes-europe-first-with-goodwood-global-launch-in-july/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "spider",
+              "name": "Spider",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": "convertible",
+              "seats": null,
+              "battery_kwh": 76.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_Z",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/04/24/denza-z-convertible-unveiled-in-beijing-eyes-europe-first-with-goodwood-global-launch-in-july/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-n8",
+      "url_slug": "n8",
+      "name": "N8 EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Five-seat electric full-size SUV, the second-generation N8 (the first N8 of 2023-2024 was a plug-in hybrid facelift of the Denza X). Pre-orders opened in China on 26 October 2026 with launch set for November 2026.",
+      "markets": {
+        "CN": {
+          "status": "upcoming",
+          "launch": "2026-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_N8",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://electrek.co/2026/10/26/byd-opens-orders-first-luxury-suv-1000-km-cltc-range/",
+          "name": "Electrek"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Second-generation Blade packs of 105.79 or 130.15 kWh (up to 1003 km CLTC), 320 or 370 kW rear drive or 890 kW tri-motor AWD, flash charging.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-320",
+              "name": "RWD 320 kW",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 429,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_N8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/10/26/byds-new-denza-n8-ev-pre-orders-open-in-china-1003-km-cltc-range-1193-hp-and-flash-charging/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-370",
+              "name": "RWD 370 kW",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_N8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/10/26/byds-new-denza-n8-ev-pre-orders-open-in-china-1003-km-cltc-range-1193-hp-and-flash-charging/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "tri-motor-awd",
+              "name": "Tri-motor AWD",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 1193,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_N8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/10/26/byds-new-denza-n8-ev-pre-orders-open-in-china-1003-km-cltc-range-1193-hp-and-flash-charging/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "denza-n8l",
+      "url_slug": "n8l",
+      "name": "N8L EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Six-seat full-size SUV launched in China in October 2025 as a plug-in hybrid; a battery-electric version followed on 14 September 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Denza_N8L",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation (EV)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "EV with a 130.15 kWh second-generation Blade pack, 370 kW rear motor and 10-97% charging in 9 minutes.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Denza_N8L_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_N8L_005.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 130.15,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": 369,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 149,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 960,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Denza_N8L",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/09/14/denza-n8l-bev-launches-with-130-kwh-battery-that-can-be-fully-charged-in-9-minutes/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "history"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/14/byd-denza-launches-all-electric-n8l/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Denza X EV and N7: per-variant battery, power-to-range mapping and prices not sourced.",
+    "Denza Z: power output reported inconsistently (target 1000 hp vs a 1180 kW figure); left null. UK price reported as GBP 142,900 but not tied to coupe or spider.",
+    "Denza N8 (2026): pre-sale prices not yet published; battery-to-range mapping not given.",
+    "D9 EV and Z9 GT export prices (EUR/AUD) not collected; D9 EV WLTP figures are from the Singapore catalogue.",
+    "Denza-badged export versions of Fangchengbao models (B3 = Tai 3, B7 = Ti7) are listed under Fangchengbao."
+  ]
+}

@@ -1,0 +1,1660 @@
+{
+  "make": {
+    "slug": "subaru",
+    "name": "Subaru",
+    "legacy_id": 32,
+    "country": "JP",
+    "headquarters": "Ebisu, Shibuya, Tokyo, Japan",
+    "founded": 1953,
+    "parent_group": null,
+    "website_url": "https://www.subaru.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Japanese carmaker known for all-wheel drive and boxer engines. After a small run of the Plug-in Stella kei EV in 2009, its battery-electric cars have all been co-developed with Toyota: the Solterra (2022), and for 2026 the Trailseeker and Uncharted, with the three-row Getaway to follow.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Subaru",
+        "name": "Wikipedia: Subaru"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "subaru-stella-ev",
+      "url_slug": "plug-in-stella",
+      "name": "Plug-in Stella",
+      "aliases": [
+        "Stella EV"
+      ],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the Stella kei car, shown in 2008 and delivered to Japanese fleet and government buyers from July 2009, with about 170 units planned through March 2010. A planned European launch did not happen.",
+      "markets": {
+        "JP": {
+          "status": "discontinued",
+          "launch": "2009-07",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "years",
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Subaru_Stella",
+          "name": "Wikipedia: Subaru Stella (Plug-in Stella)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2009",
+          "name": "Plug-in Stella",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2009,
+          "end_year": 2010,
+          "status": "discontinued",
+          "description": "Lithium-ion kei-class EV developed from the R1e prototype programme.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Subaru_Stella_Plug-in.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Subaru_Stella_Plug-in.JPG",
+              "credit": "Thomas doerfer",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "years",
+                "specs",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Subaru_Stella",
+              "name": "Wikipedia: Subaru Stella (Plug-in Stella)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Plug-in Stella",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2009,
+              "year_to": 2010,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "years",
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Subaru_Stella",
+                  "name": "Wikipedia: Subaru Stella (Plug-in Stella)"
+                },
+                {
+                  "fields": [
+                    "years"
+                  ],
+                  "url": "https://web.archive.org/web/20160303192244/http://www.fhi.co.jp/english/contents/pdf_en_46430.pdf",
+                  "name": "Fuji Heavy Industries press release (27 Jun 2008, archived)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "subaru-solterra",
+      "url_slug": "solterra",
+      "name": "Solterra",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.subaru.com/vehicles/solterra.html",
+      "description": "Subaru's version of the Toyota bZ4X, built by Toyota on the e-TNGA platform and sold since mid-2022 in Japan, the US, Canada, Europe and China. US cars are all-wheel drive. A 2026 model-year facelift brought a 74.7 kWh pack, 233 or 338 hp, up to 288 miles EPA and a NACS port.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "JP": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "toyota-bz4x"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+          "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+        },
+        {
+          "fields": [
+            "price",
+            "specs"
+          ],
+          "url": "https://media.subaru.com/newsrelease.do?id=2370",
+          "name": "Subaru of America: 2026 Solterra pricing (25 Sep 2025)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA (e-Subaru Global Platform)",
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Launch version (US model years 2023-2025): dual 80 kW motors (215 hp), 72.8 kWh pack in the US, about 222-228 miles EPA, CCS1 port.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/subaru_solterra_premium.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+              "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "premium",
+              "name": "Premium AWD",
+              "legacy_ids": [
+                192
+              ],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 72.8,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 228,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 46220,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 227,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 227,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 39915,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/subaru/solterra/2023/",
+                  "name": "Kelley Blue Book: 2023 Solterra"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/subaru/solterra/2025/",
+                  "name": "Kelley Blue Book: 2025 Solterra"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46030.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 Subaru Solterra AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47482.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 Subaru Solterra AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48762.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 Subaru Solterra AWD"
+                }
+              ]
+            },
+            {
+              "slug": "limited",
+              "name": "Limited AWD",
+              "legacy_ids": [
+                193
+              ],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 72.8,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 49720,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 43415,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/subaru/solterra/2023/",
+                  "name": "Kelley Blue Book: 2023 Solterra"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/subaru/solterra/2025/",
+                  "name": "Kelley Blue Book: 2025 Solterra"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46031.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 Subaru Solterra Limited/Touring AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47483.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 Subaru Solterra Limited/Touring AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48763.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 Subaru Solterra Limited/Touring AWD"
+                }
+              ]
+            },
+            {
+              "slug": "touring",
+              "name": "Touring AWD",
+              "legacy_ids": [
+                191
+              ],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 72.8,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 53220,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 46415,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/subaru/solterra/2023/",
+                  "name": "Kelley Blue Book: 2023 Solterra"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/subaru/solterra/2025/",
+                  "name": "Kelley Blue Book: 2025 Solterra"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46031.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 Subaru Solterra Limited/Touring AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47483.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 Subaru Solterra Limited/Touring AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48763.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 Subaru Solterra Limited/Touring AWD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA (e-Subaru Global Platform)",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Facelift shown at the April 2025 New York show: 74.7 kWh pack, 233 hp (Premium, Limited) or 338 hp (XT trims), 150 kW DC charging, NACS port.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2026_Subaru_Solterra_Premium%2C_front_left%2C_03-15-2026.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Subaru_Solterra_Premium,_front_left,_03-15-2026.jpg",
+              "credit": "MercurySable99",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "price",
+                "specs"
+              ],
+              "url": "https://media.subaru.com/newsrelease.do?id=2370",
+              "name": "Subaru of America: 2026 Solterra pricing (25 Sep 2025)"
+            },
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+              "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "premium",
+              "name": "Premium AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 233,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 288,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 38495,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 288,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://media.subaru.com/newsrelease.do?id=2370",
+                  "name": "Subaru of America: 2026 Solterra pricing (25 Sep 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/more-powerful-longer-range-2026-subaru-solterra-priced-from-39945-516135",
+                  "name": "Cars.com: 2026 Solterra pricing"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49982.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Solterra AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50690.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Subaru Solterra AWD"
+                }
+              ]
+            },
+            {
+              "slug": "limited",
+              "name": "Limited AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 233,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 41395,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://media.subaru.com/newsrelease.do?id=2370",
+                  "name": "Subaru of America: 2026 Solterra pricing (25 Sep 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/more-powerful-longer-range-2026-subaru-solterra-priced-from-39945-516135",
+                  "name": "Cars.com: 2026 Solterra pricing"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49981.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Solterra 20 AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50689.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Subaru Solterra 20 AWD"
+                }
+              ]
+            },
+            {
+              "slug": "limited-xt",
+              "name": "Limited XT AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 42895,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://media.subaru.com/newsrelease.do?id=2370",
+                  "name": "Subaru of America: 2026 Solterra pricing (25 Sep 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/more-powerful-longer-range-2026-subaru-solterra-priced-from-39945-516135",
+                  "name": "Cars.com: 2026 Solterra pricing"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49981.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Solterra 20 AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50689.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Subaru Solterra 20 AWD"
+                }
+              ]
+            },
+            {
+              "slug": "touring-xt",
+              "name": "Touring XT AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 45555,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://media.subaru.com/newsrelease.do?id=2370",
+                  "name": "Subaru of America: 2026 Solterra pricing (25 Sep 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/more-powerful-longer-range-2026-subaru-solterra-priced-from-39945-516135",
+                  "name": "Cars.com: 2026 Solterra pricing"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49981.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Solterra 20 AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50689.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Subaru Solterra 20 AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "subaru-trailseeker",
+      "url_slug": "trailseeker",
+      "name": "Trailseeker",
+      "aliases": [
+        "E-Outback"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.subaru.com/vehicles/trailseeker.html",
+      "description": "Subaru's version of the long-wheelbase Toyota bZ Woodland / bZ4X Touring, announced in April 2025; sold as the E-Outback in Europe, Singapore and Taiwan. In the US it is all-wheel drive with 375 hp.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "JP": {
+          "status": "current",
+          "launch": "2026-04",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026-04",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": "E-Outback"
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "toyota-bz-woodland"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+          "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://www.subaru.com/vehicles/trailseeker.html",
+          "name": "Subaru USA: Trailseeker"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "74.7 kWh pack, 375 hp dual-motor AWD in the US, NACS port, 150 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Subaru_E-Outback_Singapore_03052026.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Subaru_E-Outback_Singapore_03052026.jpg",
+              "credit": "Leongyy02",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+              "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "premium",
+              "name": "Premium AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 375,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 281,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 41445,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 281,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.kbb.com/subaru/trailseeker/2026/",
+                  "name": "Kelley Blue Book: 2026 Trailseeker"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.subaru.com/vehicles/trailseeker.html",
+                  "name": "Subaru USA: Trailseeker"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X (Subaru Solterra / Trailseeker sections)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50300.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Trailseeker AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50692.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Subaru Trailseeker AWD"
+                }
+              ]
+            },
+            {
+              "slug": "limited",
+              "name": "Limited AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 375,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 281,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 45445,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.kbb.com/subaru/trailseeker/2026/",
+                  "name": "Kelley Blue Book: 2026 Trailseeker"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.subaru.com/vehicles/trailseeker.html",
+                  "name": "Subaru USA: Trailseeker"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50300.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Trailseeker AWD"
+                }
+              ]
+            },
+            {
+              "slug": "touring",
+              "name": "Touring AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 375,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 274,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 48005,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.kbb.com/subaru/trailseeker/2026/",
+                  "name": "Kelley Blue Book: 2026 Trailseeker"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.subaru.com/vehicles/trailseeker.html",
+                  "name": "Subaru USA: Trailseeker"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50299.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Trailseeker 20 inch AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "subaru-uncharted",
+      "url_slug": "uncharted",
+      "name": "Uncharted",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.subaru.com/vehicles/uncharted.html",
+      "description": "Subaru's version of the Toyota C-HR+, a compact electric crossover on sale in the US from early 2026 with front-drive and 338 hp all-wheel-drive versions; on sale in Australia from May 2026.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026-05",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "toyota-c-hr-plus"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "price",
+            "specs"
+          ],
+          "url": "https://media.subaru.com/newsrelease.do?id=2403&allImage=1&teaser=all-new-2026-subaru-uncharted-ev-arrives-more",
+          "name": "Subaru of America: 2026 Uncharted"
+        },
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_C-HR%2B",
+          "name": "Wikipedia: Toyota C-HR+ (Subaru Uncharted)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "74.7 kWh pack in the US, 221 hp FWD or 338 hp AWD, 150 kW DC charging, NACS port.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Subaru_Uncharted_Auto_Zuerich_2025_DSC_3436.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Subaru_Uncharted_Auto_Zuerich_2025_DSC_3436.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "price",
+                "specs"
+              ],
+              "url": "https://media.subaru.com/newsrelease.do?id=2403&allImage=1&teaser=all-new-2026-subaru-uncharted-ev-arrives-more",
+              "name": "Subaru of America: 2026 Uncharted"
+            },
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_C-HR%2B",
+              "name": "Wikipedia: Toyota C-HR+ (Subaru Uncharted)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "premium-fwd",
+              "name": "Premium FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 308,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 34995,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 308,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://media.subaru.com/newsrelease.do?id=2403&allImage=1&teaser=all-new-2026-subaru-uncharted-ev-arrives-more",
+                  "name": "Subaru of America: 2026 Uncharted"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50301.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Uncharted"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50693.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Subaru Uncharted"
+                }
+              ]
+            },
+            {
+              "slug": "sport-awd",
+              "name": "Sport AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 287,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 39795,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 287,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://media.subaru.com/newsrelease.do?id=2403&allImage=1&teaser=all-new-2026-subaru-uncharted-ev-arrives-more",
+                  "name": "Subaru of America: 2026 Uncharted"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50303.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Uncharted AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50695.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 Subaru Uncharted AWD"
+                }
+              ]
+            },
+            {
+              "slug": "gt-awd",
+              "name": "GT AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 273,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 43795,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://media.subaru.com/newsrelease.do?id=2403&allImage=1&teaser=all-new-2026-subaru-uncharted-ev-arrives-more",
+                  "name": "Subaru of America: 2026 Uncharted"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50302.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 Subaru Uncharted 20 inch AWD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "subaru-getaway",
+      "url_slug": "getaway",
+      "name": "Getaway",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Three-row electric SUV that is Subaru's version of the fifth-generation Toyota Highlander, to be built in Kentucky for North America; launch timing follows the Highlander, now 2027.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "toyota-highlander"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+          "name": "Wikipedia: Toyota Highlander (fifth generation; Subaru Getaway)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Shares the Highlander's 77/95.8 kWh packs; Wikipedia lists 420 hp for the Getaway.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2027_Subaru_Getaway.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2027_Subaru_Getaway.jpg",
+              "credit": "BuickCentury04",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+              "name": "Wikipedia: Toyota Highlander (fifth generation; Subaru Getaway)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 420,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+                  "name": "Wikipedia: Toyota Highlander (fifth generation; Subaru Getaway)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 191,
+      "note": "Labelled 2023 Solterra Touring but price $38,495 is the 2025/2026 Premium base price (2023 Touring was $53,220 incl. destination); top speed and the 250 kW charging figure are wrong (Solterra peaks at 100-150 kW). EPA 227 is the 2024-2025 Premium figure (Touring: 222). Mapped to original-generation Touring."
+    },
+    {
+      "legacy_id": 192,
+      "note": "Labelled Premium but price $44,995 is the 2023 Premium price excluding destination; top speed 155 mph and 250 kW DC are wrong. Mapped to original-generation Premium."
+    },
+    {
+      "legacy_id": 193,
+      "note": "Labelled Limited; price $48,495 matches the 2023 Limited excluding destination. Range 228 is the Premium figure (Limited/Touring EPA 222); top speed 155 mph and 250 kW DC wrong. Mapped to original-generation Limited. The Solterra itself is current (facelifted for 2026)."
+    }
+  ],
+  "gaps": [
+    "Solterra 2024 US prices not sourced; 2023 and 2025 prices are Kelley Blue Book figures including destination.",
+    "Solterra original generation: torque, 0-60 and DC charging rate for the US 72.8 kWh pack not sourced; Japan/Europe FWD and PPES-pack versions not modelled as separate variants.",
+    "Trailseeker prices are Kelley Blue Book figures that appear to include the $1,450 destination fee; E-Outback Europe/Japan specs not sourced.",
+    "Plug-in Stella battery, motor and range not sourced (only fleet launch dates).",
+    "Subaru Getaway: unveil date, battery, range and price not sourced; 420 hp from Wikipedia only.",
+    "2027 model-year US prices for Solterra, Trailseeker and Uncharted not sourced (EPA ranges added)."
+  ]
+}

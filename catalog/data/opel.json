@@ -1,0 +1,2618 @@
+{
+  "make": {
+    "slug": "opel",
+    "name": "Opel",
+    "legacy_id": null,
+    "country": "DE",
+    "headquarters": "Rüsselsheim am Main, Germany",
+    "founded": 1862,
+    "parent_group": "Stellantis",
+    "website_url": "https://www.opel.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "German car maker founded by Adam Opel in Rüsselsheim in 1862, owned by General Motors until 2017, then PSA and, since 2021, Stellantis. In the UK the same cars are sold under the Vauxhall brand. Its electric line-up started with the Bolt-based Ampera-e (2017-2021) and now covers the Rocks Electric, Corsa, Mokka, Frontera, Astra and Grandland Electric plus Combo and Zafira people carriers.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Opel",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "aliases"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Vauxhall_Motors",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "opel-ampera-e",
+      "url_slug": "ampera-e",
+      "name": "Ampera-e",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "European version of the first Chevrolet Bolt EV, built by GM in Orion Township, Michigan and sold by Opel from 2017 (Norway first) until 2021 in small numbers (under 5,000 delivered in Europe by early 2019). Supply was cut after PSA bought Opel.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2017",
+          "end": "2021",
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "chevrolet-bolt"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Chevrolet_Bolt",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2017",
+          "name": "Ampera-e",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BEV2",
+          "start_year": 2017,
+          "end_year": 2021,
+          "status": "discontinued",
+          "description": "Rebadged Bolt EV with a 60 kWh class battery; 520 km NEDC, 380 km WLTP.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Opel_Ampera-e_IMG_4453.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Ampera-e_IMG_4453.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "60-kwh",
+              "name": "60 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2017,
+              "year_to": 2021,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.0,
+              "battery_basis": "usable",
+              "power_hp": 201,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 380,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1051/Opel-Ampera-e",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-rocks-electric",
+      "url_slug": "rocks-electric",
+      "name": "Rocks Electric",
+      "aliases": [
+        "Rocks-e"
+      ],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Opel version of the Citroën Ami two-seat electric quadricycle (45 km/h, 5.5 kWh, 6 kW), presented in August 2021 and on sale from November 2021 in Germany, later also the Netherlands. Called Rocks-e until 2023.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2021-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "citroen-ami"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Ami_(2020)",
+          "name": "Wikipedia (de)"
+        },
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Ami_(electric_vehicle)",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "launch_price",
+            "history"
+          ],
+          "url": "https://www.auto-motor-und-sport.de/elektroauto/opel-rocks-e-kleinstwagen-elektroantrieb/",
+          "name": "auto motor und sport"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Rocks-e / Rocks Electric",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "current",
+          "description": "Identical to the Ami apart from colours and badges; built in Kenitra, Morocco.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Opel_Rocks-e_%E2%80%93_f_03042026.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Rocks-e_%E2%80%93_f_03042026.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "electric",
+              "name": "Rocks Electric",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 5.5,
+              "battery_basis": null,
+              "power_hp": 8,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 28,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 7990,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Ami_(2020)",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Ami_(electric_vehicle)",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-corsa-electric",
+      "url_slug": "corsa-electric",
+      "name": "Corsa Electric",
+      "aliases": [
+        "Corsa-e",
+        "Vauxhall Corsa Electric",
+        "Vauxhall Corsa-e"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the sixth-generation (F) Corsa on the eCMP platform, launched as the Corsa-e in 2019/2020 with 50 kWh and 100 kW. Renamed Corsa Electric with the 2023 facelift, which added a 51 kWh / 115 kW version; a 207 kW Corsa GSE followed in September 2026. Sold as the Vauxhall Corsa Electric in the UK.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": "Vauxhall Corsa Electric"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Opel_Corsa",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Opel_Corsa_F",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "Corsa F",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2019,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Corsa-e: 50 kWh (46.3 kWh usable), 100 kW, up to 357 km WLTP.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "Corsa-e 50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2019,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.1,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 357,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 357,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Corsa_F",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1585/Opel-Corsa-e",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Mid-2023 facelift with the Vizor front and the Corsa Electric name; 156 hp version (sold as \"54 kWh\" from 2025); GSE from September 2026.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Opel_Corsa_Electric_Edition_%28F%2C_Facelift%29_%E2%80%93_f_05072025.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Corsa_Electric_Edition_(F,_Facelift)_%E2%80%93_f_05072025.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.7,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 357,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 30440,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 357,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 26005,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Corsa_F",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3220/Opel-Corsa-Electric-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "51/54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.1,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 429,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 31940,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 429,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 27400,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Corsa_F",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3221/Opel-Corsa-Electric-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "gse",
+              "name": "GSE",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 278,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.5,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 374,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 39900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 374,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 32995,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Corsa_F",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3722/Opel-Corsa-Electric-GSE",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-mokka-electric",
+      "url_slug": "mokka-electric",
+      "name": "Mokka Electric",
+      "aliases": [
+        "Mokka-e",
+        "Vauxhall Mokka Electric"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the second-generation (B) Mokka small SUV on eCMP, launched in early 2021 as the Mokka-e. A 54 kWh / 115 kW version replaced it from late 2023, the car was facelifted in late 2024 and a 207 kW GSE arrived in September 2025. Vauxhall Mokka Electric in the UK.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": "Vauxhall Mokka Electric"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Opel_Mokka",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Opel_Mokka_B",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Mokka B",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2021,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Mokka-e with 50 kWh / 100 kW; Mokka Electric 54 kWh / 115 kW from late 2023.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Opel_Mokka-e_IMG_6111.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Mokka-e_IMG_6111.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "Mokka-e 50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.0,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 338,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 338,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Mokka_B",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1586/Opel-Mokka-e-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.0,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 407,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 407,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Mokka_B",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2051/Opel-Mokka-e-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Late-2024 facelift (\"the all new Mokka\" show cars); 54 kWh / 115 kW, plus the GSE from September 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/2025_Opel_Mokka-e_Auto_Zuerich_2024_DSC_6132.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Opel_Mokka-e_Auto_Zuerich_2024_DSC_6132.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.0,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 407,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 37240,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 407,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 31005,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Mokka_B",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3051/Opel-Mokka-Electric",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "gse",
+              "name": "GSE",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 278,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 336,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 47800,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 336,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 35495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Mokka_B",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3307/Opel-Mokka-Electric-GSE",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-astra-electric",
+      "url_slug": "astra-electric",
+      "name": "Astra Electric",
+      "aliases": [
+        "Astra-e",
+        "Astra Sports Tourer Electric",
+        "Vauxhall Astra Electric"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the sixth-generation (L) Astra, sold as a hatchback and Sports Tourer estate since 2023 on EMP2 V3. For model year 2026 (orders from early 2026) the battery grew from 54 kWh to 58 kWh. Vauxhall Astra Electric in the UK.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": "Vauxhall Astra Electric"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Opel_Astra",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Opel_Astra_L",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Astra L",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2 V3",
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "54 kWh (50.8 kWh usable) and 115 kW, shared with the Peugeot e-308.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Opel_Astra_L_1X7A6738.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Astra_L_1X7A6738.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "hatch-54-kwh",
+              "name": "Hatchback 54 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.2,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 418,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 418,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Astra_L",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1792/Opel-Astra-Electric",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "st-54-kwh",
+              "name": "Sports Tourer 54 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.3,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 413,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 413,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Astra_L",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1793/Opel-Astra-Sports-Tourer-Electric",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2 V3",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Model-year 2026 update with a 58.3 kWh (55.4 kWh usable) battery and up to 454 km WLTP.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/2026_Opel_Astra_L_Sports_Tourer_Electric_IMG_8353.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Opel_Astra_L_Sports_Tourer_Electric_IMG_8353.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "hatch-58-kwh",
+              "name": "Hatchback 58 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.3,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.3,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 454,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 36490,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 454,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 28495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Astra_L",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3450/Opel-Astra-Electric-58-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "st-58-kwh",
+              "name": "Sports Tourer 58 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 58.3,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.5,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 445,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 37990,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 445,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 28495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Astra_L",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3451/Opel-Astra-Sports-Tourer-Electric-58-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-grandland-electric",
+      "url_slug": "grandland-electric",
+      "name": "Grandland Electric",
+      "aliases": [
+        "Vauxhall Grandland Electric"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the second-generation Grandland, revealed on 22 April 2024 and built in Eisenach on STLA Medium. Launched with 73 kWh and 82 kWh batteries; the 82 kWh version was replaced by a 97 kWh one in late 2025, and a 239 kW AWD version was added in mid-2025. Vauxhall Grandland Electric in the UK.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": "Vauxhall Grandland Electric"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Opel_Grandland",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Opel_Grandland",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Second generation Grandland",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "STLA Medium",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "STLA Medium; built in Eisenach, Germany.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Opel_Grandland_Electric_Classic-Gala_2025_DSC_0777.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Grandland_Electric_Classic-Gala_2025_DSC_0777.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "73-kwh",
+              "name": "73 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 211,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.0,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 523,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 47350,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 523,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 35045,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Grandland",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3037/Opel-Grandland-Electric-73-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "82-kwh",
+              "name": "82 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 82.2,
+              "battery_basis": "usable",
+              "power_hp": 228,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.0,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 582,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Grandland",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3038/Opel-Grandland-Electric-82-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "97-kwh",
+              "name": "97 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 96.9,
+              "battery_basis": "usable",
+              "power_hp": 228,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.8,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 694,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 52150,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Grandland",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3364/Opel-Grandland-Electric-97-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "73-kwh-awd",
+              "name": "73 kWh AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 320,
+              "torque_lbft": 375,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.1,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 483,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 52150,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 483,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 35895,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Grandland",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Opel_Grandland",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3201/Opel-Grandland-Electric-73-kWh-AWD",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-frontera-electric",
+      "url_slug": "frontera-electric",
+      "name": "Frontera Electric",
+      "aliases": [
+        "Vauxhall Frontera Electric"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the 2024 Frontera, a low-cost B-SUV on the Smart Car platform with five or seven seats, sold since mid-2024 with a 44 kWh LFP battery; a 54 kWh Extended Range version followed in July 2025. Vauxhall Frontera Electric in the UK.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": "Vauxhall Frontera Electric"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Opel_Frontera_(2024)",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Opel_Frontera_(2024)",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Frontera C",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Smart Car",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Smart Car platform, LFP batteries, 83 kW motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Opel_Frontera_C_Electric_DSC_9332.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Frontera_C_Electric_DSC_9332.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "44-kwh",
+              "name": "44 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 44.0,
+              "battery_basis": "gross",
+              "power_hp": 111,
+              "torque_lbft": 92,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 12.1,
+              "top_speed_mph": 89,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 305,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 29340,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 305,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 22495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Frontera_(2024)",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2238/Opel-Frontera-Electric-44-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "Extended Range 54 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 111,
+              "torque_lbft": 92,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.0,
+              "top_speed_mph": 89,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 408,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 33040,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 408,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 25995,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Frontera_(2024)",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3229/Opel-Frontera-Electric-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-combo-electric",
+      "url_slug": "combo-electric",
+      "name": "Combo Electric",
+      "aliases": [
+        "Combo-e Life",
+        "Combo Life Electric",
+        "Vauxhall Combo Life Electric"
+      ],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric passenger version of the fifth-generation Combo (Combo Life), sold from late 2021 as the Combo-e Life and from 2024, after the facelift, as the Combo Electric. Twin of the Citroën ë-Berlingo and Peugeot e-Rifter; Vauxhall Combo Life Electric in the UK.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": "Vauxhall Combo Life Electric"
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "citroen-e-berlingo"
+        },
+        {
+          "relation": "twin",
+          "model": "peugeot-e-rifter"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Opel_Combo",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Opel_Combo",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Combo E",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2021,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "50 kWh / 100 kW, about 280 km WLTP.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Opel_Combo-e_IMG_9501.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Combo-e_IMG_9501.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "Combo-e Life 50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 84,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 280,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 280,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Combo",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1544/Opel-Combo-e-Life-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "xl-50-kwh",
+              "name": "Combo-e Life XL 50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1545/Opel-Combo-e-Life-XL-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "2024 facelift with the Vizor front and a revised 50 kWh battery (up to 345 km WLTP).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Opel_Combo_E_%28Facelift%29_IMG_0657.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Combo_E_(Facelift)_IMG_0657.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.3,
+              "top_speed_mph": 84,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 345,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 38600,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 345,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 30690,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Combo",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2161/Opel-Combo-Electric-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "xl-50-kwh",
+              "name": "XL 50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 39600,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 31590,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2162/Opel-Combo-Electric-XL-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opel-zafira-electric",
+      "url_slug": "zafira-electric",
+      "name": "Zafira Electric",
+      "aliases": [
+        "Zafira-e Life",
+        "Vauxhall Vivaro Life Electric",
+        "Vauxhall Vivaro-e Life"
+      ],
+      "body_style": "van",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the Zafira Life people carrier (Vivaro-based, up to nine seats), sold from late 2020 as the Zafira-e Life with 50 kWh or 75 kWh and 100 kW; renamed Zafira Electric with the 2024 facelift. Sold as the Vauxhall Vivaro Life Electric in the UK. Twin of the Citroën ë-SpaceTourer and Peugeot e-Traveller.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": "Vauxhall Vivaro Life Electric"
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "citroen-e-spacetourer"
+        },
+        {
+          "relation": "twin",
+          "model": "peugeot-e-traveller"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Jumpy",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Opel_Zafira_Life",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "Zafira Life",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2020,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "50 kWh (231 km WLTP) or 75 kWh (329 km WLTP), 100 kW.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Opel_Zafira_Life_IMG_3458.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Zafira_Life_IMG_3458.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "Zafira-e Life 50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 12.1,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 231,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 231,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Zafira_Life",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1346/Opel-Zafira-e-Life-M-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "75-kwh",
+              "name": "Zafira-e Life 75 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 75.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.3,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 329,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Opel_Zafira_Life",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1348/Opel-Zafira-e-Life-M-75-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "2024 facelift with the Vizor front and the Zafira Electric name.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Opel_Zafira_Life_%28Facelift%29_DSC_6023.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Opel_Zafira_Life_(Facelift)_DSC_6023.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 48250,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2260/Opel-Zafira-Electric-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 75.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 14.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 54250,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 42710,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2262/Opel-Zafira-Electric-75-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Opel announced an electric Manta (Manta-e) in 2021 for mid-decade; no source could be fetched to confirm whether it is still planned or cancelled, so it is not listed (web search budget was exhausted during this run).",
+    "Vauxhall is a sales brand for these same cars in the UK; it has no separate make file. UK local names are in markets.UK.local_name and aliases.",
+    "Rocks Electric range (75 km WMTC) cannot be stored (cycle not in schema); current price not sourced, only the 2021 launch price.",
+    "Corsa Electric 156 hp top speed not sourced; DC charging peak left null for all Opel models (not stated in the sources used).",
+    "Zafira Electric (2024) and Combo Electric XL WLTP ranges not sourced.",
+    "Commercial Combo/Vivaro/Movano Electric vans and Vivaro Combi Electric not included.",
+    "EU prices are German list prices incl. VAT from EV Database (Nov 2026 snapshot); UK prices likewise."
+  ]
+}

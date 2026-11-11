@@ -1,0 +1,2961 @@
+{
+ "make": {
+  "slug": "zeekr",
+  "name": "Zeekr",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Ningbo, Zhejiang, China",
+  "founded": 2021,
+  "parent_group": "Geely Auto",
+  "website_url": "https://www.zeekrglobal.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Premium electric-car brand set up by Geely in March 2021, selling in China, Europe, Australia and much of Asia. Zeekr took control of Lynk & Co in February 2025, and Geely Auto took Zeekr private in December 2025, delisting it from the New York Stock Exchange.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "parent_group",
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Zeekr",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "zeekr-001",
+   "url_slug": "zeekr-001",
+   "name": "001",
+   "aliases": [
+    "Zeekr 001 FR"
+   ],
+   "body_style": "wagon",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Zeekr's first car: a large electric shooting brake on Geely's SEA platform, on sale in China since October 2021 and in Europe since 2023. It was facelifted with an 800V system in February 2024 and updated again with 103 kWh packs in October 2025.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2021-10",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://data.carnewschina.com/database/zeekr/zeekr-001",
+     "name": "CarNewsChina database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2021,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "Launch version with 86 or 100 kWh CATL packs (140 kWh Qilin option from 2023) and 200 kW RWD or 400 kW dual-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2022_Zeekr_001_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Zeekr_001_%28front%29.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "86-kwh-awd",
+       "name": "86 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 86.0,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": 506,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.8,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 560,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 300000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2023/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_001",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "100-kwh-rwd",
+       "name": "100 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 741,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 300000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2023/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "100-kwh-awd",
+       "name": "100 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": 506,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.8,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 656,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 328000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2023/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_001",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "140-kwh-rwd",
+       "name": "140 kWh Qilin RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 140.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 1032,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 403000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2023/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_001",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "fr",
+       "name": "001 FR",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 1247,
+       "torque_lbft": 944,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.0,
+       "top_speed_mph": 174,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 550,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 769000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2023/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_001",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "2024 facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2024,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "February 2024 facelift: new exterior, 800V architecture, 95 kWh LFP or 100 kWh NMC packs and 580 kW dual-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Zeekr_001_facelift_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_001_facelift_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "100-kwh-rwd",
+       "name": "WE 100 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 750,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 269000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "95-kwh-awd",
+       "name": "WE 95 kWh AWD (LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": null,
+       "power_hp": 778,
+       "torque_lbft": 597,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.5,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 675,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 269000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "100-kwh-awd",
+       "name": "ME/YOU 100 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 778,
+       "torque_lbft": 597,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.3,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 705,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 299000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2026 model year",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "October 2025 update: 103 kWh NMC pack, a 370 kW rear motor and 680 kW dual-motor AWD.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "max-103-rwd",
+       "name": "Max 103 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": 395,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.0,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 810,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 269800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "max-95-awd",
+       "name": "Max 95 kWh AWD (LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": null,
+       "power_hp": 912,
+       "torque_lbft": 673,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.1,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 710,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 269800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "ultra-103-awd",
+       "name": "Ultra 103 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 912,
+       "torque_lbft": 673,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.8,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 762,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 299800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-001/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zeekr-007",
+   "url_slug": "zeekr-007",
+   "name": "007",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric sedan on an 800V architecture, launched in December 2023. The April 2026 update raised motor output and added a 103 kWh pack.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://data.carnewschina.com/database/zeekr/zeekr-007",
+     "name": "CarNewsChina database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2023,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Launch version: 75 kWh LFP or 100 kWh NMC packs, 310 kW RWD or 475 kW dual-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Zeekr_007_006_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_007_006_%28cropped%29.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "75-rwd",
+       "name": "75 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.6,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.1,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 688,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 209900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2025/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_007",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "75-awd",
+       "name": "75 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.6,
+       "battery_basis": null,
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.6,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 616,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 229900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "100-rwd",
+       "name": "100 kWh Long Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.0,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 870,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 229900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2025/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_007",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "100-awd",
+       "name": "100 kWh Long Range AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.6,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 770,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 249900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "performance",
+       "name": "Performance AWD (100 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.8,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 660,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 299900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2025/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_007",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "2026 update",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "April 2026 update: 370 kW rear motor, 585 kW dual-motor AWD and a 103 kWh NMC long-range pack.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "75-rwd",
+       "name": "RWD Max (75 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": 395,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.8,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 715,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 203900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "103-rwd",
+       "name": "Long Range RWD Max (103 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": 395,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.6,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 905,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 223900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "75-awd",
+       "name": "AWD Max (75 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 784,
+       "torque_lbft": 599,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.3,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 590,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 233900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "103-awd",
+       "name": "Long Range AWD Ultra (103 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 784,
+       "torque_lbft": 599,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.7,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 800,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 243900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zeekr-007-gt",
+   "url_slug": "zeekr-007-gt",
+   "name": "007 GT",
+   "aliases": [
+    "7GT",
+    "Zeekr 7GT"
+   ],
+   "body_style": "wagon",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Shooting-brake (estate) version of the 007, launched in China in April 2025 and sold abroad as the Zeekr 7GT.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-04",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": "7GT"
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "zeekr-007"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Zeekr_007",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2025,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Launch version: 75 kWh LFP or 100 kWh NMC, 310 kW RWD or 475 kW AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Zeekr_007_GT_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_007_GT_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "75-rwd",
+       "name": "75 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.3,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 650,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 202900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "100-rwd",
+       "name": "100 kWh Long Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.2,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 825,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 222900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "75-awd",
+       "name": "75 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.8,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 585,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 232900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "100-awd",
+       "name": "100 kWh Long Range AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.0,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 730,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 252900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "2026 update",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "April 2026 update with the 007's 370 kW / 585 kW motors and a 103 kWh NMC long-range pack.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "75-rwd",
+       "name": "RWD Max (75 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 702,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 203900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "103-rwd",
+       "name": "Long Range RWD Max (103 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 880,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 223900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "75-awd",
+       "name": "AWD Max (75 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 784,
+       "torque_lbft": 599,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 615,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 233900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "103-awd",
+       "name": "Long Range AWD Ultra (103 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 784,
+       "torque_lbft": 599,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 760,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 243900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-007gt",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zeekr-009",
+   "url_slug": "zeekr-009",
+   "name": "009",
+   "aliases": [],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Large luxury electric MPV with six or seven seats (four in the Grand), deliveries from early 2023. The July 2024 update moved to an 800V 108 kWh pack and added front-drive and 140 kWh versions.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024-11",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://data.carnewschina.com/database/zeekr/zeekr-009",
+     "name": "CarNewsChina database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Launch version: 400 kW dual-motor AWD with a 116 kWh NMC or 140 kWh Qilin pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Zeekr_009_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_009_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "we-116",
+       "name": "WE 116 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 6,
+       "battery_kwh": 116.0,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": 506,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": 118,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 702,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 500000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_009",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-009/2023/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "me-140",
+       "name": "ME 140 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 6,
+       "battery_kwh": 140.0,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": 506,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": 118,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 822,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 588000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_009",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-009/2023/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "2024 update",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "July 2024 update: 108 kWh 800V NMC pack with 580 kW AWD or 310 kW FWD, plus 140 kWh FWD/AWD and the four-seat Grand.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/2025_Zeekr_009_green_front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Zeekr_009_green_front.jpg",
+       "credit": "Danjer",
+       "license": "CC BY 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "108-fwd",
+       "name": "108 kWh FWD (7 seats)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 108.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 143,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 740,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 439000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-009/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "108-awd",
+       "name": "108 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 108.0,
+       "battery_basis": null,
+       "power_hp": 778,
+       "torque_lbft": 597,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.9,
+       "top_speed_mph": 143,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 702,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 459000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-009/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "140-fwd",
+       "name": "140 kWh FWD (7 seats)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 140.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.9,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 900,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 489000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-009/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "140-awd",
+       "name": "140 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 140.0,
+       "battery_basis": null,
+       "power_hp": 603,
+       "torque_lbft": 511,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 850,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 509000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-009/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "grand",
+       "name": "Grand (4 seats, 108 kWh AWD)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 108.0,
+       "battery_basis": null,
+       "power_hp": 778,
+       "torque_lbft": 597,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.9,
+       "top_speed_mph": 143,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 702,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 789000,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-009/2024/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_009",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zeekr-x",
+   "url_slug": "zeekr-x",
+   "name": "X",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact electric crossover on the SEA platform (related to the smart #1 and Volvo EX30), launched in 2023 in China and Europe. A facelift with new 61 kWh LFP and 66 kWh NMC packs arrived for the 2026 model year (November 2025).",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-06",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2023-06",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://data.carnewschina.com/database/zeekr/zeekr-x",
+     "name": "CarNewsChina database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Launch version: 66 kWh NMC pack with 200 kW RWD or about 315 kW dual-motor AWD; a 49 kWh LFP RWD was added in China for the 2025 model year.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/2023_Zeekr_X_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Zeekr_X_%28front%29.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd-66",
+       "name": "RWD (66 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 66.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.8,
+       "top_speed_mph": 115,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 560,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 189800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 440,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-x/2023/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "awd-66",
+       "name": "AWD (66 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 66.0,
+       "battery_basis": null,
+       "power_hp": 422,
+       "torque_lbft": 400,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.7,
+       "top_speed_mph": 118,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 512,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 209800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 400,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-x/2023/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "rwd-49-lfp",
+       "name": "RWD 49 kWh LFP (China)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 49.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 420,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_X",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "2026 model-year facelift: 61 kWh LFP (RWD) and 66 kWh NMC (AWD) packs, peak output 250 to 365 kW, CLTC 512 to 560 km.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd-61",
+       "name": "RWD (61 kWh LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 61.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-x",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "awd-66",
+       "name": "AWD (66 kWh NMC)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 66.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_X",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zeekr-7x",
+   "url_slug": "zeekr-7x",
+   "name": "7X",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric SUV launched in China in September 2024 and in Europe, Australia and Asia from 2025. The October 2025 facelift brought stronger motors and a 103 kWh pack.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025-10",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2026-06",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Zeekr_7X",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2024,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Launch version: 75 kWh LFP or 100 kWh NMC, 310 kW RWD or 475 kW dual-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Zeekr_7X_005_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_7X_005_%28cropped%29.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "75-rwd",
+       "name": "75 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.8,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 605,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 480,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_7X",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "100-rwd",
+       "name": "100 kWh Long Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 780,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 615,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_7X",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "100-awd",
+       "name": "100 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 705,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 543,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Zeekr_7X",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2026 model-year facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "October 2025 facelift: 370 kW rear motor, 585 kW AWD, 103 kWh pack on a 900V system.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Zeekr_7X_facelift_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_7X_facelift_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "75-rwd",
+       "name": "Max 75 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": 395,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 229800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-zeekr-7x/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "103-rwd",
+       "name": "Max 103 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": 395,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.1,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 802,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 249800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-zeekr-7x/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "103-awd",
+       "name": "Ultra 103 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 103.0,
+       "battery_basis": null,
+       "power_hp": 784,
+       "torque_lbft": 599,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.0,
+       "top_speed_mph": 158,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 715,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 269800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-zeekr-7x/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zeekr-mix",
+   "url_slug": "zeekr-mix",
+   "name": "Mix",
+   "aliases": [],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact five-seat electric MPV with sliding doors and a pillarless side, launched in China in October 2024.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-10",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation; 310 kW rear motor, 76 kWh LFP or 102 kWh NMC.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/%28CHN-Shanghai%29_Showcar_Zeekr_Mix_No-plate_2024-12-08_-_2.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Shanghai%29_Showcar_Zeekr_Mix_No-plate_2024-12-08_-_2.jpg",
+       "credit": "S5A-0043",
+       "license": "CC BY 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "76",
+       "name": "76 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 76.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": 112,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 550,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 279900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-zeekr-mix/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "102",
+       "name": "102 kWh Long Range",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": 112,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 702,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 299900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/zeekr/zeekr-zeekr-mix/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "zeekr-ojai",
+   "url_slug": "ojai",
+   "name": "Ojai (Waymo robotaxi)",
+   "aliases": [
+    "Zeekr RT",
+    "Waymo Ojai",
+    "M-Vision"
+   ],
+   "body_style": "minivan",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Purpose-built robotaxi developed with Waymo from the M-Vision concept, shown as the Zeekr RT and renamed Waymo Ojai in January 2026. It is not sold to the public; Waymo began carrying riders in it in 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Waymo_Ojai",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Base vehicles built by Zeekr in Ningbo from December 2024 and fitted with Waymo hardware in Arizona.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Waymo_Zeekr_Vehicle_at_Bayshore_Depot_oblique_view_dllu.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Waymo_Zeekr_Vehicle_at_Bayshore_Depot_oblique_view_dllu.jpg",
+       "credit": "Dllu",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "robotaxi",
+       "name": "Robotaxi",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 252,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Waymo_Ojai",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "No legacy rows exist for Zeekr; make is new to the site.",
+  "Plug-in hybrids 9X (2025) and 8X (2026) are excluded (not battery-electric).",
+  "Prices for the original 001 (2021-22), 007 (2023) and 7X (2024) launch trims not found (CarNewsChina pages for those years behind a bot check); offerings carry range only.",
+  "Zeekr X battery: Wikipedia gives 66 kWh in text and 69 kWh in its table; recorded 66 kWh (European spec). Facelift per-variant power and range not found.",
+  "European WLTP ranges recorded only for X and 7X; no EUR/AUD prices recorded.",
+  "001 FR status after 2025 not confirmed; left under the original generation.",
+  "Zeekr Mix: CarNewsChina lists only a 2025 model year; no 2026 update or discontinuation found."
+ ]
+}

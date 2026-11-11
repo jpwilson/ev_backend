@@ -1,0 +1,179 @@
+{
+  "make": {
+    "slug": "firefly",
+    "name": "Firefly",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shanghai, China",
+    "founded": 2024,
+    "parent_group": "NIO Inc.",
+    "website_url": "https://www.firefly.world",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Small-car brand of NIO Inc., revealed at Nio Day in December 2024 as a rival to Smart and Mini. Its first car went on sale in China in April 2025.",
+    "sources": [
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Firefly_(marque)",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "firefly-firefly",
+      "url_slug": "firefly",
+      "name": "Firefly",
+      "aliases": [
+        "Firefly EV"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.firefly.world",
+      "description": "Small premium five-door hatchback and the first car of Nio's Firefly brand, launched in China on 19 April 2025. It is sold through dealers in several European and Asian markets; a right-hand-drive version is due for the UK, Australia and New Zealand.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-04",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Firefly_(vehicle)",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "FT1",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "105 kW rear motor and a 42.1 kWh swappable LFP pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Firefly_EV_01_China_2025-04-19.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Firefly_EV_01_China_2025-04-19.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "42-kwh-rwd",
+              "name": "42.1 kWh RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 42.1,
+              "battery_basis": null,
+              "power_hp": 141,
+              "torque_lbft": 148,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.2,
+              "top_speed_mph": 93,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 119800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 330,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Firefly_(vehicle)",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://cnevpost.com/2025/04/19/nio-firefly-launches-1st-model/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "European prices for the Firefly not sourced per country.",
+    "A 60 kWh CATL Choco-Swap pack is listed on Wikipedia for the Firefly but without sourced specs; not modelled."
+  ]
+}

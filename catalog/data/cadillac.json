@@ -1,0 +1,1797 @@
+{
+ "make": {
+  "slug": "cadillac",
+  "name": "Cadillac",
+  "legacy_id": 17,
+  "country": "US",
+  "headquarters": "Warren, Michigan, USA",
+  "founded": 1902,
+  "parent_group": "General Motors",
+  "website_url": "https://www.cadillac.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "General Motors' luxury brand. Its electric range runs from the Optiq and Lyriq crossovers through the three-row Vistiq and Escalade IQ to the hand-built Celestiq, sold in North America, China, Europe and other markets.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Cadillac",
+    "name": "Wikipedia: Cadillac"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "cadillac-lyriq",
+   "url_slug": "lyriq",
+   "name": "Lyriq",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cadillac.com/electric/lyriq",
+   "description": "Two-row midsize luxury electric crossover and Cadillac's first EV, on sale since 2022. Offered with RWD, AWD and, from 2026, the 615 hp Lyriq-V; sold in North America, China, Europe, Japan, Korea and Australia.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2022-05",
+     "end": null,
+     "local_name": null
+    },
+    "CN": {
+     "status": "current",
+     "launch": "2022-10",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024-10",
+     "end": null,
+     "local_name": null
+    },
+    "JP": {
+     "status": "current",
+     "launch": "2025-05",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2024-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+     "name": "Wikipedia: Cadillac Lyriq"
+    },
+    {
+     "fields": [
+      "price",
+      "range"
+     ],
+     "url": "https://electrek.co/2026/07/29/2027-cadillac-lyriq-key-upgrade-200-more/",
+     "name": "Electrek (2027 Lyriq pricing)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Cadillac's first EV, built in Spring Hill, Tennessee and Shanghai. Power rose to 365 hp (RWD) and 515 hp (AWD) for 2025, the 615 hp Lyriq-V arrived for 2026, and a native NACS port came for 2027; Australian/European cars switched to a 92 kWh pack for 2027.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/cad_lyriq_sport_awd.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/2023_Cadillac_Lyriq_in_Satin_Steel_Metallic%2C_front_left.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Cadillac_Lyriq_in_Satin_Steel_Metallic,_front_left.jpg",
+       "credit": "Mr.choppers",
+       "license": "CC BY-SA 3.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+       "name": "Wikipedia: Cadillac Lyriq"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd-2023",
+       "name": "RWD (340 hp)",
+       "legacy_ids": [
+        114,
+        115,
+        117
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": "gross",
+       "power_hp": 340,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 312,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 314,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+         "name": "Wikipedia: Cadillac Lyriq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45749.shtml",
+         "name": "fueleconomy.gov 2023 Lyriq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46945.shtml",
+         "name": "fueleconomy.gov 2024 Lyriq"
+        }
+       ]
+      },
+      {
+       "slug": "awd-2023",
+       "name": "AWD (500 hp)",
+       "legacy_ids": [
+        113,
+        116,
+        118
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": "gross",
+       "power_hp": 500,
+       "torque_lbft": 450,
+       "accel_0_60_s": 4.7,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 307,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 307,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+         "name": "Wikipedia: Cadillac Lyriq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46619.shtml",
+         "name": "fueleconomy.gov 2023 Lyriq AWD"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47812.shtml",
+         "name": "fueleconomy.gov 2024 Lyriq AWD"
+        }
+       ]
+      },
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": "gross",
+       "power_hp": 365,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 326,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 326,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 60695,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 326,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 61695,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+         "name": "Wikipedia: Cadillac Lyriq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48691.shtml",
+         "name": "fueleconomy.gov 2025 Lyriq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49631.shtml",
+         "name": "fueleconomy.gov 2026 Lyriq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50612.shtml",
+         "name": "fueleconomy.gov 2027 Lyriq"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/07/29/2027-cadillac-lyriq-key-upgrade-200-more/",
+         "name": "Electrek (2027 Lyriq pricing)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/776180/2026-cadillac-pricing-ct4-escalade-lyriq/",
+         "name": "Motor1 (2026 Cadillac pricing)"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": "gross",
+       "power_hp": 515,
+       "torque_lbft": 450,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 319,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 319,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+         "name": "Wikipedia: Cadillac Lyriq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48692.shtml",
+         "name": "fueleconomy.gov 2025 Lyriq AWD"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49948.shtml",
+         "name": "fueleconomy.gov 2026 Lyriq AWD"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50614.shtml",
+         "name": "fueleconomy.gov 2027 Lyriq AWD"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/07/29/2027-cadillac-lyriq-key-upgrade-200-more/",
+         "name": "Electrek (2027 Lyriq pricing)"
+        }
+       ]
+      },
+      {
+       "slug": "lyriq-v",
+       "name": "Lyriq-V",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": "gross",
+       "power_hp": 615,
+       "torque_lbft": 650,
+       "accel_0_60_s": 3.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 285,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 80090,
+         "launch_price": 79990,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 285,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 80495,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/748324/2026-cadillac-lyriq-v-specs-details/",
+         "name": "Motor1 (Lyriq-V specs)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49633.shtml",
+         "name": "fueleconomy.gov 2026 Lyriq-V"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50616.shtml",
+         "name": "fueleconomy.gov 2027 Lyriq-V"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/776180/2026-cadillac-pricing-ct4-escalade-lyriq/",
+         "name": "Motor1 (2026 Cadillac pricing)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/07/29/2027-cadillac-lyriq-key-upgrade-200-more/",
+         "name": "Electrek (2027 Lyriq pricing)"
+        }
+       ]
+      },
+      {
+       "slug": "sport-awd-92kwh",
+       "name": "Sport AWD (92 kWh, Australia/Europe)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 92,
+       "battery_basis": null,
+       "power_hp": 515,
+       "torque_lbft": 531,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.9,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "AU",
+         "model_year": 2027,
+         "range": 503,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 90000,
+         "launch_price": null,
+         "currency": "AUD",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.carexpert.com.au/car-news/2027-cadillac-lyriq-prices-american-ev-gets-more-kit-range-cut",
+         "name": "CarExpert (2027 Lyriq Australia)"
+        }
+       ]
+      },
+      {
+       "slug": "rwd-china",
+       "name": "RWD (95.7 kWh, China)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.7,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 653,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 379700,
+         "launch_price": 439700,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Lyriq",
+         "name": "Wikipedia: Cadillac Lyriq"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://insideevs.com/news/676103/gm-cuts-cadillac-lyriq-base-price-china-14-percent/",
+         "name": "InsideEVs (Lyriq China price)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cadillac-optiq",
+   "url_slug": "optiq",
+   "name": "Optiq",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cadillac.com/electric/optiq",
+   "description": "Cadillac's entry-level electric crossover, built in China (for China) and Mexico (for North America). China-market cars use smaller 68.4/79.7 kWh packs; North American cars use an 85 kWh Ultium pack.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2025-01",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Cadillac_Optiq",
+     "name": "Wikipedia: Cadillac Optiq"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Compact luxury electric crossover, launched in China in 2024 and in North America as a 2025 model. For 2026 the US lineup gained a 315 hp RWD base model, a 440 hp AWD and the 519 hp Optiq-V.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/cad_optiq.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/2026_Cadillac_Optiq_700E4.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Cadillac_Optiq_700E4.jpg",
+       "credit": "BuickCentury04",
+       "license": "Public domain"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Cadillac_Optiq",
+       "name": "Wikipedia: Cadillac Optiq"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "awd-2025",
+       "name": "AWD (300 hp)",
+       "legacy_ids": [
+        201
+       ],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": "usable",
+       "power_hp": 300,
+       "torque_lbft": 354,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 302,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 54390,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/728335/2025-cadillac-optiq-pricing-specs-overview/",
+         "name": "InsideEVs (2025 Optiq)"
+        },
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Optiq",
+         "name": "Wikipedia: Cadillac Optiq"
+        }
+       ]
+      },
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": "usable",
+       "power_hp": 315,
+       "torque_lbft": 332,
+       "accel_0_60_s": 5.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 317,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 52395,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 317,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://www.cars.com/research/cadillac-optiq-2026",
+         "name": "Cars.com (2026 Optiq)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://electrek.co/2025/09/19/2026-cadillac-optiq-arrives-with-more-to-offer-lower-price/",
+         "name": "Electrek (2026 Optiq)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49949.shtml",
+         "name": "fueleconomy.gov 2026 Optiq RWD"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50622.shtml",
+         "name": "fueleconomy.gov 2027 Optiq RWD"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": "usable",
+       "power_hp": 440,
+       "torque_lbft": 498,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://www.cars.com/research/cadillac-optiq-2026",
+         "name": "Cars.com (2026 Optiq)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49951.shtml",
+         "name": "fueleconomy.gov 2026 Optiq AWD"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50618.shtml",
+         "name": "fueleconomy.gov 2027 Optiq AWD"
+        }
+       ]
+      },
+      {
+       "slug": "optiq-v",
+       "name": "Optiq-V",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": "usable",
+       "power_hp": 519,
+       "torque_lbft": 650,
+       "accel_0_60_s": 3.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 278,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 68795,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 278,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/762106/cadillac-optiq-v-horsepower-price-details/",
+         "name": "Motor1 (Optiq-V)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/jun/0609-optiq-v.html",
+         "name": "GM News (Optiq-V)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/776180/2026-cadillac-pricing-ct4-escalade-lyriq/",
+         "name": "Motor1 (2026 Cadillac pricing)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50026.shtml",
+         "name": "fueleconomy.gov 2026 Optiq-V"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50620.shtml",
+         "name": "fueleconomy.gov 2027 Optiq-V"
+        }
+       ]
+      },
+      {
+       "slug": "fwd-china",
+       "name": "Standard FWD (68.4 kWh, China)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 68.4,
+       "battery_basis": null,
+       "power_hp": 241,
+       "torque_lbft": 243,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 536,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": 239700,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.carexpert.com.au/car-news/lyriq-optiq-tesla-model-y-rival-detailed",
+         "name": "CarExpert (China Optiq)"
+        },
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Optiq",
+         "name": "Wikipedia: Cadillac Optiq"
+        }
+       ]
+      },
+      {
+       "slug": "awd-china",
+       "name": "Long Range AWD (79.7 kWh, China)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.7,
+       "battery_basis": null,
+       "power_hp": 283,
+       "torque_lbft": 343,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 600,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": 269700,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.carexpert.com.au/car-news/lyriq-optiq-tesla-model-y-rival-detailed",
+         "name": "CarExpert (China Optiq)"
+        },
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cadillac_Optiq",
+         "name": "Wikipedia: Cadillac Optiq"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cadillac-vistiq",
+   "url_slug": "vistiq",
+   "name": "Vistiq",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cadillac.com/electric/vistiq",
+   "description": "Three-row luxury electric SUV that replaced the gasoline XT6, on sale in the US from spring 2025 as a 2026 model, in Europe from mid-2025 and in China from April 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2025-04",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025-06",
+     "end": null,
+     "local_name": null
+    },
+    "CN": {
+     "status": "current",
+     "launch": "2026-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs"
+     ],
+     "url": "https://news.gm.ca/en/home.detail.html/Pages/news/ca/en/2024/nov/1112_2026-vistiq.html",
+     "name": "GM Canada (Vistiq)"
+    },
+    {
+     "fields": [
+      "range",
+      "status"
+     ],
+     "url": "https://www.electrive.com/2025/06/02/cadillac-brings-electric-luxury-seven-seater-suv-vistiq-to-europe",
+     "name": "electrive (Vistiq Europe)"
+    },
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs"
+     ],
+     "url": "https://autonews.gasgoo.com/articles/news/cadillac-vistiq-launches-starting-from-468800-yuan-2047254406783827969",
+     "name": "Gasgoo (Vistiq China launch)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Three-row electric SUV slotting between the Lyriq and Escalade IQ, built in Spring Hill, Tennessee; a China-built version launched in April 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/2026_Cadillac_Vistiq_Sport_900e4_in_Stellar_Black%2C_front_left.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Cadillac_Vistiq_Sport_900e4_in_Stellar_Black,_front_left.jpg",
+       "credit": "Mr.choppers",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 102,
+       "battery_basis": "usable",
+       "power_hp": 615,
+       "torque_lbft": 650,
+       "accel_0_60_s": 3.7,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 305,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 79090,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 305,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 460,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://news.gm.ca/en/home.detail.html/Pages/news/ca/en/2024/nov/1112_2026-vistiq.html",
+         "name": "GM Canada (Vistiq)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/776180/2026-cadillac-pricing-ct4-escalade-lyriq/",
+         "name": "Motor1 (2026 Cadillac pricing)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49636.shtml",
+         "name": "fueleconomy.gov 2026 Vistiq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50624.shtml",
+         "name": "fueleconomy.gov 2027 Vistiq"
+        },
+        {
+         "fields": [
+          "range",
+          "status"
+         ],
+         "url": "https://www.electrive.com/2025/06/02/cadillac-brings-electric-luxury-seven-seater-suv-vistiq-to-europe",
+         "name": "electrive (Vistiq Europe)"
+        }
+       ]
+      },
+      {
+       "slug": "awd-china",
+       "name": "AWD (China)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 6,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 594,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 468800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://autonews.gasgoo.com/articles/news/cadillac-vistiq-launches-starting-from-468800-yuan-2047254406783827969",
+         "name": "Gasgoo (Vistiq China launch)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cadillac-escalade",
+   "url_slug": "escalade-iq",
+   "name": "Escalade IQ",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cadillac.com/electric/escalade-iq",
+   "description": "Full-size, three-row electric version of the Escalade, on sale since late 2024 as a 2025 model, with a longer IQL added for 2026. It is above the EPA label weight limit, so range figures are Cadillac estimates.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "price",
+      "range"
+     ],
+     "url": "https://www.carscoops.com/2024/12/2025-cadillac-escalade-iq-gets-460-miles-of-range-129990-starting-price/",
+     "name": "Carscoops (2025 Escalade IQ)"
+    },
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://insideevs.com/news/752498/2026-cadillac-escalade-iql-specs-price-official/",
+     "name": "InsideEVs (Escalade IQL)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BT1 (Ultium)",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Full-size electric Escalade built at Factory Zero, Detroit, with a 205 kWh pack and 800-volt fast charging; the 4.2 in longer IQL joined for 2026.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/cad_esca_iq_sport.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/2026_Cadillac_Escalade_IQ_1000E4%2C_Front_left%2C_03-01-2026.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Cadillac_Escalade_IQ_1000E4,_Front_left,_03-01-2026.jpg",
+       "credit": "2000chevymontecarlo",
+       "license": "Public domain"
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "escalade-iq",
+       "name": "Escalade IQ",
+       "legacy_ids": [
+        200
+       ],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 205,
+       "battery_basis": null,
+       "power_hp": 750,
+       "torque_lbft": 785,
+       "accel_0_60_s": 4.7,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 350,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 460,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 129990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": true
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 465,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 129795,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.carscoops.com/2024/12/2025-cadillac-escalade-iq-gets-460-miles-of-range-129990-starting-price/",
+         "name": "Carscoops (2025 Escalade IQ)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.carwhere.com/cadillac/escalade-iq",
+         "name": "CarWhere (Escalade IQ/IQL specs by year)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/776180/2026-cadillac-pricing-ct4-escalade-lyriq/",
+         "name": "Motor1 (2026 Cadillac pricing)"
+        }
+       ]
+      },
+      {
+       "slug": "escalade-iql",
+       "name": "Escalade IQL (long wheelbase)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 205,
+       "battery_basis": null,
+       "power_hp": 750,
+       "torque_lbft": 785,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 350,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 460,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 132795,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://insideevs.com/news/752498/2026-cadillac-escalade-iql-specs-price-official/",
+         "name": "InsideEVs (Escalade IQL)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.carwhere.com/cadillac/escalade-iq",
+         "name": "CarWhere (Escalade IQ/IQL specs by year)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/776180/2026-cadillac-pricing-ct4-escalade-lyriq/",
+         "name": "Motor1 (2026 Cadillac pricing)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cadillac-celestiq",
+   "url_slug": "celestiq",
+   "name": "Celestiq",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.cadillac.com/electric/celestiq",
+   "description": "Ultra-luxury, hand-built four-seat electric fastback sedan priced individually from the mid-$300,000s. Each car is commissioned and built in Warren, Michigan.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2025-06",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://electrek.co/2025/06/25/cadillac-delivers-first-350000-celestiq-ultra-luxury-ev-models/",
+     "name": "Electrek (first Celestiq deliveries)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Hand-built, individually commissioned flagship assembled at GM's Global Technical Center in Warren, Michigan; first customer deliveries June 2025.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/cad_celestiq.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/2025_Cadillac_Celestiq_%22Vale%22%2C_front_right_%28Greenwich_2025%29.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Cadillac_Celestiq_%22Vale%22,_front_right_(Greenwich_2025).jpg",
+       "credit": "Mr.choppers",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "Celestiq",
+       "legacy_ids": [
+        199
+       ],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 111,
+       "battery_basis": null,
+       "power_hp": 655,
+       "torque_lbft": 646,
+       "accel_0_60_s": 3.7,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://electrek.co/2025/06/25/cadillac-delivers-first-350000-celestiq-ultra-luxury-ev-models/",
+         "name": "Electrek (first Celestiq deliveries)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://electrek.co/2022/10/17/cadillac-details-of-hand-built-celestiq-including-starting-price-tag-north-of-300k/",
+         "name": "Electrek (Celestiq details, 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49067.shtml",
+         "name": "fueleconomy.gov 2025 Celestiq"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50197.shtml",
+         "name": "fueleconomy.gov 2026 Celestiq"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 113,
+   "note": "Lyriq 'Sport AWD' row mixes data: 500 hp/450 lb-ft AWD specs with the 2025 RWD 326 mi range and an RWD-level price; battery listed 100 kWh (pack is 102 kWh gross). Claimed on the 2023-2024 AWD variant."
+  },
+  {
+   "legacy_id": 114,
+   "note": "Lyriq Sport RWD: trim, not a separate configuration; price 63,190 does not match any year's RWD MSRP. Claimed on rwd-2023."
+  },
+  {
+   "legacy_id": 115,
+   "note": "Lyriq Tech RWD: Tech trim was dropped for 2025. Claimed on rwd-2023."
+  },
+  {
+   "legacy_id": 116,
+   "note": "Lyriq Tech AWD: 0-60 4.7 s and 307 mi match 2023-24 AWD; top speed 130 mph unsourced. Claimed on awd-2023."
+  },
+  {
+   "legacy_id": 117,
+   "note": "Lyriq Luxury RWD: trim only. Claimed on rwd-2023."
+  },
+  {
+   "legacy_id": 118,
+   "note": "Lyriq Luxury AWD: trim only. Claimed on awd-2023."
+  },
+  {
+   "legacy_id": 199,
+   "note": "Celestiq: vehicle_class 'Midsize luxury crossover SUV' is wrong (four-seat fastback sedan); range 300 is the 2022 estimate (EPA 303); deliveries began June 2025, not Nov 2024."
+  },
+  {
+   "legacy_id": 200,
+   "note": "Escalade IQ row was wrong in most fields: price 175,000 (actual ~$130k), battery 111 kWh (actual 205 kWh), torque 1000 lb-ft (actual 785), 0-60 3.8 s (Cadillac quotes 4.7 s), range 450 mi (Cadillac est. 460-465 mi), seats 5 (7). Make_model_slug 'cadillac-escalade' kept as the model slug; display name is Escalade IQ."
+  },
+  {
+   "legacy_id": 201,
+   "note": "Optiq row was wrong: battery 60 kWh (actual 85 kWh), torque 450 (actual 354), range 307 (2025 EPA 302), price 45,000 (actual $54,390). It describes the 2025 AWD, the only US Optiq that year."
+  }
+ ],
+ "gaps": [
+  "Escalade IQ/IQL have no EPA label (over the GVWR limit); ranges are Cadillac estimates flagged is_estimate.",
+  "Celestiq has no published fixed price (individually commissioned, mid-$300,000s).",
+  "Lyriq AWD and Optiq AWD/2027 US prices not split out by drivetrain in sources; left null.",
+  "Optiq Europe price/WLTP range and Lyriq Europe/Japan/Korea prices not sourced.",
+  "Vistiq China: per-trim CLTC range (573/601/642 km) could not be matched to trims; range left null.",
+  "China-market power/torque figures converted from kW/Nm.",
+  "A next-generation China Optiq on SAIC-GM's Xiao Yao platform has been reported (InsideEVs, July 2026) but not officially launched; not listed."
+ ]
+}

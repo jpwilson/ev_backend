@@ -1,0 +1,609 @@
+{
+  "make": {
+    "slug": "mullen",
+    "name": "Mullen",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Brea, California, USA",
+    "founded": 2014,
+    "parent_group": null,
+    "website_url": "https://www.mullenusa.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": "Renamed Bollinger Innovations in mid-2025 and delisted from Nasdaq in October 2025; its Bollinger Motors unit closed in November 2025 and Wikipedia reports the company in receivership from January 2026, though it said in July 2026 it was still operating at reduced scale.",
+    "description": "Mullen Automotive (now Bollinger Innovations) is a Brea, California company founded by David Michery that sold rebadged Chinese-built electric commercial vans and trucks (Mullen ONE and THREE) and announced several passenger cars that never reached production. Earlier it resold leftover Coda sedans as the Mullen 700e.",
+    "sources": [
+      {
+        "fields": [
+          "status",
+          "specs"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+        "name": "Wikipedia: Mullen Automotive"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.ocbj.com/automobiles/mullen-changes-name-to-bollinger-innovations/",
+        "name": "OC Business Journal: Mullen changes name to Bollinger Innovations"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.ocbj.com/automobiles/bollinger-innovations-struggles-to-survive-ev-market/",
+        "name": "OC Business Journal: Bollinger Innovations struggles (Jul 2026)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "mullen-one",
+      "url_slug": "one",
+      "name": "Mullen ONE",
+      "aliases": [
+        "Mullen Campus"
+      ],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": null,
+      "description": "Class 1 electric cargo van, a rebadged Wuling-built van imported from China; priced from $34,500 in 2023 with about 110 miles of range. An off-road-only version was sold as the Mullen Campus.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+          "name": "Wikipedia: Mullen Automotive"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range"
+          ],
+          "url": "https://www.automotive-fleet.com/news/mullen-announces-pricing-for-electric-cargo-van-cab-chassis-truck",
+          "name": "Automotive Fleet: Mullen ONE and THREE pricing (2023)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch version with a 42 kWh battery and 60 kW motor.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Mullen ONE",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 42.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 110,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 34500,
+                  "launch_price": 34500,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.automotive-fleet.com/news/mullen-announces-pricing-for-electric-cargo-van-cab-chassis-truck",
+                  "name": "Automotive Fleet: Mullen ONE and THREE pricing (2023)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mullen-three",
+      "url_slug": "three",
+      "name": "Mullen THREE",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": null,
+      "description": "Class 3 cab-over electric chassis-cab truck built by SAIC subsidiary Yuejin, priced from $68,500 in 2023 with an 89 kWh battery and about 130 miles of estimated range.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+          "name": "Wikipedia: Mullen Automotive"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range"
+          ],
+          "url": "https://www.automotive-fleet.com/news/mullen-announces-pricing-for-electric-cargo-van-cab-chassis-truck",
+          "name": "Automotive Fleet: Mullen ONE and THREE pricing (2023)"
+        },
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://www.worktruckonline.com/10205591/mullen-automotive-formally-unveils-class-3-electric-truck",
+          "name": "Work Truck: Mullen THREE unveiled"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch version: 89 kWh battery, 120 kW motor.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Mullen THREE",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 3,
+              "battery_kwh": 89.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 130,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 68500,
+                  "launch_price": 68500,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.automotive-fleet.com/news/mullen-announces-pricing-for-electric-cargo-van-cab-chassis-truck",
+                  "name": "Automotive Fleet: Mullen ONE and THREE pricing (2023)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.worktruckonline.com/10205591/mullen-automotive-formally-unveils-class-3-electric-truck",
+                  "name": "Work Truck: Mullen THREE unveiled"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mullen-five",
+      "url_slug": "five",
+      "name": "Mullen FIVE",
+      "aliases": [
+        "FIVE RS"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Planned premium compact electric crossover shown in 2022 with a 2025 delivery target, including a high-performance FIVE RS. Development was cancelled in 2024.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+          "name": "Wikipedia: Mullen Automotive"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.ocbj.com/automobiles/bollinger-innovations-struggles-to-survive-ev-market/",
+          "name": "OC Business Journal: Bollinger Innovations struggles (Jul 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Prototype only.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mullen_Five.webp",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mullen_Five.webp",
+              "credit": "MICHAEL GAUTHIER",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "FIVE (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+                  "name": "Wikipedia: Mullen Automotive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mullen-gt",
+      "url_slug": "gt",
+      "name": "Mullen GT",
+      "aliases": [
+        "Dragonfly K50",
+        "GTRS"
+      ],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Rebadged version of the Chinese Qiantu K50 electric sports car (originally announced as the Dragonfly K50), targeted for a US launch around 2021 but never sold.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+          "name": "Wikipedia: Mullen Automotive"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Announced only.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "GT (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+                  "name": "Wikipedia: Mullen Automotive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mullen-go",
+      "url_slug": "go",
+      "name": "Mullen GO",
+      "aliases": [],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Small three-wheeled electric delivery vehicle unveiled in October 2022, a rebadged Chinese Xiaohu FEV; it did not become a regular product.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+          "name": "Wikipedia: Mullen Automotive"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Announced only.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "GO (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mullen_Automotive",
+                  "name": "Wikipedia: Mullen Automotive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mullen-700e",
+      "url_slug": "700e",
+      "name": "Mullen 700e",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Leftover Coda sedans bought out of Coda's 2013 bankruptcy and resold by Mullen under its own name until 2019. See the Coda Sedan for specifications.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": null,
+          "end": "2019",
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "successor",
+          "model": "coda-sedan"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Coda_(electric_car)",
+          "name": "Wikipedia: Coda (Mullen 700e)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2014",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2014,
+          "end_year": 2019,
+          "status": "discontinued",
+          "description": "Rebadged Coda sedan.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "700e",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2014,
+              "year_to": 2019,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 31.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Coda_(electric_car)",
+                  "name": "Wikipedia: Coda (Mullen 700e)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Mullen ONE/THREE 2025-2026 availability unclear given the company's distress; marked current without a 2026 source.",
+    "Mullen ONE and THREE ranges are Mullen estimates, not EPA labels (commercial vehicles are not EPA-rated).",
+    "Mullen GO and FIVE status: GO never sold (status cancelled by inference from Wikipedia); FIVE cancelled 2024 per Wikipedia.",
+    "Mullen 700e start year (2014) is approximate; Wikipedia gives only the end year 2019.",
+    "Make status is 'active' only because the schema has no 'in receivership' option; director should decide (receivership reported January 2026)."
+  ]
+}

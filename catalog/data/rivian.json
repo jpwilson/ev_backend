@@ -1,0 +1,3481 @@
+{
+ "make": {
+  "slug": "rivian",
+  "name": "Rivian",
+  "legacy_id": 2,
+  "country": "US",
+  "headquarters": "Irvine, California, USA",
+  "founded": 2009,
+  "parent_group": null,
+  "website_url": "https://rivian.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "American electric vehicle maker founded in 2009 by RJ Scaringe and listed since 2021. It builds the R1T pickup, R1S SUV, R2 SUV and Commercial Van in Normal, Illinois, and has a technology joint venture with Volkswagen Group.",
+  "sources": [
+   {
+    "fields": [
+     "status",
+     "headquarters",
+     "founded"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Rivian",
+    "name": "Wikipedia: Rivian"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "rivian-r1t",
+   "url_slug": "r1t",
+   "name": "R1T",
+   "aliases": [
+    "A1T"
+   ],
+   "body_style": "pickup",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://rivian.com/r1t",
+   "description": "Rivian's first production vehicle, a five-seat electric pickup with a gear tunnel, built in Normal, Illinois since September 2021. It was re-engineered as the Gen 2 R1T for the 2025 model year.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2021-09",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+     "name": "Wikipedia: Rivian R1T"
+    },
+    {
+     "fields": [
+      "markets"
+     ],
+     "url": "https://rivian.com/stories/r1-gen2-quad-motor",
+     "name": "Rivian: Gen 2 Quad-Motor"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original R1T built in Normal, Illinois from September 2021 with Bosch-supplied quad motors at launch; dual-motor versions and Standard, Standard+, Large and Max packs were added for the 2023-2024 model years.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/2022_Rivian_R1T_%28in_Glacier_White%29%2C_front_6.21.22.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Rivian_R1T_(in_Glacier_White),_front_6.21.22.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+       "name": "Wikipedia: Rivian R1T"
+      },
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Rivian",
+       "name": "Wikipedia: Rivian"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "quad-motor-large",
+       "name": "Quad-Motor Large pack",
+       "legacy_ids": [
+        1
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 135.0,
+       "battery_basis": null,
+       "power_hp": 835,
+       "torque_lbft": 908,
+       "accel_0_60_s": 3.0,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 314,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 79500,
+         "launch_price": 67500,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 328,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 328,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 87000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.autoblog.com/buy/2024-Rivian-R1T/specs/",
+         "name": "Autoblog: 2024 R1T specs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44462.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46313.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47883.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-large",
+       "name": "Dual-Motor Large pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 135.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": 73500,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 79000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.autoblog.com/buy/2024-Rivian-R1T/specs/",
+         "name": "Autoblog: 2024 R1T specs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47000.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47868.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-dual-motor-large",
+       "name": "Performance Dual-Motor Large pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 135.0,
+       "battery_basis": null,
+       "power_hp": 665,
+       "torque_lbft": 829,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 84000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.autoblog.com/buy/2024-Rivian-R1T/specs/",
+         "name": "Autoblog: 2024 R1T specs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47001.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47876.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-max",
+       "name": "Dual-Motor Max pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 149.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 89000,
+         "launch_price": 83500,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.autoblog.com/buy/2024-Rivian-R1T/specs/",
+         "name": "Autoblog: 2024 R1T specs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47870.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-standard",
+       "name": "Dual-Motor Standard pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 106.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 69900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47872.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-standard-plus",
+       "name": "Dual-Motor Standard+ pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 121.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 73000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47874.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Gen 2",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "Gen 2",
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Heavily re-engineered R1T revealed in June 2024 for the 2025 model year: in-house Enduro motors (new Tri and 1,025 hp Quad), zonal electronics, new cameras and computers, and an LFP Standard pack, with near-identical styling. For the 2027 model year Rivian renamed the trims Premium (dual), Premium Long Range, Performance (tri) and Quad, and the Standard pack was dropped in 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/2025_Rivian_R1T_Adventure_in_LA_Silver_with_the_Road_Trip_Package%2C_front_left.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Rivian_R1T_Adventure_in_LA_Silver_with_the_Road_Trip_Package,_front_left.jpg",
+       "credit": "Mr.choppers",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+       "name": "InsideEVs (6 Jun 2024)"
+      },
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+       "name": "Rivian (28 Aug 2026)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "dual-standard",
+       "name": "Dual Standard (LFP)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 92.5,
+       "battery_basis": "usable",
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 69900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://evchargingstations.com/chargingnews/2026-rivian-r1s-r1t-no-base/",
+         "name": "EVChargingStations (1 Jul 2026)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48424.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49691.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-large",
+       "name": "Dual Large / Premium",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 109.4,
+       "battery_basis": "usable",
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 76900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 81885,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 79990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://evchargingstations.com/chargingnews/2026-rivian-r1s-r1t-no-base/",
+         "name": "EVChargingStations (1 Jul 2026)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48756.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49707.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50682.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-max",
+       "name": "Dual Max / Premium Long Range",
+       "legacy_ids": [
+        205
+       ],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 83900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 86990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48422.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49694.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50685.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-dual-large",
+       "name": "Performance Dual Large (Premium with Power upgrade)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 109.4,
+       "battery_basis": "usable",
+       "power_hp": 665,
+       "torque_lbft": 829,
+       "accel_0_60_s": 3.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48759.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49710.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-dual-max",
+       "name": "Performance Dual Max (Premium Long Range with Power upgrade)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 665,
+       "torque_lbft": 829,
+       "accel_0_60_s": 3.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48427.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49697.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "tri-max",
+       "name": "Tri Max / Performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 850,
+       "torque_lbft": 1103,
+       "accel_0_60_s": 2.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 371,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 99900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 371,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 371,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 100990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48761.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49705.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50679.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "quad-max",
+       "name": "Quad Max / Quad",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 1025,
+       "torque_lbft": 1198,
+       "accel_0_60_s": 2.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 374,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 115990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 374,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 115990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/r1-gen2-quad-motor",
+         "name": "Rivian: Gen 2 Quad-Motor"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49715.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50688.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rivian-r1s",
+   "url_slug": "r1s",
+   "name": "R1S",
+   "aliases": [
+    "A1C"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://rivian.com/r1s",
+   "description": "Three-row, seven-seat electric SUV sharing its platform with the R1T, with first deliveries in December 2021. It was re-engineered as the Gen 2 R1S for the 2025 model year.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2021-12",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "rivian-r1t"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rivian",
+     "name": "Wikipedia: Rivian"
+    },
+    {
+     "fields": [
+      "markets"
+     ],
+     "url": "https://rivian.com/stories/r1-gen2-quad-motor",
+     "name": "Rivian: Gen 2 Quad-Motor"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original R1S built in Normal, Illinois from December 2021 with Bosch-supplied quad motors at launch; dual-motor versions and Standard, Standard+, Large and Max packs were added for the 2023-2024 model years.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/2023_Rivian_R1S_Adventure%2C_front_1.29.23.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Rivian_R1S_Adventure,_front_1.29.23.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+       "name": "Wikipedia: Rivian R1T"
+      },
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Rivian",
+       "name": "Wikipedia: Rivian"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "quad-motor-large",
+       "name": "Quad-Motor Large pack",
+       "legacy_ids": [
+        2
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 135.0,
+       "battery_basis": null,
+       "power_hp": 835,
+       "torque_lbft": 908,
+       "accel_0_60_s": 3.0,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 316,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 84500,
+         "launch_price": 70000,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 321,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 321,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44461.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46316.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47906.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-large",
+       "name": "Dual-Motor Large pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 135.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": 78500,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46996.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47891.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-dual-motor-large",
+       "name": "Performance Dual-Motor Large pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 135.0,
+       "battery_basis": null,
+       "power_hp": 665,
+       "torque_lbft": 829,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46997.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47899.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-max",
+       "name": "Dual-Motor Max pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 149.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 400,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47893.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-standard",
+       "name": "Dual-Motor Standard pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 106.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 74900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47895.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-standard-plus",
+       "name": "Dual-Motor Standard+ pack",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 121.0,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 78000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rivian_R1T",
+         "name": "Wikipedia: Rivian R1T"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/708105/rivian-r1s-r1t-range-pricing-overview-standard/",
+         "name": "InsideEVs (9 Feb 2024)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/571993/rivian-r1t-r1s-prices-specs/",
+         "name": "InsideEVs (7 Mar 2022)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47897.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Gen 2",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "Gen 2",
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Heavily re-engineered R1S revealed in June 2024 for the 2025 model year: in-house Enduro motors (new Tri and 1,025 hp Quad), zonal electronics, new cameras and computers, and an LFP Standard pack, with near-identical styling. For the 2027 model year Rivian renamed the trims Premium (dual), Premium Long Range, Performance (tri) and Quad, and the Standard pack was dropped in 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2025_Rivian_R1S_Ascend_Tri_Max%2C_front_right%2C_11-21-2025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Rivian_R1S_Ascend_Tri_Max,_front_right,_11-21-2025.jpg",
+       "credit": "MercurySable99",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+       "name": "InsideEVs (6 Jun 2024)"
+      },
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+       "name": "Rivian (28 Aug 2026)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "dual-standard",
+       "name": "Dual Standard (LFP)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 92.5,
+       "battery_basis": "usable",
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 75900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://evchargingstations.com/chargingnews/2026-rivian-r1s-r1t-no-base/",
+         "name": "EVChargingStations (1 Jul 2026)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48436.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49716.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-large",
+       "name": "Dual Large / Premium",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 109.4,
+       "battery_basis": "usable",
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 82900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 85885,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 83990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://evchargingstations.com/chargingnews/2026-rivian-r1s-r1t-no-base/",
+         "name": "EVChargingStations (1 Jul 2026)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48746.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49732.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50670.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dual-max",
+       "name": "Dual Max / Premium Long Range",
+       "legacy_ids": [
+        206
+       ],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 533,
+       "torque_lbft": 610,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 89900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 90990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48434.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49719.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50673.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-dual-large",
+       "name": "Performance Dual Large (Premium with Power upgrade)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 109.4,
+       "battery_basis": "usable",
+       "power_hp": 665,
+       "torque_lbft": 829,
+       "accel_0_60_s": 3.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48749.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49735.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-dual-max",
+       "name": "Performance Dual Max (Premium Long Range with Power upgrade)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 665,
+       "torque_lbft": 829,
+       "accel_0_60_s": 3.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48439.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49722.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "tri-max",
+       "name": "Tri Max / Performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 850,
+       "torque_lbft": 1103,
+       "accel_0_60_s": 2.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 371,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 105900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 371,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 371,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 106990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/722131/second-gen-rivian-r1-debut/",
+         "name": "InsideEVs (6 Jun 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48751.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49730.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50667.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "quad-max",
+       "name": "Quad Max / Quad",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 141.5,
+       "battery_basis": null,
+       "power_hp": 1025,
+       "torque_lbft": 1198,
+       "accel_0_60_s": 2.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 220,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 374,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 121990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 374,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 121990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/r1-gen2-quad-motor",
+         "name": "Rivian: Gen 2 Quad-Motor"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://rivian.com/stories/your-2027-r1-questions-answered",
+         "name": "Rivian (28 Aug 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/804834/2027-rivian-r1s-rit-trims-pricing-updates/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.greencarreports.com/news/1143421_2025-rivian-r1t-r1s-ev-lfp-review",
+         "name": "Green Car Reports"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49740.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50676.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rivian-r2",
+   "url_slug": "r2",
+   "name": "R2",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://rivian.com/r2",
+   "description": "Five-seat midsize electric SUV unveiled on 7 March 2024 and built in Normal, Illinois from April 2026. Public deliveries began on 9 June 2026 with the Performance Launch Package; Premium and Standard versions follow through 2027.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2026-06",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://rivian.com/newsroom/article/rivian-begins-r2-public-customer-deliveries",
+     "name": "Rivian newsroom (9 Jun 2026)"
+    },
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rivian",
+     "name": "Wikipedia: Rivian"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2027,
+     "end_year": null,
+     "status": "current",
+     "description": "First R2, sold as a 2027 model year in the US (EPA) with an 87.9 kWh pack and a NACS charge port.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/RivianR2.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:RivianR2.jpg",
+       "credit": "Lcaa9",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://rivian.com/newsroom/article/rivian-begins-r2-public-customer-deliveries",
+       "name": "Rivian newsroom (9 Jun 2026)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "performance-awd",
+       "name": "Performance AWD (Launch Package)",
+       "legacy_ids": [
+        38
+       ],
+       "status": "current",
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.9,
+       "battery_basis": null,
+       "power_hp": 656,
+       "torque_lbft": 609,
+       "accel_0_60_s": 3.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 330,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 57990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/03/12/rivian-reveals-full-r2-lineup-pricing-rwd-model/",
+         "name": "Electrek (12 Mar 2026)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://rivian.com/newsroom/article/rivian-introduces-r2-lineup",
+         "name": "Rivian newsroom (11 Mar 2026)"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://rivian.com/newsroom/article/rivian-begins-r2-public-customer-deliveries",
+         "name": "Rivian newsroom (9 Jun 2026)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50391.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "premium-awd",
+       "name": "Premium AWD",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.9,
+       "battery_basis": null,
+       "power_hp": 450,
+       "torque_lbft": 537,
+       "accel_0_60_s": 4.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 330,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 53990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/03/12/rivian-reveals-full-r2-lineup-pricing-rwd-model/",
+         "name": "Electrek (12 Mar 2026)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://rivian.com/newsroom/article/rivian-introduces-r2-lineup",
+         "name": "Rivian newsroom (11 Mar 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "standard-rwd-long-range",
+       "name": "Standard RWD Long Range",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2028,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.9,
+       "battery_basis": null,
+       "power_hp": 350,
+       "torque_lbft": 355,
+       "accel_0_60_s": 5.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2028,
+         "range": 345,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 48490,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/03/12/rivian-reveals-full-r2-lineup-pricing-rwd-model/",
+         "name": "Electrek (12 Mar 2026)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://rivian.com/newsroom/article/rivian-introduces-r2-lineup",
+         "name": "Rivian newsroom (11 Mar 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "standard-rwd",
+       "name": "Standard RWD",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2028,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 350,
+       "torque_lbft": 355,
+       "accel_0_60_s": 5.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2028,
+         "range": 275,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/03/12/rivian-reveals-full-r2-lineup-pricing-rwd-model/",
+         "name": "Electrek (12 Mar 2026)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://rivian.com/newsroom/article/rivian-introduces-r2-lineup",
+         "name": "Rivian newsroom (11 Mar 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rivian-r3",
+   "url_slug": "r3",
+   "name": "R3",
+   "aliases": [
+    "R3X"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Compact electric crossover on the R2 platform, shown in March 2024 together with the off-road-styled R3X. No price or specifications have been announced; production is tied to Rivian's Georgia plant, expected to be completed in 2028, and the R3X is due before the R3.",
+   "markets": {
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://cleantechnica.com/2026/06/14/rivian-r3-r3x-will-go-on-sale-eventually/",
+     "name": "CleanTechnica (14 Jun 2026)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rivian",
+     "name": "Wikipedia: Rivian"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2028",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Rivian midsize platform (R2)",
+     "start_year": 2028,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Announced only. Start year is provisional: Rivian says production comes after the Georgia plant opens (expected 2028), 'probably before the end of the decade'.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/rivian_r3.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/rivian_r3x.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years",
+        "specs"
+       ],
+       "url": "https://cleantechnica.com/2026/06/14/rivian-r3-r3x-will-go-on-sale-eventually/",
+       "name": "CleanTechnica (14 Jun 2026)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "r3x",
+       "name": "R3X",
+       "legacy_ids": [
+        195
+       ],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://cleantechnica.com/2026/06/14/rivian-r3-r3x-will-go-on-sale-eventually/",
+         "name": "CleanTechnica (14 Jun 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "r3",
+       "name": "R3",
+       "legacy_ids": [
+        196
+       ],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://cleantechnica.com/2026/06/14/rivian-r3-r3x-will-go-on-sale-eventually/",
+         "name": "CleanTechnica (14 Jun 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rivian-fleet",
+   "url_slug": "commercial-van",
+   "name": "Commercial Van",
+   "aliases": [
+    "EDV",
+    "Electric Delivery Van",
+    "RCV",
+    "Delivery 500",
+    "Delivery 700",
+    "EDV 500",
+    "EDV 700"
+   ],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": "https://rivian.com/fleet",
+   "description": "Electric delivery van developed for Amazon, which has run them since July 2022; Rivian opened orders to any business fleet in February 2025. Sold in 500 and 700 sizes; a larger 129 kWh pack and a dual-motor AWD version of the 700 began deliveries in October 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2022-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rivian",
+     "name": "Wikipedia: Rivian"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.greencarreports.com/news/1145719_rivian-opens-electric-van-sales-to-all-fleets",
+     "name": "Green Car Reports (10 Feb 2025)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "EDV",
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Front-wheel-drive van with a 100 kWh LFP pack in fleet-sale form (2025); the 700 gained a 129 kWh pack and an AWD option for 2027.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/rivian_fleet_500.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/rivian_fleet_700.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "side",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rivian_EDV-700_front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Rivian_EDV-700_front.jpg",
+       "credit": "Jay8g",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Rivian",
+       "name": "Wikipedia: Rivian"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "500",
+       "name": "500",
+       "legacy_ids": [
+        40
+       ],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "usable",
+       "power_hp": 320,
+       "torque_lbft": 299,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 161,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 82900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.greencarreports.com/news/1145719_rivian-opens-electric-van-sales-to-all-fleets",
+         "name": "Green Car Reports (10 Feb 2025)"
+        }
+       ]
+      },
+      {
+       "slug": "700",
+       "name": "700",
+       "legacy_ids": [
+        39
+       ],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "usable",
+       "power_hp": 320,
+       "torque_lbft": 299,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 160,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 86900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.greencarreports.com/news/1145719_rivian-opens-electric-van-sales-to-all-fleets",
+         "name": "Green Car Reports (10 Feb 2025)"
+        }
+       ]
+      },
+      {
+       "slug": "700-large-pack-fwd",
+       "name": "700 Large pack FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 129.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://electrek.co/?p=490220",
+         "name": "Electrek (29 Oct 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "700-large-pack-awd",
+       "name": "700 Large pack AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 129.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://electrek.co/?p=490220",
+         "name": "Electrek (29 Oct 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 1,
+   "note": "R1T 'Explore (2021)' is a Gen 1 Quad-Motor Large pack truck. Its 410 mi range belongs to the 2024 Dual-Motor Max pack, its 830 lb-ft torque is not the Quad's 908 lb-ft, and its $73,000 price matches no Quad price."
+  },
+  {
+   "legacy_id": 2,
+   "note": "R1S 'Launch Edition (2022)' is the Gen 1 Quad-Motor Large pack. Its 400 mi range belongs to the 2024 Dual-Motor Max pack."
+  },
+  {
+   "legacy_id": 205,
+   "note": "R1T 'Explore' Gen 2 mixes trims: $71,700 is the 2025 Dual Standard price including destination, 420 mi is Dual Max, 2.5 s is the Quad. Claimed on Gen 2 Dual Max (its range figure). There was no Gen 2 'Explore' trim."
+  },
+  {
+   "legacy_id": 206,
+   "note": "R1S 'Launch Edition' Gen 2 mixes trims: 410 mi is Dual Max, $76,990 matches no sourced Dual Max price, 2.6 s matches no Gen 2 trim. Claimed on Gen 2 Dual Max."
+  },
+  {
+   "legacy_id": 38,
+   "note": "R2 row held pre-launch guesses ($45,000, 300 mi, 3.0 s). Claimed on the Performance AWD, the only R2 on sale (from 9 June 2026, $57,990, 330 mi EPA, 3.6 s)."
+  },
+  {
+   "legacy_id": 39,
+   "note": "Fleet 'Delivery 700' is the Commercial Van 700 (100 kWh). The 0-60 of 7.0 s and 110 mph top speed have no source; range is 160 mi (Rivian, not an official EPA rating)."
+  },
+  {
+   "legacy_id": 40,
+   "note": "Fleet 'Delivery 500' is the Commercial Van 500 (100 kWh); range 161 mi (Rivian, not an official EPA rating)."
+  },
+  {
+   "legacy_id": 195,
+   "note": "R3X has no announced price, range or acceleration; the legacy $55,000 / 300 mi / 3.0 s values were placeholders. Not on sale; production expected after the Georgia plant opens (2028)."
+  },
+  {
+   "legacy_id": 196,
+   "note": "R3 has no announced price or specs; the legacy $45,000 / 300 mi / 3.0 s values were placeholders. Rivian only says it will start below the R2."
+  }
+ ],
+ "gaps": [
+  "R1 charge connector per model year not sourced (left null); R2 is NACS.",
+  "Gen 1 R1 DC charging peak and 0-60 for dual-motor versions not sourced; Gen 1 battery figures are Rivian's nominal pack sizes (basis unknown).",
+  "2026 model-year prices for R1 Dual Max and Tri Max not sourced; 2025-2026 Performance (Power upgrade) prices not sourced.",
+  "Gen 1 R1S prices for 2023-2024 Large/Max/Quad versions not sourced.",
+  "R2 Standard RWD price (about $45,000) not confirmed from a fetchable Rivian page; battery not announced.",
+  "R3/R3X generation start year 2028 is provisional (Rivian gave no model year).",
+  "Commercial Van: Amazon-only EDV 900 not included (no sourced specs); seats, 0-60 and EPA-official ranges not available; 2027 Large-pack prices and ranges not announced.",
+  "No Canadian offerings (CAD prices) recorded beyond market status."
+ ]
+}

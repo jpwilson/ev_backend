@@ -1,0 +1,4391 @@
+{
+ "make": {
+  "slug": "kia",
+  "name": "Kia",
+  "legacy_id": 10,
+  "country": "KR",
+  "headquarters": "Seoul, South Korea",
+  "founded": 1944,
+  "parent_group": "Hyundai Motor Group",
+  "website_url": "https://www.kia.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "South Korean carmaker founded in 1944 and part of Hyundai Motor Group, with Hyundai Motor Company its largest shareholder. Its dedicated EVs (EV2 to EV9) use the E-GMP platform family; the EV6 was 2022 European Car of the Year, the EV9 2024 World Car of the Year and the EV3 2025 World Car of the Year.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Kia",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "kia-ev6",
+   "url_slug": "ev6",
+   "name": "EV6",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/us/en/ev6",
+   "description": "Kia's first dedicated electric car (2021), a low crossover on the 800 V E-GMP platform shared with the Hyundai Ioniq 5. It was 2022 European Car of the Year; a facelift with bigger batteries followed in 2024.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2022-01",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2021-09",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2021-08",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "discontinued",
+     "launch": "2022-01",
+     "end": "2025",
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2022-02",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_EV6",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "CV",
+     "platform": "E-GMP (800 V)",
+     "start_year": 2021,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Kia's first dedicated EV on the 800 V E-GMP platform, with 58 kWh and 77.4 kWh packs; the 576 hp EV6 GT arrived in late 2022.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/kia_ev6_light_lr_rwd.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Kia_EV6_Automesse_Ludwigsburg_2022_1X7A5931.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV6_Automesse_Ludwigsburg_2022_1X7A5931.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-rwd",
+       "name": "Standard Range RWD",
+       "legacy_ids": [
+        70
+       ],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "gross",
+       "power_hp": 168,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.5,
+       "top_speed_mph": 115,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 232,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 394,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1480/Kia-EV6-Standard-Range-2WD",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46966.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [
+        71,
+        73,
+        75
+       ],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.4,
+       "battery_basis": "gross",
+       "power_hp": 225,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.3,
+       "top_speed_mph": 115,
+       "dc_kw": 233,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 528,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1481/Kia-EV6-Long-Range-2WD",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46965.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [
+        72,
+        74,
+        76
+       ],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.4,
+       "battery_basis": "gross",
+       "power_hp": 320,
+       "torque_lbft": 446,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.2,
+       "top_speed_mph": 117,
+       "dc_kw": 233,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 282,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 506,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 55980,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1482/Kia-EV6-Long-Range-AWD",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46969.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "gt",
+       "name": "GT",
+       "legacy_ids": [
+        63
+       ],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.4,
+       "battery_basis": "gross",
+       "power_hp": 576,
+       "torque_lbft": 545,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.5,
+       "top_speed_mph": 161,
+       "dc_kw": 233,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 206,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 218,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 424,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 72990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1471/Kia-EV6-GT",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46968.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46003.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "CV1",
+     "platform": "E-GMP (800 V)",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Revealed May 2024: new lights and cabin, packs grow to 63 kWh and 84 kWh; US cars (MY2025 on) are built in Georgia with a NACS port. The GT is not in the US 2026 or 2027 price lists.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Kia_EV6_%282024%E2%80%93%29_Rutesheimer_Autoschau_2025_DSC_9204.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV6_(2024%E2%80%93)_Rutesheimer_Autoschau_2025_DSC_9204.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-rwd",
+       "name": "Standard Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 63.0,
+       "battery_basis": "gross",
+       "power_hp": 167,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.7,
+       "top_speed_mph": 115,
+       "dc_kw": 195,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 237,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 37900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 428,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/10/26/kia-2027-ev6-prices-start-at-38k-8000-more-than-ev3/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "specs",
+          "connector"
+         ],
+         "url": "https://insideevs.com/news/741756/2025-kia-ev6-specs-us/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51032.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3030/Kia-EV6-Standard-Range-2WD",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 84.0,
+       "battery_basis": "gross",
+       "power_hp": 225,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.3,
+       "top_speed_mph": 115,
+       "dc_kw": 263,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 319,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 41200,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 582,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 49990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/10/26/kia-2027-ev6-prices-start-at-38k-8000-more-than-ev3/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "specs",
+          "connector"
+         ],
+         "url": "https://insideevs.com/news/741756/2025-kia-ev6-specs-us/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51031.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3028/Kia-EV6-Long-Range-2WD",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 84.0,
+       "battery_basis": "gross",
+       "power_hp": 320,
+       "torque_lbft": 446,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.2,
+       "top_speed_mph": 117,
+       "dc_kw": 263,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 295,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 45200,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 546,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/10/26/kia-2027-ev6-prices-start-at-38k-8000-more-than-ev3/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "specs",
+          "connector"
+         ],
+         "url": "https://insideevs.com/news/741756/2025-kia-ev6-specs-us/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51029.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3029/Kia-EV6-Long-Range-AWD",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "gt",
+       "name": "GT",
+       "legacy_ids": [
+        212
+       ],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 84.0,
+       "battery_basis": "gross",
+       "power_hp": 641,
+       "torque_lbft": 568,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.5,
+       "top_speed_mph": 161,
+       "dc_kw": 263,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 231,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 63800,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 69990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://electrek.co/2025/06/18/new-kia-ev6-gt-650-hp-beast-and-its-even-cheaper/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "specs",
+          "connector"
+         ],
+         "url": "https://insideevs.com/news/741756/2025-kia-ev6-specs-us/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49094.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3079/Kia-EV6-GT",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-ev9",
+   "url_slug": "ev9",
+   "name": "EV9",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/us/en/ev9",
+   "description": "Kia's three-row electric SUV, on sale since 2023 and built in Korea and Georgia (USA). It won 2024 World Car of the Year.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2023-10",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2023-06",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2023-06",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2023-10",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2023-11",
+     "end": null,
+     "local_name": null
+    },
+    "IN": {
+     "status": "current",
+     "launch": "2024-10",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_EV9",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "MV",
+     "platform": "E-GMP (800 V)",
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Three-row E-GMP SUV launched in 2023 (US model year 2024), built in Korea and since May 2024 in West Point, Georgia. The 501 hp EV9 GT went on sale in Europe in 2025; its US launch was put on hold in November 2025.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/kia_ev9_gtline.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "side",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kia_EV9_1X7A2472.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV9_1X7A2472.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-rwd",
+       "name": "Standard Range RWD",
+       "legacy_ids": [
+        66
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 76.1,
+       "battery_basis": "gross",
+       "power_hp": 215,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.2,
+       "top_speed_mph": 115,
+       "dc_kw": 210,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 230,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 230,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 54990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 443,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 63690,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51036.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47451.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/813545/2027-kia-ev9-pricing-torque/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1833/Kia-EV9-761-kWh-RWD",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV9",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [
+        67
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 99.8,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.4,
+       "top_speed_mph": 115,
+       "dc_kw": 209,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 304,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 305,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 57990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 579,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 66690,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51035.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47450.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/813545/2027-kia-ev9-pricing-torque/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1834/Kia-EV9-998-kWh-RWD",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV9",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [
+        68,
+        69,
+        62
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 99.8,
+       "battery_basis": "gross",
+       "power_hp": 379,
+       "torque_lbft": 443,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.0,
+       "top_speed_mph": 124,
+       "dc_kw": 209,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 280,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 283,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 64090,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 523,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 70690,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51033.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47452.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/813545/2027-kia-ev9-pricing-torque/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://kiaoldnewsroom.newsmarket.com/news/kia-america-announces-2026-ev9-pricing/s/e2961742-e230-4b47-82dd-35243526f0bd",
+         "name": "Kia America newsroom"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1835/Kia-EV9-998-kWh-AWD",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV9",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "gt",
+       "name": "GT",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 99.8,
+       "battery_basis": "gross",
+       "power_hp": 501,
+       "torque_lbft": 546,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.6,
+       "top_speed_mph": 137,
+       "dc_kw": 206,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 510,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 90490,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3196/Kia-EV9-998-kWh-AWD-GT",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49669.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://insideevs.com/news/779278/kia-ev9-gt-postponed-indefinitely/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV9",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-ev3",
+   "url_slug": "ev3",
+   "name": "EV3",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/us/en/ev3",
+   "description": "Kia's compact electric crossover, launched in 2024 and 2025 World Car of the Year. It reached the US in 2026 as a 2027 model and is Kia's cheapest US EV.",
+   "markets": {
+    "KR": {
+     "status": "current",
+     "launch": "2024-07",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024-11",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2026-08",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2026-08",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025-03",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "kia-soul-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_EV3",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs",
+      "connector"
+     ],
+     "url": "https://electrek.co/2026/08/11/kia-ev3-prices-start-under-30000-epa-range-revealed/",
+     "name": "Electrek"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "SV",
+     "platform": "E-GMP (400 V)",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Compact crossover on the 400 V version of E-GMP, launched in Korea in July 2024 and Europe in late 2024; AWD and GT versions from 2026, and US sales from model year 2027 (built in Mexico, NACS port).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kia_EV3_GT-Line_Automesse_Ludwigsburg_2025_DSC_2635_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV3_GT-Line_Automesse_Ludwigsburg_2025_DSC_2635_(cropped).jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-fwd",
+       "name": "Standard Range FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.3,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 209,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.5,
+       "top_speed_mph": 106,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 221,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 29890,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 436,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 36190,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs",
+          "connector"
+         ],
+         "url": "https://electrek.co/2026/08/11/kia-ev3-prices-start-under-30000-epa-range-revealed/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50651.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3637/Kia-EV3-Standard-Range",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-fwd",
+       "name": "Long Range FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 209,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.7,
+       "top_speed_mph": 106,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 321,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 34990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 605,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41590,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs",
+          "connector"
+         ],
+         "url": "https://electrek.co/2026/08/11/kia-ev3-prices-start-under-30000-epa-range-revealed/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50649.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3638/Kia-EV3-Long-Range",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 261,
+       "torque_lbft": 284,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 106,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 280,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 38690,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 572,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47080,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs",
+          "connector"
+         ],
+         "url": "https://electrek.co/2026/08/11/kia-ev3-prices-start-under-30000-epa-range-revealed/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50648.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3639/Kia-EV3-Long-Range-AWD",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "gt",
+       "name": "GT",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 288,
+       "torque_lbft": 345,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.7,
+       "top_speed_mph": 106,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 280,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 45890,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 538,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs",
+          "connector"
+         ],
+         "url": "https://electrek.co/2026/08/11/kia-ev3-prices-start-under-30000-epa-range-revealed/",
+         "name": "Electrek"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50650.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3663/Kia-EV3-GT",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-ev4",
+   "url_slug": "ev4",
+   "name": "EV4",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/eu/models/ev4/",
+   "description": "Kia's first dedicated electric car that is not an SUV, sold as a sedan and, in Europe, a hatchback since 2025. A US launch planned for early 2026 was postponed indefinitely in October 2025.",
+   "markets": {
+    "KR": {
+     "status": "current",
+     "launch": "2025-04",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025-07",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2026-01",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_EV4",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/777491/kia-ev4-sedan-delayed/",
+     "name": "InsideEVs"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "CT",
+     "platform": "E-GMP (400 V)",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Sedan (built in Gwangmyeong, Korea) and Europe-only hatchback (built in Zilina, Slovakia) on the 400 V E-GMP; AWD and GT versions added in 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/2026_Kia_EV4%2C_front_NYIAS_2025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Kia_EV4,_front_NYIAS_2025.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Kia_EV4_GT-Line_Automesse_Ludwigsburg_2025_DSC_2535.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV4_GT-Line_Automesse_Ludwigsburg_2025_DSC_2535.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "sedan-standard-range-fwd",
+       "name": "Sedan Standard Range FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "sedan",
+       "seats": 5,
+       "battery_kwh": 58.3,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 209,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.4,
+       "top_speed_mph": 106,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 456,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41490,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3121/Kia-EV4-Fastback-583-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "sedan-long-range-fwd",
+       "name": "Sedan Long Range FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "sedan",
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 209,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.7,
+       "top_speed_mph": 106,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 633,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47140,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3122/Kia-EV4-Fastback-814-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "hatchback-standard-range-fwd",
+       "name": "Hatchback Standard Range FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "hatchback",
+       "seats": 5,
+       "battery_kwh": 58.3,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 209,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.4,
+       "top_speed_mph": 106,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 440,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 37590,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3668/Kia-EV4-Hatchback-583-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "hatchback-long-range-fwd",
+       "name": "Hatchback Long Range FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "hatchback",
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 209,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.7,
+       "top_speed_mph": 106,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 43240,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3669/Kia-EV4-Hatchback-814-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "hatchback-long-range-awd",
+       "name": "Hatchback Long Range AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": "hatchback",
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 261,
+       "torque_lbft": 284,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.5,
+       "top_speed_mph": 106,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 560,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48730,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3667/Kia-EV4-Hatchback-814-kWh-AWD",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "hatchback-gt",
+       "name": "Hatchback GT",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": "hatchback",
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 288,
+       "torque_lbft": 345,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.6,
+       "top_speed_mph": 106,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 505,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 57840,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3672/Kia-EV4-Hatchback-814-kWh-GT",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-ev5",
+   "url_slug": "ev5",
+   "name": "EV5",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/eu/models/ev5/",
+   "description": "Two-row mid-size electric SUV launched in China in 2023, then built in Korea from 2025 for Korea, Europe and Canada. Kia has said it will not be sold in the United States.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-11",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024-10",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_EV5",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "OV",
+     "platform": "N3 eK (China) / E-GMP 400 V (Korea)",
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size two-row SUV. China-built cars (from 2023) use BYD FinDreams LFP packs on the N3 eK platform; Korea-built cars (from 2025, Europe and Korea) use CATL NMC packs on the 400 V E-GMP.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/2024_Kia_EV5_Earth_Exclusive_AWD_%28Thailand%29_front_view.png",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Kia_EV5_Earth_Exclusive_AWD_(Thailand)_front_view.png",
+       "credit": "iMoD Official",
+       "license": "CC BY 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "china-standard-range-fwd",
+       "name": "Standard Range FWD (64.2 kWh LFP, China-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 64.2,
+       "battery_basis": "gross",
+       "power_hp": 215,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.5,
+       "top_speed_mph": 115,
+       "dc_kw": 102,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 530,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": 149800,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://electrive.com/2023/11/20/kia-lowers-launch-price-for-the-ev5-in-china",
+         "name": "electrive"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "china-long-range-fwd",
+       "name": "Long Range FWD (88.1 kWh LFP, China-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 88.1,
+       "battery_basis": "gross",
+       "power_hp": 215,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.9,
+       "top_speed_mph": 115,
+       "dc_kw": 141,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 720,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": 184800,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://autonews.gasgoo.com/articles/news/kia-ev5-all-electric-suvs-long-range-version-hits-chinese-market-70031092",
+         "name": "Gasgoo"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "china-long-range-awd",
+       "name": "Long Range AWD (88.1 kWh LFP, China-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 88.1,
+       "battery_basis": "gross",
+       "power_hp": 308,
+       "torque_lbft": 354,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.1,
+       "top_speed_mph": 115,
+       "dc_kw": 141,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV5",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://autonews.gasgoo.com/articles/news/kia-ev5-all-electric-suvs-long-range-version-hits-chinese-market-70031092",
+         "name": "Gasgoo"
+        }
+       ]
+      },
+      {
+       "slug": "standard-range-fwd",
+       "name": "Standard Range FWD (60.3 kWh NMC, Korea-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 60.3,
+       "battery_basis": "gross",
+       "power_hp": 154,
+       "torque_lbft": 218,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.0,
+       "top_speed_mph": 103,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 390,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41495,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3824/Kia-EV5-603-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-fwd",
+       "name": "Long Range FWD (81.4 kWh NMC, Korea-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 215,
+       "torque_lbft": 218,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.4,
+       "top_speed_mph": 103,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 530,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 45990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3300/Kia-EV5-814-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD (81.4 kWh NMC, Korea-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 261,
+       "torque_lbft": 284,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.3,
+       "top_speed_mph": 112,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 491,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53290,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3489/Kia-EV5-814-kWh-AWD",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "gt",
+       "name": "GT",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 81.4,
+       "battery_basis": "gross",
+       "power_hp": 302,
+       "torque_lbft": 354,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.2,
+       "top_speed_mph": 112,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 476,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 59990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3651/Kia-EV5-814-kWh-GT",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-ev2",
+   "url_slug": "ev2",
+   "name": "EV2",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/eu/models/ev2/",
+   "description": "Kia's smallest dedicated EV, a boxy supermini sold in Europe since 2026 as the successor to the e-Soul.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026-03",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "kia-soul-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_EV2",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "QV1",
+     "platform": "E-GMP (400 V)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Supermini on the 400 V E-GMP, unveiled January 2026 and built in Zilina, Slovakia, from March 2026 for Europe.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kia_EV2_IMG_8443.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV2_IMG_8443.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Standard Range (42.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 42.2,
+       "battery_basis": "gross",
+       "power_hp": 145,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.5,
+       "top_speed_mph": 100,
+       "dc_kw": 115,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 317,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 26600,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3490/Kia-EV2-422-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV2",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Long Range (61 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 61.0,
+       "battery_basis": "gross",
+       "power_hp": 134,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.5,
+       "top_speed_mph": 100,
+       "dc_kw": 115,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 453,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 33490,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3491/Kia-EV2-61-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_EV2",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-niro",
+   "url_slug": "niro-ev",
+   "name": "Niro EV",
+   "aliases": [
+    "e-Niro",
+    "Niro Electric"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": "https://www.kia.com/us/en/niro",
+   "description": "Battery-electric version of Kia's Niro crossover (e-Niro in Europe), sold from 2018 over two generations. Kia discontinued it in 2026; the facelifted Niro is hybrid-only.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2026",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2018-12",
+     "end": "2026",
+     "local_name": null
+    },
+    "KR": {
+     "status": "discontinued",
+     "launch": "2018-07",
+     "end": "2026",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/789628/kia-niro-ev-dead/",
+     "name": "InsideEVs"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://thekoreancarblog.com/the-new-kia-niro-unveiled-for-europe-with-hybrid-only-and-new-design/",
+     "name": "The Korean Car Blog"
+    },
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_Niro",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "DE",
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Battery-electric version of the first Niro (e-Niro in Europe), sharing its powertrain with the Hyundai Kona Electric; 64 kWh and, outside the US, 39.2 kWh packs.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/2019_Kia_Niro_EV_First_Edition.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2019_Kia_Niro_EV_First_Edition.jpg",
+       "credit": "Vauxford",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "64-kwh",
+       "name": "64 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 64.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 291,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.8,
+       "top_speed_mph": 104,
+       "dc_kw": 77,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 239,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 455,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 42790,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1338/Kia-e-Niro-64-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44445.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Niro",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "39-kwh",
+       "name": "39.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 39.2,
+       "battery_basis": "usable",
+       "power_hp": 134,
+       "torque_lbft": 291,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.8,
+       "top_speed_mph": 96,
+       "dc_kw": 44,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 289,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38290,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1339/Kia-e-Niro-39-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Niro",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "niro-plus",
+       "name": "Niro Plus (Korea, taxi and ride-hailing)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.chosun.com/english/industry-en/2024/05/01/WMQAH5LCX5DKPF2AS2SKC3FGSM/",
+         "name": "The Chosun Daily"
+        },
+        {
+         "fields": [
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Niro",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2023",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": "SG2",
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Redesigned Niro (SG2) with a 64.8 kWh pack and heat pump; Kia ended the Niro EV in 2026 when the facelifted Niro became hybrid-only.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/kia_niro_wave.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "side",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "64-8-kwh",
+       "name": "64.8 kWh",
+       "legacy_ids": [
+        208,
+        64,
+        65
+       ],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 64.8,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 188,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.8,
+       "top_speed_mph": 104,
+       "dc_kw": 94,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 253,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 253,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 39700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 460,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 45690,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://kiaoldnewsroom.newsmarket.com/news/kia-announces-pricing-for-2026-niro-ev/s/5584d558-ff87-4553-b055-3e0bf5feb4de",
+         "name": "Kia America newsroom"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49664.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46008.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1666/Kia-Niro-EV",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-soul-ev",
+   "url_slug": "soul-ev",
+   "name": "Soul EV",
+   "aliases": [
+    "e-Soul"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the boxy Soul, sold from 2014 to 2024 (e-Soul in Europe). The second generation never reached US showrooms; the EV3 and, in Europe, the EV2 replace it.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2014-10",
+     "end": "2019",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2014-07",
+     "end": "2024",
+     "local_name": "e-Soul"
+    },
+    "KR": {
+     "status": "discontinued",
+     "launch": "2014-05",
+     "end": "2024",
+     "local_name": null
+    },
+    "CA": {
+     "status": "discontinued",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_Soul_EV",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/520355/kia-soulelectric-not-coming-us/",
+     "name": "InsideEVs"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2015",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "PS",
+     "platform": null,
+     "start_year": 2014,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "Electric version of the second-generation Soul with CHAdeMO fast charging; the 2018 model year raised usable capacity from 27 to 30 kWh.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Kia_Soul_EV_PS_EV_Caribbean_Blue_%283%29_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_Soul_EV_PS_EV_Caribbean_Blue_(3)_(cropped).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "27-kwh",
+       "name": "27 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2014,
+       "year_to": 2017,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 27.0,
+       "battery_basis": "usable",
+       "power_hp": 109,
+       "torque_lbft": 210,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.2,
+       "top_speed_mph": 90,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 93,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": 33700,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CHADEMO",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1012/Kia-Soul-EV",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38168.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Soul_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "30-kwh",
+       "name": "30 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 30.0,
+       "battery_basis": "usable",
+       "power_hp": 109,
+       "torque_lbft": 210,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.2,
+       "top_speed_mph": 90,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 111,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1122/Kia-Soul-EV",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39322.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Soul_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2019",
+     "name": "Second generation (e-Soul)",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": "SK3",
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Third-generation Soul body with the Niro/Kona Electric powertrain (39.2 or 64 kWh, CCS). Sold in Europe, Korea and Canada; the US launch was cancelled.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Kia_e-Soul_1X7A0310.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_e-Soul_1X7A0310.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "64-kwh",
+       "name": "64 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 64.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 291,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.9,
+       "top_speed_mph": 104,
+       "dc_kw": 77,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 452,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47450,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1749/Kia-e-Soul-64-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Soul_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "39-kwh",
+       "name": "39.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 39.2,
+       "battery_basis": "usable",
+       "power_hp": 134,
+       "torque_lbft": 291,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.9,
+       "top_speed_mph": 98,
+       "dc_kw": 44,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 276,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 40290,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1750/Kia-e-Soul-392-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Soul_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-ray-ev",
+   "url_slug": "ray-ev",
+   "name": "Ray EV",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/kr/vehicles/ray-ev",
+   "description": "Electric version of the Ray, a tall Korean-market city car. Kia's first production EV (2011-2018), it returned in 2023 with an LFP battery.",
+   "markets": {
+    "KR": {
+     "status": "current",
+     "launch": "2011-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_Ray",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2011",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "TAM",
+     "platform": null,
+     "start_year": 2011,
+     "end_year": 2018,
+     "status": "discontinued",
+     "description": "Kia's first production EV: a Korea-only electric Ray city car with a 16.4 kWh pack, first sold to government fleets.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/KIA_Ray_EV_on_MIAS_2012.JPG",
+       "page_url": "https://commons.wikimedia.org/wiki/File:KIA_Ray_EV_on_MIAS_2012.JPG",
+       "credit": "Kirill Borisenko",
+       "license": "CC BY-SA 3.0",
+       "view": "front",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "16-4-kwh",
+       "name": "16.4 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2011,
+       "year_to": 2018,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 16.4,
+       "battery_basis": null,
+       "power_hp": 67,
+       "torque_lbft": 123,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 15.9,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Ray",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2023",
+     "name": "Ray EV (2023)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "TAM",
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Revived in September 2023 on the facelifted Ray with a 35.2 kWh LFP pack and a much lower price; offered as a 4-seat car and 1- or 2-seat vans.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Kia_Ray_EV_TAM_EV_PE_Smoke_Blue_%283%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_Ray_EV_TAM_EV_PE_Smoke_Blue_(3).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "35-2-kwh-lfp",
+       "name": "35.2 kWh LFP",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 35.2,
+       "battery_basis": null,
+       "power_hp": 86,
+       "torque_lbft": 108,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "KR",
+         "model_year": 2027,
+         "range": 205,
+         "range_unit": "km",
+         "range_cycle": "KR",
+         "price": 28520000,
+         "launch_price": null,
+         "currency": "KRW",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.kia.com/kr/vehicles/ray-ev/price.html",
+         "name": "Kia Korea"
+        },
+        {
+         "fields": [
+          "range",
+          "specs"
+         ],
+         "url": "https://www.kia.com/kr/vehicles/ray-ev/features",
+         "name": "Kia Korea"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Ray",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-pv5",
+   "url_slug": "pv5",
+   "name": "PV5",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/eu/models/pv5/",
+   "description": "Mid-size electric van and people carrier, the first of Kia's PV (platform beyond vehicle) range, on sale in Korea and Europe since 2025.",
+   "markets": {
+    "KR": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025-11",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_PV5",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "SW1",
+     "platform": "E-GMP.S",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Kia's first dedicated electric van on the E-GMP.S platform, in Passenger, Cargo, chassis-cab and wheelchair-accessible versions.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Kia_PV5_Passenger_JMS_2025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_PV5_Passenger_JMS_2025.jpg",
+       "credit": "TTTNIS",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "passenger-standard-range",
+       "name": "Passenger Standard Range (51.5 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 51.5,
+       "battery_basis": "gross",
+       "power_hp": 119,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.8,
+       "top_speed_mph": 84,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 295,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38690,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3288/Kia-PV5-Passenger-515-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "passenger-long-range",
+       "name": "Passenger Long Range (71.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 71.2,
+       "battery_basis": "gross",
+       "power_hp": 161,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.6,
+       "top_speed_mph": 84,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 412,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 42690,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3289/Kia-PV5-Passenger-712-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "cargo-long-range",
+       "name": "Cargo Long Range (71.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 71.2,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_PV5",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-pv7",
+   "url_slug": "pv7",
+   "name": "PV7",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Full-size electric van above the PV5, unveiled in September 2026 with passenger, cargo and chassis-cab versions.",
+   "markets": {
+    "KR": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_PV7",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "LW1",
+     "platform": "E-GMP.S",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Full-size 800 V van on E-GMP.S, shown at IAA Transportation in September 2026; Korean and European sales start first.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kia_PV7_Cargo_IAA_Transportation_2026_%28DSC8219%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_PV7_Cargo_IAA_Transportation_2026_(DSC8219).jpg",
+       "credit": "MarcelX42",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-fwd",
+       "name": "Standard Range FWD (71.5 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 71.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_PV7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-fwd",
+       "name": "Long Range FWD (96.3 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 96.3,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 310,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_PV7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-carens-clavis-ev",
+   "url_slug": "carens-clavis-ev",
+   "name": "Carens Clavis EV",
+   "aliases": [
+    "Carens EV"
+   ],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/in/our-vehicles/carens-clavis-ev.html",
+   "description": "Three-row electric MPV built and sold in India since July 2025.",
+   "markets": {
+    "IN": {
+     "status": "current",
+     "launch": "2025-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_Carens",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs"
+     ],
+     "url": "https://www.autocarindia.com/car-news/kia-carens-clavis-ev-launched-at-rs-1799-lakh-436165",
+     "name": "Autocar India"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "KY",
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric version of the facelifted Carens Clavis MPV, Kia's first EV made in India, with 42 or 51.4 kWh packs.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Standard Range (42 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 42.0,
+       "battery_basis": null,
+       "power_hp": 135,
+       "torque_lbft": 188,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "IN",
+         "model_year": null,
+         "range": 404,
+         "range_unit": "km",
+         "range_cycle": "MIDC",
+         "price": null,
+         "launch_price": 1799000,
+         "currency": "INR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://www.autocarindia.com/car-news/kia-carens-clavis-ev-launched-at-rs-1799-lakh-436165",
+         "name": "Autocar India"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Long Range (51.4 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 51.4,
+       "battery_basis": null,
+       "power_hp": 171,
+       "torque_lbft": 188,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.4,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "IN",
+         "model_year": null,
+         "range": 490,
+         "range_unit": "km",
+         "range_cycle": "MIDC",
+         "price": null,
+         "launch_price": 2249000,
+         "currency": "INR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://www.autocarindia.com/car-news/kia-carens-clavis-ev-launched-at-rs-1799-lakh-436165",
+         "name": "Autocar India"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-syros-ev",
+   "url_slug": "syros-ev",
+   "name": "Syros EV",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.kia.com/in/",
+   "description": "Compact electric crossover for India, launched on 22 July 2026.",
+   "markets": {
+    "IN": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_Syros",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs"
+     ],
+     "url": "https://www.autocarindia.com/car-news/kia-syros-ev-launched-at-rs-1349-lakh-440278",
+     "name": "Autocar India"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "K1 BEV",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric version of the boxy Syros crossover on the K1 BEV platform, launched in India in July 2026.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Standard Range (42 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 42.0,
+       "battery_basis": null,
+       "power_hp": 135,
+       "torque_lbft": 188,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "IN",
+         "model_year": null,
+         "range": 443,
+         "range_unit": "km",
+         "range_cycle": "MIDC",
+         "price": null,
+         "launch_price": 1350000,
+         "currency": "INR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://www.autocarindia.com/car-news/kia-syros-ev-launched-at-rs-1349-lakh-440278",
+         "name": "Autocar India"
+        }
+       ]
+      },
+      {
+       "slug": "extended-range",
+       "name": "Extended Range (51.4 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 51.4,
+       "battery_basis": null,
+       "power_hp": 171,
+       "torque_lbft": 188,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.1,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "IN",
+         "model_year": null,
+         "range": 526,
+         "range_unit": "km",
+         "range_cycle": "MIDC",
+         "price": null,
+         "launch_price": 1700000,
+         "currency": "INR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://www.autocarindia.com/car-news/kia-syros-ev-launched-at-rs-1349-lakh-440278",
+         "name": "Autocar India"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-bongo-ev",
+   "url_slug": "bongo-ev",
+   "name": "Bongo III EV",
+   "aliases": [
+    "Bongo EV"
+   ],
+   "body_style": "pickup",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": "https://www.kia.com/kr/vehicles/bongo3-ev",
+   "description": "Battery-electric version of Kia's Bongo cab-over light truck for the Korean market.",
+   "markets": {
+    "KR": {
+     "status": "current",
+     "launch": "2020-01",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_Bongo",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs"
+     ],
+     "url": "https://www.kia.com/kr/vehicles/bongo3-ev/features",
+     "name": "Kia Korea"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "Bongo III EV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric version of the fourth-generation Bongo light truck, sold in Korea since January 2020.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/00_KIA_BONGO3_EV_1.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:00_KIA_BONGO3_EV_1.jpg",
+       "credit": "Benespit",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "1-ton-2wd",
+       "name": "1-ton 2WD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 181,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "KR",
+         "model_year": 2026,
+         "range": 217,
+         "range_unit": "km",
+         "range_cycle": "KR",
+         "price": 43450000,
+         "launch_price": null,
+         "currency": "KRW",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://www.kia.com/kr/vehicles/bongo3-ev/features",
+         "name": "Kia Korea"
+        },
+        {
+         "fields": [
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_Bongo",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "kia-kx3-ev",
+   "url_slug": "kx3-ev",
+   "name": "KX3 EV",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the KX3 small crossover, sold only in China from 2018 by the Dongfeng Yueda Kia joint venture.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2018",
+     "end": "2019",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Kia_KX3",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2018",
+     "name": "KX3 EV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "KC",
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "China-only electric version of the first-generation KX3 crossover, built by Dongfeng Yueda Kia.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kia_KX3_KC_EV_02_China_2019-03-28.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_KX3_KC_EV_02_China_2019-03-28.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 109,
+       "torque_lbft": 210,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": 239800,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Kia_KX3",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 62,
+   "note": "EV9 GT-Line AWD: legacy price $54,900 is the Light Standard Range price and 304 mi is the Long Range RWD EPA figure. GT-Line EPA is 270 mi (MY2024-25) / 280 mi (MY2026-27); 2027 GT-Line MSRP $71,990. Mapped to Long Range AWD (GT-Line is a trim, same powertrain)."
+  },
+  {
+   "legacy_id": 63,
+   "note": "EV6 GT AWD (2024): pre-facelift GT; specs roughly right (EPA 218 mi MY2024). Marked previous_generation correctly."
+  },
+  {
+   "legacy_id": 64,
+   "note": "Niro 'Wave (2024)': row carries EV6 GT data (77.4 kWh, 576 hp, AWD, 218 mi, 161 mph). The Niro EV is FWD, 64.8 kWh, 201 hp, 253 mi EPA. Duplicate of 208; mapped to second-generation 64.8 kWh."
+  },
+  {
+   "legacy_id": 65,
+   "note": "Niro Wind: same copied EV6 GT specs (576 hp, 218 mi). Wind and Wave are trims of one powertrain; mapped to second-generation 64.8 kWh. The Niro EV is discontinued (2026 was the last US model year)."
+  },
+  {
+   "legacy_id": 208,
+   "note": "Niro Wave: range 253 mi is right but battery 77.4 kWh, 576 hp, AWD and 104 mph are wrong; 2026 MSRP is $44,700 (Wave) / $39,700 (Wind). Model is discontinued, not 'available'."
+  },
+  {
+   "legacy_id": 212,
+   "note": "EV6 GT AWD '2025 Facelift': price $44,395 and range 319 mi are wrong (319 mi is the Long Range RWD). The facelift GT was $63,800 (MY2025) with 231 mi EPA, 84 kWh, up to 641 hp; the GT is not in the US 2026/2027 price lists."
+  },
+  {
+   "legacy_id": 66,
+   "note": "EV9 Light RWD = Standard Range RWD (76.1 kWh, 230 mi). OK."
+  },
+  {
+   "legacy_id": 67,
+   "note": "EV9 Light Long Range RWD: legacy 0-60 9.4 s is the official 0-100 km/h figure; mapped to Long Range RWD."
+  },
+  {
+   "legacy_id": 68,
+   "note": "EV9 Wind AWD: trim of Long Range AWD; merged."
+  },
+  {
+   "legacy_id": 69,
+   "note": "EV9 Land AWD: trim of Long Range AWD; merged."
+  },
+  {
+   "legacy_id": 70,
+   "note": "EV6 Light RWD (pre-facelift 58 kWh Standard Range)."
+  },
+  {
+   "legacy_id": 71,
+   "note": "EV6 Light Long Range RWD: trim of pre-facelift Long Range RWD; merged with 73 and 75."
+  },
+  {
+   "legacy_id": 73,
+   "note": "EV6 Wind RWD: trim of pre-facelift Long Range RWD; merged."
+  },
+  {
+   "legacy_id": 75,
+   "note": "EV6 GT-Line RWD: trim of pre-facelift Long Range RWD; merged."
+  },
+  {
+   "legacy_id": 72,
+   "note": "EV6 Light Long Range AWD: trim of pre-facelift Long Range AWD; merged with 74 and 76."
+  },
+  {
+   "legacy_id": 74,
+   "note": "EV6 Wind AWD: trim of pre-facelift Long Range AWD; merged."
+  },
+  {
+   "legacy_id": 76,
+   "note": "EV6 GT-Line AWD: 252 mi is the 20-inch-wheel EPA figure of the pre-facelift Long Range AWD; merged."
+  }
+ ],
+ "gaps": [
+  "No sourced US MSRPs for pre-facelift EV6 (MY2022-2024), MY2024 EV9, first-generation Niro EV or MY2018 Soul EV; legacy prices for these rows look like real MY2024 figures but could not be verified (web search quota ran out).",
+  "EV9 US charge port (CCS1 vs NACS by model year) not sourced; connector left null. Niro EV US connector for second generation also left null.",
+  "EV9 GT: EPA-certified (260 mi, MY2026) but US launch postponed indefinitely in Nov 2025; no US offering recorded. EV9 GT 501 hp is the Kia US estimate (374 kW in Europe).",
+  "EV4 GT and EV4 sedan AWD exist per Wikipedia but only hatchback AWD/GT data was found.",
+  "EV5 China-built AWD (88.1 kWh LFP): no sourced market price/range; China CLTC AWD figure reported as 630 km (Gasgoo) vs 650 km (electrive).",
+  "EV5 60.3 kWh EU price is the Netherlands price (Germany not listed).",
+  "European prices are German list prices from EV Database (not maker price lists); WLTP ranges also from EV Database.",
+  "Horsepower, torque and top speed for non-US variants are unit conversions of the kW/Nm/km/h figures in the cited sources.",
+  "Bongo III EV battery size and Ray EV DC charging power not sourced. Ray EV 2023 range is the Korean certified figure from Kia Korea.",
+  "PV7: production timing (late 2026) and specs come only from Wikipedia; Standard Range power and any range figure not sourced.",
+  "PV5 Cargo variants (43.3 kWh LFP Europe, 51.5 kWh) only partly modelled; Passenger 7-seat versions not split out.",
+  "KX3 EV battery, range and exact end date not sourced (Wikipedia's source link is dead); end_year 2019 is the end of the KX3 first generation.",
+  "No verified photos for Ray EV (2023), Carens Clavis EV, Syros EV or Bongo III EV (Commons files found showed the combustion versions).",
+  "Syros EV Extended Range price is the cheapest 'ER' variant (Rs 17.00 lakh); Autocar India does not map packs to every trim."
+ ]
+}

@@ -1,0 +1,2760 @@
+{
+ "make": {
+  "slug": "nissan",
+  "name": "Nissan",
+  "legacy_id": 26,
+  "country": "JP",
+  "headquarters": "Nishi-ku, Yokohama, Kanagawa, Japan",
+  "founded": 1933,
+  "parent_group": null,
+  "website_url": "https://www.nissan-global.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Japanese carmaker that launched the Leaf in 2010, the first mass-market electric car. Its electric line-up now spans the third-generation Leaf, the Ariya, the Sakura kei car, the Renault-built Micra and China-only models from Dongfeng Nissan.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Nissan",
+    "name": "Wikipedia",
+    "fields": [
+     "history"
+    ]
+   },
+   {
+    "url": "https://global.nissannews.com/en/releases/260414-vision",
+    "name": "Nissan Global newsroom",
+    "fields": [
+     "status",
+     "history"
+    ]
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "nissan-leaf",
+   "url_slug": "leaf",
+   "name": "Leaf",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html",
+   "description": "The Leaf launched in December 2010 as the first mass-market electric car and was a hatchback for two generations (2010-2025). The third generation (2026 model year) is a small crossover with up to 303 miles of EPA range.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2010-12",
+     "end": null,
+     "local_name": null
+    },
+    "JP": {
+     "status": "current",
+     "launch": "2010-12",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "mitsubishi-eclipse-sportback"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Leaf",
+     "name": "Wikipedia",
+     "fields": [
+      "history"
+     ]
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Leaf_(first_generation)",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs"
+     ]
+    },
+    {
+     "url": "https://www.motor1.com/news/763008/2026-nissan-leaf-specs-details/",
+     "name": "Motor1",
+     "fields": [
+      "specs"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2011",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "ZE0 / AZE0",
+     "platform": "Nissan EV platform",
+     "start_year": 2011,
+     "end_year": 2017,
+     "status": "discontinued",
+     "description": "The original Leaf hatchback (ZE0, then AZE0 from 2013), the first mass-market electric car. It started with a 24 kWh pack; a 30 kWh pack arrived for the 2016 model year.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/2017_Nissan_LEAF_%28ZE0_MY17%29_hatchback_%282018-11-02%29_01.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2017_Nissan_LEAF_(ZE0_MY17)_hatchback_(2018-11-02)_01.jpg",
+       "credit": "EurovisionNim",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Leaf_(first_generation)",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "24-kwh",
+       "name": "24 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2011,
+       "year_to": 2016,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 24.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2011,
+         "range": 73,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2013,
+         "range": 75,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 84,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Leaf_(first_generation)",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=30979",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=34918",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "30-kwh",
+       "name": "30 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 30.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 107,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 107,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Leaf_(first_generation)",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=37067",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=38428",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2018",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": "ZE1",
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Restyled hatchback (ZE1) with a 40 kWh pack, joined from 2019 by the 62 kWh Leaf e+ / Leaf Plus. Facelifted for the 2023 model year (new Nissan logo); production ended in October 2025.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/nissan_leaf_sv.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Second_generation_(ZE1;_2017)",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "40-kwh",
+       "name": "40 kWh (S)",
+       "legacy_ids": [
+        179
+       ],
+       "status": "discontinued",
+       "year_from": 2018,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 40.0,
+       "battery_basis": "gross",
+       "power_hp": 147,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 151,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 149,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 29280,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CHADEMO",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Second_generation_(ZE1;_2017)",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=39860",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48400",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.kbb.com/nissan/leaf/2025/specs",
+         "name": "Kelley Blue Book",
+         "fields": [
+          "specs",
+          "price"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "62-kwh",
+       "name": "62 kWh (Plus / e+)",
+       "legacy_ids": [
+        178
+       ],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62.0,
+       "battery_basis": "gross",
+       "power_hp": 214,
+       "torque_lbft": 250,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 226,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 212,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 37330,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CHADEMO",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Second_generation_(ZE1;_2017)",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=41276",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=41277",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48401",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.kbb.com/nissan/leaf/2025/specs",
+         "name": "Kelley Blue Book",
+         "fields": [
+          "specs",
+          "price"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Third generation",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": "ZE2",
+     "platform": "AmpR Medium (CMF-EV)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "All-new crossover-shaped Leaf (ZE2) on the AmpR Medium (CMF-EV) platform shared with the Ariya, with 52 kWh or 75 kWh packs, 150 kW DC charging and a native NACS port in North America. The 52 kWh base model is not sold in the US for 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Nissan_Leaf_%28ZE2%29_Auto_Zuerich_2025_DSC_3011.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_(ZE2)_Auto_Zuerich_2025_DSC_3011.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Third_generation_(ZE2;_2025)",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "s-plus",
+       "name": "S+ (75 kWh)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "suv",
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": "usable",
+       "power_hp": 214,
+       "torque_lbft": 261,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 29990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 624,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41200,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Third_generation_(ZE2;_2025)",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.motor1.com/news/763008/2026-nissan-leaf-specs-details/",
+         "name": "Motor1",
+         "fields": [
+          "specs"
+         ]
+        },
+        {
+         "url": "https://insideevs.com/news/769430/nissan-leaf-price-range-2026/",
+         "name": "InsideEVs",
+         "fields": [
+          "price",
+          "connector"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49975",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://insideevs.de/news/775435/nissan-leaf-daten-preise/",
+         "name": "InsideEVs Germany",
+         "fields": [
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "sv-plus",
+       "name": "SV+ (75 kWh)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "suv",
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": "usable",
+       "power_hp": 214,
+       "torque_lbft": 261,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 288,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 34230,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.motor1.com/news/763008/2026-nissan-leaf-specs-details/",
+         "name": "Motor1",
+         "fields": [
+          "specs"
+         ]
+        },
+        {
+         "url": "https://insideevs.com/news/769430/nissan-leaf-price-range-2026/",
+         "name": "InsideEVs",
+         "fields": [
+          "price",
+          "connector"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49974",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "platinum-plus",
+       "name": "Platinum+ (75 kWh)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "suv",
+       "seats": 5,
+       "battery_kwh": 75.0,
+       "battery_basis": "usable",
+       "power_hp": 214,
+       "torque_lbft": 261,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 259,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 38990,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.motor1.com/news/763008/2026-nissan-leaf-specs-details/",
+         "name": "Motor1",
+         "fields": [
+          "specs"
+         ]
+        },
+        {
+         "url": "https://insideevs.com/news/769430/nissan-leaf-price-range-2026/",
+         "name": "InsideEVs",
+         "fields": [
+          "price",
+          "connector"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49976",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "52-kwh",
+       "name": "52 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "suv",
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 174,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.3,
+       "top_speed_mph": null,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 436,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 35950,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Third_generation_(ZE2;_2025)",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.motor1.com/news/763008/2026-nissan-leaf-specs-details/",
+         "name": "Motor1",
+         "fields": [
+          "specs"
+         ]
+        },
+        {
+         "url": "https://insideevs.de/news/775435/nissan-leaf-daten-preise/",
+         "name": "InsideEVs Germany",
+         "fields": [
+          "specs",
+          "range",
+          "price"
+         ]
+        },
+        {
+         "url": "https://electrek.co/2026/02/23/nissan-pulls-plug-under-30k-leaf-ev-2026/",
+         "name": "Electrek",
+         "fields": [
+          "status"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-ariya",
+   "url_slug": "ariya",
+   "name": "Ariya",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.nissan.ca/vehicles/electric-cars/ariya.html",
+   "description": "Compact electric crossover built in Tochigi, Japan since January 2022. Nissan stopped US sales after the 2025 model year (tariffs and the new Leaf); it continues in Canada, Europe, Japan and other markets, facelifted for 2026.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2022",
+     "end": "2025",
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "JP": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs"
+     ]
+    },
+    {
+     "url": "https://edmunds.com/car-news/nissan-ariya-discontinued-2026.html",
+     "name": "Edmunds",
+     "fields": [
+      "status"
+     ]
+    },
+    {
+     "url": "https://www.carscoops.com/2025/09/nissan-is-dropping-the-ariya-ev-after-2025/",
+     "name": "Carscoops",
+     "fields": [
+      "status"
+     ]
+    },
+    {
+     "url": "https://www.autoevolution.com/news/nissan-s-ariya-is-dead-in-the-states-but-lives-on-in-canada-here-s-how-much-the-2027-model-costs-274645.html",
+     "name": "autoevolution",
+     "fields": [
+      "price",
+      "specs",
+      "connector",
+      "status"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "FE0",
+     "platform": "AmpR Medium (CMF-EV)",
+     "start_year": 2022,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Nissan's first dedicated electric SUV (FE0): 63 or 87 kWh usable packs, front-drive or dual-motor e-4ORCE, 130 kW DC charging. US sales covered model years 2023-2025 only.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/nissan_ariya_fwd_lr.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd-63",
+       "name": "FWD 63 kWh",
+       "legacy_ids": [
+        176
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 63.0,
+       "battery_basis": "usable",
+       "power_hp": 214,
+       "torque_lbft": 221,
+       "accel_0_60_s": 7.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 216,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 39770,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.kbb.com/nissan/ariya/2025/specs",
+         "name": "Kelley Blue Book",
+         "fields": [
+          "specs",
+          "accel"
+         ]
+        },
+        {
+         "url": "https://www.conceptcarz.com/a56058/2025-nissan-ariya-pricing.aspx",
+         "name": "Nissan pricing release (via conceptcarz)",
+         "fields": [
+          "price",
+          "connector"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48721",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "fwd-87",
+       "name": "FWD 87 kWh",
+       "legacy_ids": [
+        177
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": "usable",
+       "power_hp": 238,
+       "torque_lbft": 221,
+       "accel_0_60_s": 7.2,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 304,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 289,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 44370,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.kbb.com/nissan/ariya/2025/specs",
+         "name": "Kelley Blue Book",
+         "fields": [
+          "specs",
+          "accel"
+         ]
+        },
+        {
+         "url": "https://www.conceptcarz.com/a56058/2025-nissan-ariya-pricing.aspx",
+         "name": "Nissan pricing release (via conceptcarz)",
+         "fields": [
+          "price",
+          "connector"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47859",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48720",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "e-4orce-63",
+       "name": "e-4ORCE 63 kWh",
+       "legacy_ids": [
+        175
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 63.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 413,
+       "accel_0_60_s": 5.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 205,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 43770,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.kbb.com/nissan/ariya/2025/specs",
+         "name": "Kelley Blue Book",
+         "fields": [
+          "specs",
+          "accel"
+         ]
+        },
+        {
+         "url": "https://www.conceptcarz.com/a56058/2025-nissan-ariya-pricing.aspx",
+         "name": "Nissan pricing release (via conceptcarz)",
+         "fields": [
+          "price",
+          "connector"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48718",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "e-4orce-87",
+       "name": "e-4ORCE 87 kWh (290 kW)",
+       "legacy_ids": [
+        173
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": "usable",
+       "power_hp": 389,
+       "torque_lbft": 442,
+       "accel_0_60_s": 4.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 45370,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.kbb.com/nissan/ariya/2025/specs",
+         "name": "Kelley Blue Book",
+         "fields": [
+          "specs",
+          "accel"
+         ]
+        },
+        {
+         "url": "https://www.conceptcarz.com/a56058/2025-nissan-ariya-pricing.aspx",
+         "name": "Nissan pricing release (via conceptcarz)",
+         "fields": [
+          "price",
+          "connector"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48719",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48722",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "e-4orce-87-225kw",
+       "name": "e-4ORCE 87 kWh (225 kW, Europe)",
+       "legacy_ids": [
+        174
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": "usable",
+       "power_hp": 302,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "nismo-b9",
+       "name": "NISMO B9 e-4ORCE (91 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 91.0,
+       "battery_basis": "gross",
+       "power_hp": 429,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "nismo-b6",
+       "name": "NISMO B6 e-4ORCE (66 kWh, Japan)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 66.0,
+       "battery_basis": "gross",
+       "power_hp": 362,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "FE0",
+     "platform": "AmpR Medium (CMF-EV)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelift unveiled in Japan in December 2025: grille-less nose and Leaf-style lights, Google built-in, V2L. Not sold in the US; Canada gets it with a NACS port for 2027, Germany only with the 87 kWh pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2026_Nissan_Ariya_B9_e-4ORCE_with_20-inch_wheel.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Nissan_Ariya_B9_e-4ORCE_with_20-inch_wheel.jpg",
+       "credit": "TTTNIS",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs"
+       ]
+      },
+      {
+       "url": "https://www.autoevolution.com/news/nissan-s-ariya-is-dead-in-the-states-but-lives-on-in-canada-here-s-how-much-the-2027-model-costs-274645.html",
+       "name": "autoevolution",
+       "fields": [
+        "price",
+        "specs",
+        "connector",
+        "status"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd-87",
+       "name": "FWD 87 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.6,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 531,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 58840,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://insideevs.de/news/801202/nissan-ariya-facelift-bestellbar/",
+         "name": "InsideEVs Germany",
+         "fields": [
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "e-4orce-87-225kw",
+       "name": "e-4ORCE 87 kWh (225 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.7,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 507,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 63840,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://insideevs.de/news/801202/nissan-ariya-facelift-bestellbar/",
+         "name": "InsideEVs Germany",
+         "fields": [
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "fwd-63",
+       "name": "FWD 63 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 63.0,
+       "battery_basis": "usable",
+       "power_hp": 214,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "CA",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 48998,
+         "launch_price": null,
+         "currency": "CAD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.autoevolution.com/news/nissan-s-ariya-is-dead-in-the-states-but-lives-on-in-canada-here-s-how-much-the-2027-model-costs-274645.html",
+         "name": "autoevolution",
+         "fields": [
+          "price",
+          "specs",
+          "connector",
+          "status"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50226",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "e-4orce-87",
+       "name": "e-4ORCE 87 kWh (290 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": "usable",
+       "power_hp": 389,
+       "torque_lbft": 442,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 130,
+       "offerings": [
+        {
+         "market": "CA",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 52998,
+         "launch_price": null,
+         "currency": "CAD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.autoevolution.com/news/nissan-s-ariya-is-dead-in-the-states-but-lives-on-in-canada-here-s-how-much-the-2027-model-costs-274645.html",
+         "name": "autoevolution",
+         "fields": [
+          "price",
+          "specs",
+          "connector",
+          "status"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50225",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-sakura",
+   "url_slug": "sakura",
+   "name": "Sakura",
+   "aliases": [],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www3.nissan.co.jp/vehicles/new/sakura.html",
+   "description": "Electric kei car built by NMKV at Mitsubishi's Mizushima plant since May 2022, twin of the Mitsubishi eK X EV. Japan only; 2022-2023 Japan Car of the Year; minor facelift in April 2026.",
+   "markets": {
+    "JP": {
+     "status": "current",
+     "launch": "2022-05",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "mitsubishi-ek-x-ev"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Sakura",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "KE0",
+     "platform": "KEI-EV",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "20 kWh kei hatchback with a 47 kW motor and 180 km WLTC range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/2024_Nissan_Sakura_G.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Nissan_Sakura_G.jpg",
+       "credit": "TTTNIS",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Sakura",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "20-kwh",
+       "name": "20 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 20.0,
+       "battery_basis": "gross",
+       "power_hp": 63,
+       "torque_lbft": 144,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": 180,
+         "range_unit": "km",
+         "range_cycle": "WLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Sakura",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-n7",
+   "url_slug": "n7",
+   "name": "N7",
+   "aliases": [
+    "Primera EV"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric sedan developed in China by Dongfeng Nissan on the Tianyan architecture, launched April 2025 from 119,900 yuan. Exported as the Nissan Primera EV (Philippines launch November 2026); an updated N7 was due in September 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_N7",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ]
+    },
+    {
+     "url": "https://cnevpost.com/2026/09/18/dongfeng-nissan-launch-updated-n7-sept-22/",
+     "name": "CnEVPost",
+     "fields": [
+      "price",
+      "history"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Tianyan Architecture",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Front-drive LFP sedan with 58 or 73 kWh Sunwoda packs and 160 or 200 kW motors.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Nissan_N7_006.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Nissan_N7_006.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_N7",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "58-kwh",
+       "name": "58 kWh (160 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "gross",
+       "power_hp": 215,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 510,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 119900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_N7",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ]
+        },
+        {
+         "url": "https://cnevpost.com/2026/09/18/dongfeng-nissan-launch-updated-n7-sept-22/",
+         "name": "CnEVPost",
+         "fields": [
+          "price",
+          "history"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "73-kwh",
+       "name": "73 kWh (200 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 73.0,
+       "battery_basis": "gross",
+       "power_hp": 268,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 635,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 158900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_N7",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ]
+        },
+        {
+         "url": "https://cnevpost.com/2026/09/18/dongfeng-nissan-launch-updated-n7-sept-22/",
+         "name": "CnEVPost",
+         "fields": [
+          "price",
+          "history"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-nx8",
+   "url_slug": "nx8",
+   "name": "NX8",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Dongfeng Nissan mid-size SUV for China, on sale since 8 April 2026 as a battery-electric model (580 and 650 km CLTC) and as a range-extender (EREV, not listed here).",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_NX8",
+     "name": "Wikipedia",
+     "fields": [
+      "history"
+     ]
+    },
+    {
+     "url": "https://www.automotiveworld.com/news/dongfeng-nissan-launches-nx8-electrified-suv-in-china/",
+     "name": "Automotive World",
+     "fields": [
+      "history"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Tianyan Architecture",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear-drive LFP SUV on the Tianyan architecture with 800V fast charging on the long-range version.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Nissan_NX8_EV_01_China_2026-03-19.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Nissan_NX8_EV_01_China_2026-03-19.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_NX8",
+       "name": "Wikipedia",
+       "fields": [
+        "history"
+       ]
+      },
+      {
+       "url": "https://www.automotiveworld.com/news/dongfeng-nissan-launches-nx8-electrified-suv-in-china/",
+       "name": "Automotive World",
+       "fields": [
+        "history"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "580",
+       "name": "580 (215 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 288,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 580,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 149900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://data.carnewschina.com/database/nissan/nissan-nx8",
+         "name": "CarNewsChina database",
+         "fields": [
+          "specs",
+          "range",
+          "price"
+         ]
+        },
+        {
+         "url": "https://www.carscoops.com/2025/12/nissan-nx8-electric-suv-china-2026/",
+         "name": "Carscoops",
+         "fields": [
+          "specs",
+          "price"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "650",
+       "name": "650 (250 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 81.0,
+       "battery_basis": "gross",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 650,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 174900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://data.carnewschina.com/database/nissan/nissan-nx8",
+         "name": "CarNewsChina database",
+         "fields": [
+          "specs",
+          "range",
+          "price"
+         ]
+        },
+        {
+         "url": "https://www.carscoops.com/2025/12/nissan-nx8-electric-suv-china-2026/",
+         "name": "Carscoops",
+         "fields": [
+          "specs",
+          "price"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-micra",
+   "url_slug": "micra",
+   "name": "Micra",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "The sixth-generation Micra (K15, 2025) is electric-only, a twin of the Renault 5 E-Tech built in Douai, France, on the AmpR Small platform. Earlier Micras were petrol/diesel and are not listed.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Micra",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs",
+      "range",
+      "price"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "Sixth generation",
+     "kind": "generation",
+     "ordinal": 6,
+     "code_name": "K15",
+     "platform": "AmpR Small",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric supermini with a 40 kWh / 90 kW or 52 kWh / 110 kW powertrain; on sale in Europe since September 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Nissan_Micra_Evolve_%28VI%29_%E2%80%93_f_11042026.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Nissan_Micra_Evolve_(VI)_%E2%80%93_f_11042026.jpg",
+       "credit": "© M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Micra",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs",
+        "range",
+        "price"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "40-kwh",
+       "name": "40 kWh (90 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 40.0,
+       "battery_basis": "usable",
+       "power_hp": 121,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 309,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 22995,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Micra",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "52-kwh",
+       "name": "52 kWh (110 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 148,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 408,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Micra",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-e-nv200",
+   "url_slug": "e-nv200",
+   "name": "e-NV200",
+   "aliases": [
+    "e-NV200 Evalia"
+   ],
+   "body_style": "van",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the NV200 van and Evalia people carrier, built in Barcelona from 2014 with Leaf mechanicals. Replaced by the Townstar EV in 2022; never sold in the US.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2014",
+     "end": "2022",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": "2014",
+     "end": "2022",
+     "local_name": null
+    },
+    "JP": {
+     "status": "discontinued",
+     "launch": "2014",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_NV200",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs",
+      "status"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2014",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2014,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "24 kWh pack at launch, 40 kWh from 2018; 80 kW motor, CHAdeMO DC charging up to 50 kW.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Nissan_e-NV200_Evalia_electric_car_%2816641419041%29_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Nissan_e-NV200_Evalia_electric_car_(16641419041)_(cropped).jpg",
+       "credit": "Kārlis Dambrāns from Latvia",
+       "license": "CC BY 2.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_NV200",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs",
+        "status"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "24-kwh",
+       "name": "24 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2014,
+       "year_to": 2017,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 24.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_NV200",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "40-kwh",
+       "name": "40 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2018,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 40.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_NV200",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-townstar-ev",
+   "url_slug": "townstar-ev",
+   "name": "Townstar EV",
+   "aliases": [
+    "Townstar Evalia EV"
+   ],
+   "body_style": "van",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric small van and Combi/Evalia people carrier, a rebadged Renault Kangoo E-Tech built in Maubeuge, France, that replaced the e-NV200 in Europe in 2022.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "nissan-e-nv200"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://de.wikipedia.org/wiki/Nissan_Townstar",
+     "name": "Wikipedia (de)",
+     "fields": [
+      "specs",
+      "range"
+     ]
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+     "name": "Wikipedia",
+     "fields": [
+      "history"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "CMF-CD",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "45 kWh battery, 90 kW motor, 75 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Nissan_Townstar_EV_Automesse_Ludwigsburg_2023_1X7A0060.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Nissan_Townstar_EV_Automesse_Ludwigsburg_2023_1X7A0060.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://de.wikipedia.org/wiki/Nissan_Townstar",
+       "name": "Wikipedia (de)",
+       "fields": [
+        "specs",
+        "range"
+       ]
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Renault_Kangoo",
+       "name": "Wikipedia",
+       "fields": [
+        "history"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "45-kwh",
+       "name": "45 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 45.0,
+       "battery_basis": "gross",
+       "power_hp": 121,
+       "torque_lbft": 181,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 75,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 304,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://de.wikipedia.org/wiki/Nissan_Townstar",
+         "name": "Wikipedia (de)",
+         "fields": [
+          "specs",
+          "range"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "nissan-juke",
+   "url_slug": "juke",
+   "name": "Juke",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "The third-generation Juke (F17), unveiled on 14 April 2026, is the first electric Juke; it is built in Sunderland on the AmpR Medium platform and due on sale in Europe in spring 2027. Earlier Juke generations were petrol/hybrid.",
+   "markets": {
+    "EU": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Juke",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "status"
+     ]
+    },
+    {
+     "url": "https://global.nissannews.com/en/releases/260414-vision",
+     "name": "Nissan Global newsroom",
+     "fields": [
+      "status",
+      "history"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "Third generation",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": "F17",
+     "platform": "AmpR Medium (CMF-EV)",
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Battery-electric only; Nissan has not published battery, power or range figures.",
+     "images": [],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Juke",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "status"
+       ]
+      },
+      {
+       "url": "https://global.nissannews.com/en/releases/260414-vision",
+       "name": "Nissan Global newsroom",
+       "fields": [
+        "status",
+        "history"
+       ]
+      }
+     ],
+     "variants": []
+    }
+   ]
+  },
+  {
+   "slug": "nissan-clipper-ev",
+   "url_slug": "clipper-ev",
+   "name": "Clipper EV",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric kei van for Japan introduced in 2024, a rebadged Mitsubishi Minicab EV.",
+   "markets": {
+    "JP": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "mitsubishi-minicab-ev"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Clipper",
+     "name": "Wikipedia",
+     "fields": [
+      "history"
+     ]
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs",
+      "range",
+      "price"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "20 kWh battery, 31 kW motor, 180 km range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/CLIPPER_EV.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:CLIPPER_EV.jpg",
+       "credit": "Mr.FDE",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Clipper",
+       "name": "Wikipedia",
+       "fields": [
+        "history"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "20-kwh",
+       "name": "20 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 20.0,
+       "battery_basis": "gross",
+       "power_hp": 41,
+       "torque_lbft": 145,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": 180,
+         "range_unit": "km",
+         "range_cycle": "WLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ]
+        },
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Clipper",
+         "name": "Wikipedia",
+         "fields": [
+          "history"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 173,
+   "note": "Labelled 'e-4ORCE LR Performance' (389 hp, matches the US e-4ORCE 87 kWh) but its price $39,770 is the 2025 Engage FWD 63 kWh base price and its 304 mi range is the 2023-24 Venture+ FWD 87 kWh EPA figure. EPA for e-4ORCE 87 kWh is 257-272 mi."
+  },
+  {
+   "legacy_id": 174,
+   "note": "302 hp is the European 225 kW e-4ORCE tune, which was never sold in the US; the $54,190 price and 213 mi range match no EPA-rated Ariya. Mapped to the Europe-only 225 kW variant."
+  },
+  {
+   "legacy_id": 175,
+   "note": "275 hp is the European 205 kW rating; the US e-4ORCE 63 kWh is 335 hp. Legacy range 158 mi is wrong (EPA 205 mi)."
+  },
+  {
+   "legacy_id": 176,
+   "note": "Range 168 mi wrong (EPA 216 mi) and price $43,190 wrong (2025 MSRP $39,770 excl. destination)."
+  },
+  {
+   "legacy_id": 177,
+   "note": "Range 233 mi wrong (EPA 289 mi for 2025, 304 mi for 2023-24 Venture+)."
+  },
+  {
+   "legacy_id": 178,
+   "note": "Second-generation Leaf SV Plus; the generation ended in October 2025 but the row is marked available. 226 mi is the S Plus figure; SV Plus was 215 mi (2019-22) / 212 mi (2023-25). Battery shown as 60 kWh (62 kWh gross)."
+  },
+  {
+   "legacy_id": 179,
+   "note": "Second-generation Leaf S (40 kWh); discontinued after the 2025 model year but the row is marked available. Legacy 'model' value contains a stray newline ('Leaf\\n')."
+  },
+  {
+   "legacy_id": 173,
+   "note": "All five Ariya rows list the US in 'available_countries 2024 onwards', but Nissan dropped the Ariya from the US after the 2025 model year."
+  }
+ ],
+ "gaps": [
+  "power_hp for markets that publish only kW (Europe/Japan/China variants: Ariya 225 kW and NISMO, N7, NX8, Micra, Sakura, Townstar, Clipper) is converted from the official kW/PS figure; torque_lbft likewise from Nm where only Nm was given.",
+  "Ariya pre-facelift WLTP ranges and European/Japanese prices not sourced; only EPA figures used for the original generation.",
+  "Ariya NISMO prices and ranges not sourced.",
+  "Sakura and Clipper EV yen prices not sourced (Nissan Japan site is script-rendered).",
+  "N7 CLTC range varies 510-540 km (58 kWh) and 625-635 km (73 kWh) by trim; the offering pairs the lowest range with the base price and the highest with the top price.",
+  "NX8 580 battery size and per-trim DC charging peak not confirmed; 81 kWh is cited for the larger pack only.",
+  "Leaf third-gen UK prices and Japan prices/ranges not recorded (UK range is published in miles only).",
+  "Micra 52 kWh UK price not sourced; 40 kWh price is the launch 'from' price.",
+  "e-NV200 ranges were published on NEDC/JC08, which the schema does not accept, so they are left out.",
+  "Townstar EV prices not sourced.",
+  "Not added for lack of a source within this run (web search budget ran out): Dongfeng Nissan Sylphy Zero Emission (China, 2018-c.2021, Leaf-based sedan), Nissan Interstar EV (Renault Master E-Tech van), Leaf NISMO (Japan, July 2026, a trim of the third-gen Leaf).",
+  "Updated N7 (September 2026) details not confirmed."
+ ]
+}

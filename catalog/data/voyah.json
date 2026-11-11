@@ -1,0 +1,1001 @@
+{
+  "make": {
+    "slug": "voyah",
+    "name": "Voyah",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Wuhan, Hubei, China",
+    "founded": 2019,
+    "parent_group": "Dongfeng Motor Corporation",
+    "website_url": "https://www.voyah-global.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Dongfeng's premium electrified brand (Lantu in Chinese), launched in 2020 on the ESSA platform. It sells BEV, plug-in hybrid and range-extender versions in China and exports to Europe (including Norway), Israel, Turkey and the Middle East.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Voyah",
+        "name": "Wikipedia: Voyah"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "voyah-free",
+      "url_slug": "free",
+      "name": "Free",
+      "aliases": [
+        "Lantu Free",
+        "Rabdan One"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Mid-size SUV co-designed with Italdesign, launched in 2021 as a BEV and a range-extender. The BEV was dropped in China in August 2023 (a 106 kWh BEV appeared again in the 2025 tables); the second generation (Free+, July 2025) is range-extender only and is not listed.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": "2025",
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Voyah_Free",
+          "name": "Wikipedia: Voyah Free"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "ESSA",
+          "start_year": 2021,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "ESSA platform; BEV with 88 kWh (RWD) or 106 kWh (AWD) packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Voyah_Free_Auto_Zuerich_2023_1X7A1147.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Voyah_Free_Auto_Zuerich_2023_1X7A1147.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD (88 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 88.0,
+              "battery_basis": "gross",
+              "power_hp": 342,
+              "torque_lbft": 384,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Free",
+                  "name": "Wikipedia: Voyah Free"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 684,
+              "torque_lbft": 767,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Free",
+                  "name": "Wikipedia: Voyah Free"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd-106",
+              "name": "EV AWD (106 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 106.0,
+              "battery_basis": "gross",
+              "power_hp": 489,
+              "torque_lbft": 531,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Free",
+                  "name": "Wikipedia: Voyah Free"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "voyah-dream",
+      "url_slug": "dream",
+      "name": "Dream",
+      "aliases": [
+        "Voyah Dreamer",
+        "Lantu Dreamer"
+      ],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Large luxury minivan launched in China in 2022 (Dreamer in some markets) as a BEV and plug-in hybrid. Facelifted with Huawei driver assistance in August 2024; a more upmarket Dream 9 joined in September 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022-03",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Voyah_Dream",
+          "name": "Wikipedia: Voyah Dream"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "ESSA",
+          "start_year": 2022,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "BEV with 82-108.7 kWh NMC packs, 160 kW RWD or 320 kW AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/2021_Voyah_Dreamer_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_Voyah_Dreamer_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Dream",
+                  "name": "Wikipedia: Voyah Dream"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.motor1.com/news/549033/voyah-dreamer-electric-minivan-debut/",
+                  "name": "Motor1"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 429,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Dream",
+                  "name": "Wikipedia: Voyah Dream"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.motor1.com/news/549033/voyah-dreamer-electric-minivan-debut/",
+                  "name": "Motor1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "ESSA",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Huawei Qiankun ADS and HarmonyOS cockpit; BEV uprated to 475 kW.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/2025_Dongfeng-Voyah_Dream_%28facelift%29%2C_front_7.26.25.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Dongfeng-Voyah_Dream_(facelift),_front_7.26.25.jpg",
+              "credit": "Kevauto",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 637,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Dream",
+                  "name": "Wikipedia: Voyah Dream"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "voyah-passion",
+      "url_slug": "passion",
+      "name": "Passion",
+      "aliases": [
+        "Voyah Zhuiguang"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size sedan (Zhuiguang) launched in China in April 2023 as a dual-motor BEV, with a plug-in hybrid added in December 2023. The Passion L (2025) is plug-in hybrid only.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Voyah_Passion",
+          "name": "Wikipedia: Voyah Passion"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "H53",
+          "platform": "ESSA",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor AWD, 375 kW; 82 kWh semi-solid-state or 108.7 kWh NMC pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Voyah_Zhiguang_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Voyah_Zhiguang_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-82",
+              "name": "EV 82 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 82.1,
+              "battery_basis": "gross",
+              "power_hp": 503,
+              "torque_lbft": 538,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": 131,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 580,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Passion",
+                  "name": "Wikipedia: Voyah Passion"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://equalocean.com/news/2022121619294",
+                  "name": "EqualOcean"
+                }
+              ]
+            },
+            {
+              "slug": "ev-109",
+              "name": "EV 108.7 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 108.7,
+              "battery_basis": "gross",
+              "power_hp": 503,
+              "torque_lbft": 538,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.2,
+              "top_speed_mph": 127,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 730,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Passion",
+                  "name": "Wikipedia: Voyah Passion"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://equalocean.com/news/2022121619294",
+                  "name": "EqualOcean"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "voyah-courage",
+      "url_slug": "courage",
+      "name": "Courage",
+      "aliases": [
+        "Voyah Zhiyin"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Battery-electric-only mid-size SUV (Zhiyin) launched in mid-2024 on the second-generation ESSA platform; sold in Europe as the Courage (Euro NCAP 5 stars, 2025).",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Voyah_Courage",
+          "name": "Wikipedia: Voyah Courage"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "ESSA",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "RWD with 77 or 109 kWh packs, or 543 hp AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Voyah_Courage_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Voyah_Courage_005.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-77",
+              "name": "RWD 77 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 77.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 625,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Courage",
+                  "name": "Wikipedia: Voyah Courage"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.electrive.com/2024/06/20/voyah-zhiyin-901-km-range-rival-tesla-model-y/",
+                  "name": "electrive"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-109",
+              "name": "RWD 109 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 109.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 901,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Courage",
+                  "name": "Wikipedia: Voyah Courage"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.electrive.com/2024/06/20/voyah-zhiyin-901-km-range-rival-tesla-model-y/",
+                  "name": "electrive"
+                }
+              ]
+            },
+            {
+              "slug": "awd-77",
+              "name": "AWD 77 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 77.0,
+              "battery_basis": "gross",
+              "power_hp": 543,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 570,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Courage",
+                  "name": "Wikipedia: Voyah Courage"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.electrive.com/2024/06/20/voyah-zhiyin-901-km-range-rival-tesla-model-y/",
+                  "name": "electrive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "voyah-passion-s",
+      "url_slug": "passion-s",
+      "name": "Passion S",
+      "aliases": [
+        "Voyah Zhuiguang S"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size coupe SUV launched at the Chengdu Auto Show in August 2026, battery-electric with an 800 V platform and Huawei ADS 5.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Voyah_Passion_S",
+          "name": "Wikipedia: Voyah Passion S"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "ESSA",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "98 kWh Amber 2.0 NMC pack, 5C charging; single or dual motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Voyah_Passion_S_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Voyah_Passion_S_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.1,
+              "battery_basis": "gross",
+              "power_hp": 408,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 740,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Passion_S",
+                  "name": "Wikipedia: Voyah Passion S"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.1,
+              "battery_basis": "gross",
+              "power_hp": 646,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 700,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Passion_S",
+                  "name": "Wikipedia: Voyah Passion S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "voyah-taishan-x8",
+      "url_slug": "taishan-x8",
+      "name": "Taishan X8",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Five-seat version of the flagship Taishan full-size SUV (Tianyuan architecture), offered as a dual-motor BEV and a plug-in hybrid; the six-seat Taishan is plug-in hybrid only.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Voyah_Taishan",
+          "name": "Wikipedia: Voyah Taishan"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Tianyuan",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor AWD BEV with a 98 or 120 kWh pack, 637 hp.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Voyah_Taishan_X8_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Voyah_Taishan_X8_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev",
+              "name": "X8 EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 637,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Voyah_Taishan",
+                  "name": "Wikipedia: Voyah Taishan"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Web search budget ran out; data comes from Wikipedia and the news articles it cites.",
+    "Voyah European offerings (Free, Dream, Courage) not sourced: WLTP ranges and prices missing; EU market status is from Wikipedia only.",
+    "Voyah Free and Dream BEV ranges were NEDC (cannot be stored) or unclear by trim.",
+    "Taishan X8 EV launch date, battery-to-trim mapping and CLTC range not confirmed.",
+    "Chinese list prices for Voyah BEVs not sourced."
+  ]
+}

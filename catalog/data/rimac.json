@@ -1,0 +1,330 @@
+{
+  "make": {
+    "slug": "rimac",
+    "name": "Rimac",
+    "legacy_id": 30,
+    "country": "HR",
+    "headquarters": "Sveta Nedelja, Croatia",
+    "founded": 2009,
+    "parent_group": "Rimac Group",
+    "website_url": "https://www.rimac-automobili.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Croatian electric hypercar maker founded by Mate Rimac in 2009, also a supplier of batteries and drivetrains to other car makers. Its parent Rimac Group controls Bugatti Rimac, the joint venture with Porsche formed in 2021. Rimac has built two cars: the Concept One (8 made) and the Nevera, whose production is ending in 2026 well short of its planned run.",
+    "sources": [
+      {
+        "fields": ["founded", "headquarters", "parent_group"],
+        "url": "https://en.wikipedia.org/wiki/Rimac_Automobili",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": ["description"],
+        "url": "https://www.evo.co.uk/rimac/nevera",
+        "name": "evo"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "rimac-concept-one",
+      "url_slug": "concept-one",
+      "name": "Concept One",
+      "aliases": ["Concept S"],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Rimac's first car, a two-seat electric supercar shown in 2011 with one motor per wheel. Eight were built between January 2013 and November 2014, plus two lighter, more powerful Concept S cars in 2016. One was crashed by Richard Hammond in 2017 during filming of The Grand Tour.",
+      "markets": {
+        "EU": {"status": "discontinued", "launch": "2013", "end": "2014", "local_name": null}
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://en.wikipedia.org/wiki/Rimac_Concept_One",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2013",
+          "name": "Concept One",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2013,
+          "end_year": 2016,
+          "status": "discontinued",
+          "description": "Hand-built carbon-tub supercar with a 92 kWh LiFePO4 pack and four motors; eight Concept One cars and two Concept S cars were made.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/2016-03-01_Geneva_Motor_Show_0977_%28cropped%29.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2016-03-01_Geneva_Motor_Show_0977_(cropped).JPG",
+              "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "concept-one",
+              "name": "Concept One",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2013,
+              "year_to": 2014,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 92.0,
+              "battery_basis": null,
+              "power_hp": 1224,
+              "torque_lbft": 1180,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 2.6,
+              "top_speed_mph": 221,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 980000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "price"],
+                  "url": "https://en.wikipedia.org/wiki/Rimac_Concept_One",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "concept-s",
+              "name": "Concept S",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2016,
+              "year_to": 2016,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 1384,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 2.5,
+              "top_speed_mph": 227,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": ["specs"],
+                  "url": "https://en.wikipedia.org/wiki/Rimac_Concept_One",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rimac-nevera",
+      "url_slug": "nevera",
+      "name": "Nevera",
+      "aliases": ["C_Two", "Concept Two"],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.rimac-automobili.com/nevera/",
+      "description": "Four-motor electric hypercar previewed as the C_Two in 2018 and launched as the Nevera in 2021, with deliveries from 2022; it set many acceleration and top-speed records for production cars. The 2,107 PS Nevera R followed in 2024 with deliveries from January 2026. Rimac said in 2026 that production will stop by the end of the year at about 71 cars (about 50 Nevera and 20 Nevera R), far short of the 150 + 40 planned.",
+      "markets": {
+        "EU": {"status": "current", "launch": "2022", "end": null, "local_name": null},
+        "US": {"status": "current", "launch": "2022", "end": null, "local_name": null}
+      },
+      "relations": [
+        {"relation": "successor", "model": "rimac-concept-one"}
+      ],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://www.autonext.co/news/rimac-nevera-production-ends-71-cars-nevera-r-20-of-40-planned-190",
+          "name": "Autonext"
+        },
+        {
+          "fields": ["status", "history"],
+          "url": "https://www.evo.co.uk/rimac/nevera",
+          "name": "evo"
+        },
+        {
+          "fields": ["history"],
+          "url": "https://en.wikipedia.org/wiki/Rimac_Nevera",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "C_Two",
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Carbon-monocoque hypercar with one motor per wheel and torque vectoring; the Nevera R (2024 reveal) has a 108 kWh pack, more power and a fixed rear wing. Special editions (Time Attack, 15th Anniversary) share the standard car's hardware.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/rimac_nevera.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "nevera",
+              "name": "Nevera",
+              "legacy_ids": [181],
+              "status": "current",
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 120.0,
+              "battery_basis": null,
+              "power_hp": 1888,
+              "torque_lbft": 1741,
+              "accel_0_60_s": 1.85,
+              "accel_0_100_s": null,
+              "top_speed_mph": 256,
+              "dc_kw": 500,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 490,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": 2000000,
+                  "currency": "EUR",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "price"],
+                  "url": "https://insideevs.com/news/511225/rimac-nevera-ctwo-hypercar-electric/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": ["specs", "range"],
+                  "url": "https://en.wikipedia.org/wiki/Rimac_Nevera",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": ["dc_kw"],
+                  "url": "https://evkx.net/models/rimac/nevera/nevera/specifications/",
+                  "name": "EVKX"
+                }
+              ]
+            },
+            {
+              "slug": "nevera-r",
+              "name": "Nevera R",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 108.0,
+              "battery_basis": null,
+              "power_hp": 2078,
+              "torque_lbft": 1741,
+              "accel_0_60_s": 1.74,
+              "accel_0_100_s": 1.81,
+              "top_speed_mph": 256,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 2300000,
+                  "currency": "EUR",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs"],
+                  "url": "https://www.rimac-newsroom.com/press-releases/rimac-nevera-r/rimac-introduces-nevera-r-a-new-2107-hp-hypercar",
+                  "name": "Rimac newsroom"
+                },
+                {
+                  "fields": ["specs"],
+                  "url": "https://en.wikipedia.org/wiki/Rimac_Nevera",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": ["price"],
+                  "url": "https://techcrunch.com/2024/08/16/rimac-squeezes-more-power-into-its-new-all-electric-hypercar-nevera-r-and-it-only-starts-at-2-5-million",
+                  "name": "TechCrunch"
+                },
+                {
+                  "fields": ["year_from"],
+                  "url": "https://sportscardigest.com/mate-rimac-inside-the-nevera-story/",
+                  "name": "Sports Car Digest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 181,
+      "note": "Legacy row's 0-60 of 1.74 s is a record-run figure (and the Nevera R's official claim); Rimac's launch claim for the standard Nevera is 1.85 s. The 205 mi 'EPA range' has no EPA listing I could find (WLTP 490 km is the sourced figure). Price $2.2M not sourced; launch price was EUR 2 million. Legacy says 150 cars; production is ending in 2026 at about 50 standard cars."
+    }
+  ],
+  "gaps": [
+    "Rimac Nevera: no EPA range or US price found; DC 500 kW figure is from a spec database, not Rimac.",
+    "Rimac Nevera R: WLTP range and DC charging rate not published; torque (2,360 Nm) is from Wikipedia, not a Rimac release.",
+    "Rimac Concept S: battery and torque not sourced.",
+    "No Rimac-branded successor to the Nevera has been announced as of November 2026."
+  ]
+}

@@ -1,0 +1,1474 @@
+{
+  "make": {
+    "slug": "tata",
+    "name": "Tata",
+    "legacy_id": null,
+    "country": "IN",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "founded": 1945,
+    "parent_group": "Tata Motors (Tata Group)",
+    "website_url": "https://ev.tatamotors.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Indian car maker, part of the Tata Group, which also owns JLR. Its electric cars are made by the subsidiary Tata Passenger Electric Mobility and sold mainly in India under the Tata.ev name, from the Tigor EV (2019) and Nexon EV (2020) to the Curvv.ev, Harrier.ev and Sierra.ev. A separate premium EV brand, Avinya, is due in 2027.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Tata_Motors",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "status",
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Tata_Passenger_Electric_Mobility",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "tata-tigor-ev",
+      "url_slug": "tigor-ev",
+      "name": "Tigor EV",
+      "aliases": [
+        "XPRES-T EV",
+        "Tigor.ev"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the Tigor compact sedan, first sold to fleets and taxi operators from October 2019 (later renamed XPRES-T) and relaunched for private buyers in August 2021 with the Ziptron drivetrain from the Nexon EV. Tata retired the Tigor name in September 2026 when the third facelift launched as the Tata Aeris.",
+      "markets": {
+        "IN": {
+          "status": "discontinued",
+          "launch": "2019-10",
+          "end": "2026-09",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Tigor",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First version (fleet, later XPRES-T)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2021,
+          "status": "discontinued",
+          "description": "Fleet-oriented car with a low-voltage induction motor; ARAI range rose from 142 km to 213 km with a bigger pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/TATA_Electric_car_on_road_with_number_plate.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:TATA_Electric_car_on_road_with_number_plate.jpg",
+              "credit": "Rajasekhar1961",
+              "license": "CC BY-SA 4.0",
+              "view": "rear",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fleet",
+              "name": "Tigor EV / XPRES-T (fleet)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2019,
+              "year_to": 2021,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 40,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 213,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Tigor",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2021",
+          "name": "Ziptron",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Private-buyer relaunch with a 26 kWh LFP pack and 55 kW Ziptron motor; ARAI range 306 km, raised to 315 km in a November 2022 update.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ziptron-26kwh",
+              "name": "Ziptron 26 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 26.0,
+              "battery_basis": null,
+              "power_hp": 74,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": 2021,
+                  "range": 306,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": 1199000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "IN",
+                  "model_year": 2023,
+                  "range": 315,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Tigor",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tata-nexon-ev",
+      "url_slug": "nexon-ev",
+      "name": "Nexon EV",
+      "aliases": [
+        "Nexon.ev",
+        "Nexon EV Max",
+        "Nexon EV Prime"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://ev.tatamotors.com",
+      "description": "Electric version of the Nexon compact SUV and India's best-selling EV for several years. Launched in January 2020 with a 30.2 kWh pack, joined by the 40.5 kWh Nexon EV Max in May 2022, and facelifted as the Nexon.ev in September 2023 with a Curvv-inspired front, new interior and later a 45 kWh pack.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2020-01",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Nexon",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Passenger_Electric_Mobility",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "X1",
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Original Ziptron Nexon EV; the 40.5 kWh Max was added in 2022 and the 30.2 kWh car renamed Prime.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2020_Tata_Nexon_EV_%28India%29_front_view.png",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2020_Tata_Nexon_EV_(India)_front_view.png",
+              "credit": "DriveSpark",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "prime-30kwh",
+              "name": "Prime (30.2 kWh)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 30.2,
+              "battery_basis": null,
+              "power_hp": 127,
+              "torque_lbft": 181,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 25,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 312,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Nexon",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "max-40kwh",
+              "name": "Max (40.5 kWh)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 40.5,
+              "battery_basis": null,
+              "power_hp": 143,
+              "torque_lbft": 184,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 437,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Nexon",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Facelift (Nexon.ev)",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Facelift unveiled 7 September 2023 with a full-width light bar, 12.3-inch screen and new cabin; a 45 kWh long-range pack followed.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "45kwh",
+              "name": "Long Range 45 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 45.0,
+              "battery_basis": null,
+              "power_hp": 142,
+              "torque_lbft": 159,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.9,
+              "top_speed_mph": null,
+              "dc_kw": 60,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 489,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": 1249000,
+                  "launch_price": null,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.cardekho.com/tata/nexon-ev/specs",
+                  "name": "CarDekho"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tata-tiago-ev",
+      "url_slug": "tiago-ev",
+      "name": "Tiago EV",
+      "aliases": [
+        "Tiago.ev"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://ev.tatamotors.com",
+      "description": "Electric version of the Tiago city hatchback, launched in 2022 as India's cheapest electric car of its time with 19.2 or 24 kWh packs. A heavy facelift of the Tiago and Tiago.ev launched on 28 May 2026, with EV prices from Rs 7.0 lakh.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Tiago",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Launch version with Medium Range (19.2 kWh) and Long Range (24 kWh) packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2022_Tata_Tiago_EV_IB_XZ%2B_Tech_LR_front_view.png",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_Tata_Tiago_EV_IB_XZ%2B_Tech_LR_front_view.png",
+              "credit": "DriveSpark",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "medium-range-19kwh",
+              "name": "Medium Range (19.2 kWh)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 19.2,
+              "battery_basis": null,
+              "power_hp": 61,
+              "torque_lbft": 81,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 250,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Tiago",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-24kwh",
+              "name": "Long Range (24 kWh)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 24.0,
+              "battery_basis": null,
+              "power_hp": 74,
+              "torque_lbft": 84,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 50,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 315,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Tiago",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Heavy facelift launched 28 May 2026; detailed EV specifications not yet sourced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "tiago-ev-2026",
+              "name": "Tiago.ev (2026)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 700000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Tiago",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tata-punch-ev",
+      "url_slug": "punch-ev",
+      "name": "Punch EV",
+      "aliases": [
+        "Punch.ev"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://ev.tatamotors.com",
+      "description": "Electric version of the Punch micro SUV and the first car on Tata's acti.ev architecture, unveiled on 5 January 2024 in Medium Range and Long Range forms. A facelift launched on 20 February 2026 with a 40 kWh pack and up to 468 km claimed range.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2024-01",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Punch",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "acti.ev",
+          "start_year": 2024,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Launch version on the acti.ev platform; launch price from Rs 10.99 lakh.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tata_punch.ev.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Tata_punch.ev.jpg",
+              "credit": "VideshiBhaktNRI",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "medium-range",
+              "name": "Medium Range",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 1099000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Punch",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "long-range",
+              "name": "Long Range",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Punch",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "acti.ev",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Facelift revealed 8 February 2026 and launched 20 February 2026 with a 40 kWh pack.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "40kwh",
+              "name": "40 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 40.0,
+              "battery_basis": null,
+              "power_hp": 127,
+              "torque_lbft": 114,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.0,
+              "top_speed_mph": null,
+              "dc_kw": 65,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": 2026,
+                  "range": 468,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": 979000,
+                  "launch_price": null,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Punch",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.cardekho.com/tata/punch-ev/specs",
+                  "name": "CarDekho"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tata-curvv-ev",
+      "url_slug": "curvv-ev",
+      "name": "Curvv EV",
+      "aliases": [
+        "Curvv.ev"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://ev.tatamotors.com",
+      "description": "Coupe-styled mid-size SUV launched in August 2024, with the electric version arriving alongside petrol and diesel ones. It uses the acti.ev architecture with 45 or 55 kWh packs.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2024-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Curvv",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "acti.ev",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Tata_Curvv.EV.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Tata_Curvv.EV.jpg",
+              "credit": "VideshiBhaktNRI",
+              "license": "CC0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "45kwh",
+              "name": "45 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 45.0,
+              "battery_basis": null,
+              "power_hp": 148,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 502,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": 1749000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Curvv",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "55kwh",
+              "name": "55 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 55.0,
+              "battery_basis": null,
+              "power_hp": 165,
+              "torque_lbft": 159,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.6,
+              "top_speed_mph": null,
+              "dc_kw": 70,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 585,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Curvv",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.cardekho.com/tata/curvv-ev/specs",
+                  "name": "CarDekho"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tata-harrier-ev",
+      "url_slug": "harrier-ev",
+      "name": "Harrier EV",
+      "aliases": [
+        "Harrier.ev"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://ev.tatamotors.com",
+      "description": "Electric version of the Harrier mid-size SUV, shown as a concept in 2023 and launched on 3 June 2025 with 65 or 75 kWh LFP packs and rear- or dual-motor all-wheel drive (QWD).",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2025-06",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Harrier_EV",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation; dual-motor QWD version makes 395 PS.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/4th_International_Auto_Show%2C_Bangalore_%282025%29_110.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:4th_International_Auto_Show,_Bangalore_(2025)_110.jpg",
+              "credit": "Gpkp",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-65kwh",
+              "name": "RWD 65 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 65.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 120,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 2149000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Harrier_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-75kwh",
+              "name": "RWD 75 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 120,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 627,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Harrier_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "qwd-75kwh",
+              "name": "QWD 75 kWh (AWD)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 390,
+              "torque_lbft": 372,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.3,
+              "top_speed_mph": null,
+              "dc_kw": 120,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 622,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Harrier_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.cardekho.com/tata/harrier-ev/specs",
+                  "name": "CarDekho"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tata-sierra-ev",
+      "url_slug": "sierra-ev",
+      "name": "Sierra EV",
+      "aliases": [
+        "Sierra.ev"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://ev.tatamotors.com",
+      "description": "Electric version of the revived Sierra name, previewed by concepts in 2020 and 2025 and launched in India on 30 June 2026 on the second-generation acti.ev platform, with 63 or 75 kWh packs and rear- or all-wheel drive.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2026-06",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Sierra",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "acti.ev Gen 2",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation; prices Rs 18.79-25.99 lakh ex-showroom.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "63kwh",
+              "name": "63 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 63.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 1879000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Sierra",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "75kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 665,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Sierra",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tata-avinya",
+      "url_slug": "avinya",
+      "name": "Avinya",
+      "aliases": [
+        "Avinya X"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Premium electric SUV first shown as a concept on 29 April 2022; Avinya has since become a separate premium EV brand, due on sale by 2027 with the Avinya X, on a platform developed with Chery.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Avinya",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Tata_Passenger_Electric_Mobility",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced; no production specifications published.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "avinya",
+              "name": "Avinya",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Tata_Avinya",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Tata Nexon.ev facelift Medium Range (30 kWh) and 40.5 kWh variants not sourced; only the 45 kWh car is listed. The Rs 12.49 lakh price is the cheapest Nexon EV of any battery, attached to the 45 kWh variant.",
+    "Tata Punch.ev 2024 battery sizes (25/35 kWh) and specs not sourced (web search budget ran out); variants listed without numbers.",
+    "Tata Harrier.ev: 627 km is Tata's 'up to' figure, assigned to the RWD 75 kWh car because the AWD is listed at 622 km; RWD power not sourced.",
+    "Tata Sierra.ev: 665 km 'up to' range assigned to the 75 kWh pack; which pack pairs with AWD not sourced.",
+    "Tata Tiago.ev 2026 facelift specs not sourced; only the Rs 7.0 lakh starting price.",
+    "Tata Tigor EV: discontinued status is inferred from the Tigor name being retired in September 2026 (replaced by the Tata Aeris); whether an Aeris EV exists could not be checked.",
+    "Indica Vista EV (UK trial, 2010s) was never sold commercially and is not listed.",
+    "Indian ranges are ARAI-certified MIDC figures (recorded as MIDC); prices are ex-showroom (include GST).",
+    "Tigor EV 2021 launch price Rs 11.99 lakh comes from a Wikipedia reference title only."
+  ]
+}

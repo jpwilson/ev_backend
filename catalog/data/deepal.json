@@ -1,0 +1,1255 @@
+{
+  "make": {
+    "slug": "deepal",
+    "name": "Deepal",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Chongqing, China",
+    "founded": 2008,
+    "parent_group": "Changan Automobile",
+    "website_url": "https://www.deepal.com.cn",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Changan's electric-car brand (Shenlan in Chinese), launched with the SL03 sedan in 2022. Most models come as a battery-electric car and a range-extender; it exports to Thailand, Australia, the UK and Europe.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Deepal",
+        "name": "Wikipedia: Deepal"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "deepal-sl03",
+      "url_slug": "sl03",
+      "name": "SL03",
+      "aliases": [
+        "Changan Shenlan SL03",
+        "Deepal L07 (Thailand)"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Deepal's first car: a mid-size liftback sedan on Changan's EPA1 platform, sold as a BEV, a range-extender and a hydrogen fuel-cell version (the last two not listed). Exported to Thailand under the L07 name.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "changan-nevo-a07"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Deepal_SL03",
+          "name": "Wikipedia: Deepal SL03"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "C385",
+          "platform": "Changan EPA1",
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch model with a 58 kWh LFP or 80 kWh NMC pack and a single rear motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/2023_Chang%27an_Shenlan_SL03_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_Chang%27an_Shenlan_SL03_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "515",
+              "name": "515 km (58 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.1,
+              "battery_basis": "gross",
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 515,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_SL03",
+                  "name": "Wikipedia: Deepal SL03"
+                }
+              ]
+            },
+            {
+              "slug": "705",
+              "name": "705 km (80 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 79.97,
+              "battery_basis": "gross",
+              "power_hp": 255,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_SL03",
+                  "name": "Wikipedia: Deepal SL03"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "deepal-l07",
+      "url_slug": "l07",
+      "name": "L07",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Huawei-equipped sister model of the SL03 launched in China in September 2024, with a reworked interior and Huawei Qiankun driver assistance. Updated for model year 2026 in August 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "deepal-sl03"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Deepal_SL03",
+          "name": "Wikipedia: Deepal SL03"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Changan EPA1",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "SL03 body with Huawei tech; 56 kWh BEV at launch, 56 or 62.8 kWh with a 200 kW motor from MY2026.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Deepal_L07_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Deepal_L07_005.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "530",
+              "name": "530 km (56.1 kWh)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 56.1,
+              "battery_basis": "gross",
+              "power_hp": 248,
+              "torque_lbft": 229,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.2,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 530,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_SL03",
+                  "name": "Wikipedia: Deepal SL03"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/08/13/most-affordable-model-with-huawei-qiankun-ads-2026-deepal-l07-launched-starting-at-20300-usd/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/09/21/deepal-l07-with-huawei-qiankun-ads-se-launched-starting-at-21500-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "550",
+              "name": "550 km (56.1 kWh, MY2026)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 56.12,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.2,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 550,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_SL03",
+                  "name": "Wikipedia: Deepal SL03"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/08/13/most-affordable-model-with-huawei-qiankun-ads-2026-deepal-l07-launched-starting-at-20300-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "660",
+              "name": "660 km (62.8 kWh, MY2026)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 62.8,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.6,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 660,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_SL03",
+                  "name": "Wikipedia: Deepal SL03"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/08/13/most-affordable-model-with-huawei-qiankun-ads-2026-deepal-l07-launched-starting-at-20300-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "deepal-l06",
+      "url_slug": "l06",
+      "name": "L06",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size sedan below the SL03 and L07, launched in China in November 2025 with magnetorheological suspension and a 3 nm cockpit chip. Offered as a BEV and a range-extender.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Deepal_L06",
+          "name": "Wikipedia: Deepal L06"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "C518",
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "268 hp rear motor with a 56.1 or 68.8 kWh LFP pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Deepal_L06_011.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Deepal_L06_011.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "560",
+              "name": "560 km (56.1 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 56.12,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 560,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_L06",
+                  "name": "Wikipedia: Deepal L06"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/11/19/changans-deepal-l06-launches-as-chinas-first-production-car-with-magnetic-ride-suspension-system-used-in-ferrari/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "670",
+              "name": "670 km (68.8 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 68.82,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 670,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_L06",
+                  "name": "Wikipedia: Deepal L06"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/11/19/changans-deepal-l06-launches-as-chinas-first-production-car-with-magnetic-ride-suspension-system-used-in-ferrari/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "deepal-s05",
+      "url_slug": "s05",
+      "name": "S05",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact SUV on the EPA1 platform launched in China in October 2024, sold as a BEV and a range-extender. Europe gets a 68.8 kWh BEV, including a Europe-only 429 hp AWD version; UK sales began in March 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-10",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2026-03",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Deepal_S05",
+          "name": "Wikipedia: Deepal S05"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "C857",
+          "platform": "Changan EPA1",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "China BEV uses a 56 kWh pack; export BEVs use 68.8 kWh.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Deepal_S05_004.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Deepal_S05_004.jpg",
+              "credit": "KitsuneDP",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "510",
+              "name": "510 km RWD (56.1 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 56.12,
+              "battery_basis": "gross",
+              "power_hp": 235,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_S05",
+                  "name": "Wikipedia: Deepal S05"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/20/changans-deepal-s05-enters-market-starting-from-16900-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-68-8",
+              "name": "RWD (68.8 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 68.8,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 485,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_S05",
+                  "name": "Wikipedia: Deepal S05"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/20/changans-deepal-s05-enters-market-starting-from-16900-usd/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "range"
+                  ],
+                  "url": "https://www.electrive.com/2026/02/27/changan-automobile-launches-deepal-s05-electric-suv-in-the-uk/",
+                  "name": "electrive"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.carexpert.com.au/car-news/deepals-delayed-electric-byd-rival-nears-australian-launch",
+                  "name": "CarExpert"
+                }
+              ]
+            },
+            {
+              "slug": "awd-68-8",
+              "name": "AWD (68.8 kWh, Europe)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 68.8,
+              "battery_basis": "gross",
+              "power_hp": 429,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_S05",
+                  "name": "Wikipedia: Deepal S05"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/20/changans-deepal-s05-enters-market-starting-from-16900-usd/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "range"
+                  ],
+                  "url": "https://www.electrive.com/2026/02/27/changan-automobile-launches-deepal-s05-electric-suv-in-the-uk/",
+                  "name": "electrive"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.carexpert.com.au/car-news/deepals-delayed-electric-byd-rival-nears-australian-launch",
+                  "name": "CarExpert"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "deepal-s07",
+      "url_slug": "s07",
+      "name": "S07",
+      "aliases": [
+        "Deepal S7",
+        "Changan Shenlan S7"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size SUV designed in Turin, launched in China in 2023 as the S7 and renamed S07 with the July 2024 update. Sold in China as a BEV and range-extender, and exported as a BEV to Australia, the UK, Europe and elsewhere.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2024-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Deepal_S07",
+          "name": "Wikipedia: Deepal S07"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "S7 (original)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "C673",
+          "platform": "Changan EPA1",
+          "start_year": 2023,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Launch version with 218 hp or 258 hp and 520 or 620 km CLTC.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2023_Chang%27an_Shenlan_S7.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_Chang%27an_Shenlan_S7.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "520",
+              "name": "520 km (218 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 218,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_S07",
+                  "name": "Wikipedia: Deepal S07"
+                }
+              ]
+            },
+            {
+              "slug": "620",
+              "name": "620 km (258 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 258,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_S07",
+                  "name": "Wikipedia: Deepal S07"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "S07 facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Changan EPA1",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Renamed S07 with Huawei ADS SE driver assistance; export BEV uses the 80 kWh pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%2C_Deepal_S07_%D0%B2%D0%BE_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5_%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0_114.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%2C_Deepal_S07_%D0%B2%D0%BE_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5_%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0_114.jpg",
+              "credit": "Nikolai Bulykin",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-80",
+              "name": "RWD (80 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 79.97,
+              "battery_basis": "gross",
+              "power_hp": 258,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 475,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 39990,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": null
+                },
+                {
+                  "market": "AU",
+                  "model_year": null,
+                  "range": 475,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 53900,
+                  "launch_price": null,
+                  "currency": "AUD",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_S07",
+                  "name": "Wikipedia: Deepal S07"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://www.electrive.com/2025/09/18/changan-deepal-s07-launches-in-uk-from-39990",
+                  "name": "electrive"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.carexpert.com.au/car-news/deepal-deal-sees-model-y-rival-fall-below-50000-drive-away",
+                  "name": "CarExpert"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "deepal-e07",
+      "url_slug": "e07",
+      "name": "E07",
+      "aliases": [
+        "Changan Nevo E07",
+        "Changan Qiyuan E07",
+        "Deepal E07 Multitruck"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Crossover with a pickup-style opening load bay, sold in China as the Changan Nevo (Qiyuan) E07 from 2024 and exported as the Deepal E07 'Multitruck'. Australian sales were paused in March 2026 over a child-seat anchorage compliance problem.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": "Changan Nevo E07"
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Deepal_E07",
+          "name": "Wikipedia: Deepal E07"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "CD701",
+          "platform": "Changan SDA",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "90 kWh NMC pack with one rear motor (252 kW) or two motors (440 kW).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Nevo_E07_007.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_E07_007.jpg",
+              "credit": "KitsuneDP",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 89.98,
+              "battery_basis": "gross",
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "AU",
+                  "model_year": null,
+                  "range": 550,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 64900,
+                  "launch_price": null,
+                  "currency": "AUD",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_E07",
+                  "name": "Wikipedia: Deepal E07"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.evee.com.au/blog/2026-deepal-e07-australia-price-specs-and-range/",
+                  "name": "evee"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://www.carexpert.com.au/car-news/2026-deepal-e07-multitruck-price-and-specs",
+                  "name": "CarExpert"
+                }
+              ]
+            },
+            {
+              "slug": "awd-performance",
+              "name": "AWD Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 89.98,
+              "battery_basis": "gross",
+              "power_hp": 590,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "AU",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 73900,
+                  "launch_price": null,
+                  "currency": "AUD",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Deepal_E07",
+                  "name": "Wikipedia: Deepal E07"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.evee.com.au/blog/2026-deepal-e07-australia-price-specs-and-range/",
+                  "name": "evee"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://www.carexpert.com.au/car-news/2026-deepal-e07-multitruck-price-and-specs",
+                  "name": "CarExpert"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Chinese list prices for most Deepal BEV trims not sourced (news headlines give USD conversions only).",
+    "S05 UK price (reported as just under GBP 38,000) and AWD WLTP km figure not confirmed from Changan UK.",
+    "S07 2024 facelift China-market BEV trims not broken out; only the export 80 kWh version is listed.",
+    "SL03/S07 Thai-market versions use NEDC ranges, which the schema cannot hold.",
+    "G318, S09 and Hunter K50 omitted: sources describe them as range-extender models; a BEV G318 was not confirmed.",
+    "Europe (EU) offerings for S05/S07 not sourced."
+  ]
+}

@@ -1,0 +1,179 @@
+{
+ "make": {
+  "slug": "levc",
+  "name": "LEVC",
+  "legacy_id": null,
+  "country": "GB",
+  "headquarters": "Ansty Park, Coventry, England",
+  "founded": 2013,
+  "parent_group": "Zhejiang Geely Holding Group",
+  "website_url": "https://www.levc.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "The London EV Company, maker of London's black cabs, rescued by Geely in 2013 and renamed LEVC in 2017. Its TX taxi and VN5 van are range-extender hybrids; its only battery-electric car is the L380 people carrier, sold in China through Geely Galaxy dealers.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "parent_group",
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/LEVC",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "levc-l380",
+   "url_slug": "l380",
+   "name": "L380",
+   "aliases": [
+    "Geely Galaxy LEVC L380"
+   ],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Large battery-electric MPV with three to eight seats, launched in China in June 2024 and moved into the Geely Galaxy network (as the Galaxy LEVC L380) in 2025. A UK launch is planned for 2026; an extended-range version is sold as the Geely Galaxy V900.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-06",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "L380",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation; 100 kWh FWD or 116/140 kWh NMC packs with 400 kW dual-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LEVC_L380_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:LEVC_L380_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "100-fwd",
+       "name": "100 kWh FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 106,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/LEVC_L380",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "116-awd",
+       "name": "116 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 116.0,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": 506,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/LEVC_L380",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "140",
+       "name": "140 kWh Qilin",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 140.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/LEVC_L380",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "No legacy rows for LEVC.",
+  "TX taxi and VN5 van excluded: both are range-extender (EREV) vehicles.",
+  "L380 ranges: Wikipedia gives 570 km (100 kWh) and 650 km (116 kWh) without a test cycle and 805-825 km CLTC for 140 kWh without a per-trim split, so none recorded; no prices found."
+ ]
+}

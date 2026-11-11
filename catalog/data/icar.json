@@ -1,0 +1,316 @@
+{
+ "make": {
+  "slug": "icar",
+  "name": "iCar",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": null,
+  "founded": 2023,
+  "parent_group": "Chery Automobile",
+  "website_url": null,
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Chery's brand for boxy, lifestyle electric SUVs, unveiled in April 2023, sold abroad as iCaur. Its first model, the iCar 03, was renamed Chery Fulwin X3 in China in 2025.",
+  "sources": [
+   {
+    "fields": [
+     "specs",
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/ICAR_03",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "icar-icar-03",
+   "url_slug": "icar-03",
+   "name": "iCar 03",
+   "aliases": [
+    "iCaur 03",
+    "Chery Fulwin X3",
+    "Chery J6",
+    "Jaecoo J6",
+    "03T"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Boxy electric compact SUV from Chery's iCar brand, sold in China from late 2023 and since August 2025 as the Chery Fulwin X3 there. Exported as the iCaur 03 (Malaysia, South Africa) and the Jaecoo J6 / Chery J6.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-12",
+     "end": null,
+     "local_name": "Chery Fulwin X3 (from 2025)"
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "jaecoo-j6"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/ICAR_03",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Boxy compact SUV unveiled at Auto Shanghai 2023, produced from December 2023; renamed Chery Fulwin X3 in China in August 2025 and exported as the iCaur 03 and Jaecoo J6.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/ICar_03_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:ICar_03_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "03 RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 184,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/ICAR_03",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "03 Dual-motor AWD 69.8 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.8,
+       "battery_basis": null,
+       "power_hp": 279,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/ICAR_03",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "03t",
+       "name": "03T",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/ICAR_03",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "icar-v23",
+   "url_slug": "v23",
+   "name": "V23",
+   "aliases": [
+    "iCaur V23",
+    "Chery V23"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Retro-styled boxy small electric SUV launched in China at the end of 2024, exported as the iCaur V23 and Chery V23 to Southeast Asia and South Africa.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/ICar_V23",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Retro boxy small SUV that debuted at Auto China 2024, in production from December 2024.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/ICar_V23_005_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:ICar_V23_005_(cropped).jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "V23 RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/ICar_V23",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "V23 Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 211,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/ICar_V23",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341).",
+  "iCar 03: RWD battery (65.6-65.7 kWh in some export markets) and range (up to 501 km, cycle not named) not mapped; Fulwin X3 (185-315 kW) versions not listed separately.",
+  "V23: batteries (60 kWh RWD / 82 kWh AWD in text vs 50.6-81.7 kWh in infobox) conflict; CLTC up to 550 km not mapped.",
+  "iCar headquarters and website not sourced; brand status after the 2025 Fulwin renaming not confirmed.",
+  "Not included: iCar V27 (range-extender), EREV versions of the 03/03T."
+ ]
+}

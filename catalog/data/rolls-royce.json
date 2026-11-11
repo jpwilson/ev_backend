@@ -1,0 +1,466 @@
+{
+  "make": {
+    "slug": "rolls-royce",
+    "name": "Rolls-Royce",
+    "legacy_id": 31,
+    "country": "GB",
+    "headquarters": "Goodwood, West Sussex, England",
+    "founded": 1904,
+    "parent_group": "BMW Group",
+    "website_url": "https://www.rolls-roycemotorcars.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "British ultra-luxury car maker owned by the BMW Group and building its cars at Goodwood. The Spectre coupe, delivered from late 2023, is its first and so far only battery-electric model.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "rolls-royce-spectre",
+      "url_slug": "spectre",
+      "name": "Spectre",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.rolls-roycemotorcars.com/en_US/showroom/spectre.html",
+      "description": "Rolls-Royce's first battery-electric car, a two-door, four-seat ultra-luxury coupe built at Goodwood on the brand's Architecture of Luxury platform. Deliveries began in late 2023; a more powerful Black Badge version followed in 2025 and the updated Series II arrived in 2026 with more range and a NACS port in the US.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023-10",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://electrek.co/2026/06/02/rolls-royce-spectre-series-ii-nacs-308-mile-range/",
+          "name": "Electrek"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Architecture of Luxury",
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "First Spectre: two BMW-built separately excited motors, about 102 kWh usable battery, all-wheel drive.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/rolls_royce_spectre.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "spectre",
+              "name": "Spectre",
+              "legacy_ids": [
+                189
+              ],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 102.0,
+              "battery_basis": "usable",
+              "power_hp": 577,
+              "torque_lbft": 664,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 195,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 291,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 420000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 277,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 397750,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 277,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.jdpower.com/cars/2024/rolls-royce/spectre",
+                  "name": "J.D. Power"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/rolls-royce/spectre/2025/",
+                  "name": "Kelley Blue Book"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47480.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48442.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49979.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "black-badge",
+              "name": "Spectre Black Badge",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 102.0,
+              "battery_basis": "usable",
+              "power_hp": 650,
+              "torque_lbft": 793,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 266,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 467750,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 266,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/rolls-royce/spectre/2025/",
+                  "name": "Kelley Blue Book"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.autoexpress.co.uk/rolls-royce/365547/new-rolls-royce-ev-confirmed-alongside-ps300m-goodwood-investment",
+                  "name": "Auto Express"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48440.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49977.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2027",
+          "name": "Series II",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Architecture of Luxury",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Mid-life update revealed June 2026: re-engineered cells for about 16-18% more range, more power, shorter charging times and a native NACS port in the US.",
+          "images": [],
+          "sources": [
+            {
+              "fields": [
+                "status"
+              ],
+              "url": "https://electrek.co/2026/06/02/rolls-royce-spectre-series-ii-nacs-308-mile-range/",
+              "name": "Electrek"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "spectre",
+              "name": "Spectre Series II",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 593,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 324,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 629,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://electrek.co/2026/06/02/rolls-royce-spectre-series-ii-nacs-308-mile-range/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://topgear.com/car-news/electric/new-rolls-royce-spectre-series-ii-more-power-more-range-more-rolls-royce",
+                  "name": "Top Gear"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50859.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "black-badge",
+              "name": "Spectre Black Badge Series II",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 670,
+              "torque_lbft": 811,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 324,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://electrek.co/2026/06/02/rolls-royce-spectre-series-ii-nacs-308-mile-range/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50857.shtml",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 189,
+      "note": "Original (2024-2026) Spectre. Legacy price 422,750 looks like MSRP incl. destination; base MSRP was 420,000 (2024) and 397,750 (2025). vehicle_class says 'Luxury Sedan' but it is a two-door coupe. Superseded by Spectre Series II (MY2027, 324 mi EPA, NACS)."
+    }
+  ],
+  "gaps": [
+    "Spectre Series II US price not found (Electrek quotes the older 397,750 base); Series II battery size not published.",
+    "Series II standard torque conflicts (Wikipedia 900 Nm vs Electrek 749 lb-ft), left null.",
+    "Spectre 0-60 and top speed not sourced. No WLTP km figure found for the original Spectre (only 321 mi).",
+    "Reports of a second Rolls-Royce EV (an SUV) are unconfirmed; not added.",
+    "No verified Commons image of the Series II yet."
+  ]
+}

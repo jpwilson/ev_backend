@@ -1,0 +1,238 @@
+{
+  "make": {
+    "slug": "maextro",
+    "name": "Maextro",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Hefei, Anhui, China",
+    "founded": 2024,
+    "parent_group": "JAC Group",
+    "website_url": "https://hima.auto/zunjie/",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Ultra-luxury brand built by JAC with Huawei under the HIMA alliance (Zunjie in Chinese), introduced in November 2024. Its first car, the S800 sedan, launched in May 2025 from 708,000 yuan.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Maextro",
+        "name": "Wikipedia: Maextro"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "maextro-s800",
+      "url_slug": "s800",
+      "name": "S800",
+      "aliases": [
+        "Zunjie S800"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size ultra-luxury sedan launched in May 2025, offered as a BEV and a range-extender; a 120 kWh Grand Design version followed in 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-05",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Maextro_S800",
+          "name": "Wikipedia: Maextro S800"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "BEV: dual motors (390 kW) and a 97 kWh CATL NMC pack with 5C charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/2025_Maextro_S800_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Maextro_S800_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-5-seat",
+              "name": "EV dual motor 5-seat",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 94.364,
+              "battery_basis": "usable",
+              "power_hp": 523,
+              "torque_lbft": 496,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.3,
+              "top_speed_mph": 131,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 670,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Maextro_S800",
+                  "name": "Wikipedia: Maextro S800"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://www.ithome.com/0/861/777.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "ev-4-seat",
+              "name": "EV dual motor 4-seat",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 94.364,
+              "battery_basis": "usable",
+              "power_hp": 523,
+              "torque_lbft": 496,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": 131,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Maextro_S800",
+                  "name": "Wikipedia: Maextro S800"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://www.ithome.com/0/861/777.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "ev-grand-design",
+              "name": "EV Grand Design (120 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 120.0,
+              "battery_basis": "gross",
+              "power_hp": 523,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.7,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 780,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Maextro_S800",
+                  "name": "Wikipedia: Maextro S800"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Web search budget ran out; data comes from Wikipedia and the news articles it cites.",
+    "Maextro S800 BEV list prices by trim not sourced (708,000 yuan launch price is the range-wide start).",
+    "Maextro V800 and V680 omitted (range-extender MPVs)."
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "make": {
+    "slug": "e-go",
+    "name": "e.GO",
+    "legacy_id": null,
+    "country": "DE",
+    "headquarters": "Aachen, Germany",
+    "founded": 2015,
+    "parent_group": null,
+    "website_url": null,
+    "status": "defunct",
+    "status_date": "2024-05-29",
+    "status_details": "Filed for insolvency in April 2020 and again in March 2024; liquidation was announced on 29 May 2024 and operations had ceased by June 2024.",
+    "description": "e.GO Mobile was founded in 2015 by RWTH Aachen professor Günther Schuh to build cheap electric city cars. It produced the small e.GO Life from 2019; its successor, the e.wave X, never entered production.",
+    "sources": [
+      {
+        "fields": [
+          "status",
+          "specs"
+        ],
+        "url": "https://en.wikipedia.org/wiki/E.GO_Mobile",
+        "name": "Wikipedia: e.GO Mobile"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "e-go-life",
+      "url_slug": "life",
+      "name": "Life",
+      "aliases": [
+        "e.GO Life"
+      ],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Small four-seat electric city car built in Aachen from April 2019; the first version had a 21.5 kWh battery and 140 km WLTP range. More than 500 First Edition cars were delivered by early 2020.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2019-05",
+          "end": "2024",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/E.GO_Mobile",
+          "name": "Wikipedia: e.GO Mobile"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "The only production version.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/E.GO_Life_in_White.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:E.GO_Life_in_White.jpg",
+              "credit": "E.GOMobile",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Life",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 21.5,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2019,
+                  "range": 140,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/E.GO_Mobile",
+                  "name": "Wikipedia: e.GO Mobile"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "e-go-e-wave-x",
+      "url_slug": "e-wave-x",
+      "name": "e.wave X",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Successor to the Life with a 30.4 kWh exchangeable battery, launched in May 2022 with sales opening late 2022, but production never started before the 2024 liquidation.",
+      "markets": {
+        "EU": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/E.GO_Mobile",
+          "name": "Wikipedia: e.GO Mobile"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Never produced.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/E.wave_X_%28Showcar%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:E.wave_X_(Showcar).jpg",
+              "credit": "Alexfisch79",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "e.wave X (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 30.4,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/E.GO_Mobile",
+                  "name": "Wikipedia: e.GO Mobile"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "e.GO Life 20/40/60 power versions and EUR prices not sourced; only the base battery and WLTP range are filled.",
+    "e.GO Life end year (2024) inferred from the company's liquidation; actual last production date not sourced."
+  ]
+}

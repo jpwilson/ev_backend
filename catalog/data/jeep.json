@@ -1,0 +1,974 @@
+{
+ "make": {
+  "slug": "jeep",
+  "name": "Jeep",
+  "legacy_id": null,
+  "country": "US",
+  "headquarters": "Auburn Hills, Michigan, USA",
+  "founded": 1941,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.jeep.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Jeep is Stellantis's off-road and SUV brand. Its battery-electric models are the Avenger and Compass in Europe and the Wagoneer S and Recon in North America.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Jeep",
+    "name": "Wikipedia: Jeep"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "jeep-avenger",
+   "url_slug": "avenger",
+   "name": "Avenger",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.jeep.co.uk/avenger",
+   "description": "The Avenger is Jeep's small SUV for Europe and its first battery-electric model, European Car of the Year 2023. It shares the e-CMP platform with the Fiat 600e and Alfa Romeo Junior; it is not sold in the US, Canada or China.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "fiat-600e"
+    },
+    {
+     "relation": "twin",
+     "model": "alfa-romeo-junior"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Jeep_Avenger",
+     "name": "Wikipedia: Jeep Avenger"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "STLA Small (e-CMP)",
+     "start_year": 2023,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Jeep's first battery-electric car, revealed September 2022 and built in Tychy, Poland, with a 115 kW front motor and 54 kWh battery; deliveries from early 2023.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Jeep_Avenger_Elektro_Summit_%E2%80%93_f_18052025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Jeep_Avenger_Elektro_Summit_%E2%80%93_f_18052025.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 DE",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Jeep_Avenger",
+       "name": "Wikipedia: Jeep Avenger"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric-54-kwh",
+       "name": "Electric 54 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 54.0,
+       "battery_basis": "gross",
+       "power_hp": 154,
+       "torque_lbft": 192,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 93,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 400,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38500,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 28499,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jeep_Avenger",
+         "name": "Wikipedia: Jeep Avenger"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/jeep-avenger-54-kwh-156hp-electric-47331",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price",
+          "battery"
+         ],
+         "url": "https://ev-database.org/car/1816/Jeep-Avenger-Electric",
+         "name": "EV Database (archived pre-facelift)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelifted Avenger on sale from May 2026 with the same 115 kW / 54 kWh electric powertrain.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/2027_Jeep_Avenger_EV_IMG_8306.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2027_Jeep_Avenger_EV_IMG_8306.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "start_year"
+       ],
+       "url": "https://ev-database.org/car/3723/Jeep-Avenger-Electric",
+       "name": "EV Database"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric-54-kwh",
+       "name": "Electric 54 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 54.0,
+       "battery_basis": "gross",
+       "power_hp": 154,
+       "torque_lbft": 192,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 400,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38500,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 32099,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/jeep-avenger-facelift-2026-54-kwh-156hp-electric-57063",
+         "name": "auto-data.net: Avenger (facelift 2026)"
+        },
+        {
+         "fields": [
+          "price",
+          "status"
+         ],
+         "url": "https://ev-database.org/car/3723/Jeep-Avenger-Electric",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "jeep-compass",
+   "url_slug": "compass",
+   "name": "Compass",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.jeep.co.uk/compass",
+   "description": "The Compass is Jeep's compact SUV. Only the third generation (2025-) has a battery-electric version, sold in Europe; the North American third-generation Compass is planned with petrol power from Belvidere, Illinois.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "start_year"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Jeep_Compass",
+     "name": "Wikipedia: Jeep Compass"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "Third generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "J4U",
+     "platform": "STLA Medium",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Third-generation Compass built in Melfi, Italy, revealed May 2025 and offered with mild-hybrid, plug-in hybrid and battery-electric power; the 74 kWh front-drive EV came first, with a larger-battery Long Range and a dual-motor 4xe EV added from June 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Jeep_Compass_e_%28J4U%29_Leonberg_2026_IMG_8766.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Jeep_Compass_e_%28J4U%29_Leonberg_2026_IMG_8766.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "start_year"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Jeep_Compass",
+       "name": "Wikipedia: Jeep Compass"
+      },
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://www.motor1.com/news/758547/2026-jeep-compass-ev-debut-specs/",
+       "name": "Motor1 (May 2025): 2026 Jeep Compass EV debut"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric-74-kwh",
+       "name": "Electric 74 kWh FWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 73.7,
+       "battery_basis": "usable",
+       "power_hp": 213,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.5,
+       "top_speed_mph": 112,
+       "dc_kw": 160,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 500,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 35499,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "start_year"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jeep_Compass",
+         "name": "Wikipedia: Jeep Compass"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.motor1.com/news/758547/2026-jeep-compass-ev-debut-specs/",
+         "name": "Motor1 (May 2025): 2026 Jeep Compass EV debut"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/jeep-compass-iii-e-74-kwh-213hp-electric-54211",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price",
+          "battery"
+         ],
+         "url": "https://ev-database.org/car/3684/Jeep-Compass-Electric-74-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "electric-long-range",
+       "name": "Electric Long Range FWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 96.3,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.3,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 51900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://ev-database.org/car/3661/Jeep-Compass-Electric-Long-Range",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "electric-4xe",
+       "name": "Electric 4xe AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 96.1,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 54900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 45200,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://ev-database.org/car/3662/Jeep-Compass-Electric-4xe",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "jeep-wagoneer-s",
+   "url_slug": "wagoneer-s",
+   "name": "Wagoneer S",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.jeep.com/wagoneer-s.html",
+   "description": "The Wagoneer S is Jeep's first global battery-electric SUV, a five-seat dual-motor crossover with a 100.5 kWh battery. It is sold in the US and Canada; in June 2026 Jeep said it would not be sold in Europe as planned.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2025-01",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "jeep-recon"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "markets",
+      "price"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_S",
+     "name": "Wikipedia: Jeep Wagoneer S"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "STLA Large",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Dual-motor electric mid-size SUV on STLA Large, built in Toluca, Mexico; 2024 Launch Edition (600 hp) reached dealers in January 2025, the cheaper 500 hp Limited followed for 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2024_Jeep_Wagoneer_S_Launch_Edition%2C_front_right%2C_09-12-2026.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Jeep_Wagoneer_S_Launch_Edition%2C_front_right%2C_09-12-2026.jpg",
+       "credit": "MercurySable99",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "markets",
+        "price"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_S",
+       "name": "Wikipedia: Jeep Wagoneer S"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "launch-edition",
+       "name": "Launch Edition",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.5,
+       "battery_basis": "gross",
+       "power_hp": 600,
+       "torque_lbft": 617,
+       "accel_0_60_s": 3.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "markets",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_S",
+         "name": "Wikipedia: Jeep Wagoneer S"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/jeep-wagoneer-s-100.5-kwh-608hp-4wd-electric-51919",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48791",
+         "name": "fueleconomy.gov (EPA) vehicle 48791"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49093",
+         "name": "fueleconomy.gov (EPA) vehicle 49093"
+        }
+       ]
+      },
+      {
+       "slug": "limited",
+       "name": "Limited",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.5,
+       "battery_basis": "gross",
+       "power_hp": 500,
+       "torque_lbft": 524,
+       "accel_0_60_s": 4.0,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 66995,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "markets",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jeep_Wagoneer_S",
+         "name": "Wikipedia: Jeep Wagoneer S"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/jeep-wagoneer-s-100.5-kwh-500hp-4wd-electric-53658",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://jeepspecs.com/model-guides/2026-jeep-wagoneer-s-model-guide/",
+         "name": "JeepSpecs 2026 model guide"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49093",
+         "name": "fueleconomy.gov (EPA) vehicle 49093"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50209",
+         "name": "fueleconomy.gov (EPA) vehicle 50209"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "jeep-recon",
+   "url_slug": "recon",
+   "name": "Recon",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.jeep.com/recon.html",
+   "description": "The Recon is a battery-electric, Wrangler-style off-road SUV first shown in 2022 and launched in North America in June 2026. It shares the STLA Large platform with the Wagoneer S; Jeep has said Europe will follow in 2027.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2026-06",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "upcoming",
+     "launch": "2027",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "jeep-wagoneer-s"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Jeep_Recon",
+     "name": "Wikipedia: Jeep Recon"
+    },
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs",
+      "status"
+     ],
+     "url": "https://electrek.co/2026/06/26/jeep-recon-ev-on-sale-67000-with-limited-range/",
+     "name": "Electrek (26 June 2026): Recon on sale"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "STLA Large",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Trail Rated electric off-roader with removable doors, built in Toluca, Mexico; launched in June 2026 in the Moab trim only.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/26_Jeep_Recon_Moab_AZIAS.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:26_Jeep_Recon_Moab_AZIAS.jpg",
+       "credit": "HJUdall",
+       "license": "CC0 1.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "markets"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Jeep_Recon",
+       "name": "Wikipedia: Jeep Recon"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "moab",
+       "name": "Moab",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 650,
+       "torque_lbft": 620,
+       "accel_0_60_s": 3.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 66995,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs",
+          "status"
+         ],
+         "url": "https://electrek.co/2026/06/26/jeep-recon-ev-on-sale-67000-with-limited-range/",
+         "name": "Electrek (26 June 2026): Recon on sale"
+        },
+        {
+         "fields": [
+          "specs",
+          "markets"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jeep_Recon",
+         "name": "Wikipedia: Jeep Recon"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/jeep-recon-100.5-kwh-670hp-4wd-55808",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50449",
+         "name": "fueleconomy.gov (EPA) vehicle 50449"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Compass Long Range and 4xe EVs: power, torque and WLTP range not sourced (EV Database detail pages rate-limited); Motor1 quotes 375 hp for the AWD EV but its own table says 315 hp, so left null.",
+  "Wagoneer S and Recon DC peak kW and connector (CCS1 vs NACS) not confirmed.",
+  "Wagoneer S 2026 MSRP sources disagree ($66,000-$67,995); left null. Automotive News (cited by Wikipedia) reported Jeep skipping MY2026, but EPA lists 2026 ratings.",
+  "Recon non-Moab trims (about 250 mi estimated) announced but not yet on sale; not listed as variants.",
+  "Avenger Japan/Korea launches mentioned as planned on Wikipedia; not confirmed so not listed as markets.",
+  "No Commons photo of the facelifted (2026) Avenger used; first-generation photo only."
+ ]
+}

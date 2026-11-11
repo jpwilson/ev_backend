@@ -1,0 +1,391 @@
+{
+  "make": {
+    "slug": "microlino",
+    "name": "Microlino",
+    "legacy_id": null,
+    "country": "CH",
+    "headquarters": null,
+    "founded": null,
+    "parent_group": "Micro Mobility Systems",
+    "website_url": "https://www.microlino-car.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Swiss brand of Micro Mobility Systems, the Ouboter family's scooter company, making a modern electric bubble car inspired by the Isetta. It was first shown at the 2016 Geneva show and has been built in Turin, Italy since 2022, with a moped-class Lite version from 2024.",
+    "sources": [
+      {
+        "fields": [
+          "specs",
+          "range",
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Microlino",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "status",
+          "markets"
+        ],
+        "url": "https://www.microlino-car.com/en",
+        "name": "Microlino"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "microlino-microlino",
+      "url_slug": "microlino",
+      "name": "Microlino",
+      "aliases": [
+        "Microlino 2.0",
+        "Microlino Lite",
+        "Microlino Spiaggina"
+      ],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.microlino-car.com/en",
+      "description": "Two-seat electric microcar with a front-opening door, shown in 2016 and in series production in Turin since 2022 (L7e quadricycle). The Microlino Lite (L6e, 45 km/h) followed in February 2024 and the open Spiaggina in October 2024.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Microlino",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "markets"
+          ],
+          "url": "https://www.microlino-car.com/en",
+          "name": "Microlino"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Series production (Microlino 2.0)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Series car with a steel-aluminium unibody, 12.5 kW rear motor and 6, 10.5 or 14 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Micro_Microlino_Pioneer_Series_Rasant_Automobilmesse_Metzingen_2024_IMG_2235.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Micro_Microlino_Pioneer_Series_Rasant_Automobilmesse_Metzingen_2024_IMG_2235.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "6kwh",
+              "name": "Microlino 6 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 6.0,
+              "battery_basis": null,
+              "power_hp": 17,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 56,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 91,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Microlino",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "10-5kwh",
+              "name": "Microlino 10.5 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 10.5,
+              "battery_basis": null,
+              "power_hp": 17,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 56,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 177,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Microlino",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "14kwh",
+              "name": "Microlino 14 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 14.0,
+              "battery_basis": null,
+              "power_hp": 17,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 56,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 230,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Microlino",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "lite-5-5kwh",
+              "name": "Microlino Lite 5.5 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 5.5,
+              "battery_basis": null,
+              "power_hp": 8,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 28,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 100,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Microlino",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "lite-10-5kwh",
+              "name": "Microlino Lite 10.5 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 10.5,
+              "battery_basis": null,
+              "power_hp": 8,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 28,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 180,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Microlino",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "spiaggina",
+              "name": "Spiaggina",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": "convertible",
+              "seats": 2,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 17,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 56,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 177,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Microlino",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Microlino prices (EUR/CHF/GBP) not sourced; Wikipedia gives two slightly different battery/range sets (6/10.5/14 kWh with about 91/177/230 km vs an infobox 5.5-15 kWh and 93-228 km); the specification-section figures are used.",
+    "Microlino Lite power converted from 6 kW (8 hp) and standard car from 12.5 kW (17 hp); Spiaggina battery not stated.",
+    "Microlino's website lists the United States among its countries, but no US sales or homologation could be confirmed, so no US market is recorded.",
+    "No 2025-2026 news on Micro Mobility Systems' finances or production volume could be checked (web search budget ran out); a June 2024 Le Monde report said Microlino was seeking help to keep building cars in Italy."
+  ]
+}

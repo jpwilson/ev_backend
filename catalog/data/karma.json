@@ -1,0 +1,220 @@
+{
+  "make": {
+    "slug": "karma",
+    "name": "Karma",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Irvine, California, USA",
+    "founded": 2014,
+    "parent_group": null,
+    "website_url": "https://www.karmaautomotive.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Karma Automotive was formed in 2014 by China's Wanxiang Group from the assets of the bankrupt Fisker Automotive and builds range-extended luxury cars in Moreno Valley, California. Its only battery-electric models are the cancelled GSe-6 and the upcoming Kaveya super coupe; the Revero, GS-6, Amaris and Gyesera are plug-in or range-extended hybrids and are excluded.",
+    "sources": [
+      {
+        "fields": [
+          "status",
+          "specs"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Karma_Automotive",
+        "name": "Wikipedia: Karma Automotive"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "karma-gse-6",
+      "url_slug": "gse-6",
+      "name": "GSe-6",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Battery-electric version of the GS-6 sedan (itself derived from the Fisker Karma and Revero), announced in 2021 with an 85 kWh battery and up to 230 miles of range, and a 105 kWh version in development. Development was cancelled in 2023.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Karma_Automotive",
+          "name": "Wikipedia: Karma Automotive"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Announced 2021; cancelled 2023.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "GSe-6 (85 kWh)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 85.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 230,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Karma_Automotive",
+                  "name": "Wikipedia: Karma Automotive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "karma-kaveya",
+      "url_slug": "kaveya",
+      "name": "Kaveya",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": "https://www.karmaautomotive.com/kaveya",
+      "description": "Battery-electric super coupe with butterfly doors, first shown as a concept in 2023 and as a production-style car in 2025. Karma markets it as its 'Electric Super Coupe' but has not published specifications, price or a delivery date.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://www.karmaautomotive.com/kaveya",
+          "name": "Karma Automotive: Kaveya"
+        },
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Karma_Automotive",
+          "name": "Wikipedia: Karma Automotive"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Production-style car shown in 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Karma_Kaveya_2025.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Karma_Kaveya_2025.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Kaveya",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.karmaautomotive.com/kaveya",
+                  "name": "Karma Automotive: Kaveya"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "GSe-6: whether any customer cars were delivered before the 2023 cancellation is not stated; Wikipedia repeats GS-6 power figures for it, so power is left null. GSe-6 drivetrain not sourced; left null.",
+    "Kaveya specs (Karma has quoted about 1,000 hp in earlier coverage) not on the official page; left null. Start year 2026 is a placeholder; no timing published.",
+    "Ivara (utility vehicle) powertrain unknown; not included."
+  ]
+}

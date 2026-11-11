@@ -1,0 +1,1572 @@
+{
+ "make": {
+  "slug": "lucid",
+  "name": "Lucid",
+  "legacy_id": 4,
+  "country": "US",
+  "headquarters": "Newark, California, USA",
+  "founded": 2007,
+  "parent_group": null,
+  "website_url": "https://lucidmotors.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "American luxury EV maker founded in 2007 as Atieva and renamed Lucid Motors in 2016; Saudi Arabia's Public Investment Fund has been its majority owner since 2019. It builds the Air sedan and Gravity SUV in Casa Grande, Arizona, with midsize models planned from 2027.",
+  "sources": [
+   {
+    "fields": [
+     "status",
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Lucid_Motors",
+    "name": "Wikipedia: Lucid Motors"
+   },
+   {
+    "fields": [
+     "status"
+    ],
+    "url": "https://247wallst.com/investing/2026/11/10/saudi-arabia-just-gave-lucid-another-1-75-billion-to-reach-its-cheaper-suv",
+    "name": "24/7 Wall St. (10 Nov 2026)"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "lucid-air",
+   "url_slug": "air",
+   "name": "Air",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://lucidmotors.com/air",
+   "description": "Lucid's first car, a large luxury electric sedan built in Casa Grande, Arizona since September 2021, with deliveries from 30 October 2021. It has run from the Dream Edition launch models through Pure, Touring, Grand Touring and the 1,234 hp Sapphire, and holds some of the longest EPA ranges of any EV.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2021-10",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+     "name": "Wikipedia: Lucid Air"
+    },
+    {
+     "fields": [
+      "markets"
+     ],
+     "url": "https://lucidmotors.com/de-de/air",
+     "name": "Lucid Germany: Air"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Lucid Electric Advanced Platform (LEAP)",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Original Air, on sale from the 2022 model year; no facelift so far, with trims and efficiency updated by model year (the Touring rose from 406 to 431 mi EPA for 2026).",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/lucid_air.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/lucid_air_sapphire.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+       "name": "Wikipedia: Lucid Air"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "dream-edition-range",
+       "name": "Dream Edition Range",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2022,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 112.0,
+       "battery_basis": null,
+       "power_hp": 933,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.7,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 520,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44493.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dream-edition-performance",
+       "name": "Dream Edition Performance",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2022,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 1111,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 471,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44491.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "grand-touring",
+       "name": "Grand Touring",
+       "legacy_ids": [
+        45
+       ],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 112.0,
+       "battery_basis": null,
+       "power_hp": 819,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.0,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 516,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 516,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 516,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 512,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 512,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 512,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 114900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 960,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 130900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/air",
+         "name": "Lucid: Air (2027 model year)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/de-de/air",
+         "name": "Lucid Germany: Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44495.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46303.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47836.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48371.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49966.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50843.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "grand-touring-performance",
+       "name": "Grand Touring Performance",
+       "legacy_ids": [
+        44
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 1050,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 446,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46306.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "touring",
+       "name": "Touring",
+       "legacy_ids": [
+        46
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 92.0,
+       "battery_basis": null,
+       "power_hp": 620,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 425,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 411,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 406,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 431,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 431,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 79900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 780,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 99900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/air",
+         "name": "Lucid: Air (2027 model year)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/de-de/air",
+         "name": "Lucid Germany: Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46309.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47839.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48377.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49972.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50849.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "pure-awd",
+       "name": "Pure AWD",
+       "legacy_ids": [
+        47
+       ],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 480,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46307.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "pure-rwd",
+       "name": "Pure RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 88.0,
+       "battery_basis": null,
+       "power_hp": 430,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 419,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 70900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 831,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 85900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/air",
+         "name": "Lucid: Air (2027 model year)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/de-de/air",
+         "name": "Lucid Germany: Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47454.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48374.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49969.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50846.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "sapphire",
+       "name": "Sapphire",
+       "legacy_ids": [
+        8
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 1234,
+       "torque_lbft": null,
+       "accel_0_60_s": 1.89,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 427,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 427,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 427,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 427,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 249000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 694,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 250000,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lucid_Air",
+         "name": "Wikipedia: Lucid Air"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/air",
+         "name": "Lucid: Air (2027 model year)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/de-de/air",
+         "name": "Lucid Germany: Air"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47456.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48376.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49971.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50848.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lucid-gravity",
+   "url_slug": "gravity",
+   "name": "Gravity",
+   "aliases": [
+    "Project Gravity"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://lucidmotors.com/gravity",
+   "description": "Three-row electric SUV for up to seven adults, unveiled on 16 November 2023; the first production unit was built on 5 December 2024 in Casa Grande, Arizona. Launched as the Grand Touring, followed by the cheaper Touring and the 1,070 hp GT-S; Saudi deliveries began in October 2025.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2024-12",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Lucid_Motors",
+     "name": "Wikipedia: Lucid Motors"
+    },
+    {
+     "fields": [
+      "markets"
+     ],
+     "url": "https://lucidmotors.com/de-de/gravity",
+     "name": "Lucid Germany: Gravity"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Original Gravity, sold from the 2025 model year.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/lucid_gravity.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Lucid_Motors",
+       "name": "Wikipedia: Lucid Motors"
+      },
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Lucid_Gravity",
+       "name": "Wikipedia: Lucid Gravity"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "grand-touring",
+       "name": "Grand Touring",
+       "legacy_ids": [
+        48
+       ],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 828,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 450,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 450,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 450,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 98900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 739,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 119900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/gravity",
+         "name": "Lucid: Gravity (2027 model year)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/de-de/gravity",
+         "name": "Lucid Germany: Gravity"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49110.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49670.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50652.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "dream-edition",
+       "name": "Dream Edition",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 420,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49675.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "touring",
+       "name": "Touring",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 560,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.0,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 337,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 337,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 79900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 545,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 94900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/gravity",
+         "name": "Lucid: Gravity (2027 model year)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/de-de/gravity",
+         "name": "Lucid Germany: Gravity"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50221.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50658.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "gt-s",
+       "name": "GT-S",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 1070,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 373,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 125900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://lucidmotors.com/gravity",
+         "name": "Lucid: Gravity (2027 model year)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lucid-cosmos",
+   "url_slug": "cosmos",
+   "name": "Cosmos",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "First model on Lucid's midsize platform, named at the 12 March 2026 Investor Day: an electric SUV with a 69 kWh pack and about 300 miles of range, priced from under $50,000. Production was first planned for late 2026 and is now planned for the second half of 2027.",
+   "markets": {
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "price",
+      "status"
+     ],
+     "url": "https://electrek.co/2026/03/12/lucid-lcid-reveals-two-new-midsize-evs-starting-under-50000/",
+     "name": "Electrek (12 Mar 2026)"
+    },
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://247wallst.com/investing/2026/11/10/saudi-arabia-just-gave-lucid-another-1-75-billion-to-reach-its-cheaper-suv",
+     "name": "24/7 Wall St. (10 Nov 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Lucid midsize platform",
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Announced; start year follows the planned second-half 2027 production start.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "price",
+        "status"
+       ],
+       "url": "https://electrek.co/2026/03/12/lucid-lcid-reveals-two-new-midsize-evs-starting-under-50000/",
+       "name": "Electrek (12 Mar 2026)"
+      },
+      {
+       "fields": [
+        "status",
+        "years"
+       ],
+       "url": "https://247wallst.com/investing/2026/11/10/saudi-arabia-just-gave-lucid-another-1-75-billion-to-reach-its-cheaper-suv",
+       "name": "24/7 Wall St. (10 Nov 2026)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "announced",
+       "name": "Announced specification",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": null,
+         "range": 300,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://electrek.co/2026/03/12/lucid-lcid-reveals-two-new-midsize-evs-starting-under-50000/",
+         "name": "Electrek (12 Mar 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lucid-earth",
+   "url_slug": "earth",
+   "name": "Earth",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Second midsize Lucid SUV named in March 2026, aimed at a more adventurous buyer and due about a year after the Cosmos. No specifications have been published.",
+   "markets": {
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "lucid-cosmos"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "price",
+      "status"
+     ],
+     "url": "https://electrek.co/2026/03/12/lucid-lcid-reveals-two-new-midsize-evs-starting-under-50000/",
+     "name": "Electrek (12 Mar 2026)"
+    },
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://247wallst.com/investing/2026/11/10/saudi-arabia-just-gave-lucid-another-1-75-billion-to-reach-its-cheaper-suv",
+     "name": "24/7 Wall St. (10 Nov 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2028",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Lucid midsize platform",
+     "start_year": 2028,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Announced only; start year is provisional (about a year after Cosmos).",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "price",
+        "status"
+       ],
+       "url": "https://electrek.co/2026/03/12/lucid-lcid-reveals-two-new-midsize-evs-starting-under-50000/",
+       "name": "Electrek (12 Mar 2026)"
+      },
+      {
+       "fields": [
+        "status",
+        "years"
+       ],
+       "url": "https://247wallst.com/investing/2026/11/10/saudi-arabia-just-gave-lucid-another-1-75-billion-to-reach-its-cheaper-suv",
+       "name": "24/7 Wall St. (10 Nov 2026)"
+      }
+     ],
+     "variants": []
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 8,
+   "note": "Air Sapphire row had $69,900 price, 512 mi range and 113 kWh: none of these are Sapphire figures (Sapphire: $249,000, 427 mi EPA). Generation '2021' should be the 2022-model-year Air."
+  },
+  {
+   "legacy_id": 44,
+   "note": "Submodel misspelled 'Ground Touring Performance'; it is the 2023-only Grand Touring Performance (1,050 hp, 446 mi EPA). The 1.89 s / 205 mph values are Sapphire figures."
+  },
+  {
+   "legacy_id": 45,
+   "note": "Grand Touring: legacy 469 mi is the 21-inch-wheel figure; 19-inch EPA is 512-516 mi. $125,600 is an old price (2027 MY: $114,900)."
+  },
+  {
+   "legacy_id": 46,
+   "note": "Touring: legacy 411 mi is the 2024 figure; 2026-2027 EPA is 431 mi. $85,900 is an old price (2027 MY: $79,900)."
+  },
+  {
+   "legacy_id": 47,
+   "note": "Pure row mixes the 2023 Pure AWD (410 mi, $77,400 original price) with the RWD's 4.5 s. Claimed on Pure AWD (2023 only); the current Pure is the RWD (420 mi, $70,900)."
+  },
+  {
+   "legacy_id": 48,
+   "note": "Gravity 'Launch Edition' row mixes the Grand Touring's 450 mi and 3.4 s with the Touring's $79,900 price. Claimed on Grand Touring (2027 MY: $98,900)."
+  }
+ ],
+ "gaps": [
+  "Historical US prices (2022-2026 model years) for Air and Gravity trims not sourced; only 2027 model-year prices from lucidmotors.com.",
+  "Battery capacity for Sapphire, Dream Edition Performance, GT Performance and all Gravity trims not sourced; Air battery basis (gross/usable) unknown.",
+  "Torque, top speed and DC charging peak per trim not sourced (Lucid pages quote charger ratings, not vehicle peaks).",
+  "Charge connector (CCS1 vs NACS) by model year not sourced.",
+  "Gravity Dream Edition: only the 2026 EPA rating (420 mi) found; power, price and production run not sourced.",
+  "Gravity GT-S delivery start not confirmed; range 373 mi is Lucid's projection.",
+  "Canada, UK and Saudi Arabia offerings not recorded; EU offerings use German list prices and the top WLTP figure.",
+  "Lucid's unnamed third midsize model and the Lunar robotaxi concept are not included (no production plans or specs)."
+ ]
+}

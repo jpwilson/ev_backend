@@ -1,0 +1,142 @@
+{
+  "make": {
+    "slug": "sono",
+    "name": "Sono Motors",
+    "legacy_id": null,
+    "country": "DE",
+    "headquarters": "Munich, Germany",
+    "founded": 2016,
+    "parent_group": null,
+    "website_url": "https://sonomotors.com",
+    "status": "defunct",
+    "status_date": "2023-02",
+    "status_details": "Cancelled the Sion and stopped car development in February 2023, entered insolvency proceedings in 2023 and pivoted to solar kits for buses; Wikipedia reports the company went bankrupt in the third quarter of 2026.",
+    "description": "Sono Motors was a Munich startup that crowdfunded the Sion, a cheap five-seat electric hatchback covered in solar cells. It never reached production; the company abandoned the car in 2023.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Sono_Motors",
+        "name": "Wikipedia: Sono Motors"
+      },
+      {
+        "fields": [
+          "specs",
+          "status",
+          "price"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Sono_Motors_Sion",
+        "name": "Wikipedia: Sono Motors Sion"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "sono-sion",
+      "url_slug": "sion",
+      "name": "Sion",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Five-seat electric hatchback with solar cells built into the body panels, priced at EUR 29,900 in 2022 and backed by tens of thousands of reservations. The program was terminated in February 2023 before production.",
+      "markets": {
+        "EU": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status",
+            "price"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Sono_Motors_Sion",
+          "name": "Wikipedia: Sono Motors Sion"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Sono_Motors",
+          "name": "Wikipedia: Sono Motors"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Series-production design",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Final 2022 design with a 54 kWh LFP battery; never produced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Sion (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": null,
+              "power_hp": 161,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 87,
+              "dc_kw": 50,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2023,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 29900,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status",
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Sono_Motors_Sion",
+                  "name": "Wikipedia: Sono Motors Sion"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Sion WLTP range not given by the fetched source (305 km WLTP was Sono's 2022 claim, not verified).",
+    "Sono's Q3 2026 bankruptcy comes from the Wikipedia lead only; no news source fetched (web search budget exhausted)."
+  ]
+}

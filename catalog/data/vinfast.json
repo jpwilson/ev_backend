@@ -1,0 +1,1523 @@
+{
+  "make": {
+    "slug": "vinfast",
+    "name": "VinFast",
+    "legacy_id": null,
+    "country": "VN",
+    "headquarters": "Haiphong, Vietnam",
+    "founded": 2017,
+    "parent_group": null,
+    "website_url": "https://vinfastauto.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": "Active and growing in Vietnam and Southeast Asia; in the US it has scaled back to fewer than 22 dealers, sells only the VF 8 and VF 9, and has pushed its North Carolina factory to 2028.",
+    "description": "VinFast is the car brand of Vietnamese conglomerate Vingroup, founded in 2017 and building cars in Haiphong. It switched to electric-only in 2022 and sells a range from the tiny VF 3 to the seven-seat VF 9, plus 'Green' versions for taxi and ride-hailing fleets.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/VinFast",
+        "name": "Wikipedia: VinFast"
+      },
+      {
+        "fields": [
+          "price",
+          "status"
+        ],
+        "url": "https://vinfastauto.us/",
+        "name": "VinFast US"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "vinfast-vf-e34",
+      "url_slug": "vf-e34",
+      "name": "VF e34",
+      "aliases": [
+        "Nerio Green"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "VinFast's first electric car, a compact front-drive crossover launched in Vietnam in December 2021. Since early 2025 it is also sold as the Nerio Green for taxi and ride-hailing use.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_e34",
+          "name": "Wikipedia: VinFast VF e34"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/2024_VinFast_VFe34%2C_06-14-2024.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_VinFast_VFe34,_06-14-2024.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "VF e34",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 44.5,
+              "battery_basis": null,
+              "power_hp": 148,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_e34",
+                  "name": "Wikipedia: VinFast VF e34"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-3",
+      "url_slug": "vf-3",
+      "name": "VF 3",
+      "aliases": [],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Tiny boxy two-door, four-seat electric car launched in Vietnam in 2024, with a single 43 hp rear motor and an 18.64 kWh LFP battery. It took over 27,000 deposits in its first 66 hours.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_3",
+          "name": "Wikipedia: VinFast VF 3"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/VinFast_VF_3_HCMC.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF_3_HCMC.jpg",
+              "credit": "Vnsg304",
+              "license": "CC BY-SA 4.0",
+              "view": "front",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "VF 3",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 18.64,
+              "battery_basis": null,
+              "power_hp": 43,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_3",
+                  "name": "Wikipedia: VinFast VF 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-5",
+      "url_slug": "vf-5",
+      "name": "VF 5",
+      "aliases": [
+        "VF 5 Plus",
+        "Herio Green"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Small front-drive electric crossover city car sold in Vietnam since 2023 (as the VF 5 Plus) and in Indonesia and the Philippines from 2024; the fleet version is called Herio Green.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_5",
+          "name": "Wikipedia: VinFast VF 5"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/VinFast_VF5.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF5.jpg",
+              "credit": "Bún bòa",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "VF 5 (37.23 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 37.23,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_5",
+                  "name": "Wikipedia: VinFast VF 5"
+                }
+              ]
+            },
+            {
+              "slug": "29-kwh",
+              "name": "29.6 kWh / 70 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 29.6,
+              "battery_basis": null,
+              "power_hp": 94,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_5",
+                  "name": "Wikipedia: VinFast VF 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-6",
+      "url_slug": "vf-6",
+      "name": "VF 6",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Subcompact front-drive electric crossover launched in 2024 with a 59.6 kWh LFP battery, sold in Vietnam, Europe (France and Germany through dealers from 2025) and India, where it is also assembled.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "IN": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_6",
+          "name": "Wikipedia: VinFast VF 6"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/VinFast_VF_6_DSC_8468.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF_6_DSC_8468.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "eco",
+              "name": "Eco",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 59.6,
+              "battery_basis": null,
+              "power_hp": 174,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 399,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_6",
+                  "name": "Wikipedia: VinFast VF 6"
+                }
+              ]
+            },
+            {
+              "slug": "plus",
+              "name": "Plus",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 59.6,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_6",
+                  "name": "Wikipedia: VinFast VF 6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-7",
+      "url_slug": "vf-7",
+      "name": "VF 7",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact electric crossover launched in Vietnam in 2024 in front-drive Eco and dual-motor Plus versions, also sold in the Philippines and India. It has been EPA-certified for the US but VinFast's US site does not offer it.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_7",
+          "name": "Wikipedia: VinFast VF 7"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/2024_VinFast_VF7%2C_06-14-2024.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_VinFast_VF7,_06-14-2024.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "eco-fwd",
+              "name": "Eco FWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.3,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_7",
+                  "name": "Wikipedia: VinFast VF 7"
+                }
+              ]
+            },
+            {
+              "slug": "plus-awd",
+              "name": "Plus AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.3,
+              "battery_basis": null,
+              "power_hp": 349,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.8,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_7",
+                  "name": "Wikipedia: VinFast VF 7"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2023&year2=2027&make=VinFast&srchtyp=ymm",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-8",
+      "url_slug": "vf-8",
+      "name": "VF 8",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size dual-motor electric SUV styled by Pininfarina, launched in 2022 and VinFast's first export model in North America and Europe. Early US cars were heavily criticised; later model years gained a larger battery and more range. A second generation, including a front-drive version, was revealed in Vietnam in May 2026.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023-03",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_8",
+          "name": "Wikipedia: VinFast VF 8"
+        },
+        {
+          "fields": [
+            "price",
+            "status"
+          ],
+          "url": "https://vinfastauto.us/",
+          "name": "VinFast US"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Original VF 8 with two motors (348 or 402 hp in US tune) and 82 kWh or 87.7 kWh usable batteries; still sold in the US as a 2027 model.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/VinFast_VF_8_DSC_8474.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF_8_DSC_8474.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "eco",
+              "name": "Eco",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 348,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 207,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 256,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 256,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 41790,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_8",
+                  "name": "Wikipedia: VinFast VF 8"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2023&year2=2027&make=VinFast&srchtyp=ymm",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://vinfastauto.us/",
+                  "name": "VinFast US"
+                }
+              ]
+            },
+            {
+              "slug": "plus",
+              "name": "Plus",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 191,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 235,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 224,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 46990,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_8",
+                  "name": "Wikipedia: VinFast VF 8"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2023&year2=2027&make=VinFast&srchtyp=ymm",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://vinfastauto.us/",
+                  "name": "VinFast US"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "New generation revealed on 21 May 2026, initially for Vietnam, adding a front-drive version with a 60.13 kWh battery.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD (Vietnam)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 60.13,
+              "battery_basis": null,
+              "power_hp": 228,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_8",
+                  "name": "Wikipedia: VinFast VF 8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-9",
+      "url_slug": "vf-9",
+      "name": "VF 9",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size three-row electric SUV styled by Pininfarina, with dual motors and 402 hp, sold in Vietnam since 2022 and in North America since 2024. It also underpins the armoured Lac Hong 900 LX state limousine.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_9",
+          "name": "Wikipedia: VinFast VF 9"
+        },
+        {
+          "fields": [
+            "price",
+            "status"
+          ],
+          "url": "https://vinfastauto.us/",
+          "name": "VinFast US"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/2024_VinFast_VF9%2C_front_left%2C_06-11-2024.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_VinFast_VF9,_front_left,_06-11-2024.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "eco",
+              "name": "Eco",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 330,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_9",
+                  "name": "Wikipedia: VinFast VF 9"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2023&year2=2027&make=VinFast&srchtyp=ymm",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "plus",
+              "name": "Plus",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 64290,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_9",
+                  "name": "Wikipedia: VinFast VF 9"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://vinfastauto.us/",
+                  "name": "VinFast US"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-mpv-7",
+      "url_slug": "vf-mpv-7",
+      "name": "VF MPV 7",
+      "aliases": [
+        "Limo Green"
+      ],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Seven-seat electric MPV launched in Vietnam in August 2025 as the Limo Green (aimed at taxi fleets) and sold as the VF MPV 7 in Indonesia, the Philippines and India from 2026.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2026-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_Limo_Green",
+          "name": "Wikipedia: VinFast Limo Green / VF MPV 7"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/VinFast_VF_MPV_7_Silver_01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF_MPV_7_Silver_01.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "VF MPV 7 / Limo Green",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 60.13,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 2449000,
+                  "launch_price": null,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_Limo_Green",
+                  "name": "Wikipedia: VinFast Limo Green / VF MPV 7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-minio-green",
+      "url_slug": "minio-green",
+      "name": "Minio Green",
+      "aliases": [
+        "VF 2"
+      ],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Very small two-door electric city car launched in Vietnam in August 2025 for ride-hailing fleets, with a 14.7 kWh battery and 27 hp; a private-buyer version called the VF 2 was shown in July 2026.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_Minio_Green",
+          "name": "Wikipedia: VinFast Minio Green"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Newone-GreenSM_VinFast_Minio_Green_03_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Newone-GreenSM_VinFast_Minio_Green_03_(cropped).jpg",
+              "credit": "Newone",
+              "license": "CC BY-SA 4.0",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Minio Green",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 14.7,
+              "battery_basis": null,
+              "power_hp": 27,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_Minio_Green",
+                  "name": "Wikipedia: VinFast Minio Green"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-vf-wild",
+      "url_slug": "vf-wild",
+      "name": "VF Wild",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size electric pickup first shown as a concept at CES 2024; the production model was unveiled on 19 September 2026 and went on sale in Vietnam on 25 September 2026.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Production version launched September 2026.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "VF Wild",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast",
+                  "name": "Wikipedia: VinFast"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-ec-van",
+      "url_slug": "ec-van",
+      "name": "EC Van",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": null,
+      "description": "Small electric cargo van sold in Vietnam, including to VinFast's sister company Xanh SM.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "The only version so far.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Newone_-_VinFast_EC_Van_Xanh_SM_GSM_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Newone_-_VinFast_EC_Van_Xanh_SM_GSM_001.jpg",
+              "credit": "Newone",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "EC Van",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast",
+                  "name": "Wikipedia: VinFast"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vinfast-lac-hong-900-lx",
+      "url_slug": "lac-hong-900-lx",
+      "name": "Lac Hong 900 LX",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Luxury, optionally armoured limousine version of the VF 9 developed with INKAS, with a 123 kWh battery and 455 hp; a fleet was delivered to Vietnam's Ministry of Foreign Affairs in August-September 2025. VinFast plans further Lac Hong models (900S, 800S).",
+      "markets": {},
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "vinfast-vf-9"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast_VF_9",
+          "name": "Wikipedia: VinFast VF 9"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/VinFast",
+          "name": "Wikipedia: VinFast"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Limited production.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Newone_-_Black_VinFast_L%E1%BA%A1c_H%E1%BB%93ng_900_LX_09_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Newone_-_Black_VinFast_L%E1%BA%A1c_H%E1%BB%93ng_900_LX_09_%28cropped%29.jpg",
+              "credit": "Newone",
+              "license": "CC BY-SA 4.0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Lac Hong 900 LX",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 123.0,
+              "battery_basis": "usable",
+              "power_hp": 455,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/VinFast_VF_9",
+                  "name": "Wikipedia: VinFast VF 9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Vietnamese VND prices not sourced (VinFast's Vietnamese site blocked automated fetching); only one INR price for the VF MPV 7.",
+    "Vietnamese ranges are published on the NEDC cycle, which the schema does not support, so VF 3, VF 5, VF e34, Limo Green and Minio Green have no range.",
+    "VF 8 and VF 9 battery sizes per US trim and model year not confirmed (82 vs 87.7 kWh; 92 vs 123 kWh); left null.",
+    "EPA certified a 2025 VF 6 Plus (176 mi) and 2025/2027 VF 7 Plus (209 mi), but vinfastauto.us offers only the VF 8 and VF 9; US offerings for VF 6/VF 7 omitted pending confirmation.",
+    "VF 7 WLTP ranges (Eco FWD 450 km, Plus AWD 431 km per Wikipedia) not entered: no schema market key for Vietnam and the VF 7 is not confirmed on sale in the EU.",
+    "VF 8 second generation details beyond the Vietnam FWD version not sourced; VF Wild, EC Van specs not sourced.",
+    "Indonesia and Philippines markets are not schema market keys, so they are only mentioned in descriptions."
+  ]
+}

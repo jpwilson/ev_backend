@@ -1,0 +1,1558 @@
+{
+  "make": {
+    "slug": "changan",
+    "name": "Changan",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Chongqing, China",
+    "founded": 1862,
+    "parent_group": "China Changan Automobile Group",
+    "website_url": "https://www.changan.com.cn",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "State-owned Chinese carmaker based in Chongqing. Its own-brand electric cars are the Lumin city car and the Nevo (Qiyuan) range; its other EV brands, Deepal and Avatr, are listed separately.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Changan_Automobile",
+        "name": "Wikipedia: Changan Automobile"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "changan-lumin",
+      "url_slug": "lumin",
+      "name": "Lumin",
+      "aliases": [
+        "Lumin Corn"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "http://www.globalchangan.com/article/news_content_716.html",
+      "description": "Three-door electric city car on Changan's EPA0 platform, launched in China in June 2022 and later exported to Thailand and Indonesia.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022-06",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_Lumin",
+          "name": "Wikipedia: Changan Lumin"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "A158",
+          "platform": "EPA0",
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Original three-door Lumin with 12.9, 17.7 or 28 kWh LFP packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/2022_Chang%27an_Lumin_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_Chang%27an_Lumin_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "12-9-kwh",
+              "name": "155 km (12.9 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 12.92,
+              "battery_basis": "gross",
+              "power_hp": 41,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 63,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 155,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 48900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Lumin",
+                  "name": "Wikipedia: Changan Lumin"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2022/06/10/changan-lumin-corn-launched-in-china-with-301-km-range-and-7300-usd-starting-price/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "17-7-kwh",
+              "name": "210 km (17.7 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 17.7,
+              "battery_basis": "gross",
+              "power_hp": 41,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 63,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 210,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Lumin",
+                  "name": "Wikipedia: Changan Lumin"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2022/06/10/changan-lumin-corn-launched-in-china-with-301-km-range-and-7300-usd-starting-price/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "28-1-kwh",
+              "name": "301 km (28.1 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 28.1,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 301,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Lumin",
+                  "name": "Wikipedia: Changan Lumin"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2022/06/10/changan-lumin-corn-launched-in-china-with-301-km-range-and-7300-usd-starting-price/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-nevo-a06",
+      "url_slug": "nevo-a06",
+      "name": "Nevo A06",
+      "aliases": [
+        "Changan Qiyuan A06"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size sedan on Changan's SDA platform sold under the Nevo (Qiyuan) sub-brand, offered as a battery-electric car and as a range-extender. An earlier plug-in hybrid A06 planned for 2023 was cancelled before launch.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_Nevo_A06",
+          "name": "Wikipedia: Changan Nevo A06"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Second generation (SDA)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "C390",
+          "platform": "Changan SDA",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "First production A06: new SDA platform, BEV with 51.5 or 63.2 kWh LFP packs, the larger one on 800 V.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Nevo_A06_MY2026_IMG03.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_A06_MY2026_IMG03.jpg",
+              "credit": "Poprace",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-510",
+              "name": "EV 510",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 51.48,
+              "battery_basis": "gross",
+              "power_hp": 161,
+              "torque_lbft": 140,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 109900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_A06",
+                  "name": "Wikipedia: Changan Nevo A06"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://autonews.gasgoo.com/articles/market-industry/changan-nevo-a06-sedan-hits-market-starting-at-109900-yuan-70039723",
+                  "name": "Gasgoo"
+                }
+              ]
+            },
+            {
+              "slug": "ev-630",
+              "name": "EV 630",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 63.18,
+              "battery_basis": "gross",
+              "power_hp": 282,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 117,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 630,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 119900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_A06",
+                  "name": "Wikipedia: Changan Nevo A06"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://autonews.gasgoo.com/articles/market-industry/changan-nevo-a06-sedan-hits-market-starting-at-109900-yuan-70039723",
+                  "name": "Gasgoo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-nevo-a07",
+      "url_slug": "nevo-a07",
+      "name": "Nevo A07",
+      "aliases": [
+        "Changan Qiyuan A07"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Executive sedan that launched the Nevo (Qiyuan) sub-brand in 2023, built on the EPA1 platform shared with the Deepal SL03. Sold as a BEV and as a range-extender.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "deepal-sl03"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_Nevo_A07",
+          "name": "Wikipedia: Changan Nevo A07"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "C236",
+          "platform": "EPA1",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "BEV with 58 or 80 kWh packs (515 or 710 km CLTC).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Nevo_A07_006.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_A07_006.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "515",
+              "name": "515 km (58 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.0,
+              "battery_basis": "gross",
+              "power_hp": 218,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 515,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_A07",
+                  "name": "Wikipedia: Changan Nevo A07"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2023/08/23/changan-qiyuan-a07-rolled-off-the-production-line-in-china-with-710-km-of-range/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "710",
+              "name": "710 km (80 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.0,
+              "battery_basis": "gross",
+              "power_hp": 258,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 710,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_A07",
+                  "name": "Wikipedia: Changan Nevo A07"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2023/08/23/changan-qiyuan-a07-rolled-off-the-production-line-in-china-with-710-km-of-range/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-nevo-q05",
+      "url_slug": "nevo-q05",
+      "name": "Nevo Q05",
+      "aliases": [
+        "Changan Qiyuan Q05",
+        "Changan UNI-E",
+        "Changan E06"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact SUV name used for two unrelated cars: a 2023 plug-in hybrid (not listed here) and, from late 2025, an all-new battery-electric SUV. The electric one is exported as the Changan UNI-E and is due in the UK as the Changan E06.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_Nevo_Q05",
+          "name": "Wikipedia: Changan Nevo Q05"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Second generation (BEV)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "All-new battery-electric only SUV with 40.3 or 51.9 kWh LFP packs and a 120 kW front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Nevo_Q05_II_01_China_2026-03-21.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_Q05_II_01_China_2026-03-21.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "405",
+              "name": "405 km (40.3 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 40.3,
+              "battery_basis": "gross",
+              "power_hp": 161,
+              "torque_lbft": 140,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 405,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_Q05",
+                  "name": "Wikipedia: Changan Nevo Q05"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/11/21/2026-changan-nevo-q05-electric-suv-with-506km-range-launched-starting-from-11200-usd",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "506",
+              "name": "506 km (51.9 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 51.9,
+              "battery_basis": "gross",
+              "power_hp": 161,
+              "torque_lbft": 140,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 506,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_Q05",
+                  "name": "Wikipedia: Changan Nevo Q05"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/11/21/2026-changan-nevo-q05-electric-suv-with-506km-range-launched-starting-from-11200-usd",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-nevo-q06",
+      "url_slug": "nevo-q06",
+      "name": "Nevo Q06",
+      "aliases": [
+        "Changan Qiyuan Q06"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size SUV on the SDA platform launched in September 2026 with 800 V, 6C-charging battery-electric versions and a range-extender.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_Nevo_Q06",
+          "name": "Wikipedia: Changan Nevo Q06"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Changan SDA",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "BEV with 66 kWh (CALB) or 80 kWh (CATL) LFP packs, single rear motor or dual motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Nevo_Q06_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_Q06_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "602",
+              "name": "602 km RWD (66 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 66.02,
+              "battery_basis": "gross",
+              "power_hp": 302,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.1,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 602,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 139900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_Q06",
+                  "name": "Wikipedia: Changan Nevo Q06"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/24/changan-nevo-launches-q06-suv/",
+                  "name": "CnEVPost"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://carnewschina.com/2026/09/23/changan-nevo-q06-ev-crossover-started-sales-in-china-ahead-of-global-rollout/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "700",
+              "name": "700 km RWD (80 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.02,
+              "battery_basis": "gross",
+              "power_hp": 328,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.1,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 700,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 159900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_Q06",
+                  "name": "Wikipedia: Changan Nevo Q06"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/24/changan-nevo-launches-q06-suv/",
+                  "name": "CnEVPost"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://carnewschina.com/2026/09/23/changan-nevo-q06-ev-crossover-started-sales-in-china-ahead-of-global-rollout/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "670-dual-motor",
+              "name": "670 km Dual Motor (80 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.02,
+              "battery_basis": "gross",
+              "power_hp": 443,
+              "torque_lbft": 538,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.8,
+              "top_speed_mph": 143,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 670,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 169900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Nevo_Q06",
+                  "name": "Wikipedia: Changan Nevo Q06"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/24/changan-nevo-launches-q06-suv/",
+                  "name": "CnEVPost"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://carnewschina.com/2026/09/23/changan-nevo-q06-ev-crossover-started-sales-in-china-ahead-of-global-rollout/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-benben-ev",
+      "url_slug": "benben-ev",
+      "name": "BenBen EV",
+      "aliases": [
+        "Benni EV",
+        "BenBen E-Star"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the BenBen city car. The BenBen EV (from 2015) was replaced in 2020 by the facelifted BenBen E-Star, which ended when the BenBen line was dropped in 2023.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2015",
+          "end": "2023",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_BenBen",
+          "name": "Wikipedia: Changan BenBen"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2015",
+          "name": "BenBen EV",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2015,
+          "end_year": 2019,
+          "status": "discontinued",
+          "description": "Original electric BenBen with a 75 hp motor and about 200 km range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Changan_BenBen_EV_01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Changan_BenBen_EV_01.jpg",
+              "credit": "Jengtingchen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev",
+              "name": "BenBen EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2015,
+              "year_to": 2019,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 75,
+              "torque_lbft": 122,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 78,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_BenBen",
+                  "name": "Wikipedia: Changan BenBen"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2015/10/22/changan-benben-ev-unveiled-in-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2020",
+          "name": "BenBen E-Star",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Facelift with a 32.2 kWh pack (300 km NEDC).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Changan_Ben_Ben_E-Star_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Changan_Ben_Ben_E-Star_001.jpg",
+              "credit": "Quzhouliulian",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "e-star",
+              "name": "E-Star",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 32.2,
+              "battery_basis": "gross",
+              "power_hp": 75,
+              "torque_lbft": 125,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_BenBen",
+                  "name": "Wikipedia: Changan BenBen"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2015/10/22/changan-benben-ev-unveiled-in-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-eado-ev",
+      "url_slug": "eado-ev",
+      "name": "Eado EV",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric versions of the Eado compact sedan: the first-generation Eado EV from late 2014, and EV300/EV460 versions of the second-generation car from 2018.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2014-12",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_Eado",
+          "name": "Wikipedia: Changan Eado"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2014",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2014,
+          "end_year": 2018,
+          "status": "discontinued",
+          "description": "Eado EV with a 26 kWh pack, 120 hp and about 160 km range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Chang%27an_Eado_EV_2_China_2018-03-26.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Chang%27an_Eado_EV_2_China_2018-03-26.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev",
+              "name": "Eado EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2014,
+              "year_to": 2018,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 26.0,
+              "battery_basis": "gross",
+              "power_hp": 120,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 87,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Eado",
+                  "name": "Wikipedia: Changan Eado"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "http://carnewschina.com/2014/10/19/changan-eado-ev-will-hit-the-chinese-car-market-in-december/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2018",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2018,
+          "end_year": null,
+          "status": "discontinued",
+          "description": "EV300 and the longer-range EV460 on the second-generation Eado.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Changan_Eado_EV_II_facelift_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Changan_Eado_EV_II_facelift_001.jpg",
+              "credit": "Chinese Car Culture",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev300",
+              "name": "EV300",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Eado",
+                  "name": "Wikipedia: Changan Eado"
+                }
+              ]
+            },
+            {
+              "slug": "ev460",
+              "name": "EV460",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_Eado",
+                  "name": "Wikipedia: Changan Eado"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "http://auto.sina.com.cn/newcar/x/2018-10-18/detail-ifxeuwws5628333.shtml",
+                  "name": "Sina Auto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-cs15-ev",
+      "url_slug": "cs15-ev",
+      "name": "CS15 EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the CS15 subcompact SUV, launched in 2017 and followed by the more powerful CS15 E-Pro; the CS15 line ended in 2023.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2017-05",
+          "end": "2023",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_CS15",
+          "name": "Wikipedia: Changan CS15"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2017",
+          "name": "CS15 EV",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2017,
+          "end_year": 2019,
+          "status": "discontinued",
+          "description": "75 hp motor and about 300 km of range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Chang%27an_CS15_EV_China_2019-03-14.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Chang%27an_CS15_EV_China_2019-03-14.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev",
+              "name": "CS15 EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2017,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 75,
+              "torque_lbft": 125,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 68,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_CS15",
+                  "name": "Wikipedia: Changan CS15"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2017/05/15/changan-cs15-suv-goes-electric-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2019",
+          "name": "CS15 E-Pro",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Facelift with a 120 kW motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Changan_CS15_E-Pro_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Changan_CS15_E-Pro_001.jpg",
+              "credit": "Jengtingchen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "e-pro",
+              "name": "E-Pro",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 161,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_CS15",
+                  "name": "Wikipedia: Changan CS15"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2017/05/15/changan-cs15-suv-goes-electric-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "changan-lantuozhe-ev",
+      "url_slug": "lantuozhe-ev",
+      "name": "Lantuozhe EV",
+      "aliases": [
+        "Changan Hunter EV"
+      ],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Battery-electric version of the Lantuozhe (Hunter) mid-size pickup, unveiled at Auto Shanghai 2023.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Changan_F70",
+          "name": "Wikipedia: Changan F70"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "130 kW Inovance motor with a CATL LFP pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Changan_Lantuozhe_EV_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Changan_Lantuozhe_EV_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev",
+              "name": "Lantuozhe EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 174,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Changan_F70",
+                  "name": "Wikipedia: Changan F70"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Prices for most Changan EV trims are not set; only launch prices found in news coverage are given.",
+    "BenBen EV, BenBen E-Star and CS15 EV ranges are NEDC figures, which the schema cannot hold; left null.",
+    "Eado EV300/EV460 battery sizes and ranges not sourced from a primary spec sheet; left null.",
+    "Lantuozhe EV battery size, range and current sales status not confirmed.",
+    "Nevo E07 is filed under Deepal (deepal.json) because it is sold abroad as the Deepal E07.",
+    "Oshan 520 (battery-swap BEV sedan, Nov 2024) and Kaicene electric vans not included.",
+    "Nevo A05L (announced BEV sedan) not included; launch not confirmed."
+  ]
+}

@@ -1,0 +1,546 @@
+{
+ "make": {
+  "slug": "abarth",
+  "name": "Abarth",
+  "legacy_id": null,
+  "country": "IT",
+  "headquarters": "Turin, Italy",
+  "founded": 1949,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.abarth.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Abarth is Stellantis's Italian performance brand, founded by Carlo Abarth in 1949 and closely tied to Fiat. In Europe its range is now electric: the Abarth 500e and 600e.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Abarth",
+    "name": "Wikipedia: Abarth"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "abarth-500e",
+   "url_slug": "500e",
+   "name": "500e",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.abarth.com/500e",
+   "description": "The Abarth 500e is the performance version of the electric Fiat 500, sold in Europe since 2023 as a hatchback and cabrio.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "fiat-500e"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_500e",
+     "name": "Wikipedia: Fiat 500e"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Abarth's first electric car, debuted November 2022 on the Fiat 500e (type 332) with a 113.7 kW motor and synthetic engine sound; launch edition Scorpionissima limited to 1,949 cars, deliveries from June 2023.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Abarth_500e_IMG_7996.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Abarth_500e_IMG_7996.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range",
+        "markets"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Fiat_500e",
+       "name": "Wikipedia: Fiat 500e"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "hatchback",
+       "name": "500e hatchback",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 42.2,
+       "battery_basis": "gross",
+       "power_hp": 152.5,
+       "torque_lbft": 173,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.0,
+       "top_speed_mph": 96,
+       "dc_kw": 85,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 265,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 37990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 24245,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_500e",
+         "name": "Wikipedia: Fiat 500e"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/abarth-500e-42-kwh-155hp-electric-48786",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1903/Abarth-500e-Hatchback",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "cabrio",
+       "name": "500e Cabrio",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "convertible",
+       "seats": 4,
+       "battery_kwh": 42.2,
+       "battery_basis": "gross",
+       "power_hp": 152.5,
+       "torque_lbft": 173,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.0,
+       "top_speed_mph": 96,
+       "dc_kw": 85,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 255,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 40990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 27245,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/abarth-500e-cabriolet-42-kwh-155hp-electric-48787",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1904/Abarth-500e-Convertible",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "abarth-600e",
+   "url_slug": "600e",
+   "name": "600e",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.abarth.com/600e",
+   "description": "The Abarth 600e is the performance version of the Fiat 600e small crossover, sold in Europe since late 2024 with up to 280 PS from a single front motor.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "fiat-600e"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_600_(2023)",
+     "name": "Wikipedia: Fiat 600 (2023)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e-CMP",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Most powerful Abarth to date, fully revealed 28 October 2024: 240 PS Turismo and 280 PS Scorpionissima launch edition, the latter replaced by the Competizione in 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Abarth_600e_Scorpionissima_%E2%80%93_f_18042025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Abarth_600e_Scorpionissima_%E2%80%93_f_18042025.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 DE",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Fiat_600_(2023)",
+       "name": "Wikipedia: Fiat 600 (2023)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "turismo",
+       "name": "600e Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 54.0,
+       "battery_basis": "gross",
+       "power_hp": 237,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.2,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 322,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 32495,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_600_(2023)",
+         "name": "Wikipedia: Fiat 600 (2023)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.evo.co.uk/abarth/600e/powertrain-and-technical-highlights",
+         "name": "evo: Abarth 600e powertrain"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/abarth-600e-turismo-54-kwh-237hp-53037",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/3056/Abarth-600e-Turismo",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "scorpionissima",
+       "name": "600e Scorpionissima",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 54.0,
+       "battery_basis": "gross",
+       "power_hp": 276,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 321,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 37995,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_600_(2023)",
+         "name": "Wikipedia: Fiat 600 (2023)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.evo.co.uk/abarth/600e/powertrain-and-technical-highlights",
+         "name": "evo: Abarth 600e powertrain"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/abarth-600e-scorpionissima-54-kwh-282hp-53038",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price",
+          "status"
+         ],
+         "url": "https://ev-database.org/car/3057/Abarth-600e-Scorpionissima",
+         "name": "EV Database (archived)"
+        }
+       ]
+      },
+      {
+       "slug": "competizione",
+       "name": "600e Competizione",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 50.8,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 45990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 36495,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://ev-database.org/car/3514/Abarth-600e-Competizione",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Abarth 600e Competizione (2026) power and WLTP range not sourced.",
+  "Abarth 600e DC charging kW not confirmed.",
+  "Abarth 500e is not sold in the US (only the regular Fiat 500e)."
+ ]
+}

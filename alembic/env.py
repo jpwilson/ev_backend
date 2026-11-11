@@ -32,6 +32,19 @@ target_metadata = metadata
 # ... etc.
 
 
+def _guard_remote(url: str) -> None:
+    """database.py runs load_dotenv(), so a missing DATABASE_URL in the shell
+    silently becomes the production URL from .env. Online migrations against a
+    non-local host therefore need an explicit ALEMBIC_ALLOW_REMOTE=1."""
+    from urllib.parse import urlparse
+
+    host = urlparse(url).hostname or ""
+    if host not in ("localhost", "127.0.0.1", "::1", "") and os.getenv("ALEMBIC_ALLOW_REMOTE") != "1":
+        raise SystemExit(
+            f"Refusing to migrate non-local host {host!r}; set ALEMBIC_ALLOW_REMOTE=1 to proceed."
+        )
+
+
 def run_migrations_offline() -> None:
     """Run migrations in 'offline' mode.
 
@@ -44,7 +57,9 @@ def run_migrations_offline() -> None:
     script output.
 
     """
-    url = config.get_main_option("sqlalchemy.url")
+    # alembic.ini holds the literal "${DATABASE_URL}"; offline (--sql) mode only
+    # needs a dialect, so fall back to a bare postgresql URL.
+    url = (os.getenv("DATABASE_URL") or "postgresql://").replace("postgres://", "postgresql://", 1)
     context.configure(
         url=url,
         target_metadata=target_metadata,
@@ -64,6 +79,7 @@ def run_migrations_online() -> None:
 
     """
     url = os.getenv("DATABASE_URL").replace("postgres://", "postgresql://", 1)
+    _guard_remote(url)
     if url:
         config.set_main_option("sqlalchemy.url", url)
     connectable = engine_from_config(

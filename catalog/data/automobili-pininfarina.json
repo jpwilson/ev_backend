@@ -1,0 +1,202 @@
+{
+  "make": {
+    "slug": "automobili-pininfarina",
+    "name": "Automobili Pininfarina",
+    "legacy_id": null,
+    "country": "DE",
+    "headquarters": "Munich, Germany",
+    "founded": 2018,
+    "parent_group": "Mahindra Group",
+    "website_url": "https://www.automobili-pininfarina.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Electric luxury car maker set up in 2018 by Mahindra, which also owns the Italian design house Pininfarina. It is based in Munich with design and assembly in Italy, and builds very small runs of Rimac-powered electric hypercars: the Battista and the B95 barchetta.",
+    "sources": [
+      {
+        "fields": ["founded", "headquarters", "parent_group", "description"],
+        "url": "https://en.wikipedia.org/wiki/Automobili_Pininfarina",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "automobili-pininfarina-battista",
+      "url_slug": "battista",
+      "name": "Battista",
+      "aliases": ["PF0", "Pininfarina Battista"],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": "https://www.automobili-pininfarina.com",
+      "description": "Electric hypercar revealed at the 2019 Geneva show, using a Rimac-built carbon tub, four motors and a 120 kWh pack, with a planned run of 150 cars. It was hand-built in Cambiano, Italy from 2022; Wikipedia lists production as ending in 2025. Special editions include the Anniversario, the five-car Edizione Nino Farina and a one-off Targamerica.",
+      "markets": {
+        "EU": {"status": "discontinued", "launch": "2022", "end": "2025", "local_name": null},
+        "US": {"status": "discontinued", "launch": "2022", "end": "2025", "local_name": null}
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://en.wikipedia.org/wiki/Pininfarina_Battista",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "PF0",
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "The only Battista generation; edition cars differ in paint, wheels and aero parts, not in drivetrain.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/2022_Pininfarina_Battista_in_Oro_Liquido_and_Nero_Torino%2C_front_right.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_Pininfarina_Battista_in_Oro_Liquido_and_Nero_Torino,_front_right.jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "battista",
+              "name": "Battista",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 120.0,
+              "battery_basis": null,
+              "power_hp": 1900,
+              "torque_lbft": 1696,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 1.89,
+              "top_speed_mph": 222,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": ["specs"],
+                  "url": "https://en.wikipedia.org/wiki/Pininfarina_Battista",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "automobili-pininfarina-b95",
+      "url_slug": "b95",
+      "name": "B95",
+      "aliases": ["B95 Barchetta"],
+      "body_style": "convertible",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.automobili-pininfarina.com",
+      "description": "Open, windscreen-less electric barchetta based on the Battista, revealed at Monterey Car Week in August 2023. Ten are planned at EUR 4.4 million each, with production from 2025.",
+      "markets": {
+        "EU": {"status": "current", "launch": "2025", "end": null, "local_name": null}
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://en.wikipedia.org/wiki/Pininfarina_B95",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Coachbuilt barchetta on the Battista's Rimac drivetrain, limited to ten cars.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pininfarina_B_95_%282023%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Pininfarina_B_95_(2023).jpg",
+              "credit": "Dobroš",
+              "license": "CC BY-SA 4.0",
+              "view": "front",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "b95",
+              "name": "B95",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 120.0,
+              "battery_basis": null,
+              "power_hp": 1900,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 190,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 4400000,
+                  "currency": "EUR",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "price"],
+                  "url": "https://en.wikipedia.org/wiki/Pininfarina_B95",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Battista end of production (2025) comes only from the Wikipedia infobox; the maker's site still invites Battista enquiries, so the discontinued status needs a second source (web search budget ran out).",
+    "Battista and B95: no certified range (Wikipedia gives 500 km and 476 km without a test cycle), launch prices for the Battista, or DC charging rates were sourced.",
+    "B95: whether deliveries have started by November 2026 is not confirmed.",
+    "Pura Vision (2023) is a concept with no announced production and is not listed.",
+    "No 2025-2026 news on Automobili Pininfarina's corporate status could be checked (web search budget ran out)."
+  ]
+}

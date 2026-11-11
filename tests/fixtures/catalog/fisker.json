@@ -1,0 +1,96 @@
+{
+  "make": {
+    "slug": "fisker", "name": "Fisker", "legacy_id": 20, "country": "US",
+    "headquarters": "Manhattan Beach, California, USA", "founded": 2016, "parent_group": null,
+    "website_url": "https://www.fiskerinc.com", "status": "defunct", "status_date": "2024-06-17",
+    "status_details": "TEST FIXTURE: synthetic text for loader tests, not catalog data.",
+    "description": "TEST FIXTURE for tests/test_catalog_*.py. Values are copied from the legacy snapshot rows, not researched.",
+    "sources": [{"fields": ["status"], "url": "https://example.com/test-fixture/fisker", "name": "Test fixture"}]
+  },
+  "models": [
+    {
+      "slug": "fisker-ocean", "url_slug": "ocean", "name": "Ocean", "aliases": [], "body_style": "suv",
+      "is_commercial": false, "status": "current", "official_url": null, "description": "Fixture.",
+      "markets": {"US": {"status": "current", "launch": "2023-05", "end": null, "local_name": null}},
+      "relations": [], "sources": [],
+      "generations": [
+        {"slug": "2023", "name": "First generation", "kind": "generation", "ordinal": 1, "code_name": null,
+         "platform": null, "start_year": 2023, "end_year": null, "status": "current", "description": null,
+         "images": [{"source": "legacy", "file_url": "/pub_assets/car_images/fisker_ocean_extreme.png",
+                     "page_url": null, "credit": null, "license": null, "view": "front_3q", "verified_by_viewing": true}],
+         "sources": [],
+         "variants": [
+           {"slug": "extreme", "name": "Extreme", "legacy_ids": [129, 131], "status": null, "year_from": 2023,
+            "year_to": 2024, "drivetrain": "AWD", "body_type": null, "seats": 5, "battery_kwh": 113.0,
+            "battery_basis": null, "power_hp": null, "torque_lbft": null, "accel_0_60_s": 3.7,
+            "accel_0_100_s": null, "top_speed_mph": null, "dc_kw": null,
+            "offerings": [{"market": "US", "model_year": 2023, "range": 360, "range_unit": "mi", "range_cycle": "EPA",
+                           "price": 61499, "launch_price": null, "currency": "USD",
+                           "price_basis": "msrp_excl_destination", "connector": "CCS1", "is_estimate": false}],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/ocean", "name": "Test fixture"}]},
+           {"slug": "sport", "name": "Sport", "legacy_ids": [130], "status": null, "year_from": 2023,
+            "year_to": 2024, "drivetrain": "FWD", "body_type": null, "seats": 5, "battery_kwh": null,
+            "battery_basis": null, "power_hp": null, "torque_lbft": null, "accel_0_60_s": 7.9,
+            "accel_0_100_s": null, "top_speed_mph": null, "dc_kw": null,
+            "offerings": [{"market": "US", "model_year": 2023, "range": 231, "range_unit": "mi", "range_cycle": "EPA",
+                           "price": 38999, "launch_price": null, "currency": "USD",
+                           "price_basis": "msrp_excl_destination", "connector": "CCS1", "is_estimate": false}],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/ocean", "name": "Test fixture"}]}
+         ]}
+      ]
+    },
+    {
+      "slug": "fisker-pear", "url_slug": "pear", "name": "Pear", "aliases": [], "body_style": "hatchback",
+      "is_commercial": false, "status": "cancelled", "official_url": null, "description": "Fixture.",
+      "markets": {}, "relations": [],
+      "sources": [{"fields": ["status"], "url": "https://example.com/test-fixture/pear", "name": "Test fixture"}],
+      "generations": [
+        {"slug": "2026", "name": "Planned", "kind": "generation", "ordinal": 1, "code_name": null, "platform": null,
+         "start_year": 2026, "end_year": null, "status": "upcoming", "description": null, "images": [], "sources": [],
+         "variants": [
+           {"slug": "one", "name": "One", "legacy_ids": [132], "status": null, "year_from": null, "year_to": null,
+            "drivetrain": null, "body_type": null, "seats": null, "battery_kwh": null, "battery_basis": null,
+            "power_hp": null, "torque_lbft": null, "accel_0_60_s": null, "accel_0_100_s": null,
+            "top_speed_mph": null, "dc_kw": null, "offerings": [],
+            "sources": [{"fields": ["status"], "url": "https://example.com/test-fixture/pear", "name": "Test fixture"}]}
+         ]}
+      ]
+    },
+    {
+      "slug": "fisker-ronin", "url_slug": "ronin", "name": "Ronin", "aliases": [], "body_style": "convertible",
+      "is_commercial": false, "status": "upcoming", "official_url": null, "description": "Fixture.",
+      "markets": {"US": {"status": "upcoming", "launch": null, "end": null, "local_name": null}}, "relations": [],
+      "sources": [],
+      "generations": [
+        {"slug": "2027", "name": "Planned", "kind": "generation", "ordinal": 1, "code_name": null, "platform": null,
+         "start_year": 2027, "end_year": null, "status": "upcoming", "description": null, "images": [], "sources": [],
+         "variants": [
+           {"slug": "one", "name": "One", "legacy_ids": [133], "status": null, "year_from": null, "year_to": null,
+            "drivetrain": null, "body_type": null, "seats": null, "battery_kwh": null, "battery_basis": null,
+            "power_hp": null, "torque_lbft": null, "accel_0_60_s": null, "accel_0_100_s": null,
+            "top_speed_mph": null, "dc_kw": null, "offerings": [],
+            "sources": [{"fields": ["specs"], "url": "https://example.com/test-fixture/ronin", "name": "Test fixture"}]}
+         ]}
+      ]
+    },
+    {
+      "slug": "fisker-kayak", "url_slug": "kayak", "name": "Kayak", "aliases": [], "body_style": "van",
+      "is_commercial": false, "status": "cancelled", "official_url": null, "description": "Fixture.",
+      "markets": {}, "relations": [{"relation": "successor", "model": "fisker-ocean"}],
+      "sources": [{"fields": ["status"], "url": "https://example.com/test-fixture/kayak", "name": "Test fixture"}],
+      "generations": [
+        {"slug": "2026", "name": "Planned", "kind": "generation", "ordinal": 1, "code_name": null, "platform": null,
+         "start_year": 2026, "end_year": null, "status": "cancelled", "description": null, "images": [], "sources": [],
+         "variants": [
+           {"slug": "alaska", "name": "Alaska", "legacy_ids": [134], "status": null, "year_from": null,
+            "year_to": null, "drivetrain": null, "body_type": null, "seats": null, "battery_kwh": null,
+            "battery_basis": null, "power_hp": null, "torque_lbft": null, "accel_0_60_s": null,
+            "accel_0_100_s": null, "top_speed_mph": null, "dc_kw": null, "offerings": [],
+            "sources": [{"fields": ["status"], "url": "https://example.com/test-fixture/kayak", "name": "Test fixture"}]}
+         ]}
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": []
+}

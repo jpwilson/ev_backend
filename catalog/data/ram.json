@@ -1,0 +1,322 @@
+{
+ "make": {
+  "slug": "ram",
+  "name": "Ram",
+  "legacy_id": null,
+  "country": "US",
+  "headquarters": "Auburn Hills, Michigan, USA",
+  "founded": 2010,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.ramtrucks.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Ram is Stellantis's truck and van brand, spun off from Dodge in 2010. Its only battery-electric vehicle on sale is the ProMaster EV van; the planned battery-electric 1500 REV pickup was cancelled in 2025.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Ram_Trucks",
+    "name": "Wikipedia: Ram Trucks"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "ram-promaster-ev",
+   "url_slug": "promaster-ev",
+   "name": "ProMaster EV",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": "https://www.ramtrucks.com/ram-promaster-ev.html",
+   "description": "Ram's battery-electric full-size cargo and delivery van, the North American counterpart of the Fiat E-Ducato family. Ram targets about 162 miles of city range; as a heavy commercial van it carries no EPA range label.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrek.co/2024/01/16/rams-first-ev-ram-promaster-electric-van-hits-us/",
+     "name": "Electrek (Jan 2024)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_Ducato",
+     "name": "Wikipedia: Fiat Ducato"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric version of the North American ProMaster full-size van, unveiled January 2024 with a 110 kWh battery and a 200 kW front motor; delivery (159-inch, super-high-roof) model first, cargo models later.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "start_year"
+       ],
+       "url": "https://electrek.co/2024/01/16/rams-first-ev-ram-promaster-electric-van-hits-us/",
+       "name": "Electrek"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "110-kwh",
+       "name": "ProMaster EV 110 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 110.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 302,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://electrek.co/2024/01/16/rams-first-ev-ram-promaster-electric-van-hits-us/",
+         "name": "Electrek (Jan 2024): Ram ProMaster EV"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_Ducato",
+         "name": "Wikipedia: Fiat Ducato"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ram-1500-rev-electric",
+   "url_slug": "1500-rev-electric",
+   "name": "1500 REV (battery-electric)",
+   "aliases": [
+    "Ram 1500 REV"
+   ],
+   "body_style": "pickup",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Ram's planned battery-electric 1500 pickup, revealed as the 1500 REV with up to 500 miles of targeted range. Stellantis cancelled it on 12 September 2025, citing slowing demand for full-size electric trucks, and moved the REV name to the range-extended (formerly Ramcharger) truck, which is not battery-electric.",
+   "markets": {
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/772186/ram-1500-rev-dead/",
+     "name": "InsideEVs (Sept 2025): Ram has canceled its electric pickup truck"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://techcrunch.com/2025/09/12/ram-ends-ev-pickup-truck-plans/",
+     "name": "TechCrunch (12 Sept 2025)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "STLA Frame",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Planned full-size electric pickup with an 800-volt system. The 229 kWh long-range pack was dropped in January 2025 and the whole battery-electric truck was cancelled in September 2025 before production.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/2025_RAM_1500_REV%2C_front_NYIAS_2023.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_RAM_1500_REV%2C_front_NYIAS_2023.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.greencarreports.com/news/1145534_ram-cancels-500-mile-1500-rev-electric-truck",
+       "name": "Green Car Reports"
+      },
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://insideevs.com/news/772186/ram-1500-rev-dead/",
+       "name": "InsideEVs"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard-168-kwh",
+       "name": "Standard range 168 kWh",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 168.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 350,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 350,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.greencarreports.com/news/1145534_ram-cancels-500-mile-1500-rev-electric-truck",
+         "name": "Green Car Reports (Jan 2025)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-229-kwh",
+       "name": "Long range 229 kWh",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 229.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 350,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 500,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://www.greencarreports.com/news/1145534_ram-cancels-500-mile-1500-rev-electric-truck",
+         "name": "Green Car Reports (Jan 2025): 229 kWh version cancelled"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "ProMaster EV: US price, model-year list and 2025-2026 production status not confirmed from an accessible source; no Commons photo of the EV found.",
+  "1500 REV (BEV) power/torque targets not sourced.",
+  "The current 'Ram 1500 REV' name now belongs to the range-extended pickup (EREV, out of scope); do not merge it with the cancelled BEV."
+ ]
+}

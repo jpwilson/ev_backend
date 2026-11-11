@@ -1,0 +1,912 @@
+{
+ "make": {
+  "slug": "buick",
+  "name": "Buick",
+  "legacy_id": null,
+  "country": "US",
+  "headquarters": "Detroit, Michigan, USA",
+  "founded": 1903,
+  "parent_group": "General Motors",
+  "website_url": "https://www.buick.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "General Motors brand whose battery-electric cars are built and sold in China by SAIC-GM, under the Velite and Electra names. Buick sells no battery-electric model in North America.",
+  "sources": [
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Buick",
+    "name": "Wikipedia: Buick"
+   },
+   {
+    "fields": [
+     "status",
+     "price"
+    ],
+    "url": "https://www.buick.com.cn/",
+    "name": "Buick China (official site, model list Nov 2026)"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "buick-velite-6",
+   "url_slug": "velite-6",
+   "name": "Velite 6",
+   "aliases": [],
+   "body_style": "wagon",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.buick.com.cn/velite6",
+   "description": "Buick's first battery-electric car, a compact five-door built by SAIC-GM for China since 2019. It has been updated with larger batteries and a 130 kW motor.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2019-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Buick_Velite_6",
+     "name": "Wikipedia: Buick Velite 6"
+    },
+    {
+     "fields": [
+      "specs",
+      "price",
+      "range",
+      "status"
+     ],
+     "url": "https://www.buick.com.cn/velite6",
+     "name": "Buick China: Velite 6 EV"
+    },
+    {
+     "fields": [
+      "status",
+      "price"
+     ],
+     "url": "https://www.buick.com.cn/",
+     "name": "Buick China (official site, model list Nov 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Compact electric hatchback/wagon for China, launched April 2019 with a 35 kWh pack; the longer-range Velite 6 Plus (52.5 kWh) followed in October 2019. A plug-in hybrid version (not listed here) was added in 2020.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Buick_Velite_6_001.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:Buick_Velite_6_001.jpg",
+       "credit": "Jengtingchen",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Buick_Velite_6",
+       "name": "Wikipedia: Buick Velite 6"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "ev-35kwh",
+       "name": "EV (35 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 35,
+       "battery_basis": null,
+       "power_hp": 114,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Velite_6",
+         "name": "Wikipedia: Buick Velite 6"
+        }
+       ]
+      },
+      {
+       "slug": "plus-52-5kwh",
+       "name": "Plus (52.5 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 52.5,
+       "battery_basis": null,
+       "power_hp": 148,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Velite_6",
+         "name": "Wikipedia: Buick Velite 6"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2022",
+     "name": "Velite 6 EV update",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "November 2021 update with a revised grille and bumper, a 10-inch screen and a 130 kW motor; still listed on Buick China's site in November 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Buick_Velite_6_EV_001.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:Buick_Velite_6_EV_001.jpg",
+       "credit": "Jengtingchen",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Buick_Velite_6",
+       "name": "Wikipedia: Buick Velite 6"
+      },
+      {
+       "fields": [
+        "specs",
+        "price",
+        "range",
+        "status"
+       ],
+       "url": "https://www.buick.com.cn/velite6",
+       "name": "Buick China: Velite 6 EV"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "EV (130 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 174,
+       "torque_lbft": 195,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 112800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range",
+          "status"
+         ],
+         "url": "https://www.buick.com.cn/velite6",
+         "name": "Buick China: Velite 6 EV"
+        },
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Velite_6",
+         "name": "Wikipedia: Buick Velite 6"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "buick-velite-7",
+   "url_slug": "velite-7",
+   "name": "Velite 7",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Small China-market electric crossover sharing GM's BEV2 platform with the Chevrolet Bolt EUV, sold from July 2020 until 2022.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2020-07",
+     "end": "2022",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "chevrolet-bolt-euv"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Buick_Velite_7",
+     "name": "Wikipedia: Buick Velite 7"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV2",
+     "start_year": 2020,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Subcompact electric crossover for China, closely related to the Chevrolet Bolt EUV; built 2020-2022.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Buick_Velite_7_001.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:Buick_Velite_7_001.jpg",
+       "credit": "Jengtingchen",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Buick_Velite_7",
+       "name": "Wikipedia: Buick Velite 7"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "EV",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 55.6,
+       "battery_basis": null,
+       "power_hp": 174,
+       "torque_lbft": 266,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Velite_7",
+         "name": "Wikipedia: Buick Velite 7"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "buick-electra-e5",
+   "url_slug": "electra-e5",
+   "name": "Electra E5",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.buick.com.cn/electra_e5",
+   "description": "Five-seat midsize electric SUV on GM's Ultium platform, built by SAIC-GM in Wuhan for China since 2023 and facelifted in 2025.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Buick_Electra_E5",
+     "name": "Wikipedia: Buick Electra E5"
+    },
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs"
+     ],
+     "url": "https://www.buick.com.cn/electra_e5",
+     "name": "Buick China: new Electra E5"
+    },
+    {
+     "fields": [
+      "status",
+      "price"
+     ],
+     "url": "https://www.buick.com.cn/",
+     "name": "Buick China (official site, model list Nov 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Midsize electric SUV built in Wuhan from April 2023 with 65 kWh LFP, 68.4 kWh NMC or 79.7 kWh LFP Ultium packs and 515-620 km of range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/2023_SAIC-GM_Buick_Electra_E5_%28front%29.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_SAIC-GM_Buick_Electra_E5_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Buick_Electra_E5",
+       "name": "Wikipedia: Buick Electra E5"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd",
+       "name": "FWD (180 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 241,
+       "torque_lbft": 243,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 195,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Electra_E5",
+         "name": "Wikipedia: Buick Electra E5"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD (211 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 283,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 195,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Electra_E5",
+         "name": "Wikipedia: Buick Electra E5"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift (new Electra E5)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "2025 facelift sold as the 'new Buick Electra E5' with a CTP Ultium battery and a lower starting price.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Buick_Electra_E5_facelift_002.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:Buick_Electra_E5_facelift_002.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "price",
+        "range",
+        "specs"
+       ],
+       "url": "https://www.buick.com.cn/electra_e5",
+       "name": "Buick China: new Electra E5"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "new-e5",
+       "name": "New Electra E5",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 169900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://www.buick.com.cn/electra_e5",
+         "name": "Buick China: new Electra E5"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "buick-electra-e4",
+   "url_slug": "electra-e4",
+   "name": "Electra E4",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Compact coupe-SUV sibling of the Electra E5, related to the Cadillac Optiq, sold in China from 2023 until it was dropped in 2025.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2023-06",
+     "end": "2025-03",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "price",
+      "range",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Buick_Electra_E4",
+     "name": "Wikipedia: Buick Electra E4"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Coupe-styled compact electric SUV built in Wuhan; removed from Buick China's site in March 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/BUICK_ELECTRA_E4_China_%286%29.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:BUICK_ELECTRA_E4_China_(6).jpg",
+       "credit": "Dinkun Chen",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "price",
+        "range",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Buick_Electra_E4",
+       "name": "Wikipedia: Buick Electra E4"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd",
+       "name": "FWD (180 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 241,
+       "torque_lbft": 243,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 530,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": 189900,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "price",
+          "range",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Electra_E4",
+         "name": "Wikipedia: Buick Electra E4"
+        }
+       ]
+      },
+      {
+       "slug": "gs-awd",
+       "name": "GS AWD (211 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.7,
+       "battery_basis": null,
+       "power_hp": 283,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": 259600,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "price",
+          "range",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Electra_E4",
+         "name": "Wikipedia: Buick Electra E4"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "buick-electra-encasa",
+   "url_slug": "electra-encasa",
+   "name": "Electra Encasa",
+   "aliases": [
+    "GL8 Encasa",
+    "Zhijing Shijia"
+   ],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.buick.com.cn/encasa",
+   "description": "Flagship minivan in Buick's Electra (Zhijing) line for China, sold since December 2025 in plug-in hybrid and battery-electric forms; only the battery-electric version is listed here.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Buick_Electra_Encasa",
+     "name": "Wikipedia: Buick Electra Encasa"
+    },
+    {
+     "fields": [
+      "status",
+      "price"
+     ],
+     "url": "https://www.buick.com.cn/",
+     "name": "Buick China (official site, model list Nov 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Large luxury MPV (GL8 Encasa) launched 5 December 2025 as a plug-in hybrid and a pure-electric AWD version with a 96 kWh CATL LFP pack and 6C charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/BUICK_ELECTRA_ENCASA_%28BUICK_GL8_ENCASA%29_China.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:BUICK_ELECTRA_ENCASA_(BUICK_GL8_ENCASA)_China.jpg",
+       "credit": "Dinkun Chen",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Buick_Electra_Encasa",
+       "name": "Wikipedia: Buick Electra Encasa"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "ev-awd",
+       "name": "EV AWD (96 kWh)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 96,
+       "battery_basis": null,
+       "power_hp": 647,
+       "torque_lbft": 406,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.1,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 601,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Buick_Electra_Encasa",
+         "name": "Wikipedia: Buick Electra Encasa"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Web search budget ran out before Buick was researched; Buick data comes from Wikipedia and buick.com.cn only. US Buick EV plans for 2025-2026 could not be checked.",
+  "Electra L7 (2025) and Electra E7 (2026) are listed by sources as range-extender/plug-in hybrid; an announced battery-electric L7 could not be confirmed, so neither is included.",
+  "'Electra OS' (至境OS) appears on buick.com.cn with no specs or price; not included.",
+  "Velite 6/7 ranges are NEDC (Velite 6: 301/410/518 km; Velite 7: 500 km); NEDC is not an allowed cycle, so ranges are omitted.",
+  "Velite 6 EV current version: battery size of the CLTC 450 km version not stated by Buick (Wikipedia gives 61.1 kWh for the 2021 EV).",
+  "Electra E5 original: per-variant battery/range/price mapping not sourced; facelift drivetrain/battery not sourced.",
+  "Electra Encasa EV price not sourced (site's 419,900 yuan start may be the PHEV).",
+  "Power/torque converted from kW/Nm."
+ ]
+}

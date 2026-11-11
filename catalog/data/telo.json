@@ -1,0 +1,174 @@
+{
+  "make": {
+    "slug": "telo",
+    "name": "Telo",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "San Carlos, California, USA",
+    "founded": 2022,
+    "parent_group": null,
+    "website_url": "https://www.telotrucks.com",
+    "status": "pre-production",
+    "status_date": null,
+    "status_details": "Pre-production: the MT1 is projected to enter production in 2026; no deliveries reported.",
+    "description": "Telo is a California startup founded in 2022 building the MT1, an electric pickup with a five-seat crew cab in a footprint shorter than a Mini Cooper.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Telo_Trucks",
+        "name": "Wikipedia: Telo Trucks"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "telo-mt1",
+      "url_slug": "mt1",
+      "name": "MT1",
+      "aliases": [
+        "Telo Truck"
+      ],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": "https://www.telotrucks.com",
+      "description": "Compact five-seat electric crew-cab pickup about 152 inches long with a 106 kWh battery, single- or dual-motor drive and an estimated 260-350 miles of range.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Telo_Trucks",
+          "name": "Wikipedia: Telo Trucks"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://www.telotrucks.com/",
+          "name": "Telo Trucks"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Pre-production design.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Telo_MT1_prototype_2_-_front_quarter.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Telo_MT1_prototype_2_-_front_quarter.jpg",
+              "credit": "Dael Franke",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor (2WD)",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.telotrucks.com/",
+                  "name": "Telo Trucks"
+                }
+              ]
+            },
+            {
+              "slug": "dual-motor",
+              "name": "Dual Motor",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 106.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": 6.0,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 350,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.telotrucks.com/",
+                  "name": "Telo Trucks"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Telo site lists 260 mi (Standard) and 350 mi (Long) range estimates and a single 106 kWh figure; mapping of range/battery to single vs dual motor is a best reading, not explicit.",
+    "Single-motor driven axle (front or rear) not stated; drivetrain left null. Price not published on the site.",
+    "No free image of the MT1 found on Commons."
+  ]
+}

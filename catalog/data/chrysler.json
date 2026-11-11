@@ -1,0 +1,33 @@
+{
+ "make": {
+  "slug": "chrysler",
+  "name": "Chrysler",
+  "legacy_id": null,
+  "country": "US",
+  "headquarters": "Auburn Hills, Michigan, USA",
+  "founded": 1925,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.chrysler.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Chrysler is an American brand of Stellantis whose current range is the Pacifica minivan. It has shown electric concepts (Airflow, Halcyon) but has not yet sold a battery-electric car.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Chrysler",
+    "name": "Wikipedia: Chrysler"
+   }
+  ]
+ },
+ "models": [],
+ "legacy_notes": [],
+ "gaps": [
+  "No battery-electric Chrysler has been sold. The Airflow concept (CES 2022) was turned into a production crossover project ('C6X', Wikipedia: Chrysler Airflow (2027)) planned for Belvidere around model year 2028, but its powertrain was put under review in 2025, so it is not listed as a BEV.",
+  "Chrysler Halcyon (Feb 2024) is a concept only, with 2028 named as the target for its design language.",
+  "Could not run a fresh web search on Chrysler EV plans (search budget exhausted); status per Wikipedia as of 2026."
+ ]
+}

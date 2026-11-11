@@ -1,0 +1,1765 @@
+{
+  "make": {
+    "slug": "polestar",
+    "name": "Polestar",
+    "legacy_id": 27,
+    "country": "SE",
+    "headquarters": "Gothenburg (Torslanda), Sweden",
+    "founded": 1996,
+    "parent_group": "Geely (Li Shufu)",
+    "website_url": "https://www.polestar.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Swedish electric-car brand that grew out of a racing team founded in 1996, bought by Volvo in 2015 and relaunched as a standalone EV maker in 2017; it is majority-owned by Geely founder Li Shufu's companies and Geely Holding. In June 2026 it said it would stop selling new cars in the US after being denied authorisation under the Connected Vehicle Rule, and it is concentrating on Europe.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group",
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Polestar",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.electrive.com/2026/06/26/polestar-faces-us-sales-ban-for-new-models-from-2027/",
+        "name": "electrive"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "polestar-2",
+      "url_slug": "polestar-2",
+      "name": "Polestar 2",
+      "aliases": [
+        "2"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.polestar.com/polestar-2/",
+      "description": "Polestar's first electric car, a five-door fastback on Volvo's CMA platform built in Luqiao, China from March 2020. It switched to rear-wheel drive and bigger batteries for model year 2024. Production of the first generation ended in October 2026 after about 200,000 cars; stock is sold into 2027 and a second-generation Polestar 2 is due in 2027. It left the US after the 2025 model year.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2020",
+          "end": "2025",
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Polestar_2",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insideevs.com/news/814005/polestar-2-production-china-over-official/",
+          "name": "InsideEVs"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://electrive.com/2026/10/28/polestar-ends-production-of-the-polestar-2-in-china",
+          "name": "electrive"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "P317",
+          "platform": "CMA",
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Launch version: front-drive single motors or a 300 kW dual-motor AWD, 69 or 78 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Polestar_2_%E2%80%93_f_02042021.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Polestar_2_%E2%80%93_f_02042021.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range-dual-motor",
+              "name": "Long Range Dual Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 78.0,
+              "battery_basis": "gross",
+              "power_hp": 402,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 127,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 233,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 249,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 482,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43294",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44449",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45753",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "dual-motor-performance-pack",
+              "name": "Long Range Dual Motor Performance Pack",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 78.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45754",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-single-motor-fwd",
+              "name": "Long Range Single Motor (FWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 78.0,
+              "battery_basis": "gross",
+              "power_hp": 228,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 99,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 270,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 270,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 542,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44928",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45755",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-single-motor-fwd",
+              "name": "Standard Range Single Motor (FWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 69.0,
+              "battery_basis": "gross",
+              "power_hp": 221,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 99,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 440,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Rear-drive update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": "P317",
+          "platform": "CMA",
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "current",
+          "description": "Model-year 2024 update: rear-wheel-drive single motors, 82 kWh Long Range pack, more powerful dual motor, and a closed 'SmartZone' front panel. Production ended in October 2026; remaining stock is still being sold.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/polestar_2_dual_m.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard-range-single-motor",
+              "name": "Standard Range Single Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 69.0,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": 361,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 127,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 532,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-single-motor",
+              "name": "Long Range Single Motor",
+              "legacy_ids": [
+                164
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 82.0,
+              "battery_basis": "gross",
+              "power_hp": 299,
+              "torque_lbft": 361,
+              "accel_0_60_s": 5.9,
+              "accel_0_100_s": null,
+              "top_speed_mph": 127,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 659,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46978",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-dual-motor",
+              "name": "Long Range Dual Motor",
+              "legacy_ids": [
+                165
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 82.0,
+              "battery_basis": "gross",
+              "power_hp": 421,
+              "torque_lbft": 546,
+              "accel_0_60_s": 4.3,
+              "accel_0_100_s": null,
+              "top_speed_mph": 127,
+              "dc_kw": 205,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 276,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 596,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46975",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48402",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "dual-motor-performance-pack",
+              "name": "Long Range Dual Motor Performance Pack",
+              "legacy_ids": [
+                163
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 82.0,
+              "battery_basis": "gross",
+              "power_hp": 469,
+              "torque_lbft": 546,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 247,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 254,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_2",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46977",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48404",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2027",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Redesigned Polestar 2 announced in February 2026 on a dedicated EV platform, built in China, due in early 2027.",
+          "images": [],
+          "sources": [
+            {
+              "fields": [
+                "status"
+              ],
+              "url": "https://tflcar.com/2026/02/polestar-new-vehicles-timeline-announcement-news/",
+              "name": "TFLcar"
+            },
+            {
+              "fields": [
+                "status"
+              ],
+              "url": "https://insideevs.com/news/814005/polestar-2-production-china-over-official/",
+              "name": "InsideEVs"
+            }
+          ],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "slug": "polestar-three",
+      "url_slug": "polestar-3",
+      "name": "Polestar 3",
+      "aliases": [
+        "3"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.polestar.com/polestar-3/",
+      "description": "Mid-size electric SUV on the SPA2 platform shared with the Volvo EX90, revealed in October 2022 and built from 2024 in Chengdu and Ridgeville, South Carolina (Ridgeville only from March 2026). It moved to an 800-volt system with new motors and smaller packs in late 2025. New US sales stop after model year 2026 because Polestar was denied authorisation under the US Connected Vehicle Rule.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2024",
+          "end": "2026",
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Polestar_3",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.electrive.com/2026/06/26/polestar-faces-us-sales-ban-for-new-models-from-2027/",
+          "name": "electrive"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original (400 V)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SPA2",
+          "start_year": 2024,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "400-volt system with a 111 kWh NMC pack and 250 kW DC charging.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/polestar_3_dual_m_perf.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range-single-motor",
+              "name": "Long Range Single Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 299,
+              "torque_lbft": 361,
+              "accel_0_60_s": 7.5,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 250,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 350,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 67500,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/774327/2026-polestar-3-facelift-battery-charging-specs/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2024/03/13/2025-polestar-3-gains-additional-variants-now-starts-at-price-73400/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48725",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-dual-motor",
+              "name": "Long Range Dual Motor",
+              "legacy_ids": [
+                168
+              ],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 483,
+              "torque_lbft": 620,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.0,
+              "top_speed_mph": 130,
+              "dc_kw": 250,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 315,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 73400,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_3",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2024/03/13/2025-polestar-3-gains-additional-variants-now-starts-at-price-73400/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48409",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-dual-motor-performance",
+              "name": "Long Range Dual Motor Performance Pack",
+              "legacy_ids": [
+                166
+              ],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 510,
+              "torque_lbft": 671,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.7,
+              "top_speed_mph": 130,
+              "dc_kw": 250,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 279,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 79400,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 560,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_3",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2024/03/13/2025-polestar-3-gains-additional-variants-now-starts-at-price-73400/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48411",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "800-volt update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SPA2 (800 V)",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "800-volt system, new in-house rear motor, 92 kWh (Rear Motor) or 106 kWh packs, up to 350 kW DC charging and a faster Nvidia computer. Exterior essentially unchanged.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rear-motor",
+              "name": "Rear Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 92.0,
+              "battery_basis": null,
+              "power_hp": 329,
+              "torque_lbft": 354,
+              "accel_0_60_s": 6.3,
+              "accel_0_100_s": 6.5,
+              "top_speed_mph": 131,
+              "dc_kw": 310,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 291,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 604,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 78900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/774327/2026-polestar-3-facelift-battery-charging-specs/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://www.automobile.at/magazin/799791",
+                  "name": "automobile.at"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50233",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "dual-motor",
+              "name": "Dual Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 106.0,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 546,
+              "accel_0_60_s": 4.5,
+              "accel_0_100_s": 4.7,
+              "top_speed_mph": 143,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 635,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 87900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/774327/2026-polestar-3-facelift-battery-charging-specs/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://www.automobile.at/magazin/799791",
+                  "name": "automobile.at"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50229",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "performance",
+              "name": "Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 106.0,
+              "battery_basis": null,
+              "power_hp": 670,
+              "torque_lbft": 642,
+              "accel_0_60_s": 3.8,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": 143,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 281,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 593,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 106900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/774327/2026-polestar-3-facelift-battery-charging-specs/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://www.automobile.at/magazin/799791",
+                  "name": "automobile.at"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50231",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "polestar-four",
+      "url_slug": "polestar-4",
+      "name": "Polestar 4",
+      "aliases": [
+        "4"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.polestar.com/polestar-4/",
+      "description": "Coupe-styled SUV with no rear window, on Geely's SEA platform, revealed in April 2023 and built in Ningbo, China and, from late 2025, at Renault Korea in Busan. A conventional SUV body with a rear window was added in September 2026 (Europe first). The US gets no new model years after 2026.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2025",
+          "end": "2026",
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Polestar_4",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.electrive.com/2026/06/26/polestar-faces-us-sales-ban-for-new-models-from-2027/",
+          "name": "electrive"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SEA",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "SEA-platform coupe SUV (from late 2023) and, from September 2026, an SUV body with a rear window; ~100 kWh pack.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/polestar_4_dual_m_perf.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "side",
+              "verified_by_viewing": true
+            },
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Polestar_4_SUV_Auto_Zuerich_2026_IMG_8555.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Polestar_4_SUV_Auto_Zuerich_2026_IMG_8555.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range-single-motor",
+              "name": "Long Range Single Motor (Coupe)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 268,
+              "torque_lbft": 253,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.4,
+              "top_speed_mph": 112,
+              "dc_kw": 200,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 310,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 56400,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_4",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2025/06/03/2026-polestar-4-officially-on-sale-us-priced-slightly-higher/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48407",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50033",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-dual-motor",
+              "name": "Long Range Dual Motor (Coupe)",
+              "legacy_ids": [
+                167
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 544,
+              "torque_lbft": 506,
+              "accel_0_60_s": 3.7,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": 124,
+              "dc_kw": 200,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 272,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 280,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 62900,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 560,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_4",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2025/06/03/2026-polestar-4-officially-on-sale-us-priced-slightly-higher/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48412",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50034",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "suv-rear-motor",
+              "name": "SUV Rear Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 268,
+              "torque_lbft": 253,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.3,
+              "top_speed_mph": null,
+              "dc_kw": 200,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 629,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 54750,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://www.carscoops.com/2026/09/polestar-4-suv-launch/",
+                  "name": "Carscoops"
+                }
+              ]
+            },
+            {
+              "slug": "suv-dual-motor",
+              "name": "SUV Dual Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 506,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": null,
+              "dc_kw": 200,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 60750,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://www.carscoops.com/2026/09/polestar-4-suv-launch/",
+                  "name": "Carscoops"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "polestar-5",
+      "url_slug": "polestar-5",
+      "name": "Polestar 5",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.polestar.com/polestar-5/",
+      "description": "Four-door electric grand tourer developed from the 2020 Precept concept, shown at the 2025 Munich show and built in China with an 800-volt, 112 kWh SK On pack. It went on sale in Europe in 2026; it is not offered in the US or China.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Polestar_5",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insideevs.com/news/814005/polestar-2-production-china-over-official/",
+          "name": "InsideEVs"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Bonded-aluminium four-door GT with dual motors and 800-volt charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Polestar_5_Auto_Zuerich_2025_DSC_3198.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Polestar_5_Auto_Zuerich_2025_DSC_3198.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "dual-motor",
+              "name": "Dual Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 112.0,
+              "battery_basis": "gross",
+              "power_hp": 738,
+              "torque_lbft": 599,
+              "accel_0_60_s": 3.8,
+              "accel_0_100_s": null,
+              "top_speed_mph": 155,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 670,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 119900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://tflcar.com/2025/09/polestar-5-debut-news/",
+                  "name": "TFLcar"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.carsales.com.au/editorial/details/polestar-5-2026-review-152161/",
+                  "name": "carsales"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_5",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "performance",
+              "name": "Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 112.0,
+              "battery_basis": "gross",
+              "power_hp": 872,
+              "torque_lbft": 749,
+              "accel_0_60_s": 3.1,
+              "accel_0_100_s": null,
+              "top_speed_mph": 155,
+              "dc_kw": 350,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://tflcar.com/2025/09/polestar-5-debut-news/",
+                  "name": "TFLcar"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Polestar_5",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "polestar-7",
+      "url_slug": "polestar-7",
+      "name": "Polestar 7",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Compact premium electric SUV announced in February 2026 for a 2028 launch, to be built in Europe (Kosice, Slovakia) in a factory shared with Volvo. It takes priority over the delayed Polestar 6 roadster.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://tflcar.com/2026/02/polestar-new-vehicles-timeline-announcement-news/",
+          "name": "TFLcar"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.motor1.com/news/787598/polestar-teases-largest-model-offensive/",
+          "name": "Motor1"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Polestar",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2028",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2028,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced; no specifications published yet.",
+          "images": [],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 163,
+      "note": "Polestar 2 'Dual Motor Performance' = MY2024-25 Long Range Dual Motor with Performance Pack (EPA 247/254 mi). Price $64,800 not re-sourced. Its image (polestar_2_dual_m_perf.png) shows the BST edition 230 special edition, not a regular Performance Pack car; not reused."
+    },
+    {
+      "legacy_id": 164,
+      "note": "Duplicate make_model_slug 'polestar-two' merged into 'polestar-2'. Row says FWD but its 299 hp / 320 mi are the MY2024 rear-wheel-drive Long Range Single Motor. Image polestar_2_single_m.png shows a black BST edition 270 (a dual-motor, pre-facelift special edition): wrong car, not reused. US price $47,800 not re-sourced; single motor left the US after MY2024."
+    },
+    {
+      "legacy_id": 165,
+      "note": "Duplicate slug 'polestar-two' merged. 421 hp / 276 mi = MY2024 Long Range Dual Motor. Image polestar_2_dual_m.png (white, SmartZone front) verified as the 2024 facelift and reused."
+    },
+    {
+      "legacy_id": 166,
+      "note": "Polestar 3 Performance: vehicle_class 'Compact luxury Sedan' is wrong (mid-size SUV). $89,900 is the pre-March-2024 price; MY2025 Performance (with Pilot pack) is $79,400. EPA MY2025 279 mi (row says 270). New US model years end after MY2026."
+    },
+    {
+      "legacy_id": 167,
+      "note": "Polestar 4 row is stale: 'Not yet released' and a $60,000 estimate. It has been on sale since 2024 (Europe) and in the US for MY2025-26 (Dual Motor $62,900, EPA 272/280 mi, 544 hp). Its 'Dual Motor Performance' label is the Dual Motor (the Performance Pack adds wheels/brakes, not power). Image (side view, coupe) verified and reused."
+    },
+    {
+      "legacy_id": 168,
+      "note": "Polestar 3 Long Range Dual Motor: $83,900 is the old launch price (MY2025 $73,400); EPA MY2025 310-315 mi (row 300). vehicle_class 'Sedan' wrong."
+    }
+  ],
+  "gaps": [
+    "WebSearch budget for the session ran out mid-research; later facts come from Wikipedia, EPA data and articles already fetched.",
+    "Polestar 6 roadster (announced for 2026, now delayed with timing 'open', after 2028 at the earliest) is not included because no launch year can be sourced for a generation slug; the director may want to add it as 'upcoming'.",
+    "Polestar 4 Wagon/SUV: TFLcar (Feb 2026) said a Polestar 4 wagon would reach the US in Q4 2026, but the June 2026 US ban overtook that; the SUV body is modelled as variants of the one Polestar 4 generation.",
+    "One buyer's guide claimed US MY2026 Polestar 3 cars still use the 400 V/111 kWh setup; EPA MY2026 motor ratings (245 kW single motor) and the lower ranges match the 800 V car, so US 2026 offerings are on the 800 V refresh. Unconfirmed by Polestar US.",
+    "Polestar 2 US prices, Polestar 2 MY2021-23 Performance Pack power, 0-60 times for older Polestar 2 versions, and Polestar 4 coupe battery capacity (Wikipedia 102 kWh vs 100 kWh elsewhere) left null.",
+    "Polestar 3/4 MY2026 US prices not sourced; Polestar 5 Performance WLTP and price not sourced; Polestar 5 price sources disagree (EUR 118,600-119,900); Wikipedia/Reuters EUR 119,900 used.",
+    "Polestar 2 WLTP figures come from German Wikipedia whose tables flatten model years; treat as approximate.",
+    "Polestar 1 (2019-2022) is a plug-in hybrid and is intentionally excluded."
+  ]
+}

@@ -1,0 +1,2308 @@
+{
+ "make": {
+  "slug": "honda",
+  "name": "Honda",
+  "legacy_id": null,
+  "country": "JP",
+  "headquarters": "Minato, Tokyo, Japan",
+  "founded": 1948,
+  "parent_group": null,
+  "website_url": "https://global.honda",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Japanese carmaker whose battery-electric cars range from the Fit EV and Honda e to the GM-built Prologue, China-built e:N and P7/S7 models, and Japanese kei EVs. In March 2026 it cancelled its North American 0 Series EVs and shifted focus to hybrids.",
+  "sources": [
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Honda",
+    "name": "Wikipedia: Honda"
+   },
+   {
+    "fields": [
+     "status"
+    ],
+    "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+    "name": "Honda global newsroom, 12 March 2026"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "honda-prologue",
+   "url_slug": "prologue",
+   "name": "Prologue",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://automobiles.honda.com/prologue",
+   "description": "Midsize electric SUV developed with and built by General Motors on the Ultium platform, Honda's first volume EV in North America. A 2023 report said GM would end production in December 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2024-03",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_Prologue",
+     "name": "Wikipedia: Honda Prologue"
+    },
+    {
+     "fields": [
+      "price",
+      "range"
+     ],
+     "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c30bd2f6-2026-honda-prologue-now-at-dealers-with-enhanced-charging-packages-available",
+     "name": "Honda News (2026 Prologue)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Built by GM in Ramos Arizpe, Mexico, from January 2024. For 2025 an upgraded front motor raised output (220 hp 2WD, 300 hp AWD) and EPA range (up to 308 mi).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2024_Honda_Prologue_Touring%2C_front_7.11.25.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Honda_Prologue_Touring,_front_7.11.25.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_Prologue",
+       "name": "Wikipedia: Honda Prologue"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd-2024",
+       "name": "Single Motor 2WD (212 hp)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": null,
+       "power_hp": 212,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 296,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 47400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://hondanews.com/en-US/honda-automobiles/releases/all-electric-2024-honda-prologue-earns-class-leading-standard-range-rating-starts-arriving-at-dealers-this-spring-priced-at-47400",
+         "name": "Honda News (2024 Prologue pricing)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47828.shtml",
+         "name": "fueleconomy.gov 2024 Prologue FWD"
+        }
+       ]
+      },
+      {
+       "slug": "awd-2024",
+       "name": "Dual Motor AWD (288 hp)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": null,
+       "power_hp": 288,
+       "torque_lbft": 333,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 281,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 50400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://hondanews.com/en-US/honda-automobiles/releases/all-electric-2024-honda-prologue-earns-class-leading-standard-range-rating-starts-arriving-at-dealers-this-spring-priced-at-47400",
+         "name": "Honda News (2024 Prologue pricing)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47830.shtml",
+         "name": "fueleconomy.gov 2024 Prologue AWD Touring"
+        }
+       ]
+      },
+      {
+       "slug": "fwd",
+       "name": "Single Motor 2WD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": null,
+       "power_hp": 220,
+       "torque_lbft": 243,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 308,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 47400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 308,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 47400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-28556cec8c60d45354dbdd1404014728-building-on-success-2025-honda-prologue-goes-farther",
+         "name": "Honda News (2025 Prologue)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c30bd2f6-2026-honda-prologue-now-at-dealers-with-enhanced-charging-packages-available",
+         "name": "Honda News (2026 Prologue)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49091.shtml",
+         "name": "fueleconomy.gov 2025 Prologue FWD"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50208.shtml",
+         "name": "fueleconomy.gov 2026 Prologue FWD"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "Dual Motor AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 85,
+       "battery_basis": null,
+       "power_hp": 300,
+       "torque_lbft": 355,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 50400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-28556cec8c60d45354dbdd1404014728-building-on-success-2025-honda-prologue-goes-farther",
+         "name": "Honda News (2025 Prologue)"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-c26685400737027f7d053958c30bd2f6-2026-honda-prologue-now-at-dealers-with-enhanced-charging-packages-available",
+         "name": "Honda News (2026 Prologue)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49089.shtml",
+         "name": "fueleconomy.gov 2025 Prologue AWD Touring"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50206.shtml",
+         "name": "fueleconomy.gov 2026 Prologue AWD Touring"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-fit-ev",
+   "url_slug": "fit-ev",
+   "name": "Fit EV",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Honda's first modern battery-electric car, leased in California, Oregon and later other US states from July 2012 and to Japanese fleets from August 2012. Production ended with the 2014-2015 leases.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2012-07",
+     "end": "2014",
+     "local_name": null
+    },
+    "JP": {
+     "status": "discontinued",
+     "launch": "2012-08",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "price",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_Fit_EV",
+     "name": "Wikipedia: Honda Fit EV"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2013",
+     "name": "Fit EV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2013,
+     "end_year": 2014,
+     "status": "discontinued",
+     "description": "Lease-only battery-electric version of the second-generation Fit with a 20 kWh Toshiba SCiB lithium-titanate pack; about 1,100 were built for the US.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Honda_Fit_EV_WAS_2012_0779.JPG",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_Fit_EV_WAS_2012_0779.JPG",
+       "credit": "Mariordo - Mario Roberto Durán Ortiz",
+       "license": "CC BY-SA 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "price",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_Fit_EV",
+       "name": "Wikipedia: Honda Fit EV"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd",
+       "name": "Fit EV",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2013,
+       "year_to": 2014,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 20,
+       "battery_basis": null,
+       "power_hp": 123,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2013,
+         "range": 82,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": 36625,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2014,
+         "range": 82,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_Fit_EV",
+         "name": "Wikipedia: Honda Fit EV"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/33265.shtml",
+         "name": "fueleconomy.gov 2013 Fit EV"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/33905.shtml",
+         "name": "fueleconomy.gov 2014 Fit EV"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-clarity-electric",
+   "url_slug": "clarity-electric",
+   "name": "Clarity Electric",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Lease-only electric sedan offered to California and Oregon residents from 2017 until production ended in late 2019. Its 89-mile EPA range was short even at launch.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2017",
+     "end": "2019",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_Clarity",
+     "name": "Wikipedia: Honda Clarity"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2017",
+     "name": "Clarity Electric",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2017,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "Battery-electric member of the Clarity family (alongside the fuel-cell and plug-in hybrid versions), built in Sayama, Japan, with a 25.5 kWh pack.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_Clarity",
+       "name": "Wikipedia: Honda Clarity"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd",
+       "name": "Clarity Electric",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2017,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 25.5,
+       "battery_basis": null,
+       "power_hp": 160,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 89,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 89,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 89,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_Clarity",
+         "name": "Wikipedia: Honda Clarity"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39191.shtml",
+         "name": "fueleconomy.gov 2017 Clarity EV"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41185.shtml",
+         "name": "fueleconomy.gov 2019 Clarity EV"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-e",
+   "url_slug": "e",
+   "name": "Honda e",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Small rear-drive electric hatchback sold in Japan (2020-2024) and Europe (2020-2023). Its roughly 220 km range limited sales, and production ended in January 2024.",
+   "markets": {
+    "JP": {
+     "status": "discontinued",
+     "launch": "2020-10",
+     "end": "2024-01",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2020",
+     "end": "2023",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": "2020",
+     "end": "2023",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_e",
+     "name": "Wikipedia: Honda e"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "Honda e",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Retro-styled rear-motor city car with a full-width dashboard of screens and camera mirrors; built October 2020 to January 2024 with no successor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Honda_e_Advance_%28ZAA-ZC7%29_front.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_e_Advance_(ZAA-ZC7)_front.jpg",
+       "credit": "Tokumeigakarinoaoshima",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_e",
+       "name": "Wikipedia: Honda e"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard",
+       "name": "Honda e (100 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 35.5,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": 232,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_e",
+         "name": "Wikipedia: Honda e"
+        }
+       ]
+      },
+      {
+       "slug": "advance",
+       "name": "Honda e Advance (113 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 35.5,
+       "battery_basis": null,
+       "power_hp": 152,
+       "torque_lbft": 232,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_e",
+         "name": "Wikipedia: Honda e"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-e-n1",
+   "url_slug": "e-n1",
+   "name": "e:N1",
+   "aliases": [
+    "e:NS1",
+    "e:NP1",
+    "e:Ny1"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Compact electric crossover derived from the HR-V, Honda's first e:N model. Sold in China from 2022 to 2025 and in Europe as the e:Ny1 from 2023; by November 2026 it no longer appears on Honda's UK or German websites.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2022",
+     "end": "2025",
+     "local_name": "e:NS1 / e:NP1"
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2023",
+     "end": null,
+     "local_name": "e:Ny1"
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": "2023-08",
+     "end": null,
+     "local_name": "e:Ny1"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_e:Ny1",
+     "name": "Wikipedia: Honda HR-V (e:NS1/e:NP1/e:Ny1)"
+    },
+    {
+     "fields": [
+      "status",
+      "price"
+     ],
+     "url": "https://www.honda.co.uk/cars.html",
+     "name": "Honda UK model list (Nov 2026)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.honda.de/cars/new/e-ny1-electric-suv/overview.html",
+     "name": "Honda Germany model list (Nov 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e:N Architecture F",
+     "start_year": 2022,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Battery-electric version of the third-generation HR-V/Vezel, built in China by Dongfeng Honda (e:NS1) and GAC Honda (e:NP1) and exported to Europe as the e:Ny1 from August 2023; also assembled in Thailand as the e:N1.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/2023_Dongfeng-Honda_eNS1_in_blue%2C_front_8.18.23.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Dongfeng-Honda_eNS1_in_blue,_front_8.18.23.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0"
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/2024_Honda_e-Ny1_Advance_-_68kWh_%28204PS%29_Electric_-_Urban_Grey_-_02-2024%2C_Front.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Honda_e-Ny1_Advance_-_68kWh_(204PS)_Electric_-_Urban_Grey_-_02-2024,_Front.jpg",
+       "credit": "Harvey Bold",
+       "license": "CC BY 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_e:Ny1",
+       "name": "Wikipedia: Honda HR-V (e:NS1/e:NP1/e:Ny1)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "53-6kwh",
+       "name": "53.6 kWh (134 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 53.6,
+       "battery_basis": null,
+       "power_hp": 180,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 420,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_e:Ny1",
+         "name": "Wikipedia: Honda HR-V (e:NS1/e:NP1/e:Ny1)"
+        }
+       ]
+      },
+      {
+       "slug": "68-8kwh",
+       "name": "68.8 kWh (150 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 68.8,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 510,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_e:Ny1",
+         "name": "Wikipedia: Honda HR-V (e:NS1/e:NP1/e:Ny1)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-e-n2",
+   "url_slug": "e-n2",
+   "name": "e:N2",
+   "aliases": [
+    "e:NS2",
+    "e:NP2",
+    "Insight"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Second e:N model, a compact electric crossover for China launched in 2024. Since April 2026 it has also been imported into Japan in limited numbers under the Insight name.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-04",
+     "end": null,
+     "local_name": "e:NP2 / e:NS2"
+    },
+    "JP": {
+     "status": "current",
+     "launch": "2026-04",
+     "end": null,
+     "local_name": "Insight"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "price"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_e:NP2",
+     "name": "Wikipedia: Honda e:N2 (e:NS2/e:NP2/Insight)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e:N Architecture F",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Coupe-crossover built by GAC Honda (e:NP2) and Dongfeng Honda (e:NS2) from 2024, with a 68.8 kWh CATL pack; exported to Thailand and, as the Insight, to Japan in 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Honda_eNP2_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_eNP2_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "price"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_e:NP2",
+       "name": "Wikipedia: Honda e:N2 (e:NS2/e:NP2/Insight)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd",
+       "name": "FWD (68.8 kWh)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 68.8,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 545,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_e:NP2",
+         "name": "Wikipedia: Honda e:N2 (e:NS2/e:NP2/Insight)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-p7",
+   "url_slug": "p7",
+   "name": "P7",
+   "aliases": [
+    "Ye P7"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "China-market electric SUV from GAC Honda, developed under the 'Ye' sub-brand, which Honda dropped before launch. Twin of the Dongfeng Honda S7.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-03",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "honda-s7"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+     "name": "Wikipedia: Honda P7 / S7"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e:N Architecture W",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size electric SUV built by GAC Honda in Guangzhou from March 2025 with an 89.8 kWh CATL pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/2025_GAC-Honda_P7.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_GAC-Honda_P7.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+       "name": "Wikipedia: Honda P7 / S7"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "RWD (200 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.8,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 650,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+         "name": "Wikipedia: Honda P7 / S7"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD (350 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.8,
+       "battery_basis": null,
+       "power_hp": 469,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+         "name": "Wikipedia: Honda P7 / S7"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-s7",
+   "url_slug": "s7",
+   "name": "S7",
+   "aliases": [
+    "Ye S7"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "China-market electric SUV from Dongfeng Honda, launched March 2025; twin of the GAC Honda P7.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-03",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+     "name": "Wikipedia: Honda P7 / S7"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e:N Architecture W",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size electric SUV built by Dongfeng Honda in Wuhan from February 2025 with an 89.8 kWh CATL pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Honda_S7_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_S7_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+       "name": "Wikipedia: Honda P7 / S7"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "RWD (200 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.8,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 650,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+         "name": "Wikipedia: Honda P7 / S7"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD (350 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.8,
+       "battery_basis": null,
+       "power_hp": 469,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_Ye_P7",
+         "name": "Wikipedia: Honda P7 / S7"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-gt",
+   "url_slug": "gt",
+   "name": "GT",
+   "aliases": [
+    "Ye GT"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Electric fastback sedan for China, shown as the Ye GT concept and listed as pre-production for 2026; no specifications or price had been published by the sources checked.",
+   "markets": {
+    "CN": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_GT",
+     "name": "Wikipedia: Honda GT"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e:N Architecture W",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Electric fastback sedan previewed by the Ye GT concept, to be built by GAC Honda and Dongfeng Honda.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_GT",
+       "name": "Wikipedia: Honda GT"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_GT",
+         "name": "Wikipedia: Honda GT"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-n-one-e",
+   "url_slug": "n-one-e",
+   "name": "N-One e:",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Kei-class electric hatchback for Japan, Honda's first electric passenger kei car, launched September 2025.",
+   "markets": {
+    "JP": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_N-One",
+     "name": "Wikipedia: Honda N-One (N-One e:, Super-One)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "N-One e:",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Battery-electric kei car based on the N-One, with a 29.6 kWh AESC pack; on sale in Japan from 11 September 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Honda_N-ONE_e_L.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_N-ONE_e_L.jpg",
+       "credit": "TTTNIS",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_N-One",
+       "name": "Wikipedia: Honda N-One (N-One e:, Super-One)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e",
+       "name": "N-One e: (G / L)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 29.6,
+       "battery_basis": null,
+       "power_hp": 52,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": 295,
+         "range_unit": "km",
+         "range_cycle": "WLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_N-One",
+         "name": "Wikipedia: Honda N-One (N-One e:, Super-One)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-super-one",
+   "url_slug": "super-one",
+   "name": "Super-ONE",
+   "aliases": [
+    "Super-N"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Small four-seat electric hatchback derived from the N-One e:, sold in Japan, Australia, Southeast Asia and the UK (as the Super-N) from 2026.",
+   "markets": {
+    "JP": {
+     "status": "current",
+     "launch": "2026-05",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2026-08",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": "Super-N"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_N-One",
+     "name": "Wikipedia: Honda N-One (N-One e:, Super-One)"
+    },
+    {
+     "fields": [
+      "specs",
+      "price",
+      "status"
+     ],
+     "url": "https://www.honda.co.uk/cars/new/super-n/overview.html",
+     "name": "Honda UK: Super-N"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Super-ONE",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Wider, more powerful (70 kW boost) derivative of the N-One e: with a 29.6 kWh pack; on sale in Japan from 21 May 2026, Australia from August 2026 and the UK as the Super-N.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Honda_Super-ONE_%28JG6%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_Super-ONE_(JG6).jpg",
+       "credit": "Tokumeigakarinoaoshima",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_N-One",
+       "name": "Wikipedia: Honda N-One (N-One e:, Super-One)"
+      },
+      {
+       "fields": [
+        "specs",
+        "price",
+        "status"
+       ],
+       "url": "https://www.honda.co.uk/cars/new/super-n/overview.html",
+       "name": "Honda UK: Super-N"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e",
+       "name": "Super-ONE (70 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 29.6,
+       "battery_basis": null,
+       "power_hp": 94,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 84,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": 274,
+         "range_unit": "km",
+         "range_cycle": "WLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 18995,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_N-One",
+         "name": "Wikipedia: Honda N-One (N-One e:, Super-One)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://www.honda.co.uk/cars/new/super-n/overview.html",
+         "name": "Honda UK: Super-N"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-n-van-e",
+   "url_slug": "n-van-e",
+   "name": "N-Van e:",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric kei-class light commercial van for Japan, sold from 2024 in private (e:L4, e:FUN) and business (e:G, e:L2) versions.",
+   "markets": {
+    "JP": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_N-Van",
+     "name": "Wikipedia: Honda N-Van"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "N-Van e:",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Battery-electric version of the N-Van kei van, sold in Japan from 2024; business-only one- and two-seat versions are lease-only.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Honda_N-VAN_e%EF%BC%9AFUN_%28ZAB-JJ3%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_N-VAN_e：FUN_(ZAB-JJ3).jpg",
+       "credit": "Tokumeigakarinoaoshima",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Honda_N-Van",
+       "name": "Wikipedia: Honda N-Van"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e-l4",
+       "name": "e:L4 / e:FUN (47 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 63,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_N-Van",
+         "name": "Wikipedia: Honda N-Van"
+        }
+       ]
+      },
+      {
+       "slug": "e-g",
+       "name": "e:G / e:L2 business (39 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 52,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_N-Van",
+         "name": "Wikipedia: Honda N-Van"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-0-saloon",
+   "url_slug": "0-saloon",
+   "name": "0 Saloon",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Low, wedge-shaped flagship sedan of Honda's 0 Series, shown at CES 2024-2025. Honda cancelled its development and launch on 12 March 2026, citing expected long-term losses.",
+   "markets": {
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+     "name": "Honda global newsroom, 12 March 2026"
+    },
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_0_Series",
+     "name": "Wikipedia: Honda 0 Series"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Production version (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Production was due to start at Honda's Ohio EV hub in 2026; cancelled on 12 March 2026 before launch.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Honda_0_Saloon_Prototype.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_0_Saloon_Prototype.jpg",
+       "credit": "TTTNIS",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+       "name": "Honda global newsroom, 12 March 2026"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "planned",
+       "name": "0 Saloon (planned)",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+         "name": "Honda global newsroom, 12 March 2026"
+        },
+        {
+         "fields": [
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_0_Series",
+         "name": "Wikipedia: Honda 0 Series"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-0-suv",
+   "url_slug": "0-suv",
+   "name": "0 SUV",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Midsize SUV that was to be the first 0 Series production model, built in Ohio from 2026. Honda cancelled it on 12 March 2026 together with the 0 Saloon and Acura RSX.",
+   "markets": {
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+     "name": "Honda global newsroom, 12 March 2026"
+    },
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_0_Series",
+     "name": "Wikipedia: Honda 0 Series"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Production version (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Production was due to start at Honda's Ohio EV hub in 2026; cancelled on 12 March 2026 before launch.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Honda_0_SUV_Prototype.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_0_SUV_Prototype.jpg",
+       "credit": "TTTNIS",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+       "name": "Honda global newsroom, 12 March 2026"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "planned",
+       "name": "0 SUV (planned)",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+         "name": "Honda global newsroom, 12 March 2026"
+        },
+        {
+         "fields": [
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_0_Series",
+         "name": "Wikipedia: Honda 0 Series"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "honda-0-alpha",
+   "url_slug": "0-alpha",
+   "name": "0 Alpha",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Smallest 0 Series model, shown as a prototype; after the North American 0 models were cancelled, Honda kept it for production in India for India and Japan from early 2027.",
+   "markets": {
+    "IN": {
+     "status": "upcoming",
+     "launch": "2027",
+     "end": null,
+     "local_name": null
+    },
+    "JP": {
+     "status": "upcoming",
+     "launch": "2027",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Honda_0_Series",
+     "name": "Wikipedia: Honda 0 Series"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.carscoops.com/2026/04/honda-0-alpha-suv-india/",
+     "name": "Carscoops (0 Alpha for India)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Entry-level 0 Series SUV, planned to be built in India for India and Japan.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Honda_0_%CE%B1_concept_at_Japan_Mobility_Show_Kansai_2025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_0_α_concept_at_Japan_Mobility_Show_Kansai_2025.jpg",
+       "credit": "Aos.1905",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.carscoops.com/2026/04/honda-0-alpha-suv-india/",
+       "name": "Carscoops (0 Alpha for India)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "planned",
+       "name": "0 Alpha (planned)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Honda_0_Series",
+         "name": "Wikipedia: Honda 0 Series"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.carscoops.com/2026/04/honda-0-alpha-suv-india/",
+         "name": "Carscoops (0 Alpha for India)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Web search budget ran out mid-research; Honda data comes from Wikipedia, Honda press sites, fueleconomy.gov and Honda UK/DE sites.",
+  "Prologue 2026 AWD/Touring/Elite prices and 2026 connector not published in the source; production end (expected Dec 2026, per a 2023 report) not reconfirmed.",
+  "e:N1/e:Ny1: battery/power-to-range pairing for China variants inferred from Wikipedia ranges; e:Ny1 WLTP range and UK/EU prices not sourced; Thailand/NZ e:N1 status not verified (model marked discontinued based on China end 2025 and absence from Honda UK/DE sites).",
+  "Honda e WLTP range and list prices not sourced (Wikipedia gives subsidised launch prices only).",
+  "No prices sourced for China models (e:N2, P7, S7), N-One e:, N-Van e: or Japanese Super-ONE; Japan Insight price (about 5.5 million yen) appears only in a citation title.",
+  "Honda GT production status in 2026 not confirmed.",
+  "China-only Honda-badged EVs X-NV, M-NV and Everus VE-1 (2018-2022) were not researched (no accessible source within the search budget).",
+  "Honda 0 Series 'large SUV' (reported cancelled July 2025 by Nikkei) was never officially named; not listed.",
+  "Clarity Electric: no Commons photo that is clearly the electric version (body shared with PHEV/fuel-cell).",
+  "Power/torque for non-US models converted from kW/Nm.",
+  "No image yet for Fit EV, Clarity Electric, e:N2, P7, S7, N-One e:, Super-ONE or N-Van e:: Wikimedia started refusing this machine's requests (HTTP 429, robot policy) before the candidate files could be opened and checked. Candidates: File:Honda Fit EV blue, Cars and Croissants.jpg; File:Honda Ye P7 003.jpg; File:Honda S7 at Auto Guangzhou 2025 20251123.jpg; File:2024 Dongfeng-Honda e׃NS2 (front).jpg; File:Honda N-ONE e：G (ZAA-JG5).jpg; File:Honda Super-ONE (ZAA-JG6).jpg; File:Honda N-VAN e：FUN (ZAB-JJ3) front.jpg."
+ ]
+}

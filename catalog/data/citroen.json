@@ -1,0 +1,2835 @@
+{
+  "make": {
+    "slug": "citroen",
+    "name": "Citroën",
+    "legacy_id": 19,
+    "country": "FR",
+    "headquarters": "Paris, France",
+    "founded": 1919,
+    "parent_group": "Stellantis",
+    "website_url": "https://www.citroen.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "French car maker founded by André Citroën in 1919, part of PSA from 1976 and of Stellantis since 2021. Its electric cars started with the Mitsubishi-built C-Zero in 2010; today it sells the Ami quadricycle, the low-cost ë-C3 and ë-C3 Aircross, the ë-C4 and ë-C4 X, the ë-C5 Aircross and electric Berlingo and SpaceTourer people carriers.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters",
+          "parent_group",
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "citroen-ami",
+      "url_slug": "ami",
+      "name": "Ami",
+      "aliases": [],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.citroen.co.uk/ami",
+      "description": "Two-seat electric quadricycle (L6e, limited to 45 km/h) built in Kenitra, Morocco since 2020, with a 5.5 kWh battery and a 6 kW motor. It can be driven in France without a full licence. A facelift with a new front and rear was shown in October 2024. Opel sells a twin as the Rocks Electric and Fiat a restyled twin as the Topolino.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "opel-rocks-electric"
+        },
+        {
+          "relation": "successor",
+          "model": "citroen-c-zero"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Ami_(electric_vehicle)",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Launched in 2020 after the 2019 Ami One concept; symmetrical body with the old double-chevron badge.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/citroen_ami.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "electric",
+              "name": "Ami",
+              "legacy_ids": [
+                136
+              ],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 5.5,
+              "battery_basis": null,
+              "power_hp": 8,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 28,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Ami_(electric_vehicle)",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Ami_(2020)",
+                  "name": "Wikipedia (de)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Facelift shown at the October 2024 Paris show: headlights moved up, new front and rear panels and the new Citroën logo; technical data unchanged.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Citro%C3%ABn_Ami_%282025%29_Auto_Zuerich_2025_DSC_2988.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Ami_(2025)_Auto_Zuerich_2025_DSC_2988.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "electric",
+              "name": "Ami",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 5.5,
+              "battery_basis": null,
+              "power_hp": 8,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 28,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Ami_(electric_vehicle)",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-c-zero",
+      "url_slug": "c-zero",
+      "name": "C-Zero",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Four-seat city car rebadged from the Mitsubishi i-MiEV and built by Mitsubishi in Japan for PSA, sold in Europe from late 2010 until 2020. Its twin was the Peugeot iOn; Citroën replaced it with the Ami.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2010",
+          "end": "2020",
+          "local_name": null
+        },
+        "UK": {
+          "status": "discontinued",
+          "launch": "2011",
+          "end": "2020",
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "mitsubishi-i-miev"
+        },
+        {
+          "relation": "twin",
+          "model": "peugeot-ion"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C-Zero",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "price",
+            "status"
+          ],
+          "url": "https://ev-database.org/car/1094/Citroen-C-Zero",
+          "name": "EV Database"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2010",
+          "name": "C-Zero",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2010,
+          "end_year": 2020,
+          "status": "discontinued",
+          "description": "Mitsubishi i-MiEV based; the PSA cars switched to an 80-cell 14.5 kWh pack from model year 2013.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Citroen_C-Zero.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citroen_C-Zero.JPG",
+              "credit": "Thomas doerfer",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "16-kwh",
+              "name": "16 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2010,
+              "year_to": 2012,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 16.0,
+              "battery_basis": "gross",
+              "power_hp": 63,
+              "torque_lbft": 133,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 15.0,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CHADEMO",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C-Zero",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "14-5-kwh",
+              "name": "14.5 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2013,
+              "year_to": 2020,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 14.5,
+              "battery_basis": "gross",
+              "power_hp": 63,
+              "torque_lbft": 133,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 15.9,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CHADEMO",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CHADEMO",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1094/Citroen-C-Zero",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-mehari",
+      "url_slug": "e-mehari",
+      "name": "E-Méhari",
+      "aliases": [
+        "E-Mehari"
+      ],
+      "body_style": "convertible",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Open four-seat electric leisure car with a fabric roof, based on the Bolloré Bluesummer and built in Rennes from 2016 to 2019 (about 1,000 made). It used a 30 kWh lithium-metal-polymer battery and a 50 kW motor.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2016",
+          "end": "2019",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_E-M%C3%A9hari",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2016",
+          "name": "E-Méhari",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Bolloré Bluesummer",
+          "start_year": 2016,
+          "end_year": 2019,
+          "status": "discontinued",
+          "description": "Bolloré Bluesummer based; NEDC urban range 200 km.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Citro%C3%ABn_E-M%C3%A9hari.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_E-M%C3%A9hari.jpg",
+              "credit": "JoachimKohler-HB",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "30-kwh",
+              "name": "30 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2016,
+              "year_to": 2019,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 30.0,
+              "battery_basis": null,
+              "power_hp": 67,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 68,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_E-M%C3%A9hari",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-c3",
+      "url_slug": "e-c3",
+      "name": "ë-C3",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.citroen.co.uk/models/e-c3.html",
+      "description": "Low-cost B-segment electric car on Stellantis' Smart Car platform, built in Trnava (Slovakia) and Kragujevac (Serbia) since 2024. It uses LFP batteries: 44 kWh from launch and a cheaper 30 kWh Urban Range from 2025.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C3",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Fourth generation C3",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Smart Car",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Introduced in October 2023, deliveries from 2024; shares its body with the petrol and hybrid C3.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Citro%C3%ABn_C3_Turbo_100_You_%28IV%29_%E2%80%93_f_01062025.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_C3_Turbo_100_You_(IV)_%E2%80%93_f_01062025.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "44-kwh",
+              "name": "Standard Range 44 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 44.0,
+              "battery_basis": "gross",
+              "power_hp": 111,
+              "torque_lbft": 92,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.0,
+              "top_speed_mph": 84,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 326,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 23450,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 326,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 22295,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C3",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2039/Citroen-e-C3-Standard-Range-44-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "30-kwh",
+              "name": "Urban Range 30 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 30.0,
+              "battery_basis": "gross",
+              "power_hp": 111,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 12.0,
+              "top_speed_mph": 78,
+              "dc_kw": 30,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 212,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 20140,
+                  "launch_price": 20490,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 212,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 18495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C3",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3280/Citroen-e-C3-Urban-Range-30-kWh",
+                  "name": "EV Database"
+                },
+                {
+                  "fields": [
+                    "dc_kw",
+                    "launch_price"
+                  ],
+                  "url": "https://tarantas.news/en/posts/id533-citroen-e-c3-urban-range-affordable-city-ev-from-eur20-490",
+                  "name": "Tarantas News"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-c3-india",
+      "url_slug": "e-c3-india",
+      "name": "ë-C3 (India)",
+      "aliases": [
+        "eC3",
+        "e-C3"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the low-cost C3 built in Tiruvallur, India for India and other emerging markets; it is unrelated to the European ë-C3. Launched in India on 27 February 2023 with a 29.2 kWh battery and a 42 kW motor; also sold in Indonesia from 2024.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2023-02",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Smart Car",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Smart Car platform hatchback; Global NCAP gave it 0 stars for adults in 2024.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/2023_Citro%C3%ABn_%C3%AB-C3_%28Indonesia%29_front_view.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_Citro%C3%ABn_%C3%AB-C3_(Indonesia)_front_view.jpg",
+              "credit": "Andra Febrian",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "29-kwh",
+              "name": "29.2 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 29.2,
+              "battery_basis": null,
+              "power_hp": 56,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 320,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-c3-aircross",
+      "url_slug": "e-c3-aircross",
+      "name": "ë-C3 Aircross",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the second-generation European C3 Aircross, a B-SUV on the Smart Car platform built in Trnava since 2024, available with five or seven seats. A 54 kWh extended-range battery joined the 44 kWh version in 2025.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C3_Aircross",
+          "name": "Wikipedia (de)"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3_Aircross",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Smart Car",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Smart Car platform; LFP batteries.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_%C3%AB-C3_Aircross_IMG_3525.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "44-kwh",
+              "name": "Comfort Range 44 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 44.0,
+              "battery_basis": "gross",
+              "power_hp": 111,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 12.9,
+              "top_speed_mph": 89,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 307,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 26640,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 307,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 21595,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C3_Aircross",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2224/Citroen-e-C3-Aircross-Comfort-Range-44-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "Extended Range 54 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 111,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.0,
+              "top_speed_mph": 89,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 400,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 31240,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 400,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 23495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C3_Aircross",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3228/Citroen-e-C3-Aircross-Extended-Range-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-c4",
+      "url_slug": "e-c4",
+      "name": "ë-C4",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.citroen.co.uk/models/c4-e-c4.html",
+      "description": "Electric version of the third-generation C4, a raised hatchback on the eCMP platform built in Madrid, launched in 2020 with a 50 kWh battery. A 54 kWh / 156 hp version was added in 2023 and the car was facelifted in late 2024.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C4",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "Third generation C4",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2020,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Revealed 16 June 2020; 50 kWh battery and 100 kW motor, 54 kWh / 115 kW from mid-2023.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/citroen_e_c4.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [
+                135
+              ],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.7,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 355,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 355,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C4",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1587/Citroen-e-C4",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.2,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1938/Citroen-e-C4-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Unveiled at the 2024 Paris show with the Oli-inspired front, new logo, new rear lights and new seats; same two powertrains.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2025_Citro%C3%ABn_C4_DSC_9296.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Citro%C3%ABn_C4_DSC_9296.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.9,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 355,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 31900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 355,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 26150,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3047/Citroen-e-C4",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.1,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 34100,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 30005,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3048/Citroen-e-C4-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-c4x",
+      "url_slug": "e-c4-x",
+      "name": "ë-C4 X",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.citroen.co.uk/models/new-e-c4-x.html",
+      "description": "Fastback saloon version of the C4, unveiled on 29 June 2022; in several markets (UK, Benelux, Germany) it was first sold only as the electric ë-C4 X. It shares the ë-C4 powertrains and was facelifted with it in late 2024.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C4",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4_X",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Launched late 2022 with the 50 kWh / 100 kW powertrain; 54 kWh / 115 kW added in 2023.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/citroen_e_c4x.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [
+                137
+              ],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.7,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 360,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 360,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4_X",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1706/Citroen-e-C4-X",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.3,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 421,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 421,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4_X",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1939/Citroen-e-C4-X-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Late-2024 facelift with the new Citroën face and logo.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/2025_Citro%C3%ABn_C4_X_IMG_8283_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Citro%C3%ABn_C4_X_IMG_8283_(cropped).jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.9,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 360,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 32600,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 360,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 27215,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4_X",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3049/Citroen-e-C4-X",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.1,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 421,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 34800,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 421,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 30005,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C4_X",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3050/Citroen-e-C4-X-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-c5-aircross",
+      "url_slug": "e-c5-aircross",
+      "name": "ë-C5 Aircross",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the second-generation C5 Aircross, a compact SUV on the STLA Medium platform unveiled on 29 April 2025 and built in Rennes from October 2025. It is the first C5 Aircross offered as a battery-electric car, with 73 kWh and 97 kWh batteries.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C5_Aircross",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C5_Aircross",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Second generation C5 Aircross",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "STLA Medium",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "STLA Medium platform; 160 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Citro%C3%ABn_%C3%AB-C5_Aircross_Auto_Zuerich_2025_DSC_3486.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_%C3%AB-C5_Aircross_Auto_Zuerich_2025_DSC_3486.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "73-kwh",
+              "name": "Comfort Range 73 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 211,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.4,
+              "top_speed_mph": 106,
+              "dc_kw": 160,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 42590,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 32585,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C5_Aircross",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C5_Aircross",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3230/Citroen-C5-Aircross-Comfort-Range",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "97-kwh",
+              "name": "Long Range 97 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 97.0,
+              "battery_basis": "usable",
+              "power_hp": 228,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.8,
+              "top_speed_mph": 106,
+              "dc_kw": 160,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 679,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 49690,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 679,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 32955,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_C5_Aircross",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C5_Aircross",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3231/Citroen-C5-Aircross-Long-Range",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-berlingo",
+      "url_slug": "e-berlingo",
+      "name": "ë-Berlingo",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the third-generation Berlingo leisure MPV (M five-seat and XL seven-seat bodies), sold from 2021. The 2024 facelift brought a new 50 kWh pack with more range. Twins: Peugeot e-Rifter, Opel/Vauxhall Combo Electric (and Toyota Proace City Verso Electric).",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "peugeot-e-rifter"
+        },
+        {
+          "relation": "twin",
+          "model": "opel-combo-electric"
+        },
+        {
+          "relation": "successor",
+          "model": "citroen-e-berlingo-multispace"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Berlingo",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Berlingo",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Third generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2021,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "eCMP-derived 50 kWh / 100 kW powertrain.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/2021_Citroen_E-Berlingo_Flair_XTR.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_Citroen_E-Berlingo_Flair_XTR.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "m-50-kwh",
+              "name": "M 50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 84,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 285,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Berlingo",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1546/Citroen-e-Berlingo-M-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "xl-50-kwh",
+              "name": "XL 50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 84,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 278,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Berlingo",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1547/Citroen-e-Berlingo-XL-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "March 2024 facelift with new front and a revised 50 kWh battery giving roughly 340 km WLTP.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Citro%C3%ABn_%C3%AB-Berlingo_Automesse_Ludwigsburg_2024_IMG_1657.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_%C3%AB-Berlingo_Automesse_Ludwigsburg_2024_IMG_1657.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "m-50-kwh",
+              "name": "M 50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 82,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 345,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 36940,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 345,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 29740,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Berlingo",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2159/Citroen-e-Berlingo-M-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "xl-50-kwh",
+              "name": "XL 50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 82,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 339,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 37940,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 339,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 30640,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Citro%C3%ABn_Berlingo",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2160/Citroen-e-Berlingo-XL-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-berlingo-multispace",
+      "url_slug": "e-berlingo-multispace",
+      "name": "ë-Berlingo Multispace",
+      "aliases": [
+        "Berlingo Multispace Electric"
+      ],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the second-generation Berlingo Multispace leisure MPV, sold in small numbers from 2017 to early 2020 with a 22.5 kWh battery.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2017",
+          "end": "2020",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price",
+            "status"
+          ],
+          "url": "https://ev-database.org/car/1102/Citroen-e-Berlingo-Multispace",
+          "name": "EV Database"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2017",
+          "name": "Second generation Berlingo",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2017,
+          "end_year": 2020,
+          "status": "discontinued",
+          "description": "Small-battery conversion of the second-generation Berlingo.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "electric",
+              "name": "Electric",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2017,
+              "year_to": 2020,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 20.5,
+              "battery_basis": "usable",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 19.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1102/Citroen-e-Berlingo-Multispace",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "citroen-e-spacetourer",
+      "url_slug": "e-spacetourer",
+      "name": "ë-SpaceTourer",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the SpaceTourer people carrier (Jumpy-based, up to nine seats) sold from late 2020 with 50 kWh or 75 kWh batteries and a 100 kW motor. Facelifted in 2024; twins are the Peugeot e-Traveller and Opel/Vauxhall Zafira Electric (Vivaro Life Electric in the UK).",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "peugeot-e-traveller"
+        },
+        {
+          "relation": "twin",
+          "model": "opel-zafira-electric"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Jumpy",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "price",
+            "status"
+          ],
+          "url": "https://ev-database.org/car/2254/Citroen-e-SpaceTourer-M-75-kWh",
+          "name": "EV Database"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2020,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "EMP2-based van with 50 kWh and 75 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Citroen_e-Spacetourer_Classic-Gala_2021_1X7A0113.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citroen_e-Spacetourer_Classic-Gala_2021_1X7A0113.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 12.1,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1341/Citroen-e-SpaceTourer-M-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 75.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1343/Citroen-e-SpaceTourer-M-75-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "2024 facelift with the new Citroën face; the 50 kWh version left the range in 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Citro%C3%ABn_%C3%AB-Spacetourer_%282025%29_%2854854899752%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_%C3%AB-Spacetourer_(2025)_(54854899752).jpg",
+              "credit": "Charles from Port Chester, New York",
+              "license": "CC0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2252/Citroen-e-SpaceTourer-M-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 75.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 14.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 53130,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 35495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2254/Citroen-e-SpaceTourer-M-75-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 135,
+      "note": "Legacy \"ë-C4 Electric\" is the 2020-2024 50 kWh / 100 kW version. Its epa_range 217 is the 350 km WLTP figure converted to miles and mislabelled EPA (the car was never sold in the US); current_price 40227 has no currency or basis; dates are malformed (\"2021-15-02\", \"string\")."
+    },
+    {
+      "legacy_id": 136,
+      "note": "Legacy Ami row: epa_range 47 is the 75 km WMTC range converted to miles (not EPA); acceleration_0_60 9.2 s and the 116 torque/136 power style values are copied from other rows and impossible for a 6 kW, 45 km/h quadricycle; battery (5.5 kWh) missing. Mapped to the original 2020-2024 Ami; a facelift went on sale in 2025."
+    },
+    {
+      "legacy_id": 137,
+      "note": "Legacy ë-C4 X row copies the ë-C4 values (217 \"EPA\" miles, 136 hp, 9.2 s); the ë-C4 X was only unveiled in June 2022. Mapped to the 2022 50 kWh / 100 kW version; the model was facelifted in late 2024 and a 54 kWh version exists."
+    }
+  ],
+  "gaps": [
+    "No WLTP range sourced for the ë-SpaceTourer (only EV Database real-world figures); Peugeot e-Traveller WLTP figures are on its own entry.",
+    "Ami / C-Zero / E-Méhari ranges are on WMTC or NEDC cycles, which the schema does not accept, so range is null (Ami 75 km WMTC; C-Zero 150 km NEDC; E-Méhari 200 km NEDC urban).",
+    "Ami price not sourced (no maker price page could be fetched; web search budget was exhausted during this run).",
+    "India ë-C3 price and current (2026) Indian status not verified beyond Wikipedia listing it as in production.",
+    "Commercial ë-Jumpy / ë-Jumper / ë-Berlingo Van and ë-Jumpy Combi are not included (cargo and fleet people-carrier versions).",
+    "EU prices are German list prices incl. VAT from EV Database (Nov 2026 snapshot); UK prices likewise from EV Database.",
+    "No images found for the ë-Berlingo 2021, ë-SpaceTourer generations and the ë-Berlingo Multispace."
+  ]
+}

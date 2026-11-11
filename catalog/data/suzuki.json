@@ -1,0 +1,242 @@
+{
+  "make": {
+    "slug": "suzuki",
+    "name": "Suzuki",
+    "legacy_id": null,
+    "country": "JP",
+    "headquarters": "Hamamatsu, Shizuoka, Japan",
+    "founded": 1909,
+    "parent_group": null,
+    "website_url": "https://www.globalsuzuki.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Japanese maker of small cars and motorcycles, and majority owner of India's Maruti Suzuki. Its first mass-produced battery-electric car is the e Vitara (2025), built in Gujarat, India, and also sold by Toyota as the Urban Cruiser.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Suzuki",
+        "name": "Wikipedia: Suzuki"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "suzuki-e-vitara",
+      "url_slug": "e-vitara",
+      "name": "e Vitara",
+      "aliases": [
+        "eVitara",
+        "Maruti Suzuki e Vitara"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.globalsuzuki.com/automobile/lineup/evitara/",
+      "description": "Suzuki's first mass-produced EV, a B-segment crossover on the Heartect-e platform built at Suzuki Motor Gujarat in India. Revealed in Milan in November 2024; deliveries began in Europe in September 2025, Japan in January 2026 and India (as the Maruti Suzuki e Vitara) in February 2026.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "JP": {
+          "status": "current",
+          "launch": "2026-01",
+          "end": null,
+          "local_name": null
+        },
+        "IN": {
+          "status": "current",
+          "launch": "2026-02",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "toyota-urban-cruiser"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+          "name": "Wikipedia: Suzuki e Vitara"
+        },
+        {
+          "fields": [
+            "years"
+          ],
+          "url": "https://www.autocarindia.com/car-news/maruti-launches-e-vitara-at-rs-1099-lakh-battery-rental-extra-438538",
+          "name": "Autocar India: e Vitara India launch"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Heartect-e",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "BYD LFP packs of 49 or 61 kWh; front motor or ALLGRIP-e dual-motor AWD; eAxles co-developed with Toyota.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Suzuki_e_Vitara_Auto_Zuerich_2025_DSC_3426.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Suzuki_e_Vitara_Auto_Zuerich_2025_DSC_3426.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+              "name": "Wikipedia: Suzuki e Vitara"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "49kwh-fwd",
+              "name": "49 kWh FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 49.0,
+              "battery_basis": null,
+              "power_hp": 142,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+                  "name": "Wikipedia: Suzuki e Vitara"
+                }
+              ]
+            },
+            {
+              "slug": "61kwh-fwd",
+              "name": "61 kWh FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 61.0,
+              "battery_basis": null,
+              "power_hp": 172,
+              "torque_lbft": 142,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.7,
+              "top_speed_mph": 93,
+              "dc_kw": 67,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+                  "name": "Wikipedia: Suzuki e Vitara"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://paultan.org/2026/06/26/suzuki-evitara-ev-launched-in-malaysia-174-ps-and-193-nm-426-km-wltp-cbu-india-rm188000/",
+                  "name": "Paul Tan (26 Jun 2026): e Vitara 61 kWh specs"
+                }
+              ]
+            },
+            {
+              "slug": "61kwh-awd",
+              "name": "61 kWh ALLGRIP-e AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 61.0,
+              "battery_basis": null,
+              "power_hp": 181,
+              "torque_lbft": 221,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+                  "name": "Wikipedia: Suzuki e Vitara"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.globalsuzuki.com/automobile/lineup/evitara/",
+                  "name": "Suzuki Global: e Vitara"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "e Vitara: Europe/UK/Japan prices and WLTP ranges in km not sourced (India price quoted with battery rental, Malaysia 426 km WLTP for 61 kWh FWD is outside the market list).",
+    "Suzuki e Every (kei electric van, Japan) not included: specs and launch not sourced."
+  ]
+}

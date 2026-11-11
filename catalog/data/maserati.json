@@ -1,0 +1,1027 @@
+{
+ "make": {
+  "slug": "maserati",
+  "name": "Maserati",
+  "legacy_id": null,
+  "country": "IT",
+  "headquarters": "Modena, Italy",
+  "founded": 1914,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.maserati.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Maserati is an Italian luxury and performance brand founded in Bologna in 1914 and based in Modena, part of Stellantis since 2021. Its electric cars carry the Folgore name: GranTurismo, GranCabrio and Grecale.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Maserati",
+    "name": "Wikipedia: Maserati"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "maserati-granturismo-folgore",
+   "url_slug": "granturismo-folgore",
+   "name": "GranTurismo Folgore",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.maserati.com/global/en/models/granturismo/granturismo-folgore",
+   "description": "The GranTurismo Folgore is the battery-electric version of Maserati's 2+2 grand tourer and the brand's first EV, on sale since 2023. It uses three motors and a 92.5 kWh, 800-volt battery; a facelift for model year 2027 added range.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+     "name": "Wikipedia: Maserati GranTurismo"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Second-generation GranTurismo (M189)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "M189",
+     "platform": "Giorgio Sport (800 V)",
+     "start_year": 2023,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Tri-motor, 800-volt electric version of the second-generation GranTurismo, revealed October 2022 with production from 2023; 92.5 kWh battery and 270 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2023_Maserati_GranTurismo_Folgore.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Maserati_GranTurismo_Folgore.jpg",
+       "credit": "MrWalkr",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+       "name": "Wikipedia: Maserati GranTurismo"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "folgore",
+       "name": "Folgore",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 92.5,
+       "battery_basis": "gross",
+       "power_hp": 752,
+       "torque_lbft": 996,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.7,
+       "top_speed_mph": 202,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 198212,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 179950,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 242,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 233,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+         "name": "Wikipedia: Maserati GranTurismo"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/maserati-granturismo-ii-folgore-92.5-kwh-762hp-bev-awd-46596",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1803/Maserati-GranTurismo-Folgore",
+         "name": "EV Database (archived pre-facelift)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47843",
+         "name": "fueleconomy.gov (EPA) vehicle 47843"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48716",
+         "name": "fueleconomy.gov (EPA) vehicle 48716"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51100",
+         "name": "fueleconomy.gov (EPA) vehicle 51100"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2027",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-cycle facelift shown 18 June 2026 for model year 2027: MCPura-style nose, new lights, and a front-axle disconnect that raises WLTP range to 540 km on the same 92.5 kWh pack; auto-data lists 830 PS.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+       "name": "Wikipedia: Maserati GranTurismo"
+      },
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.maserati.com/global/en/brand/stories-of-audacity/new-maserati-range-grecale-granturismo-grancabrio",
+       "name": "Maserati: new range (June 2026 facelift)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "folgore",
+       "name": "Folgore",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 92.5,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": 996,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.8,
+       "top_speed_mph": 202,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 154280,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 129605,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+         "name": "Wikipedia: Maserati GranTurismo"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.maserati.com/global/en/brand/stories-of-audacity/new-maserati-range-grecale-granturismo-grancabrio",
+         "name": "Maserati: new range (June 2026 facelift)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/maserati-granturismo-ii-facelift-2026-folgore-92.5-kwh-830hp-bev-awd-57310",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/3719/Maserati-GranTurismo-Folgore",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "maserati-grancabrio-folgore",
+   "url_slug": "grancabrio-folgore",
+   "name": "GranCabrio Folgore",
+   "aliases": [],
+   "body_style": "convertible",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.maserati.com/global/en/models/grancabrio/grancabrio-folgore",
+   "description": "The GranCabrio Folgore is the open-top, four-seat electric Maserati, sharing the GranTurismo Folgore's three motors and 92.5 kWh battery. It went on sale in 2024 and was facelifted for model year 2027.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+     "name": "Wikipedia: Maserati GranTurismo"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Second-generation GranCabrio",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Giorgio Sport (800 V)",
+     "start_year": 2024,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Soft-top version of the GranTurismo, launched in 2024 with the same tri-motor, 92.5 kWh Folgore powertrain (761 PS).",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+       "name": "Wikipedia: Maserati GranTurismo"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "folgore",
+       "name": "Folgore",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 92.5,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": 996,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.8,
+       "top_speed_mph": 180,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 447,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 206713,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 185610,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 233,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 229,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 231,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+         "name": "Wikipedia: Maserati GranTurismo"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/maserati-grancabrio-ii-folgore-92.5-kwh-762hp-electric-awd-51585",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2187/Maserati-GranCabrio-Folgore",
+         "name": "EV Database (archived pre-facelift)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47842",
+         "name": "fueleconomy.gov (EPA) vehicle 47842"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48715",
+         "name": "fueleconomy.gov (EPA) vehicle 48715"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50454",
+         "name": "fueleconomy.gov (EPA) vehicle 50454"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2027",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "June 2026 facelift for model year 2027 with the GranTurismo's new nose and front-axle disconnect; WLTP range rises to 508 km.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+       "name": "Wikipedia: Maserati GranTurismo"
+      },
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.maserati.com/global/en/brand/stories-of-audacity/new-maserati-range-grecale-granturismo-grancabrio",
+       "name": "Maserati: new range (June 2026 facelift)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "folgore",
+       "name": "Folgore",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 92.5,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": 996,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.8,
+       "top_speed_mph": 180,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 508,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 164395,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 138605,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+         "name": "Wikipedia: Maserati GranTurismo"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.maserati.com/global/en/brand/stories-of-audacity/new-maserati-range-grecale-granturismo-grancabrio",
+         "name": "Maserati: new range (June 2026 facelift)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/maserati-grancabrio-ii-facelift-2026-folgore-92.5-kwh-830hp-bev-awd-57309",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/3720/Maserati-GranCabrio-Folgore",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "maserati-grecale-folgore",
+   "url_slug": "grecale-folgore",
+   "name": "Grecale Folgore",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.maserati.com/global/en/models/grecale/grecale-folgore",
+   "description": "The Grecale Folgore is the battery-electric version of Maserati's mid-size SUV, with two motors and a 105 kWh battery. It went on sale in 2023 and was facelifted for model year 2027.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Maserati_Grecale",
+     "name": "Wikipedia: Maserati Grecale"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Giorgio (400 V)",
+     "start_year": 2023,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Dual-motor (205 kW each) electric version of the Grecale SUV with a 105 kWh, 400-volt battery; on sale from 2023 as a 2024 model.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Maserati_Grecale_Folgore_%282024%29_%2854094321270%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Maserati_Grecale_Folgore_(2024)_(54094321270).jpg",
+       "credit": "Charles from Port Chester, New York",
+       "license": "CC BY 2.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Maserati_Grecale",
+       "name": "Wikipedia: Maserati Grecale"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "folgore",
+       "name": "Folgore",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 550,
+       "torque_lbft": 605,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.1,
+       "top_speed_mph": 137,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 500,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 124301,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 109905,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 245,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 268,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Maserati_Grecale",
+         "name": "Wikipedia: Maserati Grecale"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/maserati-grecale-folgore-105-kwh-558hp-bev-awd-48441",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1843/Maserati-Grecale-Folgore",
+         "name": "EV Database (archived)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48380",
+         "name": "fueleconomy.gov (EPA) vehicle 48380"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50455",
+         "name": "fueleconomy.gov (EPA) vehicle 50455"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2027",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "June 2026 facelift (model year 2027) with the range-wide MCPura-style styling; prices in Europe were cut sharply (Germany from about EUR 94,800).",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.maserati.com/global/en/brand/stories-of-audacity/new-maserati-range-grecale-granturismo-grancabrio",
+       "name": "Maserati: new range (June 2026 facelift)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "folgore",
+       "name": "Folgore",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": 605,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.1,
+       "top_speed_mph": 137,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 94843,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 86695,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 268,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.maserati.com/global/en/brand/stories-of-audacity/new-maserati-range-grecale-granturismo-grancabrio",
+         "name": "Maserati: new range (June 2026 facelift)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/maserati-grecale-facelift-2026-folgore-105-kwh-550hp-bev-awd-57301",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/3721/Maserati-Grecale-Folgore",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51043",
+         "name": "fueleconomy.gov (EPA) vehicle 51043"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "maserati-mc20-folgore",
+   "url_slug": "mc20-folgore",
+   "name": "MC20 Folgore",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Planned battery-electric version of the MC20 mid-engine supercar, announced alongside Maserati's 2022 Folgore plan. Maserati cancelled it in March 2025 after about five years of development.",
+   "markets": {},
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.caranddriver.com/news/a64071152/maserati-mc20-folgore-canceled/",
+     "name": "Car and Driver (6 March 2025): MC20 Folgore is canceled"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Maserati_MC20",
+     "name": "Wikipedia: Maserati MC20"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "Planned (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "An electric tri-motor MC20 was tested in 2023 but never reached production.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.caranddriver.com/news/a64071152/maserati-mc20-folgore-canceled/",
+       "name": "Car and Driver (6 March 2025): MC20 Folgore is canceled"
+      }
+     ],
+     "variants": []
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "US prices for all Folgore models not sourced (manufacturer sites blocked automated access).",
+  "Facelift (MY2027) power in hp not given; auto-data lists 830 PS for GranTurismo/GranCabrio Folgore and 550 PS for Grecale Folgore, not converted.",
+  "Facelift Grecale Folgore WLTP range: auto-data gives a 528-580 km span; not entered.",
+  "EV Database lists an interim Grecale Folgore update from February 2026 (better range, EPA 268 mi for MY2026); folded into the first generation rather than a separate refresh.",
+  "Quattroporte and Levante Folgore EVs promised in Maserati's 2022 plan have not been launched; no current official status found, so they are not listed.",
+  "No Commons photo of the Grecale Folgore or GranCabrio Folgore found."
+ ]
+}
