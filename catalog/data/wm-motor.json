@@ -1,0 +1,520 @@
+{
+  "make": {
+    "slug": "wm-motor",
+    "name": "WM Motor",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shanghai, China",
+    "founded": 2015,
+    "parent_group": null,
+    "website_url": "https://www.wm-motor.com",
+    "status": "acquired",
+    "status_date": "2025-09",
+    "status_details": "Filed for pre-restructuring bankruptcy in October 2023 and stopped production and in-car services; in September 2025 a restructuring investor took over its four companies and announced that E5 and EX5 production would resume. Production at scale is not confirmed.",
+    "description": "Shanghai EV start-up that sold cars under the Weltmeister brand from 2018 (EX5, EX6, E5, W6), backed by Baidu and Tencent. It collapsed in 2023.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.reuters.com/business/autos-transportation/chinese-ev-startup-wm-motor-files-bankruptcy-2023-10-10/",
+        "name": "Reuters"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://cnevpost.com/2025/09/06/wm-motor-comeback-resume-production-sept",
+        "name": "CnEVPost"
+      },
+      {
+        "fields": [
+          "status",
+          "founded"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Weltmeister_(marque)",
+        "name": "Wikipedia: Weltmeister (marque)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "wm-motor-ex5",
+      "url_slug": "ex5",
+      "name": "EX5",
+      "aliases": [
+        "Weltmeister EX5"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "WM Motor's first car, a compact electric SUV delivered from September 2018; production ended in 2022 and was announced to restart under the 2025 restructuring.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2018-09",
+          "end": "2022",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Weltmeister_EX5",
+          "name": "Wikipedia: Weltmeister EX5"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.reuters.com/business/autos-transportation/chinese-ev-startup-wm-motor-files-bankruptcy-2023-10-10/",
+          "name": "Reuters"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2018",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2018,
+          "end_year": 2022,
+          "status": "discontinued",
+          "description": "160 kW motor with a 52.5 or 69 kWh pack (400 or 520 km NEDC).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/2019_Weltmeister_EX5_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2019_Weltmeister_EX5_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "400",
+              "name": "EX5 400 (52.5 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": 2022,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 52.5,
+              "battery_basis": "gross",
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Weltmeister_EX5",
+                  "name": "Wikipedia: Weltmeister EX5"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.electrive.com/2018/04/26/wm-motor-starts-selling-debut-model-ex5/",
+                  "name": "electrive"
+                }
+              ]
+            },
+            {
+              "slug": "520",
+              "name": "EX5 520 (69 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": 2022,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 69.0,
+              "battery_basis": "gross",
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Weltmeister_EX5",
+                  "name": "Wikipedia: Weltmeister EX5"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.electrive.com/2018/04/26/wm-motor-starts-selling-debut-model-ex5/",
+                  "name": "electrive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wm-motor-ex6",
+      "url_slug": "ex6",
+      "name": "EX6",
+      "aliases": [
+        "Weltmeister EX6 Plus"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Mid-size electric SUV shown in 2019 (EX6 Plus) and sold until 2022.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2019",
+          "end": "2022",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Weltmeister_EX6",
+          "name": "Wikipedia: Weltmeister EX6"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.reuters.com/business/autos-transportation/chinese-ev-startup-wm-motor-files-bankruptcy-2023-10-10/",
+          "name": "Reuters"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2022,
+          "status": "discontinued",
+          "description": "160 kW motor with 52.5-54 or 69 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Weltmeister_EX6_Plus_002.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Weltmeister_EX6_Plus_002.jpg",
+              "credit": "Jengtingchen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "plus",
+              "name": "EX6 Plus",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": 2022,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": 232,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Weltmeister_EX6",
+                  "name": "Wikipedia: Weltmeister EX6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wm-motor-e5",
+      "url_slug": "e5",
+      "name": "E5",
+      "aliases": [
+        "Weltmeister E5",
+        "Weltmeister E.5"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Compact electric sedan sold 2021-2022; named in the 2025 restructuring as one of two models to return to production.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": "2022",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Weltmeister_E5",
+          "name": "Wikipedia: Weltmeister E5"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.reuters.com/business/autos-transportation/chinese-ev-startup-wm-motor-files-bankruptcy-2023-10-10/",
+          "name": "Reuters"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2022,
+          "status": "discontinued",
+          "description": "122 kW front motor and a 58.6 kWh pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2021_Weltmeister_E5.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_Weltmeister_E5.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "e5",
+              "name": "E5 (58.6 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2022,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.6,
+              "battery_basis": "gross",
+              "power_hp": 164,
+              "torque_lbft": 177,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Weltmeister_E5",
+                  "name": "Wikipedia: Weltmeister E5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wm-motor-w6",
+      "url_slug": "w6",
+      "name": "W6",
+      "aliases": [
+        "Weltmeister W6"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Compact electric SUV developed with Baidu's Apollo self-parking system, sold 2021-2022.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": "2022",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Weltmeister_W6",
+          "name": "Wikipedia: Weltmeister W6"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.reuters.com/business/autos-transportation/chinese-ev-startup-wm-motor-files-bankruptcy-2023-10-10/",
+          "name": "Reuters"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2022,
+          "status": "discontinued",
+          "description": "65-69 kWh pack (520 km NEDC).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Weltmeister_W6_IMG006.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Weltmeister_W6_IMG006.jpg",
+              "credit": "Anonymousfox36",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "w6",
+              "name": "W6",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2022,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Weltmeister_W6",
+                  "name": "Wikipedia: Weltmeister W6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wm-motor-m7",
+      "url_slug": "m7",
+      "name": "M7",
+      "aliases": [
+        "Weltmeister M7"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Mid-size electric sedan planned for late 2022 (previewed by the Maven concept); never went into production because of WM Motor's financial crisis.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Weltmeister_M7",
+          "name": "Wikipedia: Weltmeister M7"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.reuters.com/business/autos-transportation/chinese-ev-startup-wm-motor-files-bankruptcy-2023-10-10/",
+          "name": "Reuters"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Planned model",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Planned AWD sedan with an 89-98 kWh pack and about 700 km of range.",
+          "images": [],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "WM Motor ranges are all NEDC and could not be stored.",
+    "Whether EX5/E5 production actually restarted after September 2025 is not confirmed; models are listed as discontinued.",
+    "EX6 seats not sourced."
+  ]
+}

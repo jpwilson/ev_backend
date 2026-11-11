@@ -1,0 +1,3019 @@
+{
+  "make": {
+    "slug": "chevrolet",
+    "name": "Chevrolet",
+    "legacy_id": 37,
+    "country": "US",
+    "headquarters": "Detroit, Michigan, USA",
+    "founded": 1911,
+    "parent_group": "General Motors",
+    "website_url": "https://www.chevrolet.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "General Motors' mass-market brand. Its EVs run from the original Spark EV and Bolt EV to the Ultium-based Equinox EV, Blazer EV and Silverado EV and the 2027 Bolt; outside North America it also sells China-built EVs such as the Spark EUV and Captiva EV. Chevrolet stopped selling new cars in China in August 2026.",
+    "sources": [
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Chevrolet",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://carnewschina.com/2026/08/11/chevrolet-exits-china-market-after-21-years-shift-focus-to-global-exports/",
+        "name": "CarNewsChina"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "chevrolet-spark-ev",
+      "url_slug": "spark-ev",
+      "name": "Spark EV",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric version of the Spark city car, built in South Korea and sold in limited numbers (mainly California and Oregon, later Maryland, plus South Korea and Canadian fleets) from 2013 to 2016. It was GM's first retail battery EV and was replaced by the Bolt EV.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2013-06",
+          "end": "2016-12",
+          "local_name": null
+        },
+        "KR": {
+          "status": "discontinued",
+          "launch": "2013-10",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "discontinued",
+          "launch": "2014",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Spark#Spark_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "http://www.detroitnews.com/story/business/autos/general-motors/2017/01/31/chevy-axes-spark-ev-favor-bolt-ev/97283876/",
+          "name": "The Detroit News"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2014",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2014,
+          "end_year": 2016,
+          "status": "discontinued",
+          "description": "Five-door city car with an 82-mile EPA range; the 2015 model year switched from an A123 lithium-iron-phosphate pack to a smaller LG Chem pack with the same range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/2015_Chevrolet_Spark_EV_2LT_in_Silver_Ice_Metallic%2C_front_left%2C_07-11-2026.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2015_Chevrolet_Spark_EV_2LT_in_Silver_Ice_Metallic,_front_left,_07-11-2026.jpg",
+              "credit": "Cutlass",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "21kwh-a123",
+              "name": "21.3 kWh (A123 LFP)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2014,
+              "year_to": 2014,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 21.3,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": 400,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2014,
+                  "range": 82,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=33640",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Spark#Spark_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "19kwh-lg",
+              "name": "19 kWh (LG Chem)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2015,
+              "year_to": 2016,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 19.0,
+              "battery_basis": null,
+              "power_hp": 141,
+              "torque_lbft": 327,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2015,
+                  "range": 82,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2016,
+                  "range": 82,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=35120",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=36996",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Spark#Spark_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-bolt",
+      "url_slug": "bolt",
+      "name": "Bolt",
+      "aliases": [
+        "Bolt EV",
+        "Opel Ampera-e",
+        "Vauxhall Ampera-e"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Chevrolet's affordable long-range EV. The first-generation Bolt EV hatchback (2017-2023, also sold in Europe as the Opel Ampera-e) ended production in December 2023; a second-generation Bolt, a small crossover derived from the Bolt EUV with an LFP battery and NACS port, went on sale as a 2027 model.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2016-12",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": "2017",
+          "end": null,
+          "local_name": null
+        },
+        "KR": {
+          "status": "discontinued",
+          "launch": "2017-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "successor",
+          "model": "chevrolet-spark-ev"
+        },
+        {
+          "relation": "successor",
+          "model": "chevrolet-bolt-euv"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insideevs.com/news/775256/2027-chevrolet-bolt-limited-run-only/",
+          "name": "InsideEVs"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.cars.com/research/chevrolet-bolt-2027/",
+          "name": "Cars.com"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2017",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BEV2",
+          "start_year": 2017,
+          "end_year": 2021,
+          "status": "discontinued",
+          "description": "Original Bolt EV hatchback on GM's BEV2 platform with LG Chem cells; the pack grew from 60 kWh to 66 kWh for 2020, lifting EPA range from 238 to 259 miles. All 2017-2022 cars were recalled for battery replacement.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gray_2020_Chevrolet_Bolt_EV_01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Gray_2020_Chevrolet_Bolt_EV_01.jpg",
+              "credit": "4300streetcar",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "60kwh",
+              "name": "Bolt EV 60 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2017,
+              "year_to": 2019,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 60.0,
+              "battery_basis": null,
+              "power_hp": 200,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 91,
+              "dc_kw": 55,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2017,
+                  "range": 238,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2018,
+                  "range": 238,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2019,
+                  "range": 238,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=38187",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=39786",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=40520",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "66kwh",
+              "name": "Bolt EV 66 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2021,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 66.0,
+              "battery_basis": null,
+              "power_hp": 200,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 91,
+              "dc_kw": 55,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2020,
+                  "range": 259,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 259,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=42191",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43663",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2022",
+          "name": "Refresh",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BEV2",
+          "start_year": 2022,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "2022 facelift with new front and rear styling, a redesigned interior, 11.5 kW onboard charging and DC fast charging made standard (still 55 kW). Production ended on 20 December 2023.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/2022_Chevrolet_Bolt_EV_LT_in_Grey_Ghost_Metallic%2C_Front_Right%2C_08-14-2022.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Bolt_EV_LT_in_Grey_Ghost_Metallic,_Front_Right,_08-14-2022.jpg",
+              "credit": "Elise240SX",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "66kwh",
+              "name": "Bolt EV",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 66.0,
+              "battery_basis": null,
+              "power_hp": 200,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 55,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 259,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 259,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43955",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45751",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2027",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": "GM BEV2",
+          "start_year": 2027,
+          "end_year": null,
+          "status": "current",
+          "description": "Crossover body derived from the Bolt EUV, 65 kWh LFP pack with CATL cells, 150 kW DC charging, a factory NACS port and the Equinox EV's drive unit. Built at Fairfax, Kansas from January 2026 as a single 2027 model-year run.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/2027_Chevrolet_Bolt_at_Ikea_parking_lot_in_Stoughton%2C_MA_October_2026.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2027_Chevrolet_Bolt_at_Ikea_parking_lot_in_Stoughton,_MA_October_2026.jpg",
+              "credit": "4300streetcar",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "65kwh-lfp",
+              "name": "LT / RS (65 kWh LFP)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": "suv",
+              "seats": 5,
+              "battery_kwh": 65.0,
+              "battery_basis": null,
+              "power_hp": 210,
+              "torque_lbft": 169,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 262,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 28995,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50372",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-bolt-2027/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://insideevs.com/news/775172/2027-chevrolet-bolt-range-price-revealed/",
+                  "name": "InsideEVs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-bolt-euv",
+      "url_slug": "bolt-euv",
+      "name": "Bolt EUV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Longer, crossover-styled companion to the Bolt EV on the same BEV2 platform, and the first Chevrolet offered with Super Cruise. Sold for the 2022 and 2023 model years; production ended on 20 December 2023 and its body became the basis of the 2027 Bolt.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": "2023-12",
+          "local_name": null
+        },
+        "CA": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": "2023-12",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt#EUV",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BEV2",
+          "start_year": 2022,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Single front-motor configuration with a 65 kWh pack, 247-mile EPA range and 55 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/2022_Chevrolet_Bolt_EUV%2C_front_8.26.23.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Bolt_EUV,_front_8.26.23.jpg",
+              "credit": "Kevauto",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "65kwh",
+              "name": "Bolt EUV",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 65.0,
+              "battery_basis": null,
+              "power_hp": 200,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 55,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 247,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 247,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43954",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45750",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Bolt#EUV",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-equinox-ev",
+      "url_slug": "equinox-ev",
+      "name": "Equinox EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.chevrolet.com/electric/equinox-ev",
+      "description": "Compact electric SUV on GM's BEV3 (Ultium) platform, built in Ramos Arizpe, Mexico, and GM's best-selling EV since 2024. Every version uses an 85 kWh pack; the 2027 model year adds a built-in NACS charging port. A China-built version was shown in 2024 but never went on sale there.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2024-05",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Equinox_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50841",
+          "name": "fueleconomy.gov (EPA)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BEV3",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Launched for 2024 (2LT/3LT/2RS/3RS); simplified to LT and RS for 2025 with more power, then LT 1, LT 2 and RS.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/2025_Chevrolet_Equinox_EV%2C_front_left_4.26.25.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_Equinox_EV,_front_left_4.26.25.jpg",
+              "credit": "Kevauto",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            },
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/chevy_equinox_ev.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD (85 kWh)",
+              "legacy_ids": [
+                202
+              ],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": null,
+              "power_hp": 220,
+              "torque_lbft": 242,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 319,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 319,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 319,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 36495,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 319,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 36795,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47814",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48697",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49953",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50841",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Equinox_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/2026/05/20/chevy-equinox-ev-gains-few-big-updates-2027/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://gmauthority.com/blog/2026/10/these-2027-chevy-equinox-ev-trim-levels-received-a-price-increase-in-october/",
+                  "name": "GM Authority"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "eAWD (85 kWh)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": null,
+              "power_hp": 300,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 285,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 307,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 307,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 39795,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 307,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 42095,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47815",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48695",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49955",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50630",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Equinox_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/2026/05/20/chevy-equinox-ev-gains-few-big-updates-2027/",
+                  "name": "Electrek"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://gmauthority.com/blog/2026/10/these-2027-chevy-equinox-ev-trim-levels-received-a-price-increase-in-october/",
+                  "name": "GM Authority"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-blazer-ev",
+      "url_slug": "blazer-ev",
+      "name": "Blazer EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.chevrolet.com/electric/blazer-ev",
+      "description": "Mid-size electric SUV on GM's BEV3 (Ultium) platform, built in Ramos Arizpe, Mexico since late 2023, with front-, rear- and all-wheel-drive versions plus the 615 hp SS. Production paused from December 2023 to March 2024 over software problems; the RS RWD was dropped after the 2025 model year.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Blazer_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50628",
+          "name": "fueleconomy.gov (EPA)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BEV3",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Launched with 2LT and RS trims (85 kWh AWD and 102 kWh RWD); FWD and the SS were added for 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/2024_Chevrolet_Blazer_EV_2LT_AWD_in_Summit_White%2C_front_right%2C_2024-03-31.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Blazer_EV_2LT_AWD_in_Summit_White,_front_right,_2024-03-31.jpg",
+              "credit": "Elise240SX",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd-85kwh",
+              "name": "LT / RS FWD (85 kWh)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": null,
+              "power_hp": 220,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 44700,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49069",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49644",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50628",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Blazer_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-blazer_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "awd-85kwh",
+              "name": "LT / RS AWD (85 kWh)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": null,
+              "power_hp": 300,
+              "torque_lbft": 355,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 279,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 283,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 283,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 47700,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 283,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47445",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48342",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49646",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50626",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Blazer_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-blazer_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "rs-rwd-102kwh",
+              "name": "RS RWD (102 kWh)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 102.0,
+              "battery_basis": null,
+              "power_hp": 365,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 324,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 334,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47813",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48694",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Blazer_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "ss",
+              "name": "SS (102 kWh)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 102.0,
+              "battery_basis": null,
+              "power_hp": 615,
+              "torque_lbft": 650,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 303,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 302,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 60700,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 302,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49068",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49954",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50627",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Blazer_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-blazer_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "ppv",
+              "name": "Police Pursuit Vehicle (fleet)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 498,
+              "torque_lbft": 571,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Blazer_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-silverado-ev",
+      "url_slug": "silverado-ev",
+      "name": "Silverado EV",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.chevrolet.com/electric/silverado-ev",
+      "description": "Full-size electric crew-cab pickup on GM's BT1 platform with a midgate, built at Factory Zero in Detroit since 2023. It began with fleet Work Truck versions and the RST First Edition; for 2026 the RST was dropped, new drive units arrived and Standard, Extended and Max Range packs are offered across WT, LT and Trail Boss.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "CA": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "gmc-sierra-ev"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Silverado_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51023",
+          "name": "fueleconomy.gov (EPA)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+          "name": "Cars.com"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "GM BT1",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Same body throughout; capability changes by battery size (Standard, Extended, Max Range) and model year.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/2024_Chevrolet_Silverado_EV_4WT_AWD_in_Summit_White%2C_front_left%2C_2024-06-30.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Silverado_EV_4WT_AWD_in_Summit_White,_front_left,_2024-06-30.jpg",
+              "credit": "Elise240SX",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "wt-standard-range",
+              "name": "Work Truck Standard Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 510,
+              "torque_lbft": 490,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 282,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 55000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 286,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 52800,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 286,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49071",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49642",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51026",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2025/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "wt-extended-range",
+              "name": "Work Truck Extended Range (3WT / 5WT)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 510,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 393,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 422,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 67400,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 424,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 66200,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 424,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47446",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48699",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49638",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51024",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Silverado_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2024/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2025/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "wt-max-range",
+              "name": "Work Truck Max Range (4WT / 8WT)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 510,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 450,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 492,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 75700,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 493,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 74200,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 493,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46946",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48698",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49639",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51025",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Silverado_EV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2024/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2025/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "rst-max-range",
+              "name": "RST Max Range (incl. First Edition)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 754,
+              "torque_lbft": 785,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 440,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 96495,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": true
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 95800,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2024/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2025/",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Silverado_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "lt-rst-extended-range-2025",
+              "name": "LT / RST Extended Range (2025)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 408,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 73100,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48700",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48701",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2025/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "lt-standard-range",
+              "name": "LT Standard Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 605,
+              "torque_lbft": 605,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 283,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 60900,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49643",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "lt-extended-range",
+              "name": "LT Extended Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 645,
+              "torque_lbft": 765,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 410,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 69100,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 396,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49640",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51023",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "trail-boss-extended-range",
+              "name": "Trail Boss Extended Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 625,
+              "torque_lbft": 775,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 70000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "lt-max-range",
+              "name": "LT Max Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 760,
+              "torque_lbft": 765,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 478,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 89200,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "trail-boss-max-range",
+              "name": "Trail Boss Max Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 725,
+              "torque_lbft": 775,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 478,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 86600,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/research/chevrolet-silverado_ev-2026/",
+                  "name": "Cars.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-brightdrop",
+      "url_slug": "brightdrop",
+      "name": "BrightDrop",
+      "aliases": [
+        "BrightDrop EV600",
+        "BrightDrop Zevo 600",
+        "BrightDrop Zevo 400",
+        "Chevrolet BrightDrop 400",
+        "Chevrolet BrightDrop 600"
+      ],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric delivery van launched in 2021 by GM's BrightDrop unit as the EV600 / Zevo 600, joined by the shorter Zevo 400; from the 2025 model year sold through Chevrolet dealers as the Chevrolet BrightDrop 400 and 600. GM ended production at CAMI Ingersoll, Ontario, in October 2025 citing weak demand.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2021-12",
+          "end": "2025-10",
+          "local_name": null
+        },
+        "CA": {
+          "status": "discontinued",
+          "launch": null,
+          "end": "2025-10",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://news.gm.ca/en/home.detail.html/Pages/news/ca/en/2025/oct/1021_gm-ends-production-of-brightdrop.html",
+          "name": "General Motors Canada"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://electrek.co/2025/10/21/gm-kills-brightdrop-electric-van-production/",
+          "name": "Electrek"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/BrightDrop_Zevo",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Ultium-based van in two lengths (400 and 600). Launched dual-motor AWD with the 20-module Max Range pack; a 14-module pack became standard for 2024 and a front-motor version arrived for 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/2022_BrightDrop_EV600.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_BrightDrop_EV600.jpg",
+              "credit": "42-BRT",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "max-range-awd",
+              "name": "Max Range AWD (400 / 600)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 173.3,
+              "battery_basis": "usable",
+              "power_hp": 300,
+              "torque_lbft": 390,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 272,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 89225,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/BrightDrop_Zevo",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/734044/2025-chevrolet-brightdrop-van-price/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.gmupfitter.com/wp-content/uploads/2025/09/26MY-Chevrolet-BrightDrop-400-600-V090425-CLEAN-FINAL.pdf",
+                  "name": "GM Fleet 2026 order guide"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-awd",
+              "name": "Standard Range AWD (400 / 600)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 300,
+              "torque_lbft": 390,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/BrightDrop_Zevo",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/734044/2025-chevrolet-brightdrop-van-price/",
+                  "name": "InsideEVs"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-fwd",
+              "name": "Standard Range FWD (400 / 600)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 159,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 78625,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/BrightDrop_Zevo",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://insideevs.com/news/734044/2025-chevrolet-brightdrop-van-price/",
+                  "name": "InsideEVs"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.gmupfitter.com/wp-content/uploads/2025/09/26MY-Chevrolet-BrightDrop-400-600-V090425-CLEAN-FINAL.pdf",
+                  "name": "GM Fleet 2026 order guide"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-menlo",
+      "url_slug": "menlo",
+      "name": "Menlo",
+      "aliases": [
+        "Changxun"
+      ],
+      "body_style": "wagon",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "China-only electric crossover wagon built by SAIC-GM in Wuhan from 2020, Chevrolet's first EV in China. Sales dwindled to about 100 cars in 2025, and Chevrolet stopped selling new cars in China in August 2026.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2020-02",
+          "end": null,
+          "local_name": "Changxun"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Menlo",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://carnewschina.com/2026/08/11/chevrolet-exits-china-market-after-21-years-shift-focus-to-global-exports/",
+          "name": "CarNewsChina"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Launched with a 52.5 kWh pack and 110 kW motor; upgraded for 2022 to 61.1 kWh and 130 kW.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/CHEVROLET_MENLO_China_%283%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:CHEVROLET_MENLO_China_(3).jpg",
+              "credit": "Dinkun Chen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "52kwh",
+              "name": "52.5 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2021,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 52.5,
+              "battery_basis": null,
+              "power_hp": 148,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Menlo",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "61kwh",
+              "name": "61.1 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 61.1,
+              "battery_basis": null,
+              "power_hp": 174,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Menlo",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-spark-euv",
+      "url_slug": "spark-euv",
+      "name": "Spark EUV",
+      "aliases": [
+        "Baojun Yep Plus"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Small electric SUV made by SAIC-GM-Wuling in China (the Baojun Yep Plus) and sold as a Chevrolet in Latin America, the Middle East and the Philippines from 2025; Brazilian kit assembly began in December 2025.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Baojun_Yep#Chevrolet_Spark_EUV",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Rebadged Baojun Yep Plus with an LFP battery and a 75 kW motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/2025_Chevrolet_Spark_EUV_Activ_%28Colombia%29_front_view.png",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_Spark_EUV_Activ_(Colombia)_front_view.png",
+              "credit": "Autosdeprimera",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "42kwh-lfp",
+              "name": "41.9 kWh LFP",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 41.9,
+              "battery_basis": null,
+              "power_hp": 101,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Baojun_Yep#Chevrolet_Spark_EUV",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chevrolet-captiva-ev",
+      "url_slug": "captiva-ev",
+      "name": "Captiva EV",
+      "aliases": [
+        "Wuling Starlight S"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact electric SUV built by SAIC-GM-Wuling (the Wuling Starlight S) and sold as a Chevrolet in Latin America, the Middle East and the Philippines since 2025, alongside a plug-in hybrid Captiva.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Wuling_Starlight_S",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Rebadged Wuling Starlight S EV with a 60 kWh LFP pack and a 150 kW front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Chevrolet_Captiva_EV_F710S_Premier_Laser_Gray_01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Chevrolet_Captiva_EV_F710S_Premier_Laser_Gray_01.jpg",
+              "credit": "Ethan Llamas",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "60kwh-lfp",
+              "name": "60 kWh LFP",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 60.0,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Wuling_Starlight_S",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Chevrolet_Captiva#Captiva_EV/PHEV_(F710S;_2025)",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 202,
+      "note": "Labelled '2LT FWD' but the $34,995 price is the 2025 LT FWD price including destination (the 2024 2LT cost more). Power 213 hp / 236 lb-ft, 0-60 5.8 s and top speed 113 mph could not be sourced; 2025+ FWD is 220 hp / 242 lb-ft. 319 mi EPA and 85 kWh are correct. Mapped to the FWD variant; the legacy row was the only Chevrolet EV on the site."
+    }
+  ],
+  "gaps": [
+    "Pre-2026 Chevrolet MSRPs (Spark EV, Bolt EV, Bolt EUV, 2024-2025 Equinox EV / Blazer EV) not included: could not confirm price basis (with/without destination) from a fetchable source.",
+    "Blazer EV 2026 prices from Cars.com trim listings are assumed to exclude destination (Cars.com trim listings for Silverado EV exclude it); verify against Chevrolet.",
+    "Equinox EV AWD torque not set: sources disagree (346, 348, 355 lb-ft). 2024 FWD/AWD output differed slightly from 2025+ (variant shows 2025+ figures).",
+    "Equinox EV 2026 AWD with the 19.2 kW onboard charger is rated 288 mi EPA (11.5 kW charger: 307 mi); only the latter is listed.",
+    "Silverado EV battery capacities (about 205 kWh usable for Max Range) not set: no primary source fetched. 2027 Silverado EV prices and output not found; 2027 drive units are rated 290/295 kW by EPA.",
+    "Silverado EV 2025 LT/RST Extended Range EPA range is 408 mi with the 11.5 kW charger (390 mi with 19.2 kW). 2025 RST Max Range EPA rating not found.",
+    "2026/2027 Blazer EV and Equinox EV connector: Equinox EV gets a built-in NACS port for 2027; Blazer EV 2027 connector not confirmed.",
+    "BrightDrop: 400 and 600 bodies are combined per battery/motor configuration; ranges are GM estimates (400 shown). A 2026 model-year spec (102.4 / 121 / 173.3 kWh packs, 176 / 204 / 285 mi) was published, but production ended in October 2025, so no 2026 variants are listed.",
+    "Menlo, Spark EUV, Captiva EV: no price or range in an allowed market/cycle (Menlo was NEDC-rated; Spark EUV and Captiva EV are sold in Latin America / Middle East, which have no market key). The Chinese twin Wuling Starlight S EV is rated 510 km CLTC.",
+    "Menlo exact end-of-production date not found; Wikipedia lists production to 2026 and Chevrolet ended China retail sales in August 2026.",
+    "Spark EV 2014 power: sources conflict (130 hp Wikipedia vs 104 kW EPA); left null.",
+    "Not researched for lack of web search budget: Chevrolet Sail EV / Springo (China, ~2012), Korean-market Equinox EV, and Middle East / Latin America pricing."
+  ]
+}

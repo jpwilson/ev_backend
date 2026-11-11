@@ -1,0 +1,802 @@
+{
+  "make": {
+    "slug": "mazda",
+    "name": "Mazda",
+    "legacy_id": 24,
+    "country": "JP",
+    "headquarters": "Fuchu, Aki District, Hiroshima, Japan",
+    "founded": 1920,
+    "parent_group": null,
+    "website_url": "https://www.mazda.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Hiroshima-based carmaker known for driving dynamics. After a 100-car lease run of the Demio EV in 2012, its first series EV was the MX-30 (2020); since 2024 it has added the EZ-6 / 6e sedan and EZ-60 / CX-6e SUV, developed and built with Changan in China and exported to Europe.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Mazda",
+        "name": "Wikipedia: Mazda"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "mazda-demio-ev",
+      "url_slug": "demio-ev",
+      "name": "Demio EV",
+      "aliases": [
+        "Mazda2 EV"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric version of the third-generation Demio (Mazda2), offered only on lease in Japan from October 2012 in a run of 100 cars.",
+      "markets": {
+        "JP": {
+          "status": "discontinued",
+          "launch": "2012-10",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mazda2",
+          "name": "Wikipedia: Mazda2 (Demio EV)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2012",
+          "name": "Demio EV",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2012,
+          "end_year": null,
+          "status": "discontinued",
+          "description": "20 kWh lithium-ion pack, about 200 km claimed range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/DEMIO_EV_20130126-1.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:DEMIO_EV_20130126-1.JPG",
+              "credit": "Taisyo",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Mazda2",
+              "name": "Wikipedia: Mazda2 (Demio EV)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2012,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 20.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mazda2",
+                  "name": "Wikipedia: Mazda2 (Demio EV)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mazda-mx-30",
+      "url_slug": "mx-30",
+      "name": "MX-30",
+      "aliases": [
+        "MX-30 EV",
+        "MX-30 e-Skyactiv EV"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.mazda.com/en/new-generation/mx-30/",
+      "description": "Mazda's first series-production EV, a compact crossover with rear-hinged 'freestyle' doors and a small 35.5 kWh pack, launched in Europe in 2020 and Japan in 2021. The US got it only in California from 2021 and dropped it in July 2023; Canada and Australia dropped it in 2024. A rotary range-extender version (R-EV) is not a battery-electric car and is not listed here.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "JP": {
+          "status": "current",
+          "launch": "2021-01",
+          "end": null,
+          "local_name": null
+        },
+        "US": {
+          "status": "discontinued",
+          "launch": "2021-08",
+          "end": "2023-07",
+          "local_name": null
+        },
+        "CA": {
+          "status": "discontinued",
+          "launch": "2022-02",
+          "end": "2024",
+          "local_name": null
+        },
+        "AU": {
+          "status": "discontinued",
+          "launch": "2021-08",
+          "end": "2024",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mazda_MX-30",
+          "name": "Wikipedia: Mazda MX-30"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.autoweek.com/news/a44692751/mazda-mx-30-discontinued/",
+          "name": "Autoweek: MX-30 EV discontinued in the US"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": null,
+          "status": "current",
+          "description": "35.5 kWh pack, 105 kW front motor, about 200 km WLTP / 100 miles EPA.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/2021_Mazda_MX-30_Front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_Mazda_MX-30_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Mazda_MX-30",
+              "name": "Wikipedia: Mazda MX-30"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd-35kwh",
+              "name": "e-Skyactiv EV 35.5 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2020,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 35.5,
+              "battery_basis": null,
+              "power_hp": 143,
+              "torque_lbft": 195,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 50,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 100,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 33470,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 100,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 200,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mazda_MX-30",
+                  "name": "Wikipedia: Mazda MX-30"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.kbb.com/mazda/mx-30/2022/",
+                  "name": "Kelley Blue Book: 2022 MX-30 EV"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/2021/08/24/mazda-launches-first-electric-car-us-mx-30-price-range/",
+                  "name": "Electrek (24 Aug 2021): MX-30 US launch"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.mazda-press.com/eu/news/2019/mazda-mx-30--an-electric-car-for-the-environment-and-the-driver/",
+                  "name": "Mazda Europe press: MX-30"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/44784.shtml",
+                  "name": "fueleconomy.gov (EPA) 2022 MX-30"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46988.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 MX-30"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mazda-6e",
+      "url_slug": "6e",
+      "name": "6e",
+      "aliases": [
+        "EZ-6",
+        "Mazda6e"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric fastback sedan developed and built with Changan in Nanjing, China: sold there as the EZ-6 from October 2024 (also as a range-extender, not listed here) and exported to Europe as the Mazda 6e from mid-2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-10",
+          "end": null,
+          "local_name": "EZ-6"
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "range",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mazda_6e",
+          "name": "Wikipedia: Mazda 6e / EZ-6"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Rear-wheel drive; LFP packs of 56.1 or 68.8 kWh in China, 68.8 kWh LFP or 80 kWh NMC in Europe.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Mazda6e_IMG_6681.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mazda6e_IMG_6681.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "range",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Mazda_6e",
+              "name": "Wikipedia: Mazda 6e / EZ-6"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "56kwh-rwd",
+              "name": "56.1 kWh RWD (China)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 56.1,
+              "battery_basis": null,
+              "power_hp": 255,
+              "torque_lbft": 236,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 480,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mazda_6e",
+                  "name": "Wikipedia: Mazda 6e / EZ-6"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "years"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/26/mazda-launches-ez-6-with-1301-km-range-at-19100-starting-price/",
+                  "name": "CarNewsChina (26 Oct 2024): EZ-6 launch"
+                }
+              ]
+            },
+            {
+              "slug": "68kwh-rwd",
+              "name": "68.8 kWh RWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 68.8,
+              "battery_basis": null,
+              "power_hp": 255,
+              "torque_lbft": 236,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 478,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mazda_6e",
+                  "name": "Wikipedia: Mazda 6e / EZ-6"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "years"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/26/mazda-launches-ez-6-with-1301-km-range-at-19100-starting-price/",
+                  "name": "CarNewsChina (26 Oct 2024): EZ-6 launch"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://uk.mazda-press.com/news/2025/all-new-mazda6e-unveiled-at-brussels-motor-show/",
+                  "name": "Mazda UK press: Mazda6e unveiled"
+                }
+              ]
+            },
+            {
+              "slug": "80kwh-rwd",
+              "name": "80 kWh RWD Long Range (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 80.0,
+              "battery_basis": null,
+              "power_hp": 241,
+              "torque_lbft": 236,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.8,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 552,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mazda_6e",
+                  "name": "Wikipedia: Mazda 6e / EZ-6"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://uk.mazda-press.com/news/2025/all-new-mazda6e-unveiled-at-brussels-motor-show/",
+                  "name": "Mazda UK press: Mazda6e unveiled"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mazda-ez-60",
+      "url_slug": "ez-60",
+      "name": "EZ-60",
+      "aliases": [
+        "CX-6e"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size electric crossover developed with Changan, launched in China on 26 September 2025 (also as a range-extender, not listed here) and introduced in Europe as the CX-6e in January 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": "EZ-60"
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": "CX-6e"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mazda_EZ-60",
+          "name": "Wikipedia: Mazda EZ-60 / CX-6e"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range"
+          ],
+          "url": "https://carnewschina.com/2025/09/26/mazda-ez-60-suv-officially-launched-priced-from-16800-usd-in-china",
+          "name": "CarNewsChina (26 Sep 2025): EZ-60 launch"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Rear-wheel drive; 77.94 kWh LFP in China, 79.97 kWh NMC in Europe.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/2026_Mazda_CX-6e_rear.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Mazda_CX-6e_rear.jpg",
+              "credit": "TTTNIS",
+              "license": "CC0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Mazda_EZ-60",
+              "name": "Wikipedia: Mazda EZ-60 / CX-6e"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "78kwh-rwd",
+              "name": "77.94 kWh RWD (China)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 77.94,
+              "battery_basis": null,
+              "power_hp": 255,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 139900,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/26/mazda-ez-60-suv-officially-launched-priced-from-16800-usd-in-china",
+                  "name": "CarNewsChina (26 Sep 2025): EZ-60 launch"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mazda_EZ-60",
+                  "name": "Wikipedia: Mazda EZ-60 / CX-6e"
+                }
+              ]
+            },
+            {
+              "slug": "80kwh-rwd",
+              "name": "79.97 kWh RWD (Europe, CX-6e)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 79.97,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mazda_EZ-60",
+                  "name": "Wikipedia: Mazda EZ-60 / CX-6e"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "MX-30 EV: continued sale in Europe/Japan in late 2026 not confirmed beyond Wikipedia's model-year listing; Europe prices not sourced.",
+    "6e: Europe/UK prices and DC charging rates not sourced; China EZ-6 BEV price per variant not sourced (launch range 139,800-179,800 CNY covers EREV too).",
+    "EZ-60 / CX-6e: European power output ambiguous in sources; Europe price and WLTP range not sourced.",
+    "Demio EV: motor output and exact end of the lease programme not sourced."
+  ]
+}

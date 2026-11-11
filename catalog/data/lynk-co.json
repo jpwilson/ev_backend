@@ -1,0 +1,770 @@
+{
+ "make": {
+  "slug": "lynk-co",
+  "name": "Lynk & Co",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Hangzhou, Zhejiang, China",
+  "founded": 2016,
+  "parent_group": "Zeekr Group (Geely Auto)",
+  "website_url": "https://www.lynkco.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Geely-owned brand founded in 2016 with engineering in Gothenburg, known for hybrids and a subscription model in Europe. Zeekr has held 51% since late 2024 (Geely Auto 49%), and from March 2026 Volvo Cars is its exclusive importer in Europe. Its battery-electric cars are the 10 (formerly Z10) and the 20 (formerly Z20, sold in Europe as the 02).",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "parent_group",
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "lynk-co-10",
+   "url_slug": "lynk-co-10",
+   "name": "10",
+   "aliases": [
+    "Z10",
+    "Lynk & Co Z10"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Full-size electric sedan on the SEA platform, launched in September 2024 as the Z10 (Lynk & Co's first battery-electric car). It was facelifted and renamed Lynk & Co 10 in May 2026 with faster-charging LFP packs. A separate plug-in hybrid also uses the '10' name and is not listed here.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Z10",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "E371",
+     "platform": "SEA",
+     "start_year": 2024,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Original Z10: LFP packs of 71 to 95 kWh, 200 or 310 kW RWD and 580 kW dual-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/%28CHN-Zhejiang%29_Private_Lynk_%26_Co_Z10_%E6%B5%99AC6K811_2024-12-15.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Zhejiang%29_Private_Lynk_%26_Co_Z10_%E6%B5%99AC6K811_2024-12-15.jpg",
+       "credit": "S5A-0043",
+       "license": "CC BY 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://cnevpost.com/2024/09/06/lynk-co-launches-z10-in-china/",
+       "name": "CnEVPost"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd-71",
+       "name": "RWD 71 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 71.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 602,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "rwd-95",
+       "name": "RWD Long Range 95 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 766,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "rwd-800v",
+       "name": "RWD 800V (310 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": 325,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 806,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD 95 kWh (580 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": null,
+       "power_hp": 778,
+       "torque_lbft": 597,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.5,
+       "top_speed_mph": 155,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 702,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 229800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z10",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/lynk-co/link-z10",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Lynk & Co 10",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "May 2026 facelift and rename: 900V system, 6C/12C-rated LFP packs (77 and 95 kWh), up to 816 km CLTC and a 680 kW 10+ AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Lynk_%26_Co_10%2B_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_10%2B_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "701-long-range",
+       "name": "701 Long Range (77.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.17,
+       "battery_basis": null,
+       "power_hp": 402,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": 137,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 701,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 183900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z10",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "history"
+         ],
+         "url": "https://carnewschina.com/2026/05/30/lynk-co-10-series-launches-in-china-charging-speed-outpaces-byds-flash-charging-starting-at-25000-usd/",
+         "name": "CarNewsChina"
+        }
+       ]
+      },
+      {
+       "slug": "816-ultra-long-range",
+       "name": "816 Ultra Long Range (95 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": null,
+       "power_hp": 496,
+       "torque_lbft": 395,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.2,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 816,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 205900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z10",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "history"
+         ],
+         "url": "https://carnewschina.com/2026/05/30/lynk-co-10-series-launches-in-china-charging-speed-outpaces-byds-flash-charging-starting-at-25000-usd/",
+         "name": "CarNewsChina"
+        }
+       ]
+      },
+      {
+       "slug": "10-plus-awd",
+       "name": "10+ AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 912,
+       "torque_lbft": 673,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.2,
+       "top_speed_mph": 149,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 536,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 233900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z10",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "history"
+         ],
+         "url": "https://carnewschina.com/2026/05/30/lynk-co-10-series-launches-in-china-charging-speed-outpaces-byds-flash-charging-starting-at-25000-usd/",
+         "name": "CarNewsChina"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lynk-co-20",
+   "url_slug": "lynk-co-20",
+   "name": "20",
+   "aliases": [
+    "Z20",
+    "Lynk & Co Z20",
+    "02",
+    "Lynk & Co 02"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact electric crossover launched in China as the Z20 in December 2024 and sold in Europe as the Lynk & Co 02. A facelift renamed Lynk & Co 20 (2027 model year) went on sale in China on 28 September 2026 with standard lidar and an 800V system.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-12",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": "02"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Z20",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2024,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Original Z20 on the SEA platform: rear motor, LFP packs in China; the European 02 uses a 66 kWh NMC pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Lynk_%26_Co_Z20_007.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_Z20_007.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://autonews.gasgoo.com/articles/market-industry/lynk-co-z20-to-go-on-sale-in-china-in-december-70035225",
+       "name": "Gasgoo"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "61-kwh",
+       "name": "61.5 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 61.47,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.3,
+       "top_speed_mph": 118,
+       "dc_kw": 300,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 530,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z20",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "51-kwh",
+       "name": "51.2 kWh RWD (430 Pro/Plus)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 51.2,
+       "battery_basis": null,
+       "power_hp": 235,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 112,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 430,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 109900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z20",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "02-europe",
+       "name": "02 (Europe, 66 kWh NMC)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 66.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z20",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Lynk & Co 20",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "September 2026 facelift and rename: 245 kW rear motor, 61.5 or 70 kWh 6C LFP packs, up to 460 kW DC charging, lidar as standard.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Lynk_%26_Co_20_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_20_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://cnevpost.com/2026/09/29/lynk-co-launches-20-compact-electric-suv/",
+       "name": "CnEVPost"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "61-kwh",
+       "name": "61.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 61.52,
+       "battery_basis": null,
+       "power_hp": 329,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.4,
+       "top_speed_mph": 125,
+       "dc_kw": 420,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 545,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z20",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "70-kwh",
+       "name": "70 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 70.01,
+       "battery_basis": null,
+       "power_hp": 329,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 460,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 630,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Lynk_%26_Co_Z20",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Only battery-electric models are listed; the 01, 03, 05, 06, 07, 07 GT, 08, 09, 900 and the 10 EM-P are hybrids or combustion cars.",
+  "Z10 and Z20 original launch prices not found (only a 2025 AWD price and the 2025 430 km budget trim); 2026 '20' prices conflict between sources (118,800 promotional vs 123,800 guide), so none recorded.",
+  "European Lynk & Co 02 WLTP range (435-445 km per Wikipedia infobox) not tied to a variant, so not recorded; no EUR price found.",
+  "Z10 RWD 800V battery size not stated by the source."
+ ]
+}

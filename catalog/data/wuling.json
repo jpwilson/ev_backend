@@ -1,0 +1,1108 @@
+{
+ "make": {
+  "slug": "wuling",
+  "name": "Wuling",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Liuzhou, Guangxi, China",
+  "founded": 1982,
+  "parent_group": "SAIC-GM-Wuling (SAIC Motor, General Motors, Guangxi Automobile Group)",
+  "website_url": "https://www.sgmw.com.cn",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Chinese mass-market brand built by the SAIC-GM-Wuling joint venture in Liuzhou. It made cheap electric microcars mainstream with the 2020 Hongguang Mini EV, followed by the Air EV, Bingo family and the Cloud EV, and exports them widely in Southeast Asia.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "ownership"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Wuling_Motors",
+    "name": "Wikipedia"
+   },
+   {
+    "fields": [
+     "models",
+     "history",
+     "ownership"
+    ],
+    "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "wuling-hongguang-mini-ev",
+   "url_slug": "hongguang-mini-ev",
+   "name": "Hongguang Mini EV",
+   "aliases": [
+    "Macaron EV",
+    "Aira EV"
+   ],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Tiny electric city car launched in China in 2020 with prices starting near US$4,200. A larger second generation followed in 2024 (5-door versions sold abroad, e.g. Wuling Aira EV in Indonesia).",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2020",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Wuling_Hongguang_Mini_EV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "E50",
+     "platform": null,
+     "start_year": 2020,
+     "end_year": null,
+     "status": "current",
+     "description": "Three-door microcar launched in 2020 from about US$4,200, later joined by the Macaron, GameBoy and Cabrio versions.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Wuling_Hongguang_Mini_EV_Sanming_01_2022-08-22.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Wuling_Hongguang_Mini_EV_Sanming_01_2022-08-22.jpg",
+       "credit": "JamesYoung8167",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/2021_Wuling_Hongguang_Mini_EV_Macaron_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2021_Wuling_Hongguang_Mini_EV_Macaron_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Wuling_Hongguang_Mini_EV_Cabrio_IMG01.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Wuling_Hongguang_Mini_EV_Cabrio_IMG01.jpg",
+       "credit": "Baizerserens",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard",
+       "name": "Mini EV (9.3 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 9.3,
+       "battery_basis": null,
+       "power_hp": 27,
+       "torque_lbft": 63,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Hongguang_Mini_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Mini EV (13.9 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 13.9,
+       "battery_basis": null,
+       "power_hp": 27,
+       "torque_lbft": 63,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Hongguang_Mini_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "macaron",
+       "name": "Mini EV Macaron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 27,
+       "torque_lbft": 63,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Hongguang_Mini_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "gameboy-25-5-kwh",
+       "name": "Mini EV GameBoy 25.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 25.5,
+       "battery_basis": null,
+       "power_hp": 40,
+       "torque_lbft": 81,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Hongguang_Mini_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "cabrio",
+       "name": "Mini EV Cabrio",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": "convertible",
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Hongguang_Mini_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": "E110C",
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Larger second generation launched in 2024 with LFP batteries of 9.2 to 26 kWh and 120-280 km range; sold in Indonesia as the Wuling Aira EV from 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Wuling_Hongguang_Mini_EV_II_006.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Wuling_Hongguang_Mini_EV_II_006.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "second-generation",
+       "name": "Mini EV (second generation)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Hongguang_Mini_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "wuling-nano-ev",
+   "url_slug": "nano-ev",
+   "name": "Nano EV",
+   "aliases": [],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Two-seat electric microcar sold from 2021 to 2025, a restyled Baojun E200, priced from 54,800 yuan after incentives.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2021",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "baojun-e200"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Wuling_Nano_EV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Wuling-badged, restyled version of the Baojun E200.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/20211213_Wuling_Nano_EV_on_display_at_Yoyo_Park.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:20211213_Wuling_Nano_EV_on_display_at_Yoyo_Park.jpg",
+       "credit": "Windmemories",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "nano-ev",
+       "name": "Nano EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 24.0,
+       "battery_basis": null,
+       "power_hp": 39,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Nano_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "wuling-air-ev",
+   "url_slug": "air-ev",
+   "name": "Air EV",
+   "aliases": [],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Boxy two-door city car launched in Indonesia in 2022 (Wuling's first global EV), also sold in China, Thailand and Nepal, and in India as the MG Comet EV.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2022-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "mg-comet-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Wuling_Air_EV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Two- and four-seat city car launched in Indonesia in June 2022 and in China in December 2022.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/2023_Wuling_Air_EV_Standard_Range.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Wuling_Air_EV_Standard_Range.jpg",
+       "credit": "Chanokchon",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Air EV Standard Range 17.3 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 17.3,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Air_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Air EV Long Range 26.7 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 26.7,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Air_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "wuling-bingo",
+   "url_slug": "bingo",
+   "name": "Bingo",
+   "aliases": [
+    "Binguo",
+    "Binguo EV",
+    "MG Binguo EV",
+    "Reeder ReeV Aura"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Retro-styled small electric five-door hatchback launched in China in 2023 (Binguo), one of the country's best-selling small EVs. Sold in Southeast Asia, in Turkey as the Reeder ReeV Aura and in Pakistan as the MG Binguo EV; Brazilian assembly is planned.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Wuling_Bingo",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Retro-styled five-door hatchback with a 30 or 50 kW front motor; exported to Indonesia, Thailand, Malaysia, Vietnam and Pakistan (as the MG Binguo EV).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/2023_SAIC-GM-Wuling_Bingo.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_SAIC-GM-Wuling_Bingo.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "17-3-kwh",
+       "name": "Bingo 17.3 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 17.3,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 62,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 203,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Bingo",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "31-9-kwh",
+       "name": "Bingo 31.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 31.9,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 62,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 333,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Bingo",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "37-9-kwh",
+       "name": "Bingo 37.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 37.9,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 62,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 410,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Bingo",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "wuling-bingo-plus",
+   "url_slug": "bingo-plus",
+   "name": "Bingo Plus",
+   "aliases": [
+    "Binguo Plus"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Larger crossover derivative of the Bingo launched in China in 2024. Specifications not yet sourced.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": "Binguo Plus"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "models",
+      "history",
+      "ownership"
+     ],
+     "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Larger crossover derivative of the Bingo launched in China in 2024.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Wuling_Binguo_%28Bingo%29_Plus_01_China_2024-03-22.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Wuling_Binguo_(Bingo)_Plus_01_China_2024-03-22.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "bingo-plus",
+       "name": "Bingo Plus",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "models",
+          "history",
+          "ownership"
+         ],
+         "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "wuling-bingo-s",
+   "url_slug": "bingo-s",
+   "name": "Bingo S",
+   "aliases": [
+    "Binguo S"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Subcompact electric SUV in the Bingo family launched in China in 2025. Specifications not yet sourced.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": "Binguo S"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "models",
+      "history",
+      "ownership"
+     ],
+     "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Subcompact electric SUV in the Bingo family launched in China in 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Wuling_Binguo_S_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Wuling_Binguo_S_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "bingo-s",
+       "name": "Bingo S",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "models",
+          "history",
+          "ownership"
+         ],
+         "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "wuling-bingo-pro",
+   "url_slug": "bingo-pro",
+   "name": "Bingo Pro",
+   "aliases": [
+    "Binguo Pro"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Subcompact electric car added to the Bingo family in China in 2026. Specifications not yet sourced.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": "Binguo Pro"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "models",
+      "history",
+      "ownership"
+     ],
+     "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Subcompact electric car added to the Bingo family in China in 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Wuling_Binguo_Pro_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Wuling_Binguo_Pro_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "bingo-pro",
+       "name": "Bingo Pro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "models",
+          "history",
+          "ownership"
+         ],
+         "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "wuling-cloud-ev",
+   "url_slug": "cloud-ev",
+   "name": "Cloud EV",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Export version of the Baojun Yunduo electric hatchback, assembled in Indonesia since 2024; the same car is sold in India as the MG Windsor EV.",
+   "markets": {},
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "baojun-yunduo"
+    },
+    {
+     "relation": "twin",
+     "model": "mg-windsor-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_Yunduo",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Indonesian-assembled (Cikarang) version of the Baojun Yunduo.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/2024_Wuling_Cloud_EV_in_Pristine_White_taken_in_Bandung%2C_West_Java_40173_01.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Wuling_Cloud_EV_in_Pristine_White_taken_in_Bandung,_West_Java_40173_01.jpg",
+       "credit": "MoCars",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "cloud-ev",
+       "name": "Cloud EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yunduo",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341); top speed km/h x0.6214.",
+  "Hongguang Mini EV: source lists ranges 120-300 km NEDC but does not map them to batteries; second-generation versions (9.2-26 kWh, 120-280 km) not mapped; no CNY price list.",
+  "Air EV: 30/50 kW motors and 200/300 km ranges (cycle not named) are not mapped to the two batteries in the source.",
+  "Bingo: 30/50 kW motors not mapped to batteries; Bingo Plus, Bingo S and Bingo Pro have no sourced specifications yet.",
+  "Not included (powertrain or passenger status unclear): Xingguang (Starlight) / Xingguang S / Starlight 730 / 560 (listed as PHEV/BEV), Wuling E10, Hongguang EV MPV (2025), and the commercial vans (Yangguang, Rongguang EV, EV50, EV80, G050)."
+ ]
+}

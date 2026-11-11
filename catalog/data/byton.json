@@ -1,0 +1,158 @@
+{
+  "make": {
+    "slug": "byton",
+    "name": "Byton",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Nanjing, China",
+    "founded": 2016,
+    "parent_group": "China Harmony New Energy Auto",
+    "website_url": "https://www.byton.com",
+    "status": "defunct",
+    "status_date": "2021",
+    "status_details": "Suspended operations in June 2020; its German subsidiary went bankrupt in April 2021, China operations stopped in July 2021, and Foxconn put the joint production project on hold in September 2021.",
+    "description": "Chinese-German EV start-up co-founded by former BMW and Nissan executives, known for the M-Byte SUV with a 48-inch dashboard screen. It never started series production.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://asia.nikkei.com/Business/China-tech/Apple-supplier-Foxconn-s-EV-project-with-China-s-Byton-halted",
+        "name": "Nikkei Asia"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://europe.autonews.com/automakers/chinese-ev-startup-byton-suspend-production-reorganization",
+        "name": "Automotive News Europe"
+      },
+      {
+        "fields": [
+          "status",
+          "founded"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Byton_(company)",
+        "name": "Wikipedia: Byton (company)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "byton-m-byte",
+      "url_slug": "m-byte",
+      "name": "M-Byte",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Mid-size electric SUV unveiled at CES 2018 with a 48-inch screen across the dashboard; production was due in late 2019 but never started.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Byton_M-Byte",
+          "name": "Wikipedia: Byton M-Byte"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://asia.nikkei.com/Business/China-tech/Apple-supplier-Foxconn-s-EV-project-with-China-s-Byton-halted",
+          "name": "Nikkei Asia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "Planned model",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Pre-production cars were built; no series production.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Byton_M-Byte_at_IAA_2019_IMG_0720.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Byton_M-Byte_at_IAA_2019_IMG_0720.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "slug": "byton-k-byte",
+      "url_slug": "k-byte",
+      "name": "K-Byte",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Luxury electric sedan concept shown at CES Asia in June 2018 as Byton's second model; cancelled with the company.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Byton_K-Byte",
+          "name": "Wikipedia: Byton K-Byte"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://asia.nikkei.com/Business/China-tech/Apple-supplier-Foxconn-s-EV-project-with-China-s-Byton-halted",
+          "name": "Nikkei Asia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2018",
+          "name": "Concept",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2018,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Concept only.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Byton_K-Byte_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Byton_K-Byte_005.jpg",
+              "credit": "Jengtingchen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Byton M-Byte announced specs (battery, range, price) are not listed because the car never reached production."
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "make": {
+    "slug": "togg",
+    "name": "Togg",
+    "legacy_id": null,
+    "country": "TR",
+    "headquarters": "Gebze, Kocaeli, Turkey",
+    "founded": 2018,
+    "parent_group": null,
+    "website_url": "https://www.togg.com.tr",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Turkish electric car maker founded in 2018 as a joint venture of Anadolu Group, BMC, Turkcell, Zorlu Holding and the TOBB chamber of commerce. It builds the T10X SUV (from 2022) and T10F fastback (from 2025) at Gemlik, Turkey, and has sold both in Germany since 2025.",
+    "sources": [
+      {
+        "fields": ["founded", "headquarters", "description"],
+        "url": "https://en.wikipedia.org/wiki/Togg",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": ["description"],
+        "url": "https://www.togg.eu/",
+        "name": "Togg Europe"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "togg-t10x",
+      "url_slug": "t10x",
+      "name": "T10X",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.togg.com.tr",
+      "description": "Togg's first car, a C-segment electric SUV designed with Pininfarina, unveiled in December 2019 and built in Gemlik since October 2022 with deliveries from April 2023. It is offered with rear- or all-wheel drive and 52.4 or 88.5 kWh batteries, and went on sale in Germany in 2025.",
+      "markets": {
+        "EU": {"status": "current", "launch": "2025", "end": null, "local_name": null}
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://en.wikipedia.org/wiki/Togg_T10X",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": ["markets"],
+          "url": "https://www.togg.eu/",
+          "name": "Togg Europe"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation; V1 and V2 are equipment levels on the same hardware.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Togg_T10X_Grey.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Togg_T10X_Grey.jpg",
+              "credit": "Metuboy",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-standard-range",
+              "name": "RWD Standard Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 52.4,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.6,
+              "top_speed_mph": 115,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 314,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "range"],
+                  "url": "https://en.wikipedia.org/wiki/Togg_T10X",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-long-range",
+              "name": "RWD Long Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 88.5,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 115,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 523,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "range"],
+                  "url": "https://en.wikipedia.org/wiki/Togg_T10X",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": ["range"],
+                  "url": "https://www.togg.eu/",
+                  "name": "Togg Europe"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD (dual motor)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 429,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.8,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": ["specs"],
+                  "url": "https://en.wikipedia.org/wiki/Togg_T10X",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "togg-t10f",
+      "url_slug": "t10f",
+      "name": "T10F",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.togg.com.tr",
+      "description": "Electric fastback sedan presented at CES in January 2024 and built in Gemlik since 2025, sharing the T10X's motors and batteries. It was shown at IAA 2025 and is sold in Turkey and Germany.",
+      "markets": {
+        "EU": {"status": "current", "launch": "2025", "end": null, "local_name": null}
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://en.wikipedia.org/wiki/Togg_T10F",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": ["markets"],
+          "url": "https://www.togg.eu/",
+          "name": "Togg Europe"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Togg_T10F_IAA_2025_DSC_1904.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Togg_T10F_IAA_2025_DSC_1904.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-standard-range",
+              "name": "RWD Standard Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 52.4,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 350,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "range"],
+                  "url": "https://en.wikipedia.org/wiki/Togg_T10F",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-long-range",
+              "name": "RWD Long Range",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 88.5,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 623,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "range"],
+                  "url": "https://en.wikipedia.org/wiki/Togg_T10F",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": ["range"],
+                  "url": "https://www.togg.eu/",
+                  "name": "Togg Europe"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD (dual motor)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 429,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": ["specs"],
+                  "url": "https://en.wikipedia.org/wiki/Togg_T10F",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "togg-t8cx",
+      "url_slug": "t8cx",
+      "name": "T8CX",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Smaller coupe-styled crossover shown by Togg in October 2022 as the third model of its range, listed for production from 2026. No specifications have been published.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://en.wikipedia.org/wiki/Togg",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced model; no production specifications published.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "t8cx",
+              "name": "T8CX",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": ["status"],
+                  "url": "https://en.wikipedia.org/wiki/Togg",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Togg's home market (Turkey) is not one of the allowed market keys, so Turkish prices and launch dates are not recorded; only the German/EU market is listed.",
+    "Togg EUR prices not sourced (togg.eu lists none outside the configurator).",
+    "Togg T10X/T10F AWD battery size and WLTP range not sourced; T10F torque, 0-100 and top speed not sourced.",
+    "Togg T10X RWD torque converted from 350 Nm (258 lb-ft) and AWD from 700 Nm (516 lb-ft).",
+    "Whether the Togg T8CX has entered production in 2026 could not be checked (web search budget ran out). T8X and 10V are only named in Togg's 2030 plan and are not listed."
+  ]
+}

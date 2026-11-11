@@ -1,0 +1,501 @@
+{
+  "make": {
+    "slug": "lotus",
+    "name": "Lotus",
+    "legacy_id": null,
+    "country": "GB",
+    "headquarters": "Hethel, Norfolk, England",
+    "founded": 1952,
+    "parent_group": "Geely Holding Group",
+    "website_url": "https://www.lotuscars.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "British sports-car maker founded by Colin Chapman, controlled by Geely since 2017. Its electric cars (Evija, Eletre, Emeya) come from Lotus Technology, Nasdaq-listed and based in Wuhan, China. In 2026 Lotus dropped its plan to go all-electric and shifted its new models to hybrids.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group",
+          "headquarters"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Lotus_Cars",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "description"
+        ],
+        "url": "https://www.electrive.com/2026/05/12/lotus-doubles-down-on-hybrids-while-scaling-back-bev-ambitions/",
+        "name": "electrive"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "lotus-evija",
+      "url_slug": "evija",
+      "name": "Evija",
+      "aliases": [
+        "Type 130"
+      ],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Battery-electric hypercar revealed in July 2019 with about 2,000 hp from four motors, limited to 130 cars. Production began at Hethel in July 2023 and customer deliveries were under way by 2024.",
+      "markets": {
+        "UK": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lotus_Evija",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Carbon-tub hypercar with a 93 kWh pack (the 2019 prototype had 70 kWh) and one motor per wheel.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2020_Lotus_Evija.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2020_Lotus_Evija.jpg",
+              "credit": "Liam Walker",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "evija",
+              "name": "Evija",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 93.0,
+              "battery_basis": null,
+              "power_hp": 2012,
+              "torque_lbft": 1257,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 217,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lotus_Evija",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lotus-eletre",
+      "url_slug": "eletre",
+      "name": "Eletre",
+      "aliases": [
+        "Type 132"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Lotus's first SUV and first five-door car, revealed in March 2022 and built in Wuhan, China by Lotus Technology since July 2022, with deliveries from 2023. It is sold in China, Europe and the UK; only a handful of limited-edition 2025 Eletre Carbon cars reached the US before tariffs ended US imports. A plug-in hybrid Eletre (not listed here) followed in 2025-26.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "US": {
+          "status": "discontinued",
+          "launch": "2025",
+          "end": "2025",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lotus_Eletre",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Lotus_Eletre",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.carscoops.com/2026/08/lotus-eletre-us-tariffs/",
+          "name": "Carscoops"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SEA-S",
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor AWD SUV with a 112 kWh pack and 800-volt charging; trims renamed 600 and 900 for model year 2026.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lotus_Eletre_Automesse_Ludwigsburg_2025_DSC_2658.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lotus_Eletre_Automesse_Ludwigsburg_2025_DSC_2658.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "eletre-600",
+              "name": "Eletre / Eletre S (600)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 112.0,
+              "battery_basis": "gross",
+              "power_hp": 603,
+              "torque_lbft": 524,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": 160,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Lotus_Eletre",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lotus_Eletre",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "eletre-900",
+              "name": "Eletre R (900)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 112.0,
+              "battery_basis": "gross",
+              "power_hp": 905,
+              "torque_lbft": 727,
+              "accel_0_60_s": 2.9,
+              "accel_0_100_s": 2.95,
+              "top_speed_mph": 165,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 490,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Lotus_Eletre",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lotus_Eletre",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lotus-emeya",
+      "url_slug": "emeya",
+      "name": "Emeya",
+      "aliases": [
+        "Type 133"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Four-door electric grand tourer revealed in New York in September 2023 and built in Wuhan, China since 2024 on the same architecture as the Eletre. Sold in China, Europe and the UK; it has not been sold in the US.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lotus_Emeya",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Lotus_Emeya",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SEA-S",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor AWD GT with a 102 kWh pack; the R/900 versions use a two-speed rear gearbox.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lotus_Emeya_Auto_Zuerich_2024_DSC_6171.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Lotus_Emeya_Auto_Zuerich_2024_DSC_6171.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "emeya-600",
+              "name": "Emeya / Emeya S (600)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 102.0,
+              "battery_basis": null,
+              "power_hp": 603,
+              "torque_lbft": 524,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.15,
+              "top_speed_mph": 155,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": 106400,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "price": null,
+                  "launch_price": 94950,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Lotus_Emeya",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lotus_Emeya",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "emeya-900",
+              "name": "Emeya R (900)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 102.0,
+              "battery_basis": null,
+              "power_hp": 905,
+              "torque_lbft": 727,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 2.78,
+              "top_speed_mph": 159,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 485,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Lotus_Emeya",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Lotus_Emeya",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Lotus is a new make (no legacy rows).",
+    "WebSearch budget ran out; Lotus data comes from English and German Wikipedia plus articles already fetched.",
+    "Emeya base power: German Wikipedia gives 450 kW (612 PS), English Wikipedia 441 kW (600 PS); German figure used.",
+    "No current prices sourced for Eletre (EUR 95,990 launch price appears only as a cited 2022 headline) or for 2026 600/900 trims; Emeya prices are May 2024 launch prices.",
+    "Evija: production status in 2025-2026 and units delivered not confirmed; WLTP range and charging not sourced. Image is a 2020 show car (pre-production, same design).",
+    "Type 135 was announced as an electric Emira successor (2027) but in 2026 became a V8 hybrid; Type 134 electric SUV was delayed. Neither is listed as a BEV model.",
+    "The UK launch date of the Eletre was not sourced."
+  ]
+}

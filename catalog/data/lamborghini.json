@@ -1,0 +1,125 @@
+{
+ "make": {
+  "slug": "lamborghini",
+  "name": "Lamborghini",
+  "legacy_id": null,
+  "country": "IT",
+  "headquarters": "Sant'Agata Bolognese, Italy",
+  "founded": 1963,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.lamborghini.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Italian supercar maker owned by the Volkswagen Group through Audi. It has no battery-electric car on sale; its announced first BEV, the Lanzador, was turned into a hybrid project in 2026.",
+  "sources": [
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Lamborghini",
+    "name": "Wikipedia: Lamborghini"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "lamborghini-lanzador",
+   "url_slug": "lanzador",
+   "name": "Lanzador",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Raised 2+2 grand tourer revealed as a concept at Monterey Car Week on 18 August 2023 and announced as Lamborghini's first production battery-electric car for 2028. In 2026 the battery-electric version was cancelled and the project switched to a hybrid powertrain.",
+   "markets": {},
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.caranddriver.com/news/a70462882/lamborghini-lanzador-ev-cancelled/",
+     "name": "Car and Driver: Lamborghini Lanzador EV cancelled"
+    },
+    {
+     "fields": [
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Lamborghini_Lanzador",
+     "name": "Wikipedia: Lamborghini Lanzador"
+    },
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://electrek.co/2023/08/18/lamborghini-unveils-first-electric-car-lanzador-ev/",
+     "name": "Electrek: Lamborghini reveals the Lanzador EV"
+    },
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://www.theverge.com/2023/8/18/23836309/lamborghini-lanzador-ev-concept-peak-power",
+     "name": "The Verge: Lanzador EV concept"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2028",
+     "name": "Battery-electric (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2028,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Planned dual-motor BEV; never built in battery-electric form.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Lamborghini_Lanzador_at_Pebble_Beach_Concours_2023.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Lamborghini_Lanzador_at_Pebble_Beach_Concours_2023.jpg",
+       "credit": "Prova MO",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://electrek.co/2023/08/18/lamborghini-unveils-first-electric-car-lanzador-ev/",
+       "name": "Electrek: Lamborghini reveals the Lanzador EV"
+      },
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://www.theverge.com/2023/8/18/23836309/lamborghini-lanzador-ev-concept-peak-power",
+       "name": "The Verge: Lanzador EV concept"
+      },
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.caranddriver.com/news/a70462882/lamborghini-lanzador-ev-cancelled/",
+       "name": "Car and Driver: Lamborghini Lanzador EV cancelled"
+      }
+     ],
+     "variants": []
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Lanzador concept image shows the 2023 concept, which is all that exists of the BEV.",
+  "Wikipedia gives conflicting planned production years (2028 in text, 2029/MY2030 in infobox); generation slug 2028 follows the original announcement."
+ ]
+}

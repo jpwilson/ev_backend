@@ -1,0 +1,5107 @@
+{
+ "make": {
+  "slug": "porsche",
+  "name": "Porsche",
+  "legacy_id": 28,
+  "country": "DE",
+  "headquarters": "Stuttgart-Zuffenhausen, Germany",
+  "founded": 1931,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.porsche.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "German sports-car maker, part of the Volkswagen Group. Its electric line-up is the Taycan family (saloon, Sport Turismo, Cross Turismo), the Macan Electric and, from 2026, the Cayenne Electric; electric 718 sports cars are announced but delayed.",
+  "sources": [
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Porsche",
+    "name": "Wikipedia: Porsche"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "porsche-taycan",
+   "url_slug": "taycan",
+   "name": "Taycan",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.porsche.com/usa/models/taycan/",
+   "description": "Porsche's first battery-electric car, an 800-volt four-door sports saloon on the J1 platform shared with the Audi e-tron GT. It launched in late 2019 (US model year 2020) and was heavily updated for 2025 with bigger batteries, more power and faster charging.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2019-12",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2019",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+     "name": "Wikipedia: Porsche Taycan"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "9J1",
+     "platform": "J1",
+     "start_year": 2019,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original 9J1 Taycan with 79.2 kWh (Performance Battery) or 93.4 kWh (Performance Battery Plus) gross packs and up to 270 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Porsche_Taycan_Turbo_S_%2848769113873%29_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_Turbo_S_(48769113873)_(cropped).jpg",
+       "credit": "Rutger van der Maar from Leiden, The Netherlands",
+       "license": "CC BY 2.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia: Porsche Taycan"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "taycan-rwd-performance-battery",
+       "name": "Taycan (RWD) Performance Battery",
+       "legacy_ids": [
+        154
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.2,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": null,
+       "dc_kw": 225,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 200,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 200,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 208,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 208,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43802",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44789",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46025",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47471",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "taycan-rwd-performance-battery-plus",
+       "name": "Taycan (RWD) Performance Battery Plus",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 469,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 225,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 225,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 242,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 242,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43803",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44790",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46024",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47470",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4s-performance-battery",
+       "name": "Taycan 4S Performance Battery",
+       "legacy_ids": [
+        155
+       ],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.2,
+       "battery_basis": "gross",
+       "power_hp": 523,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.0,
+       "top_speed_mph": null,
+       "dc_kw": 225,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 199,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 199,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 206,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 206,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43684",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44787",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46021",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47467",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4s-performance-battery-plus",
+       "name": "Taycan 4S Performance Battery Plus",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 563,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.0,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 203,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 227,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 227,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=42590",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43685",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44788",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46020",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47466",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "gts",
+       "name": "Taycan GTS",
+       "legacy_ids": [
+        156
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 590,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.7,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 246,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 246,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 246,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45715",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46022",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47468",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo",
+       "name": "Taycan Turbo",
+       "legacy_ids": [
+        157
+       ],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 671,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.2,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 201,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 212,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 212,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=42383",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43910",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44791",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46026",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47472",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-s",
+       "name": "Taycan Turbo S",
+       "legacy_ids": [
+        151
+       ],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 751,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.8,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 192,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 201,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 201,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=42427",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43911",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44792",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46028",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47473",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "9J1 II",
+     "platform": "J1",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-cycle update (revealed February 2024): 89/105 kWh gross packs, more power, up to 320 kW DC charging and much longer EPA range; adds the Turbo GT.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Porsche_Taycan_9J1_II_Carrara_White_Metallic_01.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_9J1_II_Carrara_White_Metallic_01.jpg",
+       "credit": "Ethan Llamas",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/porsche_taycan_turbo_gt.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia: Porsche Taycan"
+      },
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia (de): Porsche Taycan"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "taycan-rwd-performance-battery",
+       "name": "Taycan (RWD) Performance Battery",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.0,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": 143,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 274,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 274,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 111900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48415",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50242",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "taycan-rwd-performance-battery-plus",
+       "name": "Taycan (RWD) Performance Battery Plus",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 429,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 318,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48414",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4-performance-battery",
+       "name": "Taycan 4 Performance Battery",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.0,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 251,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 116000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50457",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4-performance-battery-plus",
+       "name": "Taycan 4 Performance Battery Plus",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49120",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50235",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51056",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4s-performance-battery",
+       "name": "Taycan 4S Performance Battery",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.0,
+       "battery_basis": "gross",
+       "power_hp": 536,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": 155,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 252,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 252,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 131800,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48733",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50239",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4s-performance-battery-plus",
+       "name": "Taycan 4S Performance Battery Plus",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 590,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 295,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 295,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 295,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48732",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50237",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51059",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "gts",
+       "name": "Taycan GTS",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 690,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": 155,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 293,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 293,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 293,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 157000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 637,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49121",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50240",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51061",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo",
+       "name": "Taycan Turbo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 871,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": 162,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 292,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 292,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 292,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 184600,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 637,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48734",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50243",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51062",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-s",
+       "name": "Taycan Turbo S",
+       "legacy_ids": [
+        209
+       ],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 938,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": 162,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 266,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 266,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 266,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 221400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 634,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48739",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50247",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51064",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-gt",
+       "name": "Taycan Turbo GT",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 1019,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.2,
+       "accel_0_100_s": null,
+       "top_speed_mph": 180,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 276,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 276,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 276,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 243700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 559,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48737",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50245",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51063",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-gt-weissach",
+       "name": "Taycan Turbo GT with Weissach Package",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 1019,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": 190,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 269,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 269,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 243700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 555,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/taycan/taycan-models/",
+         "name": "Porsche USA: Taycan models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48738",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50246",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "porsche-taycan-sport-turismo",
+   "url_slug": "taycan-sport-turismo",
+   "name": "Taycan Sport Turismo",
+   "aliases": [],
+   "body_style": "wagon",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.porsche.com/international/models/taycan/",
+   "description": "Road-focused shooting-brake (estate) body for the Taycan without the Cross Turismo's raised ride and cladding. Revealed in November 2021; in the US it was mainly sold as the GTS Sport Turismo.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+     "name": "Wikipedia: Porsche Taycan"
+    },
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://www.porsche.com/international/models/taycan/",
+     "name": "Porsche International: Taycan model range (MY2027)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "9J1",
+     "platform": "J1",
+     "start_year": 2022,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original Sport Turismo, revealed November 2021.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/2023_Porsche_Taycan_GTS_Sport_Turismo.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Porsche_Taycan_GTS_Sport_Turismo.jpg",
+       "credit": "Calreyn88",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia: Porsche Taycan"
+      },
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia (de): Porsche Taycan"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "gts-sport-turismo",
+       "name": "Taycan GTS Sport Turismo",
+       "legacy_ids": [
+        152
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 590,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.7,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 233,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 233,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 233,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45716",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46023",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47469",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "9J1 II",
+     "platform": "J1",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelifted Sport Turismo with the larger batteries and more power of the 2025 Taycan.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Porsche_Taycan_4S_Sport_Turismo_-_54839235130.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_4S_Sport_Turismo_-_54839235130.jpg",
+       "credit": "Alexandre Prevot",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia: Porsche Taycan"
+      },
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://www.porsche.com/international/models/taycan/",
+       "name": "Porsche International: Taycan model range (MY2027)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "sport-turismo",
+       "name": "Taycan Sport Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.0,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 583,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        }
+       ]
+      },
+      {
+       "slug": "4s-sport-turismo",
+       "name": "Taycan 4S Sport Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 89.0,
+       "battery_basis": "gross",
+       "power_hp": 536,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 536,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        }
+       ]
+      },
+      {
+       "slug": "gts-sport-turismo",
+       "name": "Taycan GTS Sport Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 690,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 279,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 279,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 611,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49122",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50241",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-sport-turismo",
+       "name": "Taycan Turbo Sport Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 871,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 613,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-s-sport-turismo",
+       "name": "Taycan Turbo S Sport Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 938,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 607,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "porsche-taycan-cross-turismo",
+   "url_slug": "taycan-cross-turismo",
+   "name": "Taycan Cross Turismo",
+   "aliases": [
+    "Taycan Cross Turismo"
+   ],
+   "body_style": "wagon",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.porsche.com/international/models/taycan/",
+   "description": "Raised, all-wheel-drive shooting-brake (estate) version of the Taycan with extra rear headroom and light off-road styling. Revealed in March 2021 and updated together with the Taycan saloon for 2025.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+     "name": "Wikipedia: Porsche Taycan"
+    },
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://www.porsche.com/international/models/taycan/",
+     "name": "Porsche International: Taycan model range (MY2027)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "9J1",
+     "platform": "J1",
+     "start_year": 2021,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original Cross Turismo with the 93.4 kWh gross Performance Battery Plus as standard.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Porsche_Taycan_Cross_Turismo_Turbo_S_IAA_2021_1X7A0116.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_Cross_Turismo_Turbo_S_IAA_2021_1X7A0116.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia: Porsche Taycan"
+      },
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia (de): Porsche Taycan"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "4-cross-turismo",
+       "name": "Taycan 4 Cross Turismo",
+       "legacy_ids": [
+        158
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 469,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 215,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 215,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44721",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44793",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46018",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47474",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4s-cross-turismo",
+       "name": "Taycan 4S Cross Turismo",
+       "legacy_ids": [
+        159
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 563,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 215,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 215,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 230,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 230,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44722",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44794",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46019",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47860",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-cross-turismo",
+       "name": "Taycan Turbo Cross Turismo",
+       "legacy_ids": [
+        160
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 671,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 204,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 204,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 233,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 233,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44724",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44795",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46027",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47475",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-s-cross-turismo",
+       "name": "Taycan Turbo S Cross Turismo",
+       "legacy_ids": [
+        150
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 751,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 202,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 202,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia (de): Porsche Taycan"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44723",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44796",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46029",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47476",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "9J1 II",
+     "platform": "J1",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelifted Cross Turismo with the 105 kWh gross battery, more power and longer range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/2024_Porsche_Taycan_Cross_Turismo_DSC_7028.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Porsche_Taycan_Cross_Turismo_DSC_7028.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+       "name": "Wikipedia: Porsche Taycan"
+      },
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://www.porsche.com/international/models/taycan/",
+       "name": "Porsche International: Taycan model range (MY2027)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "4-cross-turismo",
+       "name": "Taycan 4 Cross Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 429,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 277,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 277,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 613,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48730",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50234",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "4s-cross-turismo",
+       "name": "Taycan 4S Cross Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 590,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 613,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48731",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50236",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51058",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-cross-turismo",
+       "name": "Taycan Turbo Cross Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 871,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 603,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48736",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50244",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "turbo-s-cross-turismo",
+       "name": "Taycan Turbo S Cross Turismo",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 105.0,
+       "battery_basis": "gross",
+       "power_hp": 938,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 261,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 261,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 601,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/taycan/",
+         "name": "Porsche International: Taycan model range (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+         "name": "Wikipedia: Porsche Taycan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48741",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50248",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "porsche-macan",
+   "url_slug": "macan-electric",
+   "name": "Macan Electric",
+   "aliases": [
+    "Macan",
+    "Macan EV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+   "description": "Second-generation Macan, a battery-electric compact SUV on the 800-volt PPE platform shared with the Audi Q6 e-tron. Revealed in January 2024 and built in Leipzig; it is sold alongside the older combustion Macan.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+     "name": "Wikipedia: Porsche Macan"
+    },
+    {
+     "fields": [
+      "price",
+      "status"
+     ],
+     "url": "https://www.porsche.com/usa/models/macan/",
+     "name": "Porsche USA: Macan model range"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Second generation (electric)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "XAB",
+     "platform": "PPE",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "First electric Macan (type XAB), 100 kWh gross / 95 kWh usable battery, 270 kW DC charging.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/porsche_macan_4_electric.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+       "name": "Wikipedia: Porsche Macan"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "macan-electric",
+       "name": "Macan Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "usable",
+       "power_hp": 355,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.4,
+       "accel_0_100_s": 5.7,
+       "top_speed_mph": 137,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 309,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 309,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 80300,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 641,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+         "name": "Porsche USA: Macan Electric models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/macan/",
+         "name": "Porsche International: Macan Electric (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+         "name": "Wikipedia: Porsche Macan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49119",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50296",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51052",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "macan-4-electric",
+       "name": "Macan 4 Electric",
+       "legacy_ids": [
+        161
+       ],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "usable",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.9,
+       "accel_0_100_s": 5.2,
+       "top_speed_mph": 137,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 308,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 308,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 304,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 304,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 84000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 611,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+         "name": "Porsche USA: Macan Electric models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/macan/",
+         "name": "Porsche International: Macan Electric (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+         "name": "Wikipedia: Porsche Macan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48793",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48727",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50294",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51049",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "macan-4s-electric",
+       "name": "Macan 4S Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "usable",
+       "power_hp": 509,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.9,
+       "accel_0_100_s": 4.1,
+       "top_speed_mph": 149,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 288,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 290,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 290,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 89900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 611,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+         "name": "Porsche USA: Macan Electric models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/macan/",
+         "name": "Porsche International: Macan Electric (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+         "name": "Wikipedia: Porsche Macan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48728",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50295",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51051",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "macan-gts-electric",
+       "name": "Macan GTS Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "usable",
+       "power_hp": 563,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.6,
+       "accel_0_100_s": 3.8,
+       "top_speed_mph": 155,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 105300,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 585,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+         "name": "Porsche USA: Macan Electric models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/macan/",
+         "name": "Porsche International: Macan Electric (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+         "name": "Wikipedia: Porsche Macan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50297",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51054",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "macan-turbo-electric",
+       "name": "Macan Turbo Electric",
+       "legacy_ids": [
+        210,
+        153
+       ],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "usable",
+       "power_hp": 630,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.1,
+       "accel_0_100_s": 3.3,
+       "top_speed_mph": 162,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 288,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 288,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 293,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 293,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 112700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 589,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/macan/macan-electric-models/",
+         "name": "Porsche USA: Macan Electric models (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.porsche.com/international/models/macan/",
+         "name": "Porsche International: Macan Electric (MY2027)"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Macan",
+         "name": "Wikipedia: Porsche Macan"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48794",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48729",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50298",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51055",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "porsche-cayenne-electric",
+   "url_slug": "cayenne-electric",
+   "name": "Cayenne Electric",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.porsche.com/usa/models/cayenne/",
+   "description": "Battery-electric fourth-generation Cayenne on the PPE platform, sold alongside the combustion and hybrid Cayenne. Revealed on 19 November 2025 with a 113 kWh gross battery and up to 400 kW DC charging; the Coupe Electric followed in April 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+     "name": "Wikipedia: Porsche Cayenne Electric"
+    },
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://www.porsche.com/usa/models/cayenne/",
+     "name": "Porsche USA: Cayenne model range (MY2027)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Fourth generation (electric)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "PPE",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "First electric Cayenne; series production began in February 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Porsche_Cayenne_Electric_IMG_8081_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_Electric_IMG_8081_(cropped).jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+       "name": "Wikipedia: Porsche Cayenne Electric"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "cayenne-electric",
+       "name": "Cayenne Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "gross",
+       "power_hp": 435,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 317,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 109000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/",
+         "name": "Porsche USA: Cayenne model range (MY2027)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/cayenne-electric-models/cayenne-turbo-electric/",
+         "name": "Porsche USA: Cayenne Turbo Electric"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+         "name": "Wikipedia: Porsche Cayenne Electric"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51103",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cayenne-s-electric",
+       "name": "Cayenne S Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "gross",
+       "power_hp": 657,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 299,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 126300,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/",
+         "name": "Porsche USA: Cayenne model range (MY2027)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/cayenne-electric-models/cayenne-turbo-electric/",
+         "name": "Porsche USA: Cayenne Turbo Electric"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+         "name": "Wikipedia: Porsche Cayenne Electric"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51107",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cayenne-turbo-electric",
+       "name": "Cayenne Turbo Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "gross",
+       "power_hp": 1139,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 298,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 163000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/",
+         "name": "Porsche USA: Cayenne model range (MY2027)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/cayenne-electric-models/cayenne-turbo-electric/",
+         "name": "Porsche USA: Cayenne Turbo Electric"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+         "name": "Wikipedia: Porsche Cayenne Electric"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51111",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cayenne-coupe-electric",
+       "name": "Cayenne Coupe Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "gross",
+       "power_hp": 435,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 326,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 113800,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/",
+         "name": "Porsche USA: Cayenne model range (MY2027)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/cayenne-electric-models/cayenne-turbo-electric/",
+         "name": "Porsche USA: Cayenne Turbo Electric"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+         "name": "Wikipedia: Porsche Cayenne Electric"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51101",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cayenne-s-coupe-electric",
+       "name": "Cayenne S Coupe Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "gross",
+       "power_hp": 657,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 316,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 131200,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/",
+         "name": "Porsche USA: Cayenne model range (MY2027)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/cayenne-electric-models/cayenne-turbo-electric/",
+         "name": "Porsche USA: Cayenne Turbo Electric"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+         "name": "Wikipedia: Porsche Cayenne Electric"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51105",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cayenne-turbo-coupe-electric",
+       "name": "Cayenne Turbo Coupe Electric",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 113.0,
+       "battery_basis": "gross",
+       "power_hp": 1139,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 302,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 168000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/",
+         "name": "Porsche USA: Cayenne model range (MY2027)"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.porsche.com/usa/models/cayenne/cayenne-electric-models/cayenne-turbo-electric/",
+         "name": "Porsche USA: Cayenne Turbo Electric"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Porsche_Cayenne_Electric",
+         "name": "Wikipedia: Porsche Cayenne Electric"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51110",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "porsche-718-boxster-electric",
+   "url_slug": "718-boxster-electric",
+   "name": "718 Boxster (electric)",
+   "aliases": [],
+   "body_style": "convertible",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Announced battery-electric successor to the mid-engined 718 Boxster roadster. Repeatedly delayed by battery-cell sourcing problems and reviewed in early 2026; Porsche's CEO said in 2026 that it is still coming, with production expected in 2027.",
+   "markets": {},
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/803753/porsche-718-electric-confirmed-ceo/",
+     "name": "InsideEVs: Porsche CEO confirms the electric 718 is still coming"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.motor1.com/news/759284/porsche-delay-electric-models-report/",
+     "name": "Motor1: Is Porsche delaying the electric 718?"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Not yet revealed; no official specifications.",
+     "images": [],
+     "sources": [],
+     "variants": []
+    }
+   ]
+  },
+  {
+   "slug": "porsche-718-cayman-electric",
+   "url_slug": "718-cayman-electric",
+   "name": "718 Cayman (electric)",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Announced battery-electric successor to the mid-engined 718 Cayman coupe, developed alongside the electric Boxster. Delayed and reviewed in 2026; Porsche says it remains in development, with production expected in 2027.",
+   "markets": {},
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/803753/porsche-718-electric-confirmed-ceo/",
+     "name": "InsideEVs: Porsche CEO confirms the electric 718 is still coming"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.motor1.com/news/759284/porsche-delay-electric-models-report/",
+     "name": "Motor1: Is Porsche delaying the electric 718?"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Not yet revealed; no official specifications.",
+     "images": [],
+     "sources": [],
+     "variants": []
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 150,
+   "note": "Taycan Turbo S Cross Turismo, first generation (750 hp, 222 mi EPA = MY2023-24). Legacy 'generation: 2' is wrong; price $197,500 could not be verified. Superseded by the 2025 facelift (938 hp, 261 mi)."
+  },
+  {
+   "legacy_id": 151,
+   "note": "First-generation Taycan Turbo S. Legacy generation field says '2025 (2nd Gen facelift)', contradicting its own submodel '(1st Gen)'. 222 mi EPA = MY2023-24."
+  },
+  {
+   "legacy_id": 152,
+   "note": "First-generation Taycan GTS Sport Turismo (590 hp, 233 mi EPA, MY2022-24). Shown as current on the live site; the 2025 facelift GTS Sport Turismo has 690 hp and 279 mi EPA."
+  },
+  {
+   "legacy_id": 153,
+   "note": "Junk duplicate of row 210 ('Turbo Electric (Pre-Electric)', 'previous_generation'): there is only one electric Macan generation. Claimed on the Macan Turbo Electric variant together with 210."
+  },
+  {
+   "legacy_id": 154,
+   "note": "Base rear-drive Taycan with Performance Battery, first generation (402 hp, 208 mi EPA = MY2023-24). Submodel '_' is junk."
+  },
+  {
+   "legacy_id": 155,
+   "note": "Taycan 4S Performance Battery, first generation (206 mi EPA = MY2023-24). Live site shows it as current."
+  },
+  {
+   "legacy_id": 156,
+   "note": "Taycan GTS, first generation (590 hp, 246 mi EPA). Live site shows it as current; facelift GTS is 690 hp / 293 mi."
+  },
+  {
+   "legacy_id": 157,
+   "note": "Taycan Turbo, first generation (670 hp, 238 mi EPA = MY2023-24). Its image is porsche_taycan_turbo_s.png (another trim)."
+  },
+  {
+   "legacy_id": 158,
+   "note": "Taycan 4 Cross Turismo, first generation (235 mi EPA = MY2023-24)."
+  },
+  {
+   "legacy_id": 159,
+   "note": "Taycan 4S Cross Turismo, first generation (230 mi EPA = MY2023-24)."
+  },
+  {
+   "legacy_id": 160,
+   "note": "Taycan Turbo Cross Turismo, first generation (233 mi EPA = MY2023-24)."
+  },
+  {
+   "legacy_id": 161,
+   "note": "Macan 4 Electric. Legacy EPA range 381 mi is wrong (EPA: 308 mi MY2024-25, 304/324 mi MY2026-27); 381 mi matches the WLTP maximum converted to miles."
+  },
+  {
+   "legacy_id": 209,
+   "note": "Facelift Taycan Turbo S, but the row mixes data: $99,400 is roughly the base Taycan's price, 318 mi is the base Taycan Performance Battery Plus EPA range, 750 hp is the first-generation output and 1.9 s 0-60 is unsourced. Facelift Turbo S: 938 hp (overboost), 2.3 s, 266 mi EPA, $221,400 (MY2027)."
+  },
+  {
+   "legacy_id": 210,
+   "note": "Macan Turbo Electric. Legacy price $75,300 and 315 mi EPA are wrong: MY2027 MSRP is $112,700 and EPA range is 288-293 mi (315 mi is the RWD Macan Electric's MY2025 figure)."
+  }
+ ],
+ "gaps": [
+  "Older-generation US prices (Taycan MY2020-2024, Cross Turismo, Sport Turismo) not sourced; only MY2027 MSRPs from porsche.com/usa are recorded.",
+  "Porsche USA's MY2027 site lists only Taycan saloons; whether the Sport Turismo and Cross Turismo continue in the US for MY2027 is unconfirmed (fueleconomy.gov lists a 2027 Taycan 4S Cross Turismo).",
+  "Taycan facelift per-variant 0-100 km/h and torque not recorded (Wikipedia tables inconsistent); US 0-60 from porsche.com/usa used instead.",
+  "First-generation Taycan 4 saloon (non-US markets) and first-generation Sport Turismo trims other than GTS not recorded.",
+  "Porsche publishes ranges on porsche.com/international as 'electric range combined'; recorded as WLTP upper bound for the EU.",
+  "Cayenne Electric net battery capacity (108 kWh per Wikipedia) and per-trim top speeds not recorded; US offerings carry EPA range under MY2026 and MSRP under MY2027 (Porsche USA now lists MY2027).",
+  "US charge-port type (CCS1 vs NACS) per model year not sourced; connector left null.",
+  "Electric 718 Boxster/Cayman: unrevealed, names and specs unofficial; generation slug 2027 is the expected production year.",
+  "WebSearch budget ran out mid-task; prices and specs come from manufacturer pages, fueleconomy.gov and Wikipedia fetched directly."
+ ]
+}

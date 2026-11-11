@@ -1,0 +1,156 @@
+{
+  "make": {
+    "slug": "lordstown",
+    "name": "Lordstown Motors",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Lordstown, Ohio, USA",
+    "founded": 2018,
+    "parent_group": null,
+    "website_url": null,
+    "status": "defunct",
+    "status_date": "2023-06-27",
+    "status_details": "Filed for Chapter 11 bankruptcy on 27 June 2023 after Endurance production stopped; it emerged in March 2024 as Nu Ride Inc., a shell with no vehicle business.",
+    "description": "Lordstown Motors was founded in 2018 by Steve Burns to build the Endurance electric pickup in the former GM Lordstown plant in Ohio, which it later sold to Foxconn. Only a few hundred trucks were built in 2022-2023 before the company went bankrupt.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Lordstown_Motors",
+        "name": "Wikipedia: Lordstown Motors (Nu Ride Inc.)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "lordstown-endurance",
+      "url_slug": "endurance",
+      "name": "Endurance",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Full-size electric pickup with four in-wheel hub motors and a 109 kWh battery, built in Lordstown, Ohio from late 2022. Production was halted by a recall in February 2023 and ended in June 2023 when the company filed for bankruptcy.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2022-11",
+          "end": "2023-06",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Lordstown_Motors",
+          "name": "Wikipedia: Lordstown Motors (Nu Ride Inc.)"
+        },
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Workhorse_W-15",
+          "name": "Wikipedia: Lordstown Endurance"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "The only version: four hub motors, 109 kWh pack, EPA-rated 174 miles.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/President_Trump_Tours_a_Lordstown_Motors_2021_Endurance_%2850397189013%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:President_Trump_Tours_a_Lordstown_Motors_2021_Endurance_(50397189013).jpg",
+              "credit": "The White House from Washington, DC",
+              "license": "Public domain",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "Endurance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 109.0,
+              "battery_basis": null,
+              "power_hp": 440,
+              "torque_lbft": null,
+              "accel_0_60_s": 6.3,
+              "accel_0_100_s": null,
+              "top_speed_mph": 118,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 174,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/669662/2023-lordstown-endurance-epa-range-efficiency/",
+                  "name": "InsideEVs: 2023 Endurance EPA range"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/498138/lordstown-endurance-pickup-battery-capacity/",
+                  "name": "InsideEVs: Endurance battery is 109 kWh"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Workhorse_W-15",
+                  "name": "Wikipedia: Lordstown Endurance"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Endurance transaction price never published in a primary source (promised $52,500, later $55,000; launch price reported around $65,000 not verified).",
+    "Units built: about 450 per Wikipedia, single source."
+  ]
+}

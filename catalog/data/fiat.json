@@ -1,0 +1,1413 @@
+{
+ "make": {
+  "slug": "fiat",
+  "name": "Fiat",
+  "legacy_id": null,
+  "country": "IT",
+  "headquarters": "Turin, Italy",
+  "founded": 1899,
+  "parent_group": "Stellantis",
+  "website_url": "https://www.fiat.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Fiat is the Turin-based mass-market brand of Stellantis. Its electric range covers the 500e city car (first sold in the US in 2013), the 600e crossover, the Grande Panda, the Topolino quadricycle and electric versions of its vans.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Fiat",
+    "name": "Wikipedia: Fiat"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "fiat-500e",
+   "url_slug": "500e",
+   "name": "500e",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.fiat.com/500e",
+   "description": "The 500e is Fiat's electric city car. The first 500e (2013-2019) was a US-only electric version of the 2007 Fiat 500; the second, launched in Europe in 2020 and in the US for 2024, is a dedicated electric design that later also spawned a mild-hybrid 500 (2025).",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2020",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2013-07",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "abarth-500e"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "price",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_500_(2007)",
+     "name": "Wikipedia: Fiat 500 (2007)"
+    },
+    {
+     "fields": [
+      "specs",
+      "range",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_500e",
+     "name": "Wikipedia: Fiat 500e"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2013",
+     "name": "First generation (type 312)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "Type 312",
+     "platform": null,
+     "start_year": 2013,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "Electric conversion of the 2007 Fiat 500 developed with Bosch and built in Toluca, Mexico; sold only in California and Oregon, with AC charging only (no DC fast charging).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/2015_Fiat_500e.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2015_Fiat_500e.jpg",
+       "credit": "Rutger van der Maar",
+       "license": "CC BY 2.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "price",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Fiat_500_(2007)",
+       "name": "Wikipedia: Fiat 500 (2007)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "24-kwh",
+       "name": "500e 24 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2013,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 24.0,
+       "battery_basis": null,
+       "power_hp": 111,
+       "torque_lbft": 147,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2013,
+         "range": 87,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 32500,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2014,
+         "range": 87,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 87,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 84,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 84,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 84,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 84,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_500_(2007)",
+         "name": "Wikipedia: Fiat 500 (2007)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=33396",
+         "name": "fueleconomy.gov (EPA) vehicle 33396"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=37156",
+         "name": "fueleconomy.gov (EPA) vehicle 37156"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=41143",
+         "name": "fueleconomy.gov (EPA) vehicle 41143"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2020",
+     "name": "Second generation (type 332)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "Type 332",
+     "platform": null,
+     "start_year": 2020,
+     "end_year": null,
+     "status": "current",
+     "description": "All-new electric-only 500 built at Mirafiori, Turin, from 2020 as hatchback, cabrio and 3+1 (extra rear-hinged door); 24 kWh and 42 kWh batteries. Reached North America for model year 2024 with the 42 kWh battery only.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Fiat_500e_%282020%29_Auto_Zuerich_2021_IMG_0604.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_500e_%282020%29_Auto_Zuerich_2021_IMG_0604.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range",
+        "markets"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Fiat_500e",
+       "name": "Wikipedia: Fiat 500e"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "24-kwh",
+       "name": "500e 24 kWh (Action)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 23.8,
+       "battery_basis": "gross",
+       "power_hp": 94,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.5,
+       "top_speed_mph": 84,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 190,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 25990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 17245,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_500e",
+         "name": "Wikipedia: Fiat 500e"
+        },
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-500-332-e-23.8-kwh-95hp-42058",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1327/Fiat-500e-Hatchback-24-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "42-kwh",
+       "name": "500e 42 kWh hatchback",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 42.0,
+       "battery_basis": "gross",
+       "power_hp": 117,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 93,
+       "dc_kw": 85,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 320,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 30990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 20245,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 149,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 149,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 149,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_500e",
+         "name": "Wikipedia: Fiat 500e"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-500-332-e-42-kwh-118hp-42059",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1285/Fiat-500e-Hatchback-42-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47816",
+         "name": "fueleconomy.gov (EPA) vehicle 47816"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48703",
+         "name": "fueleconomy.gov (EPA) vehicle 48703"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50198",
+         "name": "fueleconomy.gov (EPA) vehicle 50198"
+        }
+       ]
+      },
+      {
+       "slug": "42-kwh-cabrio",
+       "name": "500e 42 kWh Cabrio",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "convertible",
+       "seats": 4,
+       "battery_kwh": 42.0,
+       "battery_basis": "gross",
+       "power_hp": 117,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 93,
+       "dc_kw": 85,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 303,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 33990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 23245,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-500-332-cabrio-e-42-kwh-118hp-42060",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1275/Fiat-500e-Cabrio-42-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "42-kwh-3plus1",
+       "name": "500e 42 kWh 3+1",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 42.0,
+       "battery_basis": "gross",
+       "power_hp": 117,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 93,
+       "dc_kw": 85,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 314,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 31990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-500-332-3-1-e-42-kwh-118hp-42061",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1328/Fiat-500e-3plus1-42-kWh",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fiat-600e",
+   "url_slug": "600e",
+   "name": "600e",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.fiat.com/600",
+   "description": "The 600e is Fiat's electric small crossover, sold mainly in Europe since 2023 and sharing its platform and powertrain with the Jeep Avenger and Alfa Romeo Junior. It is not sold in the US.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "jeep-avenger"
+    },
+    {
+     "relation": "twin",
+     "model": "abarth-600e"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_600_(2023)",
+     "name": "Wikipedia: Fiat 600 (2023)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "e-CMP (Stellantis Common Modular Platform)",
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric B-segment crossover built in Tychy, Poland, unveiled 4 July 2023 with a 115 kW motor and 54 kWh battery; a mild-hybrid 600 followed.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fiat_600e_IMG_9948.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_600e_IMG_9948.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Fiat_600_(2023)",
+       "name": "Wikipedia: Fiat 600 (2023)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "54-kwh",
+       "name": "600e 54 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 54.0,
+       "battery_basis": "gross",
+       "power_hp": 154,
+       "torque_lbft": 192,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 93,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 409,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 31990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 25250,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_600_(2023)",
+         "name": "Wikipedia: Fiat 600 (2023)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-600-2023-600e-54-kwh-156hp-50517",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price",
+          "battery"
+         ],
+         "url": "https://ev-database.org/car/1945/Fiat-600e",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fiat-grande-panda",
+   "url_slug": "grande-panda",
+   "name": "Grande Panda",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.fiat.com/grande-panda",
+   "description": "The Grande Panda is Fiat's retro-styled small hatchback on Stellantis's Smart Car platform, sold since early 2025 as an EV and with petrol engines. It is related to the Citroen e-C3 and Opel Frontera.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "range",
+      "start_year"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_Grande_Panda",
+     "name": "Wikipedia: Fiat Grande Panda"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Stellantis Smart Car Platform",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Boxy B-segment hatchback revealed June 2024 (production from January 2025) with an 83 kW motor and 44 kWh LFP battery; a 54 kWh battery was added in October 2026, alongside petrol and mild-hybrid versions.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Fiat_Grande_Panda_Elektro_La_Prima_%E2%80%93_f_01062025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_Grande_Panda_Elektro_La_Prima_%E2%80%93_f_01062025.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 DE",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range",
+        "start_year"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Fiat_Grande_Panda",
+       "name": "Wikipedia: Fiat Grande Panda"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "44-kwh",
+       "name": "Grande Panda 44 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 44.0,
+       "battery_basis": "gross",
+       "power_hp": 111,
+       "torque_lbft": 90,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.0,
+       "top_speed_mph": 82,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 320,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 25990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 21495,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "start_year"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Fiat_Grande_Panda",
+         "name": "Wikipedia: Fiat Grande Panda"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-grande-panda-44-kwh-113hp-electric-53446",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2251/Fiat-Grande-Panda-44-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "54-kwh",
+       "name": "Grande Panda 54 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.8,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.5,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 28990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "status"
+         ],
+         "url": "https://ev-database.org/car/3866/Fiat-Grande-Panda-54-kWh",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fiat-topolino",
+   "url_slug": "topolino",
+   "name": "Topolino",
+   "aliases": [],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.fiat.com/topolino",
+   "description": "The Topolino is a two-seat electric quadricycle sold in Europe since late 2023 (drivable from age 14 in some countries) and in the US from July 2026 at $13,995. It is a restyled Citroen Ami.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Citroën_Ami_(electric_vehicle)",
+     "name": "Wikipedia: Citroën Ami (electric vehicle)"
+    },
+    {
+     "fields": [
+      "status",
+      "price"
+     ],
+     "url": "https://www.reuters.com/business/autos-transportation/fiat-launches-topolino-mini-ev-us-with-13995-price-tag-2026-07-07/",
+     "name": "Reuters (7 July 2026): Fiat launches Topolino in US at $13,995"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Fiat-styled version of the Citroen Ami quadricycle, built in Kenitra, Morocco, as a closed car or the open Dolcevita; 6 kW motor, 45 km/h top speed and about 75 km (WMTC) of range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fiat_Topolino_%282023%29_IMG_0728.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_Topolino_%282023%29_IMG_0728.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "price"
+       ],
+       "url": "https://insideevs.com/news/675332/2023-fiat-topolino-ev-unveiled-two-flavors-starts-10770-usd/",
+       "name": "InsideEVs (July 2023): Topolino unveiled"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "5-4-kwh",
+       "name": "Topolino 5.4 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 5.4,
+       "battery_basis": null,
+       "power_hp": 8,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 28,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2023,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": 9890,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/675332/2023-fiat-topolino-ev-unveiled-two-flavors-starts-10770-usd/",
+         "name": "InsideEVs (July 2023): Topolino unveiled"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-topolino-5.4-kwh-8hp-50528",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "status",
+          "price"
+         ],
+         "url": "https://www.reuters.com/business/autos-transportation/fiat-launches-topolino-mini-ev-us-with-13995-price-tag-2026-07-07/",
+         "name": "Reuters (7 July 2026): Fiat launches Topolino in US at $13,995"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fiat-e-ulysse",
+   "url_slug": "e-ulysse",
+   "name": "E-Ulysse",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "The E-Ulysse was Fiat's battery-electric people carrier (up to 8 seats) from 2022, a rebadged Stellantis EMP2 van. EV Database lists it as no longer available to order from early 2024, with the passenger E-Scudo Combi continuing the body.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2022",
+     "end": "2024",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "price",
+      "battery"
+     ],
+     "url": "https://ev-database.org/car/1722/Fiat-E-Ulysse-L2-75-kWh",
+     "name": "EV Database (archived)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Eurovans",
+     "name": "Wikipedia: Eurovans"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "Third-generation Ulysse",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "EMP2",
+     "start_year": 2022,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Electric-only revival of the Ulysse name on the Stellantis EMP2 van (twin of the Peugeot e-Traveller and Citroen e-SpaceTourer), with a 100 kW motor and 50 or 75 kWh batteries.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fiat_E-Ulysse_IMG_9410.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_E-Ulysse_IMG_9410.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "start_year"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Eurovans",
+       "name": "Wikipedia: Eurovans"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "50-kwh",
+       "name": "E-Ulysse 50 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 8,
+       "battery_kwh": 50.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": 192,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.8,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 55990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-e-ulysse-iii-50-kwh-136hp-standard-8-seat-46226",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "price",
+          "status"
+         ],
+         "url": "https://ev-database.org/car/1721/Fiat-E-Ulysse-L2-50-kWh",
+         "name": "EV Database (archived)"
+        }
+       ]
+      },
+      {
+       "slug": "75-kwh",
+       "name": "E-Ulysse 75 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 8,
+       "battery_kwh": 75.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": 192,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.9,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 61990,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-e-ulysse-iii-75-kwh-136hp-standard-8-seat-46227",
+         "name": "auto-data.net"
+        },
+        {
+         "fields": [
+          "status",
+          "price",
+          "battery"
+         ],
+         "url": "https://ev-database.org/car/1722/Fiat-E-Ulysse-L2-75-kWh",
+         "name": "EV Database (archived)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fiat-e-doblo",
+   "url_slug": "e-doblo",
+   "name": "E-Doblò",
+   "aliases": [
+    "Doblò Electric"
+   ],
+   "body_style": "van",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "The E-Doblò is the battery-electric version of Fiat's third-generation Doblò compact van and MPV, sold in Europe since 2022 with a 50 kWh battery.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Fiat_Doblò",
+     "name": "Wikipedia: Fiat Doblò"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "Third generation (K9)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "EMP2 (K9)",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric version of the Stellantis K9 compact van (twin of the Citroen e-Berlingo), offered as a passenger car and as a panel van.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Fiat_E-Dobl%C3%B2_IMG_0740.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Fiat_E-Dobl%C3%B2_IMG_0740.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "start_year"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Fiat_Doblò",
+       "name": "Wikipedia: Fiat Doblò"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "50-kwh",
+       "name": "E-Doblò 50 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 50.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": 192,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.2,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 282,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.auto-data.net/en/fiat-doblo-iii-k9-e-doblo-50-kwh-136hp-46480",
+         "name": "auto-data.net"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "US 500e (2024-2026) MSRP not sourced; Fiat US site blocks automated access.",
+  "500e: Mirafiori production pauses in 2024-2025 due to weak demand (Reuters, Sept 2024) noted; no end-of-production announcement found.",
+  "Grande Panda 54 kWh (from Oct 2026): power, torque and WLTP range not sourced; UK price not listed.",
+  "Grande Panda DC charging peak kW not confirmed.",
+  "Topolino range is 75 km on the WMTC cycle, which the schema cannot hold, so range is null; US price basis (with/without destination) unknown so the $13,995 is only in the description.",
+  "E-Ulysse and E-Doblò power: auto-data lists 136 'Hp' (metric PS, 100 kW); not converted to hp.",
+  "Fiat Professional cargo vans E-Scudo (2022-) and E-Ducato (2021-) and the passenger E-Scudo Combi are not listed as models.",
+  "Fiat 600e: no 0-60 mph or US data (not sold in US)."
+ ]
+}

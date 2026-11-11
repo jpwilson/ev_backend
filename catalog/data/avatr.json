@@ -1,0 +1,1157 @@
+{
+  "make": {
+    "slug": "avatr",
+    "name": "Avatr",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Chongqing, China",
+    "founded": 2018,
+    "parent_group": "Changan Automobile",
+    "website_url": "https://www.avatr.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Premium EV brand set up by Changan (originally as Changan-Nio) with CATL as a major shareholder and Huawei supplying driving and cockpit tech. Its models run on the CHN platform and most come as BEV and range-extender versions.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Avatr_Technology",
+        "name": "Wikipedia: Avatr Technology"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "avatr-11",
+      "url_slug": "avatr-11",
+      "name": "11",
+      "aliases": [
+        "Avatr E11"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Avatr's first car, a mid-size coupe SUV launched in China in August 2022 (briefly called E11). Battery-electric at launch, later joined by a range-extender; exported to Thailand, the Middle East and other markets.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Avatr_11",
+          "name": "Wikipedia: Avatr 11"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CHN",
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Huawei dual-motor AWD with a 90.4 or 116.8 kWh CATL NMC pack; single-motor RWD versions added later.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/2022_Avatr_11_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_Avatr_11_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd-90",
+              "name": "AWD 90 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 90.38,
+              "battery_basis": "gross",
+              "power_hp": 570,
+              "torque_lbft": 479,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.98,
+              "top_speed_mph": 124,
+              "dc_kw": 240,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 555,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_11",
+                  "name": "Wikipedia: Avatr 11"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2022/08/09/avatr-launches-first-model-avatr-11/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd-117",
+              "name": "AWD 117 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 116.79,
+              "battery_basis": "gross",
+              "power_hp": 570,
+              "torque_lbft": 479,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": 240,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 680,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_11",
+                  "name": "Wikipedia: Avatr 11"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2022/08/09/avatr-launches-first-model-avatr-11/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_11",
+                  "name": "Wikipedia: Avatr 11"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2022/08/09/avatr-launches-first-model-avatr-11/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "avatr-12",
+      "url_slug": "avatr-12",
+      "name": "12",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Fastback executive sedan launched in China in late 2023 on the CHN platform. A range-extender was added in 2025, a limited-run 012 version followed, and a major update with twin rear motors arrived in April 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Avatr_12",
+          "name": "Wikipedia: Avatr 12"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CHN",
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "94.5 kWh NMC pack with one 313 hp rear motor or 578 hp dual motors; uprated motors and range for 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/%28CHN-Guangdong%29_Showcar_Avatr_12_No-plate_2024-05-26.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Guangdong)_Showcar_Avatr_12_No-plate_2024-05-26.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 2.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 94.53,
+              "battery_basis": "gross",
+              "power_hp": 313,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 240,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 700,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_12",
+                  "name": "Wikipedia: Avatr 12"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 94.53,
+              "battery_basis": "gross",
+              "power_hp": 578,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 240,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_12",
+                  "name": "Wikipedia: Avatr 12"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-2025",
+              "name": "RWD (2025)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 94.53,
+              "battery_basis": "gross",
+              "power_hp": 318,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 755,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_12",
+                  "name": "Wikipedia: Avatr 12"
+                }
+              ]
+            },
+            {
+              "slug": "awd-2025",
+              "name": "AWD (2025)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 94.53,
+              "battery_basis": "gross",
+              "power_hp": 539,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_12",
+                  "name": "Wikipedia: Avatr 12"
+                }
+              ]
+            },
+            {
+              "slug": "012",
+              "name": "012 limited edition",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 93.4,
+              "battery_basis": "gross",
+              "power_hp": 539,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": 137,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_12",
+                  "name": "Wikipedia: Avatr 12"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/25/avatr-launches-012/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CHN",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Twin rear motors (Taihang 2.0), 98 kWh 6C pack, Huawei ADS 4 with 896-line LiDAR.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "twin-motor-rwd",
+              "name": "Twin-motor RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.07,
+              "battery_basis": "gross",
+              "power_hp": 673,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 560,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_12",
+                  "name": "Wikipedia: Avatr 12"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.ithome.com/0/931/142.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "tri-motor-awd",
+              "name": "Tri-motor AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.07,
+              "battery_basis": "gross",
+              "power_hp": 955,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 2.9,
+              "top_speed_mph": null,
+              "dc_kw": 560,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_12",
+                  "name": "Wikipedia: Avatr 12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "avatr-07",
+      "url_slug": "avatr-07",
+      "name": "07",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size SUV launched in China in September 2024, the first Avatr offered as both BEV and range-extender from launch.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Avatr_07",
+          "name": "Wikipedia: Avatr 07"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CHN",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "82.2 kWh LFP Shenxing pack, 800 V, single or dual motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Avatr_07_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Avatr_07_005.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "BEV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 82.16,
+              "battery_basis": "gross",
+              "power_hp": 338,
+              "torque_lbft": 269,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.3,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_07",
+                  "name": "Wikipedia: Avatr 07"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2024/09/27/avatr-launches-07/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "BEV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 82.16,
+              "battery_basis": "gross",
+              "power_hp": 590,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_07",
+                  "name": "Wikipedia: Avatr 07"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2024/09/27/avatr-launches-07/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "avatr-07l",
+      "url_slug": "avatr-07l",
+      "name": "07L",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Longer, battery-electric-only version of the 07 introduced in 2026, with a single rear motor or a tri-motor setup.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Avatr_07",
+          "name": "Wikipedia: Avatr 07"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CHN",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "89.3 kWh LFP pack; tri-motor version uses twin rear motors.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Avatr_07L_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Avatr_07L_005.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 89.33,
+              "battery_basis": "gross",
+              "power_hp": 409,
+              "torque_lbft": 321,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 725,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_07",
+                  "name": "Wikipedia: Avatr 07"
+                }
+              ]
+            },
+            {
+              "slug": "tri-motor-awd",
+              "name": "Tri-motor AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 89.33,
+              "battery_basis": "gross",
+              "power_hp": 955,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.7,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_07",
+                  "name": "Wikipedia: Avatr 07"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "avatr-06",
+      "url_slug": "avatr-06",
+      "name": "06",
+      "aliases": [
+        "Avatr 06T"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size sedan launched in April 2025, mechanically close to the 07, with BEV and range-extender versions. A station-wagon 06T joined in 2026, and the October 2026 update cut the sedan to two versions.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Avatr_06",
+          "name": "Wikipedia: Avatr 06"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CHN",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Sedan with a 72.9 kWh 800 V LFP pack (75.5 kWh listed from the 2026 update); 06T wagon uses twin rear motors.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Avatr_06_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Avatr_06_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "BEV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 72.9,
+              "battery_basis": "gross",
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_06",
+                  "name": "Wikipedia: Avatr 06"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2026/10/15/avatr-launches-2026-avatr-06/",
+                  "name": "CnEVPost"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/03/27/catl-backed-avatr-06-sedan-started-presales-for-29750-usd-in-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "BEV AWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 72.9,
+              "battery_basis": "gross",
+              "power_hp": 590,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_06",
+                  "name": "Wikipedia: Avatr 06"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2026/10/15/avatr-launches-2026-avatr-06/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "06t-75",
+              "name": "06T wagon 75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 75.46,
+              "battery_basis": "gross",
+              "power_hp": 604,
+              "torque_lbft": 553,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 652,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_06",
+                  "name": "Wikipedia: Avatr 06"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.ithome.com/0/930/737.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "06t-89",
+              "name": "06T wagon 89 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 89.33,
+              "battery_basis": "gross",
+              "power_hp": 673,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 741,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Avatr_06",
+                  "name": "Wikipedia: Avatr 06"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.ithome.com/0/930/737.htm",
+                  "name": "ITHome"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Chinese list prices for Avatr trims not sourced (launch coverage quotes USD conversions).",
+    "Avatr 11 single-motor RWD launch year, battery and range not confirmed.",
+    "Avatr 12 2026 update and 06T CLTC ranges by trim not confirmed beyond the figures given.",
+    "Avatr T09 omitted: described as a range-extended SUV; a BEV version was not confirmed.",
+    "Export-market (Thailand, Middle East, Europe) offerings not sourced."
+  ]
+}

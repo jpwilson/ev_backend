@@ -1,0 +1,263 @@
+{
+ "make": {
+  "slug": "omoda",
+  "name": "Omoda",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": null,
+  "founded": null,
+  "parent_group": "Chery Automobile",
+  "website_url": null,
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Export-focused crossover brand of China's Chery, sold alongside sister brand Jaecoo ('Omoda & Jaecoo') in the UK from 2024, Spain, Italy, Australia and elsewhere. Its battery-electric model is the E5 (C5 EV).",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "models",
+     "markets"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Omoda",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "omoda-e5",
+   "url_slug": "e5",
+   "name": "E5",
+   "aliases": [
+    "C5 EV",
+    "Omoda 5 EV",
+    "Chery E5"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric version of Chery's Omoda 5 (C5) compact crossover, sold since 2024 in the UK, Europe, Australia and much of Asia and Latin America. Early cars used a 61 kWh BYD-made LFP pack; from 2025 a 58.9 kWh CATL pack.",
+   "markets": {
+    "UK": {
+     "status": "current",
+     "launch": "2024-05",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Omoda_5",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric version of the Omoda 5 / C5 crossover, shown in April 2023 and sold from February 2024 (Indonesia first); renamed Chery E5 in Indonesia in 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Omoda_E5_IMG_8105.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Omoda_E5_IMG_8105.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/2023_Omoda_C5_EV_front_view.png",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Omoda_C5_EV_front_view.png",
+       "credit": "Autosdeprimera",
+       "license": "CC BY 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "61-kwh",
+       "name": "E5 61 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 61.06,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": 251,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": 36490,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": 2024,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Omoda_5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "58-9-kwh",
+       "name": "E5 58.9 kWh (CATL)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 58.9,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "AU",
+         "model_year": 2025,
+         "range": 430,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Omoda_5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "50-6-kwh",
+       "name": "C5 EV 50.6 kWh (Thailand-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 50.6,
+       "battery_basis": null,
+       "power_hp": 208,
+       "torque_lbft": 212,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.2,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Omoda_5",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341); torque Nm x0.7376.",
+  "No UK or AU prices, DC charging rate or WLTP range for the 61 kWh pack sourced; EUR 36,490 Italian launch price is from a reference title on Wikipedia.",
+  "Omoda headquarters, founding year and website not sourced.",
+  "Not included: Omoda 4 EV (announced, no date), Omoda C3 (powertrain not stated), Omoda 7 / 9 (plug-in hybrids)."
+ ]
+}

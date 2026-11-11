@@ -30,12 +30,15 @@ async def read_make(make_id: str, db: db_dependency):
 
 @router.get("/makes", response_model=List[MakeRead])
 async def read_makes(
-    db: db_dependency, response: Response, skip: int = 0, limit: int = 100
+    db: db_dependency, response: Response, skip: int = 0, limit: int = 1000
 ):
+    # Default raised from 100 and ordered by id: the catalog load takes makes past 100,
+    # and an unordered LIMIT 100 dropped existing brands from this list.
     response.headers["Cache-Control"] = "public, s-maxage=3600, stale-while-revalidate=86400"
     makes = (
         db.query(models.Make)
         .options(subqueryload(models.Make.cars))
+        .order_by(models.Make.id)
         .offset(skip)
         .limit(limit)
         .all()

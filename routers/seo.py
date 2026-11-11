@@ -12,6 +12,7 @@ from typing import Optional
 from fastapi import APIRouter
 from fastapi.responses import Response
 from sqlalchemy import func
+from sqlalchemy.exc import SQLAlchemyError
 
 import models.orm_models as models
 from dependencies import db_dependency
@@ -70,6 +71,18 @@ def _url(loc: str, lastmod: str, priority: str) -> str:
 
 @router.get("/sitemap.xml")
 async def sitemap(db: db_dependency):
+    # Once the catalog is migrated and loaded, the catalog sitemap (new /make/... URLs)
+    # replaces this one. Until then, and on any catalog error, serve the legacy sitemap.
+    try:
+        from fastapi import HTTPException
+        from sqlalchemy import text
+        from routers import catalog
+
+        if db.execute(text("SELECT 1 FROM generations LIMIT 1")).first():
+            return await catalog.catalog_sitemap(db=db)
+    except (SQLAlchemyError, HTTPException):
+        db.rollback()
+
     today = datetime.utcnow().strftime("%Y-%m-%d")
     parts = [
         '<?xml version="1.0" encoding="UTF-8"?>\n',

@@ -1,0 +1,322 @@
+{
+  "make": {
+    "slug": "bollinger",
+    "name": "Bollinger Motors",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Oak Park, Michigan, USA",
+    "founded": 2014,
+    "parent_group": null,
+    "website_url": null,
+    "status": "defunct",
+    "status_date": "2025-11-21",
+    "status_details": "Shut down on 21 November 2025 after missing payroll, under majority owner Mullen (Bollinger Innovations); its assets were auctioned by court order in 2026, with founder Robert Bollinger reported to have bought the remaining assets and IP.",
+    "description": "Bollinger Motors was founded in 2014 by Robert Bollinger in Hobart, New York, to build boxy off-road electric trucks, the B1 SUV and B2 pickup. After Mullen Automotive took control in 2022 it switched to the B4 Class 4 commercial truck, its only production model.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Bollinger_Motors",
+        "name": "Wikipedia: Bollinger Motors"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://insideevs.com/news/780172/bollinger-motors-closed-electric-truck/",
+        "name": "InsideEVs: Bollinger Motors is dead (Nov 2025)"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.freightwaves.com/news/bollinger-motors-shuts-down-amid-financial-woes",
+        "name": "FreightWaves: Bollinger Motors shuts down"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.autoconnectedcar.com/2026/04/court-ordered-auction-of-bollinger-motors-mullen-assets-5-13-upfitting-possible/",
+        "name": "AutoConnectedCar: court-ordered auction of Bollinger assets (Apr 2026)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "bollinger-b1",
+      "url_slug": "b1",
+      "name": "B1",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Boxy two-door electric off-road SUV shown as a prototype in 2017 and as production-ready in 2019. Consumer development was postponed indefinitely in January 2022 and never resumed.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Bollinger_Motors",
+          "name": "Wikipedia: Bollinger Motors"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Prototype only.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Bollinger_B1%2C_front_left_%28Greenwich_Concours%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Bollinger_B1,_front_left_(Greenwich_Concours).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "B1 (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Bollinger_Motors",
+                  "name": "Wikipedia: Bollinger Motors"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bollinger-b2",
+      "url_slug": "b2",
+      "name": "B2",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Pickup version of the B1 with the same off-road chassis, added around 2019. Postponed indefinitely with the B1 in January 2022.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Bollinger_Motors",
+          "name": "Wikipedia: Bollinger Motors"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Prototype only.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bollinger_B2%2C_front_left_%28Greenwich_Concours%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Bollinger_B2,_front_left_(Greenwich_Concours).jpg",
+              "credit": "Mr.choppers",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "B2 (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Bollinger_Motors",
+                  "name": "Wikipedia: Bollinger Motors"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bollinger-b4",
+      "url_slug": "b4",
+      "name": "B4",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": true,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Class 4 cab-over electric chassis-cab truck, Bollinger's only production model, built in Livonia, Michigan from 2024. Production stopped in early 2025 over unpaid supplier invoices and the company closed in November 2025.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2024",
+          "end": "2025-01",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Bollinger_Motors",
+          "name": "Wikipedia: Bollinger Motors"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insideevs.com/news/780172/bollinger-motors-closed-electric-truck/",
+          "name": "InsideEVs: Bollinger Motors is dead (Nov 2025)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.freightwaves.com/news/bollinger-motors-shuts-down-amid-financial-woes",
+          "name": "FreightWaves: Bollinger Motors shuts down"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "The only version.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "chassis-cab",
+              "name": "B4 Chassis Cab",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": null,
+              "body_type": "pickup",
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://insideevs.com/news/780172/bollinger-motors-closed-electric-truck/",
+                  "name": "InsideEVs: Bollinger Motors is dead (Nov 2025)"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Bollinger_Motors",
+                  "name": "Wikipedia: Bollinger Motors"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "No primary source fetched for B1/B2 announced specs (battery, power, price) or B4 specs and MSRP; left null.",
+    "Deliver-E van (2020) and B2 Chass-E Cab / B3 not modelled: commercial concepts never produced."
+  ]
+}

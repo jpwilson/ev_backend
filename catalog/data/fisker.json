@@ -1,0 +1,801 @@
+{
+  "make": {
+    "slug": "fisker",
+    "name": "Fisker",
+    "legacy_id": 20,
+    "country": "US",
+    "headquarters": "Manhattan Beach, California, USA",
+    "founded": 2016,
+    "parent_group": null,
+    "website_url": "https://www.fiskerinc.com",
+    "status": "defunct",
+    "status_date": "2024-06-17",
+    "status_details": "Filed for Chapter 11 bankruptcy on 17 June 2024 after Ocean production stopped in March 2024; a liquidation plan was confirmed in October 2024, the remaining Oceans were sold to American Lease, and shareholders were wiped out.",
+    "description": "Fisker Inc. was Henrik Fisker's second car company, founded in 2016 (separate from the earlier Fisker Automotive that built the Karma plug-in hybrid). It built about 11,000 Ocean SUVs at Magna Steyr in Austria from late 2022 to March 2024 and showed the Pear, Ronin and Alaska, none of which reached production before the 2024 bankruptcy.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Fisker_Inc.",
+        "name": "Wikipedia: Fisker Inc."
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.davispolk.com/experience/fisker-confirms-and-consummates-chapter-11-plan",
+        "name": "Davis Polk: Fisker Chapter 11 plan"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://www.marketscreener.com/quote/stock/FISKER-INC-46415498/news/Fisker-bankruptcy-plan-approved-after-deal-on-vehicle-tech-support-48062345/",
+        "name": "Reuters via MarketScreener (Oct 2024)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "fisker-ocean",
+      "url_slug": "ocean",
+      "name": "Ocean",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": "https://www.fiskerinc.com/ocean",
+      "description": "Mid-size electric SUV built under contract by Magna Steyr in Graz, Austria, and Fisker's only production car. Deliveries began in Europe in May 2023 and the US in June 2023; production stopped in March 2024 and the company went bankrupt in June 2024, with about 3,200 unsold cars sold to American Lease for ride-hailing use in New York.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2023-06",
+          "end": "2024-03",
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2023-05",
+          "end": "2024-03",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fisker_Ocean",
+          "name": "Wikipedia: Fisker Ocean"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fisker_Inc.",
+          "name": "Wikipedia: Fisker Inc."
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "FM29",
+          "start_year": 2023,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "The only Ocean generation: built from November 2022 to March 2024 in Sport (front-drive, LFP battery), Ultra and Extreme/One (dual-motor, 113 kWh NMC) trims.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Fisker_Ocean_Motorworld_Munich_1X7A0079.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Fisker_Ocean_Motorworld_Munich_1X7A0079.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "sport",
+              "name": "Sport",
+              "legacy_ids": [
+                130
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.0,
+              "battery_basis": "gross",
+              "power_hp": 275,
+              "torque_lbft": 285,
+              "accel_0_60_s": 6.9,
+              "accel_0_100_s": null,
+              "top_speed_mph": 127,
+              "dc_kw": 175,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 231,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 38999,
+                  "launch_price": 37499,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fisker_Ocean",
+                  "name": "Wikipedia: Fisker Ocean"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/682620/2023-fisker-ocean-extreme-epa-range/",
+                  "name": "InsideEVs: Ocean Extreme EPA rating and launch prices"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://insideevs.com/news/692787/base-fisker-ocean-gets-more-expensive-top-trim-is-7500-usd-cheaper/",
+                  "name": "InsideEVs: Ocean price changes (Nov 2023)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2023&year2=2024&make=Fisker&srchtyp=ymm",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "ultra",
+              "name": "Ultra",
+              "legacy_ids": [
+                131
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 113.0,
+              "battery_basis": "gross",
+              "power_hp": 544,
+              "torque_lbft": 543,
+              "accel_0_60_s": 3.9,
+              "accel_0_100_s": null,
+              "top_speed_mph": 127,
+              "dc_kw": 175,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 350,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 52999,
+                  "launch_price": 49999,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fisker_Ocean",
+                  "name": "Wikipedia: Fisker Ocean"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/682620/2023-fisker-ocean-extreme-epa-range/",
+                  "name": "InsideEVs: Ocean Extreme EPA rating and launch prices"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://insideevs.com/news/692787/base-fisker-ocean-gets-more-expensive-top-trim-is-7500-usd-cheaper/",
+                  "name": "InsideEVs: Ocean price changes (Nov 2023)"
+                }
+              ]
+            },
+            {
+              "slug": "extreme",
+              "name": "Extreme / One",
+              "legacy_ids": [
+                129
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 113.0,
+              "battery_basis": "gross",
+              "power_hp": 564,
+              "torque_lbft": 543,
+              "accel_0_60_s": 3.7,
+              "accel_0_100_s": null,
+              "top_speed_mph": 127,
+              "dc_kw": 175,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 360,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 61499,
+                  "launch_price": 68999,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fisker_Ocean",
+                  "name": "Wikipedia: Fisker Ocean"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/682620/2023-fisker-ocean-extreme-epa-range/",
+                  "name": "InsideEVs: Ocean Extreme EPA rating and launch prices"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://insideevs.com/news/692787/base-fisker-ocean-gets-more-expensive-top-trim-is-7500-usd-cheaper/",
+                  "name": "InsideEVs: Ocean price changes (Nov 2023)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2023&year2=2024&make=Fisker&srchtyp=ymm",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fisker-pear",
+      "url_slug": "pear",
+      "name": "Pear",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": "https://www.fiskerinc.com/pear",
+      "description": "Compact five-seat electric crossover developed with Foxconn and planned for production at the former Lordstown Assembly plant in Ohio, priced from $29,900. Development was paused in March 2024 and the car was cancelled when Fisker went bankrupt.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fisker_Pear",
+          "name": "Wikipedia: Fisker Pear"
+        },
+        {
+          "fields": [
+            "specs",
+            "price"
+          ],
+          "url": "https://www.engadget.com/fisker-unveils-the-alaska-electric-pickup-and-sub-30000-pear-ev-071051468.html",
+          "name": "Engadget: Fisker Product Vision Day (Aug 2023)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Shown as a prototype at Fisker's Product Vision Day in August 2023 with production planned for mid-2025; never built.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Fisker_Pear_Motorworld_Munich_1X7A0123.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Fisker_Pear_Motorworld_Munich_1X7A0123.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Pear (announced)",
+              "legacy_ids": [
+                132
+              ],
+              "status": "cancelled",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 29900,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.engadget.com/fisker-unveils-the-alaska-electric-pickup-and-sub-30000-pear-ev-071051468.html",
+                  "name": "Engadget: Fisker Product Vision Day (Aug 2023)"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fisker_Pear",
+                  "name": "Wikipedia: Fisker Pear"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fisker-ronin",
+      "url_slug": "ronin",
+      "name": "Ronin",
+      "aliases": [],
+      "body_style": "convertible",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": "https://www.fiskerinc.com/ronin",
+      "description": "Four-door electric grand-touring convertible shown as a prototype in August 2023, with three motors, about 1,000 hp and a 600-mile range target at $385,000. It was cancelled with Fisker's 2024 bankruptcy.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price"
+          ],
+          "url": "https://www.engadget.com/fisker-unveils-the-alaska-electric-pickup-and-sub-30000-pear-ev-071051468.html",
+          "name": "Engadget: Fisker Product Vision Day (Aug 2023)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fisker_Inc.",
+          "name": "Wikipedia: Fisker Inc."
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Prototype only; deliveries had been targeted for late 2025.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/fisker_ronin_one.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Ronin (announced)",
+              "legacy_ids": [
+                133
+              ],
+              "status": "cancelled",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 1000,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 600,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 385000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.engadget.com/fisker-unveils-the-alaska-electric-pickup-and-sub-30000-pear-ev-071051468.html",
+                  "name": "Engadget: Fisker Product Vision Day (Aug 2023)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fisker-kayak",
+      "url_slug": "alaska",
+      "name": "Alaska",
+      "aliases": [
+        "Kayak"
+      ],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": "https://www.fiskerinc.com/kayak",
+      "description": "Four-door electric pickup based on a stretched Ocean platform, shown in August 2023 with a $45,400 starting price and a 2025 launch target; in Europe it was to be called the Kayak. It was cancelled with Fisker's 2024 bankruptcy.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": "Kayak"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Fisker_Alaska",
+          "name": "Wikipedia: Fisker Alaska"
+        },
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://autto.pt/en/news/fisker-alaska-electric-pick-up-renamed-kayak-for-europe-20240129.html",
+          "name": "autto.pt: Alaska renamed Kayak for Europe"
+        },
+        {
+          "fields": [
+            "specs",
+            "price"
+          ],
+          "url": "https://www.engadget.com/fisker-unveils-the-alaska-electric-pickup-and-sub-30000-pear-ev-071051468.html",
+          "name": "Engadget: Fisker Product Vision Day (Aug 2023)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Prototype only; planned with 75 kWh or 113 kWh batteries and an extendable bed, never produced.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Fisker_Alaska_Motorworld_Munich_1X7A0128.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Fisker_Alaska_Motorworld_Munich_1X7A0128.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Alaska (announced)",
+              "legacy_ids": [
+                134
+              ],
+              "status": "cancelled",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 230,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 45400,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.engadget.com/fisker-unveils-the-alaska-electric-pickup-and-sub-30000-pear-ev-071051468.html",
+                  "name": "Engadget: Fisker Product Vision Day (Aug 2023)"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Fisker_Alaska",
+                  "name": "Wikipedia: Fisker Alaska"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://autto.pt/en/news/fisker-alaska-electric-pick-up-renamed-kayak-for-europe-20240129.html",
+                  "name": "autto.pt: Alaska renamed Kayak for Europe"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fisker-emotion",
+      "url_slug": "emotion",
+      "name": "EMotion",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Luxury electric sedan revealed in 2017 with a 2019 production target and planned in-house solid-state batteries. Fisker put it on hold in 2019 to concentrate on the Ocean and abandoned it after dropping solid-state battery work in 2021.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://www.thetruthaboutcars.com/2019/03/fisker-puts-super-sedan-plans-on-the-back-burner-hops-on-the-suv-bandwagon/?print=1",
+          "name": "The Truth About Cars: EMotion shelved (Mar 2019)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.carscoops.com/2021/03/fisker-scraps-plans-for-solid-state-batteries-says-perfecting-them-was-too-difficult/",
+          "name": "Carscoops: Fisker drops solid-state batteries, EMotion abandoned (Mar 2021)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Shown as a running prototype in 2017 and at CES 2018; never produced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "EMotion (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://www.thetruthaboutcars.com/2019/03/fisker-puts-super-sedan-plans-on-the-back-burner-hops-on-the-suv-bandwagon/?print=1",
+                  "name": "The Truth About Cars: EMotion shelved (Mar 2019)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 130,
+      "note": "Legacy Ocean Sport had drive_type AWD; the Sport is front-wheel drive. 0-60 (7.9 s), power (284 hp) and top speed (116 mph) did not match published figures."
+    },
+    {
+      "legacy_id": 131,
+      "note": "Legacy Ocean Ultra had drive_type RWD; the Ultra is dual-motor AWD."
+    },
+    {
+      "legacy_id": 129,
+      "note": "Legacy Ocean Extreme listed 250 kW DC charging; Wikipedia gives 175 kW. Extreme and the launch-edition One share hardware, so both are one variant."
+    },
+    {
+      "legacy_id": 132,
+      "note": "Legacy Pear row had zeros for range, 0-60, power and top speed; zeros removed (unknown) and status is cancelled, not discontinued."
+    },
+    {
+      "legacy_id": 133,
+      "note": "Legacy Ronin row stored announced targets (600 mi, 2.0 s, 170 mph) as if real; kept only announced price, power and range target, flagged as estimates; status cancelled."
+    },
+    {
+      "legacy_id": 134,
+      "note": "Legacy model was 'Kayak' with submodel 'Alaska'; it is the Alaska pickup (Kayak was its planned European name). Slug fisker-kayak kept; status cancelled."
+    }
+  ],
+  "gaps": [
+    "WLTP ranges and European prices for the Ocean not sourced from a primary page.",
+    "Ocean Force E off-road package (2024) not modelled as a variant; announced but its delivery status is unclear.",
+    "No image for the EMotion prototype."
+  ]
+}

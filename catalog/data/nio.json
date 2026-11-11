@@ -1,0 +1,2623 @@
+{
+  "make": {
+    "slug": "nio",
+    "name": "NIO",
+    "legacy_id": 7,
+    "country": "CN",
+    "headquarters": "Shanghai, China",
+    "founded": 2014,
+    "parent_group": null,
+    "website_url": "https://www.nio.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Chinese premium electric-car maker founded in 2014 and known for battery swapping (about 4,000 stations, mostly in China). It also runs the mass-market Onvo brand and the small-car Firefly brand. Its European sales have shrunk to a handful of cars in 2026.",
+    "sources": [
+      {
+        "fields": [
+          "history",
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Nio_Inc.",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "markets"
+        ],
+        "url": "https://www.notebookcheck.net/EV-maker-Nio-s-European-dream-is-falling-apart-as-it-registers-a-mere-45-cars-across-Europe-this-year.1340538.0.html",
+        "name": "Notebookcheck"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "nio-ep9",
+      "url_slug": "ep9",
+      "name": "EP9",
+      "aliases": [
+        "NextEV EP9"
+      ],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Two-seat electric track car built for Nio by RML Group and unveiled in London in November 2016. It has one motor per wheel; only 16 were built (six sold to Nio investors) and none were registered for road use.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_EP9",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_Inc.",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2016",
+          "name": "EP9",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2016,
+          "end_year": 2019,
+          "status": "discontinued",
+          "description": "Carbon-fibre track car with four motors, one per wheel, and swappable batteries.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Nio_EP9.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_EP9.jpg",
+              "credit": "Jengtingchen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ep9",
+              "name": "EP9",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 1341,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 2.7,
+              "top_speed_mph": 194,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EP9",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-es8",
+      "url_slug": "es8",
+      "name": "ES8",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.cn/es8",
+      "description": "Nio's first production car: a full-size three-row SUV with swappable batteries, built in Hefei since June 2018. The second generation (2023) moved to the NT 2.0 platform and was sold in Europe as the EL8; the third generation launched in September 2025 on the 900-volt NT 3.0 platform and became Nio's best seller, with a five-seat version added in 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2018-06",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2023",
+          "end": null,
+          "local_name": "EL8"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ES8",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "markets"
+          ],
+          "url": "https://www.notebookcheck.net/EV-maker-Nio-s-European-dream-is-falling-apart-as-it-registers-a-mere-45-cars-across-Europe-this-year.1340538.0.html",
+          "name": "Notebookcheck"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2018",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2018,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Aluminium-bodied six/seven-seat SUV with dual motors and swappable 70, 84 and later 100 kWh packs; revised in 2020 with a 160 kW front and 240 kW rear motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/NIO_ES8_01_China_2019-04-02.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:NIO_ES8_01_China_2019-04-02.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "70-kwh",
+              "name": "70 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 70.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES8",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "84-kwh",
+              "name": "84 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 84.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES8",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 500,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES8",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Second generation (NT 2.0)",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": "Aries",
+          "platform": "NT 2.0",
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "All-new body on the NT 2.0 platform with lidar and the Adam computer; 75 or 100 kWh packs and a 480 kW dual-motor drive. Sold in Europe as the EL8.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%28CHN-Shanghai%29_Showcar_Nio_ES8_No-plate_2024-11-23.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Shanghai%29_Showcar_Nio_ES8_No-plate_2024-11-23.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": 627,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.1,
+              "top_speed_mph": 124,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 465,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 390,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES8",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": 627,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.1,
+              "top_speed_mph": 124,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 605,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES8",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "Third generation (NT 3.0)",
+          "kind": "generation",
+          "ordinal": 3,
+          "code_name": "Cetus",
+          "platform": "NT 3.0",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Larger 5.28 m body on the 900-volt NT 3.0 platform shared with the ET9, a 102 kWh pack and 520 kW dual motors; launched 20 September 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Nio_ES8_III_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ES8_III_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "102-kwh-awd",
+              "name": "102 kWh AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 102.0,
+              "battery_basis": null,
+              "power_hp": 697,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.97,
+              "top_speed_mph": 137,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 635,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/05/nios-new-es8-launch-set-for-september-20-as-company-aims-for-q4-profitability/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-es6",
+      "url_slug": "es6",
+      "name": "ES6",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.cn/es6",
+      "description": "Five-seat mid-size SUV with swappable batteries, on sale in China since June 2019. The second generation (2023, NT 2.0) is sold in Europe as the EL6 because Audi objected to the ES6 name; it was refreshed in May 2025 with an ET9-style interior.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2019-06",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2023-06",
+          "end": null,
+          "local_name": "EL6"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ES6",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "markets"
+          ],
+          "url": "https://www.notebookcheck.net/EV-maker-Nio-s-European-dream-is-falling-apart-as-it-registers-a-mere-45-cars-across-Europe-this-year.1340538.0.html",
+          "name": "Notebookcheck"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Dual-motor SUV (permanent-magnet plus induction motor, up to 400 kW) with 70, 84 or 100 kWh swappable packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/2019_NIO_ES6_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2019_NIO_ES6_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "70-kwh",
+              "name": "70 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 70.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Second generation (NT 2.0)",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": "NT 2.0",
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Entirely new car on the NT 2.0 platform with 75 or 100 kWh packs; sold in Europe as the EL6.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/2023_NIO_ES6_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_NIO_ES6_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 465,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 406,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 605,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 529,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "2025 refresh",
+          "kind": "refresh",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": "NT 2.5",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "May 2025 update with ET9-style styling, a landscape 15.6-inch screen and head-up display; powertrain carried over.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Nio_ES6_II_facelift_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ES6_II_facelift_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-ec6",
+      "url_slug": "ec6",
+      "name": "EC6",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.cn/ec6",
+      "description": "Coupe-roofed sister of the ES6, on sale in China since 2020 and built under contract by JAC. A second generation on NT 2.0 arrived in September 2023 and was refreshed in May 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_EC6",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Five-seat coupe SUV with 70 or 100 kWh swappable packs and two power levels.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2020_NIO_EC6_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2020_NIO_EC6_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard",
+              "name": "Standard",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 435,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.4,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "performance",
+              "name": "Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 544,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Second generation (NT 2.0)",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": "NT 2.0",
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Launched 15 September 2023 on NT 2.0 with EC7-style body details and a 360 kW drive.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/2024_NIO_EC6_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_NIO_EC6_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.4,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 505,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.4,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 630,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "2025 refresh",
+          "kind": "refresh",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": "NT 2.5",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "May 2025 update with ET9-style interior and landscape screen; powertrain carried over.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Nio_EC6_II_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_EC6_II_005.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-et7",
+      "url_slug": "et7",
+      "name": "ET7",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.com/et7",
+      "description": "Large electric sedan and Nio's first car with lidar, unveiled in January 2021 and delivered from March 2022 in China and October 2022 in Europe. It was Nio's flagship until the ET9 and was updated in April 2024 with a new interior and an LFP standard-range pack.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022-03",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2022-10",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ET7",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "markets"
+          ],
+          "url": "https://www.notebookcheck.net/EV-maker-Nio-s-European-dream-is-falling-apart-as-it-registers-a-mere-45-cars-across-Europe-this-year.1340538.0.html",
+          "name": "Notebookcheck"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Launch version: 180 kW front and 300 kW rear motors, 75 kWh LFP/NMC hybrid or 100 kWh NMC packs.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/nio_et7_75.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [
+                13
+              ],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": 627,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": 124,
+              "dc_kw": 140,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 550,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 445,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": 627,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": 124,
+              "dc_kw": 127,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 580,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "2024 refresh",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "April 2024 update: new rear executive seats and screens, Snapdragon 8295 cockpit, and an LFP 75 kWh pack with 170 kW charging; exterior almost unchanged.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%28CHN-Shanghai%29_Showcar_Nio_ET7_No-plate_2024-11-23.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Shanghai)_Showcar_Nio_ET7_No-plate_2024-11-23.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh-lfp",
+              "name": "75 kWh LFP",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": 627,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": 124,
+              "dc_kw": 170,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 535,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 445,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": 627,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": 124,
+              "dc_kw": 127,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 580,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-et5",
+      "url_slug": "et5",
+      "name": "ET5",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.com/et5",
+      "description": "Mid-size sedan aimed at the Tesla Model 3, revealed in December 2021 and on sale from September 2022. It was refreshed in May 2025 on the NT 2.5 platform.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022-09",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "markets"
+          ],
+          "url": "https://www.notebookcheck.net/EV-maker-Nio-s-European-dream-is-falling-apart-as-it-registers-a-mere-45-cars-across-Europe-this-year.1340538.0.html",
+          "name": "Notebookcheck"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 2.0",
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Dual-motor sedan (150 kW front induction, 210 kW rear permanent-magnet) with 75 or 100 kWh swappable packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NIO_ET5_IMG_8291.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:NIO_ET5_IMG_8291.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.0,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 328000,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 445,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.0,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 580,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "2025 refresh",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 2.5",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "May 2025 update: adaptive headlights, landscape 15.6-inch screen, AR head-up display, Shenji chip; powertrain unchanged.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Nio_ET5_facelift_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ET5_facelift_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 298000,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://cnevpost.com/2025/05/25/nio-launches-updated-et5-et5t/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-et5-touring",
+      "url_slug": "et5-touring",
+      "name": "ET5 Touring",
+      "aliases": [
+        "ET5T"
+      ],
+      "body_style": "wagon",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.com/et5t",
+      "description": "Estate version of the ET5, unveiled in June 2023 and sold in China as the ET5T. Same length and powertrain as the sedan, with a 470-litre boot; refreshed with the sedan in May 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023-06",
+          "end": null,
+          "local_name": "ET5T"
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "markets"
+          ],
+          "url": "https://www.notebookcheck.net/EV-maker-Nio-s-European-dream-is-falling-apart-as-it-registers-a-mere-45-cars-across-Europe-this-year.1340538.0.html",
+          "name": "Notebookcheck"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 2.0",
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Wagon body on the ET5 platform with 75 or 100 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/NIO_ET5_Touring_Motorworld_Munich_1X7A0033.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:NIO_ET5_Touring_Motorworld_Munich_1X7A0033.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.0,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.0,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "2025 refresh",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 2.5",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "May 2025 update shared with the ET5 sedan; adds 1,400 kg towing.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Nio_ET5T_facelift_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ET5T_facelift_001.jpg",
+              "credit": "KitsuneDP",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 298000,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://cnevpost.com/2025/05/25/nio-launches-updated-et5-et5t/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 483,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET5",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-es7",
+      "url_slug": "es7",
+      "name": "ES7",
+      "aliases": [
+        "EL7"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.com/el7",
+      "description": "Five-seat mid-size SUV, the first car on Nio's NT 2.0 platform (2022), sold in Europe as the EL7. Nio quietly stopped selling it in China in 2025 without an announcement; export production continues.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2022",
+          "end": "2025",
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": "EL7"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ES7",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://carnewschina.com/2025/02/19/refreshed-2025-nio-et5-champion-edition-revealed-in-china-es7-close-to-being-discontinued/",
+          "name": "CarNewsChina"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://eletric-vehicles.com/nio/nios-2026-es7-spotted-in-china-a-year-after-discontinuation/",
+          "name": "Electric Vehicles (eletric-vehicles.com)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 2.0",
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor 480 kW SUV with 75 or 100 kWh swappable packs and an optional 2,000 kg tow bar.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/NIO_ES7_IMG003crop.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:NIO_ES7_IMG003crop.jpg",
+              "credit": "Zotyefan",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 485,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 468000,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-ec7",
+      "url_slug": "ec7",
+      "name": "EC7",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.cn/ec7",
+      "description": "Coupe-roofed sister of the ES7, announced at Nio Day 2022 with deliveries from mid-2023; Nio claims a 0.23 drag coefficient. Sales have been very small (1,258 in China in 2025).",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_EC7",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 2.0",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "180 kW front and 300 kW rear motors with 75 or 100 kWh swappable packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/%28CHN-Guangdong%29_Private_Nio_EC7_%E7%B2%A4BBY61xx_2024-05-25.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Guangdong%29_Private_Nio_EC7_%E7%B2%A4BBY61xx_2024-05-25.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 2.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 490,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "100-kwh",
+              "name": "100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 644,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.8,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 635,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_EC7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-et9",
+      "url_slug": "et9",
+      "name": "ET9",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.cn/et9",
+      "description": "Nio's flagship four-seat executive sedan, the first on the 900-volt NT 3.0 platform with steer-by-wire, fully active suspension and Nio's own Shenji driving chips. Deliveries began in March 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ET9",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "NT 3.0",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "100 kWh pack with 600 kW charging, 180 kW front and 340 kW rear motors.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Nio_ET9_MY2025_IMG01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ET9_MY2025_IMG01.jpg",
+              "credit": "Poprace",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "100-kwh-awd",
+              "name": "100 kWh AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": 697,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.3,
+              "top_speed_mph": null,
+              "dc_kw": 600,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 768000,
+                  "launch_price": 788000,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ET9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://cnevpost.com/2024/12/22/nio-et9-sedan-launched/",
+                  "name": "CnEVPost"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://cnevpost.com/2026/02/24/nio-es9-onvo-l80-both-set-for-official-launch-may/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nio-es9",
+      "url_slug": "es9",
+      "name": "ES9",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.nio.cn/es9",
+      "description": "Full-size three-row flagship SUV, the SUV counterpart to the ET9, revealed in April 2026 with deliveries from June 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Nio_ES9",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "Draco",
+          "platform": "NT 3.0",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "102 kWh pack, 925-volt drive with 180 kW front and 340 kW rear motors, active suspension and rear-wheel steering.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nio_ES9_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ES9_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "102-kwh-awd",
+              "name": "102 kWh AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 102.0,
+              "battery_basis": null,
+              "power_hp": 697,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.3,
+              "top_speed_mph": 137,
+              "dc_kw": 600,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Nio_ES9",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 13,
+      "note": "ET7 75 kWh launch version (2022). Legacy epa_range 207 is not an EPA figure (the ET7 is not sold in the US; WLTP is 445 km); current_price 88500 has no source or currency basis; acceleration_0_60 3.8 is Nio's 0-100 km/h time; generation '2023' should be 2022. The 2024 refresh is a separate generation row."
+    }
+  ],
+  "gaps": [
+    "No yuan prices sourced for most current NIO trims (ES8 III, ES6/EC6, EC7, ES9, ET7 2024); the ES8 III pre-sale price (416,800 yuan) is not the launch price so it was left out.",
+    "Power and torque for the first-generation ES6 and ES8 are not reliably sourced per battery.",
+    "NIO's per-country European line-up in 2026 is unclear (registrations collapsed; EL8 only as certified used in Germany). EU market statuses are best effort.",
+    "ES6 second generation power output not in source used.",
+    "The 150 kWh semi-solid-state pack (rental only) is not modelled as a variant.",
+    "Five-seat ES8 (2026) is described but not modelled as its own variant (same powertrain)."
+  ]
+}

@@ -1,0 +1,4016 @@
+{
+  "make": {
+    "slug": "xpeng",
+    "name": "XPeng",
+    "legacy_id": 6,
+    "country": "CN",
+    "headquarters": "Guangzhou, Guangdong, China",
+    "founded": 2014,
+    "parent_group": null,
+    "website_url": "https://www.xpeng.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Chinese electric-car maker founded in 2014 and listed in New York and Hong Kong, known for its driver-assistance software. It delivered about 429,000 cars in 2025, sells in about 60 countries, and licenses its electrical architecture to Volkswagen. Its cheaper models are sold under the Mona name.",
+    "sources": [
+      {
+        "fields": [
+          "history",
+          "markets"
+        ],
+        "url": "https://en.wikipedia.org/wiki/XPeng",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "xpeng-g3",
+      "url_slug": "g3",
+      "name": "G3",
+      "aliases": [
+        "G3i",
+        "Identy X"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "XPeng's first production car, a compact SUV built from November 2018 (after a 15-car Identy X founders' run). Facelifted as the G3i in 2021 and exported to Norway; production ended in 2023 and the G3i was dropped from the price list in March 2025.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2018-12",
+          "end": "2023",
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_G3",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insidechinaauto.com/2025/03/14/xpeng-updates-g6-and-g9-for-2025-and-trims-prices-quietly-cans-p5-and-g3i/",
+          "name": "Inside China Auto"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2018",
+          "name": "G3",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2018,
+          "end_year": 2021,
+          "status": "discontinued",
+          "description": "Front-motor compact SUV; the 2019 update brought a 50.5 kWh standard pack and a long-range pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/2018_Xpeng_G3.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2018_Xpeng_G3.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard-range",
+              "name": "Standard Range",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": 2021,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 50.5,
+              "battery_basis": null,
+              "power_hp": 194,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G3",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "long-range",
+              "name": "Long Range",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": 2021,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 194,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G3",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2021",
+          "name": "G3i",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "July 2021 facelift with a P7-style light bar and XPILOT 2.5, built in XPeng's own Zhaoqing plant.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/2021_Xpeng_G3i_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_Xpeng_G3i_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "g3i",
+              "name": "G3i",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2021,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 149800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G3",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-p5",
+      "url_slug": "p5",
+      "name": "P5",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Compact sedan launched in 2021, the first mass-produced car offered with lidar. It got a facelift for 2024 and was quietly dropped in March 2025; its slot went to the Mona M03.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2021-09",
+          "end": "2025",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_P5",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://insidechinaauto.com/2025/03/14/xpeng-updates-g6-and-g9-for-2025-and-trims-prices-quietly-cans-p5-and-g3i/",
+          "name": "Inside China Auto"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Front-wheel-drive sedan with 60-81 kWh packs and optional lidar.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/2021_XPeng_P5.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_XPeng_P5.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 208,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P5",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-p7",
+      "url_slug": "p7",
+      "name": "P7",
+      "aliases": [
+        "P7i"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com/p7",
+      "description": "XPeng's sports sedan, delivered in China from June 2020 and exported to Europe. It was facelifted as the P7i in 2023 and replaced by an all-new second generation (E29) launched in August 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2020-06",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2021-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "First generation (E28)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "E28",
+          "platform": "SEPA",
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Original P7 on the SEPA platform with a 196 kW rear motor and an AWD Performance version.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/2020_XPeng_P7_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2020_XPeng_P7_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-60-kwh",
+              "name": "RWD 60.2 kWh LFP",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 60.2,
+              "battery_basis": null,
+              "power_hp": 263,
+              "torque_lbft": 288,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.7,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-71-kwh",
+              "name": "RWD 70.8 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": 2023,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 70.8,
+              "battery_basis": null,
+              "power_hp": 263,
+              "torque_lbft": 288,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.7,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-81-kwh",
+              "name": "RWD 80.9 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": null,
+              "year_to": 2023,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.9,
+              "battery_basis": null,
+              "power_hp": 263,
+              "torque_lbft": 288,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.7,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-performance",
+              "name": "AWD Performance",
+              "legacy_ids": [
+                12
+              ],
+              "status": null,
+              "year_from": null,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.9,
+              "battery_basis": null,
+              "power_hp": 424,
+              "torque_lbft": 483,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.3,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "P7i",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": "E28a",
+          "platform": "SEPA",
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "2023 facelift with lidar, Orin-X driving computers and uprated motors (203 kW rear, 348 kW AWD).",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/xpeng_p7_i.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "p7i-550",
+              "name": "P7i 550 RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 64.4,
+              "battery_basis": null,
+              "power_hp": 272,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 550,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "p7i-702",
+              "name": "P7i 702 RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 86.2,
+              "battery_basis": null,
+              "power_hp": 272,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 702,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "p7i-performance",
+              "name": "P7i Performance AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 86.2,
+              "battery_basis": null,
+              "power_hp": 467,
+              "torque_lbft": 558,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "Second generation (E29)",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": "E29",
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "All-new fastback with 800-volt drive, up to 486 kW charging and XPeng's Turing chips; no lidar.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/XPeng_P7_%282nd_generation%29_IAA_2025_DSC_1692.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_P7_%282nd_generation%29_IAA_2025_DSC_1692.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "702-long-range",
+              "name": "702 Long Range RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.9,
+              "battery_basis": null,
+              "power_hp": 362,
+              "torque_lbft": 343,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.8,
+              "top_speed_mph": 143,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 702,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "820-ultra-long-range",
+              "name": "820 Ultra Long Range RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 92.2,
+              "battery_basis": null,
+              "power_hp": 362,
+              "torque_lbft": 343,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.4,
+              "top_speed_mph": 143,
+              "dc_kw": 486,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 820,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "750-awd-performance",
+              "name": "750 AWD Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 92.2,
+              "battery_basis": null,
+              "power_hp": 586,
+              "torque_lbft": 513,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.7,
+              "top_speed_mph": 143,
+              "dc_kw": 486,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 750,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-p7-plus",
+      "url_slug": "p7-plus",
+      "name": "P7+",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com/p7plus",
+      "description": "Larger, cheaper liftback sold alongside the P7, launched in China in November 2024 with XPeng's lidar-free driver assistance. A January 2026 facelift added a range-extender version (not listed here) and made it a global model built also by Magna Steyr in Graz.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-11",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2026-01",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_P7%2B",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "F57",
+          "platform": "SEPA 2.0",
+          "start_year": 2024,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Single rear motor (180 or 230 kW) with 60.7 or 76.3 kWh LFP packs; a 74.9 kWh 5C pack arrived for the 2025 Flagship trim.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/XPeng_P7%2B_IAA_2025_DSC_2059_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_P7%2B_IAA_2025_DSC_2059_%28cropped%29.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range",
+              "name": "Long Range",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 60.7,
+              "battery_basis": null,
+              "power_hp": 241,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.8,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 615,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 186800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7%2B",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2024/11/07/xpeng-p7-launches-in-china-with-725-km-range-for-26100-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "ultra-long-range",
+              "name": "Ultra Long Range",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 76.3,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 725,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 198800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7%2B",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2024/11/07/xpeng-p7-launches-in-china-with-725-km-range-for-26100-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "ultra-long-range-flagship",
+              "name": "Ultra Long Range Flagship (5C)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.9,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 685,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7%2B",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": "F57a",
+          "platform": "SEPA 2.0",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Full-width light bar, AR head-up display, Turing chips and 5C packs; launched in China and Europe in January 2026.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/XPeng_P7%2B_%282026%29_IMG_7350.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_P7%2B_%282026%29_IMG_7350.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "615",
+              "name": "615 EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 61.7,
+              "battery_basis": null,
+              "power_hp": 241,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 615,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 455,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7%2B",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "725",
+              "name": "725 EV",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.9,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 725,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 530,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_P7%2B",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-g9",
+      "url_slug": "g9",
+      "name": "G9",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com/g9",
+      "description": "Mid-size SUV launched in China in 2022, XPeng's first car designed for export (Europe from 2023). A March 2025 refresh brought 5C LFP packs, more power and lidar-free driver assistance.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_G9",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Edward",
+          "start_year": 2022,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "800-volt SUV with a 230 kW rear motor; AWD adds a 175 kW front induction motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/2022_XPeng_G9_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_XPeng_G9_%28front%29.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "570",
+              "name": "570 RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 78.2,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": 317,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 124,
+              "dc_kw": 260,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 570,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 460,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "702",
+              "name": "702 RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.0,
+              "battery_basis": null,
+              "power_hp": 308,
+              "torque_lbft": 317,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 124,
+              "dc_kw": 315,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 702,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 570,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "650-awd",
+              "name": "650 AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.0,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 529,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": 124,
+              "dc_kw": 315,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "2025 refresh",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Edward",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "New CALB 5C LFP packs (10-80% in 12 minutes), 258 kW rear motor, Turing AI driving without lidar.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/XPeng_G9_%282025%29_IAA_2025_DSC_2054_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G9_%282025%29_IAA_2025_DSC_2054_%28cropped%29.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "625-max",
+              "name": "625 Max RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 79.0,
+              "battery_basis": null,
+              "power_hp": 346,
+              "torque_lbft": 343,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.6,
+              "top_speed_mph": 124,
+              "dc_kw": 445,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 625,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 248800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 502,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/13/xpeng-launches-updated-g6-g9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "725-max",
+              "name": "725 Max RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 93.1,
+              "battery_basis": null,
+              "power_hp": 346,
+              "torque_lbft": 343,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 124,
+              "dc_kw": 530,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 725,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 258800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 585,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/13/xpeng-launches-updated-g6-g9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "680-awd-max",
+              "name": "680 AWD Max",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 93.1,
+              "battery_basis": null,
+              "power_hp": 567,
+              "torque_lbft": 513,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.2,
+              "top_speed_mph": 124,
+              "dc_kw": 530,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 680,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 278800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 540,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/13/xpeng-launches-updated-g6-g9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-g6",
+      "url_slug": "g6",
+      "name": "G6",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com/g6",
+      "description": "Mid-size coupe SUV launched in China in June 2023 and exported widely (Europe, UK from 2025, Australia, Southeast Asia). Refreshed in March 2025 with 5C batteries and a new interior.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023-06",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2025-03",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2024-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "F30",
+          "platform": "SEPA 2.0",
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "800-volt SEPA 2.0 platform; China models use a 218 kW rear motor, export models 190-210 kW.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/XPeng_G6_018_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G6_018_%28cropped%29.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range-cn",
+              "name": "Long Range RWD (China, 66 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 66.0,
+              "battery_basis": null,
+              "power_hp": 292,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 580,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "ultra-long-range-cn",
+              "name": "Ultra Long Range RWD (China, 87.5 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 87.5,
+              "battery_basis": null,
+              "power_hp": 292,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 755,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-export",
+              "name": "Standard Range RWD (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 66.0,
+              "battery_basis": null,
+              "power_hp": 255,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.6,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 435,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": 2025,
+                  "range": 435,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 39990,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-export",
+              "name": "Long Range RWD (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 87.5,
+              "battery_basis": null,
+              "power_hp": 282,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 570,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-performance",
+              "name": "AWD Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 87.5,
+              "battery_basis": null,
+              "power_hp": 480,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 700,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 550,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "2025 refresh",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": "F30b",
+          "platform": "SEPA 2.0",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "81 changes: full-width light bar, 15.6-inch screen, lidar-free Turing AI driving and 5C CALB packs (10-80% in 12 minutes).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/XPeng_G6_%282025%29_IAA_2025_DSC_2057.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G6_%282025%29_IAA_2025_DSC_2057.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range-cn",
+              "name": "Long Range RWD (China, 68.5 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 68.5,
+              "battery_basis": null,
+              "power_hp": 292,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 625,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 176800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/13/xpeng-launches-updated-g6-g9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "ultra-long-range-cn",
+              "name": "Ultra Long Range RWD (China, 80.8 kWh)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.8,
+              "battery_basis": null,
+              "power_hp": 292,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 725,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 198800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/13/xpeng-launches-updated-g6-g9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-export",
+              "name": "Standard Range RWD (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 68.5,
+              "battery_basis": null,
+              "power_hp": 251,
+              "torque_lbft": 325,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.94,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 435,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-export",
+              "name": "Long Range RWD (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.8,
+              "battery_basis": null,
+              "power_hp": 292,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.7,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 525,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-performance-export",
+              "name": "AWD Performance (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.8,
+              "battery_basis": null,
+              "power_hp": 480,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.13,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-x9",
+      "url_slug": "x9",
+      "name": "X9",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com/x9",
+      "description": "Seven-seat electric MPV launched in China in January 2024 and exported to Asia and Australia. Battery packs grew in 2025; a March 2026 facelift added rear-wheel steering (a range-extender version, not listed here, arrived first).",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-01",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026-07",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "H93",
+          "platform": "SEPA 2.0",
+          "start_year": 2024,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "800-volt MPV with a 235 kW front motor; AWD adds a 135 kW rear motor. Larger packs from April 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/XPeng_X9_003_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_X9_003_%28cropped%29.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd-84-kwh",
+              "name": "FWD 84.5 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 84.5,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.7,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "fwd-101-kwh",
+              "name": "FWD 101.5 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 101.5,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.7,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 702,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-101-kwh",
+              "name": "AWD 101.5 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 101.5,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": 472,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.7,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 640,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "fwd-95-kwh",
+              "name": "FWD 94.8 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 94.8,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 359800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/04/15/xpeng-launches-2025-x9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "fwd-105-kwh",
+              "name": "FWD 105 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 105.0,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 740,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 379800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/04/15/xpeng-launches-2025-x9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd-105-kwh",
+              "name": "AWD 105 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 105.0,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": 472,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 702,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 399800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/04/15/xpeng-launches-2025-x9/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SEPA 2.0",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Restyled bumpers, rear-wheel steering and up to three Turing chips; 94.8 kWh LFP or 110 kWh NMC.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/XPeng_X9_2026_in_Guangzhou_20260223.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_X9_2026_in_Guangzhou_20260223.jpg",
+              "credit": "Tim Wu",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd-95-kwh",
+              "name": "FWD 94.8 kWh (China)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 94.8,
+              "battery_basis": null,
+              "power_hp": 315,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 309800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/03/02/updated-xpeng-x9-ev-minivan-launched-in-china-with-rear-wheel-steering-and-2250-tops/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd-110-kwh",
+              "name": "AWD 110 kWh (China)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 110.0,
+              "battery_basis": null,
+              "power_hp": 496,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 369800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/03/02/updated-xpeng-x9-ev-minivan-launched-in-china-with-rear-wheel-steering-and-2250-tops/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "fwd-export",
+              "name": "FWD Standard Range (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 94.8,
+              "battery_basis": null,
+              "power_hp": 342,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-export",
+              "name": "AWD Performance (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 110.0,
+              "battery_basis": null,
+              "power_hp": 530,
+              "torque_lbft": 472,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_X9",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-mona-m03",
+      "url_slug": "mona-m03",
+      "name": "Mona M03",
+      "aliases": [
+        "M03"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com/m03",
+      "description": "Low-priced compact fastback, the first car of XPeng's Mona line, developed from a project bought from DiDi. On sale in China since August 2024; over 200,000 built by November 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "successor",
+          "model": "xpeng-p5"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_Mona_M03",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "D01",
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Front motor with FinDreams LFP blade packs; Max trims add XNGP urban driver assistance.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%28CHN-Hubei%29_Showcar_XPeng_Mona_M03_No-plate_2024-12-03.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Hubei%29_Showcar_XPeng_Mona_M03_No-plate_2024-12-03.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "515",
+              "name": "515 (51.8 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 51.8,
+              "battery_basis": null,
+              "power_hp": 188,
+              "torque_lbft": 166,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.8,
+              "top_speed_mph": 96,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 515,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 119800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_Mona_M03",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://cnevpost.com/2024/08/27/xpeng-launches-mona-m03/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "620",
+              "name": "620 (62.2 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 62.2,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": 184,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.4,
+              "top_speed_mph": 96,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 129800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_Mona_M03",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://cnevpost.com/2024/08/27/xpeng-launches-mona-m03/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-g7",
+      "url_slug": "g7",
+      "name": "G7",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com/g7",
+      "description": "Mid-size SUV launched in June 2025, the first car with XPeng's Turing AI chips and a Huawei-developed 87-inch AR head-up display. A range-extender version (not listed here) followed in January 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-07",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_G7",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "F01",
+          "platform": "SEPA 2.0",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "218 kW rear motor with 68.5 or 80.8 kWh 5C LFP packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/XPeng_G7_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G7_001.jpg",
+              "credit": "KitsuneDP",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard-range",
+              "name": "Standard Range (68.5 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 68.5,
+              "battery_basis": null,
+              "power_hp": 292,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 126,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 602,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G7",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "long-range",
+              "name": "Long Range (80.8 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 80.8,
+              "battery_basis": null,
+              "power_hp": 292,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 126,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 702,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-mona-l03",
+      "url_slug": "mona-l03",
+      "name": "Mona L03",
+      "aliases": [
+        "L03"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com",
+      "description": "Compact coupe SUV in the Mona line, launched in China and Europe in July 2026 (sold abroad as the L03). Range-extender versions also exist and are not listed here.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-07",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2026-07",
+          "end": null,
+          "local_name": "L03"
+        },
+        "UK": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": "L03"
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": "L03"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_L03",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "price",
+            "range",
+            "specs"
+          ],
+          "url": "https://carnewschina.com/2026/07/16/xpeng-l03-launches-in-europe-at-40740-usd-to-fight-for-market-share/",
+          "name": "CarNewsChina"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "D03",
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Luxshare rear motor with CALB LFP packs; an AWD version is offered in Europe.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/XPeng_MONA_L03_in_Grandview_Mall%2C_Guangzhou_20260712.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_MONA_L03_in_Grandview_Mall%2C_Guangzhou_20260712.jpg",
+              "credit": "Tim Wu",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard-range-rwd",
+              "name": "Standard Range RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.3,
+              "battery_basis": "gross",
+              "power_hp": 246,
+              "torque_lbft": 207,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.5,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 525,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 445,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 35600,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_L03",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/07/16/xpeng-l03-launches-in-europe-at-40740-usd-to-fight-for-market-share/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "long-range-rwd",
+              "name": "Long Range RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 71.2,
+              "battery_basis": "gross",
+              "power_hp": 246,
+              "torque_lbft": 207,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.6,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 625,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 38600,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_L03",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/07/16/xpeng-l03-launches-in-europe-at-40740-usd-to-fight-for-market-share/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd-performance",
+              "name": "AWD Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 71.2,
+              "battery_basis": "gross",
+              "power_hp": 382,
+              "torque_lbft": 318,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 440,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 41600,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_L03",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2026/07/16/xpeng-l03-launches-in-europe-at-40740-usd-to-fight-for-market-share/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-mona-l05",
+      "url_slug": "mona-l05",
+      "name": "Mona L05",
+      "aliases": [
+        "L05"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com",
+      "description": "Mid-size fastback SUV in the Mona line, on sale in China from 29 October 2026 with first deliveries on 4 November 2026. Range-extender versions are not listed here.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-10",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_Mona_L05",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "D02",
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Shares the L03's 246 hp rear motor with 58.2 or 71.1 kWh CALB LFP packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/XPeng_Mona_L05_MY2027_IMG01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_Mona_L05_MY2027_IMG01.jpg",
+              "credit": "Poprace",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "58-kwh",
+              "name": "58.2 kWh RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.2,
+              "battery_basis": null,
+              "power_hp": 246,
+              "torque_lbft": 207,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.3,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 535,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_Mona_L05",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "71-kwh",
+              "name": "71.1 kWh RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 71.1,
+              "battery_basis": null,
+              "power_hp": 246,
+              "torque_lbft": 207,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.8,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 635,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_Mona_L05",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-g9l",
+      "url_slug": "g9l",
+      "name": "G9L",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com",
+      "description": "Full-size SUV launched in China in September 2026 and in eight European countries in October 2026 (built also in Graz). Despite the name it is related to the GX, not the G9. Range-extender versions are not listed here.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2026-10",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_G9L",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "price",
+            "range"
+          ],
+          "url": "https://cnevpost.com/2026/09/17/xpeng-launches-g9l-china/",
+          "name": "CnEVPost"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "G02",
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "270 kW rear motor; AWD adds a 160 kW front motor. 800-volt, 5C charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/XPeng_G9L_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G9L_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 362,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9L",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/17/xpeng-launches-g9l-china/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 577,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_G9L",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/17/xpeng-launches-g9l-china/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "xpeng-gx",
+      "url_slug": "gx",
+      "name": "GX",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.xpeng.com",
+      "description": "Six-seat full-size luxury SUV, XPeng's flagship, in production since March 2026 with rear-wheel steering and steer-by-wire. Range-extender versions are not listed here.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-05",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/XPeng_GX",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "G01",
+          "platform": "SEPA 3.0",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "SEPA 3.0 platform; 362 hp rear motor, AWD adds a 215 hp front motor; 91.9 kWh LFP or 110 kWh NMC.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/XPeng_GX_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_GX_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-92-kwh",
+              "name": "RWD 91.9 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 91.9,
+              "battery_basis": null,
+              "power_hp": 362,
+              "torque_lbft": 343,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 655,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_GX",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-110-kwh",
+              "name": "RWD 110 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 110.0,
+              "battery_basis": null,
+              "power_hp": 362,
+              "torque_lbft": 343,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 750,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_GX",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-92-kwh",
+              "name": "AWD 91.9 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 91.9,
+              "battery_basis": null,
+              "power_hp": 577,
+              "torque_lbft": 513,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 635,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_GX",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd-110-kwh",
+              "name": "AWD 110 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 110.0,
+              "battery_basis": null,
+              "power_hp": 577,
+              "torque_lbft": 513,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 720,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/XPeng_GX",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 12,
+      "note": "Labelled 'P7 Smart Sedan i' with a P7i photo, but its numbers (424 hp = 316 kW, 80 kWh) match the pre-facelift P7 AWD Performance with the 80.9 kWh pack, so it is claimed there. epa_range 244 is invented (the P7 was never EPA-rated or sold in the US); current_price 36000 has no source; drive_type 'RWD/AWD' mixes trims; generation '2023' would be the P7i. The legacy P7i photo is used for the P7i (2023) refresh row."
+    }
+  ],
+  "gaps": [
+    "Prices for P7 (E28/P7i/E29), G6 2023, G7, G9 2022, Mona L03/L05 (China), G9L and GX not sourced per trim; only pre-sale ranges were found.",
+    "G9L battery sizes and per-trim ranges not sourced (EV ranges 660-755 km CLTC across four trims).",
+    "X9 2026 China: battery-to-trim pairing inferred from trim names (665/650 Max/Ultra = 94.8 kWh, 750/710 = 110 kWh); per-trim CLTC ranges not given.",
+    "G3 long-range battery quoted as both 65.5 and 66.5 kWh in sources; left null.",
+    "P5 battery per trim (60.2-80.9 kWh) not sourced; P5 2024 facelift not split out.",
+    "Mona L03 power is 246 hp in China and 241 hp (180 kW) in Europe for the same motor; 246 hp recorded.",
+    "Range-extender (EREV) versions of P7+, G6, G7, X9, L03, L05, G9L and GX deliberately excluded.",
+    "X9 Europe availability not verified; only China and Australia markets recorded."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "make": {
+    "slug": "coda",
+    "name": "Coda",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": null,
+    "founded": null,
+    "parent_group": null,
+    "website_url": null,
+    "status": "defunct",
+    "status_date": "2013-05-01",
+    "status_details": "Filed for Chapter 11 bankruptcy on 1 May 2013 after selling about 117 cars, and stopped making cars to focus on energy storage; leftover cars were later resold by Mullen as the Mullen 700e.",
+    "description": "Coda Automotive was a California startup that sold a single model, a small four-door electric sedan based on a Chinese-built body, in California in 2012-2013. Weak sales led to bankruptcy within about a year of launch.",
+    "sources": [
+      {
+        "fields": [
+          "specs",
+          "status",
+          "price",
+          "range"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Coda_(electric_car)",
+        "name": "Wikipedia: Coda (electric car)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "coda-sedan",
+      "url_slug": "sedan",
+      "name": "Sedan",
+      "aliases": [
+        "Mullen 700e"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Four-seat electric compact sedan with a 31 kWh LiFePO4 battery and EPA-rated 88 miles of range, sold only in California from March 2012 until the company's May 2013 bankruptcy; only about 117 were delivered.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2012-03",
+          "end": "2013-05",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status",
+            "price",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Coda_(electric_car)",
+          "name": "Wikipedia: Coda (electric car)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2012",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2012,
+          "end_year": 2013,
+          "status": "discontinued",
+          "description": "The only version.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/CODA_sedan_WAS_2012_0835.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:CODA_sedan_WAS_2012_0835.JPG",
+              "credit": "Mariordo - Mario Roberto Durán Ortiz",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Sedan",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2012,
+              "year_to": 2013,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 31.0,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": 221,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 85,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2012,
+                  "range": 88,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 37250,
+                  "launch_price": 37250,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Coda_(electric_car)",
+                  "name": "Wikipedia: Coda (electric car)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Coda Automotive founding year and HQ not in the fetched source; left null."
+  ]
+}

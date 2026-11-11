@@ -1,0 +1,4885 @@
+{
+  "make": {
+    "slug": "ford",
+    "name": "Ford",
+    "legacy_id": 3,
+    "country": "US",
+    "headquarters": "Dearborn, Michigan, USA",
+    "founded": 1903,
+    "parent_group": null,
+    "website_url": "https://www.ford.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "American carmaker founded by Henry Ford in 1903. Its battery-electric range centres on the Mustang Mach-E, the E-Transit vans and, in Europe, the MEB-based Explorer and Capri plus the Puma Gen-E; the F-150 Lightning EV ended in December 2025 and a low-cost midsize pickup, the Fathom, is due in 2027.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://electrek.co/2025/12/15/ford-reveals-new-f-150-lightning-erev-plans-kills-off-ev-version/",
+        "name": "Electrek: Ford ends F-150 Lightning BEV, next generation becomes an EREV (15 Dec 2025)"
+      },
+      {
+        "fields": [
+          "price",
+          "status",
+          "specs"
+        ],
+        "url": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
+        "name": "TechCrunch: Ford Fathom starts at $28,350 (6 Aug 2026)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "ford-mustang-mach-e",
+      "url_slug": "mustang-mach-e",
+      "name": "Mustang Mach-E",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.ford.com/suvs/mach-e/",
+      "description": "Ford's first purpose-built electric crossover, revealed in November 2019 and on sale since December 2020 as a 2021 model, built in Cuautitlan, Mexico (and by Changan Ford in China until 2025). The 2024 model year brought new motors and more torque across the range plus the Rally; for 2027 the standard-range pack was dropped and every version uses the 88 or 91 kWh pack.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2020-12",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": "2025",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "battery"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E",
+          "name": "Wikipedia: Ford Mustang Mach-E"
+        },
+        {
+          "fields": [
+            "price",
+            "specs"
+          ],
+          "url": "https://electrek.co/2026/10/22/2027-ford-mustang-mach-e-adds-range-starts-40000/",
+          "name": "Electrek, 2027 Mustang Mach-E (22 Oct 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "CX727",
+          "platform": "GE1",
+          "start_year": 2021,
+          "end_year": null,
+          "status": "current",
+          "description": "One body since launch. Hardware changed twice without a restyle: new drive units and higher torque for 2024 (Rally added), and the extended-range pack made standard for 2027.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/ford_mustang_mache_gt.jpg",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "history",
+                "battery"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E",
+              "name": "Wikipedia: Ford Mustang Mach-E"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "standard-range-rwd-2021",
+              "name": "Standard Range RWD (2021-2023)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.7,
+              "battery_basis": "gross",
+              "power_hp": 266,
+              "torque_lbft": 317,
+              "accel_0_60_s": 5.8,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 115,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 230,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 247,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 42895,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 247,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "battery"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E",
+                  "name": "Wikipedia: Ford Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/43604.shtml",
+                  "name": "fueleconomy.gov 2021 Mach-E RWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45144.shtml",
+                  "name": "fueleconomy.gov 2022 Mach-E RWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46517.shtml",
+                  "name": "fueleconomy.gov 2023 Mach-E RWD"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-awd-2021",
+              "name": "Standard Range eAWD (2021-2023)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.7,
+              "battery_basis": "gross",
+              "power_hp": 266,
+              "torque_lbft": 428,
+              "accel_0_60_s": 5.2,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 115,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 211,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 224,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 45595,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 224,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "battery"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E",
+                  "name": "Wikipedia: Ford Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/43602.shtml",
+                  "name": "fueleconomy.gov 2021 Mach-E AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45138.shtml",
+                  "name": "fueleconomy.gov 2022 Mach-E AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46512.shtml",
+                  "name": "fueleconomy.gov 2023 Mach-E AWD"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-rwd-2021",
+              "name": "Extended Range RWD (2021-2023)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.8,
+              "battery_basis": "gross",
+              "power_hp": 290,
+              "torque_lbft": 317,
+              "accel_0_60_s": 6.1,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 303,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 53100,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 310,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "battery"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E",
+                  "name": "Wikipedia: Ford Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/43605.shtml",
+                  "name": "fueleconomy.gov 2021 Mach-E RWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45145.shtml",
+                  "name": "fueleconomy.gov 2022 Mach-E RWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46518.shtml",
+                  "name": "fueleconomy.gov 2023 Mach-E RWD Extended"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-awd-2021",
+              "name": "Extended Range eAWD (2021-2023)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.8,
+              "battery_basis": "gross",
+              "power_hp": 346,
+              "torque_lbft": 428,
+              "accel_0_60_s": 4.8,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 270,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 277,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 55800,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 290,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "battery"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Mustang_Mach-E",
+                  "name": "Wikipedia: Ford Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/43603.shtml",
+                  "name": "fueleconomy.gov 2021 Mach-E AWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45139.shtml",
+                  "name": "fueleconomy.gov 2022 Mach-E AWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46513.shtml",
+                  "name": "fueleconomy.gov 2023 Mach-E AWD Extended"
+                }
+              ]
+            },
+            {
+              "slug": "california-route-1-rwd",
+              "name": "California Route 1 RWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2022,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.8,
+              "battery_basis": "gross",
+              "power_hp": 290,
+              "torque_lbft": 317,
+              "accel_0_60_s": 6.1,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 305,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 314,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 50775,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/43683.shtml",
+                  "name": "fueleconomy.gov 2021 Mach-E RWD California Route 1"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45141.shtml",
+                  "name": "fueleconomy.gov 2022 Mach-E CAL RT 1 ER RWD"
+                }
+              ]
+            },
+            {
+              "slug": "california-route-1-awd",
+              "name": "California Route 1 eAWD",
+              "legacy_ids": [
+                43
+              ],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.8,
+              "battery_basis": "gross",
+              "power_hp": 346,
+              "torque_lbft": 428,
+              "accel_0_60_s": 4.8,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 53475,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 312,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45140.shtml",
+                  "name": "fueleconomy.gov 2022 Mach-E CAL RT 1 ER AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46514.shtml",
+                  "name": "fueleconomy.gov 2023 Mach-E CAL RT 1 ER AWD"
+                }
+              ]
+            },
+            {
+              "slug": "gt-2021",
+              "name": "GT (2021-2023)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.8,
+              "battery_basis": "gross",
+              "power_hp": 480,
+              "torque_lbft": 600,
+              "accel_0_60_s": 3.8,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 270,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 270,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 59995,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 270,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://performance.ford.com/enthusiasts/media-room/2021/6/mustang-mach-e-gt-.html",
+                  "name": "Ford Performance media room: Mach-E GT and GT Performance Edition"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/44797.shtml",
+                  "name": "fueleconomy.gov 2021 Mach-E GT"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46515.shtml",
+                  "name": "fueleconomy.gov 2023 Mach-E GT"
+                }
+              ]
+            },
+            {
+              "slug": "gt-performance-edition",
+              "name": "GT Performance Edition",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.8,
+              "battery_basis": "gross",
+              "power_hp": 480,
+              "torque_lbft": 634,
+              "accel_0_60_s": 3.5,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 64995,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/wp-content/uploads/sites/3/2021/06/2021-Mustang-Mach-E-Tech-Specs.pdf",
+                  "name": "Ford 2021 Mustang Mach-E Technical Specifications (PDF, hosted by Electrek)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://performance.ford.com/enthusiasts/media-room/2021/6/mustang-mach-e-gt-.html",
+                  "name": "Ford Performance media room: Mach-E GT and GT Performance Edition"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2021/10/28/how-much-does-a-ford-mustang-mach-e-cost-pricing-guide-for-each-version/",
+                  "name": "Electrek, Mach-E pricing guide (28 Oct 2021)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/44798.shtml",
+                  "name": "fueleconomy.gov 2021 Mach-E GT Performance"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46516.shtml",
+                  "name": "fueleconomy.gov 2023 Mach-E GT Performance"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-rwd-2024",
+              "name": "Standard Range RWD (2024-2026)",
+              "legacy_ids": [
+                41,
+                42
+              ],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 264,
+              "torque_lbft": 387,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 250,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 37795,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.com/suvs/mach-e/models/gt/",
+                  "name": "Ford.com 2026 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/?p=467018",
+                  "name": "Electrek, 2026 Mach-E trims and prices (12 May 2026)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2294188/2027-ford-mustang-mach-e-trail-updates/",
+                  "name": "Carscoops, 2027 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47822.shtml",
+                  "name": "fueleconomy.gov 2024 Mach-E RWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49082.shtml",
+                  "name": "fueleconomy.gov 2025 Mach-E RWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50204.shtml",
+                  "name": "fueleconomy.gov 2026 Mach-E RWD"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-awd-2024",
+              "name": "Standard Range eAWD (2024-2026)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 325,
+              "torque_lbft": 500,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 230,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 240,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 240,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 40795,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.com/suvs/mach-e/models/gt/",
+                  "name": "Ford.com 2026 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/?p=467018",
+                  "name": "Electrek, 2026 Mach-E trims and prices (12 May 2026)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2294188/2027-ford-mustang-mach-e-trail-updates/",
+                  "name": "Carscoops, 2027 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47824.shtml",
+                  "name": "fueleconomy.gov 2024 Mach-E AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49078.shtml",
+                  "name": "fueleconomy.gov 2025 Mach-E AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50200.shtml",
+                  "name": "fueleconomy.gov 2026 Mach-E AWD"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-rwd-2024",
+              "name": "Extended Range RWD (2024-)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 88.0,
+              "battery_basis": "usable",
+              "power_hp": 272,
+              "torque_lbft": 387,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 45345,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 39995,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.com/suvs/mach-e/models/gt/",
+                  "name": "Ford.com 2026 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/?p=467018",
+                  "name": "Electrek, 2026 Mach-E trims and prices (12 May 2026)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://electrek.co/2026/10/22/2027-ford-mustang-mach-e-adds-range-starts-40000/",
+                  "name": "Electrek, 2027 Mustang Mach-E (22 Oct 2026)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47823.shtml",
+                  "name": "fueleconomy.gov 2024 Mach-E RWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49083.shtml",
+                  "name": "fueleconomy.gov 2025 Mach-E RWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50205.shtml",
+                  "name": "fueleconomy.gov 2026 Mach-E RWD Extended"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-awd-2024",
+              "name": "Extended Range eAWD (2024-)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 88.0,
+              "battery_basis": "usable",
+              "power_hp": 370,
+              "torque_lbft": 500,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 46075,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 42995,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.com/suvs/mach-e/models/gt/",
+                  "name": "Ford.com 2026 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/?p=467018",
+                  "name": "Electrek, 2026 Mach-E trims and prices (12 May 2026)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://electrek.co/2026/10/22/2027-ford-mustang-mach-e-adds-range-starts-40000/",
+                  "name": "Electrek, 2027 Mustang Mach-E (22 Oct 2026)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47825.shtml",
+                  "name": "fueleconomy.gov 2024 Mach-E AWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49079.shtml",
+                  "name": "fueleconomy.gov 2025 Mach-E AWD Extended"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50201.shtml",
+                  "name": "fueleconomy.gov 2026 Mach-E AWD Extended"
+                }
+              ]
+            },
+            {
+              "slug": "gt-2024",
+              "name": "GT (2024-)",
+              "legacy_ids": [
+                7
+              ],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 91.0,
+              "battery_basis": "usable",
+              "power_hp": 480,
+              "torque_lbft": 600,
+              "accel_0_60_s": 3.8,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 280,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 280,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 280,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 53395,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 50995,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.com/suvs/mach-e/models/gt/",
+                  "name": "Ford.com 2026 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/?p=467018",
+                  "name": "Electrek, 2026 Mach-E trims and prices (12 May 2026)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://electrek.co/2026/10/22/2027-ford-mustang-mach-e-adds-range-starts-40000/",
+                  "name": "Electrek, 2027 Mustang Mach-E (22 Oct 2026)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47826.shtml",
+                  "name": "fueleconomy.gov 2024 Mach-E GT"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49080.shtml",
+                  "name": "fueleconomy.gov 2025 Mach-E GT"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50202.shtml",
+                  "name": "fueleconomy.gov 2026 Mach-E GT"
+                }
+              ]
+            },
+            {
+              "slug": "rally",
+              "name": "Rally",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 91.0,
+              "battery_basis": "usable",
+              "power_hp": 480,
+              "torque_lbft": 700,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 265,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 265,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 255,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 57690,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 55290,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.com/suvs/mach-e/models/gt/",
+                  "name": "Ford.com 2026 Mustang Mach-E"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/?p=467018",
+                  "name": "Electrek, 2026 Mach-E trims and prices (12 May 2026)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://electrek.co/2026/10/22/2027-ford-mustang-mach-e-adds-range-starts-40000/",
+                  "name": "Electrek, 2027 Mustang Mach-E (22 Oct 2026)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47827.shtml",
+                  "name": "fueleconomy.gov 2024 Mach-E Rally"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49081.shtml",
+                  "name": "fueleconomy.gov 2025 Mach-E Rally"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50203.shtml",
+                  "name": "fueleconomy.gov 2026 Mach-E Rally"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-f150-lightning",
+      "url_slug": "f-150-lightning",
+      "name": "F-150 Lightning",
+      "aliases": [
+        "F150 Lightning"
+      ],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": "https://www.ford.com/trucks/f150/f150-lightning/",
+      "description": "Battery-electric version of the F-150 full-size pickup, built at the Rouge Electric Vehicle Center in Dearborn from April 2022. Ford ended production of the all-electric truck in December 2025 (2025 was the last model year); the next F-150 Lightning is an extended-range EV with a gasoline generator, so it is not a battery-electric vehicle.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2022-05",
+          "end": "2025-12",
+          "local_name": null
+        },
+        "CA": {
+          "status": "discontinued",
+          "launch": "2022",
+          "end": "2025-12",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_F-150_Lightning",
+          "name": "Wikipedia: Ford F-150 Lightning"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://electrek.co/2025/12/15/ford-reveals-new-f-150-lightning-erev-plans-kills-off-ev-version/",
+          "name": "Electrek: Ford ends F-150 Lightning BEV, next generation becomes an EREV (15 Dec 2025)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.ford.com/trucks/f150/f150-lightning/",
+          "name": "Ford.com F-150 Lightning (no longer orderable)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "P702",
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "The only battery-electric F-150 generation; dual motors and four-wheel drive on every version, standard or extended range pack.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/ford_f150_light_plat.png",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "history",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_F-150_Lightning",
+              "name": "Wikipedia: Ford F-150 Lightning"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "standard-range",
+              "name": "Standard Range",
+              "legacy_ids": [
+                6,
+                50,
+                51
+              ],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 98.0,
+              "battery_basis": "usable",
+              "power_hp": 452,
+              "torque_lbft": 775,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 230,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 240,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 240,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 240,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_F-150_Lightning",
+                  "name": "Wikipedia: Ford F-150 Lightning"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45318.shtml",
+                  "name": "fueleconomy.gov 2022 F-150 Lightning 4WD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/46329.shtml",
+                  "name": "fueleconomy.gov 2023 F-150 Lightning 4WD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48707.shtml",
+                  "name": "fueleconomy.gov 2025 F-150 Lightning 4WD SR"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range",
+              "name": "Extended Range",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 131.0,
+              "battery_basis": "usable",
+              "power_hp": 580,
+              "torque_lbft": 775,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 155,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_F-150_Lightning",
+                  "name": "Wikipedia: Ford F-150 Lightning"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45317.shtml",
+                  "name": "fueleconomy.gov 2022 F-150 Lightning 4WD Extended Range"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47818.shtml",
+                  "name": "fueleconomy.gov 2024 F-150 Lightning 4WD Extended Range"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48705.shtml",
+                  "name": "fueleconomy.gov 2025 F-150 Lightning 4WD ER1"
+                }
+              ]
+            },
+            {
+              "slug": "platinum",
+              "name": "Platinum (Extended Range, 22-inch wheels)",
+              "legacy_ids": [
+                49
+              ],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 131.0,
+              "battery_basis": "usable",
+              "power_hp": 580,
+              "torque_lbft": 775,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 155,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_F-150_Lightning",
+                  "name": "Wikipedia: Ford F-150 Lightning"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45316.shtml",
+                  "name": "fueleconomy.gov 2022 F-150 Lightning Platinum 4WD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48708.shtml",
+                  "name": "fueleconomy.gov 2025 F-150 Lightning Platinum 4WD"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-e-transit",
+      "url_slug": "e-transit",
+      "name": "E-Transit",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": "https://www.ford.com/commercial-trucks/e-transit/",
+      "description": "Battery-electric version of the full-size Transit van, built at Kansas City Assembly for North America from November 2021 and by Ford Otosan in Turkey for Europe from 2022. Sold as a cargo van, chassis cab and cutaway; a larger pack replaced the original 68 kWh battery in the US from 2024-2025.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2021-11",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_E-Transit",
+          "name": "Wikipedia: Ford E-Transit"
+        },
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://insideevs.com/news/779514/2026-ford-e-transit-interior-battery-charging-range/",
+          "name": "InsideEVs: 2026 Ford E-Transit (20 Nov 2025)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Electric drive in the existing Transit body; single rear motor and rear-wheel drive.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2023_Ford_E-Transit_Trend_425.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_Ford_E-Transit_Trend_425.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "view": "rear",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "history"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_E-Transit",
+              "name": "Wikipedia: Ford E-Transit"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "68kwh-198kw",
+              "name": "68 kWh, 198 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 68.0,
+              "battery_basis": "usable",
+              "power_hp": 266,
+              "torque_lbft": 317,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 115,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 126,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": true
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 317,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 61987.1,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_E-Transit",
+                  "name": "Wikipedia: Ford E-Transit"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-kastenwagen/PL_Kasten.pdf",
+                  "name": "Ford Germany Transit Kastenwagen price list (valid from 11 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/nutzfahrzeuge-modelle/ford-e-transit",
+                  "name": "Ford Germany E-Transit page"
+                }
+              ]
+            },
+            {
+              "slug": "68kwh-135kw-eu",
+              "name": "68 kWh, 135 kW (Europe)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 68.0,
+              "battery_basis": "usable",
+              "power_hp": 181,
+              "torque_lbft": 317,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 115,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 317,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 60202.1,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_E-Transit",
+                  "name": "Wikipedia: Ford E-Transit"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-kastenwagen/PL_Kasten.pdf",
+                  "name": "Ford Germany Transit Kastenwagen price list (valid from 11 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/nutzfahrzeuge-modelle/ford-e-transit",
+                  "name": "Ford Germany E-Transit page"
+                }
+              ]
+            },
+            {
+              "slug": "89kwh-us",
+              "name": "89 kWh enhanced range (US)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 89.0,
+              "battery_basis": "usable",
+              "power_hp": 266,
+              "torque_lbft": 317,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 176,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 159,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.fromtheroad.ford.com/content/dam/fordmediasite/us/en/library/2025/specs/2025-Transit-Technical-Specs.pdf",
+                  "name": "Ford 2025 E-Transit (U.S.) technical specifications"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://insideevs.com/news/779514/2026-ford-e-transit-interior-battery-charging-range/",
+                  "name": "InsideEVs: 2026 Ford E-Transit (20 Nov 2025)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_E-Transit",
+                  "name": "Wikipedia: Ford E-Transit"
+                }
+              ]
+            },
+            {
+              "slug": "96kwh-135kw-eu",
+              "name": "96 kWh, 135 kW (Europe)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 96.0,
+              "battery_basis": "usable",
+              "power_hp": 181,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 401,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 65438.1,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-kastenwagen/PL_Kasten.pdf",
+                  "name": "Ford Germany Transit Kastenwagen price list (valid from 11 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/nutzfahrzeuge-modelle/ford-e-transit",
+                  "name": "Ford Germany E-Transit page"
+                }
+              ]
+            },
+            {
+              "slug": "96kwh-198kw-eu",
+              "name": "96 kWh, 198 kW (Europe)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 96.0,
+              "battery_basis": "usable",
+              "power_hp": 266,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 67223.1,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-kastenwagen/PL_Kasten.pdf",
+                  "name": "Ford Germany Transit Kastenwagen price list (valid from 11 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/nutzfahrzeuge-modelle/ford-e-transit",
+                  "name": "Ford Germany E-Transit page"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-fathom",
+      "url_slug": "fathom",
+      "name": "Fathom",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Midsize five-seat electric pickup, the first vehicle on Ford's low-cost Universal EV Platform, to be built in Louisville, Kentucky. Named and priced in August 2026; reveal and pre-orders in early 2027, deliveries from fall 2027.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": "2027",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "price",
+            "status",
+            "specs"
+          ],
+          "url": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
+          "name": "TechCrunch: Ford Fathom starts at $28,350 (6 Aug 2026)"
+        },
+        {
+          "fields": [
+            "price",
+            "status"
+          ],
+          "url": "https://www.carscoops.com/2026/08/ford-fathom-pricing/",
+          "name": "Carscoops: Ford Fathom pricing (Aug 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Ford Universal EV Platform",
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced; full specifications not yet published.",
+          "images": [],
+          "sources": [
+            {
+              "fields": [
+                "price",
+                "status",
+                "specs"
+              ],
+              "url": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
+              "name": "TechCrunch: Ford Fathom starts at $28,350 (6 Aug 2026)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "standard-range-lfp",
+              "name": "Standard Range (LFP)",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 28350,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
+                  "name": "TechCrunch: Ford Fathom starts at $28,350 (6 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://www.carscoops.com/2026/08/ford-fathom-pricing/",
+                  "name": "Carscoops: Ford Fathom pricing (Aug 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-explorer-ev",
+      "url_slug": "explorer-ev",
+      "name": "Explorer EV",
+      "aliases": [
+        "Explorer (electric)"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.ford.de/fahrzeuge/ford-explorer",
+      "description": "European battery-electric compact SUV on Volkswagen's MEB platform, built in Cologne since June 2024. Not related to the US Explorer. A 2026 update replaced the 52 kWh standard-range pack and 125 kW motor with a 58 kWh pack and 140 kW motor.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": "Explorer"
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": "Explorer"
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "vw-id-4"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Explorer_EV",
+          "name": "Wikipedia: Ford Explorer EV"
+        },
+        {
+          "fields": [
+            "price",
+            "range",
+            "specs"
+          ],
+          "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/PL_Ford_Explorer_g%C3%BCltig_ab_01.04.2026_Bestellnummer_DE20260121_final_s.pdf",
+          "name": "Ford Germany Explorer price list (valid from 13 Jul 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Volkswagen MEB",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Ford-designed body on the MEB platform with rear or dual-motor drive.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Ford_Explorer_EV_IMG_2120.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_Explorer_EV_IMG_2120.jpg",
+              "credit": "Alexander Migl (Alexander-93)",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "history",
+                "specs"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Explorer_EV",
+              "name": "Wikipedia: Ford Explorer EV"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "standard-range-rwd-52kwh",
+              "name": "Standard Range RWD 52 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 52.0,
+              "battery_basis": "usable",
+              "power_hp": 168,
+              "torque_lbft": 229,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 378,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 39900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/Preisliste_des_Ford_Explorer.pdf",
+                  "name": "Ford Germany Explorer price list MY25.75 (valid from 1 Sep 2025)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Explorer_EV",
+                  "name": "Wikipedia: Ford Explorer EV"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-rwd-58kwh",
+              "name": "Standard Range RWD 58 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.0,
+              "battery_basis": "usable",
+              "power_hp": 188,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.0,
+              "top_speed_mph": 99,
+              "dc_kw": 105,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 444,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 39900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/PL_Ford_Explorer_g%C3%BCltig_ab_01.04.2026_Bestellnummer_DE20260121_final_s.pdf",
+                  "name": "Ford Germany Explorer price list (valid from 13 Jul 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/cars/PL-Explorer_Customer_Price_List.pdf",
+                  "name": "Ford UK All-Electric Explorer price list (from 1 Apr 2026)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Explorer_EV",
+                  "name": "Wikipedia: Ford Explorer EV"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-rwd",
+              "name": "Extended Range RWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 77.0,
+              "battery_basis": "usable",
+              "power_hp": 282,
+              "torque_lbft": 402,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 111,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 602,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 48900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 602,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 48900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/Preisliste_des_Ford_Explorer.pdf",
+                  "name": "Ford Germany Explorer price list MY25.75 (valid from 1 Sep 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/PL_Ford_Explorer_g%C3%BCltig_ab_01.04.2026_Bestellnummer_DE20260121_final_s.pdf",
+                  "name": "Ford Germany Explorer price list (valid from 13 Jul 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/cars/PL-Explorer_Customer_Price_List.pdf",
+                  "name": "Ford UK All-Electric Explorer price list (from 1 Apr 2026)"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-awd",
+              "name": "Extended Range AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 79.0,
+              "battery_basis": "usable",
+              "power_hp": 335,
+              "torque_lbft": 501,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 185,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 566,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 52900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 553,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 52900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/Preisliste_des_Ford_Explorer.pdf",
+                  "name": "Ford Germany Explorer price list MY25.75 (valid from 1 Sep 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/explorer/PL_Ford_Explorer_g%C3%BCltig_ab_01.04.2026_Bestellnummer_DE20260121_final_s.pdf",
+                  "name": "Ford Germany Explorer price list (valid from 13 Jul 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/cars/PL-Explorer_Customer_Price_List.pdf",
+                  "name": "Ford UK All-Electric Explorer price list (from 1 Apr 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-capri",
+      "url_slug": "capri",
+      "name": "Capri",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.ford.de/fahrzeuge/ford-capri",
+      "description": "Electric coupe-SUV unveiled on 10 July 2024 that revives the Capri name, built in Cologne on Volkswagen's MEB platform alongside the Explorer EV. Sold in Europe and the UK; a 58 kWh standard-range version with a 140 kW motor replaced the 52 kWh one in 2026.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Capri_EV",
+          "name": "Wikipedia: Ford Capri EV"
+        },
+        {
+          "fields": [
+            "price",
+            "range",
+            "specs"
+          ],
+          "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/PL_Ford_Capri_gultig_ab_27.03.2026_Bestellnummer_DE2060121_final_s.pdf",
+          "name": "Ford Germany Capri price list (valid from 8 May 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Volkswagen MEB",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Sloping-roof sister model of the Explorer EV with rear or dual-motor drive.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ford_Capri_%282024%29_Autofr%C3%BChling_Ulm_2025_DSC_8721.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_Capri_(2024)_Autofr%C3%BChling_Ulm_2025_DSC_8721.jpg",
+              "credit": "Alexander Migl (Alexander-93)",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "history"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Capri_EV",
+              "name": "Wikipedia: Ford Capri EV"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "standard-range-rwd-52kwh",
+              "name": "Standard Range RWD 52 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 52.0,
+              "battery_basis": "usable",
+              "power_hp": 168,
+              "torque_lbft": 229,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.7,
+              "top_speed_mph": 99,
+              "dc_kw": 145,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 393,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 42400,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/brochures/cars/capri/Technische_Daten_des_Ford_Capri_MY25_75.pdf",
+                  "name": "Ford Germany Capri technical data MY25.75"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/pl-preisliste_des_ford_capri.25.75.pdf",
+                  "name": "Ford Germany Capri price list MY25.75 (valid from 28 Feb 2025)"
+                }
+              ]
+            },
+            {
+              "slug": "standard-range-rwd-58kwh",
+              "name": "Standard Range RWD 58 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.0,
+              "battery_basis": "usable",
+              "power_hp": 188,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 464,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 42400,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/PL_Ford_Capri_gultig_ab_27.03.2026_Bestellnummer_DE2060121_final_s.pdf",
+                  "name": "Ford Germany Capri price list (valid from 8 May 2026)"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-rwd",
+              "name": "Extended Range RWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 77.0,
+              "battery_basis": "usable",
+              "power_hp": 282,
+              "torque_lbft": 402,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.4,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 627,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 51400,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 627,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 51400,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/brochures/cars/capri/Technische_Daten_des_Ford_Capri_MY25_75.pdf",
+                  "name": "Ford Germany Capri technical data MY25.75"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/pl-preisliste_des_ford_capri.25.75.pdf",
+                  "name": "Ford Germany Capri price list MY25.75 (valid from 28 Feb 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/PL_Ford_Capri_gultig_ab_27.03.2026_Bestellnummer_DE2060121_final_s.pdf",
+                  "name": "Ford Germany Capri price list (valid from 8 May 2026)"
+                }
+              ]
+            },
+            {
+              "slug": "extended-range-awd",
+              "name": "Extended Range AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 79.0,
+              "battery_basis": "usable",
+              "power_hp": 335,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.3,
+              "top_speed_mph": 112,
+              "dc_kw": 185,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2025,
+                  "range": 592,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 55400,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 577,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 55400,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/brochures/cars/capri/Technische_Daten_des_Ford_Capri_MY25_75.pdf",
+                  "name": "Ford Germany Capri technical data MY25.75"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/pl-preisliste_des_ford_capri.25.75.pdf",
+                  "name": "Ford Germany Capri price list MY25.75 (valid from 28 Feb 2025)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/cars/capri/PL_Ford_Capri_gultig_ab_27.03.2026_Bestellnummer_DE2060121_final_s.pdf",
+                  "name": "Ford Germany Capri price list (valid from 8 May 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-puma-gen-e",
+      "url_slug": "puma-gen-e",
+      "name": "Puma Gen-E",
+      "aliases": [
+        "E-Puma"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.ford.de/fahrzeuge/ford-puma-gen-e",
+      "description": "Battery-electric version of the Puma small crossover, launched on 3 December 2024 with deliveries from spring 2025. Built by Ford Otosan in Craiova, Romania, with electric drive units from Halewood, UK.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Puma_(crossover)",
+          "name": "Wikipedia: Ford Puma (crossover), Gen-E section"
+        },
+        {
+          "fields": [
+            "price",
+            "range"
+          ],
+          "url": "https://www.ford.de/content/dam/guxeu/de/documents/brochures/cars/puma-gen-e/PL_Ford_pumaGen-E-16.07.2026.pdf",
+          "name": "Ford Germany Puma Gen-E price list (valid from 16 Jul 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Ford B-car (Global B)",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Front-motor, front-wheel-drive electric Puma with a single battery size.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ford_Puma_Gen-E_Autofr%C3%BChling_Ulm_2025_DSC_8720.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_Puma_Gen-E_Autofr%C3%BChling_Ulm_2025_DSC_8720.jpg",
+              "credit": "Alexander Migl (Alexander-93)",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "history",
+                "specs"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Puma_(crossover)",
+              "name": "Wikipedia: Ford Puma (crossover), Gen-E section"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 46.8,
+              "battery_basis": "usable",
+              "power_hp": 166,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.0,
+              "top_speed_mph": 99,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 419,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 36900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/brochures/cars/puma-gen-e/Technische_Daten_des_vollelektrischen_Ford_Puma_Gen-E_zur_Preisliste_vom_11.02.2026_s.pdf",
+                  "name": "Ford Germany Puma Gen-E technical data (Feb 2026)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/brochures/cars/puma-gen-e/PL_Ford_pumaGen-E-16.07.2026.pdf",
+                  "name": "Ford Germany Puma Gen-E price list (valid from 16 Jul 2026)"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/cars/PL_Puma_Gen-E_Customer_Price_List-Effective_1st_January_2026.pdf",
+                  "name": "Ford UK Puma Gen-E price list (effective 5 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Puma_(crossover)",
+                  "name": "Wikipedia: Ford Puma (crossover), Gen-E section"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-e-transit-custom",
+      "url_slug": "e-transit-custom",
+      "name": "E-Transit Custom",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": "https://www.ford.de/nutzfahrzeuge-modelle/ford-e-transit-custom",
+      "description": "Battery-electric version of the second-generation Transit Custom one-tonne van, built by Ford Otosan in Turkey. Sold in Europe with rear-wheel drive and, from 2026, dual-motor all-wheel drive.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Transit_Custom",
+          "name": "Wikipedia: Ford Transit Custom"
+        },
+        {
+          "fields": [
+            "price",
+            "range",
+            "specs"
+          ],
+          "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL-der-neue-ford-transit-custom.pdf",
+          "name": "Ford Germany Transit Custom price list (valid from 14 Sep 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "V710",
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Electric version of the 2023 Transit Custom (V710); rear motor, with AWD added later.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ford_E-Transit_Custom_MS-RT_DSC_9288.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_E-Transit_Custom_MS-RT_DSC_9288.jpg",
+              "credit": "Alexander Migl (Alexander-93)",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "history",
+                "specs"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Transit_Custom",
+              "name": "Wikipedia: Ford Transit Custom"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "rwd-100kw",
+              "name": "RWD 100 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 3,
+              "battery_kwh": 70.0,
+              "battery_basis": "usable",
+              "power_hp": 134,
+              "torque_lbft": 306,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 380,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 57953.0,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL-der-neue-ford-transit-custom.pdf",
+                  "name": "Ford Germany Transit Custom price list (valid from 14 Sep 2026)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Transit_Custom",
+                  "name": "Wikipedia: Ford Transit Custom"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-160kw",
+              "name": "RWD 160 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 3,
+              "battery_kwh": 70.0,
+              "battery_basis": "usable",
+              "power_hp": 215,
+              "torque_lbft": 306,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 125,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 363,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 60392.5,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL-der-neue-ford-transit-custom.pdf",
+                  "name": "Ford Germany Transit Custom price list (valid from 14 Sep 2026)"
+                },
+                {
+                  "fields": [
+                    "history",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Transit_Custom",
+                  "name": "Wikipedia: Ford Transit Custom"
+                }
+              ]
+            },
+            {
+              "slug": "awd-160kw",
+              "name": "AWD 160 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 3,
+              "battery_kwh": 70.0,
+              "battery_basis": "usable",
+              "power_hp": 215,
+              "torque_lbft": 465,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 327,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 67651.5,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL-der-neue-ford-transit-custom.pdf",
+                  "name": "Ford Germany Transit Custom price list (valid from 14 Sep 2026)"
+                }
+              ]
+            },
+            {
+              "slug": "awd-210kw",
+              "name": "AWD 210 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 3,
+              "battery_kwh": 70.0,
+              "battery_basis": "usable",
+              "power_hp": 282,
+              "torque_lbft": 465,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 327,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 75029.5,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL-der-neue-ford-transit-custom.pdf",
+                  "name": "Ford Germany Transit Custom price list (valid from 14 Sep 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-e-tourneo-custom",
+      "url_slug": "e-tourneo-custom",
+      "name": "E-Tourneo Custom",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.ford.de/fahrzeuge/ford-e-tourneo-custom",
+      "description": "Passenger (people-carrier) version of the electric Transit Custom, revealed in November 2022 and built by Ford Otosan in Turkey. Seats up to eight; rear-wheel drive with dual-motor AWD versions added later.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "ford-e-transit-custom"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Transit_Custom",
+          "name": "Wikipedia: Ford Transit Custom"
+        },
+        {
+          "fields": [
+            "price",
+            "specs"
+          ],
+          "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL_V710_Tourneo_Custom_MY2027.25.pdf",
+          "name": "Ford Germany Tourneo Custom price list MY2027.25 (valid from 30 Oct 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "V710",
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Electric passenger van based on the 2023 Tourneo Custom.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ford_E-Tourneo_Custom_%282023%29_Auto_Zuerich_2023_1X7A1173.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_E-Tourneo_Custom_(2023)_Auto_Zuerich_2023_1X7A1173.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "history",
+                "specs"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Transit_Custom",
+              "name": "Wikipedia: Ford Transit Custom"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "rwd-160kw",
+              "name": "RWD 160 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 70.0,
+              "battery_basis": "usable",
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 61701.5,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL_V710_Tourneo_Custom_MY2027.25.pdf",
+                  "name": "Ford Germany Tourneo Custom price list MY2027.25 (valid from 30 Oct 2026)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.ford.de/fahrzeuge/ford-e-tourneo-custom",
+                  "name": "Ford Germany E-Tourneo Custom page"
+                }
+              ]
+            },
+            {
+              "slug": "awd-160kw",
+              "name": "AWD 160 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 70.0,
+              "battery_basis": "usable",
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 71697.5,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL_V710_Tourneo_Custom_MY2027.25.pdf",
+                  "name": "Ford Germany Tourneo Custom price list MY2027.25 (valid from 30 Oct 2026)"
+                }
+              ]
+            },
+            {
+              "slug": "awd-210kw",
+              "name": "AWD 210 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 70.0,
+              "battery_basis": "usable",
+              "power_hp": 282,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 77707.0,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/transit-custom/PL_V710_Tourneo_Custom_MY2027.25.pdf",
+                  "name": "Ford Germany Tourneo Custom price list MY2027.25 (valid from 30 Oct 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-e-transit-courier",
+      "url_slug": "e-transit-courier",
+      "name": "E-Transit Courier",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": "https://www.ford.de/nutzfahrzeuge-modelle/ford-e-transit-courier",
+      "description": "Battery-electric version of the second-generation Transit Courier small van, built by Ford Otosan in Craiova, Romania. Front motor and front-wheel drive with a 46 kWh pack.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "ford-e-tourneo-courier"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "price",
+            "range",
+            "specs"
+          ],
+          "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/new-transit-courier/PL-new_Transit_Courier.pdf",
+          "name": "Ford Germany Transit Courier price list (valid from 20 Feb 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "First electric Transit Courier; launched with the second-generation body.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/IAA_Transportation_2026%2C_Hanover_%2820260914-P1086903%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:IAA_Transportation_2026,_Hanover_(20260914-P1086903).jpg",
+              "credit": "Matti Blume",
+              "license": "CC BY-SA 4.0",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd-100kw",
+              "name": "FWD 100 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 46.0,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": 214,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 325,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 35616.7,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/new-transit-courier/PL-new_Transit_Courier.pdf",
+                  "name": "Ford Germany Transit Courier price list (valid from 20 Feb 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-e-tourneo-courier",
+      "url_slug": "e-tourneo-courier",
+      "name": "E-Tourneo Courier",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.ford.de/fahrzeuge/ford-e-tourneo-courier",
+      "description": "Five-seat passenger version of the electric Transit Courier, built in Craiova, Romania. Front motor, front-wheel drive and a 46 kWh pack.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "ford-e-transit-courier"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "price",
+            "range",
+            "specs"
+          ],
+          "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/e-tourneo-courier/PL-e-tourneo-courier.pdf",
+          "name": "Ford Germany Tourneo Courier price list (valid from 20 Feb 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "First electric Tourneo Courier; launched with the second-generation body.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ford_E-Tourneo_Courier_DSC_0743.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_E-Tourneo_Courier_DSC_0743.jpg",
+              "credit": "Alexander Migl (Alexander-93)",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd-100kw",
+              "name": "FWD 100 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 46.0,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 320,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 36830.0,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "range",
+                    "specs"
+                  ],
+                  "url": "https://www.ford.de/content/dam/guxeu/de/documents/price-list/commercial-vehicles/e-tourneo-courier/PL-e-tourneo-courier.pdf",
+                  "name": "Ford Germany Tourneo Courier price list (valid from 20 Feb 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-bronco-new-energy",
+      "url_slug": "bronco-new-energy",
+      "name": "Bronco New Energy (China)",
+      "aliases": [
+        "Bronco (China)"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "China-only Bronco built by the JMC-Ford joint venture in Nanchang, launched on 19 December 2025 in battery-electric and extended-range (EREV) forms. Larger than and unrelated to the US Bronco; only the battery-electric version is listed here.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-12",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price",
+            "range"
+          ],
+          "url": "https://carnewschina.com/2025/12/19/electric-ford-bronco-off-road-suv-entered-china-for-32640-usd/",
+          "name": "CarNewsChina: electric Ford Bronco launched in China (19 Dec 2025)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor BEV with a 105.4 kWh LFP pack; an EREV with a 1.5-litre generator is sold alongside.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/2026_Ford_Bronco_Basecamp_Outer_Banks_EV_CX835_China_Front_Three_Quarter_View.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Ford_Bronco_Basecamp_Outer_Banks_EV_CX835_China_Front_Three_Quarter_View.jpg",
+              "credit": "Hyins",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "price",
+                "range"
+              ],
+              "url": "https://carnewschina.com/2025/12/19/electric-ford-bronco-off-road-suv-entered-china-for-32640-usd/",
+              "name": "CarNewsChina: electric Ford Bronco launched in China (19 Dec 2025)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "bev-awd",
+              "name": "BEV AWD 105.4 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 105.4,
+              "battery_basis": null,
+              "power_hp": 445,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 259800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2025/12/19/electric-ford-bronco-off-road-suv-entered-china-for-32640-usd/",
+                  "name": "CarNewsChina: electric Ford Bronco launched in China (19 Dec 2025)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://carnewschina.com/2025/11/18/fords-electric-bronco-opens-pre-sale-starting-at-32300-usd-in-china-available-in-bev-and-erev/",
+                  "name": "CarNewsChina: electric Bronco pre-sale (18 Nov 2025)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-territory-ev",
+      "url_slug": "territory-ev",
+      "name": "Territory EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Ford's first battery-electric SUV for China, an electric version of the JMC-Ford Territory launched in August 2019. It was sold with the first-generation Territory, which ended in 2022.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2019-08",
+          "end": "2022",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Territory_(China)",
+          "name": "Wikipedia: Ford Territory (China)"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://autonews.gasgoo.com/articles/market-industry/ford-china-begins-taking-pre-orders-for-its-first-full-battery-electric-suv-territory-ev-70016168",
+          "name": "Gasgoo: Ford China opens Territory EV pre-orders (Jul 2019)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "CX743",
+          "platform": null,
+          "start_year": 2019,
+          "end_year": 2022,
+          "status": "discontinued",
+          "description": "Front-motor electric version of the first-generation Territory (based on the JMC Yusheng S330).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ford_Territory_EV_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_Territory_EV_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "history",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Territory_(China)",
+              "name": "Wikipedia: Ford Territory (China)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "49kwh",
+              "name": "49.14 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": 2022,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 49.14,
+              "battery_basis": null,
+              "power_hp": 160,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Territory_(China)",
+                  "name": "Wikipedia: Ford Territory (China)"
+                },
+                {
+                  "fields": [
+                    "history"
+                  ],
+                  "url": "https://autonews.gasgoo.com/articles/market-industry/ford-china-begins-taking-pre-orders-for-its-first-full-battery-electric-suv-territory-ev-70016168",
+                  "name": "Gasgoo: Ford China opens Territory EV pre-orders (Jul 2019)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-focus-electric",
+      "url_slug": "focus-electric",
+      "name": "Focus Electric",
+      "aliases": [],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric version of the third-generation Focus hatchback, built in Wayne, Michigan from December 2011 to May 2018 and in Saarlouis, Germany for Europe from 2013. The 2017 update raised the pack from 23 to 33.5 kWh and added DC fast charging.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2011-12",
+          "end": "2018-05",
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2013-08",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status",
+            "price"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Focus_Electric",
+          "name": "Wikipedia: Ford Focus Electric"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2012",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Ford C1",
+          "start_year": 2012,
+          "end_year": 2016,
+          "status": "discontinued",
+          "description": "23 kWh pack, 76-mile EPA range, Level 2 charging only.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2012_Ford_Focus_Electric_in_Black%2C_front_left%2C_03-20-2025.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2012_Ford_Focus_Electric_in_Black,_front_left,_03-20-2025.jpg",
+              "credit": "Cutlass",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "history",
+                "status",
+                "price"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Focus_Electric",
+              "name": "Wikipedia: Ford Focus Electric"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "23kwh",
+              "name": "23 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2012,
+              "year_to": 2016,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 23.0,
+              "battery_basis": null,
+              "power_hp": 143,
+              "torque_lbft": 181,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 84,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2012,
+                  "range": 76,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 39995,
+                  "currency": "USD",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2013,
+                  "range": 76,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2014,
+                  "range": 76,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2015,
+                  "range": 76,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2016,
+                  "range": 76,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status",
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Focus_Electric",
+                  "name": "Wikipedia: Ford Focus Electric"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/32278.shtml",
+                  "name": "fueleconomy.gov 2012 Focus Electric"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/36978.shtml",
+                  "name": "fueleconomy.gov 2016 Focus Electric"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2017",
+          "name": "2017 update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Ford C1",
+          "start_year": 2017,
+          "end_year": 2018,
+          "status": "discontinued",
+          "description": "Larger 33.5 kWh pack raised EPA range to 115 miles; CCS DC fast charging at up to 50 kW added.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/%2717_Ford_Focus_Electric_%28MIAS_%2717%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:'17_Ford_Focus_Electric_(MIAS_'17).jpg",
+              "credit": "Bull-Doser",
+              "license": "Public domain",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "history",
+                "status",
+                "price"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Focus_Electric",
+              "name": "Wikipedia: Ford Focus Electric"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "33kwh",
+              "name": "33.5 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2017,
+              "year_to": 2018,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 33.5,
+              "battery_basis": null,
+              "power_hp": 143,
+              "torque_lbft": 181,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 84,
+              "dc_kw": 50,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2017,
+                  "range": 115,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2018,
+                  "range": 115,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status",
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Focus_Electric",
+                  "name": "Wikipedia: Ford Focus Electric"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/38505.shtml",
+                  "name": "fueleconomy.gov 2017 Focus Electric"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/39640.shtml",
+                  "name": "fueleconomy.gov 2018 Focus Electric"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-transit-connect-electric",
+      "url_slug": "transit-connect-electric",
+      "name": "Transit Connect Electric",
+      "aliases": [
+        "Azure Transit Connect Electric"
+      ],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Small electric delivery van converted from the Transit Connect by Azure Dynamics, the manufacturer of record. Built from December 2010 until Azure Dynamics filed for bankruptcy protection in March 2012; about 500 were sold.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2010-12",
+          "end": "2012-03",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status",
+            "price",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Azure_Transit_Connect_Electric",
+          "name": "Wikipedia: Azure Transit Connect Electric"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2010",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2010,
+          "end_year": 2012,
+          "status": "discontinued",
+          "description": "Azure Force Drive conversion of the first-generation Transit Connect with a 28 kWh lithium-ion pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ford_Transit_Connect_Electric_WAS_2011_887.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_Transit_Connect_Electric_WAS_2011_887.JPG",
+              "credit": "Mariordo (Mario Roberto Duran Ortiz)",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "history",
+                "status",
+                "price",
+                "range"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Azure_Transit_Connect_Electric",
+              "name": "Wikipedia: Azure Transit Connect Electric"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "28kwh",
+              "name": "28 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2010,
+              "year_to": 2012,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 28.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 75,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2011,
+                  "range": 56,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Azure_Transit_Connect_Electric",
+                  "name": "Wikipedia: Azure Transit Connect Electric"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ford-ranger-ev",
+      "url_slug": "ranger-ev",
+      "name": "Ranger EV",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric compact pickup built for model years 1998-2002, mostly leased to fleets to meet California's zero-emission rules. About 1,500 were built and most were later destroyed.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "1997",
+          "end": "2002",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ford_Ranger_EV",
+          "name": "Wikipedia: Ford Ranger EV"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "1998",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 1998,
+          "end_year": 2002,
+          "status": "discontinued",
+          "description": "Electric drive in the Ranger body, offered with lead-acid or nickel-metal-hydride batteries.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/GSFRFrontQuarterView.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:GSFRFrontQuarterView.jpg",
+              "credit": "Geoff Shepherd",
+              "license": "CC BY-SA 2.5",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "history",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Ford_Ranger_EV",
+              "name": "Wikipedia: Ford Ranger EV"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "lead-acid",
+              "name": "Lead-acid",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 1998,
+              "year_to": 2002,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 22.0,
+              "battery_basis": null,
+              "power_hp": 90,
+              "torque_lbft": 149,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Ranger_EV",
+                  "name": "Wikipedia: Ford Ranger EV"
+                }
+              ]
+            },
+            {
+              "slug": "nimh",
+              "name": "Nickel-metal hydride",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 1999,
+              "year_to": 2002,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 26.0,
+              "battery_basis": null,
+              "power_hp": 90,
+              "torque_lbft": 149,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ford_Ranger_EV",
+                  "name": "Wikipedia: Ford Ranger EV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 6,
+      "note": "F-150 Lightning Pro: standard-range truck. Legacy $49,995 price, 150 kW DC and 4.5 s 0-60 are unsourced; 2022 EPA was 230 mi, 2023-2025 240 mi. The truck is no longer built (production ended Dec 2025)."
+    },
+    {
+      "legacy_id": 7,
+      "note": "Mach-E GT: legacy price $36,495 and 320 mi range are wrong (GT is EPA 270-280 mi; 2026 MSRP $53,395). 3.3 s 0-60 applies only with the 2024+ Performance Upgrade. Mapped to the current GT variant; legacy image shows a 2021-2023 GT Performance Edition, same body."
+    },
+    {
+      "legacy_id": 41,
+      "note": "Mach-E Select: $42,995 / 250 mi matches the 2024 Select RWD standard-range launch spec; 2026 Select RWD was $37,795 and 260 mi, and the standard-range pack was dropped for 2027."
+    },
+    {
+      "legacy_id": 42,
+      "note": "Mach-E Premium: a trim of the same standard-range RWD hardware as row 41 (duplicate config); claimed on that variant. Premium also came with the extended-range pack."
+    },
+    {
+      "legacy_id": 43,
+      "note": "Mach-E California Route 1: 312 mi matches the 2022-2023 eAWD version (the 2021-2022 RWD version was 305/314 mi). Trim was dropped after 2023; legacy price $56,995 unsourced."
+    },
+    {
+      "legacy_id": 49,
+      "note": "F-150 Lightning Platinum: legacy 320 mi and $49,995 are wrong; Platinum is EPA 300 mi (extended-range pack on 22-inch wheels). Discontinued Dec 2025."
+    },
+    {
+      "legacy_id": 50,
+      "note": "F-150 Lightning Lariat: legacy 230 mi matches the 2022 standard-range rating; $39,974 was the 2022 Pro launch price, not Lariat. Claimed on the standard-range variant (Lariat was also sold with the extended-range pack)."
+    },
+    {
+      "legacy_id": 51,
+      "note": "F-150 Lightning XLT: same as row 50 (standard-range, 2022 EPA 230 mi; price is the Pro launch price). Claimed on the standard-range variant."
+    }
+  ],
+  "gaps": [
+    "Web search budget for the session ran out mid-research; European and Chinese figures come from Ford Germany/UK price lists and Wikipedia fetched directly.",
+    "Mach-E 2027 EPA ranges not yet published; 2027 offerings carry price only. 2022-2025 MSRPs not sourced except 2022 (Electrek Oct 2021 guide).",
+    "Mach-E 2023 LFP standard-range RWD (EPA 250 mi) not modelled separately; 2021-2023 battery given as gross pack (75.7/98.8 kWh); Ford quoted 68/88 kWh usable for 2021 and 70/91 for 2022.",
+    "Mach-E 2024+ 0-60 times only sourced for GT (3.8 s; 3.3 s with Performance Upgrade); DC kW for 2024+ not sourced per variant.",
+    "Mach-E connector for 2026-2027 US models not confirmed (CCS1 with NACS adapter through 2025 per Wikipedia).",
+    "F-150 Lightning MSRPs (any year) and standard-range DC rate / 0-60 not sourced; Flash and 2025 'ER2' (EPA 300 mi) configurations not split out.",
+    "E-Transit US ranges are Ford estimates on the EPA MCT method (not EPA labels); US prices not stated with destination basis, omitted. Europe 96 kWh pack: Ford Germany says 96 kWh usable from 2025/26; earlier 2025 reports said 89 kWh.",
+    "Explorer EV and Capri: Ford's 2026 price lists label the RWD Extended Range pack 79 kWh and AWD 77 kWh, the reverse of the 2025 lists (RWD 77, AWD 79); the 2025 values are used. Explorer 0-100 and Capri 58 kWh performance not sourced.",
+    "Capri/Explorer UK WLTP ranges are published in miles only; EU (km) figures used instead.",
+    "Puma Gen-E: Ford lists 46.8 kWh usable (53 kWh installed) in 2026; Wikipedia gives 43.6 kWh usable / 376 km at launch. Launch-spec variant not split out.",
+    "E-Transit Custom / E-Tourneo Custom 2024-2025 battery (64 or 74 kWh usable, sources conflict) not modelled; only the 70 kWh 2026-27 configurations are listed. E-Tourneo Custom WLTP per variant not sourced (Ford page: 273-365 km).",
+    "E-Transit Courier and E-Tourneo Courier launch dates not sourced; no Commons image found for the E-Transit Courier or Bronco New Energy.",
+    "Territory EV range was rated on NEDC (360 km), which the schema does not accept; price not recorded.",
+    "Ranger EV EPA ranges (1999-2001, 50-65 mi) could not be mapped to lead-acid vs NiMH, so omitted.",
+    "Power and torque quoted by Ford Europe in kW/PS and Nm were converted to hp and lb-ft (1 kW = 1.341 hp, 1 Nm = 0.7376 lb-ft); top speeds use Ford UK mph figures where given. Ranges and prices are never converted.",
+    "Explorer/Capri DC rates: 2025 Ford data gives 135 kW for Extended Range RWD, 2026 UK data 183 kW; left null for that variant.",
+    "Transit Connect Electric price ($57,400, 2010) not recorded because its destination basis is unknown.",
+    "Not modelled: Ford Th!nk City (1999-2002, sold under the Th!nk brand), Explorer USPS Electric (2001-2002 fleet), JMC-built E-Transit (China), the two Renault Ampere-based small Ford EVs announced Dec 2025 for 2028 (unnamed), and the cancelled three-row electric SUVs (Aug 2024, never named)."
+  ]
+}

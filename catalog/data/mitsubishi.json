@@ -1,0 +1,1051 @@
+{
+ "make": {
+  "slug": "mitsubishi",
+  "name": "Mitsubishi",
+  "legacy_id": null,
+  "country": "JP",
+  "headquarters": "Minato, Tokyo, Japan",
+  "founded": 1970,
+  "parent_group": null,
+  "website_url": "https://www.mitsubishi-motors.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Japanese carmaker (Mitsubishi Motors) whose i-MiEV of 2009 was the first modern mass-produced electric car. Nissan owns 24%; most of its current EVs are shared with Nissan or Renault (eK X EV, Eclipse Cross, Eclipse Sportback) or supplied by Foxtron (ASX VR-e).",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Motors",
+    "name": "Wikipedia",
+    "fields": [
+     "history"
+    ]
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "mitsubishi-i-miev",
+   "url_slug": "i-miev",
+   "name": "i-MiEV",
+   "aliases": [
+    "i",
+    "Mitsubishi i-MiEV"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the Mitsubishi i kei car and the first modern mass-produced highway-capable EV, launched in Japan in 2009. Sold in the US as the 'i' / i-MiEV (2012-2017 model years) and in Europe alongside the Peugeot iOn and Citroen C-Zero rebadges; production ended in March 2021.",
+   "markets": {
+    "JP": {
+     "status": "discontinued",
+     "launch": "2009-07",
+     "end": "2021-03",
+     "local_name": null
+    },
+    "US": {
+     "status": "discontinued",
+     "launch": "2011-12",
+     "end": "2017-08",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2010",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs",
+      "status"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2009",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2009,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Rear-motor city car with a 16 kWh pack (10.5 kWh in the Japanese 'M' grade); the US version is wider and longer.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/2010_Mitsubishi_i-MiEV_%28GA_MY10%29_hatchback_%282015-11-11%29_01.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2010_Mitsubishi_i-MiEV_(GA_MY10)_hatchback_(2015-11-11)_01.jpg",
+       "credit": "OSX",
+       "license": "Public domain",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs",
+        "status"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "16-kwh",
+       "name": "16 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2009,
+       "year_to": 2021,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 16.0,
+       "battery_basis": "gross",
+       "power_hp": 66,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2012,
+         "range": 62,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 62,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 59,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CHADEMO",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=31673",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=37293",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "10-5-kwh",
+       "name": "10.5 kWh (Japan 'M')",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2011,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 10.5,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "status"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mitsubishi-minicab-ev",
+   "url_slug": "minicab-ev",
+   "name": "Minicab EV",
+   "aliases": [
+    "Minicab MiEV",
+    "L100 EV"
+   ],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric kei van (and, 2013-2017, kei truck) sold in Japan since December 2011 as the Minicab MiEV, renamed Minicab EV with a 20 kWh battery in December 2023. Also built in Indonesia as the L100 EV and sold by Nissan as the Clipper EV.",
+   "markets": {
+    "JP": {
+     "status": "current",
+     "launch": "2011-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "nissan-clipper-ev"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "specs",
+      "range",
+      "price"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2011",
+     "name": "Minicab MiEV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2011,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "30 kW motor with a 10.5 kWh or 16 kWh battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Mitsubishi_Minicab_MiEV_0161.JPG",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Minicab_MiEV_0161.JPG",
+       "credit": "DY5W-sport",
+       "license": "CC BY-SA 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs",
+        "range",
+        "price"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "10-5-kwh",
+       "name": "10.5 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2011,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 10.5,
+       "battery_basis": "gross",
+       "power_hp": 40,
+       "torque_lbft": 145,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 2400000,
+         "launch_price": null,
+         "currency": "JPY",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "16-kwh",
+       "name": "16 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2011,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 16.0,
+       "battery_basis": "gross",
+       "power_hp": 40,
+       "torque_lbft": 145,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 2950000,
+         "launch_price": null,
+         "currency": "JPY",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2023",
+     "name": "Minicab EV",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Renamed Minicab EV with a 20 kWh battery (model code U69V) and 180 km range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mitsubishi_MINICAB_EV_CD_4-Seater_%28ZAB-U69V-HLDDF%29_front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Mitsubishi_MINICAB_EV_CD_4-Seater_(ZAB-U69V-HLDDF)_front.jpg",
+       "credit": "Tokumeigakarinoaoshima",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "specs",
+        "range",
+        "price"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "20-kwh",
+       "name": "20 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 20.0,
+       "battery_basis": "gross",
+       "power_hp": 41,
+       "torque_lbft": 145,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": 180,
+         "range_unit": "km",
+         "range_cycle": "WLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Mitsubishi_Minicab",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs",
+          "range",
+          "price"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mitsubishi-ek-x-ev",
+   "url_slug": "ek-x-ev",
+   "name": "eK X EV",
+   "aliases": [
+    "eK Cross EV"
+   ],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric kei crossover sold in Japan since summer 2022, twin of the Nissan Sakura and built at Mizushima. A facelift was unveiled on 18 June 2026.",
+   "markets": {
+    "JP": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "nissan-sakura"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Mitsubishi_eK",
+     "name": "Wikipedia",
+     "fields": [
+      "history"
+     ]
+    },
+    {
+     "url": "https://www.mitsubishi-motors.com/jp/newsrelease/2022/detail5615.html",
+     "name": "Mitsubishi Motors (press release)",
+     "fields": [
+      "specs",
+      "price",
+      "range"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "B5AW",
+     "platform": "KEI-EV",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "20 kWh battery, 195 Nm motor, 180 km WLTC range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Mitsubishi_eK_X_EV_P_%28ZAA-B5AW-LDEB%29_front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_EV_P_(ZAA-B5AW-LDEB)_front.jpg",
+       "credit": "Tokumeigakarinoaoshima",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Mitsubishi_eK",
+       "name": "Wikipedia",
+       "fields": [
+        "history"
+       ]
+      },
+      {
+       "url": "https://www.mitsubishi-motors.com/jp/newsrelease/2022/detail5615.html",
+       "name": "Mitsubishi Motors (press release)",
+       "fields": [
+        "specs",
+        "price",
+        "range"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "20-kwh",
+       "name": "20 kWh",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 20.0,
+       "battery_basis": "gross",
+       "power_hp": 63,
+       "torque_lbft": 144,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "JP",
+         "model_year": null,
+         "range": 180,
+         "range_unit": "km",
+         "range_cycle": "WLTC",
+         "price": 2398000,
+         "launch_price": null,
+         "currency": "JPY",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.mitsubishi-motors.com/jp/newsrelease/2022/detail5615.html",
+         "name": "Mitsubishi Motors (press release)",
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ]
+        },
+        {
+         "url": "https://en.wikipedia.org/wiki/Nissan_Sakura",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "specs"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mitsubishi-eclipse-cross",
+   "url_slug": "eclipse-cross",
+   "name": "Eclipse Cross",
+   "aliases": [
+    "Eclipse Cross EV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "The second-generation Eclipse Cross, unveiled on 18 September 2025, is a battery-electric SUV for Europe based on the Renault Scenic E-Tech and built in Douai, France. The first generation (2017) was petrol/diesel/PHEV and is not listed.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Mitsubishi_Eclipse_Cross",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "status"
+     ]
+    },
+    {
+     "url": "https://www.electrive.com/2025/09/18/mitsubishi-motors-unveils-all-new-eclipse-cross-bev-for-europe/",
+     "name": "electrive",
+     "fields": [
+      "specs"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": null,
+     "platform": "AmpR Medium (CMF-EV)",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "87 kWh battery, 160 kW front motor, 150 kW DC charging; a smaller-battery version was expected in 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Mitsubishi_Eclipse_Cross_%28second_generation%29_IMG_5745.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Eclipse_Cross_(second_generation)_IMG_5745.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Eclipse_Cross",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "status"
+       ]
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Renault_Scenic_E-Tech",
+       "name": "Wikipedia",
+       "fields": [
+        "history"
+       ]
+      },
+      {
+       "url": "https://www.electrive.com/2025/09/18/mitsubishi-motors-unveils-all-new-eclipse-cross-bev-for-europe/",
+       "name": "electrive",
+       "fields": [
+        "specs"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "87-kwh",
+       "name": "87 kWh (160 kW)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 87.0,
+       "battery_basis": "usable",
+       "power_hp": 215,
+       "torque_lbft": 221,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.electrive.com/2025/09/18/mitsubishi-motors-unveils-all-new-eclipse-cross-bev-for-europe/",
+         "name": "electrive",
+         "fields": [
+          "specs"
+         ]
+        },
+        {
+         "url": "https://en.wikipedia.org/wiki/Mitsubishi_Eclipse_Cross",
+         "name": "Wikipedia",
+         "fields": [
+          "history",
+          "status"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mitsubishi-eclipse-sportback",
+   "url_slug": "eclipse-sportback",
+   "name": "Eclipse Sportback",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "North American battery-electric crossover unveiled on 9 June 2026, built on the third-generation Nissan Leaf with its own front end; 2027 model year, sales from autumn 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "nissan-leaf"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.automotiveworld.com/news/mitsubishi-brings-back-eclipse-as-all-electric-sportback/",
+     "name": "Automotive World",
+     "fields": [
+      "history",
+      "status"
+     ]
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Mitsubishi_Eclipse_Sportback",
+     "name": "Wikipedia",
+     "fields": [
+      "history"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "AmpR Medium (CMF-EV)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Shares the Leaf's 160 kW front motor; EPA range 282 miles.",
+     "images": [],
+     "sources": [
+      {
+       "url": "https://www.automotiveworld.com/news/mitsubishi-brings-back-eclipse-as-all-electric-sportback/",
+       "name": "Automotive World",
+       "fields": [
+        "history",
+        "status"
+       ]
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Nissan_Leaf#Mitsubishi_Eclipse_Sportback",
+       "name": "Wikipedia",
+       "fields": [
+        "history"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "fwd",
+       "name": "FWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": "suv",
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 214,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 282,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "url": "https://www.automotiveworld.com/news/mitsubishi-brings-back-eclipse-as-all-electric-sportback/",
+         "name": "Automotive World",
+         "fields": [
+          "history",
+          "status"
+         ]
+        },
+        {
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=51048",
+         "name": "fueleconomy.gov (EPA)",
+         "fields": [
+          "range",
+          "specs"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mitsubishi-asx-vr-e",
+   "url_slug": "asx-vr-e",
+   "name": "ASX VR-e",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Battery-electric small SUV for Australia and New Zealand, supplied by Foxtron (Foxconn) as a rebadged Foxtron Bria; Mitsubishi announced it on 17 August 2026 for launch in 2026.",
+   "markets": {
+    "AU": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20260817_2.html",
+     "name": "Mitsubishi Motors (press release)",
+     "fields": [
+      "status"
+     ]
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Mitsubishi_ASX#ASX_VR-e",
+     "name": "Wikipedia",
+     "fields": [
+      "history",
+      "status"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Foxtron MIH",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "57.7 kWh LFP battery, rear-drive or dual-motor AWD, 134 kW DC charging.",
+     "images": [],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Foxtron_Bria",
+       "name": "Wikipedia",
+       "fields": [
+        "specs",
+        "range"
+       ]
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/Mitsubishi_ASX#ASX_VR-e",
+       "name": "Wikipedia",
+       "fields": [
+        "history",
+        "status"
+       ]
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 57.7,
+       "battery_basis": "gross",
+       "power_hp": 229,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": null,
+       "dc_kw": 134,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Foxtron_Bria",
+         "name": "Wikipedia",
+         "fields": [
+          "specs",
+          "range"
+         ]
+        },
+        {
+         "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20260817_2.html",
+         "name": "Mitsubishi Motors (press release)",
+         "fields": [
+          "status"
+         ]
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "Dual-motor AWD",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 57.7,
+       "battery_basis": "gross",
+       "power_hp": 401,
+       "torque_lbft": 516,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.9,
+       "top_speed_mph": null,
+       "dc_kw": 134,
+       "offerings": [],
+       "sources": [
+        {
+         "url": "https://en.wikipedia.org/wiki/Foxtron_Bria",
+         "name": "Wikipedia",
+         "fields": [
+          "specs",
+          "range"
+         ]
+        },
+        {
+         "url": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2026/20260817_2.html",
+         "name": "Mitsubishi Motors (press release)",
+         "fields": [
+          "status"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Mitsubishi is not in the legacy makes table (no legacy_id).",
+  "power_hp/torque_lbft converted from official kW/PS and Nm where the source gave only metric figures.",
+  "i-MiEV US prices not sourced; JC08 ranges left out (cycle not in schema).",
+  "Eclipse Cross EV European price and WLTP range not confirmed (about 600 km reported, cycle not stated).",
+  "Eclipse Sportback price, battery size and connector not yet published in sources found.",
+  "ASX VR-e Australian prices not published; WLTP ranges (403 km RWD 18-inch, 328 km AWD) are New Zealand figures, so no offering is recorded.",
+  "Minicab MiEV truck (2013-2017) not split into its own variant."
+ ]
+}

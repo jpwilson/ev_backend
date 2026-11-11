@@ -1,0 +1,1371 @@
+{
+ "make": {
+  "slug": "genesis",
+  "name": "Genesis",
+  "legacy_id": 21,
+  "country": "KR",
+  "headquarters": "Seoul, South Korea",
+  "founded": 2015,
+  "parent_group": "Hyundai Motor Group",
+  "website_url": "https://www.genesis.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Hyundai Motor Group's luxury brand, spun off in 2015. Its EVs are the dedicated GV60 (and GV60 Magma) plus electrified versions of the G80 sedan and GV70 SUV; the GV90 flagship was revealed in 2026.",
+  "sources": [
+   {
+    "fields": [
+     "description"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Genesis_Motor",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "genesis-g80",
+   "url_slug": "electrified-g80",
+   "name": "Electrified G80",
+   "aliases": [
+    "G80 Electrified",
+    "Electrified G80 LWB"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.genesis.com/kr/en/genesis-models/electrified-g80.html",
+   "description": "Battery-electric version of the G80 luxury sedan, launched in Korea in 2021. Genesis dropped it from the US after the 2025 model year; a facelifted long-wheelbase version with a 94.5 kWh pack continues in Korea, the UK and Europe.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2022",
+     "end": "2025",
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.cars.com/articles/genesis-discontinues-electrified-g80-sedan-in-u-s-514112",
+     "name": "Cars.com"
+    },
+    {
+     "fields": [
+      "specs",
+      "price",
+      "range"
+     ],
+     "url": "https://newsroom.genesis.com/genesis-launches-newly-designed-electrified-g80-in-korea/",
+     "name": "Genesis newsroom"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "RG3",
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Converted from the combustion G80 with an 87.2 kWh pack and dual motors.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/genesis_g80_electrified_awd.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [
+        139
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 87.2,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 282,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 282,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 282,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.arenaev.com/updated_genesis_g80_electrified_gets_more_luxury_and_range-news-3900.php",
+         "name": "ArenaEV"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45999.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47447.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48351.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "Facelift (long wheelbase)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "RG3",
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "September 2024 update: wheelbase stretched 130 mm to 3,140 mm and pack enlarged to 94.5 kWh (Korean rating 475 km). Not sold in the US.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Genesis_Electrified_G80_RG3_EV_PE_Makalu_Gray_%2830%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_Electrified_G80_RG3_EV_PE_Makalu_Gray_(30).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 94.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "KR",
+         "model_year": null,
+         "range": 475,
+         "range_unit": "km",
+         "range_cycle": "KR",
+         "price": 89190000,
+         "launch_price": null,
+         "currency": "KRW",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 75615,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://newsroom.genesis.com/genesis-launches-newly-designed-electrified-g80-in-korea/",
+         "name": "Genesis newsroom"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.arenaev.com/updated_genesis_g80_electrified_gets_more_luxury_and_range-news-3900.php",
+         "name": "ArenaEV"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://evpowered.co.uk/news/new-genesis-g80-pricing-to-start-from-75615/",
+         "name": "EV Powered"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "genesis-gv60",
+   "url_slug": "gv60",
+   "name": "GV60",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.genesis.com/us/en/gv60",
+   "description": "Genesis's first dedicated EV, a compact crossover on the E-GMP platform launched in 2021. The 2025 facelift (US model year 2026) added an 84 kWh pack and a NACS port in the US.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2022-05",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price"
+     ],
+     "url": "https://www.cars.com/articles/how-much-is-the-2026-genesis-gv60-515967",
+     "name": "Cars.com"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "JW",
+     "platform": "E-GMP",
+     "start_year": 2021,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "77.4 kWh pack; single-motor RWD (Standard), dual-motor AWD and 429 hp Performance AWD with boost.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/genesis_gv60_advanced.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-rwd",
+       "name": "Standard RWD",
+       "legacy_ids": [
+        141
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 53800,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47448.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48352.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://edmunds.com/car-news/2025-genesis-gv60-gv70-gv80-g70-g80-g90.html",
+         "name": "Edmunds"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor-awd",
+       "name": "AWD (Standard / Advanced)",
+       "legacy_ids": [
+        142
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": 314,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 248,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 58890,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 264,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 264,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://prnewswire.com/news-releases/fully-electric-genesis-gv60-arrives-in-the-united-states-301549310.html",
+         "name": "Genesis Motor America (PR Newswire)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45328.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46948.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48356.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-awd",
+       "name": "Performance AWD",
+       "legacy_ids": [
+        140
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": 429,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 67890,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 235,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://prnewswire.com/news-releases/fully-electric-genesis-gv60-arrives-in-the-united-states-301549310.html",
+         "name": "Genesis Motor America (PR Newswire)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45329.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46950.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48355.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "JW",
+     "platform": "E-GMP",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "84 kWh pack (Korean range up to 481 km), new bumpers and a larger screen; US cars get a NACS port.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Genesis_GV60_JW1_PE_Uyuni_White_%281%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_GV60_JW1_PE_Uyuni_White_(1).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs"
+       ],
+       "url": "https://insideevs.com/news/746285/genesis-gv60-facelift-refresh-2025/",
+       "name": "InsideEVs"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 306,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 54020,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 306,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.cars.com/articles/how-much-is-the-2026-genesis-gv60-515967",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49652.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50638.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 282,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 57520,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 282,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.cars.com/articles/how-much-is-the-2026-genesis-gv60-515967",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49653.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50636.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-awd",
+       "name": "Performance AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 252,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 73370,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.cars.com/articles/how-much-is-the-2026-genesis-gv60-515967",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49655.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "genesis-gv60-magma",
+   "url_slug": "gv60-magma",
+   "name": "GV60 Magma",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.genesis.com/us/en/gv60-magma",
+   "description": "First model of Genesis's Magma performance line: a GV60 with the Ioniq 5 N's dual-motor drivetrain, about 600 hp (641 hp in boost). US sales started in summer 2026 at select retailers in California, New York and New Jersey.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://www.kbb.com/car-news/genesis-prices-the-2027-gv60-magma/",
+     "name": "Kelley Blue Book"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "E-GMP",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "84 kWh, dual-motor AWD; 641 hp and 583 lb-ft in Boost mode.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Genesis_GV60_Magma_JW1_Magma_Design_Obsidian_Black_Mono-tone_Magma_Orange_%281%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_GV60_Magma_JW1_Magma_Design_Obsidian_Black_Mono-tone_Magma_Orange_(1).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "interior",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "Magma",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 600,
+       "torque_lbft": 546,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 69950,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.kbb.com/car-news/genesis-prices-the-2027-gv60-magma/",
+         "name": "Kelley Blue Book"
+        },
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://www.carscoops.com/2026/07/2027-genesis-gv60-magma-pricing/",
+         "name": "Carscoops"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50637.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "genesis-gv70",
+   "url_slug": "electrified-gv70",
+   "name": "Electrified GV70",
+   "aliases": [
+    "GV70 Electrified"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.genesis.com/us/en/electrified-gv70",
+   "description": "Battery-electric version of the GV70 SUV, launched in Korea in 2022 and built for the US in Alabama. The 2025 facelift (US model year 2026) brought an 84 kWh pack and NACS port; Genesis paused Alabama production in 2025.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.carscoops.com/2025/08/genesis-quietly-stops-building-its-us-made-ev-amid-struggling-sales/",
+     "name": "Carscoops"
+    },
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://www.cars.com/articles/updated-2026-genesis-electrified-gv70-priced-from-65875-514111",
+     "name": "Cars.com"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "JK1",
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Converted from the combustion GV70 with a 77.4 kWh pack and dual motors.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/genesis_gv70_electrified_awd.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [
+        138
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 236,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 236,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 68400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46947.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48353.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://edmunds.com/car-news/2025-genesis-gv60-gv70-gv80-g70-g80-g90.html",
+         "name": "Edmunds"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "JK1",
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "84 kWh pack (Korean rating 423 km on 19-inch wheels), refreshed cabin, NACS port in the US.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Genesis_Electrified_GV70_JK1_PE_EV_Makalu_Gray_%2813%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_Electrified_GV70_JK1_PE_EV_Makalu_Gray_(13).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 429,
+       "torque_lbft": 516,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 263,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 64380,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 250,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "KR",
+         "model_year": null,
+         "range": 423,
+         "range_unit": "km",
+         "range_cycle": "KR",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/updated-2026-genesis-electrified-gv70-priced-from-65875-514111",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range",
+          "price"
+         ],
+         "url": "https://www.asiae.co.kr/en/article/2025011608410369333",
+         "name": "Asia Economy"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49656.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50634.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "genesis-gv90",
+   "url_slug": "gv90",
+   "name": "GV90",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Full-size electric flagship SUV, the production version of the 2024 Neolun concept, revealed in San Francisco in August 2026 with coach doors and a 123.5 kWh pack. Genesis has not confirmed the on-sale date or markets.",
+   "markets": {},
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://electrive.com/2026/08/21/genesis-unveils-gv90-luxury-electric-suv",
+     "name": "electrive"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Dual-motor, 123.5 kWh, up to seven seats; reported output 490 kW.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Genesis_GV90_JG1_Baena_Green_%285%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_GV90_JG1_Baena_Green_(5).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 123.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://electrive.com/2026/08/21/genesis-unveils-gv90-luxury-electric-suv",
+         "name": "electrive"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://thedriven.io/2026/08/20/genesis-unveils-huge-490kw-gv90-electric-flagship-with-123-5kwh-battery-and-coach-doors/",
+         "name": "The Driven"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 138,
+   "note": "Junk values: full_slug 'genesis---c4-electric', dates '2022-16-03', carmodel_ended/trim_ended 'string'. Specs are the pre-facelift Electrified GV70."
+  },
+  {
+   "legacy_id": 139,
+   "note": "Electrified G80 is no longer sold in the US (dropped after model year 2025); row was marked 'available'."
+  },
+  {
+   "legacy_id": 140,
+   "note": "GV60 Performance: submodel has a trailing newline; 294 mi is the RWD Standard range, the Performance is EPA 235 mi; 446 lb-ft torque is unsourced."
+  },
+  {
+   "legacy_id": 141,
+   "note": "GV60 Standard is RWD (EPA 294 mi), not 280 mi."
+  },
+  {
+   "legacy_id": 142,
+   "note": "GV60 Advanced: same dual-motor hardware as the AWD 'Standard'; claimed on the dual-motor AWD variant."
+  }
+ ],
+ "gaps": [
+  "Electrified G80 and original Electrified GV70 power/torque not sourced (left null).",
+  "2024 Electrified G80 US price (legacy 74,375) not verified; left null.",
+  "GV60 facelift: power for each version not sourced; Korean/European prices not filled.",
+  "GV90: on-sale date, markets, power in hp and price not announced.",
+  "Electrified GV70: Alabama production paused in 2025; whether US deliveries continue in late 2026 not confirmed (EPA lists a 2027 model).",
+  "Electrified G80: EPA lists 2025 and 2026 entries but Edmunds reports no 2025 US model; US end recorded as 2025 per Cars.com."
+ ]
+}

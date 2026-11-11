@@ -1,0 +1,4535 @@
+{
+ "make": {
+  "slug": "audi",
+  "name": "Audi",
+  "legacy_id": 16,
+  "country": "DE",
+  "headquarters": "Ingolstadt, Germany",
+  "founded": 1909,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.audi.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "German premium brand in the Volkswagen Group. Its electric cars run from the e-tron (later Q8 e-tron, ended 2025) through the Q4, Q6 and A6 e-tron and the e-tron GT, plus China-only models and the separate AUDI brand from the SAIC joint venture.",
+  "sources": [
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Audi",
+    "name": "Wikipedia: Audi"
+   },
+   {
+    "fields": [
+     "specs",
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Audi_e-tron_(brand)",
+    "name": "Wikipedia: Audi e-tron (brand)"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "audi-e-tron-gt",
+   "url_slug": "e-tron-gt",
+   "name": "e-tron GT",
+   "aliases": [
+    "RS e-tron GT",
+    "S e-tron GT"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Four-door electric grand tourer built in Heilbronn on the J1 platform shared with the Porsche Taycan. Sold from 2021; the 2025 facelift brought a bigger battery, much more power and longer range.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_e-tron_GT",
+     "name": "Wikipedia: Audi e-tron GT"
+    },
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://thechargeport.com/ev/audi-e-tron-gt",
+     "name": "The Charge Port: Audi e-tron GT"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "J1",
+     "start_year": 2021,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original e-tron GT quattro and RS e-tron GT with a 93.4 kWh gross battery.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/audi_etron_gt_std.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/audi_etron_gt_rs.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_e-tron_GT",
+       "name": "Wikipedia: Audi e-tron GT"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e-tron-gt-quattro",
+       "name": "e-tron GT quattro",
+       "legacy_ids": [
+        17
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 523,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.1,
+       "top_speed_mph": 152,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 249,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_e-tron_GT",
+         "name": "Wikipedia: Audi e-tron GT"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44776",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45981",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46908",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "rs-e-tron-gt",
+       "name": "RS e-tron GT",
+       "legacy_ids": [
+        18
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.4,
+       "battery_basis": "gross",
+       "power_hp": 637,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.3,
+       "top_speed_mph": 155,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 232,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 232,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 249,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_e-tron_GT",
+         "name": "Wikipedia: Audi e-tron GT"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44783",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45982",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46909",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "J1",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelift with more power (up to 912 hp in the RS performance), 320 kW DC charging and longer EPA range; US line-up is S and RS performance.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/2025_Audi_e-tron_GT.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Audi_e-tron_GT.jpg",
+       "credit": "Oleg Yunakov",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "price",
+        "specs"
+       ],
+       "url": "https://thechargeport.com/ev/audi-e-tron-gt",
+       "name": "The Charge Port: Audi e-tron GT"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "s-e-tron-gt",
+       "name": "S e-tron GT",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 670,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 300,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 300,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 127700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 300,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thechargeport.com/ev/audi-e-tron-gt",
+         "name": "The Charge Port: Audi e-tron GT"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48688",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50185",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50601",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "rs-e-tron-gt-performance",
+       "name": "RS e-tron GT performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 912,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 320,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 278,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 278,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 170500,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 278,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 170500,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.audiusa.com/en/models/e-tron-gt/rs-e-tron-gt/2026/overview/",
+         "name": "Audi USA: 2026 RS e-tron GT performance"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thechargeport.com/ev/audi-e-tron-gt",
+         "name": "The Charge Port: Audi e-tron GT"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48993",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50184",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50600",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-e-tron-q4",
+   "url_slug": "q4-e-tron",
+   "name": "Q4 e-tron",
+   "aliases": [
+    "Q4 Sportback e-tron",
+    "Q4 50 e-tron",
+    "Q4 55 e-tron"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact electric SUV and Sportback on the Volkswagen Group MEB platform, Audi's best-selling EV, built in Zwickau and (for China) Foshan. On sale since 2021; the drivetrain was upgraded in 2024 and a facelift with more range and faster charging went on sale in Europe in summer 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "CN": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+     "name": "Wikipedia: Audi Q4 e-tron"
+    },
+    {
+     "fields": [
+      "specs",
+      "price",
+      "range"
+     ],
+     "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+     "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "F4",
+     "platform": "MEB",
+     "start_year": 2021,
+     "end_year": null,
+     "status": "current",
+     "description": "Original Q4 e-tron and Q4 Sportback e-tron (US from model year 2022). New rear motor and the 45/55 names arrived in 2024.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/audi_etron_q4_std.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/audi_etron_q4_sportback.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+       "name": "Wikipedia: Audi Q4 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "q4-35-e-tron",
+       "name": "Q4 35 e-tron",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 55.0,
+       "battery_basis": "gross",
+       "power_hp": 168,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 341,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "q4-40-e-tron",
+       "name": "Q4 40 e-tron",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.5,
+       "top_speed_mph": null,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 509,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45983",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46910",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-45-e-tron-quattro",
+       "name": "Q4 45 e-tron quattro (2021)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 261,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": null,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 490,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "q4-50-e-tron-quattro",
+       "name": "Q4 50 e-tron quattro",
+       "legacy_ids": [
+        27
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.2,
+       "top_speed_mph": null,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 241,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 236,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 236,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 485,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44781",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45988",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46911",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-sportback-50-e-tron-quattro",
+       "name": "Q4 Sportback 50 e-tron quattro",
+       "legacy_ids": [
+        28
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 241,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 242,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 242,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44782",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45989",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46912",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-40-e-tron-63kwh",
+       "name": "Q4 40 e-tron (63 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 63.0,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.1,
+       "top_speed_mph": null,
+       "dc_kw": 160,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 404,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "q4-45-e-tron",
+       "name": "Q4 45 e-tron",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 282,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": null,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 288,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 288,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 50600,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 544,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://thechargeport.com/ev/audi-q4-e-tron",
+         "name": "The Charge Port: 2026 Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.cargurus.com/research/articles/2026-audi-q4-e-tron-pricing-specs-release-date",
+         "name": "CarGurus: 2026 Audi Q4 e-tron pricing"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+         "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48296",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49612",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-45-e-tron-quattro-2024",
+       "name": "Q4 45 e-tron quattro (2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 515,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "q4-55-e-tron-quattro",
+       "name": "Q4 55 e-tron quattro",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": null,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 251,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 56000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 515,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://thechargeport.com/ev/audi-q4-e-tron",
+         "name": "The Charge Port: 2026 Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.cargurus.com/research/articles/2026-audi-q4-e-tron-pricing-specs-release-date",
+         "name": "CarGurus: 2026 Audi Q4 e-tron pricing"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+         "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47810",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48681",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50182",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-sportback-55-e-tron-quattro",
+       "name": "Q4 Sportback 55 e-tron quattro",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 251,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 59000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron",
+         "name": "Wikipedia: Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://thechargeport.com/ev/audi-q4-e-tron",
+         "name": "The Charge Port: 2026 Audi Q4 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47811",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48682",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50183",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2027",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "F4",
+     "platform": "MEB",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelift presented 27 April 2026: restyled front and rear, new displays, bidirectional charging, more range and up to 185 kW DC. European deliveries from summer 2026; US arrival expected as a 2027 model.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2027_Audi_Q4_e-tron_IMG_7137.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2027_Audi_Q4_e-tron_IMG_7137.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "price",
+        "range"
+       ],
+       "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+       "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+      },
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://tflcar.com/2026/04/audi-q4-e-tron-2027-updates-news/",
+       "name": "TFLcar: 2027 Audi Q4 e-tron update"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "q4-e-tron",
+       "name": "Q4 e-tron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 63.0,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.1,
+       "top_speed_mph": null,
+       "dc_kw": 160,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 440,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47500,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+         "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-e-tron-performance",
+       "name": "Q4 e-tron performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 282,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": null,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 578,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53500,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+         "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-e-tron-quattro",
+       "name": "Q4 e-tron quattro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.2,
+       "top_speed_mph": null,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 558,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 55900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+         "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "q4-e-tron-quattro-performance",
+       "name": "Q4 e-tron quattro performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 82.0,
+       "battery_basis": "gross",
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": null,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 541,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 59000,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.audi.com/en/press-releases/audi-q4-e-tron-the-electric-bestseller-gets-an-upgrade-17102",
+         "name": "Audi press release: Q4 e-tron upgrade (27 April 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-q6-e-tron",
+   "url_slug": "q6-e-tron",
+   "name": "Q6 e-tron",
+   "aliases": [
+    "Q6 Sportback e-tron",
+    "SQ6 e-tron"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric SUV and Sportback on the 800-volt PPE platform shared with the Porsche Macan Electric, built in Ingolstadt. Revealed in March 2024; the US skipped model year 2026 and the 2027 update made quattro standard there.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+     "name": "Wikipedia: Audi Q6 e-tron"
+    },
+    {
+     "fields": [
+      "price"
+     ],
+     "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+     "name": "Audi Club North America: 2027 Audi lineup pricing"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "PPE",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "83 or 100 kWh gross batteries, up to 270 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/2025_Audi_Q6_e-tron_quattro_Premium_Plus_in_Plasma_Blue%2C_front_left.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Audi_Q6_e-tron_quattro_Premium_Plus_in_Plasma_Blue,_front_left.jpg",
+       "credit": "Mr.choppers",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+       "name": "Wikipedia: Audi Q6 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "q6-e-tron",
+       "name": "Q6 e-tron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 83.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.0,
+       "top_speed_mph": null,
+       "dc_kw": 225,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 533,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+         "name": "Wikipedia: Audi Q6 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "q6-e-tron-performance",
+       "name": "Q6 e-tron performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": null,
+       "dc_kw": 260,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 641,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+         "name": "Wikipedia: Audi Q6 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48683",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q6-e-tron-quattro",
+       "name": "Q6 e-tron quattro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 307,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 325,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 64500,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+         "name": "Wikipedia: Audi Q6 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thechargeport.com/ev/audi-q6-e-tron",
+         "name": "The Charge Port: 2027 Audi Q6 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48297",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50376",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "sq6-e-tron",
+       "name": "SQ6 e-tron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "gross",
+       "power_hp": 509,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.1,
+       "accel_0_100_s": 4.3,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 275,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 285,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 73200,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 598,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+         "name": "Wikipedia: Audi Q6 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thechargeport.com/ev/audi-q6-e-tron",
+         "name": "The Charge Port: 2027 Audi Q6 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48303",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50380",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q6-sportback-e-tron-quattro",
+       "name": "Q6 Sportback e-tron quattro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 456,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 319,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 325,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 68300,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.audiusa.com/en/models/q6-e-tron/q6-sportback-e-tron/",
+         "name": "Audi USA: 2027 Q6 Sportback e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48686",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50379",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "sq6-sportback-e-tron",
+       "name": "SQ6 Sportback e-tron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 509,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 283,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 285,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 75600,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.audiusa.com/en/models/q6-e-tron/sq6-sportback-e-tron/2027/overview/",
+         "name": "Audi USA: 2027 SQ6 Sportback e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48690",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50382",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-a6-e-tron",
+   "url_slug": "a6-e-tron",
+   "name": "A6 e-tron",
+   "aliases": [
+    "A6 Sportback e-tron",
+    "A6 Avant e-tron",
+    "S6 e-tron"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric executive car on the PPE platform, sold as the A6 Sportback e-tron (liftback) and A6 Avant e-tron (wagon), plus S6 versions. Revealed on 31 July 2024 and built in Ingolstadt; the US gets the Sportback only.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+     "name": "Wikipedia: Audi A6 e-tron"
+    },
+    {
+     "fields": [
+      "price"
+     ],
+     "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+     "name": "Audi Club North America: 2027 Audi lineup pricing"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "PPE",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "83 or 100 kWh gross batteries; up to 750 km WLTP and 270 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Audi_A6_e-tron_DSC_2835_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_A6_e-tron_DSC_2835_(cropped).jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+       "name": "Wikipedia: Audi A6 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "a6-sportback-e-tron",
+       "name": "A6 Sportback e-tron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 83.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.0,
+       "top_speed_mph": null,
+       "dc_kw": 225,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 627,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+         "name": "Wikipedia: Audi A6 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "a6-sportback-e-tron-performance",
+       "name": "A6 Sportback e-tron performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "gross",
+       "power_hp": 375,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.2,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 348,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 66700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 750,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+         "name": "Wikipedia: Audi A6 e-tron"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thechargeport.com/ev/audi-a6-sportback-e-tron",
+         "name": "The Charge Port: 2027 Audi A6 Sportback e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50366",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "a6-sportback-e-tron-quattro",
+       "name": "A6 Sportback e-tron quattro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.3,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 327,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 68700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 716,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+         "name": "Wikipedia: Audi A6 e-tron"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thechargeport.com/ev/audi-a6-sportback-e-tron",
+         "name": "The Charge Port: 2027 Audi A6 Sportback e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50367",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "s6-sportback-e-tron",
+       "name": "S6 Sportback e-tron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "gross",
+       "power_hp": 543,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.7,
+       "accel_0_100_s": 3.9,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 326,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 79600,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 670,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+         "name": "Wikipedia: Audi A6 e-tron"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thechargeport.com/ev/audi-a6-sportback-e-tron",
+         "name": "The Charge Port: 2027 Audi A6 Sportback e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://audiclubna.org/audi-makes-its-2027-lineup-smarter-and-easier-to-buy/",
+         "name": "Audi Club North America: 2027 Audi lineup pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50370",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "a6-avant-e-tron-performance",
+       "name": "A6 Avant e-tron performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": "wagon",
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 720,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+         "name": "Wikipedia: Audi A6 e-tron"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-e-tron-q8",
+   "url_slug": "q8-e-tron",
+   "name": "Q8 e-tron",
+   "aliases": [
+    "e-tron",
+    "e-tron Sportback",
+    "Q8 Sportback e-tron",
+    "SQ8 e-tron"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Audi's first series-production electric car, launched in 2019 as the e-tron (SUV and Sportback) and renamed Q8 e-tron with a facelift and a bigger battery for 2024. Built in Brussels; production ended on 28 February 2025 and the plant closed.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2025",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+     "name": "Wikipedia: Audi Q8 e-tron"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.motor1.com/news/726075/audi-q8-etron-ceases-production/",
+     "name": "Motor1: Audi bids farewell to the Q8 e-tron"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.greencarreports.com/news/1145296_audi-q8-e-tron-production-ends-in-february",
+     "name": "Green Car Reports: Q8 e-tron production ends Feb. 28"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "e-tron",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "GE",
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "Original e-tron and e-tron Sportback with 71 kWh (50) or 95 kWh (55, S) gross batteries.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/2019_Audi_e-tron_Prestige_quattro_in_Typhoon_Gray_Metallic%2C_front_right.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2019_Audi_e-tron_Prestige_quattro_in_Typhoon_Gray_Metallic,_front_right.jpg",
+       "credit": "Mr.choppers",
+       "license": "CC BY-SA 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+       "name": "Wikipedia: Audi Q8 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "e-tron-55-quattro",
+       "name": "e-tron 55 quattro",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.7,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 204,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 222,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 226,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=41393",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43498",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44920",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45984",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "e-tron-sportback-55-quattro",
+       "name": "e-tron Sportback 55 quattro",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.7,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 218,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 218,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 218,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 225,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=42674",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43499",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44921",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45987",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "e-tron-50-quattro",
+       "name": "e-tron 50 quattro",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 71.0,
+       "battery_basis": "gross",
+       "power_hp": 308,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": null,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 336,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "e-tron-s",
+       "name": "e-tron S",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "gross",
+       "power_hp": 496,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 208,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 208,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44777",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45985",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "e-tron-s-sportback",
+       "name": "e-tron S Sportback",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "gross",
+       "power_hp": 496,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 212,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 212,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44779",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45986",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "Q8 e-tron",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "GE",
+     "platform": null,
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Facelift and rename (revealed November 2022): 114 kWh gross battery for the 55 and SQ8, 170 kW DC charging, new 2D logo.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/audi_etron_q8_std.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+       "name": "Wikipedia: Audi Q8 e-tron"
+      },
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://www.motor1.com/news/726075/audi-q8-etron-ceases-production/",
+       "name": "Motor1: Audi bids farewell to the Q8 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "q8-e-tron-55-quattro",
+       "name": "Q8 e-tron 55 quattro",
+       "legacy_ids": [
+        16,
+        52
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 114.0,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 285,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 74400,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 582,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://electrek.co/2023/03/30/audi-2024-q8-e-tron-us-pricing/",
+         "name": "Electrek: 2024 Audi Q8 e-tron US pricing"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/660070/audi-q8-e-tron-starts-at-75500-usd-in-us-arrives-this-summer/",
+         "name": "InsideEVs: 2024 Audi Q8 e-tron US launch"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46913",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48299",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q8-sportback-e-tron-55-quattro",
+       "name": "Q8 Sportback e-tron 55 quattro",
+       "legacy_ids": [
+        15
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 114.0,
+       "battery_basis": "gross",
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 296,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 77800,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 600,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://electrek.co/2023/03/30/audi-2024-q8-e-tron-us-pricing/",
+         "name": "Electrek: 2024 Audi Q8 e-tron US pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47440",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48301",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "q8-e-tron-50-quattro",
+       "name": "Q8 e-tron 50 quattro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 95.0,
+       "battery_basis": "gross",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.0,
+       "top_speed_mph": null,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 491,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "sq8-e-tron",
+       "name": "SQ8 e-tron",
+       "legacy_ids": [
+        25
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 114.0,
+       "battery_basis": "gross",
+       "power_hp": 496,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": null,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 253,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 89800,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 242,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 499,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/680121/2024-audi-sq8-e-tron-launches-stateside-89800-usd-base-price/",
+         "name": "InsideEVs: 2024 Audi SQ8 e-tron US pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47441",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48304",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "sq8-sportback-e-tron",
+       "name": "SQ8 Sportback e-tron",
+       "legacy_ids": [
+        26
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 114.0,
+       "battery_basis": "gross",
+       "power_hp": 496,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": null,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 253,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 92600,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 242,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 513,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q8_e-tron",
+         "name": "Wikipedia: Audi Q8 e-tron"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/680121/2024-audi-sq8-e-tron-launches-stateside-89800-usd-base-price/",
+         "name": "InsideEVs: 2024 Audi SQ8 e-tron US pricing"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=47443",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48306",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-a2-e-tron",
+   "url_slug": "a2-e-tron",
+   "name": "A2 e-tron",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Entry-level electric Audi on the MEB platform, built in Ingolstadt. Revealed on 7 September 2026, with production due to start in late 2026.",
+   "markets": {
+    "EU": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_A2_e-tron",
+     "name": "Wikipedia: Audi A2 e-tron"
+    },
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_e-tron_(brand)",
+     "name": "Wikipedia: Audi e-tron (brand)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "LFP (50/58 kWh) and NMC (79 kWh) batteries; 423-645 km WLTP per Wikipedia (figures not yet homologated).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Audi_A2_e-tron_Auto_Zuerich_2026_IMG_8600.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_A2_e-tron_Auto_Zuerich_2026_IMG_8600.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_A2_e-tron",
+       "name": "Wikipedia: Audi A2 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "50kwh",
+       "name": "50 kWh LFP",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 50.0,
+       "battery_basis": null,
+       "power_hp": 168,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 423,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A2_e-tron",
+         "name": "Wikipedia: Audi A2 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "58kwh",
+       "name": "58 kWh LFP",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 58.0,
+       "battery_basis": null,
+       "power_hp": 187,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 515,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A2_e-tron",
+         "name": "Wikipedia: Audi A2 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "79kwh-170kw",
+       "name": "79 kWh NMC (170 kW)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.0,
+       "battery_basis": null,
+       "power_hp": 228,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.0,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 645,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A2_e-tron",
+         "name": "Wikipedia: Audi A2 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "79kwh-240kw",
+       "name": "79 kWh NMC (240 kW)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.0,
+       "battery_basis": null,
+       "power_hp": 322,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 629,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A2_e-tron",
+         "name": "Wikipedia: Audi A2 e-tron"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-q6l-e-tron",
+   "url_slug": "q6l-e-tron",
+   "name": "Q6L e-tron",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Long-wheelbase (2,995 mm) China-market version of the Q6 e-tron, built by FAW-Audi in Changchun, also offered as a Q6L Sportback.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "audi-q6-e-tron"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+     "name": "Wikipedia: Audi Q6 e-tron"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "PPE",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "China-only long-wheelbase PPE SUV.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Audi_Q6L_e-tron_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_Q6L_e-tron_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_Q6_e-tron",
+       "name": "Wikipedia: Audi Q6 e-tron"
+      }
+     ],
+     "variants": []
+    }
+   ]
+  },
+  {
+   "slug": "audi-a6l-e-tron",
+   "url_slug": "a6l-e-tron",
+   "name": "A6L e-tron",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Long-wheelbase China-market sedan version of the A6 e-tron, built by FAW-Audi in Changchun and shown at Auto Shanghai 2025.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "audi-a6-e-tron"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+     "name": "Wikipedia: Audi A6 e-tron"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "PPE",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "China-only long-wheelbase PPE sedan.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Audi_A6L_e-tron_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_A6L_e-tron_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+       "name": "Wikipedia: Audi A6 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "dual-motor-quattro",
+       "name": "Dual-motor quattro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 543,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 720,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_A6_e-tron",
+         "name": "Wikipedia: Audi A6 e-tron"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-q5-e-tron",
+   "url_slug": "q5-e-tron",
+   "name": "Q5 e-tron",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "China-only three-row electric SUV on the MEB platform, built by SAIC-Audi (SAIC Volkswagen) in Anting since 2022; Audi's first three-row e-tron.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_Q5_e-tron",
+     "name": "Wikipedia: Audi Q5 e-tron"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Three-row MEB SUV with an 83.4 kWh battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Audi_Q5_e-tron_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_Q5_e-tron_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_Q5_e-tron",
+       "name": "Wikipedia: Audi Q5 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "q5-40-e-tron",
+       "name": "Q5 40 e-tron",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 83.4,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q5_e-tron",
+         "name": "Wikipedia: Audi Q5 e-tron"
+        }
+       ]
+      },
+      {
+       "slug": "q5-50-e-tron-quattro",
+       "name": "Q5 50 e-tron quattro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 83.4,
+       "battery_basis": null,
+       "power_hp": 301,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q5_e-tron",
+         "name": "Wikipedia: Audi Q5 e-tron"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-e5-sportback",
+   "url_slug": "e5-sportback",
+   "name": "AUDI E5 Sportback",
+   "aliases": [
+    "E5 Sportback"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "First car of the China-only AUDI brand (four rings replaced by the AUDI wordmark) from the SAIC Audi joint venture, on SAIC's Advanced Digitized Platform shared with the IM L6. Unveiled at Auto Shanghai in April 2025; production from August 2025.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-05",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/AUDI_E5_Sportback",
+     "name": "Wikipedia: AUDI E5 Sportback"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Advanced Digitized Platform",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "100 kWh CATL battery, rear- or all-wheel drive, up to 770 km CLTC.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/2025_SAIC-Audi_E5_Sportback_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_SAIC-Audi_E5_Sportback_(front).jpg",
+       "credit": "User 3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/AUDI_E5_Sportback",
+       "name": "Wikipedia: AUDI E5 Sportback"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/AUDI_E5_Sportback",
+         "name": "Wikipedia: AUDI E5 Sportback"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 764,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/AUDI_E5_Sportback",
+         "name": "Wikipedia: AUDI E5 Sportback"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-q2l-e-tron",
+   "url_slug": "q2l-e-tron",
+   "name": "Q2L e-tron",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "China-only electric version of the long-wheelbase Q2L small SUV, built by FAW-Volkswagen in Foshan from November 2019. Sales had dwindled to almost nothing by 2025 and Q2 production ended in 2026.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2019-11",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_Q2",
+     "name": "Wikipedia: Audi Q2 (Q2L e-tron)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MQB",
+     "start_year": 2019,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Single front motor with a 38 kWh CATL battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Audi_Q2L_e-tron_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_Q2L_e-tron_001.jpg",
+       "credit": "Jengtingchen",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_Q2",
+       "name": "Wikipedia: Audi Q2 (Q2L e-tron)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "q2l-30-e-tron",
+       "name": "Q2L 30 e-tron",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 38.0,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_Q2",
+         "name": "Wikipedia: Audi Q2 (Q2L e-tron)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "audi-r8-e-tron",
+   "url_slug": "r8-e-tron",
+   "name": "R8 e-tron",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the second-generation R8 supercar, shown at the 2015 Geneva Motor Show and built only on customer request in Europe. Fewer than 100 were sold before Audi ended it in 2016.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2015",
+     "end": "2016",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Audi_R8_(Type_4S)",
+     "name": "Wikipedia: Audi R8 (Type 4S), R8 e-tron"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2015",
+     "name": "R8 e-tron",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2015,
+     "end_year": 2016,
+     "status": "discontinued",
+     "description": "Two rear motors, 92 kWh battery, limited production.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/2015-03-03_Geneva_Motor_Show_4120.JPG",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2015-03-03_Geneva_Motor_Show_4120.JPG",
+       "credit": "Norbert Aepli",
+       "license": "CC BY 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "history",
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Audi_R8_(Type_4S)",
+       "name": "Wikipedia: Audi R8 (Type 4S), R8 e-tron"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "r8-e-tron",
+       "name": "R8 e-tron",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2015,
+       "year_to": 2016,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 92.0,
+       "battery_basis": null,
+       "power_hp": 456,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Audi_R8_(Type_4S)",
+         "name": "Wikipedia: Audi R8 (Type 4S), R8 e-tron"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 15,
+   "note": "Q8 Sportback e-tron 55 quattro, MY2024 ($77,800). Legacy model name 'e-tron Q8' is not an official name; DC charging '31' is wrong (170 kW); 'carmodel_ended: current' is stale: production ended 28 Feb 2025."
+  },
+  {
+   "legacy_id": 16,
+   "note": "Q8 e-tron 55 quattro, MY2024 ($74,400, 285 mi EPA). DC charging '31' wrong (170 kW); model no longer current."
+  },
+  {
+   "legacy_id": 17,
+   "note": "First-generation e-tron GT quattro (MY2022-24, 523 hp boost, 249 mi EPA MY2024). Generation 'string' is junk; charging '22' is not the DC rate (270 kW). Superseded by the 2025 facelift; the US now sells only S and RS performance."
+  },
+  {
+   "legacy_id": 18,
+   "note": "First-generation RS e-tron GT (637 hp boost, 249 mi EPA MY2024). Replaced by the RS e-tron GT performance (912 hp boost, 278 mi, $170,500)."
+  },
+  {
+   "legacy_id": 25,
+   "note": "SQ8 e-tron (MY2024-25). First-released date 2019-03-01 is wrong (SQ8 arrived for MY2024); discontinued with the Q8 e-tron in Feb 2025."
+  },
+  {
+   "legacy_id": 26,
+   "note": "SQ8 Sportback e-tron (MY2024-25); same issues as row 25."
+  },
+  {
+   "legacy_id": 27,
+   "note": "Q4 50 e-tron quattro, first generation (295 hp, US MY2022-24). Price $49,800 unverified; replaced by the Q4 55 e-tron quattro."
+  },
+  {
+   "legacy_id": 28,
+   "note": "Q4 Sportback 50 e-tron quattro (295 hp, 242 mi EPA MY2023-24). Marked as the model rep but it is a discontinued trim."
+  },
+  {
+   "legacy_id": 52,
+   "note": "Q8 e-tron edition Dakar is a limited EU special edition built on the Q8 55 e-tron quattro (408 PS, 114 kWh), not an SQ8: legacy 496 hp / 718 lb-ft are wrong, and Audi said it would not be sold in the US (legacy lists North America). Claimed on the Q8 e-tron 55 quattro variant."
+  }
+ ],
+ "gaps": [
+  "Pre-2024 US prices (e-tron MY2019-23, e-tron GT MY2022-24, Q4 MY2022-24, Q6 MY2025) not sourced; prices recorded only where a source gave them.",
+  "Facelifted e-tron GT battery size, base e-tron GT quattro and non-performance RS e-tron GT (non-US) not recorded.",
+  "Q8 e-tron 55/50 sustained vs boost power differs between sources; recorded 402 hp boost for the 55 (US figure) and no power for the 50.",
+  "Q6 e-tron power per variant is unclear (Audi USA lists 456 hp for Q6 Sportback, The Charge Port 422 hp for the 2027 Q6 SUV); left null for the SUV.",
+  "fueleconomy.gov has no MY2025 A6 Sportback e-tron record though the US launch was in 2025; only MY2027 EPA ranges recorded.",
+  "Q6L e-tron (China) specs, CLTC range, price and launch date not sourced; no variants recorded.",
+  "A6L e-tron, Q5 e-tron, Q2L e-tron and AUDI E5 Sportback: China prices and most CLTC ranges not sourced; Q5 e-tron and E5 Sportback status in late 2026 not confirmed beyond 2025 sales.",
+  "AUDI brand E7X SUV listed on Wikipedia without dates; not added. Audi Concept C (Sept 2025) is officially only a concept; not added.",
+  "Q4 e-tron facelift: US model-year 2027 specs/prices not yet published; Sportback facelift variants not recorded separately; battery for the facelift 'quattro' (non-performance) not stated by Audi.",
+  "A2 e-tron battery figures conflict on Wikipedia (50/58/79 kWh in text vs 52/61/84 kWh in infobox); basis left null, ranges marked as estimates.",
+  "Audi e-tron GT and Q8 e-tron US charge-port type not sourced; connector left null.",
+  "WebSearch budget ran out mid-task; data come from fueleconomy.gov, Audi/Wikipedia pages and press articles fetched directly."
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "make": {
+  "slug": "scout-motors",
+  "name": "Scout Motors",
+  "legacy_id": 36,
+  "country": "US",
+  "headquarters": "Charlotte, North Carolina, USA",
+  "founded": 2022,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.scoutmotors.com",
+  "status": "pre-production",
+  "status_date": null,
+  "status_details": "Volkswagen Group subsidiary reviving the International Harvester Scout name; the Traveler SUV and Terra pickup are officially due to start production in 2027 at Blythewood, South Carolina, with customer deliveries in 2028, and range-extender (Harvester) versions are expected before the battery-electric ones.",
+  "description": "Scout Motors is an independently run Volkswagen Group subsidiary founded in 2022 to revive the Scout off-road name in the US. Its first vehicles, the Traveler SUV and Terra pickup, were revealed in October 2024 in battery-electric and range-extended (Harvester) form and are built in South Carolina.",
+  "sources": [
+   {
+    "fields": [
+     "status",
+     "headquarters",
+     "founded"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Scout_Motors",
+    "name": "Wikipedia: Scout Motors"
+   },
+   {
+    "fields": [
+     "status"
+    ],
+    "url": "https://www.carscoops.com/2026/04/scout-terra-traveler-delay/",
+    "name": "Carscoops (April 2026)"
+   },
+   {
+    "fields": [
+     "status"
+    ],
+    "url": "https://www.thedrive.com/news/scout-ceo-thinks-itll-be-sometime-in-2028-before-people-get-their-trucks",
+    "name": "The Drive"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "scout-motors-traveler",
+   "url_slug": "traveler",
+   "name": "Traveler",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": "https://www.scoutmotors.com",
+   "description": "Full-size, body-on-frame off-road SUV revealed in October 2024 as Scout's first model. Offered as a battery-electric vehicle (about 350 miles estimated range) or with a gasoline range extender (Harvester).",
+   "markets": {
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.carscoops.com/2026/04/scout-terra-traveler-delay/",
+     "name": "Carscoops (April 2026)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Scout_Motors",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2028",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Scout body-on-frame EV platform",
+     "start_year": 2028,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Revealed October 2024; official target is production in 2027 for model year 2028. Reports in 2026 say the Harvester range-extender version will come first and the battery-electric version later.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "bev-awd",
+       "name": "Battery-electric AWD",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2028,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2028,
+         "range": 350,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://insideevs.com/news/738665/scout-traveler-terra-ev-prices/",
+         "name": "InsideEVs (Oct 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Traveler",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "scout-motors-terra",
+   "url_slug": "terra",
+   "name": "Terra",
+   "aliases": [],
+   "body_style": "pickup",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": "https://www.scoutmotors.com",
+   "description": "Full-size, body-on-frame pickup revealed alongside the Traveler in October 2024. Offered as a battery-electric vehicle (about 350 miles estimated range) or with a gasoline range extender (Harvester).",
+   "markets": {
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.carscoops.com/2026/04/scout-terra-traveler-delay/",
+     "name": "Carscoops (April 2026)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Scout_Motors",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2028",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Scout body-on-frame EV platform",
+     "start_year": 2028,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Revealed October 2024; official target is production in 2027 for model year 2028. Reports in 2026 say the Harvester range-extender version will come first and the battery-electric version later.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Scout_Terra%2C_IAA_Summit_2025%2C_Munich_%2820250908-P1050118%29_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Scout_Terra,_IAA_Summit_2025,_Munich_(20250908-P1050118)_(cropped).jpg",
+       "credit": "Matti Blume",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "bev-awd",
+       "name": "Battery-electric AWD",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2028,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2028,
+         "range": 350,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://insideevs.com/news/738665/scout-traveler-terra-ev-prices/",
+         "name": "InsideEVs (Oct 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Terra",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Scout has not published final specs (battery size, power, EPA range) or exact BEV prices; offerings carry only the company's ~350 mi estimate (is_estimate=true). Announced pricing was only 'under $60,000 before incentives'.",
+  "No free-licence photo of the Scout Traveler found on Wikimedia Commons.",
+  "Production timing disputed: Scout says 2027 production with 2028 deliveries; AutoForecast Solutions (April 2026) forecast Traveler Sept 2028 and Terra March 2030, BEV after EREV."
+ ]
+}

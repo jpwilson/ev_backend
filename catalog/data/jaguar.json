@@ -1,0 +1,312 @@
+{
+  "make": {
+    "slug": "jaguar",
+    "name": "Jaguar",
+    "legacy_id": 23,
+    "country": "GB",
+    "headquarters": "Whitley, Coventry, England",
+    "founded": 1922,
+    "parent_group": "JLR (Tata Motors)",
+    "website_url": "https://www.jaguar.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "British luxury car maker, part of JLR and owned by Tata Motors. Its first electric car, the I-Pace, was built from 2018 until December 2024, after which Jaguar stopped selling new cars while it relaunched as an all-electric luxury brand. The first car of the relaunch, the Type 01 four-door GT, was revealed in October 2026 with orders due to open in early 2027.",
+    "sources": [
+      {
+        "fields": ["founded", "headquarters", "parent_group"],
+        "url": "https://en.wikipedia.org/wiki/Jaguar_Cars",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": ["description"],
+        "url": "https://www.topgear.com/car-news/business/jaguar-has-stopped-building-xe-xf-and-f-type-i-pace-and-e-pace-stop-dec",
+        "name": "Top Gear"
+      },
+      {
+        "fields": ["description"],
+        "url": "https://www.tata.com/newsroom/business/jaguar-type-01-launch",
+        "name": "Tata Group newsroom"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "jaguar-ipace",
+      "url_slug": "i-pace",
+      "name": "I-Pace",
+      "aliases": ["I-PACE", "EV400"],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Jaguar's first battery-electric car, a five-seat crossover with two motors and a 90 kWh pack, built under contract by Magna Steyr in Graz, Austria. It went on sale in 2018, won European and World Car of the Year 2019, and ended production in December 2024 when Jaguar dropped its whole range ahead of its relaunch.",
+      "markets": {
+        "US": {"status": "discontinued", "launch": "2018", "end": "2024", "local_name": null},
+        "UK": {"status": "discontinued", "launch": "2018", "end": "2024", "local_name": null},
+        "EU": {"status": "discontinued", "launch": "2018", "end": "2024", "local_name": null}
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://insideevs.com/news/727096/jaguar-ipace-ev-production-end/",
+          "name": "InsideEVs"
+        },
+        {
+          "fields": ["status"],
+          "url": "https://www.topgear.com/car-news/business/jaguar-has-stopped-building-xe-xf-and-f-type-i-pace-and-e-pace-stop-dec",
+          "name": "Top Gear"
+        },
+        {
+          "fields": ["history"],
+          "url": "https://en.wikipedia.org/wiki/Jaguar_I-Pace",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "X590",
+          "platform": null,
+          "start_year": 2018,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "The only I-Pace generation. Model-year 2021 cars gained 11 kW AC charging and the Pivi Pro infotainment; a late-2019 software update raised EPA range from 234 to 246 miles on 20-inch wheels.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/jaguar_ipace.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": ["years", "updates"],
+              "url": "https://en.wikipedia.org/wiki/Jaguar_I-Pace",
+              "name": "Wikipedia"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "ev400-awd",
+              "name": "EV400 AWD",
+              "legacy_ids": [162],
+              "status": "discontinued",
+              "year_from": 2018,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 90.0,
+              "battery_basis": "gross",
+              "power_hp": 394,
+              "torque_lbft": 512,
+              "accel_0_60_s": 4.5,
+              "accel_0_100_s": 4.8,
+              "top_speed_mph": 124,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2019,
+                  "range": 234,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 246,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 72000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 470,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["range"],
+                  "url": "https://www.fueleconomy.gov/feg/PowerSearch.do?action=noform&path=1&year1=2019&year2=2024&make=Jaguar&baseModel=I-Pace&srchtyp=ymm&pageno=1&rowLimit=50",
+                  "name": "fueleconomy.gov"
+                },
+                {
+                  "fields": ["price", "specs"],
+                  "url": "https://www.cars.com/research/jaguar-i_pace-2024/specs/441677",
+                  "name": "Cars.com"
+                },
+                {
+                  "fields": ["specs", "range"],
+                  "url": "https://en.wikipedia.org/wiki/Jaguar_I-Pace",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jaguar-type-01",
+      "url_slug": "type-01",
+      "name": "Type 01",
+      "aliases": ["Type 00 (concept)"],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": "https://www.jaguar.com",
+      "description": "Four-door electric grand tourer that opens Jaguar's relaunch, previewed by the Type 00 concept in December 2024 and revealed in New York in October 2026. It is the first car on the Jaguar Electric Architecture (JEA), with three motors and an 850 V system, built in Solihull, England. Orders open in early 2027 with first deliveries expected in the second half of 2027.",
+      "markets": {
+        "UK": {"status": "upcoming", "launch": "2027", "end": null, "local_name": null},
+        "US": {"status": "upcoming", "launch": "2027", "end": null, "local_name": null}
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://www.tata.com/newsroom/business/jaguar-type-01-launch",
+          "name": "Tata Group newsroom"
+        },
+        {
+          "fields": ["status", "history"],
+          "url": "https://www.just-auto.com/news/jaguar-type-01-electric-gt/",
+          "name": "Just Auto"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "JEA",
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Launch version: tri-motor (one front, two rear) with torque vectoring, 118 kWh usable battery and 350 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Jaguar_Type_01_Front_at_London_Showroom.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Jaguar_Type_01_Front_at_London_Showroom.jpg",
+              "credit": "Lcaa9",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "tri-motor-awd",
+              "name": "Tri-motor AWD",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 118.0,
+              "battery_basis": "usable",
+              "power_hp": 1015,
+              "torque_lbft": 1007,
+              "accel_0_60_s": 3.1,
+              "accel_0_100_s": 3.2,
+              "top_speed_mph": null,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": null,
+                  "range": 400,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 130500,
+                  "launch_price": 130500,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": true
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 720,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 130000,
+                  "launch_price": 130000,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": ["specs", "price"],
+                  "url": "https://electricfuture.org/2026/10/07/jaguar-type-01-revealed/",
+                  "name": "Electric Future"
+                },
+                {
+                  "fields": ["specs", "price"],
+                  "url": "https://www.just-auto.com/news/jaguar-type-01-electric-gt/",
+                  "name": "Just Auto"
+                },
+                {
+                  "fields": ["range"],
+                  "url": "https://www.electrive.net/2026/10/07/type-01-enthuellt-so-geht-der-neue-jaguar-in-serie/",
+                  "name": "electrive.net"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 162,
+      "note": "Legacy row says the I-Pace is 'available' with countries listed '2024 onwards'; production ended in December 2024 and it is no longer sold new. Price $72,000 and 246 mi match the 2024 US R-Dynamic HSE (EPA on 20-inch wheels; 22-inch wheels rate 217 mi). Torque 512 lb-ft and 394 hp are right; battery (90 kWh) and DC rate (100 kW) were missing."
+    }
+  ],
+  "gaps": [
+    "Jaguar I-Pace UK and EU list prices not sourced.",
+    "Jaguar I-Pace US launch price (MY2019) not sourced.",
+    "Jaguar Type 01 range figures are Jaguar estimates (400 mi US, about 720 km WLTP) pending EPA/WLTP certification; US price $130,500 is reported as excluding destination by one outlet only; top speed not published.",
+    "Jaguar Type 01 US price differs between outlets (one quotes US$172,900 as a currency conversion of the UK price); the $130,500 MSRP is the US figure reported by US outlets."
+  ]
+}

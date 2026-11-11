@@ -1,0 +1,116 @@
+{
+  "make": {
+    "slug": "example-motors",
+    "name": "Example Motors",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Springfield, USA",
+    "founded": 2010,
+    "parent_group": null,
+    "website_url": "https://www.example.com",
+    "status": "defunct",
+    "status_date": "2024-06",
+    "status_details": "Format example only; files starting with an underscore are never loaded.",
+    "description": "A made-up make that shows the seed format. Not real data.",
+    "sources": [{"fields": ["status"], "url": "https://www.example.com/news/closure", "name": "Example News"}]
+  },
+  "models": [
+    {
+      "slug": "example-motors-one",
+      "url_slug": "one",
+      "name": "One",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Made-up model with an original generation and a refresh.",
+      "markets": {
+        "US": {"status": "discontinued", "launch": "2017-07", "end": "2024-06", "local_name": null}
+      },
+      "relations": [],
+      "sources": [{"fields": ["status"], "url": "https://www.example.com/news/closure", "name": "Example News"}],
+      "generations": [
+        {
+          "slug": "2017",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2017,
+          "end_year": 2021,
+          "status": "discontinued",
+          "description": "First version.",
+          "images": [
+            {"source": "commons",
+             "file_url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Example.jpg",
+             "page_url": "https://commons.wikimedia.org/wiki/File:Example.jpg",
+             "credit": "Example Author", "license": "CC BY-SA 4.0",
+             "view": "front_3q", "verified_by_viewing": true}
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range-awd",
+              "name": "Long Range AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2017, "year_to": 2021,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 82.0, "battery_basis": "gross",
+              "power_hp": 425, "torque_lbft": 364,
+              "accel_0_60_s": 4.2, "accel_0_100_s": null,
+              "top_speed_mph": 145,
+              "dc_kw": 250,
+              "offerings": [
+                {"market": "US", "model_year": 2021,
+                 "range": 353, "range_unit": "mi", "range_cycle": "EPA",
+                 "price": 47240, "launch_price": null, "currency": "USD",
+                 "price_basis": "msrp_excl_destination",
+                 "connector": "CCS1", "is_estimate": false}
+              ],
+              "sources": [{"fields": ["specs", "price", "range"], "url": "https://www.example.com/one/specs", "name": "Example Motors"}]
+            }
+          ]
+        },
+        {
+          "slug": "2022",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Refresh with a new pack; same trim name, new hardware, so a new variant.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "long-range-awd",
+              "name": "Long Range AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022, "year_to": 2024,
+              "drivetrain": "AWD",
+              "seats": 5,
+              "battery_kwh": 79.0, "battery_basis": "usable",
+              "offerings": [
+                {"market": "EU", "model_year": null,
+                 "range": 629, "range_unit": "km", "range_cycle": "WLTP",
+                 "price": 54990, "currency": "EUR", "price_basis": "list_incl_vat"}
+              ],
+              "sources": [{"fields": ["specs"], "url": "https://www.example.com/one/2022", "name": "Example Motors"}]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": ["Example gap: could not source the 2022 US price."]
+}

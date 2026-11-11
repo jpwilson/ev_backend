@@ -1,0 +1,894 @@
+{
+  "make": {
+    "slug": "aito",
+    "name": "AITO",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Chongqing, China",
+    "founded": 2021,
+    "parent_group": "Seres Group",
+    "website_url": "https://aito.auto",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Premium brand built by Seres with Huawei under the HIMA (Harmony Intelligent Mobility Alliance), introduced in December 2021. Every model comes as a range-extender and a battery-electric version; the BEV versions are listed here.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/AITO_(marque)",
+        "name": "Wikipedia: AITO (marque)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "aito-m5",
+      "url_slug": "aito-m5",
+      "name": "M5",
+      "aliases": [
+        "Seres 5",
+        "AITO M5 EV"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact SUV launched as a range-extender in December 2021; the battery-electric M5 EV followed in September 2022 and the facelifted M5 Ultra in March 2025. Related to the Seres 5 sold in Europe.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2022-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/AITO_M5",
+          "name": "Wikipedia: AITO M5"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "BEV with Huawei DriveONE motors and 80-83 kWh CATL LFP pack; facelifted as M5 Ultra in 2025 with unchanged hardware.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Aito_M5_EV_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aito_M5_EV_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 268,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M5",
+                  "name": "Wikipedia: AITO M5"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/20/aito-launches-m5-ultra/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 552,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M5",
+                  "name": "Wikipedia: AITO M5"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/20/aito-launches-m5-ultra/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aito-m6",
+      "url_slug": "aito-m6",
+      "name": "M6",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size SUV slotted between the M5 and M7, with pre-sales from March 2026; offered as a BEV (RWD or AWD) and an AWD range-extender.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/AITO_M6",
+          "name": "Wikipedia: AITO M6"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "97.6 kWh NMC pack; 304 hp RWD or 456 hp AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/AITO_M6_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M6_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 97.644,
+              "battery_basis": "gross",
+              "power_hp": 304,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 760,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M6",
+                  "name": "Wikipedia: AITO M6"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2026/03/23/himas-aito-m6-pre-sale-huaweis-896-line-lidar-standard-ev-costs-3000-usd-more-than-erev/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.ithome.com/0/930/753.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 97.644,
+              "battery_basis": "gross",
+              "power_hp": 456,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M6",
+                  "name": "Wikipedia: AITO M6"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2026/03/23/himas-aito-m6-pre-sale-huaweis-896-line-lidar-standard-ev-costs-3000-usd-more-than-erev/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.ithome.com/0/930/753.htm",
+                  "name": "ITHome"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aito-m7",
+      "url_slug": "aito-m7",
+      "name": "M7",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Large SUV launched in July 2022 as a range-extender only. The second generation (September 2025) added a battery-electric version, which is what is listed here.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/AITO_M7",
+          "name": "Wikipedia: AITO M7"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "First BEV M7: 100 kWh NMC pack, 304 hp RWD or 519 hp AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/AITO_M7_II_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M7_II_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-rwd",
+              "name": "EV RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 304,
+              "torque_lbft": 236,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.8,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 710,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M7",
+                  "name": "Wikipedia: AITO M7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2025/09/23/aito-launches-updated-m7-suv/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd-max",
+              "name": "EV AWD Max",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 519,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.7,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 660,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M7",
+                  "name": "Wikipedia: AITO M7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2025/09/23/aito-launches-updated-m7-suv/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "ev-awd-ultra",
+              "name": "EV AWD Ultra",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 519,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 635,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M7",
+                  "name": "Wikipedia: AITO M7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2025/09/23/aito-launches-updated-m7-suv/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aito-m8",
+      "url_slug": "aito-m8",
+      "name": "M8",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size SUV launched in April 2025 as a range-extender and a BEV, all-wheel drive; updated for MY2027 in September 2026 with larger packs.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/AITO_M8",
+          "name": "Wikipedia: AITO M8"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "BEV with 100 kWh NMC pack and 392 kW dual motors.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/AITO_M8_003_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M8_003_(cropped).jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 526,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M8",
+                  "name": "Wikipedia: AITO M8"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2025/03/05/aito-to-launch-m8-apr/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aito-m9",
+      "url_slug": "aito-m9",
+      "name": "M9",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Flagship full-size SUV launched in late 2023 (range-extender and 800 V BEV). The second generation launched on 27 May 2026 with a 120 kWh BEV.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023-12",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/AITO_M9",
+          "name": "Wikipedia: AITO M9"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "BEV: 100 kWh CATL NMC pack, 390 kW dual motors, 800 V.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Aito_M9_007_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aito_M9_007_(cropped).jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-awd",
+              "name": "EV AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 523,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.3,
+              "top_speed_mph": 131,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 630,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M9",
+                  "name": "Wikipedia: AITO M9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "BEV: 120 kWh NMC pack, 497 kW dual motors.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/AITO_M9_II_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M9_II_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-max-plus",
+              "name": "EV Max+",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 120.0,
+              "battery_basis": "gross",
+              "power_hp": 666,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.6,
+              "top_speed_mph": 137,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 750,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M9",
+                  "name": "Wikipedia: AITO M9"
+                }
+              ]
+            },
+            {
+              "slug": "ev-ultra",
+              "name": "EV Ultra",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 120.0,
+              "battery_basis": "gross",
+              "power_hp": 666,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.7,
+              "top_speed_mph": 137,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 715,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/AITO_M9",
+                  "name": "Wikipedia: AITO M9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Web search budget ran out; data comes from Wikipedia and the news articles it cites.",
+    "Chinese prices for AITO BEV trims not sourced (Wikipedia's M9 II prices do not say BEV or EREV).",
+    "M5 EV battery capacity per trim (79.9 / 83 kWh) and AWD power not confirmed.",
+    "M8 2027 model-year update BEV specs not captured; M9 first-generation BEV launch month not confirmed.",
+    "Seres 5 (European version of the M5 EV) is not listed as a separate offering.",
+    "AITO M7 first generation (2022-2025) was range-extender only and is not listed."
+  ]
+}

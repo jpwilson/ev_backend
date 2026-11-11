@@ -1,0 +1,247 @@
+{
+  "make": {
+    "slug": "aptera",
+    "name": "Aptera",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Carlsbad, California, USA",
+    "founded": 2019,
+    "parent_group": null,
+    "website_url": "https://aptera.us",
+    "status": "pre-production",
+    "status_date": null,
+    "status_details": "Pre-production: listed on Nasdaq (SEV) in 2025, but in March 2026 said low-volume production would start no earlier than March 2027 unless it raised another $50 million.",
+    "description": "Aptera Motors builds a two-seat, three-wheeled solar electric vehicle. The current company was founded in 2019, reviving the name of an earlier Aptera that was liquidated in 2011 without producing its 2e.",
+    "sources": [
+      {
+        "fields": [
+          "status",
+          "specs",
+          "price"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Aptera_Motors",
+        "name": "Wikipedia: Aptera Motors"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "aptera-launch-edition",
+      "url_slug": "launch-edition",
+      "name": "Aptera",
+      "aliases": [
+        "Aptera Launch Edition",
+        "Aptera solar EV"
+      ],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": "https://aptera.us",
+      "description": "Two-seat, three-wheeled, extremely aerodynamic electric vehicle with about 700 W of built-in solar cells adding up to 40 miles a day. The Launch Edition has a 42 kWh battery, front-wheel drive and a claimed 400-mile range at about $40,000.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs",
+            "price"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aptera_Motors",
+          "name": "Wikipedia: Aptera Motors"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://aptera.us/",
+          "name": "Aptera"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "Launch Edition",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Production-intent design shown from late 2024; in 2024 the planned in-wheel motors were replaced by a single front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Aptera_Side_View_with_Open_Door.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aptera_Side_View_with_Open_Door.jpg",
+              "credit": "ApteraMotorsMedia",
+              "license": "CC BY-SA 4.0",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "launch-edition",
+              "name": "Launch Edition (400 mi)",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 42.0,
+              "battery_basis": "usable",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 400,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 40000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aptera_Motors",
+                  "name": "Wikipedia: Aptera Motors"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://aptera.us/",
+                  "name": "Aptera"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aptera-2e",
+      "url_slug": "2e",
+      "name": "2e",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Three-wheeled, two-seat electric car from the original Aptera Motors, shown from 2007 with an 82 kW motor and a planned range of about 120 miles. The company was liquidated in 2011 without producing it.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs",
+            "price"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aptera_Motors",
+          "name": "Wikipedia: Aptera Motors"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2010",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2010,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Prototype only.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Aptera_2e_at_the_Museum_of_Science_and_Industry.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aptera_2e_at_the_Museum_of_Science_and_Industry.jpg",
+              "credit": "Marcus Qwertyus",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "2e (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 110,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aptera_Motors",
+                  "name": "Wikipedia: Aptera Motors"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Aptera Launch Edition 400 mi range is a company estimate; no EPA label. Model year 2027 assumed from the March 2027 earliest production date.",
+    "0-60 'under 6 s' not entered because it is a bound, not a value."
+  ]
+}

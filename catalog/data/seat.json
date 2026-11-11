@@ -1,0 +1,179 @@
+{
+ "make": {
+  "slug": "seat",
+  "name": "SEAT",
+  "legacy_id": null,
+  "country": "ES",
+  "headquarters": "Martorell, Catalonia, Spain",
+  "founded": 1950,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.seat.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Spanish carmaker founded in 1950 and part of the Volkswagen Group since 1986. Its only battery-electric car so far was the Mii electric city car (2019-2021); its electric models since then are sold under the separate Cupra brand.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/SEAT",
+    "name": "Wikipedia: SEAT"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "seat-mii-electric",
+   "url_slug": "mii-electric",
+   "name": "Mii electric",
+   "aliases": [
+    "Mii Electric",
+    "eMii"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the Mii city car, a rebadged Volkswagen e-up! built in Bratislava. It replaced the petrol Mii in 2019 and was dropped in 2021, leaving SEAT without an EV.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2021-06",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": "2020",
+     "end": "2021-06",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "volkswagen-e-up"
+    },
+    {
+     "relation": "twin",
+     "model": "skoda-citigo-e-iv"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.discoverev.co.uk/ev-news/seat-ends-mii-electric-production-after-year",
+     "name": "DiscoverEV (2021)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Up",
+     "name": "Wikipedia: Volkswagen Up"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "Mii electric",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Volkswagen Group NSF",
+     "start_year": 2019,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Electric-only Mii with a 36.8 kWh battery and 61 kW motor, shared with the VW e-up! and Skoda Citigo-e iV.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/SEAT_Mii_Electric_1X7A6117.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:SEAT_Mii_Electric_1X7A6117.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "32kwh",
+       "name": "Mii electric (36.8 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 32.3,
+       "battery_basis": "usable",
+       "power_hp": 82,
+       "torque_lbft": 156,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.3,
+       "top_speed_mph": 81,
+       "dc_kw": 40,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 259,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 24650,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 259,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 20300,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1191/SEAT-Mii-Electric",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Up",
+         "name": "Wikipedia: Volkswagen Up (SEAT Mii)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Mii electric DC charging: ev-database lists 37 kW average; the 40 kW figure is the maximum quoted for the shared e-up!/Mii/Citigo-e drivetrain (Wikipedia e-up! table). Prices are ev-database snapshot list prices, model year not stated."
+ ]
+}

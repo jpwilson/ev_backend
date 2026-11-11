@@ -1,0 +1,745 @@
+{
+ "make": {
+  "slug": "exeed",
+  "name": "Exeed",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": null,
+  "founded": 2017,
+  "parent_group": "Chery Automobile",
+  "website_url": null,
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Chery's premium brand, introduced in September 2017. Its Sterra electric line includes the Sterra ES sedan and Sterra ET SUV; in Europe and right-hand-drive markets the brand is called Exlantix for trademark reasons.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "models"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Exeed",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "exeed-sterra-es",
+   "url_slug": "sterra-es",
+   "name": "Sterra ES",
+   "aliases": [
+    "Exlantix ES",
+    "Exeed ES",
+    "ES7"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Full-size electric (and range-extender) sedan launched in China in late 2023 and sold abroad as the Exlantix ES; tested by Euro NCAP in left-hand-drive form.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": "Exlantix ES"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Full-size sedan launched in late 2023; dual-motor version from December 2023.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Exeed_Sterra_ES_009.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Exeed_Sterra_ES_009.jpg",
+       "credit": "Quzhouliulian",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "60-7-kwh",
+       "name": "Sterra ES 60.7 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.7,
+       "battery_basis": null,
+       "power_hp": 248,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 550,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "66-4-kwh",
+       "name": "Sterra ES 66.4 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 66.4,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 605,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "79-9-kwh",
+       "name": "Sterra ES 79.9 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.9,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 720,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "97-7-kwh",
+       "name": "Sterra ES 97.7 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 97.7,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 905,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "Sterra ES Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 473,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2025 update",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "2025 update with CATL 77 kWh LFP and 100 kWh NMC packs.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pro-77-kwh",
+       "name": "Sterra ES Pro 77 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 680,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "ultra-100-kwh",
+       "name": "Sterra ES Ultra 100 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 710,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ES",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "exeed-sterra-et",
+   "url_slug": "sterra-et",
+   "name": "Sterra ET",
+   "aliases": [
+    "Exlantix ET",
+    "EX7"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric (and range-extender) SUV launched in China in May 2024, sold abroad as the Exlantix ET (pure-electric only in Norway) and renamed Exeed EX7 in China in 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-05",
+     "end": null,
+     "local_name": "EX7 (from 2026)"
+    },
+    "EU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": "Exlantix ET"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ET",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size SUV on sale in China from May 2024 as a BEV and range-extender; renamed EX7 in China in April 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Exeed_Sterra_ET_005.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Exeed_Sterra_ET_005.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pro-rwd",
+       "name": "Sterra ET Pro 77 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.0,
+       "battery_basis": null,
+       "power_hp": 308,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.4,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ET",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "pro-awd",
+       "name": "Sterra ET Pro 77 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.0,
+       "battery_basis": null,
+       "power_hp": 473,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ET",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "max-rwd",
+       "name": "Sterra ET Max 100 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 308,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 760,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ET",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "ultra-awd",
+       "name": "Sterra ET Ultra 100 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 554,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 655,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed_Sterra_ET",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "exeed-et5",
+   "url_slug": "et5",
+   "name": "ET5",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size SUV launched in China in 2025 in battery-electric and range-extender versions.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "models"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Exeed",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size SUV offered as a BEV and range-extender.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Exeed_ET5_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Exeed_ET5_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "et5",
+       "name": "ET5 EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "models"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Exeed",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341).",
+  "Sterra ES: power for 66.4/79.9/97.7 kWh versions not mapped; 2025 Ultra drivetrain not stated; no prices sourced.",
+  "Sterra ET: the source says export Exlantix ET is range-extender only except in Norway (pure electric), so EU availability of the BEV is limited; no prices sourced.",
+  "Exlantix EU/UK launch dates not sourced. ET5 BEV specs not sourced.",
+  "Not included: Exeed EX6 (2026, BEV/EREV, no specs found), planned ET8/ET9/ES8 (announced for late 2026)."
+ ]
+}

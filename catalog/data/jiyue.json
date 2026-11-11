@@ -1,0 +1,403 @@
+{
+  "make": {
+    "slug": "jiyue",
+    "name": "Jiyue",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shanghai, China",
+    "founded": 2023,
+    "parent_group": "Geely (65%) and Baidu (35%)",
+    "website_url": "https://www.jiyue-auto.com",
+    "status": "defunct",
+    "status_date": "2024-12-12",
+    "status_details": "On 11-12 December 2024 Jiyue told staff it was in difficulty and effectively disbanded, without guaranteed severance or social-insurance payments; Geely had already stopped building its cars in November 2024.",
+    "description": "Geely-Baidu electric-car brand (Ji Yue) that grew out of Jidu Auto; it sold the 01 SUV and 07 sedan with Baidu's self-driving software before collapsing in December 2024.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://carnewschina.com/2024/12/13/jiyue-high-speed-car-crash-of-a-brand-owned-by-geely-and-baidu/",
+        "name": "CarNewsChina"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://cnevpost.com/2024/12/11/jiyue-reshuffles-team/",
+        "name": "CnEVPost"
+      },
+      {
+        "fields": [
+          "founded"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Ji_Yue",
+        "name": "Wikipedia: Ji Yue"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "jiyue-01",
+      "url_slug": "jiyue-01",
+      "name": "01",
+      "aliases": [
+        "Jidu Robo-01",
+        "Ji Yue 01"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Mid-size electric SUV first shown as the Jidu Robo-01 (limited edition, 2022) and launched as the Jiyue 01 in October 2023 on Geely's SEA platform. Ended with the brand in December 2024.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2023-10",
+          "end": "2024-12",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ji_Yue_01",
+          "name": "Wikipedia: Ji Yue 01"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://carnewschina.com/2024/12/13/jiyue-high-speed-car-crash-of-a-brand-owned-by-geely-and-baidu/",
+          "name": "CarNewsChina"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://cnevpost.com/2024/12/11/jiyue-reshuffles-team/",
+          "name": "CnEVPost"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Geely SEA",
+          "start_year": 2023,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "SEA platform; 270 hp RWD or 536 hp AWD with a 100 kWh CATL pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Jiyue_01_001_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Jiyue_01_001_(cropped).jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 270,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ji_Yue_01",
+                  "name": "Wikipedia: Ji Yue 01"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2023/10/28/baidu-jiyue-launches-1st-ev-model-jiyue-01/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD (100 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 536,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ji_Yue_01",
+                  "name": "Wikipedia: Ji Yue 01"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2023/10/28/baidu-jiyue-launches-1st-ev-model-jiyue-01/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jiyue-07",
+      "url_slug": "jiyue-07",
+      "name": "07",
+      "aliases": [
+        "Jidu Robo-02",
+        "Ji Yue 07"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Large electric sedan (Jidu Robo-02 concept) launched in September 2024, only three months before the brand collapsed.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2024-09",
+          "end": "2024-12",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Ji_Yue_07",
+          "name": "Wikipedia: Ji Yue 07"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://carnewschina.com/2024/12/13/jiyue-high-speed-car-crash-of-a-brand-owned-by-geely-and-baidu/",
+          "name": "CarNewsChina"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://cnevpost.com/2024/12/11/jiyue-reshuffles-team/",
+          "name": "CnEVPost"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Geely SEA",
+          "start_year": 2024,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "71.4 or 100 kWh packs; 268 hp RWD or 536 hp AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Ji_Yue_07_in_Guangzhou%2C_China_20241214-A.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ji_Yue_07_in_Guangzhou,_China_20241214-A.jpg",
+              "credit": "Tim Wu",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-71",
+              "name": "RWD 71.4 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 71.4,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 660,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ji_Yue_07",
+                  "name": "Wikipedia: Ji Yue 07"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/04/25/jiyue-07-unveiled-at-beijing-auto-show/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-100",
+              "name": "RWD 100 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 100.0,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 880,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ji_Yue_07",
+                  "name": "Wikipedia: Ji Yue 07"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/04/25/jiyue-07-unveiled-at-beijing-auto-show/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Ji_Yue_07",
+                  "name": "Wikipedia: Ji Yue 07"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/04/25/jiyue-07-unveiled-at-beijing-auto-show/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Jiyue prices not sourced.",
+    "Jiyue Robo X was a concept (planned for 2027) and is not listed.",
+    "After-sales/software support status for Jiyue owners after 2024 not researched."
+  ]
+}

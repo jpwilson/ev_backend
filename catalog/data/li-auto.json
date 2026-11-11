@@ -1,0 +1,852 @@
+{
+  "make": {
+    "slug": "li-auto",
+    "name": "Li Auto",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Beijing, China",
+    "founded": 2015,
+    "parent_group": null,
+    "website_url": "https://www.lixiang.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Chinese carmaker (Lixiang) best known for range-extender SUVs (Li One, L6-L9, not listed here). Its battery-electric cars are the Mega MPV (2024) and the i-series SUVs i8, i6 and i9 (2025-2026).",
+    "sources": [
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Li_Auto",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "li-auto-mega",
+      "url_slug": "mega",
+      "name": "Mega",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.lixiang.com/mega",
+      "description": "Li Auto's first battery-electric car, a seven-seat MPV with a 0.215 drag coefficient, on sale in China since March 2024. Early sales were poor after criticism of its styling; a Home trim with swivelling seats came in 2025 and a heavily updated version, marketed as a new generation, in September 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Li_Mega",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Li_Auto",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "W01",
+          "platform": null,
+          "start_year": 2024,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Dual-motor 400 kW MPV with a 102.7 kWh CATL Qilin pack and 5C charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%28CHN-Shanghai%29_Private_Li_Mega_%E6%B2%AAAE013E1_2024-11-21.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Shanghai%29_Private_Li_Mega_%E6%B2%AAAE013E1_2024-11-21.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 102.7,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 400,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.5,
+              "top_speed_mph": 112,
+              "dc_kw": 520,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 710,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 559800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_Mega",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2024/03/01/li-auto-mega-enters-chinese-market-with-a-starting-price-of-77800-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 update (Home)",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Restyled front and rear, new interior with swivelling second row, steer-by-wire, rear-wheel steering and a 413 kW drive; sold only as the Home trim.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Li_Auto_Mega_facelift_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_Mega_facelift_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "home-awd",
+              "name": "Home AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 108.0,
+              "battery_basis": null,
+              "power_hp": 554,
+              "torque_lbft": 485,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 710,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 509800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2026/09/02/li-auto-launches-new-generation-mega/",
+                  "name": "CnEVPost"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_Mega",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "li-auto-i8",
+      "url_slug": "i8",
+      "name": "i8",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.lixiang.com/i8",
+      "description": "Six-seat full-size electric SUV, the first of Li Auto's i-series, launched on 29 July 2025. After weak orders Li Auto cut it to a single trim a week later; a cheaper rear-drive version followed in August 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-07",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Li_i8",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "800-volt drive with 5C charging; 150 kW front and 250 kW rear motors.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Li_Auto_i8_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_i8_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "AWD (97.8 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 97.8,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 720,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 339800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/08/05/li-auto-relaunches-i8/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "rwd",
+              "name": "RWD (97.8 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 97.8,
+              "battery_basis": null,
+              "power_hp": 335,
+              "torque_lbft": 313,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.6,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 780,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": 309800,
+                  "launch_price": null,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2026/08/06/li-auto-launches-the-rwd-i8-crossover-to-fight-sluggish-sales/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd-90-kwh",
+              "name": "AWD Pro (90.1 kWh)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": 2025,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 90.1,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 670,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 321800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i8",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://cnevpost.com/2025/08/05/li-auto-relaunches-i8/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "li-auto-i6",
+      "url_slug": "i6",
+      "name": "i6",
+      "aliases": [
+        "Li 6"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.lixiang.com/i6",
+      "description": "Two-row mid-size electric SUV launched in China in September 2025, a smaller sibling of the i8. Updated in October 2026 with Li Auto's own 96 kWh battery and a 29-inch dashboard screen; due in Europe as the Li 6 in early 2027.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": "Li 6"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Li_i6",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "87.3 kWh CATL LFP pack, 250 kW rear motor; AWD adds a 150 kW front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Li_Auto_i6_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_i6_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": 2026,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 87.3,
+              "battery_basis": null,
+              "power_hp": 335,
+              "torque_lbft": 313,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.5,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 720,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 249800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i6",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/26/li-auto-i6-electric-crossover-launched-in-china-for-35010-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": 2026,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 87.3,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 660,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 277800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i6",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/26/li-auto-i6-electric-crossover-launched-in-china-for-35010-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "2026 update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "October 2026 update: in-house Lianshan 96 kWh LFP pack, single 29-inch screen, Mach M100 chip, 200 km/h top speed.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 96.0,
+              "battery_basis": null,
+              "power_hp": 335,
+              "torque_lbft": 313,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.8,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 780,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 96.0,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.8,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 710,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "li-auto-i9",
+      "url_slug": "i9",
+      "name": "i9",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.lixiang.com",
+      "description": "Largest model of Li Auto's electric i-series, a six-seat full-size SUV launched on 16 September 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Li_i9",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "price",
+            "range"
+          ],
+          "url": "https://carnewschina.com/2026/09/16/li-auto-launches-i9-ev-in-china-worlds-most-aerodynamic-mass-production-suv-at-0-215-cd/",
+          "name": "CarNewsChina"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor 400 kW drive with a 101 kWh NMC pack and 5C charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Li_Auto_i9_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_i9_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0 1.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 6,
+              "battery_kwh": 101.0,
+              "battery_basis": null,
+              "power_hp": 536,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.9,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 705,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 369800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2026/09/16/li-auto-launches-i9-ev-in-china-worlds-most-aerodynamic-mass-production-suv-at-0-215-cd/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Li_i9",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Mega 2026 battery: CnEVPost gives 108 kWh while Wikipedia says range and charging carry over from the 102.7 kWh car; 108 kWh recorded.",
+    "i6 2026 and Mega 2026 per-trim prices beyond the base Mega not sourced.",
+    "i9 top speed and torque split not sourced."
+  ]
+}

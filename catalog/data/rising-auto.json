@@ -1,0 +1,675 @@
+{
+ "make": {
+  "slug": "rising-auto",
+  "name": "Rising Auto",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Shanghai, China",
+  "founded": 2020,
+  "parent_group": "SAIC Motor",
+  "website_url": null,
+  "status": "acquired",
+  "status_date": "2024-10",
+  "status_details": "Ended independent operation in October 2024 and became a high-end product line of SAIC's Roewe brand.",
+  "description": "SAIC Motor's electric-car brand, launched in May 2020 as Roewe's 'R' line and renamed Rising Auto (Feifan) in November 2021. It sold the Marvel R and ER6, then the R7 SUV and F7 sedan, and offered battery swapping from 2023. In October 2024 it was folded back into Roewe.",
+  "sources": [
+   {
+    "fields": [
+     "status",
+     "history",
+     "models"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Rising_Auto",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "rising-auto-marvel-r",
+   "url_slug": "marvel-r",
+   "name": "Marvel R",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Compact electric SUV launched in November 2020 as the first model of SAIC's R brand, sold in China until 2022 and in Europe as the MG Marvel R Electric.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2020-11",
+     "end": "2022",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "mg-marvel-r"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rising_Auto_Marvel_R",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Production version shown at Auto Guangzhou in November 2020; exported to Europe as the MG Marvel R Electric.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Roewe_Marvel_R_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_Marvel_R_001.jpg",
+       "credit": "Jengtingchen",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "marvel-r",
+       "name": "Marvel R",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2022,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_Marvel_R",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rising-auto-er6",
+   "url_slug": "er6",
+   "name": "ER6",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Compact electric sedan launched in August 2020, an electric derivative of the Roewe i6 sold under the R brand until 2022.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2020-08",
+     "end": "2022",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Roewe_i6",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rising_Auto",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Electric version of the Roewe i6 sedan with a 69.9 kWh battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Roewe_ER6_007.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_ER6_007.jpg",
+       "credit": "Jengtingchen",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "er6",
+       "name": "ER6",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2022,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.9,
+       "battery_basis": null,
+       "power_hp": 181,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Roewe_i6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rising-auto-r7",
+   "url_slug": "r7",
+   "name": "R7",
+   "aliases": [
+    "Feifan R7",
+    "MG S9 EV (show car)"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric coupe SUV sold in China from 2022 (Feifan R7), with a 0.238 Cd body and rear- or all-wheel drive. MG showed it in Europe as the MG S9 EV concept in 2024; sales fell sharply in 2025.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rising_Auto_R7",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Mid-size electric coupe SUV (production version of the ES33 concept) with a 90 kWh battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rising_R7_01_China_2023-04-21.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Rising_R7_01_China_2023-04-21.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "R7 RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 341,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_R7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "R7 Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 544,
+       "torque_lbft": 516,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_R7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2025 facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Model-year 2025 facelift shown at Auto Guangzhou 2024, with a nose matching the F7.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rising_R7_facelift_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Rising_R7_facelift_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "R7 RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_R7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "R7 Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_R7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rising-auto-f7",
+   "url_slug": "f7",
+   "name": "F7",
+   "aliases": [
+    "Feifan F7",
+    "MG9 EV (show car)"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric sedan launched in China in March 2023 (Feifan F7). MG showed it in Europe as the MG9 EV concept in 2024.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-03",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Rising_Auto_F7",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size electric sedan launched in March 2023.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Rising_Auto_F7_2023072301.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Rising_Auto_F7_2023072301.jpg",
+       "credit": "Evnerd",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "64-kwh-rwd",
+       "name": "F7 64 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_F7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "77-kwh-rwd",
+       "name": "F7 77 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 576,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_F7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "90-kwh-rwd",
+       "name": "F7 90 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 666,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_F7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "90-kwh-awd",
+       "name": "F7 90 kWh Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 544,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 600,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Rising_Auto_F7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341).",
+  "Marvel R (China): battery, power and range not sourced. R7: 600 km is NEDC with a swappable battery in the source; not attached to a version. R7 facelift specs not sourced.",
+  "F7: 64 kWh range and prices not sourced (source price titles conflict).",
+  "Current branding of the R7/F7 after the October 2024 merger (Rising vs Roewe badge) not confirmed.",
+  "NEDC ranges are not a supported cycle, so they are kept out of offerings: ER6: 620 km NEDC (CN)."
+ ]
+}

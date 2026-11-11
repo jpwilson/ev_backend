@@ -1,0 +1,98 @@
+{
+ "make": {
+  "slug": "infiniti",
+  "name": "Infiniti",
+  "legacy_id": null,
+  "country": "JP",
+  "headquarters": "Nishi-ku, Yokohama, Japan",
+  "founded": 1989,
+  "parent_group": "Nissan",
+  "website_url": "https://www.infiniti.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Nissan's luxury brand. It has announced electric plans several times (the LE sedan for 2014, an all-electrified line-up by 2021) but has not sold a battery-electric car.",
+  "sources": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Infiniti",
+    "name": "Wikipedia",
+    "fields": [
+     "history"
+    ]
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "infiniti-le",
+   "url_slug": "le",
+   "name": "LE",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Leaf-based electric luxury sedan shown as a 'production intent' concept at the 2012 New York Auto Show and promised for 2014. It was put on hold in 2013 and Infiniti said in 2015 it would not have such a car before 2020.",
+   "markets": {
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Infiniti_LE",
+     "name": "Wikipedia",
+     "fields": [
+      "status",
+      "history"
+     ]
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2014",
+     "name": "Planned production model",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Nissan EV platform",
+     "start_year": 2014,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Planned 100 kW front-drive sedan with a 24 kWh-class battery and wireless charging; never built.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Infiniti_LE_concept_--_2012_NYIAS.JPG",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Infiniti_LE_concept_--_2012_NYIAS.JPG",
+       "credit": "IFCAR",
+       "license": "Public domain",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/Infiniti_LE",
+       "name": "Wikipedia",
+       "fields": [
+        "status",
+        "history"
+       ]
+      }
+     ],
+     "variants": []
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Infiniti is not in the legacy makes table (no legacy_id).",
+  "Status of Infiniti's later EV plans (Vision Qe concept, 2023; a US-built EV planned for Canton, Mississippi) not verified in this run; not listed."
+ ]
+}

@@ -1,0 +1,478 @@
+{
+  "make": {
+    "slug": "hiphi",
+    "name": "HiPhi",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shanghai, China",
+    "founded": 2019,
+    "parent_group": "Human Horizons",
+    "website_url": "https://www.hiphi.com",
+    "status": "defunct",
+    "status_date": "2024-02-18",
+    "status_details": "Halted production in February 2024; a court accepted Human Horizons' bankruptcy pre-reorganization application in August 2024. Lebanon's EV Electra announced an investment in May 2025 to restart the brand, but a production restart has not been confirmed.",
+    "description": "Luxury EV brand of Human Horizons, known for the gull-winged HiPhi X, HiPhi Z and HiPhi Y. Production stopped in February 2024.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://cnevpost.com/2024/02/18/hiphi-halts-production-for-6-months/",
+        "name": "CnEVPost"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://finance.sina.com.cn/roll/2024-08-12/doc-incikvpa4439547.shtml",
+        "name": "Sina Finance"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://electrek.co/2025/05/22/hiphi-financially-rescued-ev-electra-bev-development-resume/",
+        "name": "Electrek"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/HiPhi",
+        "name": "Wikipedia: HiPhi"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "hiphi-x",
+      "url_slug": "x",
+      "name": "X",
+      "aliases": [
+        "HiPhi 1"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Full-size luxury SUV with 'NT' gull-wing rear doors, HiPhi's first car (deliveries from 2021). Ended when HiPhi halted production in 2024.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2021-05",
+          "end": "2024",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/HiPhi_X",
+          "name": "Wikipedia: HiPhi X"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://cnevpost.com/2024/02/18/hiphi-halts-production-for-6-months/",
+          "name": "CnEVPost"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Dual-motor AWD, 440 kW, 97 kWh pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/2021_HiPhi_X.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_HiPhi_X.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "AWD (97 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 97.0,
+              "battery_basis": "gross",
+              "power_hp": 590,
+              "torque_lbft": 605,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 550,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 570000,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/HiPhi_X",
+                  "name": "Wikipedia: HiPhi X"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://cleantechnica.com/2020/11/08/hiphi-x-offers-true-electric-luxury-for-techluxe-price/",
+                  "name": "CleanTechnica"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hiphi-z",
+      "url_slug": "z",
+      "name": "Z",
+      "aliases": [
+        "HiPhi A"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Five-door luxury GT (shooting brake) delivered from 2023 and sold briefly in Europe; a HiPhi A version developed with Apollo was announced but production stopped in 2024.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2023",
+          "end": "2024",
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2023",
+          "end": "2024",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/HiPhi_Z",
+          "name": "Wikipedia: HiPhi Z"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://cnevpost.com/2024/02/18/hiphi-halts-production-for-6-months/",
+          "name": "CnEVPost"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Dual-motor AWD with a 120 kWh pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/2023_HiPhi_Z_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_HiPhi_Z_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "AWD (120 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 120.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/HiPhi_Z",
+                  "name": "Wikipedia: HiPhi Z"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hiphi-y",
+      "url_slug": "y",
+      "name": "Y",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Mid-size SUV launched in July 2023 below the X, with the same upward-opening rear door sections; planned for several European markets.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2023-07",
+          "end": "2024",
+          "local_name": null
+        },
+        "EU": {
+          "status": "discontinued",
+          "launch": "2023",
+          "end": "2024",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/HiPhi_Y",
+          "name": "Wikipedia: HiPhi Y"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://cnevpost.com/2024/02/18/hiphi-halts-production-for-6-months/",
+          "name": "CnEVPost"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "331 hp RWD or 498 hp AWD; 76.6 or 115 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/2023_%D0%9DiPhi_Y_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_%D0%9DiPhi_Y_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-76",
+              "name": "RWD 76.6 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 76.6,
+              "battery_basis": "gross",
+              "power_hp": 331,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 560,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/HiPhi_Y",
+                  "name": "Wikipedia: HiPhi Y"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2023/07/15/hiphi-launches-hiphi-y-mainstream-premium-ev/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-115",
+              "name": "Long Range 115 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 115.0,
+              "battery_basis": "gross",
+              "power_hp": 331,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 810,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/HiPhi_Y",
+                  "name": "Wikipedia: HiPhi Y"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2023/07/15/hiphi-launches-hiphi-y-mainstream-premium-ev/",
+                  "name": "CnEVPost"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2024,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 498,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/HiPhi_Y",
+                  "name": "Wikipedia: HiPhi Y"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2023/07/15/hiphi-launches-hiphi-y-mainstream-premium-ev/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "HiPhi European prices and WLTP ranges not sourced.",
+    "HiPhi Z CLTC range and power not confirmed (Wikipedia's infobox figure looked wrong, left null).",
+    "HiPhi Y power split between the Long Range RWD and AWD versions not confirmed.",
+    "Whether HiPhi production resumed after the May 2025 EV Electra deal is not confirmed."
+  ]
+}

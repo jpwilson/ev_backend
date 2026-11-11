@@ -1,0 +1,370 @@
+{
+  "make": {
+    "slug": "faraday-future",
+    "name": "Faraday Future",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "El Segundo, California, USA",
+    "founded": 2014,
+    "parent_group": null,
+    "website_url": "https://www.ff.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": "Still operating in 2026 but deeply loss-making: it delivered only about 16 FF 91s by January 2025, has been under Nasdaq minimum-bid notices, and has shifted focus to the Faraday X (FX) brand and robotics.",
+    "description": "Faraday Future was founded in 2014 by Jia Yueting and spent nearly a decade developing the FF 91 luxury electric crossover, which finally entered low-volume production at Hanford, California in 2023. Its newer Faraday X brand sells the Super One MPV, based on a Chinese Great Wall model.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Faraday_Future",
+        "name": "Wikipedia: Faraday Future"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://theevreport.com/faraday-future-pauses-400v-super-one-pivots-to-800v-or-aiher-build",
+        "name": "The EV Report: FF pauses 400V Super One (2026)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "faraday-future-ff-91",
+      "url_slug": "ff-91",
+      "name": "FF 91",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.ff.com",
+      "description": "Large tri-motor luxury electric crossover first shown at CES 2017 and built in very small numbers at Hanford, California since 2023, starting with the 300-unit FF 91 2.0 Futurist Alliance at $309,000. Only a handful of cars a year have been delivered.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2023-05",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Faraday_Future_FF_91",
+          "name": "Wikipedia: Faraday Future FF 91"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Faraday_Future",
+          "name": "Wikipedia: Faraday Future"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "FF 91 2.0",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Production version (\"2.0\") with three motors, 1,050 hp and a 142 kWh battery.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Faraday_Future_FF91.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Faraday_Future_FF91.jpg",
+              "credit": "Carsandcoasters7",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "futurist-alliance",
+              "name": "FF 91 2.0 Futurist Alliance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 142.0,
+              "battery_basis": null,
+              "power_hp": 1050,
+              "torque_lbft": null,
+              "accel_0_60_s": 2.27,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 381,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 309000,
+                  "launch_price": 309000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Faraday_Future_FF_91",
+                  "name": "Wikipedia: Faraday Future FF 91"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://jalopnik.com/the-faraday-future-ff-91-2-0-will-only-cost-309-000-1850495349",
+                  "name": "Jalopnik: FF 91 2.0 will cost $309,000 (2023)"
+                }
+              ]
+            },
+            {
+              "slug": "futurist",
+              "name": "FF 91 2.0 Futurist",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 249000,
+                  "launch_price": 249000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Faraday_Future_FF_91",
+                  "name": "Wikipedia: Faraday Future FF 91"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://jalopnik.com/the-faraday-future-ff-91-2-0-will-only-cost-309-000-1850495349",
+                  "name": "Jalopnik: FF 91 2.0 will cost $309,000 (2023)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "faraday-future-ff-81",
+      "url_slug": "ff-81",
+      "name": "FF 81",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Mid-size electric SUV planned below the FF 91, originally for 2018 and later with a 2022 Korean manufacturing deal (Myoung Shin). It never launched.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Faraday_Future",
+          "name": "Wikipedia: Faraday Future"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Announced only; no production.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "FF 81 (announced)",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Faraday_Future",
+                  "name": "Wikipedia: Faraday Future"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "faraday-future-fx-super-one",
+      "url_slug": "fx-super-one",
+      "name": "FX Super One",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": "https://www.ff.com",
+      "description": "Large MPV sold under the Faraday X brand, unveiled in July 2025 and based on Great Wall's Wey Gaoshan. A few units went to partners in the UAE in early 2026, but in 2026 Faraday paused the original 400-volt program; first volume deliveries will be either an 800-volt battery-electric version or an extended-range (AIHER) version, subject to funding.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://theevreport.com/faraday-future-pauses-400v-super-one-pivots-to-800v-or-aiher-build",
+          "name": "The EV Report: FF pauses 400V Super One (2026)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.businesswire.com/news/home/20260129345889/en/Faraday-Future-Announces-New-FX-Super-One-Deliveries-in-the-Middle-East-as-It-Continues-to-Advance-Towards-the-Region%E2%80%99s-2026-Delivery-Goals/",
+          "name": "Business Wire: FX Super One UAE deliveries (Jan 2026)"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Faraday_Future",
+          "name": "Wikipedia: Faraday Future"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "800-volt battery-electric version under evaluation as of 2026; no specifications published.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "bev-800v",
+              "name": "800V battery-electric (planned)",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://theevreport.com/faraday-future-pauses-400v-super-one-pivots-to-800v-or-aiher-build",
+                  "name": "The EV Report: FF pauses 400V Super One (2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "FF 91 2.0 Futurist specs and the base FF 91 2.0 price never published.",
+    "Whether the FX Super One units delivered in the UAE in 2026 were battery-electric is unclear; 2026 BEV plan is unfunded.",
+    "FF 91 production status in late 2026 not confirmed by a dated source; marked current because no end has been announced.",
+    "FF ZERO 1 (2016 concept) not included: a non-running show car, never planned for sale."
+  ]
+}

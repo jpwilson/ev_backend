@@ -1,0 +1,2826 @@
+{
+ "make": {
+  "slug": "geely",
+  "name": "Geely",
+  "legacy_id": 5,
+  "country": "CN",
+  "headquarters": "Hangzhou, Zhejiang, China",
+  "founded": 1986,
+  "parent_group": "Zhejiang Geely Holding Group",
+  "website_url": "https://global.geely.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Chinese carmaker founded by Li Shufu in 1986; its group also owns Volvo Cars, Polestar, Lotus, smart, Zeekr and Lynk & Co. Geely Auto sells its own electric cars under the Geely Galaxy line, which absorbed the Geometry EV sub-brand in October 2024, and exports them as the EX2 and EX5.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Geely_Auto",
+    "name": "Wikipedia"
+   },
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Geometry_(marque)",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "geely-xingyuan",
+   "url_slug": "xingyuan",
+   "name": "Xingyuan",
+   "aliases": [
+    "EX2",
+    "Geely E2",
+    "Star Wish",
+    "Geome Xingyuan"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Small rear-drive electric hatchback launched in September 2024; it was China's best-selling car in 2025. Exported as the Geely EX2 (E2 in the EU and South Africa) and built in Malaysia as the Proton eMas 5.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": "EX2"
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2026-08",
+     "end": null,
+     "local_name": "E2"
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2026-08",
+     "end": null,
+     "local_name": "EX2"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geely_Xingyuan",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Xingyuan",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation; 30.1 or 40.2 kWh CATL LFP at launch, a 47.1 kWh pack added with the 2026 update.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2025_Geely_Xingyuan%2C_front_7.28.25.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Geely_Xingyuan%2C_front_7.28.25.jpg",
+       "credit": "Kevauto",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "310",
+       "name": "310 km (30.1 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 30.1,
+       "battery_basis": null,
+       "power_hp": 78,
+       "torque_lbft": 96,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 78,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 310,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 69800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 310,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 59800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely/stars-desire/2025/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://data.carnewschina.com/database/geely/stars-desire",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "410",
+       "name": "410 km (40.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 40.2,
+       "battery_basis": null,
+       "power_hp": 114,
+       "torque_lbft": 111,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 84,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 410,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 82800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely/stars-desire/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "480",
+       "name": "480 km (47.1 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 47.1,
+       "battery_basis": null,
+       "power_hp": 114,
+       "torque_lbft": 111,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 480,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Xingyuan",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely/stars-desire",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-galaxy-e5",
+   "url_slug": "galaxy-e5",
+   "name": "Galaxy E5",
+   "aliases": [
+    "EX5",
+    "Geely E5",
+    "Galaxy EX5"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact front-drive electric SUV launched in China in August 2024 and exported as the Geely EX5 (Europe, UK, Australia and others) and built as the Proton eMas 7 in Malaysia. A rear-drive 2027 model-year facelift was revealed in September 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-08",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025-03",
+     "end": null,
+     "local_name": "EX5"
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025-06",
+     "end": null,
+     "local_name": "EX5"
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025-10",
+     "end": null,
+     "local_name": "EX5"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_E5",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Galaxy E5",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Launch version: 160 kW front motor and 49.5/60.2 kWh LFP Aegis blade packs; a 68.4 kWh pack arrived in July 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Geely_Galaxy_E5_003_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_E5_003_%28cropped%29.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "49-kwh",
+       "name": "440 / Standard Range (49.5 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 49.52,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 112,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 440,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 85800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 345,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/galaxy-e5/2024/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_E5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "60-kwh",
+       "name": "530 / Long Range (60.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 60.22,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 112,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 530,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 101800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 530,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 101800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 425,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/galaxy-e5/2024/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/galaxy-e5/2026/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_E5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "68-kwh",
+       "name": "610 (68.4 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 68.39,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 112,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 610,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 117800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/galaxy-e5/2026/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "2027 model-year facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelift revealed 21 September 2026: switches to a 245 kW rear motor, second-generation Aegis packs (61.5/70 kWh) and up to 460 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Geely_Galaxy_E5_facelift_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_E5_facelift_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd-61-kwh",
+       "name": "RWD 61.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 61.52,
+       "battery_basis": null,
+       "power_hp": 329,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.2,
+       "top_speed_mph": null,
+       "dc_kw": 460,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 550,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_E5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "rwd-70-kwh",
+       "name": "RWD 70 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 70.01,
+       "battery_basis": null,
+       "power_hp": 329,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.8,
+       "top_speed_mph": null,
+       "dc_kw": 460,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 635,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_E5",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-galaxy-e8",
+   "url_slug": "galaxy-e8",
+   "name": "Galaxy E8",
+   "aliases": [
+    "Geely E8"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric fastback sedan on the SEA platform, previewed by the Galaxy Light concept and on sale in China since early 2024. The 2025 model year (March 2025) brought a stronger 250 kW rear motor.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-01",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Galaxy E8",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation so far; rear-drive or 475 kW dual-motor AWD, LFP packs from 62 to 76 kWh.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Geely_Galaxy_E8_20231120_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_E8_20231120_%28cropped%29.jpg",
+       "credit": "Nissangeniss",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "550-rwd-2024",
+       "name": "550 RWD (62 kWh, 2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.0,
+       "top_speed_mph": 118,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 550,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 137800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-e8/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "665-rwd-2024",
+       "name": "665 RWD (76 kWh, 2024)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 76.0,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.0,
+       "top_speed_mph": 118,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 665,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 170800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-e8/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "575-rwd",
+       "name": "575 RWD (62 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 575,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 141800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-e8/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "610-rwd",
+       "name": "610 RWD (67.8 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 67.8,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 610,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 153800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-e8/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "700-rwd",
+       "name": "700 RWD (76 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 76.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.6,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 700,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 170800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-e8/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "620-awd",
+       "name": "620 AWD Starship (75.6 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 75.6,
+       "battery_basis": null,
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.5,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 187800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 190800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-e8/2024/params",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-e8/2025/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-galaxy-a7",
+   "url_slug": "galaxy-a7",
+   "name": "Galaxy A7 EV",
+   "aliases": [
+    "Galaxy A7"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size sedan sold mainly as a plug-in hybrid since August 2025; the battery-electric A7 EV launched on 22 April 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "A7 EV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Battery-electric version with a 160 kW front motor and 49.5 or 58 kWh LFP packs.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Geely_Galaxy_A7_EV_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_A7_EV_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "550",
+       "name": "550 (58 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 58.05,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 550,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 102800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-galaxy-a7-ev",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_A7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "49-kwh",
+       "name": "49.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 49.52,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_A7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-galaxy-starship-7",
+   "url_slug": "galaxy-starship-7",
+   "name": "Galaxy Starship 7 EV",
+   "aliases": [
+    "Xingjian 7 EV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact SUV sold mainly as a plug-in hybrid (exported as the EX5 EM-i); the battery-electric Starship 7 EV was unveiled at Auto Beijing 2026 and launched in June 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-06",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Starship 7 EV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Battery-electric version with a 160 kW front motor and 60.2 or 68.4 kWh LFP packs.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "525",
+       "name": "525 (60.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.22,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 525,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 99800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-starship-7-ev",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_Starship_7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "605",
+       "name": "605 (68.4 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 68.39,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": 236,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 605,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 109800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-starship-7-ev",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Galaxy_Starship_7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-galaxy-starshine-8",
+   "url_slug": "galaxy-starshine-8",
+   "name": "Galaxy Starshine 8 EV",
+   "aliases": [
+    "Xingyao 8 EV"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Large sedan (Xingyao 8) sold as a plug-in hybrid; a battery-electric version is listed but had not been released as of November 2026.",
+   "markets": {
+    "CN": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-starshine-8-ev",
+     "name": "CarNewsChina database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Starshine 8 EV",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Announced battery-electric version; specifications not yet published beyond an LFP pack and 210 km/h top speed.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-starshine-8-ev",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-galaxy-tt",
+   "url_slug": "galaxy-tt",
+   "name": "Galaxy TT",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Battery-electric mid-size sedan (about 5.0 m long) listed for 2026 with single- and dual-motor versions; not yet released as of November 2026.",
+   "markets": {
+    "CN": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-galaxy-tt",
+     "name": "CarNewsChina database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Galaxy TT",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Announced; LFP battery, single- or dual-motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Geely_Galaxy_TT_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_TT_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "single-motor",
+       "name": "Single motor",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 112,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-galaxy-tt",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor",
+       "name": "Dual motor",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-galaxy/geely-galaxy-galaxy-tt",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-panda-mini",
+   "url_slug": "panda-mini",
+   "name": "Panda Mini",
+   "aliases": [
+    "Panda Mini EV"
+   ],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Four-seat electric city car sold in China since 2023 with 9.6 or 17 kWh LFP packs. A 17.2 kWh 'Panda Warrior' version was added in June 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-02",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Panda Mini",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation; rear motor, 20 or 30 kW.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/2022_Geely_Panda_Mini_EV_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Geely_Panda_Mini_EV_%28front%29.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "120km",
+       "name": "120 km (9.6 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 9.6,
+       "battery_basis": null,
+       "power_hp": 27,
+       "torque_lbft": 63,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 62,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 120,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 39900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely/geely-panda-mini/2023/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "200km",
+       "name": "200 km (17 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 17.0,
+       "battery_basis": null,
+       "power_hp": 40,
+       "torque_lbft": 81,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 62,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2023,
+         "range": 200,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 49900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely/geely-panda-mini/2023/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "panda-warrior",
+       "name": "Panda Warrior (17.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 17.2,
+       "battery_basis": null,
+       "power_hp": 40,
+       "torque_lbft": 81,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 210,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 43900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely/geely-panda-mini",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-geometry-a",
+   "url_slug": "geometry-a",
+   "name": "Geometry A",
+   "aliases": [
+    "Geometry G6",
+    "Geometry A Pro"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact electric sedan that launched the Geometry sub-brand in 2019. It was facelifted and renamed Geometry G6 in late 2022, then switched to cheaper LFP packs in September 2023. Geometry was folded into the Geely Galaxy dealer network in October 2024.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2019-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geometry_(marque)",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geely_Galaxy",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "Geometry A",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Original sedan with 51.9 or 61.9 kWh packs and a 120 kW front motor; the A Pro (2021) raised output to 150 kW.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/2019_Geely_Geometry_A_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2019_Geely_Geometry_A_%28front%29.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Geometry_A",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard",
+       "name": "Standard (51.9 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 51.9,
+       "battery_basis": null,
+       "power_hp": 161,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_A",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Long Range (61.9 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 61.9,
+       "battery_basis": null,
+       "power_hp": 161,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_A",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "a-pro",
+       "name": "A Pro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_A",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2022",
+     "name": "Geometry G6",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelift renamed G6 (November 2022) with NMC packs and CLTC ranges up to 620 km; the September 2023 update moved to 46.1/53.4 kWh LFP packs and a cheaper 100 kW base motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/2022_Geely_Geometry_G6.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Geely_Geometry_G6.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://carnewschina.com/2023/09/10/2024-geely-geometry-g6-all-electric-sedan-with-huawei-harmonyos-launched-price-starts-at-16500-usd/",
+       "name": "CarNewsChina"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "g6-480-nmc",
+       "name": "G6 480 (53 kWh NMC)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 53.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 480,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://carnewschina.com/2022/10/15/geometry-g6-electric-sedan-arrived-at-dealers-in-china-pre-sale-price-starts-at-21200-usd/",
+         "name": "CarNewsChina"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_A",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "g6-620-nmc",
+       "name": "G6 620 (70 kWh NMC)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 70.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 620,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://carnewschina.com/2022/10/15/geometry-g6-electric-sedan-arrived-at-dealers-in-china-pre-sale-price-starts-at-21200-usd/",
+         "name": "CarNewsChina"
+        }
+       ]
+      },
+      {
+       "slug": "g6-410-lfp",
+       "name": "G6 410 (46.1 kWh LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 46.1,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": 133,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 410,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 119800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-g6/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "g6-500-lfp",
+       "name": "G6 500 (53.4 kWh LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 53.4,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 103,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 500,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 147800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-g6/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-geometry-c",
+   "url_slug": "geometry-c",
+   "name": "Geometry C",
+   "aliases": [
+    "Geometry M6"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.geely.com/en/models/geometryc",
+   "description": "Compact electric crossover derived from the Emgrand GS, sold in China from 2020 and exported to markets such as Israel, Egypt and Mexico. The China car was facelifted and renamed Geometry M6 in late 2022; the Geometry C name ended in 2024.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2020",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geometry_C",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/List_of_Geely_vehicles",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "Geometry C",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Original crossover with 53 or 70 kWh CATL NMC packs and a 150 kW front motor.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/geely_geometry_c.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://en.wikipedia.org/wiki/List_of_Geely_vehicles",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "53-kwh",
+       "name": "53 kWh",
+       "legacy_ids": [
+        11
+       ],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 53.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2022,
+         "price": 133700,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-c",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_C",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "70-kwh",
+       "name": "70 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 70.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2022,
+         "range": 550,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 153700,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-c",
+         "name": "CarNewsChina database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_C",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2022",
+     "name": "Geometry M6",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelift sold as Geometry M6 from September 2022 with restyled ends and Huawei HarmonyOS; same 53/70 kWh NMC packs.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/2022_Geely_Geometry_M6_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Geely_Geometry_M6_%28front%29.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "m6-450",
+       "name": "M6 450 (53 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 53.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 137800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-m6/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "m6-580",
+       "name": "M6 580 (70 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 70.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 93,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 580,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 160800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-m6/2024/params",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-geometry-e",
+   "url_slug": "geometry-e",
+   "name": "Geometry E",
+   "aliases": [
+    "Geometry E Firefly"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Subcompact electric crossover (the 'Firefly') launched in 2022 as the successor to the Geometry EX3, with small LFP packs and a 60 kW front motor.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "geely-geometry-ex3"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geometry_E",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "Geometry E",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Only generation; 33.5 or 39.4 kWh LFP packs, 60 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/2022_Geely_Geometry_E_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Geely_Geometry_E_%28front%29.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "33-kwh",
+       "name": "Standard (33.5 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 33.5,
+       "battery_basis": null,
+       "power_hp": 80,
+       "torque_lbft": 96,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 75,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "price": 59800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_E",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-e-firefly",
+         "name": "CarNewsChina database"
+        }
+       ]
+      },
+      {
+       "slug": "39-kwh",
+       "name": "Long Range (39.4 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 39.4,
+       "battery_basis": null,
+       "power_hp": 80,
+       "torque_lbft": 96,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 75,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 401,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 79800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geometry_E",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-e-firefly",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-geometry-ex3",
+   "url_slug": "geometry-ex3",
+   "name": "Geometry EX3",
+   "aliases": [
+    "Kungfu Cow",
+    "Gongfu Niu"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the Geely Vision X3 small SUV, sold as the 'Kungfu Cow' in 2021 only and replaced by the Geometry E in 2022.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2021-02",
+     "end": "2022",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geometry_EX3",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/List_of_Geely_vehicles",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "Geometry EX3",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Only generation; 37.2 kWh NMC pack and a 70 kW front motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2021_Geely_Geometry_EX3.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2021_Geely_Geometry_EX3.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "kungfu-cow",
+       "name": "Kungfu Cow (37.2 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 37.2,
+       "battery_basis": null,
+       "power_hp": 94,
+       "torque_lbft": 133,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2021,
+         "range": 322,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 68800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-geometry-ex3-kung-fu-cow",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-emgrand-ev-pro",
+   "url_slug": "emgrand-ev-pro",
+   "name": "Emgrand EV Pro",
+   "aliases": [
+    "Emgrand GL EV"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the Emgrand GL / Emgrand L sedan, introduced in December 2020 and widely used as a taxi; electric production ended in 2025.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2020-12",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Geely_Emgrand_GL",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/List_of_Geely_vehicles",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "Emgrand EV Pro",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Only generation; 52.7 kWh pack and 150 kW front motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Geely_Emgrand_EV_Pro_taxi_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Emgrand_EV_Pro_taxi_001.jpg",
+       "credit": "Quzhouliulian",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "52-kwh",
+       "name": "52.7 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.7,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": 177,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Emgrand_GL",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "geely-emgrand-gse",
+   "url_slug": "emgrand-gse",
+   "name": "Emgrand GSe",
+   "aliases": [
+    "Emgrand GS EV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the first-generation Emgrand GS crossover, revealed in 2018 and sold in China until 2020; the Geometry C took over its role.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2018",
+     "end": "2020",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://zh.wikipedia.org/wiki/吉利帝豪",
+     "name": "Wikipedia (zh)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2018",
+     "name": "Emgrand GSe",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2020,
+     "status": "discontinued",
+     "description": "Only generation; NMC packs of about 52 to 62 kWh and a single front motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/2018_Geely_Emgrand_GSe_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2018_Geely_Emgrand_GSe_%28front%29.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "2018",
+       "name": "GSe (2018-2019)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 164,
+       "torque_lbft": 184,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Geely_Emgrand_GS",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "2020-61-kwh",
+       "name": "GSe 61.9 kWh (2020)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2020,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 61.9,
+       "battery_basis": null,
+       "power_hp": 174,
+       "torque_lbft": 199,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2020,
+         "price": 109800,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://data.carnewschina.com/database/geely-geometry/geely-emgrand-gse",
+         "name": "CarNewsChina database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 11,
+   "note": "Legacy 'Geometry C Standard' mixes facts: 51.9 kWh is the Geometry A pack (Geometry C uses 53/70 kWh), the 255 mi 'EPA' range is not an EPA rating (the car was never sold in the US), and the USD 22,300 price has no stated market. Its full_slug says geometry-a. Mapped to the 53 kWh Geometry C; the Geometry C name ended in 2024 and the car continues as the Geometry M6 refresh."
+  }
+ ],
+ "gaps": [
+  "Web search budget ran out early in this run; facts after 2024 come from Wikipedia and the CarNewsChina database (fetched directly), not from maker press releases.",
+  "Geometry G6, M6 and E status: still listed as current in the Galaxy 'Star Network', but Geometry-branded sales were 32 units in July 2026 (CarNewsChina brand page), so they may be in run-out; no discontinuation notice found.",
+  "Galaxy E5 2027 facelift: revealed 21 Sep 2026; on-sale date and prices not confirmed, marked current.",
+  "Emgrand EV sedan (EV300/EV450/EV500, 2015-) not included: no reachable source with specs or dates (CarNewsChina page blocked by a bot check).",
+  "Export offerings (EX5/EX2 in UK, EU, AU) lack prices; only WLTP 345/425 km for the EX5 49.5/60.2 kWh are recorded.",
+  "NEDC-only ranges (Geometry A, Emgrand EV Pro, Emgrand GSe, Geometry C 53 kWh) omitted because NEDC is not an allowed cycle.",
+  "Geometry E: pairing of the 301 km CLTC trims with the 33.5 kWh pack is inferred; range left null on that variant.",
+  "Galaxy A7 EV and Starship 7 EV torque: CarNewsChina lists 320 Nm; Wikipedia lists 300 Nm for the Starship 7 EV. Used CarNewsChina."
+ ]
+}

@@ -1,0 +1,6032 @@
+{
+ "make": {
+  "slug": "tesla",
+  "name": "Tesla",
+  "legacy_id": 1,
+  "country": "US",
+  "headquarters": "Austin, Texas, USA",
+  "founded": 2003,
+  "parent_group": null,
+  "website_url": "https://www.tesla.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "American electric-car maker founded in 2003, known for the Roadster, Model S, X, 3 and Y and the Cybertruck. The Model Y and Model 3 are its volume sellers; the Model S and X ended production in May 2026 and the Cybercab robotaxi and Semi truck entered production in 2026.",
+  "sources": [
+   {
+    "fields": [
+     "headquarters",
+     "founded"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "name": "Wikipedia: Tesla, Inc."
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "tesla-model-3",
+   "url_slug": "model-3",
+   "name": "Model 3",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.tesla.com/model3",
+   "description": "Tesla's mid-size electric sedan, delivered from July 2017 and one of the best-selling EVs of all time. The heavily refreshed 'Highland' version arrived in late 2023 (US 2024 model year), with a new Performance model in 2024 and a cheaper Standard trim in October 2025.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2017-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+     "name": "Wikipedia: Tesla Model 3"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://tslna.com/en/model-3-usa-guide/",
+     "name": "TSLNA"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2017",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2017,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "The original design, built 2017 to early 2024 in Fremont and Shanghai; Long Range and Performance packs grew to 82 kWh for 2021.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_m3_perf.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Standard Range RWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2020,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 130,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 220,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "launch_price": 35000,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 220,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "years",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41415.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42277.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "standard-range-plus",
+       "name": "Standard Range Plus RWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": 140,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 240,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 250,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 263,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41416.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42278.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43821.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        }
+       ]
+      },
+      {
+       "slug": "mid-range",
+       "name": "Mid Range RWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2018,
+       "year_to": 2020,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 260,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 264,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 264,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41056.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41188.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42276.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2017,
+       "year_to": 2020,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 330,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39769.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39836.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41189.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42274.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [
+        24
+       ],
+       "status": "discontinued",
+       "year_from": 2018,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 82.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.2,
+       "accel_0_100_s": null,
+       "top_speed_mph": 145,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 322,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 353,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 358,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 358,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/40385.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41190.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42275.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43401.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45011.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46204.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        }
+       ]
+      },
+      {
+       "slug": "performance",
+       "name": "Performance AWD",
+       "legacy_ids": [
+        4
+       ],
+       "status": "discontinued",
+       "year_from": 2018,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 82.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": 162,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 322,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/40386.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41191.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42279.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43402.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45012.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46205.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        }
+       ]
+      },
+      {
+       "slug": "rwd",
+       "name": "RWD (LFP battery)",
+       "legacy_ids": [
+        23
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 57.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": 140,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45013.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46206.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "Highland",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "Highland",
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Major refresh with new front and rear styling, a new interior with rear screen, better range and refinement; deliveries began October 2023 outside North America and January 2024 in the US.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_m3_std_range.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard-rwd",
+       "name": "Standard RWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 321,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 36990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 321,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 38380,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://tslna.com/en/model-3-usa-guide/",
+         "name": "TSLNA: 2026 Tesla Model 3 USA guide"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.carsdirect.com/automotive-news/2026-tesla-model-3-mid-year-changes-explained",
+         "name": "CarsDirect: 2026 Model 3 mid-year changes"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50251.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51067.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      },
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [
+        204
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": 125,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 272,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47909.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        }
+       ]
+      },
+      {
+       "slug": "premium-rwd",
+       "name": "Premium RWD (Long Range RWD)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 78.1,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": 125,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 363,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 363,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 363,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 42490,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 363,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 43880,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://tslna.com/en/model-3-usa-guide/",
+         "name": "TSLNA: 2026 Tesla Model 3 USA guide"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.carsdirect.com/automotive-news/2026-tesla-model-3-mid-year-changes-explained",
+         "name": "CarsDirect"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48795.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48765.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50038.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51066.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      },
+      {
+       "slug": "premium-awd",
+       "name": "Premium AWD (Long Range AWD)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 78.1,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": 125,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 342,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 346,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 346,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 47490,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 346,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 48880,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.carsdirect.com/automotive-news/2026-tesla-model-3-mid-year-changes-explained",
+         "name": "CarsDirect: 2026 Model 3 mid-year changes"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://tslna.com/en/model-3-usa-guide/",
+         "name": "TSLNA"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47908.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48764.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50037.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51065.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      },
+      {
+       "slug": "performance",
+       "name": "Performance",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 78.1,
+       "battery_basis": null,
+       "power_hp": 528,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": 163,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 298,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 309,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 54990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 316,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 56380,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.carsdirect.com/automotive-news/2026-tesla-model-3-mid-year-changes-explained",
+         "name": "CarsDirect: 2026 Model 3 mid-year changes"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://tslna.com/en/model-3-usa-guide/",
+         "name": "TSLNA"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48796.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48996.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50036.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50861.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-model-y",
+   "url_slug": "model-y",
+   "name": "Model Y",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.tesla.com/modely",
+   "description": "Tesla's compact crossover, based on the Model 3 and on sale since March 2020; it became the world's best-selling car in 2023. The 'Juniper' refresh launched in 2025 (US 2026 model year) with new styling and interior; cheaper Standard RWD and AWD versions followed in October 2025 and February 2026. A long-wheelbase six-seat Model Y L is listed separately.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2020-03",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+     "name": "Wikipedia: Tesla Model Y"
+    },
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://gettesla.com/models/model-y",
+     "name": "GetTesla: 2026 Model Y price, range and trims"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "The original design, built 2020-2025 in Fremont, Shanghai, Berlin and Austin; optional third row (7 seats) in the US.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_my_lr.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [
+        31
+       ],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": 135,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 316,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 326,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 330,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 330,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 310,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 311,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42916.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43406.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45018.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46212.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47913.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48770.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        }
+       ]
+      },
+      {
+       "slug": "performance",
+       "name": "Performance AWD",
+       "legacy_ids": [
+        3
+       ],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": 155,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 279,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 277,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42474.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43407.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45019.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46213.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47914.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48772.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        }
+       ]
+      },
+      {
+       "slug": "standard-range-rwd",
+       "name": "Standard Range RWD (2021)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2021,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 280,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": 135,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 244,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43880.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        }
+       ]
+      },
+      {
+       "slug": "awd-4680",
+       "name": "AWD (4680 cells)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 279,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 279,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45196.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46211.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        }
+       ]
+      },
+      {
+       "slug": "rwd",
+       "name": "RWD",
+       "legacy_ids": [
+        32
+       ],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 260,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48476.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 320,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 337,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48475.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48771.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Juniper",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "Juniper",
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Refresh with full-width light bars, new interior with rear screen and ventilated seats, quieter ride and more range; launched January 2025 in China and as the 2026 model year in the US. 'Long Range' was renamed 'Premium' in October 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_Model_Y_Premium_%28Facelift%29_%E2%80%93_f_19102025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_Premium_(Facelift)_%E2%80%93_f_19102025.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard-rwd",
+       "name": "Standard RWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 6.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 321,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 39990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 321,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://gettesla.com/models/model-y",
+         "name": "GetTesla: 2026 Model Y price, range and trims"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50040.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51072.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      },
+      {
+       "slug": "standard-awd",
+       "name": "Standard AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 41990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://gettesla.com/models/model-y",
+         "name": "GetTesla: 2026 Model Y price, range and trims"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50304.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51068.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      },
+      {
+       "slug": "premium-rwd",
+       "name": "Premium RWD (Long Range RWD)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 5.4,
+       "accel_0_100_s": null,
+       "top_speed_mph": 125,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 357,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 45990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 355,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://gettesla.com/models/model-y",
+         "name": "GetTesla: 2026 Model Y price, range and trims"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49743.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51071.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      },
+      {
+       "slug": "premium-awd",
+       "name": "Premium AWD (Long Range AWD)",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": 125,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 327,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 49990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 327,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://gettesla.com/models/model-y",
+         "name": "GetTesla: 2026 Model Y price, range and trims"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49744.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51070.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      },
+      {
+       "slug": "performance",
+       "name": "Performance",
+       "legacy_ids": [
+        203
+       ],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 460,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.3,
+       "accel_0_100_s": null,
+       "top_speed_mph": 155,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 306,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 57990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 306,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://gettesla.com/models/model-y",
+         "name": "GetTesla: 2026 Model Y price, range and trims"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50253.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/51069.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-model-y-l",
+   "url_slug": "model-y-l",
+   "name": "Model Y L",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.tesla.com/modely",
+   "description": "A long-wheelbase, six-seat (2+2+2) version of the refreshed Model Y with a 150 mm longer wheelbase. Launched in China in 2025 (deliveries from September 2025), in Australia in March 2026 and in the US in July 2026 as a $61,990 Launch Series built at Giga Texas.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2026-03",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+     "name": "Wikipedia: Tesla Model Y (Model Y L)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrek.co/2026/07/02/tesla-model-y-l-us-launch-61990/",
+     "name": "Electrek: Model Y L US launch"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2027,
+     "end_year": null,
+     "status": "current",
+     "description": "Juniper-based long-wheelbase Model Y with six seats; first sold in China in September 2025, US 2027 model year.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_03.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_L_Premium_Long_Range_AWD_Cosmic_Silver_03.jpg",
+       "credit": "Ethan Llamas",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "premium-awd",
+       "name": "Premium AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 6,
+       "battery_kwh": 82.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.4,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 328,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 61990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 751,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 339000,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/07/02/tesla-model-y-l-us-launch-61990/",
+         "name": "Electrek: Tesla Model Y L US launch at $61,990"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://carnewschina.com/2026/07/06/tesla-model-y-l-launched-in-the-us-12060-usd-pricier-than-in-china/",
+         "name": "CarNewsChina: Model Y L US vs China price"
+        },
+        {
+         "fields": [
+          "range",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+         "name": "Wikipedia: Tesla Model Y (Model Y L)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50862.shtml",
+         "name": "fueleconomy.gov (EPA), MY2027"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-model-s",
+   "url_slug": "model-s",
+   "name": "Model S",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": "https://www.tesla.com/models",
+   "description": "Tesla's full-size electric liftback sedan, built at Fremont from June 2012. It was facelifted in 2016 and heavily updated in 2021 (Plaid). Tesla announced the end of Model S and Model X in January 2026; the last Model S was built in May 2026, after a farewell Signature edition priced at $159,420.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2012-06",
+     "end": "2026-05",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrive.com/2026/05/11/final-tesla-model-s-rolls-off-the-production-line",
+     "name": "electrive: Final Tesla Model S rolls off the production line"
+    },
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+     "name": "Wikipedia: Tesla Model S"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2012",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2012,
+     "end_year": 2016,
+     "status": "discontinued",
+     "description": "The launch design with a black nose cone. Rear-drive 60 and 85 kWh cars first; dual-motor 'D' versions and Ludicrous-era P85D/P90D arrived for 2015.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Tesla_Model_S_SAO_2016_9184_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_SAO_2016_9184_(cropped).jpg",
+       "credit": "Mariordo (Mario Roberto Durán Ortiz)",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "60",
+       "name": "Model S 60",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2013,
+       "year_to": 2015,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.0,
+       "battery_basis": null,
+       "power_hp": 302,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2013,
+         "range": 208,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2014,
+         "range": 208,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 208,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/33367.shtml",
+         "name": "fueleconomy.gov (EPA), MY2013"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/34776.shtml",
+         "name": "fueleconomy.gov (EPA), MY2014"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36017.shtml",
+         "name": "fueleconomy.gov (EPA), MY2015"
+        }
+       ]
+      },
+      {
+       "slug": "85",
+       "name": "Model S 85",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2012,
+       "year_to": 2015,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 85.0,
+       "battery_basis": null,
+       "power_hp": 362,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2012,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2013,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2014,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 265,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/32557.shtml",
+         "name": "fueleconomy.gov (EPA), MY2012"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/33368.shtml",
+         "name": "fueleconomy.gov (EPA), MY2013"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/34775.shtml",
+         "name": "fueleconomy.gov (EPA), MY2014"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/35980.shtml",
+         "name": "fueleconomy.gov (EPA), MY2015"
+        }
+       ]
+      },
+      {
+       "slug": "p85",
+       "name": "Model S P85",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2012,
+       "year_to": 2014,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 85.0,
+       "battery_basis": null,
+       "power_hp": 416,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "70d",
+       "name": "Model S 70D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2015,
+       "year_to": 2016,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 70.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 240,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36126.shtml",
+         "name": "fueleconomy.gov (EPA), MY2015"
+        }
+       ]
+      },
+      {
+       "slug": "85d",
+       "name": "Model S 85D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2015,
+       "year_to": 2016,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 85.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36009.shtml",
+         "name": "fueleconomy.gov (EPA), MY2015"
+        }
+       ]
+      },
+      {
+       "slug": "p85d",
+       "name": "Model S P85D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2015,
+       "year_to": 2016,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 85.0,
+       "battery_basis": null,
+       "power_hp": 691,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 253,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36008.shtml",
+         "name": "fueleconomy.gov (EPA), MY2015"
+        }
+       ]
+      },
+      {
+       "slug": "90d",
+       "name": "Model S 90D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2015,
+       "year_to": 2016,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36786.shtml",
+         "name": "fueleconomy.gov (EPA), MY2015"
+        }
+       ]
+      },
+      {
+       "slug": "p90d",
+       "name": "Model S P90D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2015,
+       "year_to": 2016,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 253,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36787.shtml",
+         "name": "fueleconomy.gov (EPA), MY2015"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2016",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2016,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "April 2016 facelift replaced the nose cone with a body-colour front; new 75/100 kWh packs, P100D, and from 2019 the Standard, Long Range and Performance line-up.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tesla_Model_S_%28Facelift_ab_04-2016%29_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Tesla_Model_S_(Facelift_ab_04-2016)_(cropped).jpg",
+       "credit": "Peteratkins",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "75",
+       "name": "Model S 75",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 249,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 249,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/37421.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38558.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        }
+       ]
+      },
+      {
+       "slug": "60d",
+       "name": "Model S 60D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 218,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 218,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38171.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38523.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        }
+       ]
+      },
+      {
+       "slug": "75d",
+       "name": "Model S 75D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2019,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 259,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 259,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 259,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 259,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/37422.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38524.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39838.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41192.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        }
+       ]
+      },
+      {
+       "slug": "90d",
+       "name": "Model S 90D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 417,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 294,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/37240.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38569.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        }
+       ]
+      },
+      {
+       "slug": "p90d",
+       "name": "Model S P90D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/37242.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38537.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        }
+       ]
+      },
+      {
+       "slug": "100d",
+       "name": "Model S 100D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2017,
+       "year_to": 2019,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38640.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39839.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41193.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        }
+       ]
+      },
+      {
+       "slug": "p100d",
+       "name": "Model S P100D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2019,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 315,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38172.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38525.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39840.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41194.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        }
+       ]
+      },
+      {
+       "slug": "standard-range",
+       "name": "Model S Standard Range",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2020,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 285,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 287,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41513.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42285.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Model S Long Range",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2020,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 370,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 373,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41417.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42282.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-plus",
+       "name": "Model S Long Range Plus",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2021,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 402,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42755.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "performance",
+       "name": "Model S Performance",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 345,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 348,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 387,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41418.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42283.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43516.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2021",
+     "name": "2021 update (Plaid)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "Palladium",
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "New interior with yoke and landscape screen, new dual-motor drivetrain and the 1,020 hp tri-motor Plaid. Built until May 2026.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_ms_plaid.png",
+       "view": "side",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://electrive.com/2026/05/11/final-tesla-model-s-rolls-off-the-production-line",
+       "name": "electrive"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "Model S All-Wheel Drive (Long Range)",
+       "legacy_ids": [
+        29
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 670,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 405,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 405,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 405,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 402,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 410,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 109990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/research/tesla-model_s-2026/",
+         "name": "Cars.com: 2026 Tesla Model S"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44051.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45014.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46207.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47910.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49124.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49741.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        }
+       ]
+      },
+      {
+       "slug": "plaid",
+       "name": "Model S Plaid",
+       "legacy_ids": [
+        21
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": null,
+       "power_hp": 1020,
+       "torque_lbft": null,
+       "accel_0_60_s": 1.99,
+       "accel_0_100_s": null,
+       "top_speed_mph": 200,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 348,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 396,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 359,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 348,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 368,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 124990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/research/tesla-model_s-2026/",
+         "name": "Cars.com: 2026 Tesla Model S"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44069.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45015.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47911.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48766.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49742.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        }
+       ]
+      },
+      {
+       "slug": "plaid-plus",
+       "name": "Model S Plaid+",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-model-x",
+   "url_slug": "model-x",
+   "name": "Model X",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": "https://www.tesla.com/modelx",
+   "description": "Tesla's large SUV with rear 'Falcon Wing' doors and up to seven seats, built at Fremont from 2015 (2016 model year). Updated with a new interior and the tri-motor Plaid for 2022. Production ended alongside the Model S in May 2026.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2015-09",
+     "end": "2026-05",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrive.com/2026/05/11/final-tesla-model-s-rolls-off-the-production-line",
+     "name": "electrive: Final Tesla Model S rolls off the production line"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.cars.com/research/tesla-model_x-2026/",
+     "name": "Cars.com: Tesla has discontinued the Model X; 2026 is its final model year"
+    },
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+     "name": "Wikipedia: Tesla Model X"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2016",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2016,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Launch version with Falcon Wing rear doors and dual-motor AWD on every car; Raven-era Long Range and Performance versions from 2019.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/2017_Tesla_Model_X_100D_Front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2017_Tesla_Model_X_100D_Front.jpg",
+       "credit": "Vauxford",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "60d",
+       "name": "Model X 60D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 200,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 200,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38173.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38526.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        }
+       ]
+      },
+      {
+       "slug": "75d",
+       "name": "Model X 75D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2019,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 238,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/37423.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38527.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39841.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41195.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        }
+       ]
+      },
+      {
+       "slug": "90d",
+       "name": "Model X 90D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 257,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 257,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36979.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38528.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        }
+       ]
+      },
+      {
+       "slug": "p90d",
+       "name": "Model X P90D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2017,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 250,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 250,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36980.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38529.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        }
+       ]
+      },
+      {
+       "slug": "100d",
+       "name": "Model X 100D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2017,
+       "year_to": 2019,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 295,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 295,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 295,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39831.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39842.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41196.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        }
+       ]
+      },
+      {
+       "slug": "p100d",
+       "name": "Model X P100D",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2016,
+       "year_to": 2019,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 289,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 289,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 289,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 289,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38500.shtml",
+         "name": "fueleconomy.gov (EPA), MY2016"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38530.shtml",
+         "name": "fueleconomy.gov (EPA), MY2017"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39843.shtml",
+         "name": "fueleconomy.gov (EPA), MY2018"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41197.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        }
+       ]
+      },
+      {
+       "slug": "standard-range",
+       "name": "Model X Standard Range",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2020,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42289.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Model X Long Range",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2020,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 325,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 328,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41514.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42286.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-plus",
+       "name": "Model X Long Range Plus",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2021,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 351,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 371,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43413.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43403.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        }
+       ]
+      },
+      {
+       "slug": "performance",
+       "name": "Model X Performance",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 270,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 305,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 341,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41515.shtml",
+         "name": "fueleconomy.gov (EPA), MY2019"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42287.shtml",
+         "name": "fueleconomy.gov (EPA), MY2020"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43404.shtml",
+         "name": "fueleconomy.gov (EPA), MY2021"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2022",
+     "name": "2021 update (Plaid)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "Palladium",
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "New interior with landscape screen and yoke option, new dual-motor AWD and the tri-motor Plaid; deliveries began late 2021 as 2022 models. Built until May 2026.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_mx_plaid.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://electrive.com/2026/05/11/final-tesla-model-s-rolls-off-the-production-line",
+       "name": "electrive"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "Model X All-Wheel Drive (Long Range)",
+       "legacy_ids": [
+        30
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 3.8,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 348,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 348,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 329,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 352,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 114990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/research/tesla-model_x-2026/",
+         "name": "Cars.com: 2026 Tesla Model X"
+        },
+        {
+         "fields": [
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45020.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46208.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47915.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49125.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49745.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        }
+       ]
+      },
+      {
+       "slug": "plaid",
+       "name": "Model X Plaid",
+       "legacy_ids": [
+        22
+       ],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.5,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 250,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 333,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 333,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 326,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 314,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 129990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/research/tesla-model_x-2026/",
+         "name": "Cars.com: 2026 Tesla Model X"
+        },
+        {
+         "fields": [
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45021.shtml",
+         "name": "fueleconomy.gov (EPA), MY2022"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46209.shtml",
+         "name": "fueleconomy.gov (EPA), MY2023"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47916.shtml",
+         "name": "fueleconomy.gov (EPA), MY2024"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48768.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49746.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-cybertruck",
+   "url_slug": "cybertruck",
+   "name": "Cybertruck",
+   "aliases": [],
+   "body_style": "pickup",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.tesla.com/cybertruck",
+   "description": "Stainless-steel full-size pickup unveiled in 2019 and delivered from 30 November 2023, built at Giga Texas. A short-lived RWD model was sold in 2025 and a cheaper Dual Motor AWD arrived in February 2026. On 6 November 2026 Elon Musk said Cybertruck production will wind down around mid-2027 to make room for Cybercab.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2023-11",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.notateslaapp.com/news/4954/tesla-will-end-cybertruck-production-to-make-more-cybercabs",
+     "name": "Not a Tesla App: Tesla will end Cybertruck production"
+    },
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+     "name": "Wikipedia: Tesla Cybertruck"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Launch version with 48-volt architecture, steer-by-wire and an 800-volt, 123 kWh 4680-cell pack.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_cyber_awd.png",
+       "view": "side",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "dual-motor-awd",
+       "name": "Dual Motor AWD",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 325,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 82490,
+         "launch_price": 59990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://thedriven.io/2026/02/23/tesla-launches-cheapest-cybertruck-under-a85000/",
+         "name": "The Driven: cheapest Cybertruck launched"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.notateslaapp.com/news/4955/tesla-raises-cybertruck-prices-pauses-base-trim-orders",
+         "name": "Not a Tesla App: Cybertruck prices raised, base trim orders paused"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50460.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        }
+       ]
+      },
+      {
+       "slug": "premium-awd",
+       "name": "Premium AWD (AWD)",
+       "legacy_ids": [
+        35
+       ],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 123.0,
+       "battery_basis": null,
+       "power_hp": 600,
+       "torque_lbft": null,
+       "accel_0_60_s": 4.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 350,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "launch_price": 79990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 325,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 325,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 92490,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+         "name": "Wikipedia: Tesla Cybertruck"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.notateslaapp.com/news/4955/tesla-raises-cybertruck-prices-pauses-base-trim-orders",
+         "name": "Not a Tesla App: Cybertruck prices Nov 2026"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://electrive.com/2026/08/26/tesla-raises-cybertruck-prices-again-in-the-us",
+         "name": "electrive: Cybertruck prices Aug 2026"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49123.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50039.shtml",
+         "name": "fueleconomy.gov (EPA), MY2026"
+        }
+       ]
+      },
+      {
+       "slug": "cyberbeast",
+       "name": "Cyberbeast",
+       "legacy_ids": [
+        19,
+        33
+       ],
+       "status": "current",
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 123.0,
+       "battery_basis": null,
+       "power_hp": 845,
+       "torque_lbft": null,
+       "accel_0_60_s": 2.6,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 350,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "launch_price": 99990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "price": 102490,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+         "name": "Wikipedia: Tesla Cybertruck"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.notateslaapp.com/news/4955/tesla-raises-cybertruck-prices-pauses-base-trim-orders",
+         "name": "Not a Tesla App: Cybertruck prices Nov 2026"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [
+        34
+       ],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 123.0,
+       "battery_basis": null,
+       "power_hp": 315,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "launch_price": 69990,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+         "name": "Wikipedia: Tesla Cybertruck"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.electrive.com/2025/09/17/tesla-scraps-entry-level-cybertruck-after-five-months",
+         "name": "electrive: Tesla scraps entry-level Cybertruck"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49152.shtml",
+         "name": "fueleconomy.gov (EPA), MY2025"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-roadster",
+   "url_slug": "roadster",
+   "name": "Roadster",
+   "aliases": [],
+   "body_style": "convertible",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": "https://www.tesla.com/roadster",
+   "description": "Tesla's first car was a two-seat electric roadster built on a Lotus Elise-derived chassis from 2008 to 2012, with about 2,450 sold. A second-generation Roadster was first shown as a prototype in 2017; a redesigned production version was revealed on 15 October 2026, with production targeted for 2028.",
+   "markets": {
+    "US": {
+     "status": "upcoming",
+     "launch": "2008-02",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(second_generation)",
+     "name": "Wikipedia: Tesla Roadster (second generation)"
+    },
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)",
+     "name": "Wikipedia: Tesla Roadster (first generation)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2008",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2008,
+     "end_year": 2012,
+     "status": "discontinued",
+     "description": "Tesla's first production car, a two-seat roadster with a 53 kWh lithium-ion pack; updated as Roadster 2.0 (2009) and 2.5 (2010), with a quicker Sport version.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_roadster_original.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "roadster",
+       "name": "Roadster",
+       "legacy_ids": [
+        37
+       ],
+       "status": "discontinued",
+       "year_from": 2008,
+       "year_to": 2012,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 53.0,
+       "battery_basis": null,
+       "power_hp": 288,
+       "torque_lbft": 280,
+       "accel_0_60_s": 3.9,
+       "accel_0_100_s": null,
+       "top_speed_mph": 125,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2010,
+         "range": 244,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 110950,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "price",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)",
+         "name": "Wikipedia: Tesla Roadster (first generation)"
+        }
+       ]
+      },
+      {
+       "slug": "sport",
+       "name": "Roadster Sport",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2010,
+       "year_to": 2012,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 53.0,
+       "battery_basis": null,
+       "power_hp": 288,
+       "torque_lbft": 295,
+       "accel_0_60_s": 3.7,
+       "accel_0_100_s": null,
+       "top_speed_mph": 125,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2010,
+         "range": 244,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 128500,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "price",
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(first_generation)",
+         "name": "Wikipedia: Tesla Roadster (first generation)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2028",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2028,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Two-seat hypercar first shown as a 2+2 prototype in 2017; the redesigned production version (dual rear motors, butterfly doors) was revealed on 15 October 2026. Tesla targets production in 2028 at Giga Texas and has published only claims, not homologated specs.",
+     "images": [],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(second_generation)",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "performance",
+       "name": "Performance",
+       "legacy_ids": [
+        36
+       ],
+       "status": "upcoming",
+       "year_from": 2028,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status",
+          "price"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(second_generation)",
+         "name": "Wikipedia: Tesla Roadster (second generation)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-semi",
+   "url_slug": "semi",
+   "name": "Semi",
+   "aliases": [],
+   "body_style": "pickup",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": "https://www.tesla.com/semi",
+   "description": "Class 8 electric tractor unveiled in 2017. A pilot batch was delivered from December 2022 (first to PepsiCo); the updated production version with Standard Range (325 mi) and Long Range (500 mi) trims entered high-volume production in Nevada in April 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2022-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrek.co/2026/04/29/tesla-semi-first-truck-high-volume-production-line/",
+     "name": "Electrek: first Semi off high-volume line"
+    },
+    {
+     "fields": [
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Semi",
+     "name": "Wikipedia: Tesla Semi"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "Pilot production",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Low-volume pilot trucks built from late 2022 for fleet customers such as PepsiCo.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/tes_semi_lrg.png",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Semi",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "pilot-500-mile",
+       "name": "500-mile (pilot)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "years"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Semi",
+         "name": "Wikipedia: Tesla Semi"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Production version",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Final production design with a light bar, about 1,000 lb less weight, 800 kW tri-motor drive and MCS megawatt charging; built at Giga Nevada from April 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/IAA_Transportation_2026%2C_Hanover_%2820260914-P1086985%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IAA_Transportation_2026,_Hanover_(20260914-P1086985).jpg",
+       "credit": "Matti Blume",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://electrek.co/2026/04/29/tesla-semi-first-truck-high-volume-production-line/",
+       "name": "Electrek"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Standard Range",
+       "legacy_ids": [
+        5
+       ],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 1072,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "price": 260000,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/02/09/tesla-reveals-final-semi-specs-with-two-trims-ahead-of-customer-deliveries/",
+         "name": "Electrek: final Semi specs"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://electrek.co/2026/04/29/tesla-semi-first-truck-high-volume-production-line/",
+         "name": "Electrek: Semi high-volume production"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Long Range",
+       "legacy_ids": [
+        20
+       ],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 1072,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 1200,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "price": 290000,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/02/09/tesla-reveals-final-semi-specs-with-two-trims-ahead-of-customer-deliveries/",
+         "name": "Electrek: final Semi specs"
+        },
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://electrek.co/2026/04/29/tesla-semi-first-truck-high-volume-production-line/",
+         "name": "Electrek: Semi high-volume production"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tesla-cybercab",
+   "url_slug": "cybercab",
+   "name": "Cybercab",
+   "aliases": [
+    "Robotaxi"
+   ],
+   "body_style": "coupe",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": "https://www.tesla.com/we-robot",
+   "description": "Two-seat autonomous robotaxi with no steering wheel or pedals, unveiled 10 October 2024. Built at Giga Texas from April 2026 (pilot from February) and used in Tesla's paid robotaxi service in Austin since September 2026; not sold to private buyers so far.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2026-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "years"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Tesla_Cybercab",
+     "name": "Wikipedia: Tesla Cybercab"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.notateslaapp.com/news/4954/tesla-will-end-cybertruck-production-to-make-more-cybercabs",
+     "name": "Not a Tesla App: Cybercab production ramp"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Production version built with Tesla's 'unboxed' process; single front motor, NACS DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Tesla_Cybercab_-_San_Francisco_-_June_2026.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Tesla_Cybercab_-_San_Francisco_-_June_2026.jpg",
+       "credit": "9yz",
+       "license": "CC BY 4.0",
+       "view": "side",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "years"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Tesla_Cybercab",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "cybercab",
+       "name": "Cybercab",
+       "legacy_ids": [],
+       "status": "current",
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 219,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://driveteslacanada.ca/news/tesla-cybercab-epa-certificate-specs-revealed/",
+         "name": "Drive Tesla Canada: Cybercab EPA certificate"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Tesla_Cybercab",
+         "name": "Wikipedia: Tesla Cybercab"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 3,
+   "note": "Original (pre-Juniper) Model Y Performance; correctly marked previous generation. Price 52,490, 455 hp and 510 lb-ft are unsourced and not carried over."
+  },
+  {
+   "legacy_id": 4,
+   "note": "Original (2018-2023) Model 3 Performance, but the row is marked available/current. It ended in early 2024; the Highland Performance (2024-) is a separate variant. power is null in the row."
+  },
+  {
+   "legacy_id": 5,
+   "note": "'Small' 300-mile Semi is the 2017 announcement; it was never built in that form. Claimed on the 2026 Standard Range (325 mi). Battery 600 kWh, 1,000 kW charging and the 20 s 0-60 are placeholders/unsourced."
+  },
+  {
+   "legacy_id": 19,
+   "note": "Cyberbeast: price 79,990 is the AWD price (Cyberbeast launched at 99,990, now 102,490); max charging 15 is wrong (up to ~350 kW DC); torque 10,200 is a wheel-torque figure."
+  },
+  {
+   "legacy_id": 20,
+   "note": "Semi 'Large' (500 mi): claimed on the 2026 Long Range. Battery 900 kWh unsourced, torque 0 and 30 kW charging are wrong; price 180,000 was the 2017 promise (now ~290,000 quoted)."
+  },
+  {
+   "legacy_id": 21,
+   "note": "Model S Plaid is marked current; production ended May 2026. Charging 30 is wrong (250 kW); price 74,990 is stale (last 124,990)."
+  },
+  {
+   "legacy_id": 22,
+   "note": "Model X Plaid is marked current; production ended May 2026. Price 79,990 stale (last 129,990); vehicle_class 'Full Size Luxury Sedan' is wrong (SUV)."
+  },
+  {
+   "legacy_id": 23,
+   "note": "Labelled 'Standard Range (2021)' but its 272 mi / 57.5 kWh describe the 2022-2023 Model 3 RWD (LFP). Claimed on that variant."
+  },
+  {
+   "legacy_id": 24,
+   "note": "Original Model 3 Long Range AWD; full_slug 'tesla-model-3-standard-range' collides with row 204 and is wrong. Marked available but ended early 2024; 333 mi matches no EPA rating (353/358 mi)."
+  },
+  {
+   "legacy_id": 29,
+   "note": "Model S Dual Motor AWD (2021-2026); marked current but discontinued May 2026. Charging 30 wrong."
+  },
+  {
+   "legacy_id": 30,
+   "note": "Model X Dual Motor AWD (2022-2026); discontinued May 2026; most fields null."
+  },
+  {
+   "legacy_id": 31,
+   "note": "Original Model Y Long Range AWD (2020-2025); not marked previous generation but should be."
+  },
+  {
+   "legacy_id": 32,
+   "note": "'Standard Range RWD' at 260 mi is the 2024 Model Y RWD (original generation), not the 2026 Juniper Standard RWD (321 mi)."
+  },
+  {
+   "legacy_id": 33,
+   "note": "Foundation Series was a launch package on AWD and Cyberbeast, not a separate variant; this row's 119,990 / 2.6 s are the Cyberbeast Foundation Series, so it is claimed on Cyberbeast (duplicate of 19)."
+  },
+  {
+   "legacy_id": 34,
+   "note": "Cybertruck RWD 250 mi / 60,990 are 2019-2023 announcement figures; the RWD actually sold (Apr-Sep 2025) was the Long Range RWD: 335 mi EPA, 69,990. Discontinued Sept 2025."
+  },
+  {
+   "legacy_id": 35,
+   "note": "Cybertruck AWD: 340 mi was Tesla's 2023 estimate (EPA 325); renamed Premium AWD in Feb 2026 when a cheaper Dual Motor AWD arrived."
+  },
+  {
+   "legacy_id": 36,
+   "note": "Roadster 2nd gen: 620 mi, 200 kWh, 1.85 s and 250,000 are 2017 concept/Founders claims. The redesigned car was revealed 15 Oct 2026 with production targeted for 2028; the legacy image shows the 2017 prototype, so it is not used."
+  },
+  {
+   "legacy_id": 37,
+   "note": "Original Roadster: price 80,000 is wrong (about 98,950-128,500); 200 mi range understated (244 mi EPA)."
+  },
+  {
+   "legacy_id": 203,
+   "note": "Model Y Performance (Juniper) row mixes trims: price 44,990, 327 mi and 75 kWh/455 hp belong to other versions. Actual: 57,990, 306 mi EPA, 3.3 s, 460 hp. Its image tes_my_perf.png shows the pre-Juniper Model Y."
+  },
+  {
+   "legacy_id": 204,
+   "note": "'Standard Range Highland' mixes Highland Long Range RWD range (363), Performance 0-60 (2.9) and top speed (163) with the 57.5 kWh RWD battery. Claimed on Highland RWD (272 mi, 2024). The 2026 Standard RWD (321 mi) is a separate variant."
+  }
+ ],
+ "gaps": [
+  "Body-style enum has no 'truck'/'tractor': Tesla Semi is stored as 'pickup' with is_commercial=true.",
+  "Model Y L generation slug follows the US-model-year rule (2027) although China deliveries began September 2025; director may prefer 2025.",
+  "Semi, Cybercab and Roadster ranges are manufacturer claims or preliminary EPA lab figures with no matching test cycle; left null.",
+  "Cyberbeast has no EPA range listing on fueleconomy.gov; range left null.",
+  "Semi prices (260,000 / 290,000) are customer quotes and state documents reported by Electrek, not a published Tesla list; marked is_estimate.",
+  "Power/0-60 for most 2012-2021 Model S/X and original Model 3/Y trims not sourced; left null. Model S P85 has no separate EPA listing.",
+  "Model X refresh power and top speed, and Model S AWD top speed, not sourced.",
+  "Model 3 Performance power is the October 2026 update figure (528 hp, earlier 510 hp); Premium AWD 0-60 is the updated 3.8 s (earlier 4.2 s).",
+  "Model Y L China power figures conflict (331 kW vs 340 kW); left null.",
+  "Non-US offerings (EU WLTP, China CLTC) not added for Model 3/Y; only Model Y L has a China offering. Highland RWD is still sold in Europe/China but has only its 2024 US offering.",
+  "Tesla Robovan (20-seat concept shown Oct 2024) and the rumoured cheaper 'Model 2' not included: no production plan could be confirmed (web search budget ran out).",
+  "Web search budget was exhausted mid-task; later figures came from fetching known pages (Wikipedia, EPA, cars.com, Electrek, CarsDirect)."
+ ]
+}

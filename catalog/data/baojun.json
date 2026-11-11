@@ -1,0 +1,988 @@
+{
+ "make": {
+  "slug": "baojun",
+  "name": "Baojun",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Liuzhou, Guangxi, China",
+  "founded": 2010,
+  "parent_group": "SAIC-GM-Wuling (SAIC Motor, General Motors, Guangxi Automobile Group)",
+  "website_url": "https://www.sgmw.com.cn",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Brand of the SAIC-GM-Wuling joint venture, launched in 2010. In 2023 it switched entirely to electrified cars, from the E100/E200 microcars and KiWi EV to the Yep mini SUVs, Yunduo, Yunhai and Xiangjing.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "models"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Baojun",
+    "name": "Wikipedia"
+   },
+   {
+    "fields": [
+     "models",
+     "history",
+     "ownership"
+    ],
+    "url": "https://en.wikipedia.org/wiki/SAIC-GM-Wuling",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "baojun-e100",
+   "url_slug": "e100",
+   "name": "E100",
+   "aliases": [],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Two-seat electric microcar sold in Liuzhou and other Chinese cities from 2017 to 2021, priced from 46,800 yuan after subsidies.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2017",
+     "end": "2021",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_E100",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2017",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2017,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Two-seat microcar; a June 2018 update increased the range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/2018_Baojun_E100.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2018_Baojun_E100.jpg",
+       "credit": "User3204",
+       "license": "CC BY 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "e100",
+       "name": "E100",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2017,
+       "year_to": 2021,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 14.9,
+       "battery_basis": null,
+       "power_hp": 39,
+       "torque_lbft": 81,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_E100",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "baojun-e200",
+   "url_slug": "e200",
+   "name": "E200",
+   "aliases": [],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Two-seat electric microcar sold from 2018; from 2021 the same car was sold as the Wuling Nano EV.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2018",
+     "end": "2021",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "wuling-nano-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Wuling_Nano_EV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2018",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Two-seat microcar, later restyled as the Wuling Nano EV.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Baojun_E200_IMG001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Baojun_E200_IMG001.jpg",
+       "credit": "Zotyefan",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "e200",
+       "name": "E200",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2021,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 24.0,
+       "battery_basis": null,
+       "power_hp": 39,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Wuling_Nano_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "baojun-kiwi-ev",
+   "url_slug": "kiwi-ev",
+   "name": "KiWi EV",
+   "aliases": [
+    "E300",
+    "E300 Plus"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Small three-door electric city car sold from 2020 (as the E300) to 2025 (as the KiWi EV).",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2020-05",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_KiWi_EV",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Launched as the E300 in May 2020 and relaunched as the KiWi EV in August 2021.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/2021_Baojun_KiWi_EV_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2021_Baojun_KiWi_EV_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "e300-plus",
+       "name": "E300 Plus / KiWi EV 31.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 31.9,
+       "battery_basis": null,
+       "power_hp": 54,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_KiWi_EV",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "baojun-yep",
+   "url_slug": "yep",
+   "name": "Yep",
+   "aliases": [
+    "Yueye"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Boxy electric mini SUV launched in China in 2023 with a 28.1 kWh LFP battery and rear-wheel drive.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_Yep",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Boxy mini SUV with a rear motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/2023_Baojun_Yep.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Baojun_Yep.jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "yep",
+       "name": "Yep 28.1 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 28.1,
+       "battery_basis": null,
+       "power_hp": 67,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 303,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yep",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "baojun-yep-plus",
+   "url_slug": "yep-plus",
+   "name": "Yep Plus",
+   "aliases": [
+    "Yueye Plus",
+    "Chevrolet Spark EUV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Five-door, enlarged version of the Yep launched in 2024 with up to 501 km CLTC range. Sold in Latin America as the Chevrolet Spark EUV (assembled in Brazil from December 2025) and in the Middle East, Mexico and the Philippines.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "chevrolet-spark-euv"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_Yep",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Enlarged five-door Yep with 301-501 km CLTC range; exported as the Chevrolet Spark EUV.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Baojun_Yep_Plus_005.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Baojun_Yep_Plus_005.jpg",
+       "credit": "KitsuneDP",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "32-kwh",
+       "name": "Yep Plus 32 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 32.0,
+       "battery_basis": null,
+       "power_hp": 101,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yep",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "41-9-kwh",
+       "name": "Yep Plus 41.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 41.9,
+       "battery_basis": null,
+       "power_hp": 101,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yep",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "54-kwh",
+       "name": "Yep Plus 54 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 54.0,
+       "battery_basis": null,
+       "power_hp": 101,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yep",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "baojun-yunduo",
+   "url_slug": "yunduo",
+   "name": "Yunduo",
+   "aliases": [
+    "Cloud EV"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Compact electric crossover-hatchback sold in China from 2023 to 2025 ('Cloud'); it lives on abroad as the Wuling Cloud EV (Indonesia) and the MG Windsor EV (India).",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2023-05",
+     "end": "2025",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "wuling-cloud-ev"
+    },
+    {
+     "relation": "twin",
+     "model": "mg-windsor-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_Yunduo",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Compact electric hatchback introduced in May 2023.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Baojun_Yunduo_010.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Baojun_Yunduo_010.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "360",
+       "name": "Yunduo 360 (37.9 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 37.9,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 360,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yunduo",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "460",
+       "name": "Yunduo 460 (50.6 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 50.6,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 460,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yunduo",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "baojun-yunhai",
+   "url_slug": "yunhai",
+   "name": "Yunhai",
+   "aliases": [
+    "Wuling Cirro S",
+    "Baojun E6"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact SUV launched in September 2024 in battery-electric and plug-in hybrid versions, exported as the Wuling Cirro S.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_Yunhai",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Compact SUV offered as a BEV (500-600 km CLTC) and a plug-in hybrid; exported as the Wuling Cirro S.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Baojun_Yunhai_009.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Baojun_Yunhai_009.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "56-7-kwh",
+       "name": "Yunhai EV 56.7 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 56.7,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yunhai",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "69-2-kwh",
+       "name": "Yunhai EV 69.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.2,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Yunhai",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "baojun-xiangjing",
+   "url_slug": "xiangjing",
+   "name": "Xiangjing",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size sedan launched in April 2025, offered as a front-drive EV with 600 km CLTC range or as a plug-in hybrid.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Baojun_Xiangjing",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size sedan launched at Auto Shanghai in April 2025 as an EV and a plug-in hybrid.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Baojun_Xiangjing_005.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Baojun_Xiangjing_005.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev-69-2-kwh",
+       "name": "Xiangjing EV 69.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.2,
+       "battery_basis": null,
+       "power_hp": 249,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 600,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Baojun_Xiangjing",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341); torque Nm x0.7376.",
+  "E100: range figures conflict (96/124 miles in text, 250 km in infobox, no cycle) and are left out. E200: the Wuling Nano EV page's 24 kWh / 29 kW specs are used.",
+  "Yep Plus and Yunhai: CLTC ranges (301-501 km; 500-600 km) not mapped to batteries; no CNY prices sourced (Yep family from 80,800 yuan per a headline).",
+  "NEDC ranges are not a supported cycle, so they are kept out of offerings: E300 Plus / KiWi EV 31.9 kWh: 305 km NEDC (CN)."
+ ]
+}

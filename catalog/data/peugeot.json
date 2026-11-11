@@ -1,0 +1,2966 @@
+{
+  "make": {
+    "slug": "peugeot",
+    "name": "Peugeot",
+    "legacy_id": null,
+    "country": "FR",
+    "headquarters": "Poissy, France",
+    "founded": 1810,
+    "parent_group": "Stellantis",
+    "website_url": "https://www.peugeot.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "French car maker whose family business dates to 1810 and which has built cars since the 1890s; part of PSA and, since 2021, Stellantis. After the Mitsubishi-built iOn (2010-2020) it moved to electric versions of most of its range: e-208, e-2008, e-308, e-408, e-3008, e-5008, e-Rifter and e-Traveller. Peugeot does not sell cars in the US.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Peugeot",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "peugeot-ion",
+      "url_slug": "ion",
+      "name": "iOn",
+      "aliases": [
+        "ION"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Four-seat electric city car rebadged from the Mitsubishi i-MiEV and built by Mitsubishi for PSA; sold in Europe from late 2010 until 2020. Its twin was the Citroën C-Zero.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2010",
+          "end": "2020",
+          "local_name": null
+        },
+        "UK": {
+          "status": "discontinued",
+          "launch": "2011",
+          "end": "2020",
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "mitsubishi-i-miev"
+        },
+        {
+          "relation": "twin",
+          "model": "citroen-c-zero"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "price",
+            "status"
+          ],
+          "url": "https://ev-database.org/car/1095/Peugeot-iOn",
+          "name": "EV Database"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2010",
+          "name": "iOn",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2010,
+          "end_year": 2020,
+          "status": "discontinued",
+          "description": "Mitsubishi i-MiEV based; the PSA cars switched to an 80-cell 14.5 kWh pack from model year 2013.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Peugeot_iOn.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_iOn.JPG",
+              "credit": "Thomas doerfer",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "16-kwh",
+              "name": "16 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2010,
+              "year_to": 2012,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 16.0,
+              "battery_basis": "gross",
+              "power_hp": 63,
+              "torque_lbft": 133,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CHADEMO",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "14-5-kwh",
+              "name": "14.5 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2013,
+              "year_to": 2020,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": 14.5,
+              "battery_basis": "gross",
+              "power_hp": 63,
+              "torque_lbft": 133,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 15.9,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CHADEMO",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CHADEMO",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1095/Peugeot-iOn",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-208",
+      "url_slug": "e-208",
+      "name": "e-208",
+      "aliases": [
+        "E-208"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.peugeot.co.uk/models/e-208.html",
+      "description": "Electric version of the second-generation 208 supermini, revealed at Geneva in March 2019 and built in Zaragoza and Trnava on the eCMP platform. It started with a 50 kWh / 100 kW powertrain, gained a 51 kWh / 115 kW version in late 2022, was facelifted in 2023 and got a 206 kW E-208 GTi in 2026.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2019",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Peugeot_208",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_208_II",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "Second generation 208",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2019,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Original e-208 (deliveries from late 2019); WLTP range rose from 340 km to 362 km with a 2021 efficiency update.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/2020_Peugeot_e-208_GT_Front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2020_Peugeot_e-208_GT_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2019,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.1,
+              "top_speed_mph": 93,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 362,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 362,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_208",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_208_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1583/Peugeot-e-208",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "51-kwh",
+              "name": "51 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 51.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 400,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 400,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_208",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_208_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1836/Peugeot-e-208-51-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "September 2023 facelift with the three-claw lights and new logo. From 2025 the 156 hp version is sold as \"54 kWh\" (same pack, gross figure); the 206 kW E-208 GTi went on sale in June 2026.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Peugeot_e-208_facelift_1X7A2502.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_e-208_facelift_1X7A2502.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.9,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 362,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 36525,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 362,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 28650,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_208_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3222/Peugeot-e-208-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 410,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 37525,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 410,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 29450,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_208_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3223/Peugeot-e-208-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "gti",
+              "name": "E-208 GTi",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 276,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 374,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 44900,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 374,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 33495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_208_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_208",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3655/Peugeot-e-208-GTi",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-2008",
+      "url_slug": "e-2008",
+      "name": "e-2008",
+      "aliases": [
+        "E-2008"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the second-generation 2008 small SUV, built in Vigo on the eCMP platform since 2019 (deliveries 2020). The 2023 facelift added a 54 kWh / 115 kW version; the 50 kWh version was dropped in 2025.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Peugeot_2008",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_2008_II",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "Second generation 2008",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "50 kWh / 100 kW powertrain; range improved to about 346 km WLTP with the 2022 update.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2020_Peugeot_e-2008_GT_Line_%281%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2020_Peugeot_e-2008_GT_Line_(1).jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.5,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 346,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 346,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_2008_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1584/Peugeot-e-2008",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2023",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "eCMP",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Mid-2023 facelift; the new 54 kWh / 115 kW powertrain raised WLTP range to 406 km.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Peugeot_e-2008_Facelift_Autofr%C3%BChling_Ulm_IMG_9298.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_e-2008_Facelift_Autofr%C3%BChling_Ulm_IMG_9298.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh (136 hp)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 192,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.0,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 340,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 340,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_2008",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_2008_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1946/Peugeot-e-2008-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "54-kwh",
+              "name": "54 kWh (156 hp)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.1,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 406,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 40550,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 406,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 33900,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_2008",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_2008_II",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1947/Peugeot-e-2008-54-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-308",
+      "url_slug": "e-308",
+      "name": "e-308",
+      "aliases": [
+        "E-308",
+        "e-308 SW"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the third-generation 308, sold as a hatchback and SW estate since 2023 (built in Mulhouse on EMP2 V3). The 2025 facelift brought a 58 kWh battery and about 450 km WLTP.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Peugeot_308",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_308_III",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Third generation 308",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2 V3",
+          "start_year": 2023,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "54 kWh (51 kWh usable) NMC battery and 115 kW motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Peugeot_e-308_Auto_Zuerich_2023_1X7A1207.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_e-308_Auto_Zuerich_2023_1X7A1207.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "hatch-54-kwh",
+              "name": "Hatchback 54 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.8,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 415,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 415,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_308_III",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_308",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1744/Peugeot-e-308",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "sw-54-kwh",
+              "name": "SW 54 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 54.0,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": 199,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 10.0,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 409,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 409,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_308_III",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1745/Peugeot-e-308-SW",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2 V3",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Late-2025 facelift with new front; battery grew to 58.3 kWh (55.4 kWh usable).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/2025_Peugeot_e-308_Auto_Zuerich_2025_DSC_3384.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Peugeot_e-308_Auto_Zuerich_2025_DSC_3384.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "hatch-58-kwh",
+              "name": "Hatchback 58 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.3,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.3,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 450,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 42435,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 450,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 29495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_308_III",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3321/Peugeot-e-308-58-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "sw-58-kwh",
+              "name": "SW 58 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": "wagon",
+              "seats": 5,
+              "battery_kwh": 58.3,
+              "battery_basis": "gross",
+              "power_hp": 154,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.5,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 444,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 43435,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 444,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 30695,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_308_III",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3322/Peugeot-e-308-SW-58-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-408",
+      "url_slug": "e-408",
+      "name": "E-408",
+      "aliases": [
+        "e-408"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the 408 fastback crossover, on sale from late 2024 with a 58 kWh battery and 157 kW motor. The 408 range was facelifted in January 2026.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Peugeot_408_(crossover)",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_408",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2 V3",
+          "start_year": 2024,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "EMP2-based fastback crossover; 58.2 kWh battery, WLTP up to 456 km.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "58-kwh",
+              "name": "58 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2024,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.2,
+              "battery_basis": "gross",
+              "power_hp": 211,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.2,
+              "top_speed_mph": 99,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 456,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 456,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_408",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3066/Peugeot-e-408-58-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2 V3",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Facelift unveiled 9 January 2026 with a new grille, three-claw lights and illuminated logos; same 58 kWh powertrain.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/2026_Peugeot_408_Auto_Zuerich_2026_IMG_8951.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Peugeot_408_Auto_Zuerich_2026_IMG_8951.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "58-kwh",
+              "name": "58 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.3,
+              "battery_basis": "usable",
+              "power_hp": 211,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.2,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 46300,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 32695,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_408_(crossover)",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/3465/Peugeot-e-408-58-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-3008",
+      "url_slug": "e-3008",
+      "name": "E-3008",
+      "aliases": [
+        "e-3008"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the third-generation 3008, a fastback SUV revealed on 12 September 2023 and the first car on Stellantis' STLA Medium platform, built in Sochaux. Offered with 73 kWh (FWD and dual-motor AWD) and 97 kWh batteries.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Peugeot_3008",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_3008",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Third generation 3008",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "STLA Medium",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "STLA Medium; deliveries from 2024, dual-motor AWD orderable from July 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_e-3008_Automesse_Ludwigsburg_2024_IMG_1537.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "73-kwh",
+              "name": "73 kWh (210)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 211,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.8,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 524,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 48750,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 524,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 45960,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_3008",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2003/Peugeot-e-3008-73-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "97-kwh",
+              "name": "Long Range 97 kWh (230)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 96.9,
+              "battery_basis": "usable",
+              "power_hp": 228,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.7,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 698,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 52850,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 698,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 48660,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_3008",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2005/Peugeot-e-3008-97-kWh-Long-Range",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "73-kwh-dual-motor",
+              "name": "Dual Motor 73 kWh (325)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 320,
+              "torque_lbft": 377,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.0,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 487,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 60000,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 487,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 56290,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_3008",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_3008",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2004/Peugeot-e-3008-73-kWh-Dual-Motor",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-5008",
+      "url_slug": "e-5008",
+      "name": "E-5008",
+      "aliases": [
+        "e-5008"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the third-generation 5008, the seven-seat long-wheelbase sister of the e-3008, introduced on 20 March 2024 and built in Sochaux on STLA Medium.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Peugeot_5008",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_5008",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Third generation 5008",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "STLA Medium",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "STLA Medium, seven seats; dual-motor AWD from July 2025.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Peugeot_5008_C_Leonberg_2024_IMG_0827.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_5008_C_Leonberg_2024_IMG_0827.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "73-kwh",
+              "name": "73 kWh (210)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 211,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.7,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 502,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 51250,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 502,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 48660,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_5008",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2149/Peugeot-e-5008-73-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "97-kwh",
+              "name": "Long Range 97 kWh (230)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 96.9,
+              "battery_basis": "usable",
+              "power_hp": 228,
+              "torque_lbft": 254,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 9.6,
+              "top_speed_mph": 106,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 674,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 55350,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 674,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 51360,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_5008",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2151/Peugeot-e-5008-97-kWh-Long-Range",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "73-kwh-dual-motor",
+              "name": "Dual Motor 73 kWh (325)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 73.0,
+              "battery_basis": "usable",
+              "power_hp": 320,
+              "torque_lbft": 377,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.5,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 468,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 62500,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 468,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 58990,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_5008",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Peugeot_5008",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2150/Peugeot-e-5008-73-kWh-Dual-Motor",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-rifter",
+      "url_slug": "e-rifter",
+      "name": "e-Rifter",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the Rifter leisure MPV (Standard/M five-seat and Long/XL seven-seat), sold from mid-2021; facelifted in 2024 with a new 50 kWh pack. Twin of the Citroën ë-Berlingo and Opel Combo Electric.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "citroen-e-berlingo"
+        },
+        {
+          "relation": "twin",
+          "model": "opel-combo-electric"
+        },
+        {
+          "relation": "successor",
+          "model": "peugeot-partner-tepee-electric"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Berlingo",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_Rifter",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2021,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "50 kWh / 100 kW powertrain shared with the ë-Berlingo.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2018_Peugeot_Rifter_Allure_BlueHDi_1.6_Front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2018_Peugeot_Rifter_Allure_BlueHDi_1.6_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "standard-50-kwh",
+              "name": "Standard 50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 84,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 282,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 282,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Rifter",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1522/Peugeot-e-Rifter-Standard-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "long-50-kwh",
+              "name": "Long 50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 84,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 273,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 273,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Rifter",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1523/Peugeot-e-Rifter-Long-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "March 2024 facelift with new front and a revised 50 kWh battery (about 340 km WLTP).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2024_Peugeot_Rifter_IMG_9556.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Peugeot_Rifter_IMG_9556.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "m-50-kwh",
+              "name": "M 50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 82,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 340,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 38440,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 340,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 30850,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Rifter",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2163/Peugeot-e-Rifter-M-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "xl-50-kwh",
+              "name": "XL 50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.7,
+              "top_speed_mph": 82,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 334,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 39440,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 334,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 31750,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Rifter",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2164/Peugeot-e-Rifter-XL-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-partner-tepee-electric",
+      "url_slug": "partner-tepee-electric",
+      "name": "Partner Tepee Electric",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Small-battery electric version of the second-generation Partner Tepee leisure MPV, sold in small numbers from 2017 to early 2020; replaced by the e-Rifter.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2017",
+          "end": "2020",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price",
+            "status"
+          ],
+          "url": "https://ev-database.org/car/1103/Peugeot-Partner-Tepee-Electric",
+          "name": "EV Database"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2017",
+          "name": "Second generation Partner",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2017,
+          "end_year": 2020,
+          "status": "discontinued",
+          "description": "Conversion of the second-generation Partner Tepee.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Peugeot_Partner_Tepee_Electric_10_2018_1111.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_Partner_Tepee_Electric_10_2018_1111.jpg",
+              "credit": "Mariordo (Mario Roberto Durán Ortiz)",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "electric",
+              "name": "Electric",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2017,
+              "year_to": 2020,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 20.5,
+              "battery_basis": "usable",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 19.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1103/Peugeot-Partner-Tepee-Electric",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "peugeot-e-traveller",
+      "url_slug": "e-traveller",
+      "name": "e-Traveller",
+      "aliases": [],
+      "body_style": "van",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the Traveller people carrier (Expert-based, up to nine seats) sold from late 2020 with 50 kWh or 75 kWh batteries and a 100 kW motor; facelifted in 2024. Twin of the Citroën ë-SpaceTourer and Opel Zafira Electric.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "citroen-e-spacetourer"
+        },
+        {
+          "relation": "twin",
+          "model": "opel-zafira-electric"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Jumpy",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://de.wikipedia.org/wiki/Peugeot_Traveller",
+          "name": "Wikipedia (de)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2020,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "EMP2-based van, 50 kWh or 75 kWh.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Peugeot_e-Traveller_1X7A0084.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Peugeot_e-Traveller_1X7A0084.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.1,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 225,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 225,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Traveller",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1351/Peugeot-e-Traveller-Standard-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 75.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 14.3,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 322,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Traveller",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/1353/Peugeot-e-Traveller-Standard-75-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "EMP2",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "April 2024 facelift with the new Peugeot face and more range from the 75 kWh pack.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "50-kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 50.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 13.3,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 223,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 47230,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Traveller",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2256/Peugeot-e-Traveller-L2-50-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "75-kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 7,
+              "battery_kwh": 75.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 14.2,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 351,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 53230,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 351,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 42870,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://de.wikipedia.org/wiki/Peugeot_Traveller",
+                  "name": "Wikipedia (de)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://ev-database.org/car/2258/Peugeot-e-Traveller-L2-75-kWh",
+                  "name": "EV Database"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "e-408 facelift (2026) WLTP range not sourced; e-208 GTi and 156 hp e-208 top speeds not sourced.",
+    "DC charging peak only given where a source states it (e-208 50 kWh: 100 kW); other Peugeot DC figures left null.",
+    "e-Traveller WLTP figures are the upper end of the German Wikipedia ranges for the shortest body; long versions are slightly lower.",
+    "Commercial e-Partner, e-Expert (incl. Combi), e-Boxer vans not included.",
+    "No commons image used for the pre-facelift e-408 (only an interior photo was found) or the e-Traveller.",
+    "EU prices are German list prices incl. VAT from EV Database (Nov 2026 snapshot); UK prices likewise."
+  ]
+}

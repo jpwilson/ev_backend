@@ -1,0 +1,96 @@
+{
+  "make": {
+    "slug": "ineos",
+    "name": "INEOS Automotive",
+    "legacy_id": null,
+    "country": "GB",
+    "headquarters": "London, England",
+    "founded": 2016,
+    "parent_group": "INEOS",
+    "website_url": "https://ineosautomotive.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Off-road vehicle maker owned by the chemicals group INEOS, building the combustion-engined Grenadier at Hambach, France. Its only electric model, the smaller Fusilier, was shown in February 2024 and postponed indefinitely in July 2024.",
+    "sources": [
+      {
+        "fields": ["founded", "headquarters", "parent_group", "description"],
+        "url": "https://en.wikipedia.org/wiki/Ineos_Automotive",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "ineos-fusilier",
+      "url_slug": "fusilier",
+      "name": "Fusilier",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Smaller off-roader shown in images on 23 February 2024, planned as a battery-electric car with an optional petrol range extender, for production from 2027 at the earliest. In July 2024 INEOS postponed it indefinitely, citing weak EV demand and regulatory changes; no new date has been given.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": ["status", "history"],
+          "url": "https://en.wikipedia.org/wiki/Ineos_Fusilier",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced but postponed indefinitely; no specifications were published.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "bev",
+              "name": "Battery electric",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": ["status"],
+                  "url": "https://en.wikipedia.org/wiki/Ineos_Fusilier",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "INEOS Fusilier is 'postponed indefinitely' (July 2024), which fits neither 'upcoming' nor 'cancelled' well; marked 'upcoming' with the postponement in the description. Director may prefer 'cancelled' or to drop it.",
+    "No 2025-2026 update on the Fusilier could be checked (web search budget ran out); Wikipedia (edited June 2026) shows no change.",
+    "No Fusilier specifications were ever published; no photo added."
+  ]
+}

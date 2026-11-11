@@ -1,0 +1,2411 @@
+{
+ "make": {
+  "slug": "leapmotor",
+  "name": "Leapmotor",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Hangzhou, Zhejiang, China",
+  "founded": 2015,
+  "parent_group": null,
+  "website_url": "https://www.leapmotor.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Hangzhou-based EV maker founded in 2015 by Dahua Technology's founders. Stellantis bought about 20% in 2023 (18.99% after FAW took 5% in December 2025) and runs Leapmotor International (51/49), which sells the T03, C10, B10, B05 and B03X in Europe, the UK and Australia.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "models",
+     "ownership"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Leapmotor",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "leapmotor-s01",
+   "url_slug": "s01",
+   "name": "S01",
+   "aliases": [],
+   "body_style": "coupe",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Leapmotor's first production car, a small electric coupe sold in China from 2019 until it was discontinued in 2021.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2021",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_S01",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2021,
+     "status": "discontinued",
+     "description": "Leapmotor's first car, a small electric sports coupe.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Leapmotor_S01_001_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_S01_001_(cropped).jpg",
+       "credit": "Jengtingchen",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "380",
+       "name": "S01 380 (35.6 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 35.6,
+       "battery_basis": null,
+       "power_hp": 168,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_S01",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "460",
+       "name": "S01 460 (48 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 48.0,
+       "battery_basis": null,
+       "power_hp": 168,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_S01",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-t03",
+   "url_slug": "t03",
+   "name": "T03",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Small electric city car launched in China in 2020 and Leapmotor's first export model, sold in Europe through Stellantis' Leapmotor International since 2024. European assembly in Poland ran from June 2024 to March 2025; the car continues as an import.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2020-05",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_T03",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "history",
+      "models",
+      "ownership"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2020,
+     "end_year": null,
+     "status": "current",
+     "description": "Small five-door city car launched in May 2020; assembled for Europe at Stellantis' Tychy plant in Poland from June 2024 to March 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/2020_Leapmotor_T03_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2020_Leapmotor_T03_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "21-6-kwh",
+       "name": "T03 21.6 kWh",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 21.6,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 200,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_T03",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "31-9-kwh",
+       "name": "T03 31.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 31.9,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 310,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_T03",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "36-5-kwh",
+       "name": "T03 36.5 kWh (launch)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 36.5,
+       "battery_basis": null,
+       "power_hp": 74,
+       "torque_lbft": 114,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_T03",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "41-3-kwh",
+       "name": "T03 41.3 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 41.3,
+       "battery_basis": null,
+       "power_hp": 107,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 403,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_T03",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "europe",
+       "name": "T03 (Europe)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_T03",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-c11",
+   "url_slug": "c11",
+   "name": "C11",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric SUV launched in China in 2021 and Leapmotor's best-selling larger car, also offered as a range-extender. A 2025 facelift moved the BEV to an 800 V platform with 640 km CLTC range.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2021-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_C11",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Mid-size SUV revealed at Auto Guangzhou 2020, on sale from September 2021; a range-extender version (not listed) arrived for 2023.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/2020_Leapmotor_C11_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2020_Leapmotor_C11_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "C11 EV RWD 78.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 78.5,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 580,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C11",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "C11 EV Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C11",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2026 model-year facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Facelift announced July 2025 with a lower nose, 800 V electrics and an 81.9 kWh LFP pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Leapmotor_C11_facelift_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_C11_facelift_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "C11 EV RWD 81.9 kWh (800 V)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 81.9,
+       "battery_basis": null,
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 640,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C11",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-c01",
+   "url_slug": "c01",
+   "name": "C01",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size to large electric sedan sold in China since 2022, with LFP rear-drive and NMC all-wheel-drive versions plus a range-extender.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_C01",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Large electric sedan launched in 2022, also offered as a range-extender.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Leapmotor_C01_006_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_C01_006_(cropped).jpg",
+       "credit": "Quzhouliulian",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "62-8-kwh",
+       "name": "C01 62.8 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 62.8,
+       "battery_basis": null,
+       "power_hp": 268,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 525,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C01",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "78-5-kwh",
+       "name": "C01 78.5 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 78.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "CN",
+         "model_year": 2022,
+         "range": 606,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C01",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "C01 Dual-motor AWD (NMC)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 536,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 717,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C01",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-c10",
+   "url_slug": "c10",
+   "name": "C10",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric SUV launched in 2024, Leapmotor's first global model, sold in Europe, the UK and Australia through Leapmotor International as a BEV and a range-extender.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-03",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024-09",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024-10",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_C10",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Mid-size SUV shown at Munich 2023, launched in China in March 2024 and in Europe in September 2024 (also as a range-extender); facelifted in June 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Leapmotor_C10_EV_01_China_2024-03-24.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_C10_EV_01_China_2024-03-24.jpg",
+       "credit": "Navigator84",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "52-9-kwh",
+       "name": "C10 52.9 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 52.9,
+       "battery_basis": null,
+       "power_hp": 228,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "69-9-kwh",
+       "name": "C10 69.9 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.9,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "74-9-kwh",
+       "name": "C10 74.9 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 74.9,
+       "battery_basis": null,
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "81-9-kwh-rwd",
+       "name": "C10 ProMax 81.9 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 81.9,
+       "battery_basis": null,
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "81-9-kwh-awd",
+       "name": "C10 ProMax 81.9 kWh AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 81.9,
+       "battery_basis": null,
+       "power_hp": 598,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C10",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-c16",
+   "url_slug": "c16",
+   "name": "C16",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Three-row full-size SUV launched in China in 2024 with battery-electric and range-extender versions; planned for Australia.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_C16",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Six-seat full-size SUV launched in 2024 as a BEV and range-extender; facelifted on 16 June 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Leapmotor_C16_011.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_C16_011.jpg",
+       "credit": "Quzhouliulian",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev-67-kwh",
+       "name": "C16 EV 67 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 67.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 520,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_C16",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-b10",
+   "url_slug": "b10",
+   "name": "B10",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact electric SUV launched in 2025, the first car on the LEAP 3.5 platform, sold in China, Europe (assembled in Zaragoza, Spain), Australia and Asia. Five stars in Euro NCAP and ANCAP.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-04",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_B10",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "LEAP 3.5",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Compact SUV launched in April 2025, built in China, Spain (Zaragoza), Indonesia and Malaysia; updated in July 2026 for the 2027 model year.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Leapmotor_B10_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_B10_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "56-2-kwh",
+       "name": "B10 56.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 56.2,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "60-8-kwh",
+       "name": "B10 60.8 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.8,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "67-1-kwh",
+       "name": "B10 67.1 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 67.1,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "69-7-kwh",
+       "name": "B10 69.7 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.7,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B10",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-b01",
+   "url_slug": "b01",
+   "name": "B01",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact electric sedan launched in China in 2025 on the LEAP 3.5 platform shared with the B10.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_B01",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "LEAP 3.5",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Compact sedan on sale from July 2025; refreshed in July 2026 with 800 V-class electronics on the larger packs.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Leapmotor_B01_009.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_B01_009.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "60-8-kwh",
+       "name": "B01 60.8 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.8,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 590,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B01",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "69-7-kwh",
+       "name": "B01 69.7 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.7,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 670,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B01",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-b05",
+   "url_slug": "b05",
+   "name": "Lafa 5",
+   "aliases": [
+    "B05"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Rear-drive electric compact hatchback launched in China in September 2025 as the Lafa 5 and exported as the Leapmotor B05 to Europe, the UK and Australia from 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": "Lafa 5"
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2026-04",
+     "end": null,
+     "local_name": "B05"
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": "B05"
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": "B05"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_B05",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "LEAP 3.5",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear-drive compact hatchback launched in China in September 2025; Europe from April 2026, the UK and Australia from July 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Leapmotor_Lafa_5_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_Lafa_5_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "56-2-kwh",
+       "name": "Lafa 5 / B05 56.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 56.2,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 174,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 515,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 401,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B05",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "67-1-kwh",
+       "name": "Lafa 5 / B05 67.1 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 67.1,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 174,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 605,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 482,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B05",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "ultra",
+       "name": "Lafa 5 Ultra",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 241,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_B05",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-a10",
+   "url_slug": "a10",
+   "name": "A10",
+   "aliases": [
+    "B03X"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Subcompact electric SUV launched in China in March 2026 and sold in Europe as the Leapmotor B03X.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-03",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": "B03X"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_A10",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Small SUV on sale in China from March 2026; the export B03X has more power (130-145 kW vs 70-90 kW in China).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Leapmotor_B03X_Leonberg_2026_IMG_8589.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_B03X_Leonberg_2026_IMG_8589.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "39-8-kwh",
+       "name": "A10 / B03X 39.8 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 39.8,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 403,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 292,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_A10",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "53-kwh",
+       "name": "A10 / B03X 53 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 53.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 505,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 382,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_A10",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-a05",
+   "url_slug": "a05",
+   "name": "A05",
+   "aliases": [
+    "B03"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Subcompact electric hatchback that debuted in China on 20 July 2026, to be sold abroad as the Leapmotor B03.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_A05",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Subcompact front-drive hatchback revealed in July 2026; Spanish production planned from 2027.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Leapmotor_A05_004.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_A05_004.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "a05",
+       "name": "A05",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_A05",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-d19",
+   "url_slug": "d19",
+   "name": "D19",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Leapmotor's flagship full-size SUV, launched in April 2026; the EV has three motors and a 115 kWh dual-chemistry CATL pack.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_D19",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Flagship full-size SUV revealed in October 2025 and launched in April 2026 with BEV and range-extender versions.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Leapmotor_D19_005.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_D19_005.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev-awd",
+       "name": "D19 EV tri-motor AWD 115 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 115.0,
+       "battery_basis": null,
+       "power_hp": 724,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 720,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_D19",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "leapmotor-d99",
+   "url_slug": "d99",
+   "name": "D99",
+   "aliases": [],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Full-size flagship MPV revealed at Leapmotor's 10th-anniversary event in December 2025, with a 115 kWh CATL pack in the EV version.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Leapmotor_D99",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Flagship MPV revealed in December 2025 on a 1000 V architecture, with BEV and range-extender versions.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/2026_Leapmotor_D99_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Leapmotor_D99_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev-awd",
+       "name": "D99 EV dual-motor AWD 115 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 115.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Leapmotor_D99",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341); torque Nm x0.7376.",
+  "No prices sourced for any Leapmotor model in any market (web search budget ran out; Wikipedia gives prices only in reference titles).",
+  "T03: European battery/power/WLTP not in source. C10: WLTP 424-438 km not mapped to versions; EREV versions excluded. C16: power conflicts (160/170 kW vs 288 hp); 2026 facelift specs not sourced.",
+  "B10: power 132-180 kW and CLTC 510-610 km not mapped to batteries; which packs go to EU/AU only partly sourced.",
+  "B05 56.2 kWh: power 132 kW (entry) vs 160 kW (other trims) not mapped. A10: China power 70-90 kW vs export 130-145 kW not mapped; drivetrain contradictory in source.",
+  "A05: battery sizes contradictory in source. D99: power not revealed. C11 AWD battery (90 kWh in text only) left null.",
+  "Images for C16, B10 and other recent models come from Commons uploads checked by eye; C16 facelift image not fetched (rate limit); no exterior Commons image confirmed for the C10.",
+  "NEDC ranges are not a supported cycle, so they are kept out of offerings: C11 EV Dual-motor AWD: 550 km NEDC (CN)."
+ ]
+}

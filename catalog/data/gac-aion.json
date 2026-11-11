@@ -1,0 +1,1863 @@
+{
+  "make": {
+    "slug": "gac-aion",
+    "name": "GAC Aion",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Guangzhou, China",
+    "founded": 2017,
+    "parent_group": "GAC Group",
+    "website_url": "https://www.aion.com.cn",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "GAC Group's electric-car company, founded in 2017 as GAC New Energy. It sells the mass-market Aion range in China and, under the GAC name, in Southeast Asia, Europe and Australia; its premium brand Hyptec is listed separately.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/GAC_Aion",
+        "name": "Wikipedia: GAC Aion"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "gac-aion-aion-s",
+      "url_slug": "aion-s",
+      "name": "Aion S",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Aion's first car, a compact executive sedan on sale in China since May 2019. Rebadged versions were sold as the GAC-Toyota iA5 and GAC-Honda EA6.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2019-05",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_S",
+          "name": "Wikipedia: Aion S"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": null,
+          "status": "current",
+          "description": "58.8 kWh CATL NMC pack and a front motor of about 180 hp.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/2019_G%D0%90C_Aion_S.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2019_G%D0%90C_Aion_S.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "58-8",
+              "name": "58.8 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 58.8,
+              "battery_basis": "gross",
+              "power_hp": 181,
+              "torque_lbft": 221,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_S",
+                  "name": "Wikipedia: Aion S"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://insideevs.com/news/343627/gac-aion-s-is-equipped-with-588-kwh-catl-ncm-811-battery/",
+                  "name": "InsideEVs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-s-plus",
+      "url_slug": "aion-s-plus",
+      "name": "Aion S Plus",
+      "aliases": [
+        "Aion ES"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Restyled, larger successor-in-spirit to the Aion S launched in 2021 alongside it; exported as the Aion ES.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2021-06",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_S",
+          "name": "Wikipedia: Aion S"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "current",
+          "description": "204 hp front motor with LFP or NMC packs up to 69.9 kWh (510-610 km CLTC).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/2021_GAC_Aion_S_Plus_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_GAC_Aion_S_Plus_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "S Plus",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 204,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_S",
+                  "name": "Wikipedia: Aion S"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2021/06/24/gac-aion-s-plus-goes-on-sale-starts-at-about-21600-after-subsidies/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-s-max",
+      "url_slug": "aion-s-max",
+      "name": "Aion S Max",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Larger, more powerful version of the S family launched in 2023 and dropped in 2026.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2023",
+          "end": "2026",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_S",
+          "name": "Wikipedia: Aion S"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "180 kW front motor; LFP packs of 59.5-67.9 kWh (510-610 km CLTC).",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/2023_GAC_Aion_S_Max_front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_GAC_Aion_S_Max_front.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "S Max",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 241,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 101,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_S",
+                  "name": "Wikipedia: Aion S"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-rt",
+      "url_slug": "aion-rt",
+      "name": "Aion RT",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size sedan on the AEP 3.0 platform launched in China in 2024 with CATL packs; a battery-swap RT Super followed in April 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_RT",
+          "name": "Wikipedia: Aion RT"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "AY3",
+          "platform": "AEP 3.0",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "55.1 or 68.1 kWh CATL LFP packs; RT Super uses a swappable 54 kWh Choco-SEB pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Aion_RT_01_China_2025-03-26_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aion_RT_01_China_2025-03-26_(cropped).jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "520",
+              "name": "520 km (55.1 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 55.1,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_RT",
+                  "name": "Wikipedia: Aion RT"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/23/gac-aion-rt-officially-launched-with-catl-batteries-starting-from-14000-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "650",
+              "name": "650 km (68.1 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 68.1,
+              "battery_basis": "gross",
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.7,
+              "top_speed_mph": 101,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_RT",
+                  "name": "Wikipedia: Aion RT"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/23/gac-aion-rt-officially-launched-with-catl-batteries-starting-from-14000-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "super",
+              "name": "RT Super (swap, 54 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 54.036,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": 177,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.5,
+              "top_speed_mph": 101,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 505,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_RT",
+                  "name": "Wikipedia: Aion RT"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/23/gac-aion-rt-officially-launched-with-catl-batteries-starting-from-14000-usd/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.ithome.com/0/937/141.htm",
+                  "name": "ITHome"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-ut",
+      "url_slug": "aion-ut",
+      "name": "Aion UT",
+      "aliases": [
+        "UMO 3"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact electric hatchback launched in China in February 2025 (Yingwulong, 'parrot dragon') and exported to Europe, Australia and Southeast Asia. Sold in Russia as the UMO 3.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-02",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026-03",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_UT",
+          "name": "Wikipedia: Aion UT"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "AY2",
+          "platform": "AEP 3.0",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "100 kW front motor in China; export models use a 60 kWh pack and 150 kW.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Aion_UT_007.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aion_UT_007.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "320",
+              "name": "320 Star (32.2 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 32.24,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 107,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 11.9,
+              "top_speed_mph": 93,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 320,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_UT",
+                  "name": "Wikipedia: Aion UT"
+                }
+              ]
+            },
+            {
+              "slug": "420",
+              "name": "420 (44.1 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 44.09,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": 107,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_UT",
+                  "name": "Wikipedia: Aion UT"
+                }
+              ]
+            },
+            {
+              "slug": "530-ningde",
+              "name": "530 Ningde Edition (55.7 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 55.684,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2027,
+                  "range": 530,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_UT",
+                  "name": "Wikipedia: Aion UT"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.ithome.com/0/992/937.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "60-kwh",
+              "name": "60 kWh (export)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 60.0,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.3,
+              "top_speed_mph": 99,
+              "dc_kw": 130,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                },
+                {
+                  "market": "AU",
+                  "model_year": null,
+                  "range": 430,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_UT",
+                  "name": "Wikipedia: Aion UT"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.drive.com.au/news/2026-gac-aion-ut-price-and-specs-byd-dolphin-and-mg-4-rival-detailed-for-australia/",
+                  "name": "Drive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-v",
+      "url_slug": "aion-v",
+      "name": "Aion V",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact SUV. The first generation (2020-2024) was refreshed as the V Plus in 2021; the second generation (2024, 'Tyrannosaurus Rex' in China) is GAC's global model, sold in Europe from September 2025 and Australia from November 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2025-09",
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2025-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_V",
+          "name": "Wikipedia: Aion V"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2021,
+          "status": "discontinued",
+          "description": "135 kW front motor, CATL packs, V 60/70/80 trims.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aion_V_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aion_V_001.jpg",
+              "credit": "Jengtingchen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "v-70",
+              "name": "V 70",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": 2021,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 181,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_V",
+                  "name": "Wikipedia: Aion V"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "http://autonews.gasgoo.com/m/70017150.html",
+                  "name": "Gasgoo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2021",
+          "name": "V Plus",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "Restyled V Plus with 70-95 kWh packs and fast-charging battery option.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/2021_GAC_Aion_V_Plus_front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_GAC_Aion_V_Plus_front.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "v-plus",
+              "name": "V Plus",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2024,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_V",
+                  "name": "Wikipedia: Aion V"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://cnevpost.com/2021/09/17/gac-aion-to-officially-launch-aion-v-plus-first-model-to-support-its-ultrafast-charging-tech-on-sept-29/",
+                  "name": "CnEVPost"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": "AY5",
+          "platform": "AEP 3.0",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "All-new AEP 3.0 SUV with 62, 75 or 90 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2024_Aion_V_602_Luxury.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Aion_V_602_Luxury.jpg",
+              "credit": "Chanokchon",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "62",
+              "name": "520 km (62 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 62.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 520,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_V",
+                  "name": "Wikipedia: Aion V"
+                }
+              ]
+            },
+            {
+              "slug": "75",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 75.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 35990,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": null
+                },
+                {
+                  "market": "AU",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_V",
+                  "name": "Wikipedia: Aion V"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.highmotor.com/en/Chinese-manufacturer-GAC-announces-the-launch-of-the-Aion-V-in-Europe--starting-at-%E2%82%AC35990..htm",
+                  "name": "HighMotor"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.drive.com.au/news/2026-gac-aion-v-emzoom-m8-prices-announced-as-australias-newest-chinese-brand/",
+                  "name": "Drive"
+                }
+              ]
+            },
+            {
+              "slug": "90",
+              "name": "90 kWh NMC",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 90.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_V",
+                  "name": "Wikipedia: Aion V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-i60",
+      "url_slug": "aion-i60",
+      "name": "Aion i60",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "2025 derivative of the second-generation Aion V offered with range-extender and battery-electric powertrains.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "gac-aion-aion-v"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_V",
+          "name": "Wikipedia: Aion V"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "AEP 3.0",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "BEV with a 150 or 165 kW front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Aion_i60_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aion_i60_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-150",
+              "name": "EV 150 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_V",
+                  "name": "Wikipedia: Aion V"
+                }
+              ]
+            },
+            {
+              "slug": "ev-165",
+              "name": "EV 165 kW",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_V",
+                  "name": "Wikipedia: Aion V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-y",
+      "url_slug": "aion-y",
+      "name": "Aion Y",
+      "aliases": [
+        "Aion Y Plus",
+        "UMO 5"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Tall compact crossover launched in 2021, refreshed and lengthened as the Aion Y Plus in October 2022 and widely exported in Southeast Asia. Replaced in China by the Aion N60 in 2026. Sold in Russia as the UMO 5.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_Y",
+          "name": "Wikipedia: Aion Y"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "discontinued",
+          "description": "Original Aion Y with 135 kW front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/2021_GAC_Aion_Y_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_GAC_Aion_Y_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "Aion Y",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 181,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 105900,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_Y",
+                  "name": "Wikipedia: Aion Y"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.chinapev.com/gac-motor/gac-aion-y-goes-for-pre-sale-in-the-chinese-market-with-price-range-of-105900-to-149900-yuan/",
+                  "name": "ChinaPEV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2022",
+          "name": "Y Plus",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "current",
+          "description": "Longer Y Plus with 150 kW motor and 64 kWh LFP or 76.8 kWh NMC pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/2022_GAC_Aion_Y_Plus.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_GAC_Aion_Y_Plus.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "70",
+              "name": "Y Plus 70 (64 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 63.98,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": 166,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_Y",
+                  "name": "Wikipedia: Aion Y"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2022/10/20/gac-aion-y-plus-launched-in-chinese-market-price-starts-at-24800-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "80",
+              "name": "Y Plus 80 (76.8 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 76.8,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": 166,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_Y",
+                  "name": "Wikipedia: Aion Y"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2022/10/20/gac-aion-y-plus-launched-in-chinese-market-price-starts-at-24800-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-lx",
+      "url_slug": "aion-lx",
+      "name": "Aion LX",
+      "aliases": [
+        "Aion LX Plus"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Mid-size SUV launched in 2019, Aion's second car; the restyled LX Plus (2021) offered a 144 kWh pack. Production ended in 2026.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2019-08",
+          "end": "2026",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_LX",
+          "name": "Wikipedia: Aion LX"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2019",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2019,
+          "end_year": null,
+          "status": "discontinued",
+          "description": "70 or 93 kWh CATL NMC packs, FWD or 300 kW AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/2019_GAC_Aion_LX.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2019_GAC_Aion_LX.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "lx-70",
+              "name": "LX 70 (70 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 70.0,
+              "battery_basis": "gross",
+              "power_hp": 201,
+              "torque_lbft": 258,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_LX",
+                  "name": "Wikipedia: Aion LX"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.chinapev.com/gac-motor/gac-new-energy-launched-aion-lx-the-2nd-pure-ev-nedc-range-403miles/",
+                  "name": "ChinaPEV"
+                }
+              ]
+            },
+            {
+              "slug": "lx-80d",
+              "name": "LX 80D (93 kWh AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2019,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 93.0,
+              "battery_basis": "gross",
+              "power_hp": 402,
+              "torque_lbft": 516,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_LX",
+                  "name": "Wikipedia: Aion LX"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.chinapev.com/gac-motor/gac-new-energy-launched-aion-lx-the-2nd-pure-ev-nedc-range-403miles/",
+                  "name": "ChinaPEV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2021",
+          "name": "LX Plus",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Restyled LX Plus with up to 144.4 kWh NMC pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/2022_GAC_Aion_LX_Plus_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2022_GAC_Aion_LX_Plus_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "lx-plus-144",
+              "name": "LX Plus 144.4 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2026,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 144.4,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_LX",
+                  "name": "Wikipedia: Aion LX"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gac-aion-aion-n60",
+      "url_slug": "aion-n60",
+      "name": "Aion N60",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact SUV launched in April 2026 as the Chinese-market successor to the Aion Y, with WeRide driver assistance and LiDAR as standard.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "successor",
+          "model": "gac-aion-aion-y"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Aion_N60",
+          "name": "Wikipedia: Aion N60"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "165 kW front motor, three LFP pack sizes.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aion_N60_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Aion_N60_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "410",
+              "name": "410 km",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 410,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_N60",
+                  "name": "Wikipedia: Aion N60"
+                }
+              ]
+            },
+            {
+              "slug": "510",
+              "name": "510 km",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_N60",
+                  "name": "Wikipedia: Aion N60"
+                }
+              ]
+            },
+            {
+              "slug": "610",
+              "name": "610 km",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 610,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Aion_N60",
+                  "name": "Wikipedia: Aion N60"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Web search budget ran out during this make; data comes from Wikipedia and the news articles it cites.",
+    "Most Aion Chinese prices not sourced; Aion S, Y, V (gen 1) and LX ranges were published as NEDC, which the schema cannot hold.",
+    "Aion V second-generation battery-to-range mapping (75/90 kWh) and EU/AU WLTP ranges and AU prices not confirmed.",
+    "Aion UT EU and AU 60 kWh WLTP figures (420/430 km) come from Wikipedia's table and need a maker check; AU/EU prices not sourced.",
+    "Aion Ray 7 (listed by Wikipedia) and Aion Hyper/Hycan joint-venture models not researched.",
+    "Aion S Plus and S Max battery-by-trim breakdown not sourced."
+  ]
+}

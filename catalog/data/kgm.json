@@ -1,0 +1,434 @@
+{
+  "make": {
+    "slug": "kgm",
+    "name": "KGM",
+    "legacy_id": null,
+    "country": "KR",
+    "headquarters": "Pyeongtaek, Gyeonggi Province, South Korea",
+    "founded": 1954,
+    "parent_group": "KG Group",
+    "website_url": "https://www.kg-mobility.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "South Korean SUV and pickup maker, known as SsangYong Motor until March 2023. After Mahindra stopped funding it, it entered court receivership in December 2020 and was bought by a KG Group-led consortium in 2022. Its electric models are the Korando e-Motion, Torres EVX and Musso EV pickup.",
+    "sources": [
+      {
+        "fields": [
+          "history",
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/KG_Mobility",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "kgm-korando-e-motion",
+      "url_slug": "korando-e-motion",
+      "name": "Korando e-Motion",
+      "aliases": [
+        "SsangYong Korando e-Motion"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the fourth-generation Korando, SsangYong's first fully electric car, sold from the 2022 model year with a 61.5 kWh pack and front-wheel drive. It no longer appears in KGM's UK range, which now offers the Torres EVX instead.",
+      "markets": {
+        "UK": {
+          "status": "discontinued",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/SsangYong_Korando",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "markets"
+          ],
+          "url": "https://www.kgm-motors.co.uk/",
+          "name": "KGM UK"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Fourth-generation Korando (C300)",
+          "kind": "generation",
+          "ordinal": 4,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2022,
+          "end_year": null,
+          "status": "discontinued",
+          "description": "Only electric Korando.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ssangyong_Korando_e-Motion_IMG_6214.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Ssangyong_Korando_e-Motion_IMG_6214.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "61kwh-fwd",
+              "name": "61.5 kWh FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 61.5,
+              "battery_basis": null,
+              "power_hp": 190,
+              "torque_lbft": 266,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 339,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/SsangYong_Korando",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kgm-torres-evx",
+      "url_slug": "torres-evx",
+      "name": "Torres EVX",
+      "aliases": [
+        "SsangYong Torres EVX"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.kgm-motors.co.uk/",
+      "description": "Electric version of the Torres mid-size SUV (project U100), shown at the 2023 Seoul Motor Show and sold in Korea, Turkey (from April 2023), the UK and Europe, with a 73.4 kWh LFP pack from BYD's FinDreams.",
+      "markets": {
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/KGM_Torres",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "markets"
+          ],
+          "url": "https://www.kgm-motors.co.uk/",
+          "name": "KGM UK"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "U100",
+          "platform": null,
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/KG_Mobility_Torres_EVX_Automesse_Ludwigsburg_2024_IMG_1423.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:KG_Mobility_Torres_EVX_Automesse_Ludwigsburg_2024_IMG_1423.jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "73kwh-fwd",
+              "name": "73.4 kWh FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 73.4,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 500,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/KGM_Torres",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "markets"
+                  ],
+                  "url": "https://www.kgm-motors.co.uk/",
+                  "name": "KGM UK"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kgm-musso-ev",
+      "url_slug": "musso-ev",
+      "name": "Musso EV",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.kgm-motors.co.uk/",
+      "description": "Electric double-cab pickup (project O100) based on the Torres EVX, launched on 5 March 2025 with an 80.6 kWh LFP pack and front- or all-wheel drive. It is sold in Korea and the UK, with Australian sales from December 2025.",
+      "markets": {
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2025-12",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/KGM_Musso_EV",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "markets"
+          ],
+          "url": "https://www.kgm-motors.co.uk/",
+          "name": "KGM UK"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "O100",
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/KGM_Musso_EV_001_cropped.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:KGM_Musso_EV_001_cropped.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 80.6,
+              "battery_basis": null,
+              "power_hp": 204,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 420,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/KGM_Musso_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 80.6,
+              "battery_basis": null,
+              "power_hp": 357,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 380,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/KGM_Musso_EV",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "KGM Korando e-Motion 'discontinued' is based on it no longer being listed on KGM UK's site; a global end-of-production date could not be sourced (web search budget ran out).",
+    "KGM Torres EVX WLTP 500 km is Wikipedia's figure and looks high; a manufacturer WLTP figure was not found. UK price shown by KGM (from GBP 35,495) already deducts the GBP 1,500 Electric Car Grant, so it is not recorded.",
+    "KGM Musso EV UK price (GBP 39,995 incl. VAT after the GBP 5,000 van grant) not recorded for the same reason; torque and DC charging not sourced.",
+    "No Korean-market (KR cycle) ranges or KRW prices sourced for any KGM EV."
+  ]
+}

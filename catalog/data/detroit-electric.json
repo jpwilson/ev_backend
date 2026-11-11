@@ -1,0 +1,158 @@
+{
+  "make": {
+    "slug": "detroit-electric",
+    "name": "Detroit Electric",
+    "legacy_id": null,
+    "country": "NL",
+    "headquarters": "Netherlands (holding); Leamington Spa, UK (engineering)",
+    "founded": 2008,
+    "parent_group": null,
+    "website_url": null,
+    "status": "defunct",
+    "status_date": "2017-09",
+    "status_details": "Made no announcements after September 2017; the SP.01 never went beyond prototypes, and in November 2021 Lebanese startup EV Electra was reported to have bought a majority stake.",
+    "description": "Detroit Electric is a 2008 revival of the historic electric-car brand by former Lotus Engineering chief Albert Lam. Its only car, the Lotus Elise-based SP.01 roadster, was announced in Detroit in 2013 but never entered series production.",
+    "sources": [
+      {
+        "fields": [
+          "specs",
+          "status",
+          "price"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Detroit_Electric_SP.01",
+        "name": "Wikipedia: Detroit Electric SP.01"
+      },
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Detroit_Electric",
+        "name": "Wikipedia: Detroit Electric"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "detroit-electric-sp-01",
+      "url_slug": "sp-01",
+      "name": "SP.01",
+      "aliases": [
+        "SP:01"
+      ],
+      "body_style": "convertible",
+      "is_commercial": false,
+      "status": "cancelled",
+      "official_url": null,
+      "description": "Two-seat electric roadster based on the Lotus Elise, announced in April 2013 at $135,000 with a planned run of 999 cars. Production moved to the UK in 2014 and was promised again for 2017, but the car never progressed beyond prototype stage.",
+      "markets": {
+        "US": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "cancelled",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status",
+            "price"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Detroit_Electric_SP.01",
+          "name": "Wikipedia: Detroit Electric SP.01"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2013",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2013,
+          "end_year": null,
+          "status": "cancelled",
+          "description": "Prototype only.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Detroit_Electric_SP01_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Detroit_Electric_SP01_(cropped).jpg",
+              "credit": "Minseong Kim",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "SP.01",
+              "legacy_ids": [],
+              "status": "cancelled",
+              "year_from": 2013,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 37.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": 166,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.7,
+              "top_speed_mph": 155,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2014,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 135000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status",
+                    "price"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Detroit_Electric_SP.01",
+                  "name": "Wikipedia: Detroit Electric SP.01"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "SP.01 power is inconsistent in Wikipedia (210 kW infobox vs 150 kW text); left null. Range was quoted only on NEDC (290 km)."
+  ]
+}

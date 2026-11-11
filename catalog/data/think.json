@@ -1,0 +1,188 @@
+{
+  "make": {
+    "slug": "think",
+    "name": "Think",
+    "legacy_id": null,
+    "country": "NO",
+    "headquarters": null,
+    "founded": null,
+    "parent_group": null,
+    "website_url": null,
+    "status": "defunct",
+    "status_date": "2011-06-22",
+    "status_details": "Think Global filed for bankruptcy on 22 June 2011, its fourth in 20 years; Electric Mobility Solutions bought the assets in July 2011 but never restarted production, and the last car was built in Indiana in August 2012.",
+    "description": "Think (Th!nk) was a Norwegian maker of small electric city cars, owned by Ford from 1999 to 2003. Its second-generation Think City was built from 2008 to 2012 in Norway, Finland and Indiana and sold mainly in Norway.",
+    "sources": [
+      {
+        "fields": [
+          "specs",
+          "status",
+          "price",
+          "range"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Think_City",
+        "name": "Wikipedia: Think City"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "think-city",
+      "url_slug": "city",
+      "name": "City",
+      "aliases": [
+        "Th!nk City"
+      ],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Two-seat (or 2+2) plastic-bodied electric city car with a 110 km/h top speed. The second generation, built from 2008 to 2012 with sodium (Zebra) or lithium-ion batteries, was sold in Norway, several EU countries and the US; earlier Ford-era cars (2000-2002) used nickel-cadmium batteries.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2008",
+          "end": "2011",
+          "local_name": null
+        },
+        "US": {
+          "status": "discontinued",
+          "launch": "2011",
+          "end": "2012",
+          "local_name": null
+        },
+        "UK": {
+          "status": "discontinued",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status",
+            "price",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Think_City",
+          "name": "Wikipedia: Think City"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2008",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2008,
+          "end_year": 2012,
+          "status": "discontinued",
+          "description": "Re-engineered City with a 34 kW motor and 23-24 kWh Zebra or EnerDel lithium-ion batteries; about 2,500 built by October 2010.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Think_City_WAS_2010_8917.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Think_City_WAS_2010_8917.JPG",
+              "credit": "Mariordo Mario Roberto Duran Ortiz",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "zebra",
+              "name": "City (Zebra battery)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2008,
+              "year_to": 2011,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 24.0,
+              "battery_basis": null,
+              "power_hp": 46,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 68,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Think_City",
+                  "name": "Wikipedia: Think City"
+                }
+              ]
+            },
+            {
+              "slug": "li-ion",
+              "name": "City (lithium-ion)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2009,
+              "year_to": 2012,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 23.0,
+              "battery_basis": null,
+              "power_hp": 46,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 68,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2011,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 36495,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Think_City",
+                  "name": "Wikipedia: Think City"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Think City range is quoted as 160 km under the old NEDC cycle, which the schema does not support; no EPA label found.",
+    "Think founding year and HQ not in the fetched source; left null.",
+    "First-generation (2000-2002) City predates 2008 and is not modelled."
+  ]
+}

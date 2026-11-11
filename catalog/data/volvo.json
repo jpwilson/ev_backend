@@ -1,0 +1,2448 @@
+{
+  "make": {
+    "slug": "volvo",
+    "name": "Volvo",
+    "legacy_id": 33,
+    "country": "SE",
+    "headquarters": "Gothenburg, Sweden",
+    "founded": 1927,
+    "parent_group": "Geely Holding Group",
+    "website_url": "https://www.volvocars.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Swedish carmaker founded in 1927 and majority-owned by China's Geely Holding since 2010. Its battery-electric range runs from the EX30 to the EX90 SUV and ES90 sedan, with the EX60 added in 2026. In 2024 Volvo dropped its goal of selling only electric cars by 2030.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group",
+          "description"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Volvo_Cars",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "volvo-c30-electric",
+      "url_slug": "c30-electric",
+      "name": "C30 Electric",
+      "aliases": [
+        "C30 DRIVe Electric"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric version of the C30 hatchback, built in small numbers (around 250 planned) between 2011 and 2012 and leased to fleets and companies, mainly in Sweden and other European countries. It was Volvo's first series-built electric car.",
+      "markets": {
+        "EU": {
+          "status": "discontinued",
+          "launch": "2011",
+          "end": "2013",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_C30",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2011",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2011,
+          "end_year": 2013,
+          "status": "discontinued",
+          "description": "Converted C30 with a 24 kWh EnerDel lithium-ion pack in the tunnel and fuel-tank space; bodies built in Ghent, motor and battery fitted in Gothenburg. Leased only, never sold outright.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Volvo_c30_electric.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_c30_electric.jpg",
+              "credit": "Nufkin (Flickr user)",
+              "license": "CC BY 2.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "electric",
+              "name": "Electric",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2011,
+              "year_to": 2013,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 24.0,
+              "battery_basis": null,
+              "power_hp": 108,
+              "torque_lbft": 164,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 81,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_C30",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "volvo-xc40-recharge",
+      "url_slug": "ex40",
+      "name": "EX40",
+      "aliases": [
+        "XC40 Recharge",
+        "XC40 Recharge Pure Electric",
+        "XC40 Electric"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Volvo's first mass-market EV: the battery-electric XC40, revealed in October 2019 and on sale from late 2020 as the XC40 Recharge, renamed EX40 in 2024. It moved from front- to rear-wheel drive for model year 2024. Volvo is dropping it from the US (the 2026 model is the last one there according to most reports) while it stays on sale in Europe.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2020",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://electrek.co/2026/09/10/volvo-kills-off-another-ev-us-replacement-coming/",
+          "name": "Electrek"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Original (P8 / P6)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CMA",
+          "start_year": 2020,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "First battery-electric XC40 on the CMA platform: 78 kWh twin-motor P8 AWD, later joined by a 69 kWh front-drive single motor. The exterior facelift with frameless headlights arrived for model year 2023.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/2021_Volvo_XC40_P8_First_Edition_AWD_Front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_Volvo_XC40_P8_First_Edition_AWD_Front.jpg",
+              "credit": "Vauxford",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "twin-motor-awd",
+              "name": "Twin Motor (P8 AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 78.0,
+              "battery_basis": null,
+              "power_hp": 402,
+              "torque_lbft": 487,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2021,
+                  "range": 208,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 223,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 223,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 418,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=43295",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44450",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45761",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "single-motor-fwd",
+              "name": "Single Motor (P6, FWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 69.0,
+              "battery_basis": null,
+              "power_hp": 228,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 425,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Rear-drive update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CMA",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "New rear-mounted motors (the first rear-drive Volvo in 25 years), an 82 kWh pack for Extended Range and Twin Motor, and faster DC charging. Renamed EX40 in 2024; Volvo showed a further facelift for model year 2028 in 2026 (not modelled separately yet).",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/volvo_xc40_recharge_single_motor_lr.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor (RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 235,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 175,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 474,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "single-motor-extended-range",
+              "name": "Single Motor Extended Range",
+              "legacy_ids": [
+                170
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 82.0,
+              "battery_basis": "gross",
+              "power_hp": 249,
+              "torque_lbft": 310,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 293,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 296,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 296,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 569,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46981",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48451",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49747",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor-performance",
+              "name": "Twin Motor Performance",
+              "legacy_ids": [
+                169
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 82.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": 494,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 175,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 254,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 260,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 536,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46983",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48447",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49749",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "volvo-ec40",
+      "url_slug": "ec40",
+      "name": "EC40",
+      "aliases": [
+        "C40 Recharge",
+        "C40"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Coupe-roofed, electric-only sibling of the XC40/EX40, revealed in March 2021 as the C40 Recharge and renamed EC40 in 2024. It shares the EX40's powertrains, including the 2023 switch to rear-drive single motors. It is no longer sold in the US but remains on sale in Europe.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_C40",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://electrek.co/2026/09/10/volvo-kills-off-another-ev-us-replacement-coming/",
+          "name": "Electrek"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2022",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CMA",
+          "start_year": 2021,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "Launch versions on the CMA platform: twin-motor AWD with a 78 kWh pack and a front-drive single motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Volvo_C40_Recharge_2021_P01_front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_C40_Recharge_2021_P01_front.jpg",
+              "credit": "Fallaner",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "twin-motor",
+              "name": "Twin Motor (AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 78.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2022,
+                  "range": 226,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 226,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 444,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_C40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=44929",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=45760",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "single-motor-fwd",
+              "name": "Single Motor (FWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 415,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_C40",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2024",
+          "name": "Rear-drive update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "CMA",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Same rear-drive motors and 82 kWh Extended Range pack as the EX40 update; renamed EC40 in 2024.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Volvo_C40_DSC_7985.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_C40_DSC_7985.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor (RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 485,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_C40",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "single-motor-extended-range",
+              "name": "Single Motor Extended Range",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 82.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 297,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 298,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 578,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_C40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46980",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48448",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor",
+              "name": "Twin Motor (AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 82.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 257,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 268,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 549,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_XC40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_C40",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=46982",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48446",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "volvo-ex30",
+      "url_slug": "ex30",
+      "name": "EX30",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Volvo's smallest SUV, built on Geely's SEA platform in China from 2023 and also in Ghent, Belgium and Malaysia from 2025. A raised Cross Country version followed in 2025. Volvo dropped the EX30 from the US after the 2026 model year; it continues in Europe, Canada and other markets.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "2025",
+          "end": "2026",
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_EX30",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "price"
+          ],
+          "url": "https://electrek.co/2026/05/19/volvo-new-ev-replace-35000-ex30-in-the-us/",
+          "name": "Electrek"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SEA",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "Compact SUV on the SEA platform with a 51 kWh LFP or 69 kWh NMC pack and single- or twin-motor drive.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/volvo_ex30_twin_motor_perf.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 51.0,
+              "battery_basis": "gross",
+              "power_hp": 268,
+              "torque_lbft": 253,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.7,
+              "top_speed_mph": 112,
+              "dc_kw": 134,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 344,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "price": null,
+                  "launch_price": 33795,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX30",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "single-motor-extended-range",
+              "name": "Single Motor Extended Range",
+              "legacy_ids": [
+                172
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 69.0,
+              "battery_basis": "gross",
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.3,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 261,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": 44900,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 261,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 480,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX30",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48450",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49989",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2026/05/19/volvo-new-ev-replace-35000-ex30-in-the-us/",
+                  "name": "Electrek"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor-performance",
+              "name": "Twin Motor Performance",
+              "legacy_ids": [
+                171
+              ],
+              "status": null,
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 69.0,
+              "battery_basis": "gross",
+              "power_hp": 422,
+              "torque_lbft": 400,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.6,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 253,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 253,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 460,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX30",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48775",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49992",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "cross-country",
+              "name": "Cross Country (Twin Motor Performance)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.7,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 227,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 436,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX30",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=49991",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "volvo-ex90",
+      "url_slug": "ex90",
+      "name": "EX90",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Seven-seat flagship SUV, revealed in November 2022 as Volvo's first bespoke EV and built in Ridgeville (South Carolina), Chengdu and Malaysia since 2024. For model year 2026 it moved from a 400-volt to an 800-volt system with new motors and faster charging.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        },
+        "IN": {
+          "status": "current",
+          "launch": "2026-10",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Original (400 V)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SPA2",
+          "start_year": 2024,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "SPA2 platform with a 400-volt system, 111 kWh pack for the twin-motor versions and 250 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Volvo_EX90%2C_Auto_2024%2C_Zurich_%28PANA0993%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_EX90,_Auto_2024,_Zurich_(PANA0993).jpg",
+              "credit": "Matti Blume",
+              "license": "CC BY-SA 4.0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 104.0,
+              "battery_basis": "gross",
+              "power_hp": 275,
+              "torque_lbft": 361,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 8.4,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor",
+              "name": "Twin Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 402,
+              "torque_lbft": 568,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.9,
+              "top_speed_mph": 112,
+              "dc_kw": 250,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 310,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48778",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor-performance",
+              "name": "Twin Motor Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 510,
+              "torque_lbft": 671,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.9,
+              "top_speed_mph": 112,
+              "dc_kw": 250,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 310,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=48779",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "800-volt update",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SPA2 (800 V)",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Moved to an 800-volt electrical system with new 92 kWh and 106 kWh CATL packs, new motors (up to 500 kW in the Twin Motor Performance) and up to 350 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Volvo_EX90_MY2026_IMG01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_EX90_MY2026_IMG01.jpg",
+              "credit": "Poprace",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 92.0,
+              "battery_basis": null,
+              "power_hp": 329,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 291,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 291,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50255",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50875",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor",
+              "name": "Twin Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 106.0,
+              "battery_basis": null,
+              "power_hp": 449,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 305,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 310,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50257",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50700",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/new-800-volt-electrical-system-comprehensively-upgrades-2026-volvo-ex90-516056",
+                  "name": "Cars.com"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor-performance",
+              "name": "Twin Motor Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 106.0,
+              "battery_basis": null,
+              "power_hp": 670,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 305,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 310,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50259",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50702",
+                  "name": "fueleconomy.gov (EPA)"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.cars.com/articles/new-800-volt-electrical-system-comprehensively-upgrades-2026-volvo-ex90-516056",
+                  "name": "Cars.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "volvo-es90",
+      "url_slug": "es90",
+      "name": "ES90",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Large electric liftback sedan revealed in March 2025 on the 800-volt SPA2 platform and built in Chengdu and Malaysia from September 2025. It is sold in Europe and China; Volvo has said it has no current plans to sell it in the US.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_ES90",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.consumerreports.org/cars/volvo/es90/2026/road-test-report/",
+          "name": "Consumer Reports"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SPA2 (800 V)",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Executive liftback on SPA2 with an 800-volt system and 92 or 106 kWh CATL packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Volvo_ES90_Auto_Zuerich_2025_DSC_2985.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_ES90_Auto_Zuerich_2025_DSC_2985.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 92.0,
+              "battery_basis": "gross",
+              "power_hp": 329,
+              "torque_lbft": 354,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.9,
+              "top_speed_mph": 112,
+              "dc_kw": 300,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 650,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 71990,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_ES90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://ev-database.org/car/3128/Volvo-ES90-Single-Motor",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor",
+              "name": "Twin Motor",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 106.0,
+              "battery_basis": "gross",
+              "power_hp": 443,
+              "torque_lbft": 494,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.5,
+              "top_speed_mph": null,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 700,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 88990,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_ES90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://ev-database.org/car/3129/Volvo-ES90-Twin-Motor",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "twin-motor-performance",
+              "name": "Twin Motor Performance",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 106.0,
+              "battery_basis": "gross",
+              "power_hp": 671,
+              "torque_lbft": 642,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.0,
+              "top_speed_mph": 112,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "price": 94490,
+                  "launch_price": null,
+                  "currency": "EUR",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_ES90",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://ev-database.org/car/3130/Volvo-ES90-Twin-Motor-Performance",
+                  "name": "EV Database"
+                }
+              ]
+            },
+            {
+              "slug": "single-motor-lfp-china",
+              "name": "Single Motor 77 kWh LFP (China)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 77.0,
+              "battery_basis": null,
+              "power_hp": 322,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 608,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_ES90",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "volvo-em90",
+      "url_slug": "em90",
+      "name": "EM90",
+      "aliases": [],
+      "body_style": "minivan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Large luxury electric MPV introduced in November 2023 and built in Ningbo, China, on Geely's SEA platform shared with the Zeekr 009. Sold in China (and selected Asian markets), rear-wheel drive only.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_EM90",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SEA",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Restyled Zeekr 009 with Volvo front and rear ends and a 116 kWh CATL pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Volvo_EM90_20231120.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_EM90_20231120.jpg",
+              "credit": "Nissangeniss",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "single-motor",
+              "name": "Single Motor (RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 116.0,
+              "battery_basis": null,
+              "power_hp": 268,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 739,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EM90",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "volvo-ex60",
+      "url_slug": "ex60",
+      "name": "EX60",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size electric SUV revealed on 21 January 2026, the first Volvo on the SPA3 platform, built in Torslanda, Sweden from April 2026. It has an 800-volt system, a native NACS port in North America and is now Volvo's cheapest EV in the US.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2026-05",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Volvo_EX60",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "status",
+            "price"
+          ],
+          "url": "https://electrek.co/2026/09/10/volvo-kills-off-another-ev-us-replacement-coming/",
+          "name": "Electrek"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "SPA3",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "SPA3 platform, 800-volt system, P6 (RWD), P10 and P12 (AWD) versions; a Cross Country follows for model year 2028.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Volvo_EX60_fl.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_EX60_fl.jpg",
+              "credit": "Herranderssvensson",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "p6",
+              "name": "P6 (RWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 80.0,
+              "battery_basis": "usable",
+              "power_hp": 369,
+              "torque_lbft": 354,
+              "accel_0_60_s": 5.7,
+              "accel_0_100_s": null,
+              "top_speed_mph": 112,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 307,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 58400,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 56860,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX60",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.motor1.com/news/785028/volvo-ex60-revealed-specs-photos/",
+                  "name": "Motor1"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.volvocars.com/us/media/press-releases/BDD05C75EC286F35",
+                  "name": "Volvo Car USA"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.honestjohn.co.uk/news/new-cars/2026-01/2026-volvo-ex60",
+                  "name": "Honest John"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50874",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "p10",
+              "name": "P10 (AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 91.0,
+              "battery_basis": null,
+              "power_hp": 503,
+              "torque_lbft": 524,
+              "accel_0_60_s": 4.4,
+              "accel_0_100_s": null,
+              "top_speed_mph": 112,
+              "dc_kw": 400,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 330,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 60750,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 660,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX60",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.motor1.com/news/785028/volvo-ex60-revealed-specs-photos/",
+                  "name": "Motor1"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.volvocars.com/us/media/press-releases/BDD05C75EC286F35",
+                  "name": "Volvo Car USA"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/Find.do?action=sbs&id=50696",
+                  "name": "fueleconomy.gov (EPA)"
+                }
+              ]
+            },
+            {
+              "slug": "p12",
+              "name": "P12 (AWD)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 112.0,
+              "battery_basis": null,
+              "power_hp": 670,
+              "torque_lbft": 583,
+              "accel_0_60_s": 3.8,
+              "accel_0_100_s": null,
+              "top_speed_mph": 112,
+              "dc_kw": 400,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 400,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "connector": "NACS",
+                  "is_estimate": true
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 810,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Volvo_EX60",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.motor1.com/news/785028/volvo-ex60-revealed-specs-photos/",
+                  "name": "Motor1"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.volvocars.com/us/media/press-releases/BDD05C75EC286F35",
+                  "name": "Volvo Car USA"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.honestjohn.co.uk/news/new-cars/2026-01/2026-volvo-ex60",
+                  "name": "Honest John"
+                }
+              ]
+            },
+            {
+              "slug": "cross-country",
+              "name": "Cross Country",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 112,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://www.motor1.com/news/785028/volvo-ex60-revealed-specs-photos/",
+                  "name": "Motor1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 169,
+      "note": "Legacy 'XC40 Recharge Twin Motor' row (402 hp, 82 kWh, 254 mi) is the MY2024 Twin Motor Performance of the rear-drive update; EPA rates MY2025-26 at 260 mi. Model renamed EX40 in 2024. Legacy price $55,495, 0-60 4.6 s and 112 mph were not re-sourced and are left null. Legacy image (Volvo press photo) shows the facelifted car and is not reused for the original generation."
+    },
+    {
+      "legacy_id": 170,
+      "note": "Legacy row says drive_type AWD: wrong, the Single Motor Extended Range is rear-wheel drive. 293 mi is the MY2024 EPA figure (MY2025-26: 296 mi). Its image (facelifted EX40) is used for the 2024 generation after viewing."
+    },
+    {
+      "legacy_id": 171,
+      "note": "Legacy current_price $34,950 is the never-delivered promised US base price, not a Twin Motor Performance price; the US EX30 went on sale in 2025 at $44,900 (Single Motor Extended Range). Legacy 0-60 3.3 s not re-sourced. EX30 is discontinued in the US after MY2026 (announced March 2026); still sold in Europe/Canada. Legacy image verified as EX30 and reused."
+    },
+    {
+      "legacy_id": 172,
+      "note": "Legacy 'Single Motor LR' = Single Motor Extended Range (69 kWh). Price $36,245 has no source and is dropped; US launch price was $44,900. Discontinued in the US after MY2026."
+    }
+  ],
+  "gaps": [
+    "WebSearch budget for the session ran out mid-research; remaining facts come from Wikipedia, EPA data and articles already fetched.",
+    "US MSRPs for EX40, EC40, EX90 (all years) and EX30 2026 were not sourced; only EX30 2025 launch price and EX60 P6/P10 prices are included.",
+    "EX40/EC40 2023+ Twin Motor Performance power not stated by the source used (only torque); EX30 Single Motor Extended Range power left null because Wikipedia's figure (153 kW) conflicts with EPA motor ratings (185/200 kW).",
+    "EPA lists a 2026 EC40 (298/268 mi) although Electrek (Sept 2026) says the EC40 is no longer sold in the US; US offerings stop at MY2025 and US market status is discontinued.",
+    "Volvo showed a facelift of EX40/EC40 for model year 2028 (Europe) in 2026; not modelled as its own refresh because no spec changes were sourced.",
+    "EX90 original-generation WLTP ranges are inconsistent on Wikipedia; no EU offerings entered. EX90 2026 refresh images: no photo that verifiably shows the 800 V car (exterior unchanged), so none attached.",
+    "EX60 P12 US range is Volvo's preliminary 400 mi (is_estimate); EPA had not published it. EX60 P10/P12 UK prices not sourced. EX60 WLTP figures come from Wikipedia without an explicit cycle label (P12 810 km matches the 503-mile WLTP figure reported by Honest John).",
+    "EM90 price and ES90 Twin Motor Performance WLTP range not sourced.",
+    "Volvo has said a new entry-level EV (reportedly EX50, trademarked July 2026) arrives in the US by end of 2027; not added because the name and specs are not official."
+  ]
+}

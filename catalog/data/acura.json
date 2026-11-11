@@ -1,0 +1,389 @@
+{
+ "make": {
+  "slug": "acura",
+  "name": "Acura",
+  "legacy_id": null,
+  "country": "US",
+  "headquarters": "Torrance, California, USA",
+  "founded": 1986,
+  "parent_group": "Honda",
+  "website_url": "https://www.acura.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Honda's luxury brand for North America. Its only production battery-electric model, the GM-built ZDX, ran from 2024 to 2025, and its planned RSX EV was cancelled in March 2026.",
+  "sources": [
+   {
+    "fields": [
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Acura",
+    "name": "Wikipedia: Acura"
+   },
+   {
+    "fields": [
+     "status"
+    ],
+    "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+    "name": "Honda global newsroom, 12 March 2026"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "acura-zdx",
+   "url_slug": "zdx",
+   "name": "ZDX",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": "https://www.acura.com",
+   "description": "Acura's first battery-electric model, a GM-built midsize SUV sold in the US from May 2024. Production ended in September 2025, a week before the US federal EV tax credit expired. (The 2010-2013 ZDX was a gasoline crossover.)",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2024-05",
+     "end": "2025-09",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "specs"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Acura_ZDX",
+     "name": "Wikipedia: Acura ZDX"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/773432/acura-zdx-ev-dead/",
+     "name": "InsideEVs (ZDX production ended)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.carscoops.com/2025/09/acura-kills-zdx-after-massive-discounts-fail-to-save-it/",
+     "name": "Carscoops (Acura kills ZDX)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "Second generation (electric)",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": null,
+     "platform": "GM BEV3 (Ultium)",
+     "start_year": 2024,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Electric midsize SUV built by GM in Spring Hill, Tennessee, from March 2024 with the Cadillac Lyriq's 102 kWh pack; Honda ended production in September 2025 after weak sales.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2024_Acura_ZDX_Type_S_in_Cosmic_Black_Metallic%2C_front_right%2C_2024-11-06.jpg",
+       "view": "front_3q",
+       "verified_by_viewing": true,
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Acura_ZDX_Type_S_in_Cosmic_Black_Metallic,_front_right,_2024-11-06.jpg",
+       "credit": "Elise240SX",
+       "license": "CC BY-SA 4.0"
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "history",
+        "specs"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Acura_ZDX",
+       "name": "Wikipedia: Acura ZDX"
+      },
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://insideevs.com/news/773432/acura-zdx-ev-dead/",
+       "name": "InsideEVs (ZDX production ended)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "a-spec-rwd",
+       "name": "A-Spec RWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": null,
+       "power_hp": 358,
+       "torque_lbft": 324,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 313,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Acura_ZDX",
+         "name": "Wikipedia: Acura ZDX"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47809.shtml",
+         "name": "fueleconomy.gov 2024 ZDX RWD"
+        }
+       ]
+      },
+      {
+       "slug": "a-spec-awd",
+       "name": "A-Spec AWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": null,
+       "power_hp": 490,
+       "torque_lbft": 437,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 304,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Acura_ZDX",
+         "name": "Wikipedia: Acura ZDX"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47808.shtml",
+         "name": "fueleconomy.gov 2024 ZDX AWD"
+        }
+       ]
+      },
+      {
+       "slug": "type-s",
+       "name": "Type S AWD",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 102,
+       "battery_basis": null,
+       "power_hp": 500,
+       "torque_lbft": 544,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 278,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Acura_ZDX",
+         "name": "Wikipedia: Acura ZDX"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48781.shtml",
+         "name": "fueleconomy.gov 2024 ZDX Type S"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "acura-rsx",
+   "url_slug": "rsx",
+   "name": "RSX",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "cancelled",
+   "official_url": null,
+   "description": "Planned electric crossover meant to replace the ZDX as Acura's EV, previewed by the Performance EV Concept. Honda cancelled its development and launch on 12 March 2026 along with the Honda 0 Saloon and 0 SUV.",
+   "markets": {
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+     "name": "Honda global newsroom, 12 March 2026"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/773432/acura-zdx-ev-dead/",
+     "name": "InsideEVs (ZDX production ended)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "Production version (cancelled)",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "cancelled",
+     "description": "Electric crossover that was to be built at Honda's Ohio EV hub from the second half of 2026; cancelled on 12 March 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Acura_RSX_Prototype.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Acura_RSX_Prototype.jpg",
+       "credit": "TTTNIS",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+       "name": "Honda global newsroom, 12 March 2026"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "planned",
+       "name": "RSX (planned)",
+       "legacy_ids": [],
+       "status": "cancelled",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://global.honda/en/newsroom/news/2026/c260312eng.html",
+         "name": "Honda global newsroom, 12 March 2026"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://insideevs.com/news/773432/acura-zdx-ev-dead/",
+         "name": "InsideEVs (ZDX production ended)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "ZDX MSRPs not sourced (search budget exhausted; Acura press site not reachable).",
+  "fueleconomy.gov lists 2026 ZDX ratings (RWD 327 mi, AWD 323 mi, Type S 296 mi) but production ended in September 2025; whether 2026 models were sold was not confirmed, so they are not listed.",
+  "RSX specifications were never published before cancellation."
+ ]
+}

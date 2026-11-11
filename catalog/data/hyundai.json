@@ -1,0 +1,4115 @@
+{
+ "make": {
+  "slug": "hyundai",
+  "name": "Hyundai",
+  "legacy_id": 11,
+  "country": "KR",
+  "headquarters": "Seoul, South Korea",
+  "founded": 1967,
+  "parent_group": "Hyundai Motor Group",
+  "website_url": "https://www.hyundai.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "South Korean carmaker and one of the world's largest. Its Ioniq sub-brand (Ioniq 5, 6, 9) uses the 800-volt E-GMP platform; it also sells the Kona Electric, Inster and market-specific EVs in China and India.",
+  "sources": [
+   {
+    "fields": [
+     "description"
+    ],
+    "url": "https://en.wikipedia.org/wiki/List_of_Hyundai_vehicles",
+    "name": "Wikipedia (List of Hyundai vehicles)"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "hyundai-blueon",
+   "url_slug": "blueon",
+   "name": "BlueOn",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Hyundai's first battery-electric car, a small hatchback based on the i10 and unveiled in 2010. It was built in very small numbers, mainly for field testing by South Korean government agencies.",
+   "markets": {
+    "KR": {
+     "status": "discontinued",
+     "launch": "2010",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Hyundai_BlueOn",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2010",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2010,
+     "end_year": 2010,
+     "status": "discontinued",
+     "description": "i10-based prototype-series EV with a 16.4 kWh lithium-polymer pack and about 140 km of range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/20110402_hyundai_blueon_1.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:20110402_hyundai_blueon_1.jpg",
+       "credit": "Chu",
+       "license": "CC BY-SA 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "BlueOn",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2010,
+       "year_to": 2010,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 16.4,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "KR",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_BlueOn",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-electric",
+   "url_slug": "ioniq-electric",
+   "name": "Ioniq Electric",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the Ioniq liftback, sold alongside hybrid and plug-in hybrid versions. Launched in 2016 with a 28 kWh pack, updated in 2019 with a 38.3 kWh pack; Ioniq production ended in July 2022.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2017",
+     "end": "2021",
+     "local_name": null
+    },
+    "KR": {
+     "status": "discontinued",
+     "launch": "2016",
+     "end": "2022",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2016",
+     "end": "2022",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Hyundai_Ioniq",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2017",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "AE",
+     "platform": null,
+     "start_year": 2016,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "28 kWh pack, 88-89 kW motor; EPA-rated 124 miles.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Hyundai_Ioniq_Elektro_an_einer_IKEA_Ladestation_in_Wuppertal.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_Elektro_an_einer_IKEA_Ladestation_in_Wuppertal.jpg",
+       "credit": "Michael Kramer",
+       "license": "CC BY-SA 3.0",
+       "view": "front",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "28-kwh",
+       "name": "Electric (28 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2017,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 28.0,
+       "battery_basis": null,
+       "power_hp": 120,
+       "torque_lbft": 218,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 124,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 29500,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 124,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Ioniq",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38431.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://prnewswire.com/news-releases/2017-hyundai-ioniq-hybrid-and-electric-models-are-priced-to-attract-entirely-new-eco-focused-buyers-300406776.html",
+         "name": "Hyundai Motor America (PR Newswire)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2020",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "AE",
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Bigger 38.3 kWh pack and 100 kW motor; EPA range rose to 170 miles. US sales ended after model year 2021.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2020_Hyundai_Ioniq_Premium_SE_EV_facelift_Front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2020_Hyundai_Ioniq_Premium_SE_EV_facelift_Front.jpg",
+       "credit": "Vauxford",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "38-kwh",
+       "name": "Electric (38.3 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 38.3,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": 218,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 170,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 170,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 310,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Ioniq",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/42273.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-kona-electric",
+   "url_slug": "kona-electric",
+   "name": "Kona Electric",
+   "aliases": [
+    "Kona EV",
+    "Kauai EV",
+    "Encino EV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.hyundaiusa.com/us/en/vehicles/kona-electric",
+   "description": "Subcompact electric crossover. The first generation (2018) offered 39 and 64 kWh packs; the larger second generation arrived in 2023. In China the first generation was sold as the Encino EV, and in India it was replaced by the Creta Electric in 2024.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2019",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2018",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2018",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2018",
+     "end": null,
+     "local_name": null
+    },
+    "IN": {
+     "status": "discontinued",
+     "launch": "2019-07",
+     "end": "2024-06",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Hyundai_Kona_Electric",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://cars.com/articles/hyundai-pauses-kona-electric-for-2026-kia-discontinues-niro-phev-521230/",
+     "name": "Cars.com"
+    },
+    {
+     "fields": [
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/List_of_Hyundai_vehicles",
+     "name": "Wikipedia (List of Hyundai vehicles)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "OS",
+     "platform": null,
+     "start_year": 2018,
+     "end_year": 2020,
+     "status": "discontinued",
+     "description": "Original Kona-based EV with a 39.2 kWh (Europe/Korea) or 64 kWh pack; the US got only the 64 kWh version.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Hyundai_Kona_Electric_II_Genf_2018.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Kona_Electric_II_Genf_2018.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "64-kwh",
+       "name": "64 kWh",
+       "legacy_ids": [
+        110
+       ],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2021,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 36450,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2020,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Kona_Electric",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/40585.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://electrek.co/2019/01/28/hyundai-kona-ev-us-pricing/",
+         "name": "Electrek"
+        }
+       ]
+      },
+      {
+       "slug": "39-kwh",
+       "name": "39.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2018,
+       "year_to": 2020,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 39.2,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Kona_Electric",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2022",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "OS",
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "Restyled nose (unveiled September 2020) on the same 39.2 / 64 kWh hardware.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Hyundai_Kona_electric_%28I%2C_Facelift%29_%E2%80%93_f_22082025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Kona_electric_(I,_Facelift)_%E2%80%93_f_22082025.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "64-kwh",
+       "name": "64 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.0,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 258,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Kona_Electric",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44444.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "39-kwh",
+       "name": "39.2 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 39.2,
+       "battery_basis": null,
+       "power_hp": 134,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Kona_Electric",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": "SX2",
+     "platform": null,
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "Larger, EV-first redesign with 48.6 kWh (Standard Range) and 64.8 kWh (Long Range) packs. Hyundai skipped the 2026 model year in the US, calling it a pause.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/hyundai_kona_ltd.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status"
+       ],
+       "url": "https://cars.com/articles/hyundai-pauses-kona-electric-for-2026-kia-discontinues-niro-phev-521230/",
+       "name": "Cars.com"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Standard Range",
+       "legacy_ids": [
+        111
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 48.6,
+       "battery_basis": null,
+       "power_hp": 133,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 74,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 200,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 200,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 32875,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 34995,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Kona_Electric",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47831.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48359.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://insideevs.com/news/728705/2025-hyundai-kona-electric-n-line-trim/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://electrive.com/2023/07/05/uk-hyundai-releases-prices-and-specifications-for-kona-electric",
+         "name": "electrive"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Long Range",
+       "legacy_ids": [
+        112,
+        207
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.8,
+       "battery_basis": null,
+       "power_hp": 201,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 102,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 261,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 261,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 36875,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 38595,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Kona_Electric",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47449.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48357.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://insideevs.com/news/728705/2025-hyundai-kona-electric-n-line-trim/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://electrive.com/2023/07/05/uk-hyundai-releases-prices-and-specifications-for-kona-electric",
+         "name": "electrive"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-5",
+   "url_slug": "ioniq-5",
+   "name": "Ioniq 5",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5",
+   "description": "Retro-styled compact electric crossover on Hyundai's 800-volt E-GMP platform, launched in 2021. A 2024 facelift (US model year 2025) brought a bigger 84 kWh pack, a native NACS port in the US and the rugged XRT trim.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2021-12",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://www.cars.com/articles/no-ev-tax-credit-no-problem-hyundai-drops-2026-ioniq-5-prices-by-up-to-9800-516717",
+     "name": "Cars.com"
+    },
+    {
+     "fields": [
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/List_of_Hyundai_vehicles",
+     "name": "Wikipedia (List of Hyundai vehicles)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "NE",
+     "platform": "E-GMP",
+     "start_year": 2021,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Launch version with a 58 kWh Standard Range or 77.4 kWh Long Range pack and RWD or dual-motor AWD.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/ioniq5_ltd_awd.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-rwd",
+       "name": "Standard Range RWD",
+       "legacy_ids": [
+        104
+       ],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 58.0,
+       "battery_basis": null,
+       "power_hp": 168,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 220,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 39700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 220,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 41650,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/553922/2022-hyundai-ioniq5-pricing-revealed/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/697914/2024-hyundai-ioniq5-prices/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44924.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46961.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [
+        105,
+        107,
+        109
+       ],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": 225,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 43650,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 303,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 45700,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/553922/2022-hyundai-ioniq5-pricing-revealed/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/697914/2024-hyundai-ioniq5-prices/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44923.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46960.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [
+        102,
+        103,
+        106,
+        108
+       ],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": 320,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 256,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 47150,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 260,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/553922/2022-hyundai-ioniq5-pricing-revealed/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/697914/2024-hyundai-ioniq5-prices/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44922.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46962.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "NE",
+     "platform": "E-GMP",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Bigger packs (63 / 84 kWh), restyled bumpers, a native NACS port in the US, and the off-road-styled XRT.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Hyundai_Ioniq_5_N_Line_IMG_3869.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_5_N_Line_IMG_3869.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-rwd",
+       "name": "Standard Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 63.0,
+       "battery_basis": null,
+       "power_hp": 168,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 245,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 245,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 36600,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 440,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39900,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/no-ev-tax-credit-no-problem-hyundai-drops-2026-ioniq-5-prices-by-up-to-9800-516717",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48714.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49961.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/727520/hyundai-ioniq-5-uk-specs-pricing/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range",
+          "specs"
+         ],
+         "url": "https://www.electrive.com/2024/08/09/hyundai-ioniq-5-facelift-model-available-to-order",
+         "name": "electrive"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 225,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 318,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 318,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 39100,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 570,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 43400,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/no-ev-tax-credit-no-problem-hyundai-drops-2026-ioniq-5-prices-by-up-to-9800-516717",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48713.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49960.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/727520/hyundai-ioniq-5-uk-specs-pricing/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range",
+          "specs"
+         ],
+         "url": "https://www.electrive.com/2024/08/09/hyundai-ioniq-5-facelift-model-available-to-order",
+         "name": "electrive"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [
+        211
+       ],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 320,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 290,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 290,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 546,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/no-ev-tax-credit-no-problem-hyundai-drops-2026-ioniq-5-prices-by-up-to-9800-516717",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48710.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49962.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range",
+          "specs"
+         ],
+         "url": "https://www.electrive.com/2024/08/09/hyundai-ioniq-5-facelift-model-available-to-order",
+         "name": "electrive"
+        }
+       ]
+      },
+      {
+       "slug": "xrt-awd",
+       "name": "XRT AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 320,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 259,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "NACS",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 259,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 47875,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/no-ev-tax-credit-no-problem-hyundai-drops-2026-ioniq-5-prices-by-up-to-9800-516717",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48712.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49964.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-5-n",
+   "url_slug": "ioniq-5-n",
+   "name": "Ioniq 5 N",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-5-n",
+   "description": "High-performance version of the Ioniq 5 from Hyundai's N division, with dual motors, 84 kWh pack, simulated gearshifts and a boost mode up to 641 hp. Hyundai cut the US price by $6,300 for model year 2026.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price"
+     ],
+     "url": "https://www.motor1.com/news/801895/2026-hyundai-ioniq-5-n-price-details/",
+     "name": "Motor1"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "E-GMP",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "84 kWh, dual-motor AWD; 601 hp normally and 641 hp with N Grin Boost.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hyundai_Ioniq_5_N_IMG_0053.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_5_N_IMG_0053.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "N",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 601,
+       "torque_lbft": 545,
+       "accel_0_60_s": 3.25,
+       "accel_0_100_s": null,
+       "top_speed_mph": 162,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 221,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 66100,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 221,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 61500,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "NACS",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://insideevs.com/news/713336/hyundai-ioniq-5n-vs-competition/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.motor1.com/news/801895/2026-hyundai-ioniq-5-n-price-details/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48360.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49965.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-6",
+   "url_slug": "ioniq-6",
+   "name": "Ioniq 6",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.hyundai.com/eu/en/models/ioniq6.html",
+   "description": "Streamlined E-GMP sedan launched in 2022. A facelift arrived in 2025 with an 84 kWh pack, but Hyundai dropped the standard Ioniq 6 from the US starting with the 2026 model year; only the Ioniq 6 N continues there.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2023",
+     "end": "2025",
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.electrive.com/2026/03/06/hyundai-drops-ioniq-6-in-us-as-kia-pauses-ev6-gt/",
+     "name": "electrive"
+    },
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://electrek.co/2026/10/30/hyundai-launches-new-ioniq-6-uk-with-422-miles-range/",
+     "name": "Electrek"
+    },
+    {
+     "fields": [
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/List_of_Hyundai_vehicles",
+     "name": "Wikipedia (List of Hyundai vehicles)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "CE",
+     "platform": "E-GMP",
+     "start_year": 2022,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Launch version with 53 kWh Standard Range or 77.4 kWh Long Range packs, RWD or dual-motor AWD.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/ioniq6_ltd_awd.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range-rwd",
+       "name": "Standard Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 53.0,
+       "battery_basis": null,
+       "power_hp": 149,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 240,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 41600,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 240,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 240,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 38900,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/653713/us-hyundai-ioniq6-prices/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.cars.com/articles/settling-in-2025-hyundai-ioniq-6-priced-from-38900-489885",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46624.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48364.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [
+        97,
+        99,
+        101
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": 225,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 361,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 361,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 342,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 43850,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/653713/us-hyundai-ioniq6-prices/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.cars.com/articles/settling-in-2025-hyundai-ioniq-6-priced-from-38900-489885",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46622.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48362.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [
+        96,
+        98,
+        100
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.4,
+       "battery_basis": null,
+       "power_hp": 320,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 316,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 49000,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 316,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 316,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/653713/us-hyundai-ioniq6-prices/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46620.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48361.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "CE",
+     "platform": "E-GMP",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Restyled nose and tail, 84 kWh pack. Sold in Europe, the UK and Korea, not in the US.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hyundai_Ioniq_6_N_Line_%28Facelift%29_%E2%80%93_f_28082026.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_6_N_Line_(Facelift)_%E2%80%93_f_28082026.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 225,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 33240,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/10/30/hyundai-launches-new-ioniq-6-uk-with-422-miles-range/",
+         "name": "Electrek"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 320,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 43490,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://electrek.co/2026/10/30/hyundai-launches-new-ioniq-6-uk-with-422-miles-range/",
+         "name": "Electrek"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-6-n",
+   "url_slug": "ioniq-6-n",
+   "name": "Ioniq 6 N",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Performance sedan from Hyundai N, revealed in July 2025, with dual motors, 84 kWh pack and up to 641 hp in boost mode. On sale in the UK; Hyundai says it will reach the US in limited numbers, where it is the only Ioniq 6 left.",
+   "markets": {
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://www.jalopnik.com/2031548/2026-hyundai-ioniq-6-n-us-spec-reveal-details/",
+     "name": "Jalopnik"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrek.co/2026/09/11/hyundais-ioniq-6-n-looks-ready-us-launch-image/",
+     "name": "Electrek"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "E-GMP",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Based on the facelifted Ioniq 6 with N chassis, aero and the Ioniq 5 N's dual-motor drivetrain.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Hyundai_ioniq_6_N_1.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_ioniq_6_N_1.jpg",
+       "credit": "Calreyn88",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "awd",
+       "name": "N",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 601,
+       "torque_lbft": 546,
+       "accel_0_60_s": 3.2,
+       "accel_0_100_s": null,
+       "top_speed_mph": 160,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 245,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 65800,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.motor1.com/news/765316/hyundai-ioniq-6-n-power-specs-details/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://www.jalopnik.com/2031548/2026-hyundai-ioniq-6-n-us-spec-reveal-details/",
+         "name": "Jalopnik"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://thekoreancarblog.com/?p=87108",
+         "name": "The Korean Car Blog"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/50647.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-9",
+   "url_slug": "ioniq-9",
+   "name": "Ioniq 9",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.hyundaiusa.com/us/en/vehicles/ioniq-9",
+   "description": "Three-row electric SUV on E-GMP with a 110.3 kWh pack, built in Georgia (US) and Korea. Launched in 2025 as a 2026 model.",
+   "markets": {
+    "US": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price",
+      "specs"
+     ],
+     "url": "https://www.cars.com/articles/2026-hyundai-ioniq-9-3-row-ev-boasts-335-miles-of-range-starts-at-60555-508896",
+     "name": "Cars.com"
+    },
+    {
+     "fields": [
+      "status",
+      "markets"
+     ],
+     "url": "https://en.wikipedia.org/wiki/List_of_Hyundai_vehicles",
+     "name": "Wikipedia (List of Hyundai vehicles)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "E-GMP",
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Single-motor RWD, dual-motor AWD and a 422 hp Performance AWD, all with 110.3 kWh.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Hyundai_Ioniq_9_IMG_5950.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_9_IMG_5950.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "long-range-rwd",
+       "name": "Long Range RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 110.3,
+       "battery_basis": "gross",
+       "power_hp": 215,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 60555,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 335,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 64995,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/2026-hyundai-ioniq-9-3-row-ev-boasts-335-miles-of-range-starts-at-60555-508896",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.motor1.com/news/741759/hyundai-ioniq-9-debut/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.electrive.com/2025/07/15/hyundai-reveals-ioniq-9-uk-pricing-and-specs",
+         "name": "electrive"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49661.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "long-range-awd",
+       "name": "Long Range AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 110.3,
+       "battery_basis": "gross",
+       "power_hp": 303,
+       "torque_lbft": 446,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 320,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 64365,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 320,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/2026-hyundai-ioniq-9-3-row-ev-boasts-335-miles-of-range-starts-at-60555-508896",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.motor1.com/news/741759/hyundai-ioniq-9-debut/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49662.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "performance-awd",
+       "name": "Performance AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 110.3,
+       "battery_basis": "gross",
+       "power_hp": 422,
+       "torque_lbft": 516,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 311,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 72850,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_incl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2027,
+         "range": 311,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://www.cars.com/articles/2026-hyundai-ioniq-9-3-row-ev-boasts-335-miles-of-range-starts-at-60555-508896",
+         "name": "Cars.com"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.motor1.com/news/741759/hyundai-ioniq-9-debut/",
+         "name": "Motor1"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49663.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-inster",
+   "url_slug": "inster",
+   "name": "Inster",
+   "aliases": [
+    "Casper Electric"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.hyundai.com/eu/en/models/inster.html",
+   "description": "Small electric crossover-hatch derived from the Korean Casper, sold as the Casper Electric in Korea and as the Inster in Europe and elsewhere. Offered with 42 or 49 kWh packs.",
+   "markets": {
+    "KR": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": "Casper Electric"
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price",
+      "range",
+      "specs"
+     ],
+     "url": "https://vision-mobility.de/en/news/hyundai-inster-starts-at-23-900-euros-355482.html",
+     "name": "Vision Mobility"
+    },
+    {
+     "fields": [
+      "price",
+      "status"
+     ],
+     "url": "https://www.asiae.co.kr/en/article/2025071509054271409",
+     "name": "Asia Economy"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Front-motor city EV with 42 kWh (97 PS) or 49 kWh (115 PS) packs.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Hyundai_Inster_DSC_7945.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Inster_DSC_7945.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "42-kwh",
+       "name": "42 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 42.0,
+       "battery_basis": null,
+       "power_hp": 97,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 327,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 23900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 23495,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://vision-mobility.de/en/news/hyundai-inster-starts-at-23-900-euros-355482.html",
+         "name": "Vision Mobility"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.electrifying.com/blog/article/new-hyundai-inster-priced-from-23-495-as-kia-confirms-uk-details",
+         "name": "Electrifying.com"
+        }
+       ]
+      },
+      {
+       "slug": "49-kwh",
+       "name": "49 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 49.0,
+       "battery_basis": null,
+       "power_hp": 115,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 370,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 25400,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 25045,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "range",
+          "specs"
+         ],
+         "url": "https://vision-mobility.de/en/news/hyundai-inster-starts-at-23-900-euros-355482.html",
+         "name": "Vision Mobility"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.electrifying.com/blog/article/new-hyundai-inster-priced-from-23-495-as-kia-confirms-uk-details",
+         "name": "Electrifying.com"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-3",
+   "url_slug": "ioniq-3",
+   "name": "Ioniq 3",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.hyundai.com/eu/en/models/ioniq3.html",
+   "description": "Compact 'aero hatch' revealed at Milan Design Week in April 2026 and built in Izmit, Turkey, for Europe. Offered with 42.2 and 61 kWh packs on a 400-volt platform.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price",
+      "status"
+     ],
+     "url": "https://www.electrifying.com/blog/article/hyundai-ioniq-3-prices-and-specs-announced",
+     "name": "Electrifying.com"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Launch version; production started in August 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/2026_Hyundai_Ioniq_3_N_Line_%28Europe%29_front_view_01.png",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Hyundai_Ioniq_3_N_Line_(Europe)_front_view_01.png",
+       "credit": "AutoGids",
+       "license": "CC BY 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard-range",
+       "name": "Standard Range",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 42.2,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 344,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 22245,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.hyundai.news/newsroom/dam/eu/models/20260420_ioniq_3_unveil/hyundai-ioniq-3-unveil-fact-sheet.pdf",
+         "name": "Hyundai Motor Europe fact sheet"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.hyundai.com/eu/en/models/ioniq3.html",
+         "name": "Hyundai Europe"
+        },
+        {
+         "fields": [
+          "price",
+          "status"
+         ],
+         "url": "https://www.electrifying.com/blog/article/hyundai-ioniq-3-prices-and-specs-announced",
+         "name": "Electrifying.com"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "Long Range",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 61.0,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 496,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.hyundai.news/newsroom/dam/eu/models/20260420_ioniq_3_unveil/hyundai-ioniq-3-unveil-fact-sheet.pdf",
+         "name": "Hyundai Motor Europe fact sheet"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.hyundai.com/eu/en/models/ioniq3.html",
+         "name": "Hyundai Europe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-elexio",
+   "url_slug": "elexio",
+   "name": "Elexio",
+   "aliases": [
+    "EO"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Compact electric SUV developed for China and built by the Beijing Hyundai joint venture, with BYD (FinDream) LFP batteries. Launched in October 2025, also sold as the EO.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2025-10",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-launches-all-new-elexio-suv-and-unveils-new-energy-vehicle-strategy-for-china-0000001035",
+     "name": "Hyundai Motor Company newsroom"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "64.2 or 88.1 kWh LFP packs, front motor or dual-motor AWD; CLTC range 518-722 km depending on version.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Hyundai_Elexio_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Elexio_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "fwd",
+       "name": "FWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 215,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://carnewschina.com/2025/10/13/hyundais-first-chinese-ev-elexio-eo-will-open-pre-sale-on-october-16-with-max-722-km-range/",
+         "name": "CarNewsChina"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-launches-all-new-elexio-suv-and-unveils-new-energy-vehicle-strategy-for-china-0000001035",
+         "name": "Hyundai Motor Company newsroom"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 312,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://carnewschina.com/2025/10/13/hyundais-first-chinese-ev-elexio-eo-will-open-pre-sale-on-october-16-with-max-722-km-range/",
+         "name": "CarNewsChina"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-ioniq-v",
+   "url_slug": "ioniq-v",
+   "name": "Ioniq V",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "China-only electric sedan designed by Hyundai's China team, with CATL LFP batteries and Momenta driver assistance. Launched on 29 September 2026 at 109,900-139,900 yuan.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price",
+      "specs",
+      "status"
+     ],
+     "url": "https://cnevpost.com/2026/09/29/hyundai-launches-china-tailored-ioniq-v/",
+     "name": "CnEVPost"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Two LFP packs: 53.5 kWh (CLTC 540 km) and 66.8 kWh (CLTC 650 km).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hyundai_Ioniq_V_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_V_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "540",
+       "name": "540 (53.5 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 53.5,
+       "battery_basis": null,
+       "power_hp": 188,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 109900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs",
+          "status"
+         ],
+         "url": "https://cnevpost.com/2026/09/29/hyundai-launches-china-tailored-ioniq-v/",
+         "name": "CnEVPost"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://carnewschina.com/2026/09/29/hyundai-ioniq-v-launched-at-16380-usd-in-china-ahead-of-global-rollout/",
+         "name": "CarNewsChina"
+        }
+       ]
+      },
+      {
+       "slug": "650",
+       "name": "650 (66.8 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 66.8,
+       "battery_basis": null,
+       "power_hp": 225,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 650,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price",
+          "specs",
+          "status"
+         ],
+         "url": "https://cnevpost.com/2026/09/29/hyundai-launches-china-tailored-ioniq-v/",
+         "name": "CnEVPost"
+        },
+        {
+         "fields": [
+          "price",
+          "specs"
+         ],
+         "url": "https://carnewschina.com/2026/09/29/hyundai-ioniq-v-launched-at-16380-usd-in-china-ahead-of-global-rollout/",
+         "name": "CarNewsChina"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-creta-electric",
+   "url_slug": "creta-electric",
+   "name": "Creta Electric",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Electric version of India's best-selling Creta SUV, launched at the Auto Expo in January 2025 with 42 and 51.4 kWh packs. It replaced the Kona Electric in India.",
+   "markets": {
+    "IN": {
+     "status": "current",
+     "launch": "2025-01",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "price",
+      "range"
+     ],
+     "url": "https://www.cardekho.com/india-car-news/hyundai-creta-electric-launched-in-india-at-auto-expo-2025-prices-start-from-rs-1799-lakh-33868.htm",
+     "name": "CarDekho"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Front-motor EV; MIDC range 390 km (42 kWh) and 473 km (51.4 kWh) at launch.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hyundai_Creta_Electric_SU2_EV_PE.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Creta_Electric_SU2_EV_PE.jpg",
+       "credit": "Avante2025",
+       "license": "CC BY 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "42-kwh",
+       "name": "42 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 42.0,
+       "battery_basis": null,
+       "power_hp": 133,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "IN",
+         "model_year": null,
+         "range": 390,
+         "range_unit": "km",
+         "range_cycle": "MIDC",
+         "price": 1799000,
+         "launch_price": null,
+         "currency": "INR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.electrive.com/2025/01/04/hyundai-reveals-creta-electric-low-cost-ev-for-india/",
+         "name": "electrive"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://www.cardekho.com/india-car-news/hyundai-creta-electric-launched-in-india-at-auto-expo-2025-prices-start-from-rs-1799-lakh-33868.htm",
+         "name": "CarDekho"
+        }
+       ]
+      },
+      {
+       "slug": "51-kwh",
+       "name": "51.4 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 51.4,
+       "battery_basis": null,
+       "power_hp": 169,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "IN",
+         "model_year": null,
+         "range": 473,
+         "range_unit": "km",
+         "range_cycle": "MIDC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.electrive.com/2025/01/04/hyundai-reveals-creta-electric-low-cost-ev-for-india/",
+         "name": "electrive"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://www.cardekho.com/india-car-news/hyundai-creta-electric-launched-in-india-at-auto-expo-2025-prices-start-from-rs-1799-lakh-33868.htm",
+         "name": "CarDekho"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-staria-electric",
+   "url_slug": "staria-electric",
+   "name": "Staria Electric",
+   "aliases": [
+    "Staria EV"
+   ],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Battery-electric version of the Staria people mover, with an 84 kWh pack and 800-volt charging. Sales started in Korea and Europe in 2026; a Staria Load cargo van version is also offered.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    },
+    "KR": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "price"
+     ],
+     "url": "https://carscoops.com/2026/09/hyundai-staria-electric-europe",
+     "name": "Carscoops"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Front-wheel-drive, 160 kW motor, 84 kWh pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hyundai_Staria_Electric_US4_EV_Creamy_White_%281%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Electric_US4_EV_Creamy_White_(1).jpg",
+       "credit": "Damian B Oh",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "84-kwh",
+       "name": "84 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 9,
+       "battery_kwh": 84.0,
+       "battery_basis": null,
+       "power_hp": 218,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 57450,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://insideevs.com/news/783932/hyundai-staria-electric-minivan-range-charging-battery/",
+         "name": "InsideEVs"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://www.firmenauto.de/fahrzeuge/pkw/hyundai-staria-elektro-preis-reichweite-ausstattung-deutschland/",
+         "name": "firmenauto"
+        },
+        {
+         "fields": [
+          "status",
+          "price"
+         ],
+         "url": "https://carscoops.com/2026/09/hyundai-staria-electric-europe",
+         "name": "Carscoops"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-lafesta-ev",
+   "url_slug": "lafesta-ev",
+   "name": "Lafesta EV",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the China-market Lafesta sedan, built by Beijing Hyundai with a 56.5 kWh CATL pack. Sold from late 2019; the electric version was listed until 2022.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2019-12",
+     "end": "2022",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Hyundai_Lafesta",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2019,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "56.5 kWh pack, 310 Nm motor, NEDC range 490 km.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/HYUNDAI_LAFESTA_EV_China_%282%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:HYUNDAI_LAFESTA_EV_China_(2).jpg",
+       "credit": "Dinkun Chen",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": 2022,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 56.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Lafesta",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://paultan.org/2019/12/05/hyundai-lafesta-ev-makes-its-debut-in-china-204-ps-310-nm-56-5-kwh-battery-up-to-490-km-of-range",
+         "name": "Paul Tan"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-mistra-ev",
+   "url_slug": "mistra-ev",
+   "name": "Mistra EV",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Electric version of the second-generation Mistra sedan for China, shown at the 2020 Guangzhou show and sold from 2021. The generation ended in 2023.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2021",
+     "end": "2023",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Hyundai_Mistra",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "56.5 kWh pack, NEDC range 520 km.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/HYUNDAI_MISTRA_EV_EXTERIOR%283%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:HYUNDAI_MISTRA_EV_EXTERIOR(3).jpg",
+       "credit": "Dinkun Chen",
+       "license": "CC BY-SA 4.0",
+       "view": "front",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 56.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "status"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Hyundai_Mistra",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "hyundai-neira",
+   "url_slug": "neira",
+   "name": "Neira",
+   "aliases": [],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Seven-seat electric MPV for Indonesia, unveiled at GIIAS 2026 as a rebadged Kia Carens Clavis EV, to be built at Hyundai's Cikarang plant. Specs and price are not yet official.",
+   "markets": {},
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "kia-carens-clavis-ev"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrive.com/2026/08/03/hyundai-unveils-neira-electric-mpv-for-indonesia",
+     "name": "electrive"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.autocarindia.com/car-news-amp/hyundai-neira-concept-unveiled-as-rebadged-kia-carens-clavis-ev-440338",
+     "name": "Autocar India"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Pre-production; Hyundai has not published specifications.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2026_Hyundai_Neira_Prototype_%28Indonesia%29_front_view.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Hyundai_Neira_Prototype_(Indonesia)_front_view.jpg",
+       "credit": "Andra Febrian",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "ev",
+       "name": "EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://electrive.com/2026/08/03/hyundai-unveils-neira-electric-mpv-for-indonesia",
+         "name": "electrive"
+        },
+        {
+         "fields": [
+          "status"
+         ],
+         "url": "https://www.autocarindia.com/car-news-amp/hyundai-neira-concept-unveiled-as-rebadged-kia-carens-clavis-ev-440338",
+         "name": "Autocar India"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 110,
+   "note": "Labelled 'Limited (1st Gen)' but its image (hyundai_kona_ltd.png) shows the second-generation Kona Electric, and its 188 lb-ft torque is the second-gen figure. Claimed on the first-gen 64 kWh variant."
+  },
+  {
+   "legacy_id": 207,
+   "note": "Second-gen Kona Electric Limited: price 34,470 is the 2025 SE price including destination, not the Limited. Same hardware as SEL (row 112), so both are claimed on the Long Range variant."
+  },
+  {
+   "legacy_id": 211,
+   "note": "Labelled 2025 facelift Limited AWD but 318 mi is the RWD EPA range (AWD is 290/269 mi), price 43,975 matches no Limited AWD price, and the image ioniq5_ltd_awd.png shows the pre-facelift car."
+  },
+  {
+   "legacy_id": 103,
+   "note": "Pre-facelift Limited AWD, but stored generation is '2025 Facelift'. Claimed on the 2022 original-generation Long Range AWD."
+  },
+  {
+   "legacy_id": 102,
+   "note": "Disney100 Platinum Edition is a 2024 limited edition of the pre-facelift Limited AWD; not a distinct configuration."
+  },
+  {
+   "legacy_id": 107,
+   "note": "image_url /pub_assets/car_images/ioniq5_sel_rwd.png does not exist; the file on disk is ioniq5_sel_rwd.png.png, so this card shows a broken image."
+  },
+  {
+   "legacy_id": 96,
+   "note": "Ioniq 6 Limited AWD price 37,750 is actually the base SE Standard Range price; Limited AWD launched at 56,100 (2023). Standard Ioniq 6 is no longer sold in the US from model year 2026."
+  },
+  {
+   "legacy_id": 97,
+   "note": "Ioniq 6 SE RWD: 361 mi is the 2023-24 rating; 2025 SE RWD is 342 mi."
+  }
+ ],
+ "gaps": [
+  "Kona Electric US: Hyundai skipped model year 2026 and said 2027 production would start in June 2026; could not confirm 2027 US pricing or on-sale status (web search budget ran out), so US status is left 'current'.",
+  "Ioniq 6 N: no official US price yet; EPA lists a 2027 Ioniq 6 N at 245 mi. US market left 'upcoming'.",
+  "Ioniq 9 US connector not sourced; EU prices and WLTP per variant not filled.",
+  "Elexio: battery-to-version mapping and official price not found; ranges only described in generation text.",
+  "Ioniq 3: power published only as kW/PS (107.8 kW / 99.5 kW), so power_hp left null; drivetrain and top speed not filled (sources disagree on top speed); UK price for 61 kWh only implied.",
+  "Ioniq 6 facelift and Ioniq 9 UK ranges are published in miles (WLTP); left null because WLTP must be stored in km and conversion is not allowed.",
+  "Commercial EVs not included: Porter II Electric, ST1, Staria Load (cargo), Elec City bus.",
+  "Lafesta EV power differs between sources (135 kW vs 150 kW); left null.",
+  "Older US prices (Ioniq Electric 2020, Kona Electric 2020-2023, Ioniq 6 2024) not sourced."
+ ]
+}

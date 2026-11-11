@@ -1,0 +1,532 @@
+{
+ "make": {
+  "slug": "dacia",
+  "name": "Dacia",
+  "legacy_id": null,
+  "country": "RO",
+  "headquarters": "Mioveni, Romania",
+  "founded": 1966,
+  "parent_group": "Renault Group",
+  "website_url": "https://www.dacia.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Romanian budget car brand owned by Renault since 1999. Its only battery-electric model is the Spring, Europe's cheapest EV for much of the 2020s, now in a second generation built in Slovenia.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "founded",
+     "headquarters",
+     "parent_group"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Automobile_Dacia",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "dacia-spring",
+   "url_slug": "spring",
+   "name": "Spring",
+   "aliases": [
+    "Spring Electric"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Dacia's low-cost electric city car. The first generation (2021-2026) was built in China and derived from the Renault City K-ZE; the second generation, built at Novo Mesto, Slovenia on the Twingo E-Tech platform, opened for orders in September 2026.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "renault-city-k-ze"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history",
+      "specs",
+      "range"
+     ],
+     "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+     "name": "Wikipedia (de)"
+    },
+    {
+     "fields": [
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Dacia_Spring",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "range",
+      "status"
+     ],
+     "url": "https://media.dacia.com/nouvelle-dacia-spring-ouverture-des-commandes/?lang=fra",
+     "name": "Dacia press release (Sep 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2021,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Chinese-built Spring Electric with a 26.8 kWh battery and 33 kW (45 hp) motor; the 48 kW Extreme Electric 65 arrived in 2023.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Dacia_Spring_Electric_45_Business_%E2%80%93_f_20062021.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Dacia_Spring_Electric_45_Business_–_f_20062021.jpg",
+       "credit": "© M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+       "name": "Wikipedia (de)"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric-45",
+       "name": "Electric 45",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 26.8,
+       "battery_basis": "usable",
+       "power_hp": 44,
+       "torque_lbft": 92,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 19.1,
+       "top_speed_mph": null,
+       "dc_kw": 30,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2021,
+         "range": 225,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "extreme-electric-65",
+       "name": "Extreme Electric 65",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 26.8,
+       "battery_basis": "usable",
+       "power_hp": 64,
+       "torque_lbft": 83,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 13.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "February 2024 redesign with new front and rear styling and a new interior; right-hand drive for the UK. From late 2025 an LFP battery (24.3 kWh) with 52 kW and 75 kW motors replaced the 45 and 65.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2024_Dacia_Spring_DSC_7937.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Dacia_Spring_DSC_7937.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "status",
+        "history",
+        "specs",
+        "range"
+       ],
+       "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+       "name": "Wikipedia (de)"
+      },
+      {
+       "fields": [
+        "history"
+       ],
+       "url": "https://en.wikipedia.org/wiki/Dacia_Spring",
+       "name": "Wikipedia"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric-45",
+       "name": "Electric 45",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 26.8,
+       "battery_basis": "usable",
+       "power_hp": 44,
+       "torque_lbft": 92,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 30,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 225,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia (de)"
+        },
+        {
+         "fields": [
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "electric-65",
+       "name": "Electric 65",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 26.8,
+       "battery_basis": "usable",
+       "power_hp": 64,
+       "torque_lbft": 83,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "electric-70",
+       "name": "Electric 70 (LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 24.3,
+       "battery_basis": "usable",
+       "power_hp": 70,
+       "torque_lbft": 101,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.3,
+       "top_speed_mph": null,
+       "dc_kw": 40,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 226,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      },
+      {
+       "slug": "electric-100",
+       "name": "Electric 100 (LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 24.3,
+       "battery_basis": "usable",
+       "power_hp": 101,
+       "torque_lbft": 101,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.6,
+       "top_speed_mph": null,
+       "dc_kw": 40,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "Second generation",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": null,
+     "platform": "RGEV small",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "All-new Spring based on the Renault Twingo E-Tech, built in Slovenia: 15 cm wider and 18 cm longer, 27.5 kWh LFP battery, 60 kW motor, optional 50 kW DC. Orders opened September 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2027_Dacia_Spring_Auto_Zuerich_2026_IMG_8582.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2027_Dacia_Spring_Auto_Zuerich_2026_IMG_8582.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [
+      {
+       "fields": [
+        "specs",
+        "range",
+        "status"
+       ],
+       "url": "https://media.dacia.com/nouvelle-dacia-spring-ouverture-des-commandes/?lang=fra",
+       "name": "Dacia press release (Sep 2026)"
+      },
+      {
+       "fields": [
+        "specs",
+        "price",
+        "range"
+       ],
+       "url": "https://www.electrive.com/2026/09/08/dacia-spring-was-born-in-china-but-now-made-in-europe/",
+       "name": "electrive"
+      }
+     ],
+     "variants": [
+      {
+       "slug": "electric-80",
+       "name": "Electric 80 (27.5 kWh LFP)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 27.5,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": 129,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.1,
+       "top_speed_mph": 81,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 250,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 17900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://media.dacia.com/nouvelle-dacia-spring-ouverture-des-commandes/?lang=fra",
+         "name": "Dacia press release (Sep 2026)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.electrive.com/2026/09/08/dacia-spring-was-born-in-china-but-now-made-in-europe/",
+         "name": "electrive"
+        },
+        {
+         "fields": [
+          "status",
+          "history",
+          "specs",
+          "range"
+         ],
+         "url": "https://de.wikipedia.org/wiki/Dacia_Spring",
+         "name": "Wikipedia (de)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Spring first generation: top speeds, Extreme 65 WLTP range and the Electric 100 range not reliably mapped in the source table; left null.",
+  "Spring first-generation prices not sourced; second-generation 17,900 EUR is electrive's 'from' price (country not stated; Dacia says under 18,000 EUR for Expression in France).",
+  "Spring Cargo (two-seat commercial version) not modelled.",
+  "Exact end of first-generation production (de-wiki says build ran to 09/2026) not confirmed by Dacia.",
+  "Images: only the 2024 facelift has a verified image. Unviewed Commons candidates: 2023_Dacia_Spring_1X7A6282.jpg (first gen), 2027_Dacia_Spring_Auto_Zuerich_2026_IMG_8582.jpg (second gen)."
+ ]
+}

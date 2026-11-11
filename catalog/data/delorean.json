@@ -1,0 +1,139 @@
+{
+  "make": {
+    "slug": "delorean",
+    "name": "DeLorean",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Humble, Texas, USA",
+    "founded": 1995,
+    "parent_group": null,
+    "website_url": "https://www.delorean.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": "The Texas DeLorean Motor Company still operates as a parts and restoration business, but the Alpha5 EV announced in 2022 had not launched as of 2026, its San Antonio EV arm closed its headquarters in 2024, and designer Italdesign won a $4.6 million judgment for unpaid work in 2026.",
+    "description": "DeLorean Motor Company of Texas, founded in 1995 by Stephen Wynne, owns the DeLorean name and services the original DMC-12. In 2022 it revealed the Alpha5, an Italdesign-styled electric four-seat coupe, through its DeLorean Motors Reimagined venture.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/DeLorean_Motor_Company_(Texas)",
+        "name": "Wikipedia: DeLorean Motor Company (Texas)"
+      },
+      {
+        "fields": [
+          "specs",
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/DeLorean_Alpha5",
+        "name": "Wikipedia: DeLorean Alpha5"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "delorean-alpha5",
+      "url_slug": "alpha5",
+      "name": "Alpha5",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Gullwing electric grand-touring coupe designed by Italdesign and revealed in 2022 with a 100 kWh battery, a claimed 300-mile range and 0-60 mph in 2.99 seconds, originally planned for 2024. It had not entered production as of 2026.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/DeLorean_Alpha5",
+          "name": "Wikipedia: DeLorean Alpha5"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/DeLorean_Motor_Company_(Texas)",
+          "name": "Wikipedia: DeLorean Motor Company (Texas)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "Announced",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2024,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Concept/prototype shown at Pebble Beach in August 2022.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Alpha5",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 100.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": 2.99,
+              "accel_0_100_s": null,
+              "top_speed_mph": 155,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/DeLorean_Alpha5",
+                  "name": "Wikipedia: DeLorean Alpha5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Alpha5 drivetrain and seats not confirmed in a fetched source; left null.",
+    "Alpha5 status is 'upcoming' because no official cancellation exists, but the program appears stalled (HQ closed 2024, unpaid designer)."
+  ]
+}

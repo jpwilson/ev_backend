@@ -1,0 +1,1202 @@
+{
+  "make": {
+    "slug": "mahindra",
+    "name": "Mahindra",
+    "legacy_id": null,
+    "country": "IN",
+    "headquarters": "Mumbai, Maharashtra, India",
+    "founded": 1945,
+    "parent_group": "Mahindra Group",
+    "website_url": "https://auto.mahindra.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Indian SUV and tractor maker. It bought the Reva Electric Car Company in 2010 and sold the e2o and eVerito before launching electric SUVs: the XUV400 (2023) and, from 2025, the BE 6, XEV 9e and XEV 9S on its INGLO platform. Mahindra also owns Automobili Pininfarina.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Mahindra_%26_Mahindra",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "specs",
+          "range",
+          "history",
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+        "name": "Wikipedia"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "mahindra-revai",
+      "url_slug": "revai",
+      "name": "REVAi",
+      "aliases": [
+        "G-Wiz",
+        "REVA",
+        "REVA L-ion"
+      ],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Two-door city electric car made by the Reva Electric Car Company in Bangalore and sold in the UK as the G-Wiz; about 4,600 were sold in 26 countries. Mahindra bought a controlling stake in Reva in 2010, the lithium-ion REVA L-ion followed in 2009, and production ended in 2012 when the e2o replaced it.",
+      "markets": {
+        "IN": {
+          "status": "discontinued",
+          "launch": "2001",
+          "end": "2012",
+          "local_name": null
+        },
+        "UK": {
+          "status": "discontinued",
+          "launch": "2003",
+          "end": "2012",
+          "local_name": "G-Wiz"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/REVAi",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2001",
+          "name": "REVA / REVAi",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2001,
+          "end_year": 2012,
+          "status": "discontinued",
+          "description": "Lead-acid REVAi; the REVA L-ion (2009) used lithium-ion batteries for a longer nominal range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Reva_i_silver.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Reva_i_silver.jpg",
+              "credit": "RevaNorge",
+              "license": "CC BY-SA 2.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "revai-lead-acid",
+              "name": "REVAi (lead-acid)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2001,
+              "year_to": 2012,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 17,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 50,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/REVAi",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "reva-l-ion",
+              "name": "REVA L-ion",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2009,
+              "year_to": 2012,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 50,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/REVAi",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mahindra-e2o",
+      "url_slug": "e2o",
+      "name": "e2o",
+      "aliases": [
+        "e2o Plus"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Small electric city car developed by Mahindra Reva and launched in India in March 2013, also sold in the UK from April 2016 to May 2017. The two-door e2o was dropped in India in November 2016 when the four-door e2o Plus replaced it.",
+      "markets": {
+        "IN": {
+          "status": "discontinued",
+          "launch": "2013-03",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "discontinued",
+          "launch": "2016-04",
+          "end": "2017-05",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_e2o",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2013",
+          "name": "e2o (two-door)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2013,
+          "end_year": 2017,
+          "status": "discontinued",
+          "description": "Two-door, four-seat city car with an 11-16 kWh lithium-ion pack and 90 km/h top speed.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Mahindra_e2o_Kathmandu_2.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mahindra_e2o_Kathmandu_2.jpg",
+              "credit": "Commoner1000",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "e2o",
+              "name": "e2o",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2013,
+              "year_to": 2017,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 4,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 56,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": 2013,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 650000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_e2o",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2016",
+          "name": "e2o Plus (four-door)",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2016,
+          "end_year": null,
+          "status": "discontinued",
+          "description": "Longer four-door successor to the two-door e2o.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mahindra_e2o_Plus_battery_electric_car%2C_cropped_%281%29.png",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mahindra_e2o_Plus_battery_electric_car%2C_cropped_%281%29.png",
+              "credit": "Vineet Kaul",
+              "license": "CC BY 4.0",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "e2o-plus",
+              "name": "e2o Plus",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2016,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_e2o",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mahindra-everito",
+      "url_slug": "everito",
+      "name": "eVerito",
+      "aliases": [
+        "e-Verito"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the Verito compact sedan (a Renault Logan derivative), sold from 2016 mainly to fleets with a 21.2 kWh pack; Verito production ended on 31 December 2019.",
+      "markets": {
+        "IN": {
+          "status": "discontinued",
+          "launch": "2016",
+          "end": "2019-12",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Verito",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2016",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2016,
+          "end_year": 2019,
+          "status": "discontinued",
+          "description": "Only generation.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "everito",
+              "name": "eVerito",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2016,
+              "year_to": 2019,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 21.2,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 181,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mahindra-xuv400",
+      "url_slug": "xuv400",
+      "name": "XUV400",
+      "aliases": [
+        "XUV 400 EV",
+        "XUV400 Pro"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric compact SUV based on the XUV300, unveiled in September 2022 and launched in India on 16 January 2023. A January 2024 update (EC Pro and EL Pro) brought the XUV 3XO's dashboard and twin 10.25-inch screens. It was replaced by the XUV 3XO EV in 2026.",
+      "markets": {
+        "IN": {
+          "status": "discontinued",
+          "launch": "2023-01",
+          "end": "2026",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_XUV400",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "S210",
+          "platform": null,
+          "start_year": 2023,
+          "end_year": 2026,
+          "status": "discontinued",
+          "description": "Only generation; the 2024 Pro update changed the interior, not the drivetrain.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2023_Mahindra_XUV_400_EL_EV_%2C_Ashiana_Brahmananda%2C_Jamshedpur%2C_Jharkhand%2C_India_%28_Ank_Kumar%2C_Infosys_Limited_%29_01.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2023_Mahindra_XUV_400_EL_EV_,_Ashiana_Brahmananda,_Jamshedpur,_Jharkhand,_India_(_Ank_Kumar,_Infosys_Limited_)_01.jpg",
+              "credit": "Ank Kumar",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "el-39kwh",
+              "name": "EL 39.4 kWh",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2026,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 39.4,
+              "battery_basis": null,
+              "power_hp": 150,
+              "torque_lbft": 229,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 456,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_XUV400",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mahindra-xuv-3xo-ev",
+      "url_slug": "xuv-3xo-ev",
+      "name": "XUV 3XO EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the XUV 3XO compact SUV, launched on 6 January 2026 as the replacement for the XUV400.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2026-01",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "successor",
+          "model": "mahindra-xuv400"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_XUV_3XO",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_XUV400",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation; specifications not yet sourced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "xuv-3xo-ev",
+              "name": "XUV 3XO EV",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "history",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_XUV_3XO",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mahindra-be-6",
+      "url_slug": "be-6",
+      "name": "BE 6",
+      "aliases": [
+        "BE 6e",
+        "BE.05"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Sporty electric SUV on the INGLO platform, shown as the BE.05 concept, launched in November 2024 as the BE 6e and renamed BE 6 in December 2024 after a trademark dispute with IndiGo; deliveries began in early 2025. Special editions include the Batman Edition (2025, 2026), Formula E Edition (November 2025) and Sporteq series (August 2026).",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_BE_6",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "INGLO",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation with BYD-sourced LFP packs; a 70 kWh option was added in August 2026.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mahindra_BE6_pic_1_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mahindra_BE6_pic_1_(cropped).jpg",
+              "credit": "Cppfront",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "59kwh",
+              "name": "59 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 59.0,
+              "battery_basis": null,
+              "power_hp": 228,
+              "torque_lbft": 280,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 140,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 556,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": 1890000,
+                  "launch_price": null,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_BE_6",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "79kwh",
+              "name": "79 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 79.0,
+              "battery_basis": null,
+              "power_hp": 282,
+              "torque_lbft": 280,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.7,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 682,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_BE_6",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mahindra-xev-9e",
+      "url_slug": "xev-9e",
+      "name": "XEV 9e",
+      "aliases": [
+        "XUV.e9"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Coupe-styled electric SUV on the INGLO platform, previewed as the XUV.e9, launched in November 2024 with deliveries from early 2025. It shares its 59 and 79 kWh LFP packs and motors with the BE 6.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_XEV_9e",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "INGLO",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mahindra_XEV_9E.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Mahindra_XEV_9E.jpg",
+              "credit": "Cppfront",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "59kwh",
+              "name": "59 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 59.0,
+              "battery_basis": null,
+              "power_hp": 228,
+              "torque_lbft": 280,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 140,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 542,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": 2190000,
+                  "currency": "INR",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_XEV_9e",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "79kwh",
+              "name": "79 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 79.0,
+              "battery_basis": null,
+              "power_hp": 282,
+              "torque_lbft": 280,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.8,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 656,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_XEV_9e",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mahindra-xev-9s",
+      "url_slug": "xev-9s",
+      "name": "XEV 9S",
+      "aliases": [
+        "XUV.e8",
+        "Electric XUV700"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Three-row electric SUV on the INGLO platform (the electric counterpart of the XUV700, previewed as the XUV.e8), introduced on 27 November 2025 with deliveries from 23 January 2026.",
+      "markets": {
+        "IN": {
+          "status": "current",
+          "launch": "2025-11",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_XEV_9S",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Mahindra_Electric",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "INGLO",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Launch generation with 59, 70 and 79 kWh LFP packs.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "59kwh",
+              "name": "59 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 59.0,
+              "battery_basis": null,
+              "power_hp": 228,
+              "torque_lbft": 280,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 140,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 521,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_XEV_9S",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "70kwh",
+              "name": "70 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 70.0,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 160,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_XEV_9S",
+                  "name": "Wikipedia"
+                }
+              ]
+            },
+            {
+              "slug": "79kwh",
+              "name": "79 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 79.0,
+              "battery_basis": null,
+              "power_hp": 282,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 180,
+              "offerings": [
+                {
+                  "market": "IN",
+                  "model_year": null,
+                  "range": 679,
+                  "range_unit": "km",
+                  "range_cycle": "MIDC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Mahindra_XEV_9S",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Mahindra BE 6, XEV 9e, XEV 9S: drivetrain recorded as RWD (single rear motor, as launched) without a page that states it explicitly; no AWD version was found. XEV 9S seat count and prices, BE 6 70 kWh specs not sourced.",
+    "Mahindra XUV 3XO EV (January 2026) specifications and prices not sourced (web search budget ran out).",
+    "Mahindra XUV400 34.5 kWh EC variant not sourced; only the 39.4 kWh car is listed.",
+    "Mahindra e2o Plus end date, battery and specs not sourced; e2o battery was 11-16 kWh depending on version (not recorded as one number).",
+    "REVAi is listed under Mahindra because Mahindra controlled Reva from 2010; it was sold under the REVA brand (G-Wiz in the UK). Director may prefer a separate 'reva' make.",
+    "Mahindra BE.07 and other INGLO concepts not listed: no confirmed production plan found.",
+    "eVerito range 181 km cycle not stated by the source; recorded as MIDC (ARAI)."
+  ]
+}

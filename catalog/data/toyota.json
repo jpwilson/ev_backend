@@ -1,0 +1,4177 @@
+{
+  "make": {
+    "slug": "toyota",
+    "name": "Toyota",
+    "legacy_id": 34,
+    "country": "JP",
+    "headquarters": "Toyota City, Aichi, Japan",
+    "founded": 1937,
+    "parent_group": null,
+    "website_url": "https://global.toyota",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Japan's largest carmaker and a hybrid pioneer with the Prius. Its battery-electric history runs from the RAV4 EV of 1997 and the Tesla-powered RAV4 EV of 2012 to the bZ4X (now bZ) family, China-only bZ models built with BYD and GAC, and the 2025-2026 wave of C-HR+, Urban Cruiser and Highlander EVs.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Toyota",
+        "name": "Wikipedia: Toyota"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "toyota-rav4-ev",
+      "url_slug": "rav4-ev",
+      "name": "RAV4 EV",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric version of the RAV4 sold mainly in California in two short runs: a nickel-metal-hydride first generation leased and sold from 1997 to 2003, and a second generation with a Tesla-built powertrain sold from 2012 until production ended in September 2014.",
+      "markets": {
+        "US": {
+          "status": "discontinued",
+          "launch": "1997",
+          "end": "2014-09",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "price",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_RAV4_EV",
+          "name": "Wikipedia: Toyota RAV4 EV"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "1997",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "BEA11",
+          "platform": null,
+          "start_year": 1997,
+          "end_year": 2003,
+          "status": "discontinued",
+          "description": "Fleet-lease EV with a 27 kWh NiMH pack and inductive Magne Charge charging; 328 units were sold to the public in 2002-2003 before the programme ended.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Toyota_RAV4_EV_WAS_2012_0759.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_RAV4_EV_WAS_2012_0759.JPG",
+              "credit": "Mariordo - Mario Roberto Durán Ortiz",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "price",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_RAV4_EV",
+              "name": "Wikipedia: Toyota RAV4 EV"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "nimh-fwd",
+              "name": "NiMH FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 1997,
+              "year_to": 2003,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 27.4,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2003,
+                  "range": 95,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 42000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_RAV4_EV",
+                  "name": "Wikipedia: Toyota RAV4 EV"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2012",
+          "name": "Second generation",
+          "kind": "generation",
+          "ordinal": 2,
+          "code_name": "QEA38",
+          "platform": null,
+          "start_year": 2012,
+          "end_year": 2014,
+          "status": "discontinued",
+          "description": "Tesla Motors supplied the 41.8 kWh lithium-ion pack and 115 kW motor; sold only in California, about 2,600 built.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Toyota_RAV4_EV_WAS_2012_0791.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_RAV4_EV_WAS_2012_0791.JPG",
+              "credit": "Mariordo - Mario Roberto Durán Ortiz",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "price",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_RAV4_EV",
+              "name": "Wikipedia: Toyota RAV4 EV"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2012,
+              "year_to": 2014,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 41.8,
+              "battery_basis": "usable",
+              "power_hp": 154,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 100,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2012,
+                  "range": 103,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 49800,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2013,
+                  "range": 103,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2014,
+                  "range": 103,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "price",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_RAV4_EV",
+                  "name": "Wikipedia: Toyota RAV4 EV"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/33308.shtml",
+                  "name": "fueleconomy.gov (EPA) 2012 RAV4 EV"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/33397.shtml",
+                  "name": "fueleconomy.gov (EPA) 2013 RAV4 EV"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/34425.shtml",
+                  "name": "fueleconomy.gov (EPA) 2014 RAV4 EV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-iq-ev",
+      "url_slug": "iq-ev",
+      "name": "iQ EV",
+      "aliases": [
+        "eQ",
+        "Scion iQ EV"
+      ],
+      "body_style": "hatchback",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Electric version of the tiny iQ city car, built in a run of about 100 for fleet and car-sharing use: sold as the Toyota eQ in Japan from December 2012 and as the Scion iQ EV in the US from March 2013.",
+      "markets": {
+        "JP": {
+          "status": "discontinued",
+          "launch": "2012-12",
+          "end": null,
+          "local_name": "eQ"
+        },
+        "US": {
+          "status": "discontinued",
+          "launch": "2013-03",
+          "end": null,
+          "local_name": "Scion iQ EV"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_iQ",
+          "name": "Wikipedia: Toyota iQ (eQ / Scion iQ EV)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2012",
+          "name": "iQ EV",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2012,
+          "end_year": 2013,
+          "status": "discontinued",
+          "description": "12 kWh lithium-ion pack and 47 kW motor; Toyota cut planned volume to about 100 cars.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Toyota_eQ_in_Japan_EV_Festival_2012.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_eQ_in_Japan_EV_Festival_2012.jpg",
+              "credit": "Comyu",
+              "license": "CC BY-SA 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_iQ",
+              "name": "Wikipedia: Toyota iQ (eQ / Scion iQ EV)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2012,
+              "year_to": 2013,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 12.0,
+              "battery_basis": null,
+              "power_hp": 63,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 78,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2013,
+                  "range": 38,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_iQ",
+                  "name": "Wikipedia: Toyota iQ (eQ / Scion iQ EV)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/33307.shtml",
+                  "name": "fueleconomy.gov (EPA) 2013 Scion iQ EV"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-bz4x",
+      "url_slug": "bz4x",
+      "name": "bZ4X",
+      "aliases": [
+        "bZ",
+        "Bozhi 4X"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.toyota.com/bz/",
+      "description": "Toyota's first global battery-electric SUV, built on the e-TNGA platform shared with the Subaru Solterra and launched in mid-2022. A 2026 model-year refresh brought a 74.7 kWh pack, up to 338 hp, NACS charging and the name 'bZ' in North America and Ireland.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": "bZ"
+        },
+        "CA": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": "bZ"
+        },
+        "JP": {
+          "status": "current",
+          "launch": "2022-05",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2022",
+          "end": null,
+          "local_name": null
+        },
+        "CN": {
+          "status": "current",
+          "launch": "2022-10",
+          "end": null,
+          "local_name": "Bozhi 4X"
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2024",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "subaru-solterra"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+          "name": "Wikipedia: Toyota bZ4X"
+        },
+        {
+          "fields": [
+            "specs",
+            "price"
+          ],
+          "url": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/",
+          "name": "Toyota Pressroom: 2026 bZ"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "Original",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2022,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "Launch version (US model years 2023-2025). FWD used a 71.4 kWh Panasonic-joint-venture pack; US AWD used a 72.8 kWh CATL pack limited to about 100 kW DC charging. China got its own 50.3/66.7 kWh CATL packs.",
+          "images": [
+            {
+              "source": "legacy",
+              "file_url": "/pub_assets/car_images/toyota_bzx4_fwd.png",
+              "page_url": null,
+              "credit": null,
+              "license": null,
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+              "name": "Wikipedia: Toyota bZ4X"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "xle-fwd",
+              "name": "XLE FWD",
+              "legacy_ids": [
+                194
+              ],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 71.4,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 252,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 42000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 252,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 252,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 37070,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/toyota/bz4x/2023/",
+                  "name": "Kelley Blue Book: 2023 bZ4X"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://pressroom.toyota.com/2025-toyota-bz4x-bev-electrifies-with-lower-price-and-new-nightshade-edition/",
+                  "name": "Toyota Pressroom: 2025 bZ4X pricing"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45756.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 bZ4X"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47918.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 bZ4X"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49126.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 bZ4X"
+                }
+              ]
+            },
+            {
+              "slug": "limited-fwd",
+              "name": "Limited FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 71.4,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 242,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 46700,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 236,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 236,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 41800,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.kbb.com/toyota/bz4x/2023/",
+                  "name": "Kelley Blue Book: 2023 bZ4X"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://pressroom.toyota.com/2025-toyota-bz4x-bev-electrifies-with-lower-price-and-new-nightshade-edition/",
+                  "name": "Toyota Pressroom: 2025 bZ4X pricing"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45757.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 bZ4X LIMITED"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47919.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 bZ4X Limited"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/48997.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 bZ4X LIMITED"
+                }
+              ]
+            },
+            {
+              "slug": "xle-awd",
+              "name": "XLE AWD",
+              "legacy_ids": [
+                190
+              ],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 72.8,
+              "battery_basis": null,
+              "power_hp": 214,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 228,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 228,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 228,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 39150,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://pressroom.toyota.com/2025-toyota-bz4x-bev-electrifies-with-lower-price-and-new-nightshade-edition/",
+                  "name": "Toyota Pressroom: 2025 bZ4X pricing"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45758.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 bZ4X AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47920.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 bZ4X AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49127.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 bZ4X AWD (18inch Wheels)"
+                }
+              ]
+            },
+            {
+              "slug": "limited-awd",
+              "name": "Limited AWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2023,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 72.8,
+              "battery_basis": null,
+              "power_hp": 214,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 100,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2023,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2024,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 222,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS1",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs"
+                  ],
+                  "url": "https://pressroom.toyota.com/2025-toyota-bz4x-bev-electrifies-with-lower-price-and-new-nightshade-edition/",
+                  "name": "Toyota Pressroom: 2025 bZ4X pricing"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/45759.shtml",
+                  "name": "fueleconomy.gov (EPA) 2023 bZ4X LIMITED AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/47921.shtml",
+                  "name": "fueleconomy.gov (EPA) 2024 bZ4X Limited AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49129.shtml",
+                  "name": "fueleconomy.gov (EPA) 2025 bZ4X LIMITED AWD"
+                }
+              ]
+            },
+            {
+              "slug": "awd-71kwh",
+              "name": "AWD 71.4 kWh (Europe, Japan)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 71.4,
+              "battery_basis": null,
+              "power_hp": 215,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.9,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                }
+              ]
+            },
+            {
+              "slug": "cn-50kwh",
+              "name": "50.3 kWh FWD (China)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 50.3,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 400,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                }
+              ]
+            },
+            {
+              "slug": "cn-67kwh",
+              "name": "66.7 kWh (China)",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2022,
+              "year_to": 2025,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 66.7,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 615,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "Facelift (bZ)",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Mid-cycle refresh revealed in 2025: hammerhead nose, 57.7 or 74.7 kWh packs, silicon-carbide e-axles (up to 221 hp FWD, 338 hp AWD), battery preconditioning, 11 kW onboard charger and a NACS port in North America, where it is sold as the bZ.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/2026_Toyota_bZ4X_IMG_5806.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Toyota_bZ4X_IMG_5806.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+              "name": "Wikipedia: Toyota bZ4X"
+            },
+            {
+              "fields": [
+                "specs",
+                "price"
+              ],
+              "url": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/",
+              "name": "Toyota Pressroom: 2026 bZ"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "xle-fwd",
+              "name": "XLE FWD 57.7 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 57.7,
+              "battery_basis": null,
+              "power_hp": 165,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 236,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 34900,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 236,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 34980,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/",
+                  "name": "Toyota Pressroom: 2026 bZ"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/?p=117081",
+                  "name": "Toyota Pressroom: 2027 bZ (4 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://theweeklydriver.com/2026/09/2026-toyota-bz-vs-bz-woodland/",
+                  "name": "The Weekly Driver: 2026 bZ vs bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49983.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 bZ (energy capacity 200 Ah)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50863.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 bZ (energy capacity 200 Ah)"
+                }
+              ]
+            },
+            {
+              "slug": "xle-fwd-plus",
+              "name": "XLE FWD Plus 74.7 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 314,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 37900,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 314,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/",
+                  "name": "Toyota Pressroom: 2026 bZ"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/?p=117081",
+                  "name": "Toyota Pressroom: 2027 bZ (4 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://theweeklydriver.com/2026/09/2026-toyota-bz-vs-bz-woodland/",
+                  "name": "The Weekly Driver: 2026 bZ vs bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50042.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 bZ (energy capacity 191 Ah)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50864.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 bZ (energy capacity 191 Ah)"
+                }
+              ]
+            },
+            {
+              "slug": "xle-awd",
+              "name": "XLE AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": 4.9,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 288,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 39900,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 288,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/",
+                  "name": "Toyota Pressroom: 2026 bZ"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/?p=117081",
+                  "name": "Toyota Pressroom: 2027 bZ (4 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://theweeklydriver.com/2026/09/2026-toyota-bz-vs-bz-woodland/",
+                  "name": "The Weekly Driver: 2026 bZ vs bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49985.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 bZ AWD"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50865.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 bZ AWD"
+                }
+              ]
+            },
+            {
+              "slug": "limited-fwd",
+              "name": "Limited FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 299,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 43300,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 299,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/",
+                  "name": "Toyota Pressroom: 2026 bZ"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/?p=117081",
+                  "name": "Toyota Pressroom: 2027 bZ (4 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://theweeklydriver.com/2026/09/2026-toyota-bz-vs-bz-woodland/",
+                  "name": "The Weekly Driver: 2026 bZ vs bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50043.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 bZ LIMITED (energy capacity 191 Ah)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50867.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 bZ LIMITED"
+                }
+              ]
+            },
+            {
+              "slug": "limited-awd",
+              "name": "Limited AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": 4.9,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 45300,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 278,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/toyota-bz-all-electric-suv-adds-range-charging-and-exterior-updates-for-2026/",
+                  "name": "Toyota Pressroom: 2026 bZ"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/?p=117081",
+                  "name": "Toyota Pressroom: 2027 bZ (4 Aug 2026)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://theweeklydriver.com/2026/09/2026-toyota-bz-vs-bz-woodland/",
+                  "name": "The Weekly Driver: 2026 bZ vs bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/49986.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 bZ AWD LIMITED"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50866.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 bZ AWD LIMITED"
+                }
+              ]
+            },
+            {
+              "slug": "eu-fwd-57kwh",
+              "name": "FWD 57.7 kWh (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 57.7,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 444,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                }
+              ]
+            },
+            {
+              "slug": "eu-fwd-73kwh",
+              "name": "FWD 73.1 kWh (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 73.1,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 569,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                }
+              ]
+            },
+            {
+              "slug": "eu-awd-73kwh",
+              "name": "AWD 73.1 kWh (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 73.1,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 516,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-bz-woodland",
+      "url_slug": "bz-woodland",
+      "name": "bZ Woodland",
+      "aliases": [
+        "bZ4X Touring"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Longer, taller estate-style version of the refreshed bZ with standard AWD and roof rails, sold as the bZ Woodland in North America and the bZ4X Touring in Europe, Japan and Australia. Subaru sells it as the Trailseeker / E-Outback.",
+      "markets": {
+        "US": {
+          "status": "current",
+          "launch": "2026-03",
+          "end": null,
+          "local_name": null
+        },
+        "JP": {
+          "status": "current",
+          "launch": "2026-02",
+          "end": null,
+          "local_name": "bZ4X Touring"
+        },
+        "AU": {
+          "status": "current",
+          "launch": "2026-04",
+          "end": null,
+          "local_name": "bZ4X Touring"
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2026",
+          "end": null,
+          "local_name": "bZ4X Touring"
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "subaru-trailseeker"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "price",
+            "range"
+          ],
+          "url": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/",
+          "name": "Toyota Pressroom: bZ Woodland"
+        },
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+          "name": "Wikipedia: Toyota bZ4X"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "140 mm longer and 20 mm taller than the bZ, single 74.7 kWh pack, 375 hp dual-motor AWD in North America.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/2026_Toyota_bZ_Woodland_au_SIAM_2026.JPG",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Toyota_bZ_Woodland_au_SIAM_2026.JPG",
+              "credit": "Bull-Doser",
+              "license": "Public domain",
+              "view": "front",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+              "name": "Wikipedia: Toyota bZ4X"
+            },
+            {
+              "fields": [
+                "specs",
+                "price",
+                "range"
+              ],
+              "url": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/",
+              "name": "Toyota Pressroom: bZ Woodland"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 375,
+              "torque_lbft": null,
+              "accel_0_60_s": 4.4,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 281,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 45300,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 281,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/",
+                  "name": "Toyota Pressroom: bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://theweeklydriver.com/2026/09/2026-toyota-bz-vs-bz-woodland/",
+                  "name": "The Weekly Driver: 2026 bZ vs bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ4X",
+                  "name": "Wikipedia: Toyota bZ4X"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50305.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 bZ Woodland AWD 235/60R18"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50868.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 bZ Woodland AWD 235/60R18"
+                }
+              ]
+            },
+            {
+              "slug": "premium-awd",
+              "name": "Premium AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 375,
+              "torque_lbft": null,
+              "accel_0_60_s": 4.4,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 281,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 47400,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://theweeklydriver.com/2026/09/2026-toyota-bz-vs-bz-woodland/",
+                  "name": "The Weekly Driver: 2026 bZ vs bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://pressroom.toyota.com/toyotas-all-electric-lineup-gains-rugged-powerful-new-bz-woodland-suv/",
+                  "name": "Toyota Pressroom: bZ Woodland"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50305.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 bZ Woodland AWD 235/60R18"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-c-hr-plus",
+      "url_slug": "c-hr-plus",
+      "name": "C-HR+",
+      "aliases": [
+        "C-HR (battery electric, North America)",
+        "C-HR BEV"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact electric crossover on the e-TNGA platform, unveiled in March 2025. Sold as the C-HR+ in Europe from late 2025 and as the C-HR (AWD only, 338 hp) in the US from 2026; Subaru sells it as the Uncharted.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2025-10",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        },
+        "US": {
+          "status": "current",
+          "launch": "2026-03",
+          "end": null,
+          "local_name": "C-HR"
+        },
+        "CA": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": "C-HR"
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "subaru-uncharted"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_C-HR%2B",
+          "name": "Wikipedia: Toyota C-HR+"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "price"
+          ],
+          "url": "https://pressroom.toyota.com/?p=112876",
+          "name": "Toyota Pressroom: 2026 C-HR"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e-TNGA",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "57.7 or 77 kWh packs in Europe; the US C-HR uses a 74.7 kWh pack with standard 338 hp dual-motor AWD and a NACS port.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Toyota_C-HR%2B_Teamplayer_%E2%80%93_f_05042026.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_C-HR%2B_Teamplayer_%E2%80%93_f_05042026.jpg",
+              "credit": "M 93",
+              "license": "CC BY-SA 3.0 de",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_C-HR%2B",
+              "name": "Wikipedia: Toyota C-HR+"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "se-awd",
+              "name": "SE AWD (US)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": 4.9,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 287,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 37000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                },
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 287,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/?p=112876",
+                  "name": "Toyota Pressroom: 2026 C-HR"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2026/01/29/toyotas-new-c-hr-ev-not-as-affordable-as-expected/",
+                  "name": "Electrek (29 Jan 2026)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50307.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 C-HR AWD 18inch"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50870.shtml",
+                  "name": "fueleconomy.gov (EPA) 2027 C-HR AWD 18inch"
+                }
+              ]
+            },
+            {
+              "slug": "xse-awd",
+              "name": "XSE AWD (US)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 74.7,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": 4.9,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2026,
+                  "range": 273,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 39000,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "price"
+                  ],
+                  "url": "https://pressroom.toyota.com/?p=112876",
+                  "name": "Toyota Pressroom: 2026 C-HR"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://electrek.co/2026/01/29/toyotas-new-c-hr-ev-not-as-affordable-as-expected/",
+                  "name": "Electrek (29 Jan 2026)"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.fueleconomy.gov/feg/noframes/50308.shtml",
+                  "name": "fueleconomy.gov (EPA) 2026 C-HR AWD 20inch"
+                }
+              ]
+            },
+            {
+              "slug": "fwd-57kwh",
+              "name": "FWD 57.7 kWh (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 57.7,
+              "battery_basis": null,
+              "power_hp": 165,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_C-HR%2B",
+                  "name": "Wikipedia: Toyota C-HR+"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://evpowered.co.uk/news/toyota-c-hr-ev-arrives-with-338bhp-and-373-mile-range/",
+                  "name": "EV Powered: Toyota C-HR+"
+                }
+              ]
+            },
+            {
+              "slug": "fwd-77kwh",
+              "name": "FWD 77 kWh (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 77.0,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 609,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_C-HR%2B",
+                  "name": "Wikipedia: Toyota C-HR+"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://evpowered.co.uk/news/toyota-c-hr-ev-arrives-with-338bhp-and-373-mile-range/",
+                  "name": "EV Powered: Toyota C-HR+"
+                },
+                {
+                  "fields": [
+                    "range",
+                    "years"
+                  ],
+                  "url": "https://newsroom.toyota.eu/toyota-c-hr-plus/",
+                  "name": "Toyota Europe newsroom: C-HR+"
+                }
+              ]
+            },
+            {
+              "slug": "awd-77kwh",
+              "name": "AWD 77 kWh (Europe)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 77.0,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.2,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": 2026,
+                  "range": 525,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_C-HR%2B",
+                  "name": "Wikipedia: Toyota C-HR+"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://evpowered.co.uk/news/toyota-c-hr-ev-arrives-with-338bhp-and-373-mile-range/",
+                  "name": "EV Powered: Toyota C-HR+"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-c-hr-ev",
+      "url_slug": "c-hr-ev",
+      "name": "C-HR EV",
+      "aliases": [
+        "IZOA EV"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Battery-electric version of the first-generation C-HR built for China by GAC Toyota (C-HR EV) and FAW Toyota (IZOA EV), on sale from April 2020. The second-generation C-HR has no battery-electric version; the C-HR+ took that role.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2020-04",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_C-HR",
+          "name": "Wikipedia: Toyota C-HR (first generation China production 2018-2025)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "C-HR EV / IZOA EV",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2025,
+          "status": "discontinued",
+          "description": "54.3 kWh pack, 150 kW front motor, 50 kW DC charging; NEDC range up to 400 km.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/TOYOTA_C-HR_EV.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:TOYOTA_C-HR_EV.jpg",
+              "credit": "Dinkun Chen",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_C-HR",
+              "name": "Wikipedia: Toyota C-HR (C-HR EV / IZOA EV)"
+            },
+            {
+              "fields": [
+                "years"
+              ],
+              "url": "https://electrek.co/2019/04/16/toyota-electric-chr-izoa/",
+              "name": "Electrek (16 Apr 2019)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2025,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 54.3,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": 221,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 50,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_C-HR",
+                  "name": "Wikipedia: Toyota C-HR (C-HR EV / IZOA EV)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-bz3",
+      "url_slug": "bz3",
+      "name": "bZ3",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Compact electric sedan for China developed with BYD and built by FAW Toyota in Tianjin since 2023, using BYD Blade LFP batteries and BYD motors.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2023",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ3",
+          "name": "Wikipedia: Toyota bZ3"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2023",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "EA10",
+          "platform": "e-TNGA",
+          "start_year": 2023,
+          "end_year": null,
+          "status": "current",
+          "description": "BYD Blade LFP pack of 49.9 or 65.3 kWh; 135-180 kW front motor.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/%28CHN-Zhejiang%29_Private_FAW-Toyota_bZ3_%E6%B5%99ABT59A6_2024-12-15.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Zhejiang)_Private_FAW-Toyota_bZ3_%E6%B5%99ABT59A6_2024-12-15.jpg",
+              "credit": "S5A-0043",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ3",
+              "name": "Wikipedia: Toyota bZ3"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "49kwh",
+              "name": "49.9 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 49.9,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ3",
+                  "name": "Wikipedia: Toyota bZ3"
+                }
+              ]
+            },
+            {
+              "slug": "65kwh",
+              "name": "65.3 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2023,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 65.3,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ3",
+                  "name": "Wikipedia: Toyota bZ3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-bz3x",
+      "url_slug": "bz3x",
+      "name": "bZ3X",
+      "aliases": [
+        "Bozhi 3X"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Affordable compact electric SUV developed with GAC and built by GAC Toyota; deliveries in China began in March 2025, and a right-hand-drive version reached Hong Kong and Macau in September 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-03",
+          "end": null,
+          "local_name": "Bozhi 3X"
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ3X",
+          "name": "Wikipedia: Toyota bZ3X"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "LFP packs of 50.03, 58 or 67.9 kWh with a 150 kW front motor; CLTC range 430-620 km.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Toyota_bZ3X_005.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_bZ3X_005.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "range"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ3X",
+              "name": "Wikipedia: Toyota bZ3X"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "430-air",
+              "name": "430 Air+ (50.03 kWh)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 50.03,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 430,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ3X",
+                  "name": "Wikipedia: Toyota bZ3X"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://carnewschina.com/2024/12/08/gac-toyota-bz3x-electric-suv-opens-pre-sales-in-china/",
+                  "name": "CarNewsChina (8 Dec 2024)"
+                }
+              ]
+            },
+            {
+              "slug": "620-max",
+              "name": "620 Max (67.9 kWh)",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 67.9,
+              "battery_basis": null,
+              "power_hp": 201,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 620,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ3X",
+                  "name": "Wikipedia: Toyota bZ3X"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-bz5",
+      "url_slug": "bz5",
+      "name": "bZ5",
+      "aliases": [
+        "bZ3C"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Coupe-styled compact electric SUV built by FAW Toyota with a BYD powertrain, shown as the bZ3C in 2024 and launched as the bZ5 in 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-05",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ5",
+          "name": "Wikipedia: Toyota bZ5"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "EA11",
+          "platform": "e-TNGA",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "200 kW BYD front motor, BYD Blade LFP packs of 65.28 or 73.98 kWh, CLTC range 550-630 km.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Toyota_bZ5_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_bZ5_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "range"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ5",
+              "name": "Wikipedia: Toyota bZ5"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "65kwh",
+              "name": "65.28 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 65.28,
+              "battery_basis": null,
+              "power_hp": 268,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 550,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ5",
+                  "name": "Wikipedia: Toyota bZ5"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://paultan.org/2025/04/29/toyota-bz5-ev-suv-displayed-in-shanghai-by-faw-toyota-byd-powertrain-272-ps-330-nm-630-km-cltc/",
+                  "name": "Paul Tan (29 Apr 2025)"
+                }
+              ]
+            },
+            {
+              "slug": "74kwh",
+              "name": "73.98 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 73.98,
+              "battery_basis": null,
+              "power_hp": 268,
+              "torque_lbft": 243,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 630,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ5",
+                  "name": "Wikipedia: Toyota bZ5"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://paultan.org/2025/04/29/toyota-bz5-ev-suv-displayed-in-shanghai-by-faw-toyota-byd-powertrain-272-ps-330-nm-630-km-cltc/",
+                  "name": "Paul Tan (29 Apr 2025)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-bz7",
+      "url_slug": "bz7",
+      "name": "bZ7",
+      "aliases": [
+        "Bozhi 7"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size electric sedan built by GAC Toyota on GAC's platform with a Huawei motor and HarmonyOS cockpit; launched in China on 29 March 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2026-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_bZ7",
+          "name": "Wikipedia: Toyota bZ7"
+        },
+        {
+          "fields": [
+            "specs",
+            "range",
+            "years"
+          ],
+          "url": "https://cnevpost.com/2026/03/29/gac-toyota-launches-bz7-electric-sedan/",
+          "name": "CnEVPost (29 Mar 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "EP10",
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "207 kW Huawei DriveONE rear motor, CALB LFP packs of 71 or 88 kWh.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Toyota_bZ7_at_Auto_Guangzhou_2025_20251123.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_bZ7_at_Auto_Guangzhou_2025_20251123.jpg",
+              "credit": "Tim Wu",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_bZ7",
+              "name": "Wikipedia: Toyota bZ7"
+            },
+            {
+              "fields": [
+                "specs",
+                "range",
+                "years"
+              ],
+              "url": "https://cnevpost.com/2026/03/29/gac-toyota-launches-bz7-electric-sedan/",
+              "name": "CnEVPost (29 Mar 2026)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "71kwh",
+              "name": "71 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 71.35,
+              "battery_basis": null,
+              "power_hp": 278,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ7",
+                  "name": "Wikipedia: Toyota bZ7"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "years"
+                  ],
+                  "url": "https://cnevpost.com/2026/03/29/gac-toyota-launches-bz7-electric-sedan/",
+                  "name": "CnEVPost (29 Mar 2026)"
+                }
+              ]
+            },
+            {
+              "slug": "88kwh",
+              "name": "88 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 88.13,
+              "battery_basis": null,
+              "power_hp": 278,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 710,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_bZ7",
+                  "name": "Wikipedia: Toyota bZ7"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "years"
+                  ],
+                  "url": "https://cnevpost.com/2026/03/29/gac-toyota-launches-bz7-electric-sedan/",
+                  "name": "CnEVPost (29 Mar 2026)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-urban-cruiser",
+      "url_slug": "urban-cruiser",
+      "name": "Urban Cruiser",
+      "aliases": [
+        "Urban Cruiser Ebella",
+        "Urban Cruiser EV"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Small electric SUV built by Suzuki in Gujarat, India, as Toyota's version of the Suzuki e Vitara. On sale in Europe and the UK from December 2025 and in India as the Urban Cruiser Ebella from May 2026.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2025-12",
+          "end": null,
+          "local_name": null
+        },
+        "UK": {
+          "status": "current",
+          "launch": "2025-12",
+          "end": null,
+          "local_name": null
+        },
+        "IN": {
+          "status": "current",
+          "launch": "2026-05",
+          "end": null,
+          "local_name": "Urban Cruiser Ebella"
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "suzuki-e-vitara"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+          "name": "Wikipedia: Suzuki e Vitara / Toyota Urban Cruiser"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "years"
+          ],
+          "url": "https://media.toyota.co.uk/the-all-new-toyota-urban-cruiser-uk-sales-launch/",
+          "name": "Toyota UK media: Urban Cruiser UK sales launch"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation (BEV)",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Heartect-e",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "BYD LFP packs of 49 or 61 kWh, front motor or dual-motor AWD, 67 kW DC charging.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Toyota_Urban_Cruiser_%28electric%29_Auto_Zuerich_2025_DSC_3051.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_Urban_Cruiser_(electric)_Auto_Zuerich_2025_DSC_3051.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+              "name": "Wikipedia: Suzuki e Vitara / Toyota Urban Cruiser"
+            },
+            {
+              "fields": [
+                "price",
+                "specs",
+                "years"
+              ],
+              "url": "https://media.toyota.co.uk/the-all-new-toyota-urban-cruiser-uk-sales-launch/",
+              "name": "Toyota UK media: Urban Cruiser UK sales launch"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "49kwh-fwd",
+              "name": "49 kWh FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 49.0,
+              "battery_basis": null,
+              "power_hp": 142,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 67,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 29995,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+                  "name": "Wikipedia: Suzuki e Vitara / Toyota Urban Cruiser"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://media.toyota.co.uk/the-all-new-toyota-urban-cruiser-uk-sales-launch/",
+                  "name": "Toyota UK media: Urban Cruiser UK sales launch"
+                }
+              ]
+            },
+            {
+              "slug": "61kwh-fwd",
+              "name": "61 kWh FWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 61.0,
+              "battery_basis": null,
+              "power_hp": 172,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 67,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": 2026,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 33495,
+                  "launch_price": null,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+                  "name": "Wikipedia: Suzuki e Vitara / Toyota Urban Cruiser"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "years"
+                  ],
+                  "url": "https://media.toyota.co.uk/the-all-new-toyota-urban-cruiser-uk-sales-launch/",
+                  "name": "Toyota UK media: Urban Cruiser UK sales launch"
+                }
+              ]
+            },
+            {
+              "slug": "61kwh-awd",
+              "name": "61 kWh AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 61.0,
+              "battery_basis": null,
+              "power_hp": 181,
+              "torque_lbft": 221,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Suzuki_e_Vitara",
+                  "name": "Wikipedia: Suzuki e Vitara / Toyota Urban Cruiser"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-c-pod",
+      "url_slug": "c-pod",
+      "name": "C+pod",
+      "aliases": [],
+      "body_style": "microcar",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Two-seat ultra-compact electric car for Japan, sold first to companies and local governments from December 2020 and to private buyers from December 2021; discontinued in 2024.",
+      "markets": {
+        "JP": {
+          "status": "discontinued",
+          "launch": "2020-12",
+          "end": "2024",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_C%2Bpod",
+          "name": "Wikipedia: Toyota C+pod"
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://www.nikkei.com/article/DGXZQOFD158ZG0V10C24A1000000/",
+          "name": "Nikkei: C+pod to end in 2024"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "C+pod",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": 2024,
+          "status": "discontinued",
+          "description": "9.06 kWh pack, 9.2 kW motor, 60 km/h top speed, 150 km WLTC (Class 1) range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Toyota_C%2Bpod_G_%28ZAZ-RMV12-AGDQS%29_front.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_C%2Bpod_G_(ZAZ-RMV12-AGDQS)_front.jpg",
+              "credit": "Tokumeigakarinoaoshima",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_C%2Bpod",
+              "name": "Wikipedia: Toyota C+pod"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "C+pod",
+              "legacy_ids": [],
+              "status": "discontinued",
+              "year_from": 2020,
+              "year_to": 2024,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 9.06,
+              "battery_basis": null,
+              "power_hp": 12,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 37,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "JP",
+                  "model_year": null,
+                  "range": 150,
+                  "range_unit": "km",
+                  "range_cycle": "WLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_C%2Bpod",
+                  "name": "Wikipedia: Toyota C+pod"
+                },
+                {
+                  "fields": [
+                    "years",
+                    "specs"
+                  ],
+                  "url": "https://global.toyota/en/newsroom/toyota/34464305.html",
+                  "name": "Toyota Global Newsroom: C+pod launch"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-hilux-bev",
+      "url_slug": "hilux-bev",
+      "name": "Hilux BEV",
+      "aliases": [
+        "Hilux Travo-e"
+      ],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Battery-electric version of the ninth-generation Hilux pickup, launched in 2026 in markets including Malaysia, Indonesia, the Philippines and Australia (sold as the Hilux Travo-e in Thailand).",
+      "markets": {
+        "AU": {
+          "status": "current",
+          "launch": "2026-07",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "years",
+            "markets"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_Hilux",
+          "name": "Wikipedia: Toyota Hilux (BEV)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Ninth generation BEV",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "XPN225",
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor AWD with a 59.2 kWh pack; 240 km WLTP range.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2026_Toyota_Hilux_BEV.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Toyota_Hilux_BEV.jpg",
+              "credit": "TTTNIS",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "years",
+                "markets"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_Hilux",
+              "name": "Wikipedia: Toyota Hilux (BEV)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "awd",
+              "name": "Dual-motor AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 59.2,
+              "battery_basis": null,
+              "power_hp": 193,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "AU",
+                  "model_year": 2026,
+                  "range": 240,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "markets"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_Hilux",
+                  "name": "Wikipedia: Toyota Hilux (BEV)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-highlander",
+      "url_slug": "highlander",
+      "name": "Highlander",
+      "aliases": [
+        "Highlander BEV",
+        "Highlander EV"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "The fifth-generation Highlander, revealed in February 2026, is a three-row battery-electric SUV to be built in Georgetown, Kentucky. Toyota first targeted late 2026; as of September 2026 it says launch is in 2027, with reports of production starting no earlier than January 2027.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [
+        {
+          "relation": "twin",
+          "model": "subaru-getaway"
+        }
+      ],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs",
+            "range"
+          ],
+          "url": "https://electrek.co/2026/09/03/toyota-denies-delaying-highlander-ev-suv-again/",
+          "name": "Electrek (3 Sep 2026)"
+        },
+        {
+          "fields": [
+            "specs",
+            "years",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+          "name": "Wikipedia: Toyota Highlander (fifth generation)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "Fifth generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "First Toyota three-row EV: 77 or 95.8 kWh packs, FWD or AWD, NACS port. Toyota-estimated ranges only; no EPA rating or price yet.",
+          "images": [],
+          "sources": [
+            {
+              "fields": [
+                "status",
+                "specs",
+                "range"
+              ],
+              "url": "https://electrek.co/2026/09/03/toyota-denies-delaying-highlander-ev-suv-again/",
+              "name": "Electrek (3 Sep 2026)"
+            },
+            {
+              "fields": [
+                "specs",
+                "years",
+                "status"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+              "name": "Wikipedia: Toyota Highlander (fifth generation)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "xle-fwd-77kwh",
+              "name": "XLE FWD 77 kWh",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 77.0,
+              "battery_basis": null,
+              "power_hp": 221,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": null,
+                  "range": 287,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/2026/09/03/toyota-denies-delaying-highlander-ev-suv-again/",
+                  "name": "Electrek (3 Sep 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+                  "name": "Wikipedia: Toyota Highlander (fifth generation)"
+                }
+              ]
+            },
+            {
+              "slug": "xle-awd-77kwh",
+              "name": "XLE AWD 77 kWh",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 77.0,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": null,
+                  "range": 270,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/2026/09/03/toyota-denies-delaying-highlander-ev-suv-again/",
+                  "name": "Electrek (3 Sep 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+                  "name": "Wikipedia: Toyota Highlander (fifth generation)"
+                }
+              ]
+            },
+            {
+              "slug": "awd-96kwh",
+              "name": "XLE / Limited AWD 95.8 kWh",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 95.8,
+              "battery_basis": null,
+              "power_hp": 338,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": 150,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": null,
+                  "range": 320,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "NACS",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://electrek.co/2026/09/03/toyota-denies-delaying-highlander-ev-suv-again/",
+                  "name": "Electrek (3 Sep 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "years",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+                  "name": "Wikipedia: Toyota Highlander (fifth generation)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-proace-electric",
+      "url_slug": "proace-electric",
+      "name": "Proace Electric",
+      "aliases": [
+        "Proace Verso Electric"
+      ],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the Proace mid-size van and Proace Verso people carrier, a Stellantis-built twin of the Citroen e-Jumpy / Peugeot e-Expert, sold in Europe since 2020-2021.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_Proace",
+          "name": "Wikipedia: Toyota Proace (electric versions)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Proace Electric",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "current",
+          "description": "Shared Stellantis eK0 drive: 100 kW motor with 50 or 75 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Toyota_ProAce_Verso_Electric_IMG_5614.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_ProAce_Verso_Electric_IMG_5614.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "range"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_Proace",
+              "name": "Wikipedia: Toyota Proace (electric versions)"
+            },
+            {
+              "fields": [
+                "years"
+              ],
+              "url": "https://www.autobild.de/artikel/toyota-proace-verso-electric-2021-motor-akku-reichweite-preis-marktstart-anhaengelast-18587141.html",
+              "name": "Auto Bild: Proace Verso Electric"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "50kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 50.0,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 232,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_Proace",
+                  "name": "Wikipedia: Toyota Proace (electric versions)"
+                }
+              ]
+            },
+            {
+              "slug": "75kwh",
+              "name": "75 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 75.0,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 330,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_Proace",
+                  "name": "Wikipedia: Toyota Proace (electric versions)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "toyota-proace-city-electric",
+      "url_slug": "proace-city-electric",
+      "name": "Proace City Electric",
+      "aliases": [
+        "Proace City Verso Electric"
+      ],
+      "body_style": "van",
+      "is_commercial": true,
+      "status": "current",
+      "official_url": null,
+      "description": "Electric version of the Proace City small van and Proace City Verso, a Stellantis-built twin of the Citroen e-Berlingo, unveiled in May 2021.",
+      "markets": {
+        "EU": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "range",
+            "years"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Toyota_ProAce_City",
+          "name": "Wikipedia: Toyota ProAce City (Electric)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "Proace City Electric",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "current",
+          "description": "100 kW motor with a 50 kWh-class pack; 330 km WLTP.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Toyota_ProAce_City_Electric_1X7A0251.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_ProAce_City_Electric_1X7A0251.jpg",
+              "credit": "Alexander Migl",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [
+            {
+              "fields": [
+                "specs",
+                "range",
+                "years"
+              ],
+              "url": "https://en.wikipedia.org/wiki/Toyota_ProAce_City",
+              "name": "Wikipedia: Toyota ProAce City (Electric)"
+            }
+          ],
+          "variants": [
+            {
+              "slug": "50kwh",
+              "name": "50 kWh",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 330,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range",
+                    "years"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Toyota_ProAce_City",
+                  "name": "Wikipedia: Toyota ProAce City (Electric)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [
+    {
+      "legacy_id": 190,
+      "note": "Labelled bZ4X AWD (2023) but mixes trims: price $37,070 is the 2025 XLE FWD MSRP, EPA range 252 mi and battery 71.4 kWh are the FWD figures (US AWD: 72.8 kWh CATL pack, 228 mi), and 130 kW DC is wrong (US AWD about 100 kW). Mapped to the original-generation XLE AWD; the current model is the refreshed 2026 bZ."
+    },
+    {
+      "legacy_id": 194,
+      "note": "Labelled bZ4X FWD (2023). Price $43,070 is the 2024 XLE FWD price; range 252 mi matches EPA. Mapped to original-generation XLE FWD. Model is still current but was refreshed and renamed 'bZ' in the US for 2026 (57.7/74.7 kWh, up to 338 hp, NACS)."
+    }
+  ],
+  "gaps": [
+    "2023-2024 US prices for bZ4X AWD trims and 2024 FWD prices not sourced (only 2023 XLE/Limited FWD and 2025 prices).",
+    "2027 bZ prices beyond XLE FWD ($34,980) not published in the source found.",
+    "Europe prices and WLTP figures for bZ4X Touring, C-HR+ 57.7 kWh, Urban Cruiser and Proace vans not sourced in km (UK pages give miles only).",
+    "China prices (bZ3, bZ3X, bZ5, bZ7, C-HR EV, bZ4X China) not sourced per variant; bZ3 per-variant power and CLTC range not sourced.",
+    "bZ3X 58 kWh (520 Pro+) variant omitted: battery/range mapping not confirmed.",
+    "Highlander BEV: no price, no EPA rating, no image; launch now 2027 (possibly MY2028 per Wikipedia).",
+    "Not included for lack of sources: Toyota Proace Max electric, e-Palette, Pixis Van BEV (kei van), GAC-Toyota iA5 (rebadged Aion S, China), RAV4 EV first-gen power.",
+    "C-HR EV / IZOA EV end date taken from first-generation C-HR China production end (2018-2025); exact EV end not sourced.",
+    "No connector recorded for China/Europe/Japan offerings."
+  ]
+}

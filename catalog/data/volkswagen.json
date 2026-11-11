@@ -1,0 +1,6905 @@
+{
+ "make": {
+  "slug": "volkswagen",
+  "name": "Volkswagen",
+  "legacy_id": 12,
+  "country": "DE",
+  "headquarters": "Wolfsburg, Lower Saxony, Germany",
+  "founded": 1937,
+  "parent_group": "Volkswagen Group",
+  "website_url": "https://www.volkswagen.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "German carmaker founded in 1937, the core brand of the Volkswagen Group. Its electric cars started with the e-up! (2013) and e-Golf (2014); since 2020 they are the MEB-based ID. family, plus China-only ID. Unyx, ID. Aura and ID. Era sub-brands built by its Chinese joint ventures.",
+  "sources": [
+   {
+    "fields": [
+     "founded",
+     "headquarters"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Volkswagen",
+    "name": "Wikipedia: Volkswagen"
+   },
+   {
+    "fields": [
+     "models"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._series",
+    "name": "Wikipedia: Volkswagen ID. series"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "volkswagen-e-golf",
+   "url_slug": "e-golf",
+   "name": "e-Golf",
+   "aliases": [],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the seventh-generation Golf, sold from 2014 and built in Wolfsburg and Dresden (and by FAW-VW in China from 2019). A 2017 update raised the battery to 35.8 kWh; production ended in late 2020 and the ID.3 replaced it.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2014-11",
+     "end": "2019",
+     "local_name": null
+    },
+    "CA": {
+     "status": "discontinued",
+     "launch": null,
+     "end": "2020",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2014-02",
+     "end": "2020-12",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": "2014-06",
+     "end": "2020",
+     "local_name": null
+    },
+    "CN": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2021",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk7#e-Golf",
+     "name": "Wikipedia: Golf Mk7 (e-Golf)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2015",
+     "name": "Golf Mk7 e-Golf",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "Typ 5G",
+     "platform": "MQB",
+     "start_year": 2014,
+     "end_year": 2016,
+     "status": "discontinued",
+     "description": "Launch e-Golf with a 24.2 kWh battery and 85 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/VW_e-Golf_%28VII%29_%E2%80%93_Frontansicht%2C_19._Juni_2014%2C_D%C3%BCsseldorf.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:VW_e-Golf_(VII)_%E2%80%93_Frontansicht,_19._Juni_2014,_D%C3%BCsseldorf.jpg",
+       "credit": "M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "24kwh",
+       "name": "e-Golf (24.2 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2014,
+       "year_to": 2016,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 24.2,
+       "battery_basis": "gross",
+       "power_hp": 114,
+       "torque_lbft": 199,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.4,
+       "top_speed_mph": 87,
+       "dc_kw": 40,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 83,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 83,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 34900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 26345,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1040/Volkswagen-e-Golf",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk7#e-Golf",
+         "name": "Wikipedia: Golf Mk7 e-Golf"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/35849.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2017",
+     "name": "Golf Mk7.5 e-Golf (facelift)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "Typ 5G",
+     "platform": "MQB",
+     "start_year": 2017,
+     "end_year": 2020,
+     "status": "discontinued",
+     "description": "2017 facelift: 35.8 kWh battery, 100 kW motor, EPA range up from 83 to 125 miles.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/2018_Volkswagen_e-Golf_Front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2018_Volkswagen_e-Golf_Front.jpg",
+       "credit": "Vauxford",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "36kwh",
+       "name": "e-Golf (35.8 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2017,
+       "year_to": 2020,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 35.8,
+       "battery_basis": "gross",
+       "power_hp": 134,
+       "torque_lbft": 214,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.6,
+       "top_speed_mph": 93,
+       "dc_kw": 40,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 125,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 125,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 125,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 233,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 31900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 233,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 28075,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1087/Volkswagen-e-Golf",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk7#e-Golf",
+         "name": "Wikipedia: Golf Mk7 e-Golf"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/38549.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-e-up",
+   "url_slug": "e-up",
+   "name": "e-up!",
+   "aliases": [
+    "e-Up!",
+    "E-up"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the up! city car, built in Bratislava and sold in Europe from 2013 (never in North America). A 2019 update more than doubled usable battery capacity; the up! family ended production in 2023.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2013-10",
+     "end": "2023",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": "2014-01",
+     "end": "2023",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Up#E-up",
+     "name": "Wikipedia: Volkswagen Up (produced 2011-2023)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2013",
+     "name": "e-up!",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Volkswagen Group NSF",
+     "start_year": 2013,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "Original e-up! with an 18.7 kWh battery and 60 kW motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/VW_e-up%21_at_Hannover_Messe.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:VW_e-up!_at_Hannover_Messe.jpg",
+       "credit": "MotorBlog",
+       "license": "CC BY 2.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "18kwh",
+       "name": "e-up! (18.7 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2013,
+       "year_to": 2019,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 16.0,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": 155,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.4,
+       "top_speed_mph": 81,
+       "dc_kw": 40,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 26900,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 20780,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1041/Volkswagen-e-Up",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1081/Volkswagen-e-Up",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Up#E-up",
+         "name": "Wikipedia: Volkswagen Up (e-up!)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2019",
+     "name": "e-up! (36.8 kWh)",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Volkswagen Group NSF",
+     "start_year": 2019,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "Second iteration announced September 2019: 36.8 kWh (32.3 usable) battery, WLTP range about 258-260 km, alongside the SEAT Mii electric and Škoda Citigo-e iV twins.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/VW_e-up%21_Style_%E2%80%93_f_08052021.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:VW_e-up!_Style_%E2%80%93_f_08052021.jpg",
+       "credit": "© M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "36kwh",
+       "name": "e-up! (36.8 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2019,
+       "year_to": 2023,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 32.3,
+       "battery_basis": "usable",
+       "power_hp": 82,
+       "torque_lbft": 155,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.9,
+       "top_speed_mph": 81,
+       "dc_kw": 40,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2020,
+         "range": 258,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 21975,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 260,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 29995,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2022,
+         "range": 260,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 24085,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1189/Volkswagen-e-Up",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1650/Volkswagen-e-Up",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Up#E-up",
+         "name": "Wikipedia: Volkswagen Up (e-up!)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-3",
+   "url_slug": "id-3",
+   "name": "ID.3",
+   "aliases": [
+    "ID.3 Neo"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.volkswagen.de/de/modelle/id3.html",
+   "description": "Compact electric hatchback and the first MEB-platform car, built in Zwickau (and by SAIC-VW in China) since late 2019. Facelifted in 2023, then substantially reworked and renamed ID.3 Neo in April 2026; the GTX was replaced by an ID.3 GTI due in early 2027.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2020-09",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2020",
+     "end": null,
+     "local_name": null
+    },
+    "CN": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "volkswagen-e-golf"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+     "name": "Wikipedia: Volkswagen ID.3"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.volkswagen-newsroom.com/en/press-releases/world-premiere-of-the-id3-neo-new-name-new-design-new-interior-and-new-technologies-20320",
+     "name": "Volkswagen Newsroom"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2020",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "E11",
+     "platform": "MEB",
+     "start_year": 2020,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "Original ID.3 launched in 2020 with 45, 58 and 77 kWh batteries and the launch-edition ID.3 1st.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/2020_Volkswagen_ID.3_1st_Front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2020_Volkswagen_ID.3_1st_Front.jpg",
+       "credit": "Vauxford",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pure-performance-45kwh",
+       "name": "Pure Performance (45 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2022,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 45.0,
+       "battery_basis": "usable",
+       "power_hp": 148,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.9,
+       "top_speed_mph": 99,
+       "dc_kw": 100,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 349,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 31960,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 349,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 28135,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1530/Volkswagen-ID3-Pure-Performance",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      },
+      {
+       "slug": "pro-58kwh-107kw",
+       "name": "Pro (58 kWh, 107 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2022,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 143,
+       "torque_lbft": 203,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.6,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 429,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 35460,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 429,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 30700,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1531/Volkswagen-ID3-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      },
+      {
+       "slug": "pro-performance-58kwh",
+       "name": "Pro Performance / 1st (58 kWh, 150 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.3,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 426,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 36495,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 426,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 29740,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1306/Volkswagen-ID3-Pro-Performance",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1300/Volkswagen-ID3-1st",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pro-s-77kwh",
+       "name": "Pro S (77 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2020,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.9,
+       "top_speed_mph": 99,
+       "dc_kw": 125,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 549,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41995,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 549,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 38800,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1203/Volkswagen-ID3-Pro-S",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1534/Volkswagen-ID3-Pro-S---5-Seats",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2023",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "E11",
+     "platform": "MEB",
+     "start_year": 2023,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "March 2023 facelift with a new front bumper and better interior materials; from 2024 new 52/59 kWh batteries and the GTX and GTX Performance.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Volkswagen_ID.3_%282023%29_IMG_7973.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.3_(2023)_IMG_7973.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pro-58kwh",
+       "name": "Pro (58 kWh, 150 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.3,
+       "top_speed_mph": 99,
+       "dc_kw": 120,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 435,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39995,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1831/Volkswagen-ID3-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      },
+      {
+       "slug": "pro-s-77kwh",
+       "name": "Pro S (77 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.1,
+       "top_speed_mph": 99,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 558,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47595,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 558,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 35495,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2210/Volkswagen-ID3-Pro-S",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      },
+      {
+       "slug": "pure-52kwh",
+       "name": "Pure (52 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.2,
+       "top_speed_mph": 99,
+       "dc_kw": 145,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 388,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 33330,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 388,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 29360,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2214/Volkswagen-ID3-Pure",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      },
+      {
+       "slug": "pro-59kwh",
+       "name": "Pro (59 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.6,
+       "top_speed_mph": 99,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 434,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 36425,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 434,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 34240,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2213/Volkswagen-ID3-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      },
+      {
+       "slug": "gtx",
+       "name": "GTX (210 kW, 79 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": 112,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 604,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47225,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2152/Volkswagen-ID3-GTX",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      },
+      {
+       "slug": "gtx-performance",
+       "name": "GTX Performance (240 kW, 79 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 322,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.6,
+       "top_speed_mph": 124,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 601,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48725,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 601,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46325,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2153/Volkswagen-ID3-GTX-Performance",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.3",
+         "name": "Wikipedia: Volkswagen ID.3"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2026",
+     "name": "ID.3 Neo",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "E12",
+     "platform": "MEB",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "April 2026 overhaul renamed ID.3 Neo: ID. Polo-style light bar front, new interior with physical buttons, 50/58/79 kWh batteries and more power; GTX dropped for a GTI.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Volkswagen_ID.3_Neo_IMG_7255.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.3_Neo_IMG_7255.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "neo-50kwh",
+       "name": "ID.3 Neo 50 kWh (125 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 50.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 33995,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 33080,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/press-releases/world-premiere-of-the-id3-neo-new-name-new-design-new-interior-and-new-technologies-20320",
+         "name": "Volkswagen Newsroom (15 Apr 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.autozeitung.de/vw-id3-gti-vorstellung-news-300958.html",
+         "name": "Auto Zeitung (Sept 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.whatcar.com/news/new-volkswagen-id-3-neo-gets-new-name-new-tech-and-more-range/n28786",
+         "name": "What Car?"
+        }
+       ]
+      },
+      {
+       "slug": "neo-58kwh",
+       "name": "ID.3 Neo 58 kWh (140 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 188,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 105,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/press-releases/world-premiere-of-the-id3-neo-new-name-new-design-new-interior-and-new-technologies-20320",
+         "name": "Volkswagen Newsroom (15 Apr 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "neo-79kwh",
+       "name": "ID.3 Neo 79 kWh (170 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 228,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 183,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2026,
+         "range": 630,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/press-releases/world-premiere-of-the-id3-neo-new-name-new-design-new-interior-and-new-technologies-20320",
+         "name": "Volkswagen Newsroom (15 Apr 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "gti",
+       "name": "ID.3 GTI (240 kW)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": 2027,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 322,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.6,
+       "top_speed_mph": 124,
+       "dc_kw": 183,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 601,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "status"
+         ],
+         "url": "https://www.electrive.com/2026/09/16/world-premiere-vw-id-3-gti-the-most-powerful-production-gti-goes-electric/",
+         "name": "electrive (16 Sept 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vw-id-4",
+   "url_slug": "id-4",
+   "name": "ID.4",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.vw.com/en/models/id-4.html",
+   "description": "Compact electric SUV on the MEB platform and VW's first global EV, on sale since late 2020 in Europe and 2021 in North America (built in Chattanooga, Tennessee from 2022 to April 2026). The 2024 model year brought the stronger APP550 motor and new software. VW ended US production in April 2026, and the ID. Tiguan replaces it in Europe.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2021-03",
+     "end": "2026-04",
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2020-12",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": null
+    },
+    "CN": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": "ID.4 Crozz (FAW-VW) / ID.4 X (SAIC-VW)"
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.carscoops.com/2026/04/vw-id4-chattanooga-production-end/",
+     "name": "Carscoops (April 2026)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.automotiveworld.com/news/volkswagen-ends-id-4-production-at-chattanooga-plant/",
+     "name": "Automotive World"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+     "name": "Wikipedia: Volkswagen ID.4"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "E21",
+     "platform": "MEB",
+     "start_year": 2021,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "Original ID.4 with the APP310 motor; 1st Edition launch model, 52/58/77 kWh batteries depending on market.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/vw_id_4.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd-77kwh-150kw",
+       "name": "Pro / Pro S / 1st Edition RWD (77 kWh, 150 kW; EU Pro Performance)",
+       "legacy_ids": [
+        10
+       ],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": 7.7,
+       "accel_0_100_s": 8.5,
+       "top_speed_mph": 99,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 260,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 275,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 275,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 537,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46335,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 537,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46035,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/43557.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44052.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45259.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46035.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1314/Volkswagen-ID4-Pro-Performance",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1273/Volkswagen-ID4-1st",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "awd-77kwh-220kw",
+       "name": "AWD Pro / AWD Pro S (US) / GTX (EU) (77 kWh, 220 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": 339,
+       "accel_0_60_s": 5.7,
+       "accel_0_100_s": 6.2,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2021,
+         "range": 249,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2022,
+         "range": 251,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 255,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 509,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53255,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 509,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 52865,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/44725.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/45257.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46033.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1494/Volkswagen-ID4-GTX",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1828/Volkswagen-ID4-GTX",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "standard-62kwh",
+       "name": "Standard / S (62 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": 7.1,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": 140,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2023,
+         "range": 209,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/46032.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "pro-77kwh-128kw",
+       "name": "Pro (EU, 77 kWh, 128 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 172,
+       "torque_lbft": 173,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.4,
+       "top_speed_mph": 99,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 533,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44605,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1627/Volkswagen-ID4-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        }
+       ]
+      },
+      {
+       "slug": "pro-4motion-195kw",
+       "name": "Pro 4MOTION (EU, 195 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 261,
+       "torque_lbft": 313,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 517,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 49020,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1702/Volkswagen-ID4-Pro-4MOTION",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        }
+       ]
+      },
+      {
+       "slug": "pure-52kwh-109kw",
+       "name": "Pure (EU, 52 kWh, 109 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 146,
+       "torque_lbft": 162,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.9,
+       "top_speed_mph": 99,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 361,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 36950,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1489/Volkswagen-ID4-Pure",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        }
+       ]
+      },
+      {
+       "slug": "pure-performance-52kwh",
+       "name": "Pure Performance (EU, 52 kWh, 125 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 99,
+       "dc_kw": 50,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 361,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39955,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1411/Volkswagen-ID4-Pure-Performance",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "2024 update",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "E21",
+     "platform": "MEB",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Model-year 2024 update: APP550 rear motor (210 kW RWD, 250 kW AWD), 12.9-inch screen and new software; little exterior change.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/2025_Volkswagen_ID4_Pro_Redspot_front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_ID4_Pro_Redspot_front.jpg",
+       "credit": "LuvsMG481",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd-77kwh-210kw",
+       "name": "Pro / Pro S RWD (77 kWh, 210 kW; APP550)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": 5.9,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 291,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 291,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 291,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 45095,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 574,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46335,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 574,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46035,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47484.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49156.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49987.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2028/Volkswagen-ID4-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "price",
+          "range"
+         ],
+         "url": "https://www.vw.com/en/models/id-4.html",
+         "name": "vw.com (2026 ID.4)"
+        }
+       ]
+      },
+      {
+       "slug": "awd-77kwh-250kw",
+       "name": "AWD Pro / AWD Pro S (US) / GTX (EU) (77 kWh, 250 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 501,
+       "accel_0_60_s": 4.9,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 263,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 263,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2026,
+         "range": 263,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 524,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53255,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 524,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53865,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47485.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48773.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49988.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2030/Volkswagen-ID4-GTX",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "standard-62kwh",
+       "name": "Standard / S / Limited (62 kWh, US)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 140,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2024,
+         "range": 206,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS1",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 206,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/47922.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/49155.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "pro-4motion-210kw",
+       "name": "Pro 4MOTION (EU, 210 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 534,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 49020,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 534,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46080,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2029/Volkswagen-ID4-Pro-4MOTION",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        }
+       ]
+      },
+      {
+       "slug": "pure-52kwh",
+       "name": "Pure (EU, 52 kWh, 125 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 9.0,
+       "top_speed_mph": 99,
+       "dc_kw": 145,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 364,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 40335,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2027/Volkswagen-ID4-Pure",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+         "name": "Wikipedia: Volkswagen ID.4"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-5",
+   "url_slug": "id-5",
+   "name": "ID.5",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Coupe-roofed version of the ID.4, revealed in November 2021 and built in Zwickau and Emden. Updated with the APP550 motor for 2024. Reports in 2025 said VW will drop it around 2027; Australia ended it after the 2026 model year.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "discontinued",
+     "launch": "2025",
+     "end": "2026",
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "skoda-enyaq-coupe"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.4",
+     "name": "Wikipedia: Volkswagen ID.4/ID.5"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.cars24.com.au/car-news/volkswagen-id5-australia-discontinued/",
+     "name": "Cars24 Australia (Oct 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "E39",
+     "platform": "MEB",
+     "start_year": 2022,
+     "end_year": 2023,
+     "status": "discontinued",
+     "description": "Launch ID.5 with 77 kWh battery in Pro, Pro Performance and GTX form.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Volkswagen_ID.5_Leonberg_2022_1X7A0459.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.5_Leonberg_2022_1X7A0459.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pro-128kw",
+       "name": "Pro (128 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 172,
+       "torque_lbft": 173,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.4,
+       "top_speed_mph": 99,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 517,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46515,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2022,
+         "range": 517,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 50550,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1556/Volkswagen-ID5-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1912/Volkswagen-ID5-Pro",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pro-performance-150kw",
+       "name": "Pro Performance (150 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.4,
+       "top_speed_mph": 99,
+       "dc_kw": 135,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 518,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47550,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2022,
+         "range": 518,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51940,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1557/Volkswagen-ID5-Pro-Performance",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1913/Volkswagen-ID5-Pro-Performance",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "gtx-220kw",
+       "name": "GTX (220 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": 339,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.3,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2022,
+         "range": 495,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53615,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2022,
+         "range": 495,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 58640,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1558/Volkswagen-ID5-GTX",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1914/Volkswagen-ID5-GTX",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "2024 update",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "E39",
+     "platform": "MEB",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Model-year 2024 update with the APP550 motor (210 kW Pro, 250 kW GTX) and a new 52 kWh Pure.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2025_Volkswagen_ID.5_GTX_front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_ID.5_GTX_front.jpg",
+       "credit": "LuvsMG481",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pure-52kwh",
+       "name": "Pure (52 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.9,
+       "top_speed_mph": 99,
+       "dc_kw": 145,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 370,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 45270,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 370,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 41080,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3080/Volkswagen-ID5-Pure",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pro-210kw",
+       "name": "Pro (210 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 402,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 559,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48970,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 559,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 50940,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2031/Volkswagen-ID5-Pro",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "gtx-250kw",
+       "name": "GTX (250 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 501,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": 112,
+       "dc_kw": 175,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 533,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 56455,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 533,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 55365,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2033/Volkswagen-ID5-GTX",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-6",
+   "url_slug": "id-6",
+   "name": "ID.6",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Three-row, seven-seat electric SUV on the MEB platform sold only in China since 2021, in two versions: the ID.6 Crozz from FAW-VW (built until 2026) and the ID.6 X from SAIC-VW.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2021",
+     "end": null,
+     "local_name": "ID.6 Crozz (FAW-VW, to 2026) / ID.6 X (SAIC-VW)"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.6",
+     "name": "Wikipedia: Volkswagen ID.6"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2021",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2021,
+     "end_year": null,
+     "status": "current",
+     "description": "Revealed April 2021 (Shanghai). Rear-drive with about 63 kWh or 83-85 kWh CATL NMC packs, or dual-motor AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/2021_SAIC-Volkswagen_ID.6_X_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2021_SAIC-Volkswagen_ID.6_X_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "crozz-rwd-63kwh",
+       "name": "ID.6 Crozz RWD (62.6 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 62.6,
+       "battery_basis": "gross",
+       "power_hp": 177,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 480,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.6",
+         "name": "Wikipedia: Volkswagen ID.6"
+        }
+       ]
+      },
+      {
+       "slug": "crozz-rwd-85kwh",
+       "name": "ID.6 Crozz Long Range RWD (84.8 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 84.8,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 601,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.6",
+         "name": "Wikipedia: Volkswagen ID.6"
+        }
+       ]
+      },
+      {
+       "slug": "crozz-awd-85kwh",
+       "name": "ID.6 Crozz Long Range AWD (84.8 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 84.8,
+       "battery_basis": "gross",
+       "power_hp": 309,
+       "torque_lbft": 348,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 560,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.6",
+         "name": "Wikipedia: Volkswagen ID.6"
+        }
+       ]
+      },
+      {
+       "slug": "x-rwd-63kwh",
+       "name": "ID.6 X RWD (63.2 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 63.2,
+       "battery_basis": "gross",
+       "power_hp": 177,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 460,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.6",
+         "name": "Wikipedia: Volkswagen ID.6"
+        }
+       ]
+      },
+      {
+       "slug": "x-rwd-83kwh",
+       "name": "ID.6 X Long Range RWD (83.4 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2021,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 83.4,
+       "battery_basis": "gross",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 617,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.6",
+         "name": "Wikipedia: Volkswagen ID.6"
+        }
+       ]
+      },
+      {
+       "slug": "x-awd-83kwh",
+       "name": "ID.6 X Long Range AWD (83.4 kWh)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2021,
+       "year_to": 2023,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 83.4,
+       "battery_basis": "gross",
+       "power_hp": 309,
+       "torque_lbft": 348,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.6",
+         "name": "Wikipedia: Volkswagen ID.6"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vw-id-7",
+   "url_slug": "id-7",
+   "name": "ID.7",
+   "aliases": [
+    "ID.7 Tourer",
+    "ID. Aero"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Large electric liftback (and, from 2024, the ID.7 Tourer estate) on the MEB platform, built in Emden since 2023 as the electric successor to the Passat saloon and Arteon. It was planned for North America but VW cancelled its US and Canadian launch in January 2025.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "CN": {
+     "status": "discontinued",
+     "launch": "2023",
+     "end": "2026",
+     "local_name": "ID.7 Vizzion (FAW-VW)"
+    },
+    "US": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "cancelled",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://insideevs.com/news/748876/vw-id7-canceled-north-america/",
+     "name": "InsideEVs (Jan 2025)"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.7",
+     "name": "Wikipedia: Volkswagen ID.7"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "ED2 / ED5 (Tourer)",
+     "platform": "MEB",
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "World premiere April 2023; Pro (77 kWh) and Pro S (86 kWh) with the 210 kW APP550 motor, GTX with AWD, and the Tourer estate from 2024.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/vw_id_7.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pro-77kwh",
+       "name": "Pro (77 kWh)",
+       "legacy_ids": [
+        198
+       ],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 406,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.5,
+       "top_speed_mph": 112,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 621,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53995,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 621,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51550,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1839/Volkswagen-ID7-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.7",
+         "name": "Wikipedia: Volkswagen ID.7"
+        }
+       ]
+      },
+      {
+       "slug": "pro-s-86kwh",
+       "name": "Pro S (86 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 406,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 112,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 709,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 58985,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 709,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 55450,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1840/Volkswagen-ID7-Pro-S",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.7",
+         "name": "Wikipedia: Volkswagen ID.7"
+        }
+       ]
+      },
+      {
+       "slug": "gtx-86kwh",
+       "name": "GTX (86 kWh, 250 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 413,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.4,
+       "top_speed_mph": 112,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 595,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 63155,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 595,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 61980,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2216/Volkswagen-ID7-GTX",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.7",
+         "name": "Wikipedia: Volkswagen ID.7"
+        }
+       ]
+      },
+      {
+       "slug": "tourer-pro-77kwh",
+       "name": "Tourer Pro (77 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": "wagon",
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 406,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": 112,
+       "dc_kw": 190,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 607,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 54795,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 607,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 52240,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2118/Volkswagen-ID7-Tourer-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.7",
+         "name": "Wikipedia: Volkswagen ID.7"
+        }
+       ]
+      },
+      {
+       "slug": "tourer-pro-s-86kwh",
+       "name": "Tourer Pro S (86 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": "wagon",
+       "seats": 5,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 406,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 690,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 59785,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 690,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 56140,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2119/Volkswagen-ID7-Tourer-Pro-S",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.7",
+         "name": "Wikipedia: Volkswagen ID.7"
+        }
+       ]
+      },
+      {
+       "slug": "tourer-gtx-86kwh",
+       "name": "Tourer GTX (86 kWh, 250 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": "wagon",
+       "seats": 5,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 413,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.5,
+       "top_speed_mph": 112,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2024,
+         "range": 584,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 63955,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2024,
+         "range": 584,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 62670,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2158/Volkswagen-ID7-Tourer-GTX",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID.7",
+         "name": "Wikipedia: Volkswagen ID.7"
+        }
+       ]
+      },
+      {
+       "slug": "59kwh",
+       "name": "ID.7 59 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3598/Volkswagen-ID7-59-kWh",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "tourer-59kwh",
+       "name": "Tourer 59 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": "wagon",
+       "seats": null,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3602/Volkswagen-ID7-Tourer-59-kWh",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "vw-id-buzz",
+   "url_slug": "id-buzz",
+   "name": "ID. Buzz",
+   "aliases": [],
+   "body_style": "minivan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.vw.com/en/models/id-buzz.html",
+   "description": "Retro-styled electric minivan inspired by the Type 2 Microbus, built in Hanover since 2022. Europe got a short-wheelbase five/six-seater first; the long-wheelbase seven-seater launched in 2024 and was the only US version (2025 model year). VW skipped the 2026 model year in the US and says the van returns later.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "current",
+     "launch": "2024-06",
+     "end": null,
+     "local_name": null
+    },
+    "CA": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://jalopnik.com/2056587/volkswagen-wont-make-2026-id-buzz-us-market/",
+     "name": "Jalopnik (Dec 2025): no 2026 model year for the US"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+     "name": "Wikipedia: Volkswagen ID. Buzz"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.vw.com/en/models/id-buzz.html",
+     "name": "vw.com"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Production from June 2022; 2024 update brought the 79/86 kWh batteries, 210 kW APP550 motor, LWB body and GTX.",
+     "images": [
+      {
+       "source": "legacy",
+       "file_url": "/pub_assets/car_images/vw_id_buzz.png",
+       "page_url": null,
+       "credit": null,
+       "license": null,
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "swb-pro-77kwh",
+       "name": "Pro SWB (77 kWh, 150 kW)",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.2,
+       "top_speed_mph": 90,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 423,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 64581,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 423,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 59035,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1651/Volkswagen-ID-Buzz-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+         "name": "Wikipedia: Volkswagen ID. Buzz"
+        }
+       ]
+      },
+      {
+       "slug": "swb-pure-59kwh",
+       "name": "Pure SWB (59 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 59.0,
+       "battery_basis": "usable",
+       "power_hp": 168,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.7,
+       "top_speed_mph": 90,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 332,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 49998,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3119/Volkswagen-ID-Buzz-NWB-Pure",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+         "name": "Wikipedia: Volkswagen ID. Buzz"
+        }
+       ]
+      },
+      {
+       "slug": "swb-pro-79kwh",
+       "name": "Pro SWB (79 kWh, 210 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 413,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.6,
+       "top_speed_mph": 99,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 461,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 60892,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 461,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 59035,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2232/Volkswagen-ID-Buzz-NWB-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+         "name": "Wikipedia: Volkswagen ID. Buzz"
+        }
+       ]
+      },
+      {
+       "slug": "swb-gtx-79kwh",
+       "name": "GTX SWB (79 kWh, 250 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 79.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 413,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.5,
+       "top_speed_mph": 99,
+       "dc_kw": 185,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 420,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 73102,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 420,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 67435,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2156/Volkswagen-ID-Buzz-NWB-GTX",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+         "name": "Wikipedia: Volkswagen ID. Buzz"
+        }
+       ]
+      },
+      {
+       "slug": "lwb-pro-86kwh",
+       "name": "Pro LWB / US Pro S (86 kWh, 210 kW)",
+       "legacy_ids": [
+        197
+       ],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": 413,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.9,
+       "top_speed_mph": 99,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 234,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": 59995,
+         "launch_price": null,
+         "currency": "USD",
+         "price_basis": "msrp_excl_destination",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 499,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 62719,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 499,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 59395,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2154/Volkswagen-ID-Buzz-LWB-Pro",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+         "name": "Wikipedia: Volkswagen ID. Buzz"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48444.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.vw.com/en/models/id-buzz.html",
+         "name": "vw.com (2025 ID. Buzz)"
+        }
+       ]
+      },
+      {
+       "slug": "lwb-gtx-86kwh",
+       "name": "GTX LWB / US 4MOTION (86 kWh, 250 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 7,
+       "battery_kwh": 86.0,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 413,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.5,
+       "top_speed_mph": 99,
+       "dc_kw": 200,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2025,
+         "range": 231,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": 2025,
+         "range": 504,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 74928,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 504,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 67795,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2157/Volkswagen-ID-Buzz-LWB-GTX-",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+         "name": "Wikipedia: Volkswagen ID. Buzz"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/48445.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-buzz-cargo",
+   "url_slug": "id-buzz-cargo",
+   "name": "ID. Buzz Cargo",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Panel-van version of the ID. Buzz with a bulkhead behind the front seats and room for two Euro pallets, sold in Europe since 2022.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2022-11",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+     "name": "Wikipedia: Volkswagen ID. Buzz"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "Short-wheelbase cargo van, first delivered November 2022.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Volkswagen_ID._Buzz_Cargo_1X7A7087.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._Buzz_Cargo_1X7A7087.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "77kwh-150kw",
+       "name": "ID. Buzz Cargo (77 kWh, 150 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 3,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 201,
+       "torque_lbft": 229,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 170,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 413,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Buzz",
+         "name": "Wikipedia: Volkswagen ID. Buzz (Cargo)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-polo",
+   "url_slug": "id-polo",
+   "name": "ID. Polo",
+   "aliases": [
+    "ID.2all",
+    "ID.2"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Front-wheel-drive electric supermini on the MEB+ (MEB Entry) platform, built in Pamplona, Spain, and the first VW EV to take an existing nameplate. It is the production version of the 2023 ID.2all concept, unveiled in April 2026 from about EUR 25,000, with a 226 PS GTI.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2026",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.volkswagen-newsroom.com/en/press-releases/much-more-than-a-city-car-world-premiere-of-the-all-new-electric-id-polo-20356",
+     "name": "Volkswagen Newsroom"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Polo",
+     "name": "Wikipedia: Volkswagen ID. Polo"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB+ (MEB Entry)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Pre-sales from 29 April 2026; 37 kWh LFP or 52 kWh NMC battery, front motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Volkswagen_ID.Polo_IMG_8361.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.Polo_IMG_8361.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "85kw-37kwh",
+       "name": "ID. Polo 37 kWh (85 kW / 116 PS)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 37.0,
+       "battery_basis": "usable",
+       "power_hp": 114,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 90,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 329,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 24995,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": 2027,
+         "range": 329,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 23945,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/press-releases/much-more-than-a-city-car-world-premiere-of-the-all-new-electric-id-polo-20356",
+         "name": "Volkswagen Newsroom (29 Apr 2026)"
+        },
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://electriccarsreport.com/2026/07/volkswagen-id-polo-debuts-in-the-uk-with-prices-starting-from-23945/",
+         "name": "Electric Cars Report (July 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "99kw-37kwh",
+       "name": "ID. Polo 37 kWh (99 kW / 135 PS)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 37.0,
+       "battery_basis": "usable",
+       "power_hp": 133,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 90,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 329,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/press-releases/much-more-than-a-city-car-world-premiere-of-the-all-new-electric-id-polo-20356",
+         "name": "Volkswagen Newsroom (29 Apr 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "155kw-52kwh",
+       "name": "ID. Polo 52 kWh (155 kW / 211 PS)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 454,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 33795,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/press-releases/much-more-than-a-city-car-world-premiere-of-the-all-new-electric-id-polo-20356",
+         "name": "Volkswagen Newsroom (29 Apr 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "gti",
+       "name": "ID. Polo GTI (166 kW / 226 PS)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 223,
+       "torque_lbft": 214,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": 109,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 424,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/press-releases/100-per-cent-electric-100-per-cent-gti-volkswagen-presents-the-allnew-electric-id-polo-gti-20375",
+         "name": "Volkswagen Newsroom (May 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-cross",
+   "url_slug": "id-cross",
+   "name": "ID. Cross",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Subcompact electric SUV, the battery-electric counterpart of the T-Cross, sharing the ID. Polo's MEB+ hardware. Shown in September 2025, built in Pamplona from September 2026 and on sale in Germany from July 2026 orders.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2026-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrive.com/2026/07/23/vw-id-cross-launches-in-germany-with-a-starting-price-of-e34025",
+     "name": "electrive"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Cross",
+     "name": "Wikipedia: Volkswagen ID. Cross"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB+ (MEB Entry)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Launched with the 155 kW / 52 kWh version; 37 kWh LFP versions follow.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Volkswagen_ID._Cross_Auto_Zuerich_2026_IMG_8599.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._Cross_Auto_Zuerich_2026_IMG_8599.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "155kw-52kwh",
+       "name": "ID. Cross 52 kWh (155 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 52.0,
+       "battery_basis": "usable",
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.1,
+       "top_speed_mph": 99,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 427,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 36525,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://electrive.com/2026/07/23/vw-id-cross-launches-in-germany-with-a-starting-price-of-e34025",
+         "name": "electrive (23 July 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "85kw-37kwh",
+       "name": "ID. Cross 37 kWh (85 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 37.0,
+       "battery_basis": "usable",
+       "power_hp": 114,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 90,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": 316,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://electrive.com/2026/07/23/vw-id-cross-launches-in-germany-with-a-starting-price-of-e34025",
+         "name": "electrive (23 July 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "99kw-37kwh",
+       "name": "ID. Cross 37 kWh (99 kW)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 37.0,
+       "battery_basis": "usable",
+       "power_hp": 133,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": 90,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://electrive.com/2026/07/23/vw-id-cross-launches-in-germany-with-a-starting-price-of-e34025",
+         "name": "electrive (23 July 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-tiguan",
+   "url_slug": "id-tiguan",
+   "name": "ID. Tiguan",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Electric compact SUV that replaces the ID.4 and ID.5, built in Emden on the MEB+ platform. Fully unveiled in October 2026; Europe first, the US 'at a later date'.",
+   "markets": {
+    "EU": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    },
+    "US": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "vw-id-4"
+    },
+    {
+     "relation": "successor",
+     "model": "volkswagen-id-5"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.volkswagen-newsroom.com/en/the-all-new-electric-id-tiguan-world-premiere-20719/electric-drive-versions-and-performance-figures-20722",
+     "name": "Volkswagen Newsroom"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://www.theverge.com/transportation/1001418/volkswagen-replaces-id4-id-tiguan-ev",
+     "name": "The Verge (Sept 2026)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB+",
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Successor to the ID.4 with new Pure Positive design, triple-screen interior and 58/77 kWh batteries.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Volkswagen_ID.Tiguan_Auto_Zuerich_2026_IMG_8986.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID.Tiguan_Auto_Zuerich_2026_IMG_8986.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "140kw-58kwh",
+       "name": "ID. Tiguan 58 kWh (140 kW)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 58.0,
+       "battery_basis": "usable",
+       "power_hp": 188,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.5,
+       "top_speed_mph": 99,
+       "dc_kw": 105,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 450,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/the-all-new-electric-id-tiguan-world-premiere-20719/electric-drive-versions-and-performance-figures-20722",
+         "name": "Volkswagen Newsroom (Oct 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "210kw-77kwh",
+       "name": "ID. Tiguan 77 kWh (210 kW)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 600,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/the-all-new-electric-id-tiguan-world-premiere-20719/electric-drive-versions-and-performance-figures-20722",
+         "name": "Volkswagen Newsroom (Oct 2026)"
+        }
+       ]
+      },
+      {
+       "slug": "220kw-77kwh-4motion",
+       "name": "ID. Tiguan 77 kWh 4MOTION (220 kW)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 77.0,
+       "battery_basis": "usable",
+       "power_hp": 295,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.1,
+       "top_speed_mph": 112,
+       "dc_kw": 165,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 560,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://www.volkswagen-newsroom.com/en/the-all-new-electric-id-tiguan-world-premiere-20719/electric-drive-versions-and-performance-figures-20722",
+         "name": "Volkswagen Newsroom (Oct 2026)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-every1",
+   "url_slug": "id-every1",
+   "name": "ID. Every1",
+   "aliases": [
+    "ID.1"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Entry-level electric city car previewed by the ID. Every1 show car in March 2025, targeting about EUR 20,000 and due in 2027 as the e-up!'s spiritual successor. The production name is not confirmed (reported as ID.1).",
+   "markets": {
+    "EU": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrek.co/2025/03/05/volkswagen-unveils-id-every1-show-car-production-set-20000-euros/",
+     "name": "Electrek"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2027",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB Entry",
+     "start_year": 2027,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Planned for 2027 on a front-drive MEB Entry derivative; not planned for the US.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Volkswagen_ID._Every1_IAA_2025_DSC_1373.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._Every1_IAA_2025_DSC_1373.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "70kw",
+       "name": "ID. Every1 (70 kW, planned)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 94,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": 2027,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": 20000,
+         "launch_price": null,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": true
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://electrek.co/2025/03/05/volkswagen-unveils-id-every1-show-car-production-set-20000-euros/",
+         "name": "Electrek (Mar 2025)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-unyx-06",
+   "url_slug": "id-unyx-06",
+   "name": "ID. Unyx 06",
+   "aliases": [
+    "ID. Unyx",
+    "ID. UNYX"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "China-market version of the Cupra Tavascan coupe SUV, built by Volkswagen Anhui and sold under the ID. Unyx sub-brand (gold VW badge). Launched July 2024 as the ID. Unyx and renamed ID. Unyx 06 in April 2025; the 2025 model added a 53.6 kWh battery.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024-07",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "cupra-tavascan"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx",
+     "name": "Wikipedia: Volkswagen ID. Unyx"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Launched July 2024 from CNY 209,900; 2025 model adds a cheaper 53.6 kWh version.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Volkswagen_ID._UNYX_06_2026_in_Jiading%2C_Shanghai_20260515.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._UNYX_06_2026_in_Jiading,_Shanghai_20260515.jpg",
+       "credit": "Tim Wu",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "launch",
+       "name": "ID. Unyx (2024 launch versions)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": 209900,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "price"
+         ],
+         "url": "https://www.autohome.com.cn/news/202407/1298574.html",
+         "name": "Autohome (July 2024)"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Cupra_Tavascan",
+         "name": "Wikipedia: Cupra Tavascan (ID. Unyx)"
+        }
+       ]
+      },
+      {
+       "slug": "53kwh",
+       "name": "ID. Unyx 06 53.6 kWh (2025 model)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 53.6,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._series",
+         "name": "Wikipedia: Volkswagen ID. series (Autohome ref)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-unyx-07",
+   "url_slug": "id-unyx-07",
+   "name": "ID. Unyx 07",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric sedan from Volkswagen Anhui, related to the ID.7 but with China Electrical Architecture electronics; in production since January 2026 and updated for the 2027 model year in October 2026 with a larger 77.5 kWh battery.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-01",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_07",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB + CEA",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear-drive, 170 kW, LFP batteries; 2027 update adds lidar ADAS and a 77.5 kWh pack.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Volkswagen_ID._UNYX_07_in_Jiading%2C_Shanghai_20260515-A.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._UNYX_07_in_Jiading,_Shanghai_20260515-A.jpg",
+       "credit": "Tim Wu",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "59kwh",
+       "name": "ID. Unyx 07 59.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 59.9,
+       "battery_basis": "gross",
+       "power_hp": 228,
+       "torque_lbft": 258,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.1,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 558,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        },
+        {
+         "market": "CN",
+         "model_year": 2027,
+         "range": 538,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_07",
+         "name": "Wikipedia: Volkswagen ID. Unyx 07"
+        }
+       ]
+      },
+      {
+       "slug": "77kwh",
+       "name": "ID. Unyx 07 77.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.5,
+       "battery_basis": "gross",
+       "power_hp": 228,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 8.0,
+       "top_speed_mph": 99,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2027,
+         "range": 670,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_07",
+         "name": "Wikipedia: Volkswagen ID. Unyx 07"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-unyx-08",
+   "url_slug": "id-unyx-08",
+   "name": "ID. Unyx 08",
+   "aliases": [
+    "ID. Evo"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Full-size five-seat electric SUV co-developed with XPeng on XPeng's platform, previewed as the ID. Evo concept in 2025 and on sale in China since April 2026; refreshed with lower prices in September 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-04",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_08",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "XPeng Edward platform",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Production from March 2026; 82 or 95 kWh CATL LFP batteries, RWD or AWD, up to 315 kW DC charging.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Volkswagen_ID._Unyx_08_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._Unyx_08_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd-82kwh",
+       "name": "RWD 82.4 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 82.4,
+       "battery_basis": "gross",
+       "power_hp": 309,
+       "torque_lbft": 343,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.4,
+       "top_speed_mph": 124,
+       "dc_kw": 270,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 630,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_08",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "rwd-95kwh",
+       "name": "RWD 95 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": "gross",
+       "power_hp": 309,
+       "torque_lbft": 343,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.3,
+       "top_speed_mph": 124,
+       "dc_kw": 315,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 730,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_08",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd-95kwh",
+       "name": "AWD 95 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 95.0,
+       "battery_basis": "gross",
+       "power_hp": 496,
+       "torque_lbft": 513,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.9,
+       "top_speed_mph": 124,
+       "dc_kw": 315,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 700,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_08",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-unyx-09",
+   "url_slug": "id-unyx-09",
+   "name": "ID. Unyx 09",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Full-size electric executive sedan from Volkswagen Anhui with XPeng-supplied driver assistance, unveiled at Auto China in April 2026 and launched on 24 October 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-10",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_09",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "92 kWh CATL LFP battery with 800-volt electronics; RWD or AWD.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Volkswagen_ID._UNYX_09_in_Tianhe%2C_Guangzhou_20261016.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._UNYX_09_in_Tianhe,_Guangzhou_20261016.jpg",
+       "credit": "Tim Wu",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "RWD (92 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 92.0,
+       "battery_basis": "gross",
+       "power_hp": 309,
+       "torque_lbft": 343,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.8,
+       "top_speed_mph": 124,
+       "dc_kw": 520,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 755,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_09",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "AWD (92 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 92.0,
+       "battery_basis": "gross",
+       "power_hp": 496,
+       "torque_lbft": 513,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.6,
+       "top_speed_mph": 124,
+       "dc_kw": 520,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 705,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Unyx_09",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-aura-t6",
+   "url_slug": "id-aura-t6",
+   "name": "ID. Aura T6",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric SUV from FAW-Volkswagen's ID. Aura sub-brand, effectively the China successor to the ID.4; unveiled April 2026 and launched 20 September 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-09",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Aura_T6",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MEB + CEA",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear-drive 170 kW on MEB with China Electrical Architecture; 59.9 or 77.5 kWh LFP.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Volkswagen_ID._Aura_T6_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_ID._Aura_T6_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "59kwh",
+       "name": "ID. Aura T6 59.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 59.9,
+       "battery_basis": "gross",
+       "power_hp": 228,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.2,
+       "top_speed_mph": 112,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Aura_T6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "77kwh",
+       "name": "ID. Aura T6 77.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 77.5,
+       "battery_basis": "gross",
+       "power_hp": 228,
+       "torque_lbft": 254,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.4,
+       "top_speed_mph": 116,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 660,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Aura_T6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-aura-l5",
+   "url_slug": "id-aura-l5",
+   "name": "ID. Aura L5",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Mid-size electric liftback sedan for FAW-Volkswagen's ID. Aura sub-brand on the China-specific Compact Main Platform, previewed by the ID. Aura concept (2025) and revealed through MIIT filings in October 2026.",
+   "markets": {
+    "CN": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Aura_L5",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Compact Main Platform (CMP)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Single- or dual-motor, 155 kW motors, 175 km/h.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "single-motor",
+       "name": "Single motor (155 kW)",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 109,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Aura_L5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "dual-motor",
+       "name": "Dual motor",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 109,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Aura_L5",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-id-era-5x",
+   "url_slug": "id-era-5x",
+   "name": "ID. Era 5X",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "upcoming",
+   "official_url": null,
+   "description": "Compact battery-electric SUV from SAIC Volkswagen's ID. Era sub-brand on the China-only Compact Main Platform; production started 20 October 2026 with market launch due in November 2026. (The other ID. Era models are plug-in hybrids or range extenders and are not listed.)",
+   "markets": {
+    "CN": {
+     "status": "upcoming",
+     "launch": "2026-11",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Era_5X",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Compact Main Platform (CMP)",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "upcoming",
+     "description": "Rear-drive, 155 kW UAES motor, CATL LFP 45.8 or 58.5 kWh.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "46kwh",
+       "name": "ID. Era 5X 45.8 kWh",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 45.8,
+       "battery_basis": "gross",
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 109,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 415,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Era_5X",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "58kwh",
+       "name": "ID. Era 5X 58.5 kWh",
+       "legacy_ids": [],
+       "status": "upcoming",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 58.5,
+       "battery_basis": "gross",
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": 109,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 520,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": "GBT",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_ID._Era_5X",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-e-lavida",
+   "url_slug": "e-lavida",
+   "name": "e-Lavida",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Battery-electric version of the SAIC-Volkswagen Lavida compact sedan for China, introduced in 2019 with a 38.1 kWh battery.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2019",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Lavida#e-Lavida",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "e-Lavida",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MQB",
+     "start_year": 2019,
+     "end_year": null,
+     "status": "current",
+     "description": "Electric Lavida based on the third-generation (2018) Lavida.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/2021_SAIC-Volkswagen_e-Lavida_%28front%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2021_SAIC-Volkswagen_e-Lavida_(front).jpg",
+       "credit": "User3204",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "38kwh",
+       "name": "e-Lavida (38.1 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2019,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 38.1,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Lavida#e-Lavida",
+         "name": "Wikipedia: Volkswagen Lavida"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-e-bora",
+   "url_slug": "e-bora",
+   "name": "e-Bora",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the FAW-Volkswagen Bora compact sedan for China, based on the fourth-generation (2018-2026) Bora, with about 270 km of rated range.",
+   "markets": {
+    "CN": {
+     "status": "discontinued",
+     "launch": "2019",
+     "end": "2026",
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Bora_(China)",
+     "name": "Wikipedia: Bora (China) fourth generation production 2018-2026"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2019",
+     "name": "e-Bora",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "MQB",
+     "start_year": 2019,
+     "end_year": 2026,
+     "status": "discontinued",
+     "description": "Electric version of the fourth-generation Bora.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Volkswagen_e-Bora_in_Kyiv_right-front.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_e-Bora_in_Kyiv_right-front.jpg",
+       "credit": "Strilets`",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "e-bora",
+       "name": "e-Bora",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": null,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Bora_(China)",
+         "name": "Wikipedia: Volkswagen Bora (China)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-e-caravelle",
+   "url_slug": "e-caravelle",
+   "name": "e-Caravelle",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Battery-electric passenger version of the seventh-generation Transporter, developed with Ford (Tourneo Custom twin) and built by Ford Otosan in Turkey since 2024.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(2024)",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "T7",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Ford Pro platform",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear-motor EV with a 64 kWh battery; L1/L2 lengths, 100-210 kW, AWD added later.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/VW_e-Caravelle%2C_IAA_2024%2C_Hanover_%28P1200118%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:VW_e-Caravelle,_IAA_2024,_Hanover_(P1200118).jpg",
+       "credit": "Matti Blume",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "100kw-64kwh",
+       "name": "e-Caravelle 100 kW (64 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.0,
+       "battery_basis": "usable",
+       "power_hp": 134,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3315/Volkswagen-e-Caravelle-L1-100-kW-64-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(2024)",
+         "name": "Wikipedia: Volkswagen Transporter (2024)"
+        }
+       ]
+      },
+      {
+       "slug": "160kw-64kwh",
+       "name": "e-Caravelle 160 kW (64 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.0,
+       "battery_basis": "usable",
+       "power_hp": 215,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3316/Volkswagen-e-Caravelle-L1-160-kW-64-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(2024)",
+         "name": "Wikipedia: Volkswagen Transporter (2024)"
+        }
+       ]
+      },
+      {
+       "slug": "210kw-64kwh",
+       "name": "e-Caravelle 210 kW (64 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.0,
+       "battery_basis": "usable",
+       "power_hp": 282,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3317/Volkswagen-e-Caravelle-L1-210-kW-64-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(2024)",
+         "name": "Wikipedia: Volkswagen Transporter (2024)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "volkswagen-e-transporter",
+   "url_slug": "e-transporter",
+   "name": "e-Transporter",
+   "aliases": [],
+   "body_style": "van",
+   "is_commercial": true,
+   "status": "current",
+   "official_url": null,
+   "description": "Battery-electric panel van version of the seventh-generation Transporter (Ford Transit Custom twin), built by Ford Otosan in Turkey since 2024.",
+   "markets": {
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(2024)",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "T7",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "Ford Pro platform",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear-motor EV with a 64 kWh battery; 100, 160 or 210 kW.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/VW_e-Transporter%2C_IAA_2024%2C_Hanover_%28P1200119%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:VW_e-Transporter,_IAA_2024,_Hanover_(P1200119).jpg",
+       "credit": "Matti Blume",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "64kwh",
+       "name": "e-Transporter (64 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 64.0,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://ev-database.org/car/3309/Volkswagen-e-Transporter-Kombi-L1-100-kW-64-kWh",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "specs"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Volkswagen_Transporter_(2024)",
+         "name": "Wikipedia: Volkswagen Transporter (2024)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [
+  {
+   "legacy_id": 10,
+   "note": "Legacy 'ID.4 1st Edition' (2021) mixed eras: EPA 291 mi and 125 kW DC match the 2024+ APP550 car, while price $41,420 and 201 hp-class specs belong to 2021-2023; the 2021 1st Edition was EPA-rated 250 mi (fueleconomy.gov). Claimed on the 2021-2023 77 kWh RWD variant. Power column (335) is the 2024+ AWD figure, not this car."
+  },
+  {
+   "legacy_id": 197,
+   "note": "Legacy 'ID.Buzz 1st Edition' is the US long-wheelbase 86 kWh RWD van (EPA 234 mi, 2025 MY). Legacy carmodel_first_released 2021-03-01 is wrong (production from June 2022, US sales June 2024). VW built no 2026 model year for the US."
+  },
+  {
+   "legacy_id": 198,
+   "note": "Legacy 'ID.7 1st Edition' with EPA 300 mi and $50,000 is not a real US car: VW cancelled the ID.7 for North America in January 2025, so it never got an EPA rating or US price. Its full_slug duplicates the ID.4 row ('vw-id-4-1st-edition') and vehicle_class 'SUV' is wrong (it is a liftback sedan). Claimed on the European ID.7 Pro (77 kWh, 210 kW)."
+  }
+ ],
+ "gaps": [
+  "ev-database (HTTP 429) and the shared web-search budget ran out mid-research, so several 2026 variants lack prices, WLTP ranges or 0-100 times (ID.3 Neo 58 kWh, ID.7 59 kWh, ID.4/ID.5 2026 model year, e-Caravelle/e-Transporter).",
+  "US MSRPs for ID.4 model years 2021-2025 and the 2025 ID. Buzz 4MOTION were not sourced; only the 2026 ID.4 Pro ($45,095, vw.com) and 2025 ID. Buzz Pro S ($59,995, vw.com) are filled. Connector type for 2025-2026 US models (NACS vs CCS1) not verified.",
+  "ID.4 2024-2025 US Standard (62 kWh): EPA lists a 210 kW motor while Wikipedia says 62 kWh cars kept the 150 kW APP310; power left null.",
+  "ID. Buzz US status: VW skipped the 2026 model year; vw.com still shows the 2025 van (Nov 2026). Return timing (2027 vs 2028) is disputed, so the US market is left 'current'. Please re-check.",
+  "ID.4 China (ID.4 Crozz / ID.4 X) and ID.3 China (SAIC-VW) specs and current status not researched; Wikipedia names the ID. Aura T6 as the China successor of the ID.4.",
+  "e-Lavida status (still on sale or not) could not be verified and is marked current; e-Bora battery and range cycle not sourced. ID. Unyx 06 per-variant specs and prices not sourced.",
+  "ID. Every1/ID.1 production name and specs are unconfirmed; only the 70 kW motor and ~EUR 20,000 target are reported.",
+  "Not included: e-Crafter (2017-) and ABT e-Transporter T6.1 (commercial vans, status unverified); ID. Era 9X/8X (range extenders) and ID. Era 5S (plug-in hybrid) are excluded as not battery-electric.",
+  "No verified free photo for: ID.5 2024 update, ID. Every1, ID. Aura L5, ID. Era 5X (Wikimedia rate limits also limited the search)."
+ ]
+}

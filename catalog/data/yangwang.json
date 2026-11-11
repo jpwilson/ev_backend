@@ -1,0 +1,413 @@
+{
+  "make": {
+    "slug": "yangwang",
+    "name": "Yangwang",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Shenzhen, Guangdong, China",
+    "founded": 2023,
+    "parent_group": "BYD Auto",
+    "website_url": "https://www.yangwangauto.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "BYD's top luxury brand, launched in January 2023 for cars priced above about CN¥1 million. Its e4 four-motor platform drives each wheel separately; the range is the U8 range-extended SUV, the U9 electric supercar and the U7 sedan, with the Altior limousine announced in November 2026.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "history"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Yangwang",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://insideevs.com/news/629776/byd-launches-yangwang-u8-suv-u9-supercar/",
+        "name": "InsideEVs"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "yangwang-u9",
+      "url_slug": "u9",
+      "name": "U9",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Four-motor electric supercar with DiSus-X active suspension, shown in April 2023 and on sale in China from February 2024 at CN¥1.68 million. The U9 Xtreme track version set a 496.22 km/h top-speed record in September 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-02",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Yangwang_U9",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e4",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "Four 240 kW motors on the e4 platform and an 80 kWh Blade pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yangwang_U9_003_%28resized%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Yangwang_U9_003_(resized).jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "u9",
+              "name": "U9",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 80.0,
+              "battery_basis": null,
+              "power_hp": 1287,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 450,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 1680000,
+                  "currency": "CNY",
+                  "price_basis": "msrp_incl_destination",
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Yangwang_U9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://carnewschina.com/2024/02/25/byds-yangwang-u9-launched-for-23600-usd-0-100-km-h-in-2-36s-with-lfp-battery/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "u9-xtreme",
+              "name": "U9 Xtreme",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 2977,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": 308,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Yangwang_U9",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2025/09/20/byd-unveiled-the-yangwang-u9-xtreme-achieving-496-22-km-h-a-nurburgring-lap-of-659-157byd-unveils-the-yangwang-u9-xtreme-achieving-496-22-km-h-a-nurburgring-lap-of-659-157/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yangwang-u7",
+      "url_slug": "u7",
+      "name": "U7 EV",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Four-motor full-size luxury sedan, unveiled as an EV in January 2024 and on sale in China from March 2025 (deliveries from June 2025) as an EV and plug-in hybrid; a 150 kWh version came for 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-03",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Yangwang_U7",
+          "name": "Wikipedia"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "e4",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "e4 four-motor platform with up to 960 kW and DiSus-Z suspension.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/2024_Yangwang_U7_%28China%29_front_view.png",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Yangwang_U7_(China)_front_view.png",
+              "credit": "Autosdeprimera",
+              "license": "CC BY 3.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev-135",
+              "name": "EV 135.5 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 135.5,
+              "battery_basis": null,
+              "power_hp": 1287,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2025,
+                  "range": 720,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                },
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 800,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Yangwang_U7",
+                  "name": "Wikipedia"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://carnewschina.com/2025/03/27/yangwang-u7-with-disus-z-gods-eye-a-and-four-electric-motors-at-1287-hp-launched-in-china-starts-at-86500-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "ev-150",
+              "name": "EV 150 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 150.01,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": 2026,
+                  "range": 1006,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "history"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Yangwang_U7",
+                  "name": "Wikipedia"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yangwang-altior",
+      "url_slug": "altior",
+      "name": "Altior",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Ultra-luxury four-seat limousine (code HU) with rear coach doors, unveiled in Abu Dhabi on 7 November 2026; Yangwang claims over 1000 km of CLTC electric range. Production is due in 2027.",
+      "markets": {},
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "history",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Yangwang_Altior",
+          "name": "Wikipedia"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://cnevpost.com/2026/10/21/byd-yangwang-unveil-sedan-hu-uae/",
+          "name": "CnEVPost"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2027,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Announced; specifications not yet published.",
+          "images": [],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "U7 EV prices not sourced per variant (launch price reported only in USD for the range).",
+    "Altior powertrain and specs not yet published.",
+    "The Yangwang U8 and U8L are range-extended (EREV), so they are excluded."
+  ]
+}

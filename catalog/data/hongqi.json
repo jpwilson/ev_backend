@@ -1,0 +1,1403 @@
+{
+  "make": {
+    "slug": "hongqi",
+    "name": "Hongqi",
+    "legacy_id": null,
+    "country": "CN",
+    "headquarters": "Changchun, Jilin, China",
+    "founded": 1958,
+    "parent_group": "FAW Group",
+    "website_url": "https://hongqi.faw.cn",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "FAW's luxury brand and China's oldest passenger-car marque, founded in 1958. Its electric line runs from the E-HS9 flagship SUV to the Tiangong series (sold abroad as EH5, EHS5, EHS7 and EH7), with sales in Europe, Norway, the Middle East and, from 2026, right-hand-drive markets.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Hongqi_(marque)",
+        "name": "Wikipedia: Hongqi (marque)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "hongqi-e-hs3",
+      "url_slug": "e-hs3",
+      "name": "E-HS3",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "discontinued",
+      "official_url": null,
+      "description": "Hongqi's first electric SUV, a subcompact launched in 2018 with FWD or dual-motor AWD; discontinued in 2023.",
+      "markets": {
+        "CN": {
+          "status": "discontinued",
+          "launch": "2018",
+          "end": "2023",
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Hongqi_E-HS3",
+          "name": "Wikipedia: Hongqi E-HS3"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2018",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2018,
+          "end_year": 2023,
+          "status": "discontinued",
+          "description": "52.5 kWh pack; 152 hp FWD or 304 hp AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2018_Hongqi_E-HS3.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2018_Hongqi_E-HS3.jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": 2023,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 52.5,
+              "battery_basis": "gross",
+              "power_hp": 152,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_E-HS3",
+                  "name": "Wikipedia: Hongqi E-HS3"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2018,
+              "year_to": 2023,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 52.5,
+              "battery_basis": "gross",
+              "power_hp": 304,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_E-HS3",
+                  "name": "Wikipedia: Hongqi E-HS3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hongqi-e-hs9",
+      "url_slug": "e-hs9",
+      "name": "E-HS9",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Full-size dual-motor luxury SUV launched in 2020 with 84-120 kWh CATL packs. Sold in Norway and other European markets since 2021-2022, and from 2026 in right-hand-drive Singapore and Thailand in facelifted form.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2020-12",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Hongqi_E-HS9",
+          "name": "Wikipedia: Hongqi E-HS9"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2020",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2020,
+          "end_year": null,
+          "status": "current",
+          "description": "Dual-motor AWD with 430 hp or 544 hp; WLTP up to 548 km.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hongqi_E-HS9_IMG_0753_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_E-HS9_IMG_0753_(cropped).jpg",
+              "credit": "Alexander-93",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "430-hp",
+              "name": "AWD 430 hp",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 430,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_E-HS9",
+                  "name": "Wikipedia: Hongqi E-HS9"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.motorauthority.com/news/1129781_hongqi-e-hs9-chairman-mao-s-favored-brand-launches-flagship-electric-suv",
+                  "name": "Motor Authority"
+                }
+              ]
+            },
+            {
+              "slug": "544-hp",
+              "name": "AWD 544 hp",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2020,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 544,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 760,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 548,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_E-HS9",
+                  "name": "Wikipedia: Hongqi E-HS9"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://www.motorauthority.com/news/1129781_hongqi-e-hs9-chairman-mao-s-favored-brand-launches-flagship-electric-suv",
+                  "name": "Motor Authority"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hongqi-e-qm5",
+      "url_slug": "e-qm5",
+      "name": "E-QM5",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Mid-size electric sedan launched in 2021, widely used as a taxi and ride-hailing car; facelifted in 2025.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2021",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Hongqi_E-QM5",
+          "name": "Wikipedia: Hongqi E-QM5"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2021",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": "E111",
+          "platform": null,
+          "start_year": 2021,
+          "end_year": null,
+          "status": "current",
+          "description": "100 kW front motor and a 55 kWh FinDreams LFP pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2021_FAW_Hongqi_E-QM5_%28front%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:2021_FAW_Hongqi_E-QM5_(front).jpg",
+              "credit": "User3204",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "fwd",
+              "name": "FWD (55 kWh)",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2021,
+              "year_to": null,
+              "drivetrain": "FWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 55.0,
+              "battery_basis": "gross",
+              "power_hp": 134,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_E-QM5",
+                  "name": "Wikipedia: Hongqi E-QM5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2025",
+          "name": "Facelift",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Restyled front and rear.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hongqi_E-QM5_facelift_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_E-QM5_facelift_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "slug": "hongqi-eh7",
+      "url_slug": "eh7",
+      "name": "EH7",
+      "aliases": [
+        "Hongqi Tiangong 07"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Executive electric sedan launched in March 2024 at 229,800-309,800 yuan, the first model of Hongqi's new-energy line; sold in Europe from 2025. Facelifted and renamed Tiangong 07 in China in October 2026.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2024-03",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+          "name": "Wikipedia: Hongqi EH7"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2024",
+          "name": "EH7",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "FME",
+          "start_year": 2024,
+          "end_year": null,
+          "status": "current",
+          "description": "FME platform; 339 hp rear motor or 611 hp dual motor; 75-111 kWh packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hongqi_EH7_01_China_2025-03-31.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_EH7_01_China_2025-03-31.jpg",
+              "credit": "Navigator84",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-75",
+              "name": "RWD 75 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.7,
+              "battery_basis": "gross",
+              "power_hp": 339,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 7.8,
+              "top_speed_mph": 118,
+              "dc_kw": 190,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": 229800,
+                  "currency": "CNY",
+                  "price_basis": "list_incl_vat",
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/03/22/hongqi-eh7-all-electric-sedan-enters-market-at-31900-usd-in-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-85",
+              "name": "RWD 85 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": "gross",
+              "power_hp": 339,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.2,
+              "top_speed_mph": 118,
+              "dc_kw": 280,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 690,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 510,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/03/22/hongqi-eh7-all-electric-sedan-enters-market-at-31900-usd-in-china/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/14/hongqi-eh7-and-ehs7-open-pre-sales-in-europe-priced-around-e50000/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd-85",
+              "name": "AWD 85 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.0,
+              "battery_basis": "gross",
+              "power_hp": 611,
+              "torque_lbft": 558,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.2,
+              "top_speed_mph": null,
+              "dc_kw": 280,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 640,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 500,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/03/22/hongqi-eh7-all-electric-sedan-enters-market-at-31900-usd-in-china/",
+                  "name": "CarNewsChina"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/14/hongqi-eh7-and-ehs7-open-pre-sales-in-europe-priced-around-e50000/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-111",
+              "name": "RWD 111 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 339,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.8,
+              "top_speed_mph": null,
+              "dc_kw": 365,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 820,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 655,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/03/22/hongqi-eh7-all-electric-sedan-enters-market-at-31900-usd-in-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd-111",
+              "name": "AWD 111 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2024,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 611,
+              "torque_lbft": 558,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.5,
+              "top_speed_mph": null,
+              "dc_kw": 365,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 760,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                },
+                {
+                  "market": "EU",
+                  "model_year": null,
+                  "range": 640,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "CCS2",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/03/22/hongqi-eh7-all-electric-sedan-enters-market-at-31900-usd-in-china/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "2026",
+          "name": "Tiangong 07",
+          "kind": "refresh",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "FME",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Major facelift renamed Tiangong 07: 800 V, 340 kW rear motor, CANE LFP packs.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hongqi_Tiangong_07_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_Tiangong_07_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-74-6",
+              "name": "RWD 74.6 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 74.6,
+              "battery_basis": "gross",
+              "power_hp": 456,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.6,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 640,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "range"
+                  ],
+                  "url": "https://www.ithome.com/1/011/505.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "rwd-85-3",
+              "name": "RWD 85.3 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.3,
+              "battery_basis": "gross",
+              "power_hp": 456,
+              "torque_lbft": 332,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 5.8,
+              "top_speed_mph": 124,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 730,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "range"
+                  ],
+                  "url": "https://www.ithome.com/1/011/505.htm",
+                  "name": "ITHome"
+                }
+              ]
+            },
+            {
+              "slug": "awd-85-3",
+              "name": "AWD 85.3 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 85.3,
+              "battery_basis": "gross",
+              "power_hp": 711,
+              "torque_lbft": 568,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 680,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_EH7",
+                  "name": "Wikipedia: Hongqi EH7"
+                },
+                {
+                  "fields": [
+                    "status",
+                    "range"
+                  ],
+                  "url": "https://www.ithome.com/1/011/505.htm",
+                  "name": "ITHome"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hongqi-tiangong-05",
+      "url_slug": "tiangong-05",
+      "name": "Tiangong 05",
+      "aliases": [
+        "Hongqi EH5"
+      ],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Part of Hongqi's Tiangong electric series revealed in November 2024 and launched in 2025. Mid-size sedan sold overseas as the EH5.",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-02",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_05",
+          "name": "Wikipedia: Hongqi Tiangong 05"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Hongqi Tiangong",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "Tiangong architecture; 253 kW RWD or 455 kW AWD, 111 kWh CATL Qilin option.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Hongqi_Tiangong_05_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_Tiangong_05_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 339,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_05",
+                  "name": "Wikipedia: Hongqi Tiangong 05"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/02/26/faws-hongqi-tiangong-05-launched-in-china-to-save-the-brands-electric-division/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 610,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_05",
+                  "name": "Wikipedia: Hongqi Tiangong 05"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hongqi-tiangong-06",
+      "url_slug": "tiangong-06",
+      "name": "Tiangong 06",
+      "aliases": [
+        "Hongqi EHS5"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Part of Hongqi's Tiangong electric series revealed in November 2024 and launched in 2025. Compact SUV sold overseas as the EHS5 (Euro NCAP 5 stars, 2025).",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025-04",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_06",
+          "name": "Wikipedia: Hongqi Tiangong 06"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Hongqi Tiangong",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "253 kW RWD or 455 kW AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Hongqi_Tiangong_06_003.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_Tiangong_06_003.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd",
+              "name": "RWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 339,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_06",
+                  "name": "Wikipedia: Hongqi Tiangong 06"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2025/04/01/hongqi-tiangong-06-all-electric-suv-with-700-km-range-pre-sale-starts-at-25500-usd/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd",
+              "name": "AWD",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": 610,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_06",
+                  "name": "Wikipedia: Hongqi Tiangong 06"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hongqi-tiangong-08",
+      "url_slug": "tiangong-08",
+      "name": "Tiangong 08",
+      "aliases": [
+        "Hongqi EHS7"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": null,
+      "description": "Part of Hongqi's Tiangong electric series revealed in November 2024 and launched in 2025. Mid-size SUV sold in Europe as the EHS7 (pre-sales from the 2024 Paris show).",
+      "markets": {
+        "CN": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        },
+        "EU": {
+          "status": "current",
+          "launch": "2025",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_08",
+          "name": "Wikipedia: Hongqi Tiangong 08"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": "Hongqi Tiangong",
+          "start_year": 2025,
+          "end_year": null,
+          "status": "current",
+          "description": "75 kWh LFP, 85 kWh LFP or 111 kWh NMC packs; 253 kW RWD or 455 kW AWD.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Hongqi_Tiangong_08_001.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_Tiangong_08_001.jpg",
+              "credit": "JustAnotherCarDesigner",
+              "license": "CC0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "rwd-111",
+              "name": "RWD 111 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 339,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 6.3,
+              "top_speed_mph": 124,
+              "dc_kw": 189,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 730,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_08",
+                  "name": "Wikipedia: Hongqi Tiangong 08"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/14/hongqi-eh7-and-ehs7-open-pre-sales-in-europe-priced-around-e50000/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            },
+            {
+              "slug": "awd-111",
+              "name": "AWD 111 kWh",
+              "legacy_ids": [],
+              "status": null,
+              "year_from": 2025,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": 5,
+              "battery_kwh": 111.0,
+              "battery_basis": "gross",
+              "power_hp": 610,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 3.9,
+              "top_speed_mph": 124,
+              "dc_kw": 189,
+              "offerings": [
+                {
+                  "market": "CN",
+                  "model_year": null,
+                  "range": 680,
+                  "range_unit": "km",
+                  "range_cycle": "CLTC",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": "GBT",
+                  "is_estimate": null
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Hongqi_Tiangong_08",
+                  "name": "Wikipedia: Hongqi Tiangong 08"
+                },
+                {
+                  "fields": [
+                    "status"
+                  ],
+                  "url": "https://carnewschina.com/2024/10/14/hongqi-eh7-and-ehs7-open-pre-sales-in-europe-priced-around-e50000/",
+                  "name": "CarNewsChina"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Web search budget ran out; data comes from Wikipedia and the news articles it cites.",
+    "E-HS9 battery-by-trim (84/99/120 kWh) and seat options not broken out; NEDC ranges cannot be stored.",
+    "European prices (EH7/EHS7 'around EUR 50,000') and UK launch details not confirmed; EU WLTP values for EH7 are from Wikipedia's table.",
+    "Tiangong 05/06 battery and range by trim not sourced.",
+    "E-QM5 2025 facelift specs not sourced (generation listed without variants)."
+  ]
+}

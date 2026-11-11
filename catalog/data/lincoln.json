@@ -1,0 +1,45 @@
+{
+  "make": {
+    "slug": "lincoln",
+    "name": "Lincoln",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Dearborn, Michigan, USA",
+    "founded": 1917,
+    "parent_group": "Ford Motor Company",
+    "website_url": "https://www.lincoln.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "Ford's luxury brand. As of November 2026 Lincoln has not sold a battery-electric vehicle: a Rivian-based EV announced in 2020 and a planned three-row electric SUV were both dropped, and a small electric crossover on Ford's Universal EV Platform is planned for later this decade.",
+    "sources": [
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://www.businesswire.com/news/home/20200129005458/en/Lincoln-Rivian-Partner-to-Deliver-Lincolns-First-All-Electric-Vehicle",
+        "name": "Business Wire: Lincoln and Rivian partner on first Lincoln EV (29 Jan 2020)"
+      },
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://hagerty.com/media/news/ford-nixes-three-row-ev-delays-mid-size-ev-pickup-plans-ev-work-van",
+        "name": "Hagerty: Ford cancels three-row EVs (Aug 2024)"
+      },
+      {
+        "fields": [
+          "history"
+        ],
+        "url": "https://fordauthority.com/2026/08/lincoln-lineup-set-to-expand-with-all-new-fully-electric-crossover/",
+        "name": "Ford Authority: Lincoln to add UEV-based electric crossover (Aug 2026)"
+      }
+    ]
+  },
+  "models": [],
+  "legacy_notes": [],
+  "gaps": [
+    "Lincoln has no battery-electric production model. Not modelled because none was ever officially named: the Rivian-platform Lincoln EV (announced Jan 2020, dropped later in 2020), the three-row electric SUV cancelled in Aug 2024 (reported as an Aviator EV), and the UEV-based small crossover reported in Aug 2026.",
+    "Ford Authority (Aug 2026) could not be fetched directly (HTTP 403); its content is from a search-result summary."
+  ]
+}

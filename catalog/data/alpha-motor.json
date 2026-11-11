@@ -1,0 +1,645 @@
+{
+  "make": {
+    "slug": "alpha-motor",
+    "name": "Alpha Motor",
+    "legacy_id": null,
+    "country": "US",
+    "headquarters": "Irvine, California, USA",
+    "founded": 2020,
+    "parent_group": null,
+    "website_url": "https://www.alphamotorinc.com",
+    "status": "pre-production",
+    "status_date": null,
+    "status_details": "Pre-production: has shown several retro-styled concepts since 2020 but had not begun production of any vehicle as of 2025.",
+    "description": "Alpha Motor Corporation is an Irvine, California startup founded in 2020 by Edward Lee that designs retro-styled small electric cars and pickups. None has reached production.",
+    "sources": [
+      {
+        "fields": [
+          "status",
+          "specs"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+        "name": "Wikipedia: Alpha Motor Corporation"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "alpha-motor-ace",
+      "url_slug": "ace",
+      "name": "Ace",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Retro-styled subcompact electric coupe first shown in December 2020 with an estimated range of over 250 miles and 0-60 mph in 6.0 seconds.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+          "name": "Wikipedia: Alpha Motor Corporation"
+        },
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://www.carscoops.com/2020/12/californias-cutest-car-appears-the-alpha-ace-coupe/",
+          "name": "Carscoops: Alpha Ace (Dec 2020)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Concept/prototype stage; no production date announced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Ace",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": 6.0,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 250,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+                  "name": "Wikipedia: Alpha Motor Corporation"
+                },
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2020/12/californias-cutest-car-appears-the-alpha-ace-coupe/",
+                  "name": "Carscoops: Alpha Ace (Dec 2020)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha-motor-jax",
+      "url_slug": "jax",
+      "name": "Jax",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Raised crossover version of the Ace with rear half-doors, shown in February 2021 with a planned starting price of $38,000.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+          "name": "Wikipedia: Alpha Motor Corporation"
+        },
+        {
+          "fields": [
+            "price"
+          ],
+          "url": "https://www.carscoops.com/2021/02/alpha-jax-introduced-as-a-rugged-electric-coupe-thats-slated-to-start-at-38000/",
+          "name": "Carscoops: Alpha Jax at $38,000 (Feb 2021)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Concept/prototype stage; no production date announced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Jax",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": null,
+                  "launch_price": 38000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.carscoops.com/2021/02/alpha-jax-introduced-as-a-rugged-electric-coupe-thats-slated-to-start-at-38000/",
+                  "name": "Carscoops: Alpha Jax at $38,000 (Feb 2021)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha-motor-wolf",
+      "url_slug": "wolf",
+      "name": "Wolf",
+      "aliases": [],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Compact retro electric pickup shown in March 2021, later joined by the extended-cab Wolf+ and crew-cab SuperWolf.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+          "name": "Wikipedia: Alpha Motor Corporation"
+        },
+        {
+          "fields": [
+            "specs"
+          ],
+          "url": "https://www.carscoops.com/2021/03/alpha-motors-new-wolf-electric-pickup-looks-like-it-came-back-from-the-future/",
+          "name": "Carscoops: Alpha Wolf (Mar 2021)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Concept/prototype stage; no production date announced.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Alpha_Wolf_%283%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Alpha_Wolf_(3).jpg",
+              "credit": "Damian B Oh",
+              "license": "CC BY-SA 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "regular-cab",
+              "name": "Wolf",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2021/03/alpha-motors-new-wolf-electric-pickup-looks-like-it-came-back-from-the-future/",
+                  "name": "Carscoops: Alpha Wolf (Mar 2021)"
+                }
+              ]
+            },
+            {
+              "slug": "extended-cab",
+              "name": "Wolf+",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2021/04/alpha-wolf-gives-the-electric-pickup-extra-space-with-extended-cab/",
+                  "name": "Carscoops: Alpha Wolf+ (Apr 2021)"
+                }
+              ]
+            },
+            {
+              "slug": "crew-cab",
+              "name": "SuperWolf",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "specs"
+                  ],
+                  "url": "https://www.carscoops.com/2021/07/the-alpha-superwolf-is-americas-latest-electric-crew-cab-pickup/",
+                  "name": "Carscoops: Alpha SuperWolf (Jul 2021)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha-motor-saga",
+      "url_slug": "saga",
+      "name": "Saga",
+      "aliases": [],
+      "body_style": "sedan",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Compact electric sedan shown at the 2021 Los Angeles Auto Show with a claimed 300-mile range and optional all-wheel drive.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+          "name": "Wikipedia: Alpha Motor Corporation"
+        },
+        {
+          "fields": [
+            "specs",
+            "range"
+          ],
+          "url": "https://www.carscoops.com/2021/11/alpha-saga-electric-sedan-debuts-with-300-mile-range-and-optional-all-wheel-drive/",
+          "name": "Carscoops: Alpha Saga (Nov 2021)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Concept/prototype stage; no production date announced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Saga",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2025,
+                  "range": 300,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": null,
+                  "launch_price": null,
+                  "currency": null,
+                  "price_basis": null,
+                  "connector": null,
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.carscoops.com/2021/11/alpha-saga-electric-sedan-debuts-with-300-mile-range-and-optional-all-wheel-drive/",
+                  "name": "Carscoops: Alpha Saga (Nov 2021)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha-motor-montage",
+      "url_slug": "montage",
+      "name": "Montage",
+      "aliases": [],
+      "body_style": "coupe",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Limited-production electric coupe concept; no specifications published.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+          "name": "Wikipedia: Alpha Motor Corporation"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Concept/prototype stage; no production date announced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Montage",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+                  "name": "Wikipedia: Alpha Motor Corporation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha-motor-rex",
+      "url_slug": "rex",
+      "name": "Rex",
+      "aliases": [],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": null,
+      "description": "Compact off-road electric SUV concept; no specifications published.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "specs"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+          "name": "Wikipedia: Alpha Motor Corporation"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2025",
+          "name": "Prototype",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2025,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Concept/prototype stage; no production date announced.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "base",
+              "name": "Rex",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": null,
+              "year_to": null,
+              "drivetrain": null,
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": null,
+              "battery_basis": null,
+              "power_hp": null,
+              "torque_lbft": null,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [],
+              "sources": [
+                {
+                  "fields": [
+                    "status",
+                    "specs"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Alpha_Motor_Corporation",
+                  "name": "Wikipedia: Alpha Motor Corporation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "Alpha Motor status in 2026 not confirmed (Wikipedia says no production 'as of 2025'); all models left 'upcoming' with placeholder 2025 generation year.",
+    "All ranges and prices are company claims from 2020-2021 concept announcements."
+  ]
+}

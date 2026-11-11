@@ -1,0 +1,332 @@
+{
+ "make": {
+  "slug": "jaecoo",
+  "name": "Jaecoo",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Wuhu, Anhui, China",
+  "founded": 2023,
+  "parent_group": "Chery Automobile",
+  "website_url": null,
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Off-road-styled SUV brand founded by Chery in April 2023 and sold mainly outside China alongside Omoda. Its battery-electric models are the J5 EV (Jaecoo E5 in Europe) and the J6 (a rebadged iCar 03).",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "models"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Jaecoo",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "jaecoo-j5-ev",
+   "url_slug": "j5-ev",
+   "name": "J5 EV",
+   "aliases": [
+    "E5",
+    "Jaecoo E5",
+    "EJ5"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Boxy compact electric SUV launched in 2025, sold in the UK and Europe as the Jaecoo E5 and across Asia, Australia and South Africa as the J5 EV.",
+   "markets": {
+    "UK": {
+     "status": "current",
+     "launch": "2025-10",
+     "end": null,
+     "local_name": "E5"
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": "E5"
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025-12",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Jaecoo_J5",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "Compact electric SUV shown at Auto Shanghai 2025; Indonesia from July 2025, UK deliveries from October 2025 as the Jaecoo E5, Australia from December 2025.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2025_Jaecoo_5_EV_Max_%28Thailand%29_front_view.png",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Jaecoo_5_EV_Max_(Thailand)_front_view.png",
+       "credit": "iMoD Official",
+       "license": "CC BY 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "58-9-kwh",
+       "name": "J5 EV / E5 58.9 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 58.9,
+       "battery_basis": null,
+       "power_hp": 208,
+       "torque_lbft": 212,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 7.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": 2025,
+         "range": 402,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 27505,
+         "launch_price": null,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": 2026,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jaecoo_J5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "50-6-kwh",
+       "name": "J5 EV 50.6 kWh (Thailand-built)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 50.6,
+       "battery_basis": null,
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jaecoo_J5",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "60-9-kwh",
+       "name": "J5 EV Ultra 60.93 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "FWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 60.93,
+       "battery_basis": null,
+       "power_hp": 208,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jaecoo_J5",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "jaecoo-j6",
+   "url_slug": "j6",
+   "name": "J6",
+   "aliases": [
+    "EJ6",
+    "Jaecoo 6 EV",
+    "6 EV"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Boxy electric off-road-styled SUV, the export version of the iCar 03, sold in Thailand, Singapore and the Philippines from 2024-2025.",
+   "markets": {},
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "icar-icar-03"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "history",
+      "models"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Jaecoo",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/ICAR_03",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Rebadged iCar 03 for export markets such as Thailand (Jaecoo 6 EV), Singapore and the Philippines (EJ6).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/2024_Jaecoo_J6_Long_Range_4WD.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Jaecoo_J6_Long_Range_4WD.jpg",
+       "credit": "Chanokchon",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "j6",
+       "name": "J6 / 6 EV",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 69.8,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "history",
+          "models"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Jaecoo",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/ICAR_03",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341); torque Nm x0.7376.",
+  "J5 EV: the UK price (GBP 27,505) and the 248-mile UK range come from a reference title on Wikipedia; the 402 km WLTP figure is the source's 58.9 kWh rating. Thai 50.6/60.93 kWh ranges not on a supported cycle.",
+  "J6: specs only partly sourced (69.8 kWh, ~470 km on an unnamed cycle); no Commons image confirmed.",
+  "Jaecoo website not sourced."
+ ]
+}

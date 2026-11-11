@@ -1,0 +1,2413 @@
+{
+ "make": {
+  "slug": "smart",
+  "name": "smart",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Ningbo, Zhejiang, China",
+  "founded": 1994,
+  "parent_group": "smart Automobile Co., Ltd. (Mercedes-Benz Group and Geely joint venture)",
+  "website_url": "https://www.smart.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "City-car brand founded in 1994 as a Daimler-Swatch venture, known for the two-seat fortwo built in Hambach, France. Since 2019-2020 it has been a 50:50 joint venture of Mercedes-Benz and Geely in Ningbo, China, selling only electric cars (#1, #3, #5 and the #2 city car).",
+  "sources": [
+   {
+    "fields": [
+     "parent_group",
+     "history"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Smart_Automobile",
+    "name": "Wikipedia"
+   },
+   {
+    "fields": [
+     "country",
+     "headquarters",
+     "founded"
+    ],
+    "url": "https://en.wikipedia.org/wiki/Smart_Automobile",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "smart-eq-fortwo",
+   "url_slug": "eq-fortwo",
+   "name": "EQ fortwo",
+   "aliases": [
+    "fortwo electric drive",
+    "fortwo ED",
+    "fortwo cabrio electric drive"
+   ],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Battery-electric version of the two-seat fortwo, offered as a coupe and a cabrio. Sold as the fortwo electric drive from 2009 and renamed EQ fortwo in 2018; production of the fortwo ended in 2024 and the #2 is its electric successor.",
+   "markets": {
+    "US": {
+     "status": "discontinued",
+     "launch": "2011",
+     "end": "2019",
+     "local_name": null
+    },
+    "EU": {
+     "status": "discontinued",
+     "launch": "2009",
+     "end": "2024",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Smart_Fortwo",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "range"
+     ],
+     "url": "https://www.fueleconomy.gov/feg/noframes/41186.shtml",
+     "name": "fueleconomy.gov (EPA)"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2010",
+     "name": "Second generation (451)",
+     "kind": "generation",
+     "ordinal": 2,
+     "code_name": "W451",
+     "platform": null,
+     "start_year": 2009,
+     "end_year": 2012,
+     "status": "discontinued",
+     "description": "About 2,000 cars with a Tesla-supplied battery, leased or used in car2go car-sharing in 18 markets. (The 2007 London field trial of 100 first-generation cars is not counted as a sales model.)",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Smart_electric_car.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_electric_car.jpg",
+       "credit": "chuckoutrearseats (Flickr User)",
+       "license": "CC BY-SA 2.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "coupe",
+       "name": "fortwo electric drive coupe",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2009,
+       "year_to": 2012,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 40,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2011,
+         "range": 63,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Smart_Fortwo",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/31065.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cabrio",
+       "name": "fortwo electric drive cabrio",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2010,
+       "year_to": 2012,
+       "drivetrain": "RWD",
+       "body_type": "convertible",
+       "seats": 2,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 40,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "US",
+         "model_year": 2011,
+         "range": 63,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "status",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/Smart_Fortwo",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/31064.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2013",
+     "name": "Third generation (451)",
+     "kind": "generation",
+     "ordinal": 3,
+     "code_name": "W451",
+     "platform": null,
+     "start_year": 2012,
+     "end_year": 2016,
+     "status": "discontinued",
+     "description": "Series-production electric drive with a 17.6 kWh battery and a 55 kW motor, sold widely including the US.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Smart_fortwo_electric_drive_Generation_III_%28front_quarter%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_fortwo_electric_drive_Generation_III_(front_quarter).jpg",
+       "credit": "Overlaet",
+       "license": "CC BY-SA 3.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "coupe",
+       "name": "fortwo electric drive coupe",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2012,
+       "year_to": 2016,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": 74,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.5,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 23680,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 15395,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2013,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2014,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2325/Smart-ForTwo-Electric-Drive",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/33306.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/34394.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/35859.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36861.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cabrio",
+       "name": "fortwo electric drive cabrio",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2012,
+       "year_to": 2016,
+       "drivetrain": "RWD",
+       "body_type": "convertible",
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": 74,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.5,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 26770,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 16895,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2013,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2014,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2015,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2016,
+         "range": 68,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2326/Smart-ForTwo-Cabrio-Electric-Drive",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/33305.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/34393.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/35858.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/36860.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "brabus",
+       "name": "Brabus fortwo electric drive",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2013,
+       "year_to": 2016,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.2,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 29990,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2327/Smart-ForTwo-Brabus-Electric-Drive",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "brabus-cabrio",
+       "name": "Brabus fortwo electric drive cabrio",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2013,
+       "year_to": 2016,
+       "drivetrain": "RWD",
+       "body_type": "convertible",
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 10.2,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 33080,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2328/Smart-ForTwo-Brabus-Cabrio-Electric-Drive",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2017",
+     "name": "Fourth generation (453)",
+     "kind": "generation",
+     "ordinal": 4,
+     "code_name": "C453",
+     "platform": null,
+     "start_year": 2017,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "New 453 body shared with the Renault Twingo, 17.6 kWh battery and 60 kW motor; renamed EQ fortwo from 2018.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Smart_fortwo_Cabrio_electric%2C_IAA_2017%2C_Frankfurt_%281Y7A1891%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_fortwo_Cabrio_electric,_IAA_2017,_Frankfurt_(1Y7A1891).jpg",
+       "credit": "MB-one",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "coupe",
+       "name": "fortwo electric drive / EQ fortwo coupe",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2017,
+       "year_to": 2019,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": 118,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.5,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 21940,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 16420,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 58,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 58,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 58,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1090/Smart-ForTwo-Electric-Drive",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39192.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39784.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41186.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      },
+      {
+       "slug": "cabrio",
+       "name": "fortwo electric drive / EQ fortwo cabrio",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2017,
+       "year_to": 2019,
+       "drivetrain": "RWD",
+       "body_type": "convertible",
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 25200,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 18560,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2017,
+         "range": 57,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2018,
+         "range": 57,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "US",
+         "model_year": 2019,
+         "range": 57,
+         "range_unit": "mi",
+         "range_cycle": "EPA",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1099/Smart-ForTwo-Cabrio-Electric-Drive",
+         "name": "EV Database"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39603.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/39785.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        },
+        {
+         "fields": [
+          "range"
+         ],
+         "url": "https://www.fueleconomy.gov/feg/noframes/41187.shtml",
+         "name": "fueleconomy.gov (EPA)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2020",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 4,
+     "code_name": "C453",
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "Facelift (electric-only) with a new front and the same 60 kW drivetrain; Europe only.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Smart_EQ_fortwo_at_IAA_2019_IMG_0410.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_EQ_fortwo_at_IAA_2019_IMG_0410.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "coupe",
+       "name": "EQ fortwo coupe",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": 118,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.6,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 134,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 21940,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 134,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 22225,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1230/Smart-EQ-fortwo-coupe",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "cabrio",
+       "name": "EQ fortwo cabrio",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": "convertible",
+       "seats": 2,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 25200,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 24645,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1231/Smart-EQ-fortwo-cabrio",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "smart-eq-forfour",
+   "url_slug": "eq-forfour",
+   "name": "EQ forfour",
+   "aliases": [
+    "forfour electric drive"
+   ],
+   "body_style": "hatchback",
+   "is_commercial": false,
+   "status": "discontinued",
+   "official_url": null,
+   "description": "Four-door, four-seat electric version of the 453 forfour (a Renault Twingo twin), sold in Europe as the forfour electric drive from 2017 and as the EQ forfour from 2018 until about 2022.",
+   "markets": {
+    "EU": {
+     "status": "discontinued",
+     "launch": "2017",
+     "end": "2022",
+     "local_name": null
+    },
+    "UK": {
+     "status": "discontinued",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://ev-database.org/car/1232/Smart-EQ-forfour",
+     "name": "EV Database"
+    },
+    {
+     "fields": [
+      "parent_group",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Smart_Automobile",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2017",
+     "name": "Original",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "W453",
+     "platform": null,
+     "start_year": 2017,
+     "end_year": 2019,
+     "status": "discontinued",
+     "description": "17.6 kWh battery and 60 kW rear motor.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Smart_electic_drive_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_electic_drive_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg",
+       "credit": "Thesupermat",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "forfour",
+       "name": "forfour electric drive / EQ forfour",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2017,
+       "year_to": 2019,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 22600,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 16915,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1091/Smart-ForFour-Electric-Drive",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2020",
+     "name": "Facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": "W453",
+     "platform": null,
+     "start_year": 2020,
+     "end_year": 2022,
+     "status": "discontinued",
+     "description": "Facelift with the new smart front; same drivetrain.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Smart_EQ_forfour_at_IAA_2019_IMG_0653.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_EQ_forfour_at_IAA_2019_IMG_0653.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "forfour",
+       "name": "EQ forfour",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2020,
+       "year_to": 2022,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 4,
+       "battery_kwh": 16.7,
+       "battery_basis": "usable",
+       "power_hp": 80,
+       "torque_lbft": 118,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 12.7,
+       "top_speed_mph": 81,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 130,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 19120,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 130,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 22295,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1232/Smart-EQ-forfour",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "smart-1",
+   "url_slug": "smart-1",
+   "name": "#1",
+   "aliases": [
+    "smart #1"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.smart.com",
+   "description": "Compact electric SUV and the first car from the Mercedes-Benz/Geely smart joint venture, built in China on Geely's SEA platform and on sale since 2022. Mercedes-Benz styled it; Geely engineers and builds it.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2022",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2022-12",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Smart_1",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": "HX11",
+     "platform": "SEA",
+     "start_year": 2022,
+     "end_year": null,
+     "status": "current",
+     "description": "SEA platform; rear motor (49 kWh LFP or 66 kWh NMC battery) or dual-motor Brabus.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Smart_%E2%99%AF1_Pro_%E2%80%93_f_11102025.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_%E2%99%AF1_Pro_%E2%80%93_f_11102025.jpg",
+       "credit": "© M 93",
+       "license": "CC BY-SA 3.0 de",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pure",
+       "name": "#1 Pure",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 47,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 36990,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 29960,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2217/Smart-1-Pure",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pure-plus",
+       "name": "#1 Pure+",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2024,
+       "year_to": 2026,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 39990,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2218/Smart-1-Pureplus",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pro",
+       "name": "#1 Pro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 47,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 39490,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 32960,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2041/Smart-1-Pro",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pro-plus",
+       "name": "#1 Pro+",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 420,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44490,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 420,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 36960,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1667/Smart-1-Proplus",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "premium",
+       "name": "#1 Premium",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 112,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 441,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47990,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 441,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39660,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2053/Smart-1-Premium",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pulse",
+       "name": "#1 Pulse",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2023,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.5,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 46490,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1920/Smart-1-Pulse",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "brabus",
+       "name": "#1 Brabus",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": 422,
+       "torque_lbft": 400,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.9,
+       "top_speed_mph": 112,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 400,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 53490,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 400,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 44960,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/1748/Smart-1-Brabus",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "smart-3",
+   "url_slug": "smart-3",
+   "name": "#3",
+   "aliases": [
+    "smart #3"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.smart.com",
+   "description": "Coupe-styled electric SUV, a sibling of the #1 on Geely's SEA platform, launched in China in 2023 and in Europe in 2024.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2024-01",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "twin",
+     "model": "smart-1"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Smart_3",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://ev-database.org/car/2054/Smart-3-Premium",
+     "name": "EV Database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2023,
+     "end_year": null,
+     "status": "current",
+     "description": "SEA platform shared with the #1.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Smart_Hashtag_3_DSC_7992.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_Hashtag_3_DSC_7992.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pro",
+       "name": "#3 Pro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 47,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 41140,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 33960,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/2052/Smart-3-Pro",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pro-plus",
+       "name": "#3 Pro+",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.8,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 46140,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 37960,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/1999/Smart-3-Proplus",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "premium",
+       "name": "#3 Premium",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": 268,
+       "torque_lbft": 253,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.8,
+       "top_speed_mph": 112,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 455,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 48990,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 455,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 40660,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2054/Smart-3-Premium",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "brabus",
+       "name": "#3 Brabus",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 62,
+       "battery_basis": "usable",
+       "power_hp": 422,
+       "torque_lbft": 400,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.7,
+       "top_speed_mph": 112,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 415,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 54490,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 415,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 46460,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/2000/Smart-3-Brabus",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "smart-5",
+   "url_slug": "smart-5",
+   "name": "#5",
+   "aliases": [
+    "smart #5"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.smart.com",
+   "description": "Mid-size electric SUV on Geely's SEA platform with an 800-volt system, unveiled in June 2024 and sold in Europe since 2025. A plug-in hybrid #5 EHD is sold in China and is not covered here.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025-05",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "status",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Smart_5",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://ev-database.org/car/3143/Smart-5-Premium",
+     "name": "EV Database"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2025",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "SEA",
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear or dual motors with a 76 kWh LFP or 100 kWh NMC battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Smart_Hashtag_5_Premium_autoMOBIL_T%C3%BCbingen_2025_DSC_2755_%28cropped%29.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_Hashtag_5_Premium_autoMOBIL_T%C3%BCbingen_2025_DSC_2755_(cropped).jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "pro",
+       "name": "#5 Pro",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 74.4,
+       "battery_basis": "usable",
+       "power_hp": 335,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.9,
+       "top_speed_mph": 124,
+       "dc_kw": 150,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 465,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 45900,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 465,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 39800,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3141/Smart-5-Pro",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pro-plus",
+       "name": "#5 Pro+",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 94,
+       "battery_basis": "usable",
+       "power_hp": 358,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.5,
+       "top_speed_mph": 124,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 590,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51400,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 590,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 43800,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3142/Smart-5-Proplus",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "premium",
+       "name": "#5 Premium",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 94,
+       "battery_basis": "usable",
+       "power_hp": 358,
+       "torque_lbft": 275,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.5,
+       "top_speed_mph": 124,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 590,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 55900,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 590,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47300,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3143/Smart-5-Premium",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "premium-awd",
+       "name": "#5 Premium AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 94,
+       "battery_basis": "usable",
+       "power_hp": 579,
+       "torque_lbft": 474,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.9,
+       "top_speed_mph": 124,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 58400,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3699/Smart-5-Premium-AWD",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "pulse",
+       "name": "#5 Pulse",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 94,
+       "battery_basis": "usable",
+       "power_hp": 579,
+       "torque_lbft": 474,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.9,
+       "top_speed_mph": 124,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 55400,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 47300,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3144/Smart-5-Pulse",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "summit-edition",
+       "name": "#5 Summit Edition",
+       "legacy_ids": [],
+       "status": "discontinued",
+       "year_from": 2025,
+       "year_to": 2026,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 96,
+       "battery_basis": "usable",
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "price": 56900,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "price": 48800,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price"
+         ],
+         "url": "https://ev-database.org/car/3145/Smart-5-Summit-Edition",
+         "name": "EV Database"
+        }
+       ]
+      },
+      {
+       "slug": "brabus",
+       "name": "#5 Brabus",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": 5,
+       "battery_kwh": 94,
+       "battery_basis": "usable",
+       "power_hp": 637,
+       "torque_lbft": 524,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.8,
+       "top_speed_mph": 130,
+       "dc_kw": 400,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 61900,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 540,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 51800,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3179/Smart-5-Brabus",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "smart-2",
+   "url_slug": "smart-2",
+   "name": "#2",
+   "aliases": [
+    "smart #2"
+   ],
+   "body_style": "microcar",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": "https://www.smart.com",
+   "description": "Two-seat electric city car and successor to the fortwo, launched in China in November 2026 with European orders from October 2026.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-11",
+     "end": null,
+     "local_name": null
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2026-10",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "upcoming",
+     "launch": null,
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [
+    {
+     "relation": "successor",
+     "model": "smart-eq-fortwo"
+    }
+   ],
+   "sources": [
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://electrive.com/2026/11/06/smart-2-celebrates-market-debut-in-china",
+     "name": "electrive"
+    },
+    {
+     "fields": [
+      "status"
+     ],
+     "url": "https://cnevpost.com/2026/11/05/smart-expands-2-roll-out-china-premium-trim/",
+     "name": "CnEVPost"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": "smart ECA",
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Rear-motor city car with a 35.8 kWh LFP battery.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Smart_2_007.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_2_007.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "35kwh",
+       "name": "#2 (35.8 kWh)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": 2,
+       "battery_kwh": 35.8,
+       "battery_basis": "gross",
+       "power_hp": 80,
+       "torque_lbft": 96,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 11.6,
+       "top_speed_mph": 87,
+       "dc_kw": 65,
+       "offerings": [
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": 290,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 19990,
+         "currency": "EUR",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 290,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": 20000,
+         "currency": "GBP",
+         "price_basis": "list_incl_vat",
+         "connector": "CCS2",
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "price",
+          "range"
+         ],
+         "url": "https://ev-database.org/car/3838/Smart-2-358-kWh",
+         "name": "EV Database"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "smart has no rows on the live site (no legacy make or cars).",
+  "Second-generation (2009-2012) fortwo electric drive battery size and power not sourced; sources disagree (14 vs 16.5 kWh).",
+  "No US prices sourced for the fortwo electric drive / EQ fortwo (US market 2011-2019).",
+  "Chinese-market versions (CLTC range, CNY prices) of #1, #3, #5 and #2 are not covered; European versions are.",
+  "smart #6 (2026) is a plug-in hybrid only at launch; a battery-electric #6 is reported to be in development but not announced.",
+  "Brabus 451 electric drive (2013-2016) and the 2018 US 10th-anniversary edition are treated as variants/editions, not models.",
+  "No verified photo found for the pre-facelift (2017-2019) forfour electric drive.",
+  "Power for 451/453 fortwo electric drive variants comes from the EPA motor rating (30, 55, 60 kW); some #1/#3 trims lack power because their EV Database pages were rate-limited (HTTP 429)."
+ ]
+}

@@ -1,0 +1,1887 @@
+{
+ "make": {
+  "slug": "im-motors",
+  "name": "IM Motors",
+  "legacy_id": null,
+  "country": "CN",
+  "headquarters": "Shanghai, China",
+  "founded": 2020,
+  "parent_group": "SAIC Motor",
+  "website_url": "https://www.immotors.com",
+  "status": "active",
+  "status_date": null,
+  "status_details": null,
+  "description": "Premium electric car brand (Zhiji, 'Intelligence in Motion') founded in December 2020 by SAIC Motor (54%) with Alibaba and Zhangjiang Hi-Tech. It builds the L7 and L6 sedans and LS6, LS7 and LS8 SUVs in Shanghai; outside China its cars are sold through MG dealers as the MG IM5, IM6 and IM8.",
+  "sources": [
+   {
+    "fields": [
+     "history",
+     "models",
+     "ownership"
+    ],
+    "url": "https://en.wikipedia.org/wiki/IM_Motors",
+    "name": "Wikipedia"
+   }
+  ]
+ },
+ "models": [
+  {
+   "slug": "im-motors-l7",
+   "url_slug": "l7",
+   "name": "L7",
+   "aliases": [],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Full-size electric sedan and IM's first model, built in Shanghai since 2022 with a 90 kWh CATL battery and rear- or all-wheel drive. A February 2024 refresh raised the range and cut the price.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2022-06",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/IM_L7",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2022",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2022,
+     "end_year": 2024,
+     "status": "discontinued",
+     "description": "IM's first car, deliveries from June 2022 after Shanghai lockdown delays; Snake Performance edition added in December 2022.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/IM_L7_GIMS_2024_1X7A2241.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IM_L7_GIMS_2024_1X7A2241.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "L7 RWD 90 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 675,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "L7 Dual-motor AWD 90 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2022,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 570,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.87,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 615,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "snake-performance",
+       "name": "L7 Snake Performance",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2024,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 597,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.7,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2024",
+     "name": "2024 refresh",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": null,
+     "status": "current",
+     "description": "February 2024 update with longer CLTC ranges and a price cut of 38,900 yuan.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "L7 RWD 90 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 708,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": 299900,
+         "launch_price": null,
+         "currency": "CNY",
+         "price_basis": "list_incl_vat",
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "L7 Dual-motor AWD 90 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 90.0,
+       "battery_basis": null,
+       "power_hp": 570,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2024,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "im-motors-ls7",
+   "url_slug": "ls7",
+   "name": "LS7",
+   "aliases": [],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric SUV launched in China in February 2023, with rear- or all-wheel drive and NMC batteries up to 100 kWh. Sales have been small; it was facelifted in June 2025 and is also sold in Mexico.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-02",
+     "end": null,
+     "local_name": null
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/IM_LS7",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Launched February 2023 with 77, 90 or 100 kWh CATL NMC batteries and 510-700 km CLTC range.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/IM_LS7_GIMS_2024_1X7A2396.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IM_LS7_GIMS_2024_1X7A2396.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "LS7 RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 335,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "LS7 Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 570,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2025 facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "June 2025 facelift with stronger motors (300 kW RWD, 579 kW AWD) and up to 700 km CLTC.",
+     "images": [],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "rwd",
+       "name": "LS7 RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2025,
+         "range": 700,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS7",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "awd",
+       "name": "LS7 Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 776,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS7",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "im-motors-l6",
+   "url_slug": "l6",
+   "name": "L6",
+   "aliases": [
+    "IM5",
+    "MG IM5"
+   ],
+   "body_style": "sedan",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric sedan launched in China in 2024, with an optional semi-solid-state battery claiming over 1,000 km CLTC. Exported as the MG IM5 (sold through MG dealers) to the UK, Australia and Europe from 2025.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2024",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025-07",
+     "end": null,
+     "local_name": "MG IM5"
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025-07",
+     "end": null,
+     "local_name": "MG IM5"
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025-06",
+     "end": null,
+     "local_name": "MG IM5"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/IM_L6",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "range",
+      "markets"
+     ],
+     "url": "https://newmobility.news/en/2026/06/03/mg-introduces-ev-premium-models-im5-and-im6-in-the-eu/",
+     "name": "New Mobility"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2024",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2024,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Launched in China in 2024 with LFP, NMC and semi-solid-state batteries; exported from 2025 as the MG IM5 (UK, Norway, Switzerland, Australia, then the EU in 2026).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/IM_L6_GIMS_2024_1X7A2393.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IM_L6_GIMS_2024_1X7A2393.jpg",
+       "credit": "Alexander-93",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/MG_IM5_Auto_Zuerich_2025_DSC_3170.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:MG_IM5_Auto_Zuerich_2025_DSC_3170.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "standard",
+       "name": "L6 Standard 75 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 290,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 618,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://newmobility.news/en/2026/06/03/mg-introduces-ev-premium-models-im5-and-im6-in-the-eu/",
+         "name": "New Mobility"
+        }
+       ]
+      },
+      {
+       "slug": "long-range",
+       "name": "L6 Long Range 83 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 83.0,
+       "battery_basis": null,
+       "power_hp": 333,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 688,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "ultra-long-range",
+       "name": "L6 Ultra Long Range 100 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 822,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 710,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://newmobility.news/en/2026/06/03/mg-introduces-ev-premium-models-im5-and-im6-in-the-eu/",
+         "name": "New Mobility"
+        }
+       ]
+      },
+      {
+       "slug": "performance-awd",
+       "name": "L6 Performance AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": 776,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 2.74,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 750,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "performance-awd-export",
+       "name": "IM5 Performance AWD 100 kWh (export)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 742,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://newmobility.news/en/2026/06/03/mg-introduces-ev-premium-models-im5-and-im6-in-the-eu/",
+         "name": "New Mobility"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "lightyear",
+       "name": "L6 Lightyear AWD (semi-solid-state)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": null,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 1002,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2025 facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "2025 facelift for China, updated again for 2026 with larger LFP and NMC packs.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/IM_L6_facelift_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IM_L6_facelift_003.jpg",
+       "credit": "KitsuneDP",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "max-74",
+       "name": "L6 Max 74 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 74.0,
+       "battery_basis": null,
+       "power_hp": 329,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 5.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 645,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "max-76-5",
+       "name": "L6 Max 76.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 76.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 725,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "pro-max",
+       "name": "L6 Pro Max 93.1 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.1,
+       "battery_basis": null,
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 4.9,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 850,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "ultra",
+       "name": "L6 Ultra 103.3 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 103.3,
+       "battery_basis": null,
+       "power_hp": 670,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 840,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_L6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "im-motors-ls6",
+   "url_slug": "ls6",
+   "name": "LS6",
+   "aliases": [
+    "IM6",
+    "MG IM6"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Mid-size electric SUV launched in China in October 2023 with 400 V and 800 V versions; a range-extender model joined in 2025. Exported as the MG IM6 to Australia, the UK and Europe from 2025, with India planned.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2023-10",
+     "end": null,
+     "local_name": null
+    },
+    "UK": {
+     "status": "current",
+     "launch": "2025-09",
+     "end": null,
+     "local_name": "MG IM6"
+    },
+    "EU": {
+     "status": "current",
+     "launch": "2025",
+     "end": null,
+     "local_name": "MG IM6"
+    },
+    "AU": {
+     "status": "current",
+     "launch": "2025-06",
+     "end": null,
+     "local_name": "MG IM6"
+    },
+    "IN": {
+     "status": "upcoming",
+     "launch": "2026-10",
+     "end": null,
+     "local_name": "MG IM6"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/IM_LS6",
+     "name": "Wikipedia"
+    },
+    {
+     "fields": [
+      "specs",
+      "range",
+      "markets"
+     ],
+     "url": "https://newmobility.news/en/2026/06/03/mg-introduces-ev-premium-models-im5-and-im6-in-the-eu/",
+     "name": "New Mobility"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2023",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2023,
+     "end_year": 2025,
+     "status": "discontinued",
+     "description": "Launched October 2023 and updated in September 2024; exported from 2025 as the MG IM6.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/IM_LS6_008.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IM_LS6_008.jpg",
+       "credit": "Quzhouliulian",
+       "license": "CC BY-SA 4.0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      },
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/MG_IM6_Auto_Zuerich_2025_DSC_3175.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:MG_IM6_Auto_Zuerich_2025_DSC_3175.jpg",
+       "credit": "Alexander Migl",
+       "license": "CC BY-SA 4.0",
+       "view": "rear_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "75-kwh",
+       "name": "LS6 75 kWh LFP",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2023,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 75.0,
+       "battery_basis": null,
+       "power_hp": 290,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "83-kwh",
+       "name": "LS6 83 kWh NMC (800 V)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 83.0,
+       "battery_basis": null,
+       "power_hp": 333,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 701,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "100-kwh-rwd",
+       "name": "LS6 100 kWh RWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "RWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 802,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": 625,
+         "range_unit": "km",
+         "range_cycle": "WLTP",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        },
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://newmobility.news/en/2026/06/03/mg-introduces-ev-premium-models-im5-and-im6-in-the-eu/",
+         "name": "New Mobility"
+        }
+       ]
+      },
+      {
+       "slug": "100-kwh-awd",
+       "name": "LS6 100 kWh Dual-motor AWD",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2024,
+       "year_to": 2025,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 776,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 3.5,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 750,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "performance-awd-export",
+       "name": "IM6 Performance AWD 100 kWh (export)",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": "AWD",
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 100.0,
+       "battery_basis": null,
+       "power_hp": 742,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "UK",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "EU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        },
+        {
+         "market": "AU",
+         "model_year": null,
+         "range": null,
+         "range_unit": null,
+         "range_cycle": null,
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "range",
+          "markets"
+         ],
+         "url": "https://newmobility.news/en/2026/06/03/mg-introduces-ev-premium-models-im5-and-im6-in-the-eu/",
+         "name": "New Mobility"
+        },
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "slug": "2025",
+     "name": "2025 facelift",
+     "kind": "refresh",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2025,
+     "end_year": null,
+     "status": "current",
+     "description": "2025 redesign for China, which also added a range-extender (EREV) version (not listed here).",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/IM_LS6_2025_facelift_001.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IM_LS6_2025_facelift_001.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "76-5-kwh",
+       "name": "LS6 76.5 kWh",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 76.5,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "93-kwh",
+       "name": "LS6 93 kWh LFP",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.0,
+       "battery_basis": null,
+       "power_hp": 402,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "103-3-kwh",
+       "name": "LS6 103.3 kWh NMC",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2025,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 103.3,
+       "battery_basis": null,
+       "power_hp": 670,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": null,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": null,
+         "range": 802,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS6",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "im-motors-ls8",
+   "url_slug": "ls8",
+   "name": "LS8",
+   "aliases": [
+    "IM8",
+    "MG IM8",
+    "LS8 NEO"
+   ],
+   "body_style": "suv",
+   "is_commercial": false,
+   "status": "current",
+   "official_url": null,
+   "description": "Full-size SUV launched in China in 2026, first as a range-extender (April) and then as the battery-electric LS8 NEO (November). It is sold in Australia as the MG IM8.",
+   "markets": {
+    "CN": {
+     "status": "current",
+     "launch": "2026-11",
+     "end": null,
+     "local_name": null
+    },
+    "AU": {
+     "status": "current",
+     "launch": null,
+     "end": null,
+     "local_name": "MG IM8"
+    }
+   },
+   "relations": [],
+   "sources": [
+    {
+     "fields": [
+      "specs",
+      "history"
+     ],
+     "url": "https://en.wikipedia.org/wiki/IM_LS8",
+     "name": "Wikipedia"
+    }
+   ],
+   "generations": [
+    {
+     "slug": "2026",
+     "name": "First generation",
+     "kind": "generation",
+     "ordinal": 1,
+     "code_name": null,
+     "platform": null,
+     "start_year": 2026,
+     "end_year": null,
+     "status": "current",
+     "description": "Full-size SUV launched as a range-extender in April 2026; the battery-electric NEO went on sale on 5 November 2026.",
+     "images": [
+      {
+       "source": "commons",
+       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/IM_LS8_003.jpg",
+       "page_url": "https://commons.wikimedia.org/wiki/File:IM_LS8_003.jpg",
+       "credit": "JustAnotherCarDesigner",
+       "license": "CC0",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
+     "sources": [],
+     "variants": [
+      {
+       "slug": "93-1-kwh",
+       "name": "LS8 NEO 93.1 kWh LFP",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 93.1,
+       "battery_basis": null,
+       "power_hp": 402,
+       "torque_lbft": 369,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.7,
+       "top_speed_mph": 124,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 684,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS8",
+         "name": "Wikipedia"
+        }
+       ]
+      },
+      {
+       "slug": "103-3-kwh",
+       "name": "LS8 NEO 103.3 kWh NMC",
+       "legacy_ids": [],
+       "status": null,
+       "year_from": 2026,
+       "year_to": null,
+       "drivetrain": null,
+       "body_type": null,
+       "seats": null,
+       "battery_kwh": 103.3,
+       "battery_basis": null,
+       "power_hp": null,
+       "torque_lbft": null,
+       "accel_0_60_s": null,
+       "accel_0_100_s": 6.6,
+       "top_speed_mph": null,
+       "dc_kw": null,
+       "offerings": [
+        {
+         "market": "CN",
+         "model_year": 2026,
+         "range": 752,
+         "range_unit": "km",
+         "range_cycle": "CLTC",
+         "price": null,
+         "launch_price": null,
+         "currency": null,
+         "price_basis": null,
+         "connector": null,
+         "is_estimate": false
+        }
+       ],
+       "sources": [
+        {
+         "fields": [
+          "specs",
+          "history"
+         ],
+         "url": "https://en.wikipedia.org/wiki/IM_LS8",
+         "name": "Wikipedia"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "legacy_notes": [],
+ "gaps": [
+  "Power in hp converted from kW (x1.341).",
+  "No UK/EU/AU prices for the MG IM5/IM6 (MG UK site blocked automated fetch; web search budget ran out).",
+  "UK WLTP figures (IM5 up to 710 km, IM6 up to 625 km) are the source's 'up to' numbers, attached to the 100 kWh RWD versions.",
+  "IM5/IM6 export Performance AWD is quoted at 553 kW vs 579 kW in China, so it is a separate variant.",
+  "L6 Lightyear: source gives a 123.7 kWh semi-solid-state pack in one place only and conflicting power (540 vs 569 kW), so battery and power are left null.",
+  "LS7: battery (77/90/100 kWh) and CLTC ranges (510-700 km) not mapped to versions in the source. LS6 2025 facelift: ranges garbled in source.",
+  "Excluded: IM LS9 (range-extender only)."
+ ]
+}

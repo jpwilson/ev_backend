@@ -1,0 +1,299 @@
+{
+  "make": {
+    "slug": "land-rover",
+    "name": "Land Rover",
+    "legacy_id": null,
+    "country": "GB",
+    "headquarters": "Gaydon, Warwickshire, England",
+    "founded": 1948,
+    "parent_group": "JLR (Tata Motors)",
+    "website_url": "https://www.landrover.com",
+    "status": "active",
+    "status_date": null,
+    "status_details": null,
+    "description": "British maker of off-road and luxury SUVs, part of JLR and owned by Tata Motors; JLR now markets Range Rover, Defender and Discovery as separate brands under the Land Rover name. Its first battery-electric models, the Range Rover Electric and Range Rover Sport Electric, were revealed in September 2026 and are built in Solihull, England.",
+    "sources": [
+      {
+        "fields": [
+          "founded",
+          "headquarters",
+          "parent_group"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Land_Rover",
+        "name": "Wikipedia"
+      },
+      {
+        "fields": [
+          "description"
+        ],
+        "url": "https://www.carscoops.com/2026/09/range-rover-electric-official-launch/",
+        "name": "Carscoops"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "land-rover-range-rover-electric",
+      "url_slug": "range-rover-electric",
+      "name": "Range Rover Electric",
+      "aliases": [
+        "Range Rover EV"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.rangerover.com",
+      "description": "Battery-electric version of the fifth-generation (L460) Range Rover, announced in 2022 and delayed from 2025 before orders opened in September 2026. It has two motors, a 118.5 kWh battery on an 800 V system and is offered in standard and long wheelbase.",
+      "markets": {
+        "UK": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        },
+        "US": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://www.carscoops.com/2026/09/range-rover-electric-official-launch/",
+          "name": "Carscoops"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://electrek.co/2026/06/05/range-rover-finally-ready-to-sell-first-electric-suv/",
+          "name": "Electrek"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Fifth generation (L460)",
+          "kind": "generation",
+          "ordinal": 5,
+          "code_name": "L460",
+          "platform": "MLA-Flex",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Electric drivetrain added to the L460 Range Rover, which has been sold with petrol, diesel and plug-in hybrid engines since 2022.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Range_Rover_EV_Prototype.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Range_Rover_EV_Prototype.jpg",
+              "credit": "Calreyn88",
+              "license": "CC BY-SA 4.0",
+              "view": "rear_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "dual-motor-awd",
+              "name": "Dual-motor AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 118.5,
+              "battery_basis": null,
+              "power_hp": 542,
+              "torque_lbft": 627,
+              "accel_0_60_s": 4.3,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": null,
+              "dc_kw": 350,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": null,
+                  "range": 333,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 138000,
+                  "launch_price": 138000,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": null,
+                  "is_estimate": true
+                },
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 600,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 154070,
+                  "launch_price": 154070,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.carscoops.com/2026/09/range-rover-electric-official-launch/",
+                  "name": "Carscoops"
+                },
+                {
+                  "fields": [
+                    "price",
+                    "range"
+                  ],
+                  "url": "https://www.motoringresearch.com/car-news/new-range-rover-electric-orders-open/",
+                  "name": "Motoring Research"
+                },
+                {
+                  "fields": [
+                    "range"
+                  ],
+                  "url": "https://www.electrifying.com/blog/article/the-range-rover-electric-is-finally-here",
+                  "name": "Electrifying.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "land-rover-range-rover-sport-electric",
+      "url_slug": "range-rover-sport-electric",
+      "name": "Range Rover Sport Electric",
+      "aliases": [
+        "Range Rover Sport EV550"
+      ],
+      "body_style": "suv",
+      "is_commercial": false,
+      "status": "current",
+      "official_url": "https://www.rangerover.com",
+      "description": "Battery-electric version of the third-generation (L461) Range Rover Sport, announced in July 2026 and revealed on 29 September 2026 with UK orders opening the same day. It shares the Range Rover Electric's two-motor, 118.5 kWh drivetrain.",
+      "markets": {
+        "UK": {
+          "status": "current",
+          "launch": "2026-09",
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "status",
+            "history"
+          ],
+          "url": "https://www.evo.co.uk/land-rover/sport/208929/range-rover-sport-electric-revealed-british-porsche-cayenne-electric-rival",
+          "name": "evo"
+        },
+        {
+          "fields": [
+            "history"
+          ],
+          "url": "https://www.businessday.co.za/motoring/2026-07-16-range-rover-sport-goes-battery-electric/",
+          "name": "BusinessDay"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2026",
+          "name": "Third generation (L461)",
+          "kind": "generation",
+          "ordinal": 3,
+          "code_name": "L461",
+          "platform": "MLA-Flex",
+          "start_year": 2026,
+          "end_year": null,
+          "status": "current",
+          "description": "Electric drivetrain added to the L461 Range Rover Sport, on sale with combustion and plug-in hybrid engines since 2022.",
+          "images": [],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "ev550-dual-motor-awd",
+              "name": "EV550 Dual-motor AWD",
+              "legacy_ids": [],
+              "status": "current",
+              "year_from": 2026,
+              "year_to": null,
+              "drivetrain": "AWD",
+              "body_type": null,
+              "seats": null,
+              "battery_kwh": 118.5,
+              "battery_basis": null,
+              "power_hp": 542,
+              "torque_lbft": 627,
+              "accel_0_60_s": null,
+              "accel_0_100_s": 4.5,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "UK",
+                  "model_year": null,
+                  "range": 609,
+                  "range_unit": "km",
+                  "range_cycle": "WLTP",
+                  "price": 109810,
+                  "launch_price": 109810,
+                  "currency": "GBP",
+                  "price_basis": "list_incl_vat",
+                  "connector": "CCS2",
+                  "is_estimate": false
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "specs",
+                    "price"
+                  ],
+                  "url": "https://www.evo.co.uk/land-rover/sport/208929/range-rover-sport-electric-revealed-british-porsche-cayenne-electric-rival",
+                  "name": "evo"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.drivencarguide.co.nz/news/range-rover-sport-electric-opens-nz-orders-with-609km-range/",
+                  "name": "Driven"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "No Commons photo of the Range Rover Electric or Range Rover Sport Electric found; combustion L460/L461 photos were not used because the EVs have different front ends.",
+    "Range Rover Electric: EPA 333 mi is Land Rover's estimate, not a certified rating; US model year, connector, seat count (5 vs 7 in LWB), LWB price and top speed not sourced.",
+    "Range Rover Sport Electric: US price and timing, DC charging kW (one outlet says 400 kW) and top speed not sourced.",
+    "Electric Range Rover Velar (first model on JLR's EMA platform, due from Halewood in 2027) has not been officially revealed as of November 2026 and is not listed; add it when JLR reveals it.",
+    "Web search budget ran out during this make; Range Rover Electric connector and seat details could not be checked."
+  ]
+}

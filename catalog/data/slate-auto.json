@@ -1,0 +1,233 @@
+{
+  "make": {
+    "slug": "slate-auto",
+    "name": "Slate Auto",
+    "legacy_id": 35,
+    "country": "US",
+    "headquarters": "Troy, Michigan, USA",
+    "founded": 2022,
+    "parent_group": null,
+    "website_url": "https://www.slate.auto",
+    "status": "pre-production",
+    "status_date": null,
+    "status_details": "Pre-production as of November 2026: preorders opened on 24 June 2026 and production at a converted plant in Warsaw, Indiana is targeted to start in the fourth quarter of 2026; no customer deliveries had been reported yet.",
+    "description": "Slate Auto is a US startup founded in 2022 inside Re:Build Manufacturing and backed by Jeff Bezos and Mark Walter. Its only product is a deliberately simple, customisable small electric pickup that converts into a five-seat SUV, priced from $24,950.",
+    "sources": [
+      {
+        "fields": [
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Slate_Auto",
+        "name": "Wikipedia: Slate Auto"
+      },
+      {
+        "fields": [
+          "price",
+          "specs",
+          "range"
+        ],
+        "url": "https://www.techtimes.com/articles/319021/20260624/slate-truck-sets-24950-price-opens-pre-orders-30-days-decide.htm",
+        "name": "Tech Times: Slate sets $24,950 price, opens pre-orders (Jun 2026)"
+      },
+      {
+        "fields": [
+          "specs",
+          "status"
+        ],
+        "url": "https://en.wikipedia.org/wiki/Slate_Truck",
+        "name": "Wikipedia: Slate (vehicle)"
+      }
+    ]
+  },
+  "models": [
+    {
+      "slug": "slate-auto-truck",
+      "url_slug": "truck",
+      "name": "Truck",
+      "aliases": [
+        "Slate",
+        "Blank Slate"
+      ],
+      "body_style": "pickup",
+      "is_commercial": false,
+      "status": "upcoming",
+      "official_url": "https://www.slate.auto",
+      "description": "Small two-seat, rear-drive electric pickup revealed in April 2025 with unpainted panels, manual windows and no screen, designed to be customised by owners. A five-seat SUV version (Squareback or Fastback body) is offered from the factory for $29,950; production in Warsaw, Indiana is due to start in late 2026 as a 2027 model.",
+      "markets": {
+        "US": {
+          "status": "upcoming",
+          "launch": null,
+          "end": null,
+          "local_name": null
+        }
+      },
+      "relations": [],
+      "sources": [
+        {
+          "fields": [
+            "specs",
+            "status"
+          ],
+          "url": "https://en.wikipedia.org/wiki/Slate_Truck",
+          "name": "Wikipedia: Slate (vehicle)"
+        },
+        {
+          "fields": [
+            "price",
+            "specs",
+            "range"
+          ],
+          "url": "https://www.techtimes.com/articles/319021/20260624/slate-truck-sets-24950-price-opens-pre-orders-30-days-decide.htm",
+          "name": "Tech Times: Slate sets $24,950 price, opens pre-orders (Jun 2026)"
+        }
+      ],
+      "generations": [
+        {
+          "slug": "2027",
+          "name": "First generation",
+          "kind": "generation",
+          "ordinal": 1,
+          "code_name": null,
+          "platform": null,
+          "start_year": 2026,
+          "end_year": null,
+          "status": "upcoming",
+          "description": "Launch version with a 65 kWh LFP battery and a single 181 hp rear motor; earlier 2025 plans for two battery sizes were replaced by one pack.",
+          "images": [
+            {
+              "source": "commons",
+              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Slate_truck_at_demo_event_in_Chestnut_Hill%2C_MA_October_2026_1_%28cropped%29.jpg",
+              "page_url": "https://commons.wikimedia.org/wiki/File:Slate_truck_at_demo_event_in_Chestnut_Hill,_MA_October_2026_1_(cropped).jpg",
+              "credit": "4300streetcar",
+              "license": "CC BY 4.0",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
+          "sources": [],
+          "variants": [
+            {
+              "slug": "pickup",
+              "name": "Pickup",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": null,
+              "seats": 2,
+              "battery_kwh": 65.0,
+              "battery_basis": "gross",
+              "power_hp": 181,
+              "torque_lbft": 195,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": 205,
+                  "range_unit": "mi",
+                  "range_cycle": "EPA",
+                  "price": 24950,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.techtimes.com/articles/319021/20260624/slate-truck-sets-24950-price-opens-pre-orders-30-days-decide.htm",
+                  "name": "Tech Times: Slate sets $24,950 price, opens pre-orders (Jun 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Slate_Truck",
+                  "name": "Wikipedia: Slate (vehicle)"
+                },
+                {
+                  "fields": [
+                    "price"
+                  ],
+                  "url": "https://www.cargurus.com/research/articles/2027-slate-truck-pricing-specs-release-date",
+                  "name": "CarGurus: 2027 Slate Truck pricing and release date"
+                }
+              ]
+            },
+            {
+              "slug": "suv",
+              "name": "SUV (Squareback / Fastback)",
+              "legacy_ids": [],
+              "status": "upcoming",
+              "year_from": 2027,
+              "year_to": null,
+              "drivetrain": "RWD",
+              "body_type": "suv",
+              "seats": 5,
+              "battery_kwh": 65.0,
+              "battery_basis": "gross",
+              "power_hp": 181,
+              "torque_lbft": 195,
+              "accel_0_60_s": null,
+              "accel_0_100_s": null,
+              "top_speed_mph": null,
+              "dc_kw": null,
+              "offerings": [
+                {
+                  "market": "US",
+                  "model_year": 2027,
+                  "range": null,
+                  "range_unit": null,
+                  "range_cycle": null,
+                  "price": 29950,
+                  "launch_price": null,
+                  "currency": "USD",
+                  "price_basis": "msrp_excl_destination",
+                  "connector": "NACS",
+                  "is_estimate": true
+                }
+              ],
+              "sources": [
+                {
+                  "fields": [
+                    "price",
+                    "specs",
+                    "range"
+                  ],
+                  "url": "https://www.techtimes.com/articles/319021/20260624/slate-truck-sets-24950-price-opens-pre-orders-30-days-decide.htm",
+                  "name": "Tech Times: Slate sets $24,950 price, opens pre-orders (Jun 2026)"
+                },
+                {
+                  "fields": [
+                    "specs",
+                    "status"
+                  ],
+                  "url": "https://en.wikipedia.org/wiki/Slate_Truck",
+                  "name": "Wikipedia: Slate (vehicle)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "legacy_notes": [],
+  "gaps": [
+    "DC charging peak is reported as 120 kW (Wikipedia) and 150 kW (Tech Times); left null.",
+    "205-mile range is Slate's estimate; no EPA label yet. SUV range not published.",
+    "Production start (Q4 2026 target) not yet confirmed by any report as of 10 Nov 2026."
+  ]
+}

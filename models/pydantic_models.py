@@ -313,7 +313,8 @@ class CarCreate(CarBase):
 
 class CarRead(CarBase):
     id: int
-    average_rating: float
+    # None when a car has no usable review scores (calculate_average_rating)
+    average_rating: Optional[float] = None
     make_id: int
     model_webpage: Optional[str] = None
 
@@ -322,12 +323,12 @@ class SubmodelInfo(BaseModel):
     model_config = ConfigDict(protected_namespaces=())
 
     id: int
-    submodel: str
-    image_url: Optional[str]
-    current_price: float
-    acceleration_0_60: float
-    top_speed: int
-    epa_range: int
+    submodel: Optional[str] = None
+    image_url: Optional[str] = None
+    current_price: Optional[float] = None
+    acceleration_0_60: Optional[float] = None
+    top_speed: Optional[int] = None
+    epa_range: Optional[int] = None
     generation: Optional[str] = None
     availability_desc: Optional[str] = None
 
