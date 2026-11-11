@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": "Active and growing in Vietnam and Southeast Asia; in the US it has scaled back to fewer than 22 dealers, sells only the VF 8 and VF 9, and has pushed its North Carolina factory to 2028.",
     "description": "VinFast is the car brand of Vietnamese conglomerate Vingroup, founded in 2017 and building cars in Haiphong. It switched to electric-only in 2022 and sells a range from the tiny VF 3 to the seven-seat VF 9, plus 'Green' versions for taxi and ride-hailing fleets.",
+    "logo": {
+      "file_url": "/pub_assets/logos/vinfast.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_logo_(simple_variant).svg",
+      "credit": "Vingroup/VinFast",
+      "license": "Public domain (trademarked)"
+    },
     "sources": [
       {
         "fields": [
@@ -864,7 +870,17 @@
           "end_year": null,
           "status": "current",
           "description": "New generation revealed on 21 May 2026, initially for Vietnam, adding a front-drive version with a 60.13 kWh battery.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-8-2026.jpg",
+              "page_url": "https://www.prnewswire.com/de/pressemitteilungen/vinfast-introduces-the-new-generation-vf-8-featuring-comprehensive-enhancements-302779332.html",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

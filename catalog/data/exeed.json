@@ -21,7 +21,13 @@
     "url": "https://en.wikipedia.org/wiki/Exeed",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/exeed.svg",
+   "page_url": "https://www.exlantix.com/global/",
+   "credit": "Exeed (Chery)",
+   "license": "Trademark of Chery Automobile; wordmark from the maker's website, shown in black"
+  }
  },
  "models": [
   {

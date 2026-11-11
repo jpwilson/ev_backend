@@ -23,7 +23,13 @@
         "url": "https://www.togg.eu/",
         "name": "Togg Europe"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/togg.svg",
+      "page_url": "https://www.togg.com.tr/",
+      "credit": "Togg",
+      "license": "Trademark of Togg; emblem only, taken from the site logo"
+    }
   },
   "models": [
     {

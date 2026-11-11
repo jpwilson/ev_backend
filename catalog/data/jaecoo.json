@@ -21,7 +21,13 @@
     "url": "https://en.wikipedia.org/wiki/Jaecoo",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/jaecoo.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jaecoo_wordmark.svg",
+   "credit": "Chery (Jaecoo), via Wikimedia Commons",
+   "license": "Public domain (PD-textlogo); trademark"
+  }
  },
  "models": [
   {

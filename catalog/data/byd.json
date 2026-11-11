@@ -2375,7 +2375,17 @@
           "end_year": null,
           "status": "current",
           "description": "Larger 5.1 m sedan in Ocean Aesthetics 2.0 styling with second-generation Blade packs and flash charging.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-seal-07-ev-2027.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haibao/2-haibao-07-EV",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [
             {
               "fields": [
@@ -4359,7 +4369,17 @@
           "end_year": null,
           "status": "current",
           "description": "Two Blade pack sizes and a 47 kW front motor.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-racco-2026.jpg",
+              "page_url": "https://www.byd.com/jp/lineup/racco",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -6825,7 +6845,17 @@
           "end_year": null,
           "status": "current",
           "description": "March 2026 update with second-generation Blade packs, flash charging and up to 710 km CLTC.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-sealion-06-ev-2026.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haishi/26-haishi-06-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [
             {
               "fields": [

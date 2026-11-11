@@ -21,7 +21,13 @@
     "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Auto",
     "name": "Wikipedia: Škoda Auto"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/skoda.svg",
+   "page_url": "https://www.skoda-auto.com/",
+   "credit": "Škoda Auto",
+   "license": "Trademark of Škoda Auto; wordmark taken from the skoda-auto.com site header"
+  }
  },
  "models": [
   {

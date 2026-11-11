@@ -29,7 +29,13 @@
         "url": "https://www.carscoops.com/2026/09/range-rover-electric-official-launch/",
         "name": "Carscoops"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/land-rover.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Land_Rover_2023.svg",
+      "credit": "Jaguar Land Rover Automotive PLC",
+      "license": "Public domain (Wikimedia Commons); trademark of JLR"
+    }
   },
   "models": [
     {
@@ -228,7 +234,17 @@
           "end_year": null,
           "status": "current",
           "description": "Electric drivetrain added to the L461 Range Rover Sport, on sale with combustion and plug-in hybrid engines since 2022.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/land-rover-range-rover-sport-electric-2026.jpg",
+              "page_url": "https://media.jlr.com/news/2026/09/range-rover-sport-electric-tuned-visceral-dynamism",
+              "credit": "JLR press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

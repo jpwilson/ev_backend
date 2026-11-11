@@ -12,7 +12,10 @@
     "status_date": "2024-06",
     "status_details": "Format example only; files starting with an underscore are never loaded.",
     "description": "A made-up make that shows the seed format. Not real data.",
-    "sources": [{"fields": ["status"], "url": "https://www.example.com/news/closure", "name": "Example News"}]
+    "sources": [{"fields": ["status"], "url": "https://www.example.com/news/closure", "name": "Example News"}],
+    "logo": {"file_url": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Example_Motors_logo.svg",
+             "page_url": "https://commons.wikimedia.org/wiki/File:Example_Motors_logo.svg",
+             "credit": "Example Motors", "license": "Public domain (simple geometric shapes)"}
   },
   "models": [
     {

@@ -92,7 +92,17 @@
      "end_year": null,
      "status": "upcoming",
      "description": "Revealed October 2024; official target is production in 2027 for model year 2028. Reports in 2026 say the Harvester range-extender version will come first and the battery-electric version later.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/scout-motors-traveler-2028.jpg",
+       "page_url": "https://www.scoutmotors.com/traveler",
+       "credit": "Scout Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {

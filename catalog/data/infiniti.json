@@ -12,6 +12,12 @@
   "status_date": null,
   "status_details": null,
   "description": "Nissan's luxury brand. It has announced electric plans several times (the LE sedan for 2014, an all-electrified line-up by 2021) but has not sold a battery-electric car.",
+  "logo": {
+   "file_url": "/pub_assets/logos/infiniti.png",
+   "page_url": "https://www.infinitiusa.com/",
+   "credit": "INFINITI (site header logo)",
+   "license": "Trademark of Nissan Motor Co.; used to identify the brand"
+  },
   "sources": [
    {
     "url": "https://en.wikipedia.org/wiki/Infiniti",

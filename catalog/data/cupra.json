@@ -20,7 +20,13 @@
     "url": "https://en.wikipedia.org/wiki/Cupra_(marque)",
     "name": "Wikipedia: Cupra"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/cupra.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Cupra_symbol.svg",
+   "credit": "SEAT S.A.",
+   "license": "Public domain (Wikimedia Commons); trademark of SEAT S.A."
+  }
  },
  "models": [
   {

@@ -30,7 +30,13 @@
     "url": "https://en.wikipedia.org/wiki/Smart_Automobile",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/smart.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Smart_2022.svg",
+   "credit": "smart Automobile",
+   "license": "Public domain (Wikimedia Commons); trademark of smart Automobile"
+  }
  },
  "models": [
   {

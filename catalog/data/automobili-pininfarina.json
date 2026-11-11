@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": null,
     "description": "Electric luxury car maker set up in 2018 by Mahindra, which also owns the Italian design house Pininfarina. It is based in Munich with design and assembly in Italy, and builds very small runs of Rimac-powered electric hypercars: the Battista and the B95 barchetta.",
+    "logo": {
+      "file_url": "/pub_assets/logos/automobili-pininfarina.svg",
+      "page_url": "https://www.automobili-pininfarina.com/",
+      "credit": "Automobili Pininfarina",
+      "license": "Trademark of Automobili Pininfarina; used to identify the brand"
+    },
     "sources": [
       {
         "fields": ["founded", "headquarters", "parent_group", "description"],

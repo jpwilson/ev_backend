@@ -20,7 +20,13 @@
         "url": "https://en.wikipedia.org/wiki/Firefly_(marque)",
         "name": "Wikipedia"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/firefly.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Firefly_(Nio)_logotype.svg",
+      "credit": "Nio Inc.",
+      "license": "Public domain (Wikimedia Commons); trademark of Nio Inc."
+    }
   },
   "models": [
     {

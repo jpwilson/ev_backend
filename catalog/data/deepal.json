@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": null,
     "description": "Changan's electric-car brand (Shenlan in Chinese), launched with the SL03 sedan in 2022. Most models come as a battery-electric car and a range-extender; it exports to Thailand, Australia, the UK and Europe.",
+    "logo": {
+      "file_url": "/pub_assets/logos/deepal.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Deepal_global_logo.svg",
+      "credit": "Deepal Automobile Technology Co., Ltd.",
+      "license": "Public domain (trademarked)"
+    },
     "sources": [
       {
         "fields": [

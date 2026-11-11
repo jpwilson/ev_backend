@@ -8,6 +8,12 @@
   "founded": 1910,
   "parent_group": "Stellantis",
   "website_url": "https://www.alfaromeo.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/alfa-romeo.svg",
+   "page_url": "https://www.alfaromeousa.com/",
+   "credit": "Alfa Romeo (Stellantis)",
+   "license": "Trademark of Stellantis; monochrome badge from the Alfa Romeo USA site, recoloured from white to black for the white logo tile"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

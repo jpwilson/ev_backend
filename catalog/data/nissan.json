@@ -2552,7 +2552,17 @@
      "end_year": null,
      "status": "upcoming",
      "description": "Battery-electric only; Nissan has not published battery, power or range figures.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/nissan-juke-2027.jpg",
+       "page_url": "https://europe.nissannews.com/en-GB/releases/nissan-unveils-all-new-all-electric-juke-advancing-its-european-electrification-strategy",
+       "credit": "Nissan press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [
       {
        "url": "https://en.wikipedia.org/wiki/Nissan_Juke",

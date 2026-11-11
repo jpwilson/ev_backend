@@ -8,6 +8,12 @@
   "founded": 1986,
   "parent_group": "Honda",
   "website_url": "https://www.acura.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/acura.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Acura_logo.svg",
+   "credit": "Basavarajtalwar (Wikimedia Commons)",
+   "license": "Public domain"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

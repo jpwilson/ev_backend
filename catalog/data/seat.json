@@ -8,6 +8,12 @@
   "founded": 1950,
   "parent_group": "Volkswagen Group",
   "website_url": "https://www.seat.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/seat.svg",
+   "page_url": "https://www.seat.com/",
+   "credit": "SEAT",
+   "license": "Trademark of SEAT S.A.; used to identify the brand"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

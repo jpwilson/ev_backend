@@ -29,7 +29,13 @@
         "url": "https://en.wikipedia.org/wiki/Detroit_Electric",
         "name": "Wikipedia: Detroit Electric"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/detroit-electric.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:DE_logo_black.png",
+      "credit": "Michelletang118 (Wikimedia Commons)",
+      "license": "CC BY-SA 3.0"
+    }
   },
   "models": [
     {

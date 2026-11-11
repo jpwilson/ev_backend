@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/Changan_Automobile",
         "name": "Wikipedia: Changan Automobile"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/changan.svg",
+      "page_url": "https://en.wikipedia.org/wiki/File:Changan_Automobile_Logo.svg",
+      "credit": "Changan Automobile, via English Wikipedia",
+      "license": "Public domain in the US (simple text and shapes); trademark"
+    }
   },
   "models": [
     {

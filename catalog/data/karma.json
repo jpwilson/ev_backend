@@ -8,6 +8,12 @@
     "founded": 2014,
     "parent_group": null,
     "website_url": "https://www.karmaautomotive.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/karma.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Karma_Automomotive_logo_2021.svg",
+      "credit": "Karma Automotive (via Wikimedia Commons)",
+      "license": "Public domain (Wikimedia Commons); trademark of Karma Automotive"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,

@@ -12,6 +12,12 @@
   "status_date": null,
   "status_details": null,
   "description": "Export-focused crossover brand of China's Chery, sold alongside sister brand Jaecoo ('Omoda & Jaecoo') in the UK from 2024, Spain, Italy, Australia and elsewhere. Its battery-electric model is the E5 (C5 EV).",
+  "logo": {
+   "file_url": "/pub_assets/logos/omoda.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Omoda_wordmark.svg",
+   "credit": "Chery (Omoda)",
+   "license": "Public domain (trademarked)"
+  },
   "sources": [
    {
     "fields": [

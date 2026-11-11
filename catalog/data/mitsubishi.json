@@ -8,6 +8,12 @@
   "founded": 1970,
   "parent_group": null,
   "website_url": "https://www.mitsubishi-motors.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/mitsubishi.png",
+   "page_url": "https://www.mitsubishi-motors-pr.ca/",
+   "credit": "Mitsubishi Motors",
+   "license": "Trademark of Mitsubishi Motors; used to identify the brand"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,
@@ -816,7 +822,17 @@
      "end_year": null,
      "status": "current",
      "description": "Shares the Leaf's 160 kW front motor; EPA range 282 miles.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mitsubishi-eclipse-sportback-2027.jpg",
+       "page_url": "https://www.mitsubishi-motors-pr.ca/?p=241989",
+       "credit": "Mitsubishi Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [
       {
        "url": "https://www.automotiveworld.com/news/mitsubishi-brings-back-eclipse-as-all-electric-sportback/",
@@ -939,7 +955,17 @@
      "end_year": null,
      "status": "upcoming",
      "description": "57.7 kWh LFP battery, rear-drive or dual-motor AWD, 134 kW DC charging.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mitsubishi-asx-vr-e-2026.jpg",
+       "page_url": "https://www.mitsubishi-motors.com.au/coming-soon/all-new-asx-vr-e.html",
+       "credit": "Mitsubishi Motors Australia press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [
       {
        "url": "https://en.wikipedia.org/wiki/Foxtron_Bria",

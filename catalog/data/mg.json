@@ -21,7 +21,13 @@
     "url": "https://en.wikipedia.org/wiki/MG_Motor",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/mg.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:MG_Motor_2021_logo.svg",
+   "credit": "SAIC Motor",
+   "license": "Public domain (Wikimedia Commons); trademark of SAIC Motor"
+  }
  },
  "models": [
   {
@@ -2047,7 +2053,17 @@
      "end_year": null,
      "status": "current",
      "description": "Indian version of the Baojun Yunduo, assembled at Halol; the Pro with a 52.9 kWh pack was added in May 2025.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-windsor-ev-2024.jpg",
+       "page_url": "https://www.mgmotor.co.in/media-center/newsroom/mg-windsor-indias-1st-intelligent-cuv-starts-from-inr-1349800-ex-showroom",
+       "credit": "MG Motor India press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {
@@ -2190,7 +2206,17 @@
      "end_year": null,
      "status": "current",
      "description": "Indian-market MG Select version of the Maxus Mifa 9 electric MPV, launched 21 July 2025.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-m9-2025.jpg",
+       "page_url": "https://www.mgselect.co.in/m9",
+       "credit": "MG Select (JSW MG Motor India) press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {

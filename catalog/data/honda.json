@@ -12,6 +12,12 @@
   "status_date": null,
   "status_details": null,
   "description": "Japanese carmaker whose battery-electric cars range from the Fit EV and Honda e to the GM-built Prologue, China-built e:N and P7/S7 models, and Japanese kei EVs. In March 2026 it cancelled its North American 0 Series EVs and shifted focus to hybrids.",
+  "logo": {
+   "file_url": "/pub_assets/logos/honda.png",
+   "page_url": "https://www.honda.co.uk/cars.html",
+   "credit": "Honda Motor Co., Ltd.",
+   "license": "Trademark of Honda Motor Co., Ltd.; used to identify the brand"
+  },
   "sources": [
    {
     "fields": [
@@ -567,7 +573,17 @@
      "end_year": 2019,
      "status": "discontinued",
      "description": "Battery-electric member of the Clarity family (alongside the fuel-cell and plug-in hybrid versions), built in Sayama, Japan, with a 25.5 kWh pack.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-clarity-electric-2017.jpg",
+       "page_url": "https://hondanews.com/en-US/honda-automobiles/releases/release-b10e3f441c00424c99ff74a1f0325b4a-2017-honda-clarity-electric-overview",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [
       {
        "fields": [
@@ -1505,7 +1521,17 @@
      "end_year": null,
      "status": "upcoming",
      "description": "Electric fastback sedan previewed by the Ye GT concept, to be built by GAC Honda and Dongfeng Honda.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-gt-2026.jpg",
+       "page_url": "https://global.honda/en/newsroom/news/2025/4250423eng.html",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [
       {
        "fields": [

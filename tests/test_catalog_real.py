@@ -1,6 +1,6 @@
 """The real seed files in catalog/data (whatever exists right now): legacy endpoints
 unchanged, loader idempotent, every catalog page answers."""
-from conftest import added_rows, canonical, load_seeds, row_counts
+from conftest import added_rows, canonical, fill_empty_logos, load_seeds, row_counts
 
 
 def test_real_seed_report(real_db):
@@ -16,6 +16,7 @@ def test_real_legacy_unchanged(real_db):
         code2, body2 = real_db["after_load"][path]
         assert code2 == code, path
         if code == 200:
+            body = fill_empty_logos(path, body, body2)
             assert canonical(path, body2, cars, makes) == canonical(path, body, cars, makes), path
 
 

@@ -8,6 +8,12 @@
     "founded": 2010,
     "parent_group": "BYD Auto",
     "website_url": "https://www.denza.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/denza.png",
+      "page_url": "https://www.denza.com/eu",
+      "credit": "Denza",
+      "license": "Trademark of Denza; used to identify the brand"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,
@@ -731,7 +737,17 @@
           "end_year": null,
           "status": "current",
           "description": "Super e-Platform with a 115 kWh second-generation Blade pack and much more power.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-d9-2026.jpg",
+              "page_url": "https://www.tengshiauto.com/product-detail/D9-2.html",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -1092,7 +1108,17 @@
           "end_year": null,
           "status": "current",
           "description": "Second-generation Blade packs of 102.3 or 122.5 kWh, rear-drive versions and flash charging up to 1100 kW.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-z9-gt-2026.jpg",
+              "page_url": "https://www.tengshiauto.com/product-detail/26-z9gt.html",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -1291,7 +1317,17 @@
           "end_year": null,
           "status": "current",
           "description": "Second-generation Blade packs; single rear motor or three-motor AWD.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-z9s-2026.jpg",
+              "page_url": "https://www.tengshiauto.com/product-detail/Z9S",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -1635,7 +1671,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Second-generation Blade packs of 105.79 or 130.15 kWh (up to 1003 km CLTC), 320 or 370 kW rear drive or 890 kW tri-motor AWD, flash charging.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-n8-2026.jpg",
+              "page_url": "https://www.tengshiauto.com/product-detail/N8.html",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

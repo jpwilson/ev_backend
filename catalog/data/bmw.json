@@ -4521,7 +4521,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Quad-motor layout with a clutch that can disconnect the front motors.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-m3-electric-2028.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/the-beginning-of-a-new-era-fully-electric-bmw-m-models-set-unrivalled-high-performance-standards",
+              "credit": "BMW Group press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": []
         }

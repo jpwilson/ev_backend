@@ -8,7 +8,9 @@ that is rolled back); --apply commits.
 What it writes
 - makes: matched by legacy_id, else slug, else (case-insensitive) name; new makes
   are inserted with their legacy columns filled. Existing makes only get the new
-  columns (slug, status_date, founded, parent_group, catalog_*, sources).
+  columns (slug, status_date, founded, parent_group, catalog_*, sources), plus
+  make.logo.file_url into lrg_logo_img_url when that column is NULL or empty
+  (an existing logo is never replaced).
 - models (002 table, keyed by slug = legacy make_model_slug), model_markets,
   model_relations, generations, images.
 - cars = variants. legacy_ids keep their row id: the first claimed id becomes the
@@ -23,7 +25,8 @@ What it writes
   offerings, images, markets and relations that disappeared from the file are
   removed (legacy rows are only detached, never deleted).
 
-Never writes a legacy column of a pre-existing row. Files that fail validation
+Never writes a legacy column of a pre-existing row, except an empty
+makes.lrg_logo_img_url (filled from make.logo, never replaced). Files that fail validation
 (scripts/catalog/validate_seed.py) or conflict with an earlier file are skipped
 and reported, not fatal. Files starting with "_" are skipped in a directory scan.
 
@@ -201,6 +204,9 @@ class SeedLoader:
             "catalog_headquarters": mk.get("headquarters"), "catalog_website_url": mk.get("website_url"),
             "sources": mk.get("sources") or [],
         }
+        logo = (mk.get("logo") or {}).get("file_url")
+        if logo and row is not None and not (row["lrg_logo_img_url"] or "").strip():
+            values["lrg_logo_img_url"] = logo  # fill an empty logo only; never replace one
         if row is None:
             legacy = {
                 "name": mk["name"], "status": mk["status"], "status_details": mk.get("status_details"),
@@ -208,6 +214,7 @@ class SeedLoader:
                 "country": mk.get("country"), "headquarters": mk.get("headquarters"),
                 "founding_date": str(mk["founded"]) if mk.get("founded") else None,
                 "unionized": False, "catalog_origin": "seed", "catalog_updated_at": self.now,
+                "lrg_logo_img_url": logo,
             }
             data, _ = self.upsert(T.makes, {"slug": mk["slug"]},
                                   {k: v for k, v in values.items() if k != "slug"}, legacy)

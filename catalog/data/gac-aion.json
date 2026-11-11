@@ -8,6 +8,12 @@
     "founded": 2017,
     "parent_group": "GAC Group",
     "website_url": "https://www.aion.com.cn",
+    "logo": {
+      "file_url": "/pub_assets/logos/gac-aion.png",
+      "page_url": "https://www.aion.com.cn/",
+      "credit": "GAC Aion (site header logo from aion.com.cn; recoloured from white to black for a light tile)",
+      "license": "Trademark of GAC Aion New Energy Automobile"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,

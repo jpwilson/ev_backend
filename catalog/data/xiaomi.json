@@ -20,7 +20,13 @@
         "url": "https://en.wikipedia.org/wiki/Xiaomi_Auto",
         "name": "Wikipedia"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/xiaomi.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_Auto_Logo.svg",
+      "credit": "Xiaomi Auto (file downloaded from xiaomiauto.com, the source given on Commons)",
+      "license": "Public domain (PD-textlogo); trademark"
+    }
   },
   "models": [
     {

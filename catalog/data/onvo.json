@@ -20,7 +20,13 @@
         "url": "https://en.wikipedia.org/wiki/Onvo",
         "name": "Wikipedia"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/onvo.svg",
+      "page_url": "https://www.onvo.cn/",
+      "credit": "Onvo (NIO Inc.)",
+      "license": "Trademark of the manufacturer; logo from official site"
+    }
   },
   "models": [
     {

@@ -12,6 +12,12 @@
   "status_date": null,
   "status_details": null,
   "description": "Maserati is an Italian luxury and performance brand founded in Bologna in 1914 and based in Modena, part of Stellantis since 2021. Its electric cars carry the Folgore name: GranTurismo, GranCabrio and Grecale.",
+  "logo": {
+   "file_url": "/pub_assets/logos/maserati.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Maserati_logo_2.svg",
+   "credit": "Maserati",
+   "license": "Public domain (Wikimedia Commons); trademark"
+  },
   "sources": [
    {
     "fields": [

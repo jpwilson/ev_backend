@@ -8,6 +8,12 @@
   "founded": 1955,
   "parent_group": "Renault Group",
   "website_url": "https://www.alpinecars.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/alpine.png",
+   "page_url": "https://www.alpinecars.com/",
+   "credit": "Alpine",
+   "license": "Trademark of Alpine (Renault Group); used to identify the brand"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

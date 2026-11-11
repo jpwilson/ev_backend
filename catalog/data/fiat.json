@@ -21,7 +21,13 @@
     "url": "https://en.wikipedia.org/wiki/Fiat",
     "name": "Wikipedia: Fiat"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/fiat.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:FIAT_logo_(2020).svg",
+   "credit": "FIAT",
+   "license": "Public domain (Wikimedia Commons); trademark of Stellantis"
+  }
  },
  "models": [
   {

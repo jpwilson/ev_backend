@@ -1148,7 +1148,17 @@
      "end_year": null,
      "status": "current",
      "description": "Battery-electric version with a 160 kW front motor and 60.2 or 68.4 kWh LFP packs.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-galaxy-starship-7-2026.jpg",
+       "page_url": "https://www.galaxy-geely.com/e145",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {

@@ -22,7 +22,13 @@
     "url": "https://en.wikipedia.org/wiki/Zeekr",
     "name": "Wikipedia"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/zeekr.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_logo.svg",
+   "credit": "Zeekr",
+   "license": "Public domain (Wikimedia Commons); trademark of Zeekr"
+  }
  },
  "models": [
   {
@@ -2266,7 +2272,17 @@
      "end_year": null,
      "status": "current",
      "description": "2026 model-year facelift: 61 kWh LFP (RWD) and 66 kWh NMC (AWD) packs, peak output 250 to 365 kW, CLTC 512 to 560 km.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/zeekr-x-2025.jpg",
+       "page_url": "https://www.zeekrlife.com/en-au/models/new-zeekr-x",
+       "credit": "Zeekr press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {

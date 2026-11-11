@@ -8,6 +8,12 @@
     "founded": 2024,
     "parent_group": "BAIC Group",
     "website_url": "https://hima.auto/xiangjie/",
+    "logo": {
+      "file_url": "/pub_assets/logos/stelato.svg",
+      "page_url": "https://hima.auto/",
+      "credit": "HIMA (Harmony Intelligent Mobility Alliance) official site",
+      "license": "Trademark of BAIC / Stelato"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,

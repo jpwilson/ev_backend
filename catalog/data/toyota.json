@@ -3684,7 +3684,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "First Toyota three-row EV: 77 or 95.8 kWh packs, FWD or AWD, NACS port. Toyota-estimated ranges only; no EPA rating or price yet.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-highlander-2027.jpg",
+              "page_url": "https://pressroom.toyota.com/vehicle/2028-toyota-highlander/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [
             {
               "fields": [

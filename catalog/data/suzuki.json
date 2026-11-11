@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": null,
     "description": "Japanese maker of small cars and motorcycles, and majority owner of India's Maruti Suzuki. Its first mass-produced battery-electric car is the e Vitara (2025), built in Gujarat, India, and also sold by Toyota as the Urban Cruiser.",
+    "logo": {
+      "file_url": "/pub_assets/logos/suzuki.svg",
+      "page_url": "https://www.globalsuzuki.com/",
+      "credit": "Suzuki Motor Corporation",
+      "license": "Trademark of Suzuki Motor Corporation; used to identify the brand"
+    },
     "sources": [
       {
         "fields": [

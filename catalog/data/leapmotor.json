@@ -12,6 +12,12 @@
   "status_date": null,
   "status_details": null,
   "description": "Hangzhou-based EV maker founded in 2015 by Dahua Technology's founders. Stellantis bought about 20% in 2023 (18.99% after FAW took 5% in December 2025) and runs Leapmotor International (51/49), which sells the T03, C10, B10, B05 and B03X in Europe, the UK and Australia.",
+  "logo": {
+   "file_url": "/pub_assets/logos/leapmotor.svg",
+   "page_url": "https://ir.leapmotor.com/en/",
+   "credit": "Leapmotor",
+   "license": "Trademark of Leapmotor; used to identify the brand"
+  },
   "sources": [
    {
     "fields": [

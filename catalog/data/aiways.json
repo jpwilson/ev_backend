@@ -28,7 +28,13 @@
         "url": "https://en.wikipedia.org/wiki/Aiways",
         "name": "Wikipedia: Aiways"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/aiways.svg",
+      "page_url": "https://ai-ways.eu/",
+      "credit": "Aiways",
+      "license": "Trademark of the manufacturer; logo from official site"
+    }
   },
   "models": [
     {

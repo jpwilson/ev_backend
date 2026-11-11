@@ -12,6 +12,12 @@
     "status_date": null,
     "status_details": "The Texas DeLorean Motor Company still operates as a parts and restoration business, but the Alpha5 EV announced in 2022 had not launched as of 2026, its San Antonio EV arm closed its headquarters in 2024, and designer Italdesign won a $4.6 million judgment for unpaid work in 2026.",
     "description": "DeLorean Motor Company of Texas, founded in 1995 by Stephen Wynne, owns the DeLorean name and services the original DMC-12. In 2022 it revealed the Alpha5, an Italdesign-styled electric four-seat coupe, through its DeLorean Motors Reimagined venture.",
+    "logo": {
+      "file_url": "/pub_assets/logos/delorean.png",
+      "page_url": "https://delorean.com/",
+      "credit": "DeLorean Motor Company",
+      "license": "Trademark of DeLorean Motor Company; used to identify the brand"
+    },
     "sources": [
       {
         "fields": [
@@ -79,7 +85,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Concept/prototype shown at Pebble Beach in August 2022.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/delorean-alpha5-2024.jpg",
+              "page_url": "https://delorean.com/alpha5/",
+              "credit": "DeLorean press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

@@ -8,6 +8,12 @@
     "founded": 1945,
     "parent_group": "Tata Motors (Tata Group)",
     "website_url": "https://ev.tatamotors.com",
+    "logo": {
+      "file_url": "/pub_assets/logos/tata.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Tata_logo.svg",
+      "credit": "Tata Group",
+      "license": "Public domain (trademarked logo)"
+    },
     "status": "active",
     "status_date": null,
     "status_details": null,
@@ -151,7 +157,17 @@
           "end_year": 2026,
           "status": "discontinued",
           "description": "Private-buyer relaunch with a 26 kWh LFP pack and 55 kW Ziptron motor; ARAI range 306 km, raised to 315 km in a November 2022 update.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/tata-tigor-ev-2021.jpg",
+              "page_url": "https://www.tatamotors.com/press-releases/tata-motors-drives-in-the-all-new-tigor-ev-sedan-with-ziptron-technology/",
+              "credit": "Tata Motors press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -387,7 +403,17 @@
           "end_year": null,
           "status": "current",
           "description": "Facelift unveiled 7 September 2023 with a full-width light bar, 12.3-inch screen and new cabin; a 45 kWh long-range pack followed.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/tata-nexon-ev-2023.jpg",
+              "page_url": "https://www.tatamotors.com/press/gadget-on-wheels-for-the-evolved-launched/",
+              "credit": "Tata Motors press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

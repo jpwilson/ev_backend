@@ -20,7 +20,13 @@
         "url": "https://en.wikipedia.org/wiki/Telo_Trucks",
         "name": "Wikipedia: Telo Trucks"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/telo.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Telo_logo.png",
+      "credit": "Telo Trucks",
+      "license": "Public domain"
+    }
   },
   "models": [
     {

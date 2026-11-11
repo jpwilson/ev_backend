@@ -21,7 +21,13 @@
         "url": "https://en.wikipedia.org/wiki/Avatr_Technology",
         "name": "Wikipedia: Avatr Technology"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/avatr.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Avatr_Technology_logo.svg",
+      "credit": "Avatr Technology",
+      "license": "Public domain (Wikimedia Commons); trademark of Avatr Technology"
+    }
   },
   "models": [
     {
@@ -507,7 +513,17 @@
           "end_year": null,
           "status": "current",
           "description": "Twin rear motors (Taihang 2.0), 98 kWh 6C pack, Huawei ADS 4 with 896-line LiDAR.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/avatr-12-2026.jpg",
+              "page_url": "https://www.avatr.com/12",
+              "credit": "Avatr press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {

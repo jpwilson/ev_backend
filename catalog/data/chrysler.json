@@ -8,6 +8,12 @@
   "founded": 1925,
   "parent_group": "Stellantis",
   "website_url": "https://www.chrysler.com",
+  "logo": {
+   "file_url": "/pub_assets/logos/chrysler.png",
+   "page_url": "https://www.chrysler.com/",
+   "credit": "Chrysler (Stellantis)",
+   "license": "Trademark of FCA US LLC; used to identify the brand"
+  },
   "status": "active",
   "status_date": null,
   "status_details": null,

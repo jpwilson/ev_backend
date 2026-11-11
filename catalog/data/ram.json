@@ -21,7 +21,13 @@
     "url": "https://en.wikipedia.org/wiki/Ram_Trucks",
     "name": "Wikipedia: Ram Trucks"
    }
-  ]
+  ],
+  "logo": {
+   "file_url": "/pub_assets/logos/ram.svg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Ram_Trucks_2025_wordmark.svg",
+   "credit": "FCA US LLC",
+   "license": "Public domain (Wikimedia Commons; trademarked)"
+  }
  },
  "models": [
   {
@@ -77,7 +83,17 @@
      "end_year": null,
      "status": "current",
      "description": "Electric version of the North American ProMaster full-size van, unveiled January 2024 with a 110 kWh battery and a 200 kW front motor; delivery (159-inch, super-high-roof) model first, cargo models later.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/ram-promaster-ev-2024.jpg",
+       "page_url": "https://www.ramtrucks.com/electric/ram-promaster-ev.html",
+       "credit": "Ram press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [
       {
        "fields": [

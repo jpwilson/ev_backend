@@ -23,7 +23,13 @@
         "url": "https://en.wikipedia.org/wiki/Coda_(electric_car)",
         "name": "Wikipedia: Coda (electric car)"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/coda.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Coda_Logo.svg",
+      "credit": "Coda Automotive",
+      "license": "Public domain (Wikimedia Commons); trademark of Coda Automotive"
+    }
   },
   "models": [
     {

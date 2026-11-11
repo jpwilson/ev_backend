@@ -18,7 +18,13 @@
         "url": "https://en.wikipedia.org/wiki/Ineos_Automotive",
         "name": "Wikipedia"
       }
-    ]
+    ],
+    "logo": {
+      "file_url": "/pub_assets/logos/ineos.svg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:INEOS_logo.svg",
+      "credit": "INEOS, via Wikimedia Commons",
+      "license": "Public domain (PD-textlogo); trademark"
+    }
   },
   "models": [
     {
@@ -52,7 +58,17 @@
           "end_year": null,
           "status": "upcoming",
           "description": "Announced but postponed indefinitely; no specifications were published.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/ineos-fusilier-2027.jpg",
+              "page_url": "https://ineosgrenadier.com/en/gb/news/introducing-the-ineos-fusilier",
+              "credit": "INEOS Automotive press image",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
