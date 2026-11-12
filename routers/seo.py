@@ -23,9 +23,8 @@ CANONICAL_HOST = "https://www.evlineup.org"
 
 STATIC_PATHS = ["/", "/about", "/people", "/marketplace", "/advertise", "/privacy", "/terms"]
 
-# Programmatic SEO pages — long-tail comparison + best-of queries are the
-# traffic engine for spec-database sites. Keep in sync with the frontend's
-# src/data/seoPages.ts and api/prerender.js.
+# Programmatic SEO pages. BEST_PATHS is only used by the legacy sitemap below (before the catalog
+# migration); the catalog sitemap lists the indexable lists of services/catalog_lists.py.
 BEST_PATHS = [
     "/best/evs-under-40k",
     "/best/longest-range-evs",
@@ -34,17 +33,20 @@ BEST_PATHS = [
     "/best/3-row-evs",
 ]
 
+# Pinned comparison pairs: THE single list (services/catalog_compare.py selects them first and they are
+# always indexable while both models exist and are not cancelled). Canonical form: the two catalog
+# model slugs in alphabetical order, so every link and sitemap entry is the canonical URL.
 COMPARE_PAIRS = [
-    "tesla-model-3-vs-bmw-i4",
+    "bmw-i4-vs-tesla-model-3",
     "hyundai-ioniq-5-vs-kia-ev6",
-    "tesla-model-y-vs-ford-mustang-mach-e",
+    "ford-mustang-mach-e-vs-tesla-model-y",
     "rivian-r1s-vs-tesla-model-x",
-    "tesla-model-3-vs-hyundai-ioniq-6",
+    "hyundai-ioniq-6-vs-tesla-model-3",
     "ford-f150-lightning-vs-tesla-cybertruck",
     "chevrolet-equinox-ev-vs-tesla-model-y",
     "kia-ev9-vs-rivian-r1s",
-    "tesla-model-y-vs-hyundai-ioniq-5",
-    "rivian-r1t-vs-ford-f150-lightning",
+    "hyundai-ioniq-5-vs-tesla-model-y",
+    "ford-f150-lightning-vs-rivian-r1t",
 ]
 
 

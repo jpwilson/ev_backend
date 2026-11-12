@@ -30,7 +30,9 @@ long arrays are cut to one or two items. Nothing else is changed.
 | Default generation | Newest `current` generation; else newest not `cancelled`; else newest. The model page shows it first; `is_default: true`. Generations are returned newest first. |
 | Caching | Lists: `public, s-maxage=300, stale-while-revalidate=3600`; details and resolve: `s-maxage=600`; `/catalog/makes` and the sitemap: `s-maxage=3600, stale-while-revalidate=86400` (same policies as the legacy GETs). |
 | Not migrated yet | Every `/catalog/*` route returns **503** `{"detail": "Catalog tables are not available yet (migration catalog_02_hierarchy has not been applied)."}` with `Cache-Control: no-store`, `Retry-After: 300`. Treat 503 as "fall back to the legacy page", never as 404. |
-| Errors | 404 `{"detail": "..."}` for unknown make/model/variant/best key/resolve key and for a generation pair that is not adjacent; 400 for a bad `kind` or a `market` the pair has no offerings in. |
+| Errors | 404 `{"detail": "..."}` for unknown make/model/variant/best key/resolve key, for a generation pair that is not adjacent, and for a comparison of a model with itself; 400 for a bad `kind` or a `market` the pair (or model, for alternatives) has no offerings in. |
+| Indexable | Comparison pages and lists carry `indexable`. Render every page, but when `indexable` is false add `<meta name="robots" content="noindex">`, keep it out of links and the sitemap (the API's link lists already contain only indexable pages). |
+| Whole-catalog endpoints | `/catalog/compare*`, `/catalog/lists`, `/catalog/best/*`, `.../alternatives` and the sitemap read one in-memory snapshot of the whole catalog per process, rebuilt when the data changes (key: newest change + row count of every catalog table). |
 
 ## Endpoints
 
@@ -43,8 +45,12 @@ long arrays are cut to one or two items. Nothing else is changed.
 | `GET /catalog/models/{make}/{model}` | Model page: full tree |
 | `GET /catalog/variants/{make}/{model}/{generation}/{variant}` | Variant page |
 | `GET /catalog/changes/{make}/{model}/{older}/{newer}?market=` | Version-change page: what changed between two adjacent generations |
+| `GET /catalog/models/{make}/{model}/alternatives?market=` | Model-page links: similar cars, indexable comparisons, lists the model is ranked in |
+| `GET /catalog/compare/{a}/{b}?market=` | Model vs model comparison page (either order, legacy slugs accepted) |
+| `GET /catalog/compare-pairs?model=&indexable=` | Every selected comparison pair (the `/compare` hub, links, sitemap) |
 | `GET /catalog/resolve?kind=model\|make\|variant&key=` | Legacy URL → new path |
-| `GET /catalog/best/{key}?limit=` | Best-of lists |
+| `GET /catalog/lists` | The best-list registry with rule, count and `indexable` (the `/best` hub) |
+| `GET /catalog/best/{key}?limit=` | One generated list (any registry key) |
 | `GET /catalog/sitemap.xml` | Sitemap of canonical catalog URLs |
 
 ### `GET /catalog/meta`
@@ -1464,135 +1470,273 @@ Recommended edge cache for the redirect itself: `s-maxage=86400, stale-while-rev
 }
 ```
 
-### `GET /catalog/best/{key}`
+### `GET /catalog/compare/{a}/{b}?market=`
 
-Keys: `evs-under-40k`, `longest-range-evs`, `fastest-evs`, `cheapest-evs`, `3-row-evs`, `electric-trucks`,
-`300-mile-range-evs` (same slugs as `src/data/seoPages.ts`). US only: a model qualifies when its effective
-status and its US market status are `current` (`electric-trucks` also takes `upcoming`, current first), it is
-not commercial and the brand is not defunct. Figures are the card's US headline figures (USD, EPA), so each
-item names its `variant`. The catalog has no review scores, so lists the old site ranked by rating are ranked
-by price (`evs-under-40k`) or EPA range (`3-row-evs`). `unit` is the currency for price lists, `mi` for range,
-`s` for acceleration. Default `limit` 12 (15 for `300-mile-range-evs`), max 100.
+Model vs model, computed once in the backend (`services/catalog_compare.py`); React and the prerenderer only display it.
+`a`/`b` are model `slug`s in either order; legacy slugs resolve through `url_redirects` (`polestar-two`). The
+response `path` is canonical: `/compare/{slugA}-vs-{slugB}`, slugs alphabetical. Redirect (301) when the URL
+differs from `path`. `?market=` switches rows, summary and FAQ inside the page; it is never part of the canonical
+URL or of any link. 404 for an unknown model or the same model twice; 400 for a market not in `markets`.
+
+- **Sides.** Each model is represented by the trims of its default (current) version that are on sale (else
+  upcoming, else any not cancelled). `a`/`b` carry `name` (display name, make included), `make`, `model`,
+  `generation` (with `image` and `description`), `market_status` (the model's status in `market`) and `on_sale_in`.
+- **Rows** use the version-change rules (`services/catalog_changes.py`): two values are compared only inside one
+  group (price = market + currency + basis, range = market + unit + cycle, battery = basis), never converted.
+  Row keys: `entry_price`, `longest_range`, `largest_battery`, `most_power`, `quickest_0_60`, `quickest_0_100`,
+  `top_speed`, `fastest_dc`, `connector`, `drivetrains`, `seats`, `trims` (count of current trims on file, all
+  markets, informational), `model_years` (only when both sides have them). Each side: `value, unit, cycle,
+  market, model_year, price_kind, basis, is_estimate, variant`. `compare.status`: `a_higher | b_higher | equal |
+  not_comparable | missing_a | missing_b` for numbers (`delta` = b minus a, in `unit`), `equal | different` for
+  sets (`only_a`/`only_b` list the differences), `info` for model years. `compare.basis_unknown`: a battery
+  row where neither side states gross/usable (delta shown with the caveat, not counted as comparable).
+  `highlight` (`a`/`b`/`null`) only on comparable rows with a clear direction: lower entry price, longer range,
+  higher DC peak, quicker 0–60 / 0–100. `qualifier` is what holds for both sides (`US, MSRP excluding destination`).
+  `text` is the row as one sentence.
+- **`indexable`** and the default market come from the pair index (below). `quality`: `default_market` (US
+  when both have US offerings, else the market with most comparable facts), `comparable_facts` (in the default
+  market), `has_price`/`has_range` (both sides show one there), `source` (`pinned | twin | successor | same_make |
+  rival`, `null` = not a selected pair), `reason` (why it is or is not indexable), `min_for_indexing`,
+  `comparable_facts_shown` (for the market shown).
+- **`relation`**: `{"kind": "twin" | "successor" | "same_make", "newer": slug of the successor or null}` or `null`.
+- **`summary`**: what the two are (twins / successor / same make / body styles), whether each is on sale in the
+  market, up to three comparable figures ("Figures on file for the US, A vs B: ..."), then a plain sentence for a
+  missing or not comparable price or range. No verdict.
+- **`faq`**: only questions the data answers: which is cheaper (only when currency and basis match), which has
+  more range, which charges faster (DC peak), which is quicker 0–60 (or 0–100), where each is on sale.
+- **`more`**: `{a: [], b: []}`, up to 6 other indexable pairs per model, only on indexable pages.
+  **`lists`**: up to 6 indexable lists either model is shown in, with `a_rank`/`b_rank`.
+- **`notes`**: footer lines (prices as published; excl.-destination prices cost more; DC peak is not a charging
+  time; estimates; which trims and market the figures come from).
 
 ```json
 {
-  "key": "fastest-evs",
-  "title": "Fastest Electric Cars (0-60 mph)",
+  "path": "/compare/tesla-model-3-vs-tesla-model-y",
+  "key": "tesla-model-3-vs-tesla-model-y",
+  "indexable": true,
+  "quality": {"default_market": "US", "comparable_facts": 6, "has_price": true, "has_range": true, "source": "same_make", "reason": "6 comparable figures in the US data", "min_for_indexing": 3, "comparable_facts_shown": 6},
+  "relation": {"kind": "same_make", "newer": null},
+  "a": {"name": "Tesla Model 3", "make": {"slug": "tesla", "name": "Tesla", "path": "/make/tesla", "status": "active", "brand_status": "active", "status_date": null}, "model": {"slug": "tesla-model-3", "name": "Model 3", "path": "/make/tesla/model-3", "status": "current", "body_style": "sedan", "years": {"start": 2017, "end": null}, "official_url": "https://www.tesla.com/model3"}, "generation": {"slug": "2024", "name": "Highland", "path": "/make/tesla/model-3/2024", "years": "2024–present", "status": "current", "image": {"url": "/pub_assets/car_images/tes_m3_std_range.png", "...": "..."}, "description": "..."}, "market_status": "current", "on_sale_in": ["US"]},
+  "b": {"name": "Tesla Model Y", "...": "same shape as a"},
   "market": "US",
-  "metric": "accel",
-  "items": [
-    {
-      "model": {
-        "slug": "lucid-air",
-        "key": "lucid/air",
-        "url_slug": "air",
-        "path": "/make/lucid/air",
-        "name": "Air",
-        "make": {
-          "slug": "lucid",
-          "name": "Lucid",
-          "path": "/make/lucid",
-          "status": "active",
-          "brand_status": "active",
-          "status_date": null
-        },
-        "status": "current",
-        "own_status": "current",
-        "brand_status": "active",
-        "body_style": "sedan",
-        "is_commercial": false,
-        "aliases": [],
-        "years": {
-          "start": 2022,
-          "end": null
-        },
-        "markets": [
-          "EU",
-          "US"
-        ],
-        "default_generation": {
-          "slug": "2022",
-          "name": "First generation",
-          "path": "/make/lucid/air/2022"
-        },
-        "image": {
-          "url": "/pub_assets/car_images/lucid_air.png",
-          "source": "legacy",
-          "page_url": null,
-          "credit": null,
-          "license": null,
-          "view": "front_3q",
-          "alt": "Lucid Air (First generation, 2022), front three-quarter view",
-          "is_primary": true,
-          "width": null,
-          "height": null
-        },
-        "headline_market": "US",
-        "from_price": {
-          "value": 70900,
-          "currency": "USD",
-          "basis": "msrp_excl_destination",
-          "market": "US",
-          "model_year": 2027,
-          "is_estimate": false,
-          "variant": {
-            "id": 370,
-            "slug": "pure-rwd",
-            "name": "Pure RWD",
-            "path": "/make/lucid/air/2022/pure-rwd"
-          }
-        },
-        "max_range": {
-          "value": 520,
-          "unit": "mi",
-          "cycle": "EPA",
-          "market": "US",
-          "model_year": 2022,
-          "is_estimate": false,
-          "variant": {
-            "id": 368,
-            "slug": "dream-edition-range",
-            "name": "Dream Edition Range",
-            "path": "/make/lucid/air/2022/dream-edition-range"
-          }
-        },
-        "quickest_0_60": {
-          "value": 1.89,
-          "unit": "s",
-          "variant": {
-            "id": 8,
-            "slug": "sapphire",
-            "name": "Sapphire",
-            "path": "/make/lucid/air/2022/sapphire"
-          }
-        },
-        "quickest_0_100": null,
-        "variant_count": 8,
-        "market_status": "current"
-      },
-      "value": 1.89,
-      "unit": "s",
-      "variant": {
-        "id": 8,
-        "slug": "sapphire",
-        "name": "Sapphire",
-        "path": "/make/lucid/air/2022/sapphire"
-      },
-      "rank": 1
-    }
+  "markets": ["US"],
+  "summary": [
+    "Both are Tesla models: the Tesla Model 3 is a sedan and the Tesla Model Y is an SUV.",
+    "Both are on sale in the US.",
+    "Figures on file for the US, Tesla Model 3 vs Tesla Model Y: entry price $36,990 vs $39,990 (MSRP excluding destination); longest EPA range 363 mi vs 355 mi; fastest DC charging peak 250 kW vs 250 kW."
   ],
-  "count": 1
+  "rows": [
+    {"key": "entry_price", "label": "Entry price", "kind": "number", "qualifier": "US, MSRP excluding destination", "a": {"value": 36990, "unit": "USD", "cycle": null, "market": "US", "model_year": 2026, "price_kind": "price", "basis": "msrp_excl_destination", "is_estimate": false, "variant": {"slug": "standard-rwd", "name": "Standard RWD", "...": "..."}}, "b": {"value": 39990, "unit": "USD", "cycle": null, "market": "US", "model_year": 2026, "price_kind": "price", "basis": "msrp_excl_destination", "is_estimate": false, "variant": {"slug": "standard-rwd", "name": "Standard RWD", "...": "..."}}, "compare": {"status": "b_higher", "delta": 3000, "unit": "USD", "reason": null}, "highlight": "a", "text": "Entry price (US, MSRP excluding destination): $36,990 (Standard RWD, 2026 model year) for the Tesla Model 3 vs $39,990 (Standard RWD, 2026 model year) for the Tesla Model Y, $3,000 higher for the Tesla Model Y."},
+    {"key": "longest_range", "label": "Longest range", "kind": "number", "qualifier": "US, EPA", "a": {"value": 363, "unit": "mi", "cycle": "EPA", "market": "US", "model_year": 2027, "price_kind": null, "basis": null, "is_estimate": false, "variant": {"slug": "premium-rwd", "name": "Premium RWD (Long Range RWD)", "...": "..."}}, "b": {"value": 355, "unit": "mi", "cycle": "EPA", "market": "US", "model_year": 2027, "price_kind": null, "basis": null, "is_estimate": false, "variant": {"slug": "premium-rwd", "name": "Premium RWD (Long Range RWD)", "...": "..."}}, "compare": {"status": "a_higher", "delta": -8, "unit": "mi", "reason": null}, "highlight": "a", "text": "Longest range (US, EPA): 363 mi (Premium RWD [Long Range RWD], 2027 model year) for the Tesla Model 3 vs 355 mi (Premium RWD [Long Range RWD], 2027 model year) for the Tesla Model Y, 8 mi shorter for the Tesla Model Y."},
+    {"key": "quickest_0_60", "compare": {"status": "b_higher", "delta": 0.4, "unit": "s", "reason": null}, "highlight": "a", "text": "Quickest 0–60 mph: 2.9 s (Performance) for the Tesla Model 3 vs 3.3 s (Performance) for the Tesla Model Y, 0.4 s slower for the Tesla Model Y.", "...": "..."},
+    {"key": "fastest_dc", "compare": {"status": "equal", "delta": 0, "unit": "kW", "reason": null}, "highlight": null, "text": "Fastest DC charging peak: 250 kW for both the Tesla Model 3 (Premium RWD [Long Range RWD]) and the Tesla Model Y (Premium RWD [Long Range RWD]).", "...": "..."},
+    {"key": "connector", "compare": {"status": "equal", "delta": null, "unit": null, "reason": null}, "highlight": null, "text": "Charging connector (US): NACS for both.", "...": "..."}
+  ],
+  "faq": [
+    {"q": "Which is cheaper, the Tesla Model 3 or the Tesla Model Y?", "a": "The Tesla Model 3 has the lower entry price on file in the US: $36,990 (Standard RWD, 2026 model year) vs $39,990 (Standard RWD, 2026 model year) for the Tesla Model Y, both MSRP excluding destination. List prices are as published, not adjusted for inflation. Destination charges are extra."}
+  ],
+  "more": {"a": [{"path": "/compare/bmw-i4-vs-tesla-model-3", "key": "bmw-i4-vs-tesla-model-3", "name": "BMW i4 vs Tesla Model 3", "other": {"slug": "bmw-i4", "name": "BMW i4", "path": "/make/bmw/i4"}}], "b": ["..."]},
+  "lists": [
+    {"key": "cheapest-evs", "title": "Cheapest Electric Cars", "path": "/best/cheapest-evs", "market": "US", "count": 12, "a_rank": 11, "b_rank": null},
+    {"key": "longest-range-evs", "title": "Longest Range Electric Cars", "path": "/best/longest-range-evs", "market": "US", "count": 12, "a_rank": 12, "b_rank": null}
+  ],
+  "notes": [
+    "List prices are as published, not adjusted for inflation.",
+    "Prices marked \"excluding destination\" cost more than shown: the destination charge is extra.",
+    "DC charging figures are the peak power as published, not a charging time.",
+    "Each model is represented by the trims of its current version on sale; prices, ranges and connectors are those on file for the US."
+  ],
+  "sources": [
+    {"url": "https://en.wikipedia.org/wiki/Tesla_Model_3", "name": "Wikipedia: Tesla Model 3", "fields": ["years"]},
+    "..."
+  ],
+  "updated_at": "2026-11-11T14:22:53.159647-06:00"
+}
+```
+
+Unselected pair (still answers, never linked, not in the sitemap):
+`GET /catalog/compare/byd-seagull/tesla-model-3` → `"path": "/compare/byd-seagull-vs-tesla-model-3", "indexable": false,
+"quality": {"default_market": "US", "comparable_facts": 1, "has_price": false, "has_range": false, "source": null,
+"reason": "not a selected pair", ...}, "more": {"a": [], "b": []}`.
+
+Frontend consumers (eeveecars, branch `compare-lists`): `src/pages/ComparePage.tsx` +
+`src/components/catalog/CompareTable.tsx` (React), `buildComparePage` in `api/prerender.js` (crawler HTML, `noindex`
+when `indexable` is false, 301 to `path`); `/compare` hub = `CompareIndexPage.tsx` / `buildCompareIndexPage`
+(`/catalog/compare-pairs?indexable=true`); `/best` hub = `BestIndexPage.tsx` / `buildBestIndexPage` (`/catalog/lists`,
+indexable only); lists = `BestPage.tsx` / `buildBestPage`; model-page card = `AlternativesCard.tsx` and the crawler
+sections from `alternativesHtml`. They only display these fields; nothing is recomputed in the frontend.
+
+#### The pair index (which pairs are indexable)
+
+Built from the whole catalog, deterministic (every step sorted), cached per process per data version.
+Constants at the top of `services/catalog_compare.py`. Sources in priority order:
+
+1. **Pinned**: `routers/seo.py` `COMPARE_PAIRS` (the single list, canonical slug order). Indexable whenever both
+   models exist and are not cancelled (exempt from the facts rule).
+2. **Relations** (`model_relations`): twins (two-way rows deduplicated; both on sale), then successors (successor
+   on sale, predecessor current or discontinued).
+3. **Same make, different body style**: at most `SAME_MAKE_PER_MODEL = 2` per model, nearest entry price first
+   (first market of US, EU, UK, CN where both have a price in its currency).
+4. **Rivals** per market (US, EU, UK, CN): same body style, different make, same currency, entry prices within a
+   ratio of `RIVAL_PRICE_RATIO = 1.3`, both with a range on the market's main cycle; each model's
+   `RIVALS_PER_MODEL = 3` nearest by price. Ordered by market (US first), then price closeness.
+
+Generated pairs need both models on sale (current), not commercial, brand not defunct, default version not
+cancelled. A selected pair is **indexable** when, in its default market, it has at least 3 comparable numeric
+rows and both sides show a price and a range, and it is among the first `MAX_INDEXED_PAIRS = 300` pairs (in the
+order above) that pass. Real data (2026-11-12): 507 selected (pinned 10, twin 43, successor 21, same make 108,
+rival 325), 300 indexable (10, 18, 8, 79, 185); 104 pass the rule but fall beyond the cap (all rivals).
+
+### `GET /catalog/compare-pairs?model=&indexable=`
+
+Every selected pair in priority order. `model` (a slug, legacy slugs resolved) keeps the pairs including it;
+`indexable=true|false` filters. `market` is the default market, `selected_market` the market a rival or
+same-make pair was chosen in. `by_source` counts the whole index (not the filtered list).
+
+```json
+{
+  "count": 6,
+  "cap": 300,
+  "indexed": 300,
+  "by_source": {"pinned": {"selected": 10, "indexable": 10}, "twin": {"selected": 43, "indexable": 18}, "successor": {"selected": 21, "indexable": 8}, "same_make": {"selected": 108, "indexable": 79}, "rival": {"selected": 325, "indexable": 185}},
+  "pairs": [
+    {"path": "/compare/bmw-i4-vs-tesla-model-3", "key": "bmw-i4-vs-tesla-model-3", "name": "BMW i4 vs Tesla Model 3", "a": {"slug": "bmw-i4", "name": "BMW i4", "path": "/make/bmw/i4", "make": {"slug": "bmw", "name": "BMW"}}, "b": {"slug": "tesla-model-3", "name": "Tesla Model 3", "path": "/make/tesla/model-3", "make": {"slug": "tesla", "name": "Tesla"}}, "source": "pinned", "market": "US", "selected_market": null, "comparable_facts": 5, "indexable": true, "reason": "pinned pair"},
+    {"path": "/compare/hyundai-ioniq-6-vs-tesla-model-3", "key": "hyundai-ioniq-6-vs-tesla-model-3", "name": "Hyundai Ioniq 6 vs Tesla Model 3", "a": {"slug": "hyundai-ioniq-6", "name": "Hyundai Ioniq 6", "path": "/make/hyundai/ioniq-6", "make": {"slug": "hyundai", "name": "Hyundai"}}, "b": {"slug": "tesla-model-3", "name": "Tesla Model 3", "path": "/make/tesla/model-3", "make": {"slug": "tesla", "name": "Tesla"}}, "source": "pinned", "market": "US", "selected_market": null, "comparable_facts": 1, "indexable": true, "reason": "pinned pair"},
+    "..."
+  ]
+}
+```
+
+### `GET /catalog/models/{make}/{model}/alternatives?market=`
+
+Separate from the model endpoint so that one stays a single-model load. `markets`: where the model is on sale
+(else where it has offerings), in preference order; the default `market` is the first with a price or range on
+file. `alternatives` (max 6): other models of the same body style on sale in `market` with a lowest published
+price within a ratio of 1.3 (by the main-cycle range when the model has no price there), closest first; each with
+`card`, `price`, `range`, `compare_path` (only when that pair is indexable) and `relation` (`twin`, `successor`,
+`predecessor`, `same_make` or `null`). `rule` states the rule with its numbers (show it). `compare` (max 6): the
+model's indexable pairs. `lists` (max 5): indexable lists it is shown in, with `rank` and `count`.
+400 for a `market` not in `markets`.
+
+```json
+{
+  "model": {"slug": "tesla-model-3", "name": "Tesla Model 3", "path": "/make/tesla/model-3"},
+  "market": "US",
+  "markets": ["US"],
+  "rule": "Other sedans on sale in the US with a lowest published price from $29,524 to $49,894, closest in price first. The Tesla Model 3 starts at $38,380 on file (MSRP including destination, 2027 model year).",
+  "alternatives": [
+    {"card": {"slug": "mercedes-benz-cla-electric", "name": "CLA Electric", "path": "/make/mercedes-benz/cla-electric", "...": "model card, headline market = market"}, "price": {"value": 47950, "currency": "USD", "basis": "msrp_excl_destination", "market": "US", "model_year": 2027, "is_estimate": false, "variant": {"slug": "250-plus", "name": "CLA 250+", "...": "..."}}, "range": {"value": 374, "unit": "mi", "cycle": "EPA", "market": "US", "model_year": 2027, "is_estimate": false, "variant": {"slug": "250-plus", "name": "CLA 250+", "...": "..."}}, "compare_path": "/compare/mercedes-benz-cla-electric-vs-tesla-model-3", "relation": null},
+    "..."
+  ],
+  "compare": [
+    {"path": "/compare/bmw-i4-vs-tesla-model-3", "key": "bmw-i4-vs-tesla-model-3", "name": "BMW i4 vs Tesla Model 3", "source": "pinned", "other": {"slug": "bmw-i4", "name": "BMW i4", "path": "/make/bmw/i4"}},
+    {"path": "/compare/hyundai-ioniq-6-vs-tesla-model-3", "key": "hyundai-ioniq-6-vs-tesla-model-3", "name": "Hyundai Ioniq 6 vs Tesla Model 3", "source": "pinned", "other": {"slug": "hyundai-ioniq-6", "name": "Hyundai Ioniq 6", "path": "/make/hyundai/ioniq-6"}},
+    "..."
+  ],
+  "lists": [
+    {"key": "cheapest-evs", "title": "Cheapest Electric Cars", "path": "/best/cheapest-evs", "rank": 11, "count": 12, "market": "US"},
+    {"key": "longest-range-evs", "title": "Longest Range Electric Cars", "path": "/best/longest-range-evs", "rank": 12, "count": 12, "market": "US"},
+    "..."
+  ]
+}
+```
+
+### `GET /catalog/lists`
+
+The registry of generated lists (`services/catalog_lists.py`, `LISTS`, max `MAX_LISTS = 30`). Each entry:
+`key, path, title, h1, blurb, market (US | UK | EU | CN | null), metric (price_asc | range_desc | accel_asc |
+dc_desc | markets_desc), rule, count (items shown), ranked (all that qualify), indexable, reason, related`.
+
+```json
+{
+  "count": 26,
+  "indexable": 20,
+  "max": 30,
+  "lists": [
+    {"key": "evs-under-40k", "path": "/best/evs-under-40k", "title": "EVs Under $40,000, Ranked by Range", "h1": "Electric cars under $40,000, longest range first", "blurb": "Every electric car on sale in the US with a published price under $40,000, ranked by EPA range, longest first.", "market": "US", "metric": "range_desc", "rule": "Cars on sale in the US with a published price under $40,000, ranked by EPA range, longest first.", "count": 12, "ranked": 14, "indexable": false, "reason": "Top 10 overlaps cheapest-evs by 70%; 70% or more is too close.", "related": [{"key": "cheapest-evs", "path": "/best/cheapest-evs", "title": "Cheapest Electric Cars"}, {"key": "longest-range-evs", "path": "/best/longest-range-evs", "title": "Longest Range Electric Cars"}, {"key": "fastest-evs", "path": "/best/fastest-evs", "title": "Fastest Electric Cars (0-60 mph)"}, {"key": "3-row-evs", "path": "/best/3-row-evs", "title": "Best 3-Row Electric SUVs (6+ Seats)"}]},
+    {"key": "cheapest-evs-uk", "path": "/best/cheapest-evs-uk", "title": "Cheapest Electric Cars in the UK", "h1": "Cheapest electric cars in the UK", "blurb": "Every electric car on sale in the UK, ranked by its lowest published list price, cheapest first.", "market": "UK", "metric": "price_asc", "rule": "Cars on sale in the UK, ranked by lowest current published price in GBP, cheapest first (launch-only and estimated prices are left out).", "count": 15, "ranked": 84, "indexable": true, "reason": "84 ranked.", "related": [{"key": "evs-under-30k-uk", "path": "/best/evs-under-30k-uk", "title": "EVs Under £30,000 in the UK, Ranked by Range"}, {"key": "longest-range-evs-uk", "path": "/best/longest-range-evs-uk", "title": "Longest Range Electric Cars in the UK"}, {"key": "7-seat-evs-uk", "path": "/best/7-seat-evs-uk", "title": "7-Seat Electric Cars in the UK"}, {"key": "cheapest-electric-suvs-uk", "path": "/best/cheapest-electric-suvs-uk", "title": "Cheapest Electric SUVs in the UK"}]},
+    "..."
+  ]
+}
+```
+
+Real data (2026-11-12): 26 lists, 20 indexable. Not indexable: `evs-under-40k`, `300-mile-range-evs`,
+`cheapest-electric-suvs`, `evs-with-nacs` (top 10 overlaps `cheapest-evs` by 70–90%), `electric-trucks`
+(5 pickups on sale with an EPA range), `evs-under-30k` (3 ranked).
+
+### `GET /catalog/best/{key}?limit=`
+
+Any registry key. The 7 original keys keep their URLs and meaning, except two re-rankings so no two lists are
+identical: `evs-under-40k` now ranks by EPA range (longest first) under the ceiling, `300-mile-range-evs` ranks
+cheapest first. `limit` is capped at 25 (no pagination); default is the list's own limit (12 or 15; 25 for
+`evs-not-sold-in-us`).
+
+Rules: one market per list (US lists have no suffix; `-uk`, `-europe`, `-china`; ceilings in local currency;
+`evs-not-sold-in-us` has `market: null`). A model qualifies only when on sale in that market, not commercial,
+brand not defunct; figures come from the current trims of its default version sold there. **Price**: lowest
+current published price in the market's currency, newest model year per trim; launch-only and estimated prices
+are left out; US lists rank incl.- and excl.-destination MSRPs together and label each (`basis`, `qualifier`).
+No price-ranked Europe lists (the country behind an EU price is not recorded). **Range**: the market's main cycle
+only (US EPA mi; EU/UK WLTP km; CN CLTC km). **Acceleration**: 0–60 mph in the US, 0–100 km/h elsewhere.
+**Charging**: highest published DC peak. Cars without the ranking figure are counted in `excluded`, never ranked
+last; `excluded.unknown` lists cars a filter could not be checked for (no price for a ceiling, no seat count, ...).
+`electric-trucks` keeps its old behaviour of listing upcoming pickups after the ranked ones (`status: upcoming`,
+figures are manufacturer estimates).
+
+Gates (`indexable`): at least 6 ranked; a price-ceiling list must differ from the next lower ceiling (same
+market, metric and other filters) by at least 3 models; a list whose top 10 overlaps an indexable
+higher-priority list (earlier in the registry) in the same market by 70% or more is not indexable.
+
+Fields kept: `key, title, market, metric (price | range | accel | dc | markets: the old short form), items
+[{model (card), value, unit, variant, rank}], count`. Added: `path, h1, blurb, ranking (the registry metric),
+rule, ranked, excluded {count, reason, unknown[]}, indexable, reason, related [{key, path, title, market}],
+notes[]`, and per item `name, status, display ("363 mi"), qualifier ("EPA, 2027 model year"), basis, cycle,
+model_year, is_estimate` (`label` on acceleration items, `markets` on `evs-not-sold-in-us`).
+
+```json
+{
+  "key": "evs-under-40k",
+  "path": "/best/evs-under-40k",
+  "title": "EVs Under $40,000, Ranked by Range",
+  "h1": "Electric cars under $40,000, longest range first",
+  "blurb": "Every electric car on sale in the US with a published price under $40,000, ranked by EPA range, longest first.",
+  "market": "US",
+  "metric": "range",
+  "ranking": "range_desc",
+  "rule": "Cars on sale in the US with a published price under $40,000, ranked by EPA range, longest first.",
+  "items": [
+    {"model": {"slug": "tesla-model-3", "path": "/make/tesla/model-3", "name": "Model 3", "...": "the full model card (as before), headline market = the list market"}, "value": 363, "unit": "mi", "variant": {"id": 558, "slug": "premium-rwd", "name": "Premium RWD (Long Range RWD)", "path": "/make/tesla/model-3/2024/premium-rwd"}, "status": "current", "rank": 1, "name": "Tesla Model 3", "display": "363 mi", "qualifier": "EPA, 2027 model year", "basis": null, "cycle": "EPA", "model_year": 2027, "is_estimate": false},
+    "..."
+  ],
+  "count": 12,
+  "ranked": 14,
+  "excluded": {"count": 0, "reason": null, "unknown": ["17 cars on sale in the US have no published price, so we can't tell whether they are under $40,000."]},
+  "indexable": false,
+  "reason": "Top 10 overlaps cheapest-evs by 70%; 70% or more is too close.",
+  "related": [
+    {"key": "cheapest-evs", "path": "/best/cheapest-evs", "title": "Cheapest Electric Cars", "market": "US"},
+    {"key": "longest-range-evs", "path": "/best/longest-range-evs", "title": "Longest Range Electric Cars", "market": "US"},
+    "..."
+  ],
+  "notes": [
+    "Prices are list prices as published, before taxes, fees and incentives; each is labelled with its basis.",
+    "Prices marked \"excluding destination\" cost more than shown: the destination charge is extra.",
+    "Ranges are rated EPA figures as published; real-world range is usually lower in cold weather and at highway speed.",
+    "Figures come from the trims of each model's current version sold in the US."
+  ]
 }
 ```
 
 ### `GET /catalog/sitemap.xml`
 
-Canonical URLs only: static pages (no `/marketplace`), the 7 best lists, curated compare pairs whose models
-exist (alphabetical, canonical form), `/make`, every make (defunct included), every model, every
-non-default generation, every variant, and every **indexable** version-change page
+Canonical URLs only: static pages (no `/marketplace`), `/make`, every make (defunct included), every model,
+every non-default generation, every variant, every **indexable** version-change page
 (`/make/{make}/{model}/changes/{older}-vs-{newer}`, priority 0.6, `lastmod` = newest change of the two
-generations and their variants; non-indexable pairs are never listed). `lastmod` = newest change of the entity and its children; static
-pages have none. Switch the frontend's `/sitemap.xml` rewrite to this endpoint in the same deploy as the new routes.
+generations and their variants), the `/compare` and `/best` hubs (0.7), every **indexable** comparison pair
+(`/compare/{a}-vs-{b}`, 0.6, `lastmod` = newest change of the two models, their default versions and those
+versions' trims) and every **indexable** list (`/best/{key}`, 0.8, no `lastmod`). Non-indexable pages are never
+listed. `lastmod` = newest change of the entity and its children; static pages and hubs have none. Real data
+(2026-11-12): 3,632 URLs (was 3,327: +300 pairs and 20 lists, -10 old pair entries and 7 old list entries, +2 hubs). The frontend's `/sitemap.xml` (`api/sitemap.js`) already proxies the backend `/sitemap.xml`, which serves this catalog sitemap once the catalog is migrated; `api/sitemap.js` no longer adds `/best` URLs of its own.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

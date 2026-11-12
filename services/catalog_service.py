@@ -401,6 +401,46 @@ class Catalog:
         }
 
 
+# ---------------------------------------------------------------- whole-catalog cache
+
+# Row counts are part of the key so a delete (which moves no max(updated_at)) also invalidates.
+_VERSION_SQL = text("""SELECT concat_ws('|', current_database(),
+    (SELECT max(catalog_updated_at)::text || '/' || count(*) FROM makes),
+    (SELECT max(updated_at)::text || '/' || count(*) FROM models),
+    (SELECT max(updated_at)::text || '/' || count(*) FROM generations),
+    (SELECT max(catalog_updated_at)::text || '/' || count(*) FROM cars WHERE generation_id IS NOT NULL),
+    (SELECT max(updated_at)::text || '/' || count(*) FROM variant_markets),
+    (SELECT max(updated_at)::text || '/' || count(*) FROM model_markets),
+    (SELECT max(updated_at)::text || '/' || count(*) FROM images),
+    (SELECT count(*)::text || '/' || coalesce(sum(hashtext(model_id || '-' || related_model_id || relation)), 0)
+       FROM model_relations))""")
+_CACHE: Dict[str, "Catalog"] = {}
+
+
+def data_version(conn) -> str:
+    """Cheap fingerprint of the catalog data (database name, newest change and row count per table)."""
+    return conn.execute(_VERSION_SQL).scalar()
+
+
+def cached_catalog(conn) -> "Catalog":
+    """The whole catalog, loaded once per process per data version. Read-only: callers must not
+    mutate it. Carries `relation_rows` (all model_relations) and `derived`, a memo for values
+    computed from the whole catalog (compare pair index, lists), which dies with it."""
+    version = data_version(conn)
+    cat = _CACHE.get(version)
+    if cat is None:
+        cat = Catalog(conn)
+        r = T.model_relations
+        cat.relation_rows = [dict(x) for x in conn.execute(
+            select(r.c.model_id, r.c.related_model_id, r.c.relation)).mappings()]
+        cat.conn = None   # never reuse a request's connection
+        cat.version = version
+        cat.derived = {}
+        _CACHE.clear()
+        _CACHE[version] = cat
+    return cat
+
+
 # ---------------------------------------------------------------- queries
 
 def meta(conn) -> dict:
@@ -477,86 +517,23 @@ def entity_path(conn, etype: str, eid: int) -> Optional[str]:
 
 # ---------------------------------------------------------------- best lists
 
-BEST = {
-    "evs-under-40k": {"title": "Best EVs Under $40,000", "metric": "price", "max_price": 40000, "order": "asc", "limit": 12},
-    "longest-range-evs": {"title": "Longest Range Electric Cars", "metric": "range", "order": "desc", "limit": 12},
-    "fastest-evs": {"title": "Fastest Electric Cars (0-60 mph)", "metric": "accel", "order": "asc", "limit": 12},
-    "cheapest-evs": {"title": "Cheapest Electric Cars", "metric": "price", "order": "asc", "limit": 12},
-    "3-row-evs": {"title": "Best 3-Row Electric SUVs (6+ Seats)", "metric": "range", "order": "desc",
-                  "min_seats": 6, "limit": 12},
-    "electric-trucks": {"title": "Electric Pickup Trucks", "metric": "range", "order": "desc",
-                        "body_style": "pickup", "include_upcoming": True, "limit": 12},
-    "300-mile-range-evs": {"title": "EVs with 300+ Miles of Range", "metric": "range", "order": "desc",
-                           "min_range": 300, "limit": 15},
-}
-
-
 def best(conn, key: str, limit: Optional[int] = None) -> Optional[dict]:
-    cfg = BEST.get(key)
-    if cfg is None:
-        return None
-    cat = Catalog(conn)
-    allowed = ("current", "upcoming") if cfg.get("include_upcoming") else ("current",)
-    items = []
-    for m in cat.models.values():
-        make = cat.makes[m["make_id"]]
-        if m["is_commercial"] or S.is_brand_defunct(make["catalog_status"]):
-            continue
-        us = cat.markets[m["id"]].get("US")
-        if m["_status"] not in allowed or not us or us["_status"] not in allowed:
-            continue
-        if cfg.get("body_style") and m["body_style"] != cfg["body_style"]:
-            continue
-        if cfg.get("min_seats"):
-            gid = m["_default_gen_id"]
-            seats = [v["seats"] for v in cat.variants_by_gen.get(gid, []) if v["seats"]]
-            if not seats or max(seats) < cfg["min_seats"]:
-                continue
-        card = cat.model_card(m, "US")
-        metric = cfg["metric"]
-        if metric == "price":
-            fact = card["from_price"]
-            if not fact or fact["currency"] != "USD":
-                continue
-            if cfg.get("max_price") and fact["value"] >= cfg["max_price"]:
-                continue
-        elif metric == "range":
-            fact = card["max_range"]
-            if not fact or fact["cycle"] != "EPA":
-                fact = None
-            if fact is None and not cfg.get("include_upcoming"):
-                continue
-            if cfg.get("min_range") and (not fact or fact["value"] < cfg["min_range"]):
-                continue
-        else:
-            fact = card["quickest_0_60"]
-            if not fact:
-                continue
-        items.append({"model": card, "value": fact["value"] if fact else None,
-                      "unit": (fact.get("currency") or fact.get("unit")) if fact else None,
-                      "variant": fact["variant"] if fact else None})
-    big = float("inf")
-    if cfg["order"] == "asc":
-        items.sort(key=lambda i: (i["value"] if i["value"] is not None else big, i["model"]["name"]))
-    else:
-        items.sort(key=lambda i: (-(i["value"] if i["value"] is not None else -big), i["model"]["name"]))
-    if cfg.get("include_upcoming"):
-        items.sort(key=lambda i: 0 if i["model"]["status"] == "current" else 1)
-    n = limit or cfg["limit"]
-    items = items[:n]
-    for i, it in enumerate(items, 1):
-        it["rank"] = i
-    return {"key": key, "title": cfg["title"], "market": "US", "metric": cfg["metric"],
-            "items": items, "count": len(items)}
+    """GET /catalog/best/{key}: any key of the registry in services/catalog_lists.py (None if unknown)."""
+    import services.catalog_lists as L  # imports this module
+    return L.response(cached_catalog(conn), key, limit)
 
 
 # ---------------------------------------------------------------- sitemap
 
 def sitemap_entries(conn):
-    """([(path, lastmod or None, priority)], set of model slugs) for every canonical catalog URL,
-    including indexable version-change pages."""
+    """([(path, lastmod or None, priority)], set of model slugs) for every canonical catalog URL:
+    makes, models, generations, variants, indexable version-change pages, the /compare and /best hubs,
+    indexable comparison pairs (0.6, lastmod = newest change of the two models' current versions) and
+    indexable lists (0.8, no lastmod)."""
     import services.catalog_changes as C  # imports this module
-    cat = Catalog(conn)
+    import services.catalog_compare as CP
+    import services.catalog_lists as L
+    cat = cached_catalog(conn)
     out = [("/make", None, "0.7")]
     for make in sorted(cat.makes.values(), key=lambda k: k["slug"]):
         upd = [make["catalog_updated_at"]] + [m["updated_at"] for m in make["_models"]]
@@ -576,4 +553,12 @@ def sitemap_entries(conn):
         for older, newer in reversed(C.adjacent_pairs(gens)):
             if C.pair_quality(cat, older, newer)["indexable"]:
                 out.append((C.pair_path(cat, m, older, newer), C.pair_updated(cat, older, newer), "0.6"))
+    out.append(("/compare", None, "0.7"))
+    for p in sorted(CP.indexable_pairs(cat), key=lambda p: p["path"]):
+        out.append((p["path"], CP.pair_updated(cat, p["a"], p["b"]), "0.6"))
+    out.append(("/best", None, "0.7"))
+    lists = L.build_all(cat)
+    for cfg in L.LISTS:
+        if lists[cfg["key"]]["indexable"]:
+            out.append((L.path_of(cfg["key"]), None, "0.8"))
     return out, {m["slug"] for m in cat.models.values()}

@@ -638,8 +638,10 @@ def _and(values) -> str:
 
 
 def display_name(make_name: Optional[str], model_name: str) -> str:
-    """'Kia EV6'; a model name that already starts with the make is kept ('Polestar 2')."""
-    if not make_name or _norm(model_name).startswith(_norm(make_name)):
+    """'Kia EV6'; a model name that already starts with the make is kept ('Polestar 2'), and so is one
+    whose first word is the make's first word ('Mercedes-AMG GT 4-Door Coupe' under Mercedes-Benz)."""
+    nm, nk = _norm(model_name), _norm(make_name)
+    if not make_name or nm.startswith(nk) or (nm.split() or [""])[0] == (nk.split() or [None])[0]:
         return model_name
     return "%s %s" % (make_name, model_name)
 
