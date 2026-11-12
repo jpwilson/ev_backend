@@ -182,6 +182,24 @@ async def catalog_variant(make: str, model: str, generation: str, variant: str,
     }
 
 
+@router.get("/changes/{make}/{model}/{older}/{newer}")
+@_guard
+async def catalog_changes(make: str, model: str, older: str, newer: str, db: db_dependency, response: Response,
+                          market: Optional[str] = Query(None, description="one of the pair's `markets`; default chosen by the API")):
+    """What changed between two adjacent generations. Either order is accepted; `path` is canonical (older first)."""
+    import services.catalog_changes as changes
+    cat = svc.Catalog(_conn(db), model_key=(make.lower(), model.lower()))
+    m = next(iter(cat.models.values()), None)
+    pair = changes.find_pair(cat.gens_by_model[m["id"]], older, newer) if m else None
+    if pair is None:
+        raise HTTPException(status_code=404, detail="No version-change page for these generations")
+    mk = market.upper() if market else None
+    if mk and mk not in changes.pair_markets(cat, pair[0], pair[1]):
+        raise HTTPException(status_code=400, detail="No offerings in market %s for these generations" % mk)
+    response.headers["Cache-Control"] = CACHE_DETAIL
+    return changes.changes_page(cat, m, pair[0], pair[1], mk)
+
+
 @router.get("/resolve")
 @_guard
 async def catalog_resolve(db: db_dependency, response: Response,
