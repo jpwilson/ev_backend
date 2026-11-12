@@ -574,11 +574,11 @@
           "description": "Facelift shown at the April 2025 New York show: 74.7 kWh pack, 233 hp (Premium, Limited) or 338 hp (XT trims), 150 kW DC charging, NACS port.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2026_Subaru_Solterra_Premium%2C_front_left%2C_03-15-2026.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Subaru_Solterra_Premium,_front_left,_03-15-2026.jpg",
-              "credit": "MercurySable99",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/subaru-solterra-2026.jpg",
+              "page_url": "https://media.subaru.com/image-gallery.do?method=view&imageGalleryId=570",
+              "credit": "Subaru press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1009,11 +1009,11 @@
           "description": "74.7 kWh pack, 375 hp dual-motor AWD in the US, NACS port, 150 kW DC charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Subaru_E-Outback_Singapore_03052026.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Subaru_E-Outback_Singapore_03052026.jpg",
-              "credit": "Leongyy02",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/subaru-trailseeker-2026.jpg",
+              "page_url": "https://media.subaru.com/image-gallery.do?method=view&imageGalleryId=571",
+              "credit": "Subaru press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1303,11 +1303,11 @@
           "description": "74.7 kWh pack in the US, 221 hp FWD or 338 hp AWD, 150 kW DC charging, NACS port.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Subaru_Uncharted_Auto_Zuerich_2025_DSC_3436.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Subaru_Uncharted_Auto_Zuerich_2025_DSC_3436.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/subaru-uncharted-2026.jpg",
+              "page_url": "https://media.subaru.com/image-gallery.do?method=view&imageGalleryId=605",
+              "credit": "Subaru press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1578,11 +1578,11 @@
           "description": "Shares the Highlander's 77/95.8 kWh packs; Wikipedia lists 420 hp for the Getaway.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2027_Subaru_Getaway.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2027_Subaru_Getaway.jpg",
-              "credit": "BuickCentury04",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/subaru-getaway-2027.jpg",
+              "page_url": "https://media.subaru.com/image-gallery.do?method=view&imageGalleryId=612",
+              "credit": "Subaru press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

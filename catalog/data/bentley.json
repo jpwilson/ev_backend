@@ -95,12 +95,12 @@
      "description": "800-volt platform with a 113 kWh (net) battery and up to 400 kW DC charging.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Bentley_Torcal_Auto_Zuerich_2026_IMG_8651.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Bentley_Torcal_Auto_Zuerich_2026_IMG_8651.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
-       "view": "rear_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/bentley-torcal-2028.jpg",
+       "page_url": "https://www.bentleymedia.com/en/newsitem/1835-the-all-new-bentley-torcal-makes-global-debut",
+       "credit": "Bentley press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
        "verified_by_viewing": true
       }
      ],

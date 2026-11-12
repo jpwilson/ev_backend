@@ -448,11 +448,11 @@
      "description": "Revealed May 2024: new lights and cabin, packs grow to 63 kWh and 84 kWh; US cars (MY2025 on) are built in Georgia with a NACS port. The GT is not in the US 2026 or 2027 price lists.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Kia_EV6_%282024%E2%80%93%29_Rutesheimer_Autoschau_2025_DSC_9204.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV6_(2024%E2%80%93)_Rutesheimer_Autoschau_2025_DSC_9204.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-ev6-2025.jpg",
+       "page_url": "https://www.kiamedia.com/us/en/media/photos/25412",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1350,11 +1350,11 @@
      "description": "Compact crossover on the 400 V version of E-GMP, launched in Korea in July 2024 and Europe in late 2024; AWD and GT versions from 2026, and US sales from model year 2027 (built in Mexico, NACS port).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kia_EV3_GT-Line_Automesse_Ludwigsburg_2025_DSC_2635_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV3_GT-Line_Automesse_Ludwigsburg_2025_DSC_2635_(cropped).jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-ev3-2024.jpg",
+       "page_url": "https://www.kiamedia.com/us/en/media/photos/24508",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

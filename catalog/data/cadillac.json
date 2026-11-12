@@ -1230,13 +1230,13 @@
      "description": "Three-row electric SUV slotting between the Lyriq and Escalade IQ, built in Spring Hill, Tennessee; a China-built version launched in April 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/2026_Cadillac_Vistiq_Sport_900e4_in_Stellar_Black%2C_front_left.jpg",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/cadillac-vistiq-2026.jpg",
+       "page_url": "https://news.cadillac.com/newsroom.detail.html/Pages/news/us/en/2024/nov/1112-vistiq.html",
+       "credit": "Cadillac press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
-       "verified_by_viewing": true,
-       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Cadillac_Vistiq_Sport_900e4_in_Stellar_Black,_front_left.jpg",
-       "credit": "Mr.choppers",
-       "license": "CC BY-SA 4.0"
+       "verified_by_viewing": true
       }
      ],
      "sources": [],

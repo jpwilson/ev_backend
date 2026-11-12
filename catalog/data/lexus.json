@@ -559,11 +559,11 @@
           "description": "2026 update: RZ 350e (221 hp FWD), RZ 450e (308 hp AWD) and RZ 550e F Sport (402 hp) in the US, RZ 500e in Europe, longer range, NACS port and Plug & Charge.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Lexus_RZ_550e_%28XEBM25%29_Auto_Zuerich_2025_DSC_3058.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_RZ_550e_(XEBM25)_Auto_Zuerich_2025_DSC_3058.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/lexus-rz-2026.jpg",
+              "page_url": "https://pressroom.lexus.com/vehicle/2026-lexus-rz/",
+              "credit": "Lexus press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -923,11 +923,11 @@
           "description": "First electric ES: front-drive ES 350e (221 hp in the US) and dual-motor ES 500e (338 hp), NACS port in the US.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Lexus_ES350e_2026_For_Guangzhou_Auto_Show_2025.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_ES350e_2026_For_Guangzhou_Auto_Show_2025.jpg",
-              "credit": "Nissangeniss",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/lexus-es-2026.jpg",
+              "page_url": "https://pressroom.lexus.com/vehicle/2027-lexus-es-electric/",
+              "credit": "Lexus press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1189,11 +1189,11 @@
           "description": "77 or 95.8 kWh packs, standard DIRECT4 dual-motor AWD, 308 hp in the TZ 450e.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lexus_TZ550e_AWD.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Lexus_TZ550e_AWD.jpg",
-              "credit": "TTTNIS",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/lexus-tz-2027.jpg",
+              "page_url": "https://global.toyota/en/newsroom/lexus/44283960.html",
+              "credit": "Lexus press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

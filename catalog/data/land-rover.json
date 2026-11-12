@@ -96,12 +96,12 @@
           "description": "Electric drivetrain added to the L460 Range Rover, which has been sold with petrol, diesel and plug-in hybrid engines since 2022.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Range_Rover_EV_Prototype.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Range_Rover_EV_Prototype.jpg",
-              "credit": "Calreyn88",
-              "license": "CC BY-SA 4.0",
-              "view": "rear_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/land-rover-range-rover-electric-2026.jpg",
+              "page_url": "https://media.jlr.com/range-rover/en-us/news/2026/09/range-rover-electric-new-era-original-luxury-suv",
+              "credit": "Land Rover press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
