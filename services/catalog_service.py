@@ -366,6 +366,11 @@ class Catalog:
                 "make": other.make_mini(other.makes[om["make_id"]]), "status": om["_status"]}})
         return out
 
+    def changes(self, m) -> List[dict]:
+        """Version-change pages of this model (adjacent generation pairs), newest first."""
+        import services.catalog_changes as C  # imports this module
+        return C.model_changes(self, m)
+
     def model_tree(self, m) -> dict:
         make = self.makes[m["make_id"]]
         path = self.model_path(m)
@@ -390,6 +395,7 @@ class Catalog:
             "headline": self.headline(m),
             "default_generation": default["slug"] if default else None,
             "generations": [self.gen_obj(g) for g in gens],
+            "changes": self.changes(m),
             "relations": self.relations(m),
             "updated_at": _iso(max([u for u in updated if u is not None], default=None)),
         }
@@ -547,7 +553,9 @@ def best(conn, key: str, limit: Optional[int] = None) -> Optional[dict]:
 # ---------------------------------------------------------------- sitemap
 
 def sitemap_entries(conn):
-    """([(path, lastmod or None, priority)], set of model slugs) for every canonical catalog URL."""
+    """([(path, lastmod or None, priority)], set of model slugs) for every canonical catalog URL,
+    including indexable version-change pages."""
+    import services.catalog_changes as C  # imports this module
     cat = Catalog(conn)
     out = [("/make", None, "0.7")]
     for make in sorted(cat.makes.values(), key=lambda k: k["slug"]):
@@ -565,4 +573,7 @@ def sitemap_entries(conn):
                 out.append((cat.gen_path(g), max([u for u in gu if u], default=None), "0.6"))
             for v in sorted(vs, key=lambda x: x["variant_slug"] or ""):
                 out.append((cat.variant_path(v), v["catalog_updated_at"], "0.5"))
+        for older, newer in reversed(C.adjacent_pairs(gens)):
+            if C.pair_quality(cat, older, newer)["indexable"]:
+                out.append((C.pair_path(cat, m, older, newer), C.pair_updated(cat, older, newer), "0.6"))
     return out, {m["slug"] for m in cat.models.values()}

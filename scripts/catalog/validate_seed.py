@@ -488,6 +488,9 @@ class FileCheck:
         s = g.get("slug")
         self.slug(s, path + ".slug", GEN_SLUG_RE,
                   "4-digit first year, optional '-suffix', e.g. '2024' or '2024-refresh'")
+        if isinstance(s, str) and (s == "changes" or "-vs-" in s):
+            # /make/{make}/{model}/changes/{older}-vs-{newer} must never collide with a version page
+            self.e(path + ".slug", "generation slug must not be 'changes' or contain '-vs-' (got %r)" % s)
         if isinstance(s, str):
             if s in gen_slugs:
                 self.e(path + ".slug", "duplicate generation slug %r (also at %s)"

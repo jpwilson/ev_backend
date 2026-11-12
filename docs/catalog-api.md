@@ -30,7 +30,7 @@ long arrays are cut to one or two items. Nothing else is changed.
 | Default generation | Newest `current` generation; else newest not `cancelled`; else newest. The model page shows it first; `is_default: true`. Generations are returned newest first. |
 | Caching | Lists: `public, s-maxage=300, stale-while-revalidate=3600`; details and resolve: `s-maxage=600`; `/catalog/makes` and the sitemap: `s-maxage=3600, stale-while-revalidate=86400` (same policies as the legacy GETs). |
 | Not migrated yet | Every `/catalog/*` route returns **503** `{"detail": "Catalog tables are not available yet (migration catalog_02_hierarchy has not been applied)."}` with `Cache-Control: no-store`, `Retry-After: 300`. Treat 503 as "fall back to the legacy page", never as 404. |
-| Errors | 404 `{"detail": "..."}` for unknown make/model/variant/best key/resolve key; 400 for a bad `kind`. |
+| Errors | 404 `{"detail": "..."}` for unknown make/model/variant/best key/resolve key and for a generation pair that is not adjacent; 400 for a bad `kind` or a `market` the pair has no offerings in. |
 
 ## Endpoints
 
@@ -42,6 +42,7 @@ long arrays are cut to one or two items. Nothing else is changed.
 | `GET /catalog/models?market=&status=&make=&body_style=&q=&commercial=&limit=&offset=` | Model cards for browse/home pages |
 | `GET /catalog/models/{make}/{model}` | Model page: full tree |
 | `GET /catalog/variants/{make}/{model}/{generation}/{variant}` | Variant page |
+| `GET /catalog/changes/{make}/{model}/{older}/{newer}?market=` | Version-change page: what changed between two adjacent generations |
 | `GET /catalog/resolve?kind=model\|make\|variant&key=` | Legacy URL → new path |
 | `GET /catalog/best/{key}?limit=` | Best-of lists |
 | `GET /catalog/sitemap.xml` | Sitemap of canonical catalog URLs |
@@ -410,6 +411,9 @@ this one) or `predecessor` (this model replaced the related one), e.g.
 `{"relation": "predecessor", "model": {"slug": "fisker-ocean", "name": "Ocean", "path": "/make/fisker/ocean", "make": {...}, "status": "discontinued"}}`.
 `model.markets[]` gives per-market `status` (effective), `own_status`, `local_name`, `launch`, `end` (partial dates).
 Variants are in the order the researchers listed them (base to top). `updated_at` = newest change in the tree.
+`changes` lists the version-change pages of the model (one per pair of adjacent non-cancelled generations),
+newest pair first: `{path, older{slug,name}, newer{slug,name}, indexable}`. Link only the entries with
+`indexable: true` (see `GET /catalog/changes/...`); a model with one generation has `changes: []`.
 
 ```json
 {
@@ -733,6 +737,14 @@ Variants are in the order the researchers listed them (base to top). `updated_at
       ]
     }
   ],
+  "changes": [
+    {
+      "path": "/make/tesla/model-3/changes/2017-vs-2024",
+      "older": {"slug": "2017", "name": "Original"},
+      "newer": {"slug": "2024", "name": "Highland"},
+      "indexable": true
+    }
+  ],
   "relations": [],
   "updated_at": "2026-11-10T17:25:36.033360-06:00"
 }
@@ -935,6 +947,502 @@ The variant with all offerings, its generation (without other variants), the mod
 }
 ```
 
+### `GET /catalog/changes/{make}/{model}/{older}/{newer}?market=`
+
+What changed between two **adjacent** generations of a model (frontend URL
+`/make/{make}/{model}/changes/{older}-vs-{newer}`). Generations are ordered by start year, then ordinal, then
+slug; cancelled generations are skipped, so only neighbouring non-cancelled generations form a pair.
+Computed in `services/catalog_changes.py` from the same data as the model tree; the frontend only displays it.
+
+- **Order:** either order is accepted. `path` is always the canonical URL (older first, no market); when it
+  differs from the URL the page was requested at, redirect (301) to `path`. A pair that is not adjacent, an
+  unknown generation slug, or the same slug twice → 404.
+- **`market`:** optional; must be one of `markets` (else 400). Without it the API chooses: `US` when both
+  generations have US offerings, else the market with the most comparable facts (ties by `US, EU, UK, CN, CA,
+  JP, KR, AU, IN`); `null` when neither generation has an offering anywhere. `market` affects price, range,
+  connector and model-year rows, and which trims count (trims sold in that market plus trims with no offering
+  anywhere). The canonical page (and `indexable`, `summary` for crawlers) is the default market.
+- **`indexable`** = both generations non-cancelled and at least 3 comparable numeric rows in the default
+  market (`quality.default_market_comparable_facts`). Send `noindex` and do not link the page when false.
+  `quality.comparable_facts` counts the rows for the market actually shown.
+- **`relation`:** `refresh` when the newer generation's `kind` is `refresh`, else `new_generation`.
+- **`older` / `newer`:** generation objects as in the model tree, without `variants`, plus `model_years`
+  (`{market: {from, to}}` from the offerings on file) and `years_text` (`2017–2023`, `2024–present`, `from 2027`).
+- **`rows[]`:** `{key, label, kind, older, newer, change{status, delta, unit, reason}, qualifier, text}`.
+  A row exists only when at least one side has data. Keys in order: `entry_price`, `longest_range`,
+  `largest_battery`, `most_power`, `quickest_0_60`, `quickest_0_100`, `top_speed`, `fastest_dc` (kind `number`),
+  `connector`, `drivetrains`, `seats` (kind `set`, `value` is a list), `trims` (kind `count`, all trims on file
+  in any market; informational, never counted as comparable), `model_years` (kind `span`, `value` like
+  `2017–2023` plus `from`/`to`).
+  - Row side: `value, unit, cycle, market, model_year, price_kind (price|launch), basis, is_estimate,
+    variant{id,slug,name,path}` (the trim the value came from; `null` on set/count/span rows).
+    `unit` is the currency for prices.
+  - `change.status`: `increased | decreased | unchanged` (same comparability group, both values present;
+    `delta` = newer − older in `unit`); `not_comparable` (different currency/price basis, range cycle/unit, or
+    battery basis: both raw values shown, `reason` says why, no delta); `missing_older | missing_newer`
+    ("Not on file for the ..."; never "new"); `changed` for sets (with `added`, `removed`); `info` for
+    `model_years`. `change.basis_unknown: true` on a battery row whose two values both have no stated basis:
+    the delta is shown with `reason` "The source doesn't say whether these are gross or usable." and the row
+    is not counted as comparable.
+  - Comparability groups: price = (market, currency, price_basis), range = (market, unit, cycle), battery =
+    battery_basis. Per trim the newest model year with a value in the chosen group is used; price is `price`,
+    else `launch_price` (`price_kind: "launch"`). Values are never converted.
+  - Upcoming newer generation or an offering with `is_estimate` → `is_estimate: true` ("manufacturer estimate").
+  - `qualifier` = what holds for both sides (`US, MSRP excluding destination`, `US, EPA`, `gross`); `text` =
+    the full templated sentence for the row.
+- **`trims`:** `matched[{older, newer, match, rows}]` (match = `slug`, `name` or `alias`: the text in
+  parentheses on one side equals the other side's name, e.g. `Premium AWD (Long Range AWD)` ↔ `Long Range AWD`;
+  never when both drivetrains are set and differ; at most one match per trim), `only_older[]`, `only_newer[]`
+  (say "only in the {generation}", not "dropped": it may be a rename). Matched `rows` use plain labels
+  (`Price`, `Range`, `Battery`, `Power`, `0–60 mph`, `0–100 km/h`, `Top speed`, `DC charging peak`).
+- **`summary[]`:** sentences. First always "{Make} {Model} {newer} ({years}) is a refresh of / replaced / is
+  the successor to / is the upcoming successor to the {older} ({years})."; then "The {newer} is not on sale
+  yet..." for an upcoming generation; then up to three of the largest comparable changes (relative size) with
+  the market named; then one plain sentence each for a missing or not comparable price and range.
+- **`faq[]`:** `{q, a}`; only questions the data answers: what changed; more range (range comparable); more
+  expensive (price comparable); which model years are which (markets where both have model years on file);
+  charges faster (DC peak comparable). Put them on the page visibly if they go into FAQPage JSON-LD.
+- **`notes[]`:** footer lines: "List prices are as published, not adjusted for inflation." whenever a price
+  row exists, and the estimate note when any value is an estimate.
+- **`sources[]`:** both generations' and their trims' sources, de-duplicated. `updated_at` = newest change of
+  the two generations and their variants.
+
+Tesla Model 3 2017 vs 2024 (trimmed: rows cut to 4 of 14, one matched trim with one row, three FAQ entries,
+one source; image and description arrays shortened):
+
+```json
+{
+  "path": "/make/tesla/model-3/changes/2017-vs-2024",
+  "key": "tesla/model-3/changes/2017-vs-2024",
+  "indexable": true,
+  "quality": {
+    "comparable_facts": 5,
+    "default_market": "US",
+    "default_market_comparable_facts": 5,
+    "min_for_indexing": 3
+  },
+  "make": {
+    "slug": "tesla",
+    "name": "Tesla",
+    "path": "/make/tesla",
+    "status": "active",
+    "brand_status": "active",
+    "status_date": null
+  },
+  "model": {
+    "slug": "tesla-model-3",
+    "name": "Model 3",
+    "path": "/make/tesla/model-3",
+    "official_url": "https://www.tesla.com/model3",
+    "status": "current",
+    "years": {
+      "start": 2017,
+      "end": null
+    }
+  },
+  "relation": "refresh",
+  "older": {
+    "id": 141,
+    "slug": "2017",
+    "key": "tesla/model-3/2017",
+    "path": "/make/tesla/model-3/2017",
+    "name": "Original",
+    "kind": "generation",
+    "ordinal": 1,
+    "code_name": null,
+    "platform": null,
+    "start_year": 2017,
+    "end_year": 2023,
+    "status": "discontinued",
+    "own_status": "discontinued",
+    "description": "The original design, built 2017 to early 2024 in Fremont and Shanghai; Long Range and Performance packs grew to 82 kW...",
+    "is_default": false,
+    "images": [
+      {
+        "url": "/pub_assets/car_images/tes_m3_perf.png",
+        "source": "legacy",
+        "page_url": null,
+        "credit": null,
+        "license": null,
+        "view": "front_3q",
+        "alt": "Tesla Model 3 (Original, 2017), front three-quarter view",
+        "is_primary": true,
+        "width": null,
+        "height": null
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+        "name": "Wikipedia",
+        "fields": [
+          "years"
+        ]
+      }
+    ],
+    "updated_at": "2026-11-10T17:25:36.033360-06:00",
+    "model_years": {
+      "US": {
+        "from": 2017,
+        "to": 2023
+      }
+    },
+    "years_text": "2017–2023"
+  },
+  "newer": {
+    "id": 142,
+    "slug": "2024",
+    "key": "tesla/model-3/2024",
+    "path": "/make/tesla/model-3/2024",
+    "name": "Highland",
+    "kind": "refresh",
+    "ordinal": 1,
+    "code_name": "Highland",
+    "platform": null,
+    "start_year": 2024,
+    "end_year": null,
+    "status": "current",
+    "own_status": "current",
+    "description": "Major refresh with new front and rear styling, a new interior with rear screen, better range and refinement; deliveri...",
+    "is_default": true,
+    "images": [
+      {
+        "url": "/pub_assets/car_images/tes_m3_std_range.png",
+        "source": "legacy",
+        "page_url": null,
+        "credit": null,
+        "license": null,
+        "view": "front_3q",
+        "alt": "Tesla Model 3 (Highland, 2024), front three-quarter view",
+        "is_primary": true,
+        "width": null,
+        "height": null
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+        "name": "Wikipedia",
+        "fields": [
+          "years"
+        ]
+      }
+    ],
+    "updated_at": "2026-11-10T17:25:36.033360-06:00",
+    "model_years": {
+      "US": {
+        "from": 2024,
+        "to": 2027
+      }
+    },
+    "years_text": "2024–present"
+  },
+  "market": "US",
+  "markets": [
+    "US"
+  ],
+  "summary": [
+    "Tesla Model 3 Highland (2024–present) is a refresh of the Original (2017–2023).",
+    "Largest changes on file in the US: the quickest 0–60 mph time went from 3.1 s to 2.9 s; the entry price (MSRP excluding destination) went from $35,000 (2019 model year, launch price) to $36,990 (2026 model year); and the longest EPA range went from 358 mi to 363 mi."
+  ],
+  "rows": [
+    {
+      "key": "entry_price",
+      "label": "Entry price",
+      "kind": "number",
+      "older": {
+        "value": 35000,
+        "unit": "USD",
+        "cycle": null,
+        "market": "US",
+        "model_year": 2019,
+        "price_kind": "launch",
+        "basis": "msrp_excl_destination",
+        "is_estimate": false,
+        "variant": {
+          "id": 553,
+          "slug": "standard-range",
+          "name": "Standard Range RWD",
+          "path": "/make/tesla/model-3/2017/standard-range"
+        }
+      },
+      "newer": {
+        "value": 36990,
+        "unit": "USD",
+        "cycle": null,
+        "market": "US",
+        "model_year": 2026,
+        "price_kind": "price",
+        "basis": "msrp_excl_destination",
+        "is_estimate": false,
+        "variant": {
+          "id": 557,
+          "slug": "standard-rwd",
+          "name": "Standard RWD",
+          "path": "/make/tesla/model-3/2024/standard-rwd"
+        }
+      },
+      "change": {
+        "status": "increased",
+        "delta": 1990,
+        "unit": "USD",
+        "reason": null
+      },
+      "qualifier": "US, MSRP excluding destination",
+      "text": "Entry price (US, MSRP excluding destination): $35,000 (Standard Range RWD, 2019 model year, launch price) in the Original vs $36,990 (Standard RWD, 2026 model year) in the Highland, $1,990 higher."
+    },
+    {
+      "key": "largest_battery",
+      "label": "Largest battery",
+      "kind": "number",
+      "older": {
+        "value": 82.0,
+        "unit": "kWh",
+        "cycle": null,
+        "market": null,
+        "model_year": null,
+        "price_kind": null,
+        "basis": null,
+        "is_estimate": false,
+        "variant": {
+          "id": 24,
+          "slug": "long-range-awd",
+          "name": "Long Range AWD",
+          "path": "/make/tesla/model-3/2017/long-range-awd"
+        }
+      },
+      "newer": {
+        "value": 78.1,
+        "unit": "kWh",
+        "cycle": null,
+        "market": null,
+        "model_year": null,
+        "price_kind": null,
+        "basis": null,
+        "is_estimate": false,
+        "variant": {
+          "id": 558,
+          "slug": "premium-rwd",
+          "name": "Premium RWD (Long Range RWD)",
+          "path": "/make/tesla/model-3/2024/premium-rwd"
+        }
+      },
+      "change": {
+        "status": "decreased",
+        "delta": -3.9,
+        "unit": "kWh",
+        "reason": "The source doesn't say whether these are gross or usable.",
+        "basis_unknown": true
+      },
+      "qualifier": "",
+      "text": "Largest battery: 82 kWh (Long Range AWD) in the Original vs 78.1 kWh (Premium RWD [Long Range RWD]) in the Highland, 3.9 kWh smaller. The source doesn't say whether these are gross or usable."
+    },
+    {
+      "key": "connector",
+      "label": "Charging connector",
+      "kind": "set",
+      "older": {
+        "value": [
+          "NACS"
+        ],
+        "unit": null,
+        "cycle": null,
+        "market": "US",
+        "model_year": null,
+        "price_kind": null,
+        "basis": null,
+        "is_estimate": false,
+        "variant": null
+      },
+      "newer": {
+        "value": [
+          "NACS"
+        ],
+        "unit": null,
+        "cycle": null,
+        "market": "US",
+        "model_year": null,
+        "price_kind": null,
+        "basis": null,
+        "is_estimate": false,
+        "variant": null
+      },
+      "change": {
+        "status": "unchanged",
+        "delta": null,
+        "unit": null,
+        "reason": null
+      },
+      "qualifier": "US",
+      "text": "Charging connector (US): NACS in both."
+    },
+    {
+      "key": "model_years",
+      "label": "Model years on file",
+      "kind": "span",
+      "older": {
+        "value": "2017–2023",
+        "unit": null,
+        "cycle": null,
+        "market": "US",
+        "model_year": null,
+        "price_kind": null,
+        "basis": null,
+        "is_estimate": false,
+        "variant": null,
+        "from": 2017,
+        "to": 2023
+      },
+      "newer": {
+        "value": "2024–2027",
+        "unit": null,
+        "cycle": null,
+        "market": "US",
+        "model_year": null,
+        "price_kind": null,
+        "basis": null,
+        "is_estimate": false,
+        "variant": null,
+        "from": 2024,
+        "to": 2027
+      },
+      "change": {
+        "status": "info",
+        "delta": null,
+        "unit": null,
+        "reason": null
+      },
+      "qualifier": "US",
+      "text": "Model years on file (US): 2017–2023 for the Original; 2024–2027 for the Highland."
+    }
+  ],
+  "trims": {
+    "matched": [
+      {
+        "older": {
+          "id": 4,
+          "slug": "performance",
+          "name": "Performance AWD",
+          "path": "/make/tesla/model-3/2017/performance",
+          "status": "discontinued"
+        },
+        "newer": {
+          "id": 560,
+          "slug": "performance",
+          "name": "Performance",
+          "path": "/make/tesla/model-3/2024/performance",
+          "status": "current"
+        },
+        "match": "slug",
+        "rows": [
+          {
+            "key": "entry_price",
+            "label": "Price",
+            "kind": "number",
+            "older": null,
+            "newer": {
+              "value": 56380,
+              "unit": "USD",
+              "cycle": null,
+              "market": "US",
+              "model_year": 2027,
+              "price_kind": "price",
+              "basis": "msrp_incl_destination",
+              "is_estimate": false,
+              "variant": {
+                "id": 560,
+                "slug": "performance",
+                "name": "Performance",
+                "path": "/make/tesla/model-3/2024/performance"
+              }
+            },
+            "change": {
+              "status": "missing_older",
+              "delta": null,
+              "unit": null,
+              "reason": null
+            },
+            "qualifier": "US, MSRP including destination",
+            "text": "Price (US, MSRP including destination): $56,380 (2027 model year) in the Highland. Not on file for the Original."
+          }
+        ]
+      }
+    ],
+    "only_older": [
+      {
+        "id": 553,
+        "slug": "standard-range",
+        "name": "Standard Range RWD",
+        "path": "/make/tesla/model-3/2017/standard-range",
+        "status": "discontinued"
+      },
+      {
+        "id": 554,
+        "slug": "standard-range-plus",
+        "name": "Standard Range Plus RWD",
+        "path": "/make/tesla/model-3/2017/standard-range-plus",
+        "status": "discontinued"
+      },
+      {
+        "id": 555,
+        "slug": "mid-range",
+        "name": "Mid Range RWD",
+        "path": "/make/tesla/model-3/2017/mid-range",
+        "status": "discontinued"
+      }
+    ],
+    "only_newer": [
+      {
+        "id": 557,
+        "slug": "standard-rwd",
+        "name": "Standard RWD",
+        "path": "/make/tesla/model-3/2024/standard-rwd",
+        "status": "current"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What changed between the Tesla Model 3 Original and the Highland?",
+      "a": "Comparing US data: the quickest 0–60 mph time went from 3.1 s to 2.9 s; the entry price (MSRP excluding destination) went from $35,000 (2019 model year, launch price) to $36,990 (2026 model year); the longest EPA range went from 358 mi to 363 mi; and the highest top speed went from 162 mph to 163 mph. Trims only in the Original: Standard Range RWD, Standard Range Plus RWD, Mid Range RWD. Trims only in the Highland: Standard RWD."
+    },
+    {
+      "q": "Does the Tesla Model 3 Highland have more range than the Original?",
+      "a": "Yes. The longest EPA range on file in the US is 363 mi (Premium RWD [Long Range RWD], 2027 model year) in the Highland vs 358 mi (Long Range AWD, 2023 model year) in the Original."
+    },
+    {
+      "q": "Is the Tesla Model 3 Highland more expensive than the Original?",
+      "a": "Yes. The lowest MSRP excluding destination on file in the US is $36,990 (Standard RWD, 2026 model year) in the Highland vs $35,000 (Standard Range RWD, 2019 model year, launch price) in the Original. List prices are as published, not adjusted for inflation."
+    }
+  ],
+  "notes": [
+    "List prices are as published, not adjusted for inflation."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+      "name": "Wikipedia",
+      "fields": [
+        "years"
+      ]
+    }
+  ],
+  "updated_at": "2026-11-10T17:25:36.033360-06:00"
+}
+```
+
+Kia EV6 2022 vs 2025 with `?market=EU`: the US default has no older US price (`missing_older`); in the EU both
+have `list_incl_vat` EUR prices, so the price is compared:
+
+```json
+{"key": "entry_price", "label": "Entry price", "kind": "number",
+ "older": {"value": 46990, "unit": "EUR", "market": "EU", "model_year": null, "price_kind": "price", "basis": "list_incl_vat", "variant": {"name": "Standard Range RWD", "...": "..."}},
+ "newer": {"value": 44990, "unit": "EUR", "market": "EU", "model_year": null, "price_kind": "price", "basis": "list_incl_vat", "variant": {"name": "Standard Range RWD", "...": "..."}},
+ "change": {"status": "decreased", "delta": -2000, "unit": "EUR", "reason": null},
+ "qualifier": "EU, list price including VAT",
+ "text": "Entry price (EU, list price including VAT): €46,990 (Standard Range RWD) in the First generation vs €44,990 (Standard Range RWD) in the Facelift, €2,000 lower."}
+```
+
 ### `GET /catalog/resolve?kind=&key=`
 
 Maps a legacy URL key to its new path, in one hop. `kind=model` takes the old `/model_detail/{slug}` slug,
@@ -1081,7 +1589,9 @@ by price (`evs-under-40k`) or EPA range (`3-row-evs`). `unit` is the currency fo
 
 Canonical URLs only: static pages (no `/marketplace`), the 7 best lists, curated compare pairs whose models
 exist (alphabetical, canonical form), `/make`, every make (defunct included), every model, every
-non-default generation and every variant. `lastmod` = newest change of the entity and its children; static
+non-default generation, every variant, and every **indexable** version-change page
+(`/make/{make}/{model}/changes/{older}-vs-{newer}`, priority 0.6, `lastmod` = newest change of the two
+generations and their variants; non-indexable pairs are never listed). `lastmod` = newest change of the entity and its children; static
 pages have none. Switch the frontend's `/sitemap.xml` rewrite to this endpoint in the same deploy as the new routes.
 
 ```xml
