@@ -101,11 +101,11 @@
           "description": "Series car with a steel-aluminium unibody, 12.5 kW rear motor and 6, 10.5 or 14 kWh packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Micro_Microlino_Pioneer_Series_Rasant_Automobilmesse_Metzingen_2024_IMG_2235.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Micro_Microlino_Pioneer_Series_Rasant_Automobilmesse_Metzingen_2024_IMG_2235.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/microlino-microlino-2022.jpg",
+              "page_url": "https://microlino-car.com/en-us/microlino",
+              "credit": "Microlino press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

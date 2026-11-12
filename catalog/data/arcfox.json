@@ -69,11 +69,11 @@
           "description": "159 kW front motor; 41.7-42.3 kWh packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Arcfox_%CE%B2S3_007.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_%CE%B2S3_007.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-beta-s3-2026.jpg",
+              "page_url": "https://www.arcfox.com.cn/S3/index.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -166,11 +166,11 @@
           "description": "Front motor of 70 or 94 kW with a 33.4 or 42.3 kWh LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Arcfox_T1_010.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_T1_010.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-beta-t1-2025.jpg",
+              "page_url": "https://www.arcfox.com.cn/T1/index.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -327,11 +327,11 @@
           "description": "185-200 kW front motor or 523 hp dual motor; 65-79 kWh CATL packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/%28CHN-Shanghai%29_Showcar_Arcfox_%CE%B1S5_No-plate_2024-12-17.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Shanghai)_Showcar_Arcfox_%CE%B1S5_No-plate_2024-12-17.jpg",
-              "credit": "S5A-0043",
-              "license": "CC BY 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-alpha-s5-2024.jpg",
+              "page_url": "https://www.arcfox.com.cn/e.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -553,11 +553,11 @@
           "description": "March 2026 facelift; from MY2027 rear-wheel drive only (200 or 227 kW).",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Arcfox_%CE%B1S5_facelift_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_%CE%B1S5_facelift_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-alpha-s5-2026.jpg",
+              "page_url": "https://www.arcfox.com.cn/NewS5/index.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -714,12 +714,12 @@
           "description": "Front motor of 185 or 200 kW; 64.8, 74.4 or 79.2 kWh CATL packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%28CHN-Shanghai%29_Showcar_Arcfox_%CE%B1T5_No-plate_2024-12-17.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Shanghai)_Showcar_Arcfox_%CE%B1T5_No-plate_2024-12-17.jpg",
-              "credit": "S5A-0043",
-              "license": "CC BY 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-alpha-t5-2023.jpg",
+              "page_url": "https://www.arcfox.com.cn/e.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front",
               "verified_by_viewing": true
             }
           ],
@@ -842,11 +842,11 @@
           "description": "Range-extender added; BEV ranges raised.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Arcfox_%CE%B1T5_facelift_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_%CE%B1T5_facelift_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-alpha-t5-2025.jpg",
+              "page_url": "https://www.arcfox.com.cn/T5/index.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -909,11 +909,11 @@
           "description": "67.3 or 93.6 kWh packs; 218 hp FWD, 435 hp AWD or 643 hp (Huawei HI).",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Arcfox_%CE%B1-S_IMG001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_%CE%B1-S_IMG001.jpg",
-              "credit": "Zotyefan",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-alpha-s6-2021.jpg",
+              "page_url": "https://www.arcfox.com.cn/e.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1056,11 +1056,11 @@
           "description": "67.3 or 93.6 kWh packs; 218 hp single motor or 435 hp dual motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Arcfox_Alpha-T_2022022101.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_Alpha-T_2022022101.jpg",
-              "credit": "Evnerd",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-alpha-t6-2020.jpg",
+              "page_url": "https://www.arcfox.com.cn/e.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1201,11 +1201,11 @@
           "description": "305 hp rear motor with a 75.4 or 84.8 kWh CATL LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Arcfox_%CE%B1T7_006.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_%CE%B1T7_006.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-alpha-t7-2026.jpg",
+              "page_url": "https://www.arcfox.com.cn/T7/index.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1360,11 +1360,11 @@
           "description": "163 hp front motor and 58.9 kWh CATL LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Arcfox_Kaola_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Arcfox_Kaola_005.jpg",
-              "credit": "Quzhouliulian",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/arcfox-kaola-2023.jpg",
+              "page_url": "https://www.arcfox.com.cn/kaolaS/index.html",
+              "credit": "Arcfox press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

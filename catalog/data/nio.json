@@ -456,11 +456,11 @@
           "description": "Larger 5.28 m body on the 900-volt NT 3.0 platform shared with the ET9, a 102 kWh pack and 520 kW dual motors; launched 20 September 2025.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Nio_ES8_III_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ES8_III_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-es8-2025.jpg",
+              "page_url": "https://www.nio.com/es8",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -810,12 +810,12 @@
           "description": "May 2025 update with ET9-style styling, a landscape 15.6-inch screen and head-up display; powertrain carried over.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Nio_ES6_II_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ES6_II_facelift_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-es6-2025.jpg",
+              "page_url": "https://www.nio.com/es6",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -1135,11 +1135,11 @@
           "description": "May 2025 update with ET9-style interior and landscape screen; powertrain carried over.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Nio_EC6_II_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_EC6_II_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-ec6-2025.jpg",
+              "page_url": "https://www.nio.com/ec6",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1413,11 +1413,11 @@
           "description": "April 2024 update: new rear executive seats and screens, Snapdragon 8295 cockpit, and an LFP 75 kWh pack with 170 kW charging; exterior almost unchanged.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%28CHN-Shanghai%29_Showcar_Nio_ET7_No-plate_2024-11-23.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Shanghai)_Showcar_Nio_ET7_No-plate_2024-11-23.jpg",
-              "credit": "S5A-0043",
-              "license": "CC BY 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-et7-2024.jpg",
+              "page_url": "https://www.nio.com/et7",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1730,11 +1730,11 @@
           "description": "May 2025 update: adaptive headlights, landscape 15.6-inch screen, AR head-up display, Shenji chip; powertrain unchanged.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Nio_ET5_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ET5_facelift_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-et5-2025.jpg",
+              "page_url": "https://www.nio.com/et5",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1975,12 +1975,12 @@
           "description": "May 2025 update shared with the ET5 sedan; adds 1,400 kg towing.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Nio_ET5T_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ET5T_facelift_001.jpg",
-              "credit": "KitsuneDP",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-et5-touring-2025.jpg",
+              "page_url": "https://www.nio.com/et5t",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -2140,11 +2140,11 @@
           "description": "Dual-motor 480 kW SUV with 75 or 100 kWh swappable packs and an optional 2,000 kg tow bar.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/NIO_ES7_IMG003crop.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:NIO_ES7_IMG003crop.jpg",
-              "credit": "Zotyefan",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-es7-2022.jpg",
+              "page_url": "https://www.nio.com/es7",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2277,12 +2277,12 @@
           "description": "180 kW front and 300 kW rear motors with 75 or 100 kWh swappable packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/%28CHN-Guangdong%29_Private_Nio_EC7_%E7%B2%A4BBY61xx_2024-05-25.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Guangdong%29_Private_Nio_EC7_%E7%B2%A4BBY61xx_2024-05-25.jpg",
-              "credit": "S5A-0043",
-              "license": "CC BY 2.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-ec7-2023.jpg",
+              "page_url": "https://www.nio.com/ec7",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -2426,11 +2426,11 @@
           "description": "100 kWh pack with 600 kW charging, 180 kW front and 340 kW rear motors.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Nio_ET9_MY2025_IMG01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ET9_MY2025_IMG01.jpg",
-              "credit": "Poprace",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-et9-2025.jpg",
+              "page_url": "https://www.nio.com/et9",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2545,12 +2545,12 @@
           "description": "102 kWh pack, 925-volt drive with 180 kW front and 340 kW rear motors, active suspension and rear-wheel steering.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nio_ES9_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nio_ES9_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/nio-es9-2026.jpg",
+              "page_url": "https://www.nio.com/es9",
+              "credit": "NIO press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

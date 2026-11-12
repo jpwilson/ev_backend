@@ -78,11 +78,11 @@
           "description": "Launch version on the 1000 V Super e-Platform with a 102.3 kWh second-generation Blade pack and flash charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/BYD_Dahan_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Dahan_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-dahan-2026.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/han/da-han-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -378,11 +378,11 @@
           "description": "April 2022 update with restyled bumpers, larger packs up to 85.44 kWh and a 380 kW AWD version; the 2025 model year (Sept 2024) cut prices and added lidar-based driver assistance.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/BYD_Han_EV_facelift_01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Han_EV_facelift_01.jpg",
-              "credit": "Grahamanthony",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-han-ev-2022.jpg",
+              "page_url": "https://www.byd.com/eu/electric-cars/han",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -741,11 +741,11 @@
           "description": "Launch version on the Super e-Platform with an 83.2 kWh Blade pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/BYD_Han_L_EV_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Han_L_EV_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-han-l-ev-2025.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/han/han-l-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -909,11 +909,11 @@
           "description": "Launch version on e-Platform 3.0 Evo.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/BYD_Qin_L_EV_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Qin_L_EV_003.jpg",
-              "credit": "KitsuneDP",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-qin-l-ev-2025.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/qin/qin-l-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1460,20 +1460,11 @@
           "description": "Launch version on e-Platform 3.0 with cell-to-body Blade packs of 61.4 or 82.5 kWh and an 800 V system.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/2022_BYD_Seal.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2022_BYD_Seal.jpg",
-              "credit": "User3204",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
-              "verified_by_viewing": true
-            },
-            {
-              "source": "legacy",
-              "file_url": "/pub_assets/car_images/byd_seal_flagship.png",
-              "page_url": null,
-              "credit": null,
-              "license": null,
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-seal-2022.jpg",
+              "page_url": "https://www.byd.com/eu/electric-cars/seal",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1929,11 +1920,11 @@
           "description": "Body lengthened by 150 mm to match the Qin Max, new 240 kW rear motor and second-generation Blade packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/BYD_Seal_06_EV_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Seal_06_EV_facelift_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-seal-06-ev-2026.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haibao/27-haibao-06-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2082,12 +2073,12 @@
           "description": "Launch version on e-Platform 3.0 Evo; rear drive or 310 kW dual-motor AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/BYD_Seal_06_GT_006.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Seal_06_GT_006.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-seal-06-gt-2024.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haibao/26-haibao-06-GT",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -2533,11 +2524,11 @@
           "description": "Launch version on an 800 V platform with second-generation Blade packs and flash charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/BYD_Seal_08_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Seal_08_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-seal-08-ev-2026.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haibao/haibao-08-EV",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3284,29 +3275,11 @@
           "description": "Launch version on e-Platform 3.0; 70 to 150 kW front motors and 30.7 to 60.5 kWh Blade packs. The 4290 mm global version arrived in 2023.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/2021_BYD_Dolphin_EV_%28front%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2021_BYD_Dolphin_EV_(front).jpg",
-              "credit": "User3204",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
-              "verified_by_viewing": true
-            },
-            {
-              "source": "legacy",
-              "file_url": "/pub_assets/car_images/byd_dolphin_design.png",
-              "page_url": null,
-              "credit": null,
-              "license": null,
-              "view": "front_3q",
-              "verified_by_viewing": true
-            },
-            {
-              "source": "legacy",
-              "file_url": "/pub_assets/car_images/byd_dolphin_comfort.png",
-              "page_url": null,
-              "credit": null,
-              "license": null,
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-dolphin-2021.jpg",
+              "page_url": "https://www.byd.com/eu/electric-cars/dolphin",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3569,11 +3542,11 @@
           "description": "March 2025 China update: new front and rear (length up 130 mm to 4280 mm), new dashboard and God's Eye C driver assistance as standard.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/BYD_Dolphin_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Dolphin_facelift_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-dolphin-2025.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haitun/2025haitun",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3662,11 +3635,11 @@
           "description": "Front-drive city car on e-Platform 3.0; export versions are longer and more powerful.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/2023_BYD_Seagull_%28front%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2023_BYD_Seagull_(front).jpg",
-              "credit": "User3204",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-seagull-2023.jpg",
+              "page_url": "https://www.byd.com/mx/car/dolphin-mini",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3878,11 +3851,11 @@
           "description": "Grown to 4205 mm with five seats, rear-wheel drive, multi-link rear suspension and flash charging on the larger pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/BYD_Seagull_II_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Seagull_II_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-seagull-2026.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haiou/2-haiou",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -4758,11 +4731,11 @@
           "description": "2025 China facelift with new bumpers and DiPilot; exported from early 2026 as the Atto 3 Evo with a 74.8 kWh pack, rear or all-wheel drive and 220 kW DC charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/BYD_Yuan_Plus_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Yuan_Plus_facelift_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-atto3-2025.jpg",
+              "page_url": "https://www.byd.com/eu/electric-cars/atto-3-evo",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -4894,11 +4867,11 @@
           "description": "All-new rear-drive Yuan Plus for China (May 2026) with second-generation Blade packs, 800 V and flash charging; export name Atto 5.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/BYD_Yuan_Plus_II_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Yuan_Plus_II_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-atto3-2026.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/yuan/3-yuan-plus",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -5076,12 +5049,12 @@
           "description": "Front-drive on e-Platform 3.0; export versions use larger 51 or 64 kWh packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/BYD_Atto_2_IAA_2025_DSC_2131.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Atto_2_IAA_2025_DSC_2131.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-atto-2-2024.jpg",
+              "page_url": "https://www.byd.com/eu/electric-cars/atto-2",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -5947,11 +5920,11 @@
           "description": "June 2023 facelift with the BYD logo; exported as the Seal U EV (Europe) with 71.8 or 87 kWh.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/BYD_Seal_U_EV_DSC_8762.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Seal_U_EV_DSC_8762.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-song-plus-ev-2023.jpg",
+              "page_url": "https://www.byd.com/eu/electric-cars/seal-u",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -6149,11 +6122,11 @@
           "description": "e-Platform 3.0 Evo; rear drive or 380 kW AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/BYD_Song_L_006.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Song_L_006.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-song-l-ev-2023.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/song/song-l-ev-zhijia",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -6366,11 +6339,11 @@
           "description": "Rear-drive launch version.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/BYD_Song_Ultra_%28%E5%AE%8BUltra%29_EV_01_China_2026-04-01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Song_Ultra_(%E5%AE%8BUltra)_EV_01_China_2026-04-01.jpg",
-              "credit": "Navigator84",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-song-ultra-ev-2026.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/song/song-Ultra-EV",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -6653,11 +6626,11 @@
           "description": "Mild restyle, longer body (4620 mm) and flash charging with second-generation Blade packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/BYD_Sealion_05_EV_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Sealion_05_EV_facelift_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-sealion-05-ev-2026.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haishi/new-haishi-05-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -6717,11 +6690,11 @@
           "description": "e-Platform 3.0 Evo; rear drive at launch, dual-motor AWD option.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/BYD_Sealion_06_EV_001_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Sealion_06_EV_001_(cropped).jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-sealion-06-ev-2025.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haishi/haishi-06-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -6945,11 +6918,11 @@
           "description": "China cars use 800 V e-Platform 3.0 Evo; most export cars use 400 V e-Platform 3.0 with different packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/2025_BYD_Sealion_7_Performance_front.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2025_BYD_Sealion_7_Performance_front.jpg",
-              "credit": "LuvsMG481",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-sealion-7-2024.jpg",
+              "page_url": "https://www.byd.com/mx/car/sealion-7-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -7419,11 +7392,11 @@
           "description": "800 V platform with second-generation Blade packs of 92 or 115 kWh.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/BYD_Sealion_08_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Sealion_08_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-sealion-08-ev-2026.jpg",
+              "page_url": "https://www.byd.com/cn/ocean-home/models/haishi/haishi-08-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -7887,11 +7860,11 @@
           "description": "Super e-Platform with a 100.5 kWh Blade pack and 1000 kW peak charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Tang_L_EV_IAA_2025_DSC_2306.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-tang-l-ev-2025.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/tang/tang-l-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -8049,11 +8022,11 @@
           "description": "Second-generation Blade packs up to 130 kWh and flash charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BYD_Datang_004.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BYD_Datang_004.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-datang-2026.jpg",
+              "page_url": "https://www.byd.com/cn/dynasty-home/models/tang/da-tang-ev",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -8460,11 +8433,11 @@
           "description": "Standard Range 55.4 kWh / 120 kW and Extended Range 71.8 kWh / 150 kW.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/2024_BYD_M6_%28front%29%2C_Citraland%2C_West_Surabaya.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_BYD_M6_(front),_Citraland,_West_Surabaya.jpg",
-              "credit": "Alex Neman",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/byd-m6-2024.jpg",
+              "page_url": "https://www.byd.com/id/car/m6",
+              "credit": "BYD press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

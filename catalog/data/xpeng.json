@@ -702,11 +702,11 @@
           "description": "All-new fastback with 800-volt drive, up to 486 kW charging and XPeng's Turing chips; no lidar.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/XPeng_P7_%282nd_generation%29_IAA_2025_DSC_1692.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_P7_%282nd_generation%29_IAA_2025_DSC_1692.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-p7-2025.jpg",
+              "page_url": "https://www.xiaopeng.com/p7n.html",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1079,11 +1079,11 @@
           "description": "Full-width light bar, AR head-up display, Turing chips and 5C packs; launched in China and Europe in January 2026.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/XPeng_P7%2B_%282026%29_IMG_7350.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_P7%2B_%282026%29_IMG_7350.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-p7-plus-2026.jpg",
+              "page_url": "https://www.xpeng.com/model/p7plus",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1468,11 +1468,11 @@
           "description": "New CALB 5C LFP packs (10-80% in 12 minutes), 258 kW rear motor, Turing AI driving without lidar.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/XPeng_G9_%282025%29_IAA_2025_DSC_2054_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G9_%282025%29_IAA_2025_DSC_2054_%28cropped%29.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-g9-2025.jpg",
+              "page_url": "https://www.xiaopeng.com/g9_2026.html",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2042,11 +2042,11 @@
           "description": "81 changes: full-width light bar, 15.6-inch screen, lidar-free Turing AI driving and 5C CALB packs (10-80% in 12 minutes).",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/XPeng_G6_%282025%29_IAA_2025_DSC_2057.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G6_%282025%29_IAA_2025_DSC_2057.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-g6-2025.jpg",
+              "page_url": "https://www.xpeng.com/model/g6",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2673,11 +2673,11 @@
           "description": "Restyled bumpers, rear-wheel steering and up to three Turing chips; 94.8 kWh LFP or 110 kWh NMC.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/XPeng_X9_2026_in_Guangzhou_20260223.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_X9_2026_in_Guangzhou_20260223.jpg",
-              "credit": "Tim Wu",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-x9-2026.jpg",
+              "page_url": "https://www.xpeng.com/model/x9",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2907,12 +2907,12 @@
           "description": "Front motor with FinDreams LFP blade packs; Max trims add XNGP urban driver assistance.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/%28CHN-Hubei%29_Showcar_XPeng_Mona_M03_No-plate_2024-12-03.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Hubei%29_Showcar_XPeng_Mona_M03_No-plate_2024-12-03.jpg",
-              "credit": "S5A-0043",
-              "license": "CC BY 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-mona-m03-2024.jpg",
+              "page_url": "https://www.xiaopeng.com/m03_2026.html",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -3070,11 +3070,11 @@
           "description": "218 kW rear motor with 68.5 or 80.8 kWh 5C LFP packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/XPeng_G7_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G7_001.jpg",
-              "credit": "KitsuneDP",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-g7-2025.jpg",
+              "page_url": "https://www.xiaopeng.com/g7_2026.html",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3249,11 +3249,11 @@
           "description": "Luxshare rear motor with CALB LFP packs; an AWD version is offered in Europe.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/XPeng_MONA_L03_in_Grandview_Mall%2C_Guangzhou_20260712.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_MONA_L03_in_Grandview_Mall%2C_Guangzhou_20260712.jpg",
-              "credit": "Tim Wu",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-mona-l03-2026.jpg",
+              "page_url": "https://www.xpeng.com/model/L03",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3501,11 +3501,11 @@
           "description": "Shares the L03's 246 hp rear motor with 58.2 or 71.1 kWh CALB LFP packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/XPeng_Mona_L05_MY2027_IMG01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_Mona_L05_MY2027_IMG01.jpg",
-              "credit": "Poprace",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-mona-l05-2026.jpg",
+              "page_url": "https://www.xiaopeng.com/l05.html",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3664,12 +3664,12 @@
           "description": "270 kW rear motor; AWD adds a 160 kW front motor. 800-volt, 5C charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/XPeng_G9L_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_G9L_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-g9l-2026.jpg",
+              "page_url": "https://www.xiaopeng.com/g9l.html",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -3801,11 +3801,11 @@
           "description": "SEPA 3.0 platform; 362 hp rear motor, AWD adds a 215 hp front motor; 91.9 kWh LFP or 110 kWh NMC.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/XPeng_GX_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:XPeng_GX_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xpeng-gx-2026.jpg",
+              "page_url": "https://www.xiaopeng.com/gx.html",
+              "credit": "XPeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

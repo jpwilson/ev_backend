@@ -81,11 +81,11 @@
           "description": "288 hp RWD or 489 hp AWD; 62, 82 or 100 kWh CATL packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Luxeed_S7_MY2026_IMG01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Luxeed_S7_MY2026_IMG01.jpg",
-              "credit": "Poprace",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/luxeed-s7-2023.jpg",
+              "page_url": "https://hima.auto/zhijie/s7/",
+              "credit": "Luxeed press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -732,11 +732,11 @@
           "description": "277 kW rear motor; 81 kWh LFP or 100 kWh NMC 'Giant Whale' packs; AWD adds a 160 kW front motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Luxeed_RX_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Luxeed_RX_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/luxeed-rx-2026.jpg",
+              "page_url": "https://hima.auto/zhijie/rx/",
+              "credit": "Luxeed press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

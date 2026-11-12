@@ -89,11 +89,11 @@
      "description": "52 kWh battery, front motor of 130 kW (GT, GT Premium) or 160 kW (GT Performance, GTS), 100 kW DC charging.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/2024_Alpine_A290.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Alpine_A290.jpg",
-       "credit": "Calreyn88",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/alpine-a290-2024.jpg",
+       "page_url": "https://www.alpine-cars.co.uk/electric-models/a290.html",
+       "credit": "Alpine press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -279,11 +279,11 @@
      "description": "Tri-motor all-wheel drive, 89 kWh NMC battery, 295 kW (GT) or 345 kW (GTS).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Alpine_A390_IMG_4939_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Alpine_A390_IMG_4939_(cropped).jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/alpine-a390-2026.jpg",
+       "page_url": "https://www.alpine-cars.co.uk/electric-models/a390.html",
+       "credit": "Alpine press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

@@ -213,12 +213,12 @@
      "description": "September 2024 update: wheelbase stretched 130 mm to 3,140 mm and pack enlarged to 94.5 kWh (Korean rating 475 km). Not sold in the US.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Genesis_Electrified_G80_RG3_EV_PE_Makalu_Gray_%2830%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Genesis_Electrified_G80_RG3_EV_PE_Makalu_Gray_(30).jpg",
-       "credit": "Damian B Oh",
-       "license": "CC BY-SA 4.0",
-       "view": "rear_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/genesis-g80-2024.jpg",
+       "page_url": "https://newsroom.genesis.com/genesis-launches-newly-designed-electrified-g80-in-korea/",
+       "credit": "Genesis press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
        "verified_by_viewing": true
       }
      ],

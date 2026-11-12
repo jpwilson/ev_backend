@@ -211,11 +211,11 @@
           "description": "35.5 kWh pack, 105 kW front motor, about 200 km WLTP / 100 miles EPA.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/2021_Mazda_MX-30_Front.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2021_Mazda_MX-30_Front.jpg",
-              "credit": "Vauxford",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mazda-mx-30-2020.jpg",
+              "page_url": "https://newsroom.mazda.com/ja/publicity/release/2021/202101/210128a.html",
+              "credit": "Mazda press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -411,11 +411,11 @@
           "description": "Rear-wheel drive; LFP packs of 56.1 or 68.8 kWh in China, 68.8 kWh LFP or 80 kWh NMC in Europe.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Mazda6e_IMG_6681.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Mazda6e_IMG_6681.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mazda-6e-2024.jpg",
+              "page_url": "https://mazdamediapacks.com/en/mazda6e/gallery/all-new-mazda6-takumi-images.html",
+              "credit": "Mazda press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -681,12 +681,12 @@
           "description": "Rear-wheel drive; 77.94 kWh LFP in China, 79.97 kWh NMC in Europe.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/2026_Mazda_CX-6e_rear.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Mazda_CX-6e_rear.jpg",
-              "credit": "TTTNIS",
-              "license": "CC0",
-              "view": "rear_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mazda-ez-60-2025.jpg",
+              "page_url": "https://mazdamediapacks.com/en/mazda-cx-6e/gallery/all-new-mazda-cx-6e-takumi.html",
+              "credit": "Mazda press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],

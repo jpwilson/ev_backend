@@ -428,11 +428,11 @@
      "description": "All-new Spring based on the Renault Twingo E-Tech, built in Slovenia: 15 cm wider and 18 cm longer, 27.5 kWh LFP battery, 60 kW motor, optional 50 kW DC. Orders opened September 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2027_Dacia_Spring_Auto_Zuerich_2026_IMG_8582.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2027_Dacia_Spring_Auto_Zuerich_2026_IMG_8582.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/dacia-spring-2026.jpg",
+       "page_url": "https://media.dacia.com/nouvelle-dacia-spring-100-pour-cent-electrique-100-pour-cent-dacia/",
+       "credit": "Dacia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

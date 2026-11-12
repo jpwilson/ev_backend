@@ -160,11 +160,11 @@
           "description": "Restyled front and rear, new interior with swivelling second row, steer-by-wire, rear-wheel steering and a 413 kW drive; sold only as the Home trim.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Li_Auto_Mega_facelift_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_Mega_facelift_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/li-auto-mega-2026.jpg",
+              "page_url": "https://www.lixiang.com/mega",
+              "credit": "Li Auto press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -273,11 +273,11 @@
           "description": "800-volt drive with 5C charging; 150 kW front and 250 kW rear motors.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Li_Auto_i8_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_i8_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/li-auto-i8-2025.jpg",
+              "page_url": "https://www.lixiang.com/i8",
+              "credit": "Li Auto press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -791,12 +791,12 @@
           "description": "Dual-motor 400 kW drive with a 101 kWh NMC pack and 5C charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Li_Auto_i9_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Li_Auto_i9_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/li-auto-i9-2026.jpg",
+              "page_url": "https://www.lixiang.com/i9",
+              "credit": "Li Auto press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

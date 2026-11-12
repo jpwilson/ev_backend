@@ -313,7 +313,17 @@
      "end_year": null,
      "status": "current",
      "description": "2025 update with CATL 77 kWh LFP and 100 kWh NMC packs.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/exeed-sterra-es-2025.jpg",
+       "page_url": "https://www.exeedcars.com/xjy/es_reev/",
+       "credit": "Exeed press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {
@@ -460,11 +470,11 @@
      "description": "Mid-size SUV on sale in China from May 2024 as a BEV and range-extender; renamed EX7 in China in April 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Exeed_Sterra_ET_005.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Exeed_Sterra_ET_005.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/exeed-sterra-et-2024.jpg",
+       "page_url": "https://www.exeedcars.com/xjy/et/",
+       "credit": "Exeed press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -694,11 +704,11 @@
      "description": "Mid-size SUV offered as a BEV and range-extender.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Exeed_ET5_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Exeed_ET5_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/exeed-et5-2025.jpg",
+       "page_url": "https://www.exeedcars.com/xt/enjoyTime5/",
+       "credit": "Exeed press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

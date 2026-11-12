@@ -216,11 +216,11 @@
      "description": "Small five-door city car launched in May 2020; assembled for Europe at Stellantis' Tychy plant in Poland from June 2024 to March 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/2020_Leapmotor_T03_%28front%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2020_Leapmotor_T03_(front).jpg",
-       "credit": "User3204",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/leapmotor-t03-2020.jpg",
+       "page_url": "https://www.leapmotor.net/models/t03",
+       "credit": "Leapmotor press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -930,11 +930,11 @@
      "description": "Mid-size SUV shown at Munich 2023, launched in China in March 2024 and in Europe in September 2024 (also as a range-extender); facelifted in June 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Leapmotor_C10_EV_01_China_2024-03-24.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_C10_EV_01_China_2024-03-24.jpg",
-       "credit": "Navigator84",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/leapmotor-c10-2024.jpg",
+       "page_url": "https://www.leapmotor.net/models/c10",
+       "credit": "Leapmotor press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1292,11 +1292,11 @@
      "description": "Compact SUV launched in April 2025, built in China, Spain (Zaragoza), Indonesia and Malaysia; updated in July 2026 for the 2027 model year.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Leapmotor_B10_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_B10_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/leapmotor-b10-2025.jpg",
+       "page_url": "https://www.leapmotor.net/models/b10",
+       "credit": "Leapmotor press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1744,11 +1744,11 @@
      "description": "Rear-drive compact hatchback launched in China in September 2025; Europe from April 2026, the UK and Australia from July 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Leapmotor_Lafa_5_003.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_Lafa_5_003.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/leapmotor-b05-2025.jpg",
+       "page_url": "https://www.leapmotor.net/models/b05",
+       "credit": "Leapmotor press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1993,11 +1993,11 @@
      "description": "Small SUV on sale in China from March 2026; the export B03X has more power (130-145 kW vs 70-90 kW in China).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Leapmotor_B03X_Leonberg_2026_IMG_8589.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Leapmotor_B03X_Leonberg_2026_IMG_8589.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/leapmotor-a10-2026.jpg",
+       "page_url": "https://www.leapmotor.net/models/b03x",
+       "credit": "Leapmotor press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

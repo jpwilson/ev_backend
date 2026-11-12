@@ -3255,11 +3255,11 @@
           "description": "Revealed January 2025: new xDrive45 / xDrive60 / M70 line-up with larger batteries and up to about 30% more range, plus restyled lights and grille.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/2025_BMW_iX_DSC_2685.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2025_BMW_iX_DSC_2685.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-ix-2026.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/americas/the-new-bmw-ix",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3515,11 +3515,11 @@
           "description": "Launched as the dual-motor xDrive30; front-drive eDrive20 followed in 2023.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/BMW_iX1_xDrive30_%28U11%29_%E2%80%93_f_05052024.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_iX1_xDrive30_(U11)_%E2%80%93_f_05052024.jpg",
-              "credit": "© M 93",
-              "license": "CC BY-SA 3.0 de",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-ix1-2022.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/emea/fr/nouvelles-bmw-x1-et-bmw-ix1",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3685,11 +3685,11 @@
           "description": "Shares the iX1's drivetrains and 64.8 kWh usable battery.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/BMW_iX2_xDrive30_IMG_8425.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:BMW_iX2_xDrive30_IMG_8425.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/bmw-ix2-2024.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/global/the-all-new-bmw-x2-and-the-first-ever-bmw-ix2",
+              "credit": "BMW press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

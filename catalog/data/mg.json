@@ -177,11 +177,11 @@
      "description": "Late-2021 facelift with a closed-off grille, new batteries (51.1 kWh LFP and 72.6 kWh NMC; 50.3 kWh in India) and up to 177 PS.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/MG_ZS_EV_Facelift_1X7A5867.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG_ZS_EV_Facelift_1X7A5867.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-zs-ev-2021.jpg",
+       "page_url": "https://www.mg.co.uk/media-centre/refreshed-zs-ev-join-mg-motor-uk-line",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -489,11 +489,11 @@
      "description": "March 2022 facelift with a new nose and a 135 kW motor; withdrawn from the UK and Europe in early 2025 without a direct replacement, still sold in Thailand (MG EP / MG ES).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/MG_5_EV_%28EP22%29_FL_1X7A0193.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG_5_EV_%28EP22%29_FL_1X7A0193.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-mg5-ev-2022.jpg",
+       "page_url": "https://www.mg.co.uk/media-centre/new-mg5-ev-debuts-goodwood",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -799,11 +799,11 @@
      "description": "Rear-drive hatchback launched in July 2022 (Mulan in China). Chinese production ended in 2025; export production continues, and the UK kept only the Extended Range and XPower after the second generation arrived.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/MG4_EV_IMG_9349_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG4_EV_IMG_9349_(cropped).jpg",
-       "credit": "Alexander-93",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-mg4-2022.jpg",
+       "page_url": "https://www.mg.co.uk/media-centre/all-new-mg4-ev-confirmed-september-debut-new-msp-platform",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1060,11 +1060,11 @@
      "description": "All-new front-drive car on sale in China from September 2025 and in the UK from January 2026 as the MG4 EV Urban, about 150 kg lighter, with LFP or semi-solid-state batteries.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/MG4_EV_%28second_generation%29_IMG_8032.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG4_EV_(second_generation)_IMG_8032.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-mg4-2025.jpg",
+       "page_url": "https://www.mg.co.uk/media-centre/time-get-even-more-mg4-ev-0",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1308,20 +1308,11 @@
      "description": "Two-seat electric roadster with scissor doors, built in Ningde, China, shown at Goodwood in July 2023.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/MG_Cyberster_IAA_2023_1X7A0181.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG_Cyberster_IAA_2023_1X7A0181.jpg",
-       "credit": "Alexander-93",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
-       "verified_by_viewing": true
-      },
-      {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/2024_MG_Cyberster.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_MG_Cyberster.jpg",
-       "credit": "MrWalkr",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-cyberster-2023.jpg",
+       "page_url": "https://www.mg.co.uk/media-centre/mg-cyberster-make-world-debut-goodwood-festival-speed",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1513,11 +1504,11 @@
      "description": "Rear-drive electric compact SUV launched in China as the MG ES5 in November 2024 and in the UK in April 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/MGS5_EV_Automesse_Ludwigsburg_2025_DSC_2557.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MGS5_EV_Automesse_Ludwigsburg_2025_DSC_2557.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-s5-ev-2024.jpg",
+       "page_url": "https://www.mg.co.uk/media-centre/mgs-electrifying-five-star",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1773,11 +1764,11 @@
      "description": "Mid-size electric SUV derived from the Chinese SAIC H5, priced for the UK in November 2025 and on sale in Austria from February 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/MG_S6_EV_IMG_5213.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG_S6_EV_IMG_5213.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-s6-ev-2025.jpg",
+       "page_url": "https://www.mg.co.uk/media-centre/all-new-mgs6-ev-ready-power-electric-driving",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1944,11 +1935,11 @@
      "description": "Indian-market rebadge of the Wuling Air EV, assembled at Halol.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2023_MG_Comet_EV_Plush_%28India%29.png",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2023_MG_Comet_EV_Plush_(India).png",
-       "credit": "News18 Assam/Northeast",
-       "license": "CC BY 3.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-comet-ev-2023.jpg",
+       "page_url": "https://www.mgmotor.co.in/vehicles/comet-ev-electric-car-in-india",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2311,11 +2302,11 @@
      "description": "Fastback sedan launched in China in August 2026 with BEV and PHEV versions; the 845 version uses an 800 V CATL pack.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/MG_07_sedan_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG_07_sedan_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-mg-07-2026.jpg",
+       "page_url": "https://www.saicmg.com/vehicles/sedan/mg07.html",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2528,11 +2519,11 @@
      "description": "Compact electric crossover (4,500 mm) that reached Chinese dealers in May 2026, offered with a semi-solid-state ('liquid-solid') battery.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/MG_4X_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:MG_4X_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mg-4x-2026.jpg",
+       "page_url": "https://www.saicmg.com/vehicles/sedan/mg4x.html",
+       "credit": "MG press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

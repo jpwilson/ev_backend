@@ -1016,11 +1016,11 @@
      "description": "2025 facelift for China, updated again for 2026 with larger LFP and NMC packs.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/IM_L6_facelift_003.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:IM_L6_facelift_003.jpg",
-       "credit": "KitsuneDP",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/im-motors-l6-2025.jpg",
+       "page_url": "https://www.immotors.com/website/l6_detail",
+       "credit": "IM Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1624,11 +1624,11 @@
      "description": "2025 redesign for China, which also added a range-extender (EREV) version (not listed here).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/IM_LS6_2025_facelift_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:IM_LS6_2025_facelift_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/im-motors-ls6-2025.jpg",
+       "page_url": "https://www.immotors.com/website/ls6_detail",
+       "credit": "IM Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1796,11 +1796,11 @@
      "description": "Full-size SUV launched as a range-extender in April 2026; the battery-electric NEO went on sale on 5 November 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/IM_LS8_003.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:IM_LS8_003.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/im-motors-ls8-2026.jpg",
+       "page_url": "https://www.immotors.com/website/ls8_detail",
+       "credit": "IM Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

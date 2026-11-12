@@ -84,11 +84,11 @@
      "description": "Boxy compact SUV unveiled at Auto Shanghai 2023, produced from December 2023; renamed Chery Fulwin X3 in China in August 2025 and exported as the iCaur 03 and Jaecoo J6.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/ICar_03_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:ICar_03_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/icar-icar-03-2023.jpg",
+       "page_url": "https://www.icaur.com.my/models/icaur-03",
+       "credit": "iCar (Chery) press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -235,11 +235,11 @@
      "description": "Retro boxy small SUV that debuted at Auto China 2024, in production from December 2024.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/ICar_V23_005_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:ICar_V23_005_(cropped).jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/icar-v23-2024.jpg",
+       "page_url": "https://www.icaur.com.my/models/icaur-v23",
+       "credit": "iCar (Chery) press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

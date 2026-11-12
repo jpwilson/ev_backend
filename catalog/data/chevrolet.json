@@ -2853,11 +2853,11 @@
           "description": "Rebadged Baojun Yep Plus with an LFP battery and a 75 kW motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/2025_Chevrolet_Spark_EUV_Activ_%28Colombia%29_front_view.png",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Chevrolet_Spark_EUV_Activ_(Colombia)_front_view.png",
-              "credit": "Autosdeprimera",
-              "license": "CC BY 3.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/chevrolet-spark-euv-2025.jpg",
+              "page_url": "https://www.chevrolet.com.br/eletrico/spark-euv",
+              "credit": "Chevrolet press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2935,11 +2935,11 @@
           "description": "Rebadged Wuling Starlight S EV with a 60 kWh LFP pack and a 150 kW front motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Chevrolet_Captiva_EV_F710S_Premier_Laser_Gray_01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Chevrolet_Captiva_EV_F710S_Premier_Laser_Gray_01.jpg",
-              "credit": "Ethan Llamas",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/chevrolet-captiva-ev-2025.jpg",
+              "page_url": "https://www.chevrolet.com.br/eletrico/captiva-ev",
+              "credit": "Chevrolet press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

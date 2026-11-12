@@ -914,11 +914,11 @@
           "description": "Launch generation.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mahindra_XEV_9E.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Mahindra_XEV_9E.jpg",
-              "credit": "Cppfront",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mahindra-xev-9e-2025.jpg",
+              "page_url": "https://www.mahindraelectricsuv.com/esuv/xev-9e.html",
+              "credit": "Mahindra press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

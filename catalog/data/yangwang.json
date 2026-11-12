@@ -79,11 +79,11 @@
           "description": "Four 240 kW motors on the e4 platform and an 80 kWh Blade pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Yangwang_U9_003_%28resized%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Yangwang_U9_003_(resized).jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/yangwang-u9-2024.jpg",
+              "page_url": "https://www.yangwangauto.com/u9-detail-page.html",
+              "credit": "Yangwang (BYD) press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -239,11 +239,11 @@
           "description": "e4 four-motor platform with up to 960 kW and DiSus-Z suspension.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/2024_Yangwang_U7_%28China%29_front_view.png",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_Yangwang_U7_(China)_front_view.png",
-              "credit": "Autosdeprimera",
-              "license": "CC BY 3.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/yangwang-u7-2025.jpg",
+              "page_url": "https://www.yangwangauto.com/u7-detail-page.html",
+              "credit": "Yangwang (BYD) press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

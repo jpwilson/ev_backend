@@ -585,11 +585,11 @@
      "description": "June 2025 facelift with a 126 kW motor and LFP batteries across the range.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Ora_Good_Cat_facelift_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Ora_Good_Cat_facelift_001.jpg",
-       "credit": "KitsuneDP",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/ora-good-cat-2025.jpg",
+       "page_url": "https://www.oraev.com/haomao.html",
+       "credit": "ORA press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -687,11 +687,11 @@
      "description": "Retro (VW Beetle-like) mid-size hatchback, production version of the Punk Cat concept; power rises to 150 kW from 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/2022_Ora_Ballet_Cat.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Ora_Ballet_Cat.jpg",
-       "credit": "User3204",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/ora-ballet-cat-2022.jpg",
+       "page_url": "https://www.oraev.com/ES13.html",
+       "credit": "ORA press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -837,11 +837,11 @@
      "description": "Porsche-styled fastback sedan; a Touring estate version was unveiled in April 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ora_Lightning_Cat_004_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Ora_Lightning_Cat_004_(cropped).jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/ora-lightning-cat-2022.jpg",
+       "page_url": "https://www.oraev.com/EC24.html",
+       "credit": "ORA press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

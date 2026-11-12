@@ -140,12 +140,12 @@
           "description": "Coachbuilt barchetta on the Battista's Rimac drivetrain, limited to ten cars.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Pininfarina_B_95_%282023%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Pininfarina_B_95_(2023).jpg",
-              "credit": "Dobroš",
-              "license": "CC BY-SA 4.0",
-              "view": "front",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/automobili-pininfarina-b95-2025.jpg",
+              "page_url": "https://www.automobili-pininfarina.com/coachbuilt/b95",
+              "credit": "Automobili Pininfarina press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],

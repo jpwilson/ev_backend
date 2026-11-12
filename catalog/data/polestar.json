@@ -1575,11 +1575,11 @@
           "description": "Bonded-aluminium four-door GT with dual motors and 800-volt charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Polestar_5_Auto_Zuerich_2025_DSC_3198.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Polestar_5_Auto_Zuerich_2025_DSC_3198.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/polestar-5-2026.jpg",
+              "page_url": "https://media.polestar.com/models/polestar-5/photos",
+              "credit": "Polestar press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

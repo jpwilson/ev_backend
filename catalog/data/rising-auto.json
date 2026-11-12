@@ -365,11 +365,11 @@
      "description": "Model-year 2025 facelift shown at Auto Guangzhou 2024, with a nose matching the F7.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rising_R7_facelift_003.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Rising_R7_facelift_003.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/rising-auto-r7-2025.jpg",
+       "page_url": "https://www.risingauto.com/r7",
+       "credit": "Rising Auto press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -486,11 +486,11 @@
      "description": "Mid-size electric sedan launched in March 2023.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Rising_Auto_F7_2023072301.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Rising_Auto_F7_2023072301.jpg",
-       "credit": "Evnerd",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/rising-auto-f7-2023.jpg",
+       "page_url": "https://www.risingauto.com/f7",
+       "credit": "Rising Auto press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

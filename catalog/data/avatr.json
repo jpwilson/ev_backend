@@ -74,11 +74,11 @@
           "description": "Huawei dual-motor AWD with a 90.4 or 116.8 kWh CATL NMC pack; single-motor RWD versions added later.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/2022_Avatr_11_%28front%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2022_Avatr_11_(front).jpg",
-              "credit": "User3204",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/avatr-11-2022.jpg",
+              "page_url": "https://www.avatr.com/11",
+              "credit": "Avatr press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -637,11 +637,11 @@
           "description": "82.2 kWh LFP Shenxing pack, 800 V, single or dual motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Avatr_07_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Avatr_07_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/avatr-07-2024.jpg",
+              "page_url": "https://www.avatr.com/07",
+              "credit": "Avatr press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -794,12 +794,12 @@
           "description": "89.3 kWh LFP pack; tri-motor version uses twin rear motors.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Avatr_07L_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Avatr_07L_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/avatr-07l-2026.jpg",
+              "page_url": "https://www.avatr.com/07L",
+              "credit": "Avatr press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -939,11 +939,11 @@
           "description": "Sedan with a 72.9 kWh 800 V LFP pack (75.5 kWh listed from the 2026 update); 06T wagon uses twin rear motors.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Avatr_06_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Avatr_06_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/avatr-06-2025.jpg",
+              "page_url": "https://www.avatr.com/06",
+              "credit": "Avatr press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

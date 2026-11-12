@@ -80,12 +80,12 @@
           "description": "Launch model with a 58 kWh LFP or 80 kWh NMC pack and a single rear motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/2023_Chang%27an_Shenlan_SL03_%28front%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2023_Chang%27an_Shenlan_SL03_(front).jpg",
-              "credit": "User3204",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/deepal-sl03-2022.jpg",
+              "page_url": "https://www.deepal.com.cn/SL03?id=2097987397169487874&name=SL03",
+              "credit": "Deepal press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -228,11 +228,11 @@
           "description": "SL03 body with Huawei tech; 56 kWh BEV at launch, 56 or 62.8 kWh with a 200 kW motor from MY2026.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Deepal_L07_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Deepal_L07_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/deepal-l07-2024.jpg",
+              "page_url": "https://www.deepal.com.cn/L07?id=2097987257549496321&name=L07",
+              "credit": "Deepal press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -442,12 +442,12 @@
           "description": "268 hp rear motor with a 56.1 or 68.8 kWh LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Deepal_L06_011.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Deepal_L06_011.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/deepal-l06-2025.jpg",
+              "page_url": "https://www.deepal.com.cn/L06?id=2112435824418770946&name=2027%E6%AC%BE%E6%B7%B1%E8%93%9DL06",
+              "credit": "Deepal press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -611,11 +611,11 @@
           "description": "China BEV uses a 56 kWh pack; export BEVs use 68.8 kWh.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Deepal_S05_004.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Deepal_S05_004.jpg",
-              "credit": "KitsuneDP",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/deepal-s05-2024.jpg",
+              "page_url": "https://www.changaneurope.com/gr/en/Models/Changan-Deepal-S05",
+              "credit": "Deepal press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -975,12 +975,12 @@
           "description": "Renamed S07 with Huawei ADS SE driver assistance; export BEV uses the 80 kWh pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%2C_Deepal_S07_%D0%B2%D0%BE_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5_%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0_114.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%2C_Deepal_S07_%D0%B2%D0%BE_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5_%D0%9F%D0%B0%D0%BD%D1%84%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0_114.jpg",
-              "credit": "Nikolai Bulykin",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/deepal-s07-2024.jpg",
+              "page_url": "https://www.changaneurope.com/gr/en/Models/Changan-Deepal-S07",
+              "credit": "Deepal press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

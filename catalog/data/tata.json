@@ -627,7 +627,17 @@
           "end_year": null,
           "status": "current",
           "description": "Heavy facelift launched 28 May 2026; detailed EV specifications not yet sourced.",
-          "images": [],
+          "images": [
+            {
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/tata-tiago-ev-2026.jpg",
+              "page_url": "https://ev.tata.cars/tiago/ev.html",
+              "credit": "Tata Motors press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
+              "verified_by_viewing": true
+            }
+          ],
           "sources": [],
           "variants": [
             {
@@ -933,12 +943,12 @@
           "description": "Launch generation.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Tata_Curvv.EV.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Tata_Curvv.EV.jpg",
-              "credit": "VideshiBhaktNRI",
-              "license": "CC0",
-              "view": "rear_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/tata-curvv-ev-2024.jpg",
+              "page_url": "https://ev.tata.cars/curvv/ev.html",
+              "credit": "Tata Motors press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
@@ -1095,11 +1105,11 @@
           "description": "Launch generation; dual-motor QWD version makes 395 PS.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/4th_International_Auto_Show%2C_Bangalore_%282025%29_110.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:4th_International_Auto_Show,_Bangalore_(2025)_110.jpg",
-              "credit": "Gpkp",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/tata-harrier-ev-2025.jpg",
+              "page_url": "https://ev.tata.cars/harrier/ev/overview.html",
+              "credit": "Tata Motors press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

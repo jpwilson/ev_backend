@@ -574,11 +574,11 @@
      "description": "Mid-size sedan launched in August 2023 as an EV and a plug-in hybrid (DMH).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Roewe_D7_EV_005.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_D7_EV_005.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/roewe-d7-2023.jpg",
+       "page_url": "https://www.roewe.com.cn/vehicles/d7/",
+       "credit": "Roewe press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -720,12 +720,12 @@
      "description": "Front-drive electric compact sedan with SAIC-CATL LFP batteries.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Roewe_D6_China_2025-03-31.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Roewe_D6_China_2025-03-31.jpg",
-       "credit": "Navigator84",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/roewe-d6-2025.jpg",
+       "page_url": "https://www.roewe.com.cn/vehicles/d6/",
+       "credit": "Roewe press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
        "verified_by_viewing": true
       }
      ],

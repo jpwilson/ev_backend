@@ -2203,11 +2203,11 @@
      "description": "Restyled nose and tail, 84 kWh pack. Sold in Europe, the UK and Korea, not in the US.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Hyundai_Ioniq_6_N_Line_%28Facelift%29_%E2%80%93_f_28082026.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_6_N_Line_(Facelift)_%E2%80%93_f_28082026.jpg",
-       "credit": "M 93",
-       "license": "CC BY-SA 3.0 de",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-ioniq-6-2026.jpg",
+       "page_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000000928",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2838,11 +2838,11 @@
      "description": "Front-motor city EV with 42 kWh (97 PS) or 49 kWh (115 PS) packs.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Hyundai_Inster_DSC_7945.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Inster_DSC_7945.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-inster-2024.jpg",
+       "page_url": "https://www.hyundai.news/eu/models/electrified/inster/images.html",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3032,11 +3032,11 @@
      "description": "Launch version; production started in August 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/2026_Hyundai_Ioniq_3_N_Line_%28Europe%29_front_view_01.png",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Hyundai_Ioniq_3_N_Line_(Europe)_front_view_01.png",
-       "credit": "AutoGids",
-       "license": "CC BY 3.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-ioniq-3-2026.jpg",
+       "page_url": "https://www.hyundai.news/eu/models/electrified/ioniq-3/images.html",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3199,11 +3199,11 @@
      "description": "64.2 or 88.1 kWh LFP packs, front motor or dual-motor AWD; CLTC range 518-722 km depending on version.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Hyundai_Elexio_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Elexio_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-elexio-2025.jpg",
+       "page_url": "https://www.hyundai.com/worldwide/en/newsroom/detail/0000001131",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3351,11 +3351,11 @@
      "description": "Two LFP packs: 53.5 kWh (CLTC 540 km) and 66.8 kWh (CLTC 650 km).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Hyundai_Ioniq_V_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_V_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-ioniq-v-2026.jpg",
+       "page_url": "https://ioniq-v.beijing-hyundai.com.cn/",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3515,11 +3515,11 @@
      "description": "Front-motor EV; MIDC range 390 km (42 kWh) and 473 km (51.4 kWh) at launch.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Hyundai_Creta_Electric_SU2_EV_PE.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Creta_Electric_SU2_EV_PE.jpg",
-       "credit": "Avante2025",
-       "license": "CC BY 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-creta-electric-2025.jpg",
+       "page_url": "https://www.hyundai.com/in/en/find-a-car/creta-electric/highlights",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3683,11 +3683,11 @@
      "description": "Front-wheel-drive, 160 kW motor, 84 kWh pack.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hyundai_Staria_Electric_US4_EV_Creamy_White_%281%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Hyundai_Staria_Electric_US4_EV_Creamy_White_(1).jpg",
-       "credit": "Damian B Oh",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/hyundai-staria-electric-2026.jpg",
+       "page_url": "https://www.hyundai.news/eu/models/van/staria/images.html",
+       "credit": "Hyundai press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

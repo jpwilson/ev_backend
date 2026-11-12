@@ -1158,11 +1158,11 @@
      "description": "SEA platform; rear motor (49 kWh LFP or 66 kWh NMC battery) or dual-motor Brabus.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Smart_%E2%99%AF1_Pro_%E2%80%93_f_11102025.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_%E2%99%AF1_Pro_%E2%80%93_f_11102025.jpg",
-       "credit": "© M 93",
-       "license": "CC BY-SA 3.0 de",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/smart-1-2023.jpg",
+       "page_url": "https://media.smart.com/en-CEU/260689-extension-of-smart-1-model-range-with-pure-and-pure-lines/",
+       "credit": "smart press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1588,11 +1588,11 @@
      "description": "SEA platform shared with the #1.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Smart_Hashtag_3_DSC_7992.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_Hashtag_3_DSC_7992.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/smart-3-2024.jpg",
+       "page_url": "https://media.smart.com/en-CEU/260755-european-premiere-of-smart-3-and-world-premiere-of-25th-anniversary-edition/",
+       "credit": "smart press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1877,11 +1877,11 @@
      "description": "Rear or dual motors with a 76 kWh LFP or 100 kWh NMC battery.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Smart_Hashtag_5_Premium_autoMOBIL_T%C3%BCbingen_2025_DSC_2755_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_Hashtag_5_Premium_autoMOBIL_T%C3%BCbingen_2025_DSC_2755_(cropped).jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/smart-5-2025.jpg",
+       "page_url": "https://media.smart.com/eu/smart-5-world-premiere-the-first-ever-premium-mid-size-suv-from-smart/",
+       "credit": "smart press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2333,11 +2333,11 @@
      "description": "Rear-motor city car with a 35.8 kWh LFP battery.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Smart_2_007.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Smart_2_007.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/smart-2-2026.jpg",
+       "page_url": "https://media.smart.com/en-CEU/272950-world-premiere-of-the-smart-2-as-reinvention-of-the-urban-two-seater/",
+       "credit": "smart press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
