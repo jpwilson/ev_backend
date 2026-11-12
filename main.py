@@ -34,6 +34,17 @@ app.add_middleware(
     ],
 )
 
+
+@app.middleware("http")
+async def security_headers(request, call_next):
+    """Baseline hardening headers on every API response."""
+    response = await call_next(request)
+    response.headers.setdefault("X-Content-Type-Options", "nosniff")
+    response.headers.setdefault("X-Frame-Options", "DENY")
+    response.headers.setdefault("Referrer-Policy", "no-referrer")
+    return response
+
+
 # Register routers
 app.include_router(cars.router)
 app.include_router(makes.router)

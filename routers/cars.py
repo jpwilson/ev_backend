@@ -1,7 +1,7 @@
 """Car endpoints."""
 
 from typing import List
-from fastapi import APIRouter, Depends, HTTPException, Response
+from fastapi import APIRouter, Depends, HTTPException, Query, Response
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import joinedload
 
@@ -232,7 +232,11 @@ async def read_car_by_id(car_id: int, db: db_dependency):
 
 
 @router.get("/cars", response_model=List[CarRead])
-async def read_cars(db: db_dependency, skip: int = 0, limit: int = 100):
+async def read_cars(
+    db: db_dependency,
+    skip: int = Query(0, ge=0),
+    limit: int = Query(100, ge=1, le=5000),
+):
     cars = (
         db.query(models.Car)
         .options(joinedload(models.Car.make))

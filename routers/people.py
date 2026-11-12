@@ -1,7 +1,7 @@
 """People endpoints."""
 
 from typing import List
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 
 import models.orm_models as models
 from models.pydantic_models import PersonBase, PersonCreate, PersonRead
@@ -12,7 +12,11 @@ router = APIRouter(tags=["people"])
 
 
 @router.get("/people", response_model=List[PersonRead])
-async def read_people(db: db_dependency, skip: int = 0, limit: int = 100):
+async def read_people(
+    db: db_dependency,
+    skip: int = Query(0, ge=0),
+    limit: int = Query(100, ge=1, le=5000),
+):
     people = db.query(models.Person).offset(skip).limit(limit).all()
     return people
 

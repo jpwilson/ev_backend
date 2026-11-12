@@ -1,7 +1,7 @@
 """Make endpoints."""
 
 from typing import List
-from fastapi import APIRouter, Depends, HTTPException, Response
+from fastapi import APIRouter, Depends, HTTPException, Query, Response
 from sqlalchemy.orm import subqueryload
 
 import models.orm_models as models
@@ -30,7 +30,10 @@ async def read_make(make_id: str, db: db_dependency):
 
 @router.get("/makes", response_model=List[MakeRead])
 async def read_makes(
-    db: db_dependency, response: Response, skip: int = 0, limit: int = 1000
+    db: db_dependency,
+    response: Response,
+    skip: int = Query(0, ge=0),
+    limit: int = Query(1000, ge=1, le=5000),
 ):
     # Default raised from 100 and ordered by id: the catalog load takes makes past 100,
     # and an unordered LIMIT 100 dropped existing brands from this list.

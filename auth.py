@@ -6,6 +6,7 @@ Access control model:
 - Admin role source of truth: auth.users.raw_app_meta_data.role (minted into JWT).
 """
 
+import hmac
 import os
 from typing import Optional
 
@@ -48,10 +49,10 @@ def verify_supabase_token(token: str) -> dict:
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Token has expired",
         )
-    except jwt.InvalidTokenError as e:
+    except jwt.InvalidTokenError:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail=f"Invalid token: {str(e)}",
+            detail="Invalid token",
         )
 
 
@@ -111,7 +112,10 @@ async def get_admin_access(
         )
 
     # Fall back to legacy admin key
-    if ADMIN_SECRET_KEY and admin_key == ADMIN_SECRET_KEY:
+    # Constant-time comparison so response timing does not leak the key.
+    if ADMIN_SECRET_KEY and admin_key and hmac.compare_digest(
+        admin_key.encode(), ADMIN_SECRET_KEY.encode()
+    ):
         return {"sub": "legacy-admin", "role": "admin"}
 
     raise HTTPException(
