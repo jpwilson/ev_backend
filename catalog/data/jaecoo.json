@@ -89,11 +89,11 @@
      "description": "Compact electric SUV shown at Auto Shanghai 2025; Indonesia from July 2025, UK deliveries from October 2025 as the Jaecoo E5, Australia from December 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2025_Jaecoo_5_EV_Max_%28Thailand%29_front_view.png",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Jaecoo_5_EV_Max_(Thailand)_front_view.png",
-       "credit": "iMoD Official",
-       "license": "CC BY 3.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/jaecoo-j5-ev-2025.jpg",
+       "page_url": "https://jaecoo.co.uk/jaecoo-5/",
+       "credit": "Jaecoo press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -274,11 +274,11 @@
      "description": "Rebadged iCar 03 for export markets such as Thailand (Jaecoo 6 EV), Singapore and the Philippines (EJ6).",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/2024_Jaecoo_J6_Long_Range_4WD.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Jaecoo_J6_Long_Range_4WD.jpg",
-       "credit": "Chanokchon",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/jaecoo-j6-2024.jpg",
+       "page_url": "https://www.omodajaecoo.co.th/en/jaecoo6",
+       "credit": "Jaecoo press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

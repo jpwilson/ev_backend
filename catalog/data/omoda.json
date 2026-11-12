@@ -90,20 +90,11 @@
      "description": "Electric version of the Omoda 5 / C5 crossover, shown in April 2023 and sold from February 2024 (Indonesia first); renamed Chery E5 in Indonesia in 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Omoda_E5_IMG_8105.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Omoda_E5_IMG_8105.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
-       "verified_by_viewing": true
-      },
-      {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/2023_Omoda_C5_EV_front_view.png",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2023_Omoda_C5_EV_front_view.png",
-       "credit": "Autosdeprimera",
-       "license": "CC BY 3.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/omoda-e5-2024.jpg",
+       "page_url": "https://www.omodajaecoo.com/global/e5",
+       "credit": "Omoda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

@@ -73,11 +73,11 @@
           "description": "240 kW rear motor (plus a 100 kW front motor on AWD) with a 60 kWh LFP or 85 kWh NMC pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Onvo_L60_001_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Onvo_L60_001_%28cropped%29.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/onvo-l60-2024.jpg",
+              "page_url": "https://www.onvo.cn/l60",
+              "credit": "ONVO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -328,12 +328,12 @@
           "description": "85 kWh NMC pack with a 340 kW rear motor; AWD adds a 100 kW front motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Onvo_L90_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Onvo_L90_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0 1.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/onvo-l90-2025.jpg",
+              "page_url": "https://www.onvo.cn/l90",
+              "credit": "ONVO press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -482,12 +482,12 @@
           "description": "Shares the L90's body front, platform and powertrains with a two-row cabin.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Onvo_L80_in_Tianhe%2C_Guangzhou_20260522.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Onvo_L80_in_Tianhe%2C_Guangzhou_20260522.jpg",
-              "credit": "Tim Wu",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/onvo-l80-2026.jpg",
+              "page_url": "https://www.onvo.cn/l80",
+              "credit": "ONVO press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

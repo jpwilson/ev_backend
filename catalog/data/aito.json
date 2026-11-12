@@ -75,11 +75,11 @@
           "description": "BEV with Huawei DriveONE motors and 80-83 kWh CATL LFP pack; facelifted as M5 Ultra in 2025 with unchanged hardware.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Aito_M5_EV_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Aito_M5_EV_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/aito-m5-2022.jpg",
+              "page_url": "https://aito.auto/model/m5-new/",
+              "credit": "AITO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -232,11 +232,11 @@
           "description": "97.6 kWh NMC pack; 304 hp RWD or 456 hp AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/AITO_M6_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M6_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/aito-m6-2026.jpg",
+              "page_url": "https://aito.auto/model/m6/",
+              "credit": "AITO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -403,11 +403,11 @@
           "description": "First BEV M7: 100 kWh NMC pack, 304 hp RWD or 519 hp AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/AITO_M7_II_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M7_II_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/aito-m7-2025.jpg",
+              "page_url": "https://aito.auto/model/m7-new/",
+              "credit": "AITO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -610,11 +610,11 @@
           "description": "BEV with 100 kWh NMC pack and 392 kW dual motors.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/AITO_M8_003_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M8_003_(cropped).jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/aito-m8-2025.jpg",
+              "page_url": "https://aito.auto/model/m8/",
+              "credit": "AITO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -786,11 +786,11 @@
           "description": "BEV: 120 kWh NMC pack, 497 kW dual motors.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/AITO_M9_II_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:AITO_M9_II_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/aito-m9-2026.jpg",
+              "page_url": "https://aito.auto/model/m9-new/",
+              "credit": "AITO press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

@@ -865,20 +865,11 @@
      "description": "Three-row E-GMP SUV launched in 2023 (US model year 2024), built in Korea and since May 2024 in West Point, Georgia. The 501 hp EV9 GT went on sale in Europe in 2025; its US launch was put on hold in November 2025.",
      "images": [
       {
-       "source": "legacy",
-       "file_url": "/pub_assets/car_images/kia_ev9_gtline.png",
-       "page_url": null,
-       "credit": null,
-       "license": null,
-       "view": "side",
-       "verified_by_viewing": true
-      },
-      {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kia_EV9_1X7A2472.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV9_1X7A2472.jpg",
-       "credit": "Alexander-93",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-ev9-2024.jpg",
+       "page_url": "https://www.kiamedia.com/us/en/models/ev9/2026/gallery",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1733,20 +1724,11 @@
      "description": "Sedan (built in Gwangmyeong, Korea) and Europe-only hatchback (built in Zilina, Slovakia) on the 400 V E-GMP; AWD and GT versions added in 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/2026_Kia_EV4%2C_front_NYIAS_2025.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Kia_EV4,_front_NYIAS_2025.jpg",
-       "credit": "Kevauto",
-       "license": "CC BY-SA 4.0",
-       "view": "front_3q",
-       "verified_by_viewing": true
-      },
-      {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Kia_EV4_GT-Line_Automesse_Ludwigsburg_2025_DSC_2535.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV4_GT-Line_Automesse_Ludwigsburg_2025_DSC_2535.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-ev4-2025.jpg",
+       "page_url": "https://worldwide.kia.com/en/newsroom/view/?id=161166",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2094,11 +2076,11 @@
      "description": "Mid-size two-row SUV. China-built cars (from 2023) use BYD FinDreams LFP packs on the N3 eK platform; Korea-built cars (from 2025, Europe and Korea) use CATL NMC packs on the 400 V E-GMP.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/2024_Kia_EV5_Earth_Exclusive_AWD_%28Thailand%29_front_view.png",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2024_Kia_EV5_Earth_Exclusive_AWD_(Thailand)_front_view.png",
-       "credit": "iMoD Official",
-       "license": "CC BY 3.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-ev5-2023.jpg",
+       "page_url": "https://worldwide.kia.com/en/newsroom/view/?id=161194",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2479,11 +2461,11 @@
      "description": "Supermini on the 400 V E-GMP, unveiled January 2026 and built in Zilina, Slovakia, from March 2026 for Europe.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Kia_EV2_IMG_8443.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_EV2_IMG_8443.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-ev2-2026.jpg",
+       "page_url": "https://worldwide.kia.com/en/newsroom/view/?id=161059",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3399,11 +3381,11 @@
      "description": "Revived in September 2023 on the facelifted Ray with a 35.2 kWh LFP pack and a much lower price; offered as a 4-seat car and 1- or 2-seat vans.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Kia_Ray_EV_TAM_EV_PE_Smoke_Blue_%283%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_Ray_EV_TAM_EV_PE_Smoke_Blue_(3).jpg",
-       "credit": "Damian B Oh",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-ray-ev-2023.jpg",
+       "page_url": "https://www.kia.com/kr/vehicles/ray-ev/features",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3528,11 +3510,11 @@
      "description": "Kia's first dedicated electric van on the E-GMP.S platform, in Passenger, Cargo, chassis-cab and wheelchair-accessible versions.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Kia_PV5_Passenger_JMS_2025.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Kia_PV5_Passenger_JMS_2025.jpg",
-       "credit": "TTTNIS",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-pv5-2025.jpg",
+       "page_url": "https://worldwide.kia.com/en/newsroom/view/?id=161483",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -4151,11 +4133,11 @@
      "description": "Electric version of the fourth-generation Bongo light truck, sold in Korea since January 2020.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/00_KIA_BONGO3_EV_1.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:00_KIA_BONGO3_EV_1.jpg",
-       "credit": "Benespit",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/kia-bongo-ev-2020.jpg",
+       "page_url": "https://www.kia.com/kr/vehicles/bongo3-ev/features",
+       "credit": "Kia press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

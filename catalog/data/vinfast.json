@@ -81,12 +81,12 @@
           "description": "The only version so far.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/2024_VinFast_VFe34%2C_06-14-2024.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_VinFast_VFe34,_06-14-2024.jpg",
-              "credit": "Ethan Llamas",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-e34-2021.jpg",
+              "page_url": "https://vinfastauto.id/en/vfe34",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "rear_3q",
               "verified_by_viewing": true
             }
           ],
@@ -167,12 +167,12 @@
           "description": "The only version so far.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/VinFast_VF_3_HCMC.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF_3_HCMC.jpg",
-              "credit": "Vnsg304",
-              "license": "CC BY-SA 4.0",
-              "view": "front",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-3-2024.jpg",
+              "page_url": "https://vinfastauto.id/en/vf3",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
@@ -256,12 +256,12 @@
           "description": "The only version so far.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/VinFast_VF5.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF5.jpg",
-              "credit": "Bún bòa",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-5-2023.jpg",
+              "page_url": "https://vinfastauto.ph/en/vf5",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "rear_3q",
               "verified_by_viewing": true
             }
           ],
@@ -385,11 +385,11 @@
           "description": "The only version so far.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/VinFast_VF_6_DSC_8468.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF_6_DSC_8468.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-6-2024.jpg",
+              "page_url": "https://vinfastauto.id/en/vf6",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -524,11 +524,11 @@
           "description": "The only version so far.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/2024_VinFast_VF7%2C_06-14-2024.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_VinFast_VF7,_06-14-2024.jpg",
-              "credit": "Ethan Llamas",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-7-2024.jpg",
+              "page_url": "https://vinfastauto.ph/en",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -676,12 +676,12 @@
           "description": "Original VF 8 with two motors (348 or 402 hp in US tune) and 82 kWh or 87.7 kWh usable batteries; still sold in the US as a 2027 model.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/VinFast_VF_8_DSC_8474.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:VinFast_VF_8_DSC_8474.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
-              "view": "rear_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-8-2023.jpg",
+              "page_url": "https://vinfastauto.us/vehicles/vf-8",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
@@ -981,11 +981,11 @@
           "description": "The only version so far.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/2024_VinFast_VF9%2C_front_left%2C_06-11-2024.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2024_VinFast_VF9,_front_left,_06-11-2024.jpg",
-              "credit": "Ethan Llamas",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/vinfast-vf-9-2023.jpg",
+              "page_url": "https://vinfastauto.us/newsroom/press-kit/vinfast-vf-9",
+              "credit": "VinFast press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

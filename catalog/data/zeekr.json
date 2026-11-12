@@ -519,7 +519,17 @@
      "end_year": null,
      "status": "current",
      "description": "October 2025 update: 103 kWh NMC pack, a 370 kW rear motor and 680 kW dual-motor AWD.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/zeekr-001-2025.jpg",
+       "page_url": "https://www.zeekrlife.com/zeekr001",
+       "credit": "Zeekr press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {
@@ -973,7 +983,17 @@
      "end_year": null,
      "status": "current",
      "description": "April 2026 update: 370 kW rear motor, 585 kW dual-motor AWD and a 103 kWh NMC long-range pack.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/zeekr-007-2026.jpg",
+       "page_url": "https://www.zeekrlife.com/zeekr007",
+       "credit": "Zeekr press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "front_3q",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {
@@ -1421,7 +1441,17 @@
      "end_year": null,
      "status": "current",
      "description": "April 2026 update with the 007's 370 kW / 585 kW motors and a 103 kWh NMC long-range pack.",
-     "images": [],
+     "images": [
+      {
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/zeekr-007-gt-2026.jpg",
+       "page_url": "https://www.zeekrlife.com/zeekr007GT",
+       "credit": "Zeekr press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
+       "verified_by_viewing": true
+      }
+     ],
      "sources": [],
      "variants": [
       {
@@ -1786,11 +1816,11 @@
      "description": "July 2024 update: 108 kWh 800V NMC pack with 580 kW AWD or 310 kW FWD, plus 140 kWh FWD/AWD and the four-seat Grand.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/2025_Zeekr_009_green_front.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Zeekr_009_green_front.jpg",
-       "credit": "Danjer",
-       "license": "CC BY 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/zeekr-009-2024.jpg",
+       "page_url": "https://www.zeekrlife.com/zeekr009",
+       "credit": "Zeekr press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2584,11 +2614,11 @@
      "description": "October 2025 facelift: 370 kW rear motor, 585 kW AWD, 103 kWh pack on a 900V system.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Zeekr_7X_facelift_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Zeekr_7X_facelift_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/zeekr-7x-2025.jpg",
+       "page_url": "https://www.zeekrlife.com/zeekr7x",
+       "credit": "Zeekr press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2768,12 +2798,12 @@
      "description": "Only generation; 310 kW rear motor, 76 kWh LFP or 102 kWh NMC.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/%28CHN-Shanghai%29_Showcar_Zeekr_Mix_No-plate_2024-12-08_-_2.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:%28CHN-Shanghai%29_Showcar_Zeekr_Mix_No-plate_2024-12-08_-_2.jpg",
-       "credit": "S5A-0043",
-       "license": "CC BY 4.0",
-       "view": "front_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/zeekr-mix-2024.jpg",
+       "page_url": "https://www.zeekrlife.com/zeekrmix",
+       "credit": "Zeekr press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
        "verified_by_viewing": true
       }
      ],

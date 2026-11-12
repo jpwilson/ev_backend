@@ -1081,11 +1081,11 @@
      "description": "Coupe-crossover built by GAC Honda (e:NP2) and Dongfeng Honda (e:NS2) from 2024, with a 68.8 kWh CATL pack; exported to Thailand and, as the Insight, to Japan in 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Honda_eNP2_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_eNP2_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-e-n2-2024.jpg",
+       "page_url": "https://global.honda/jp/news/2026/4260416-insight/image_download.html",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1202,11 +1202,11 @@
      "description": "Mid-size electric SUV built by GAC Honda in Guangzhou from March 2025 with an 89.8 kWh CATL pack.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/2025_GAC-Honda_P7.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_GAC-Honda_P7.jpg",
-       "credit": "User3204",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-p7-2025.jpg",
+       "page_url": "https://www.ghac.cn/vehicles/p7",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1363,11 +1363,11 @@
      "description": "Mid-size electric SUV built by Dongfeng Honda in Wuhan from February 2025 with an 89.8 kWh CATL pack.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Honda_S7_003.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_S7_003.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-s7-2025.jpg",
+       "page_url": "https://www.dongfeng-honda.com/S7/",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1620,11 +1620,11 @@
      "description": "Battery-electric kei car based on the N-One, with a 29.6 kWh AESC pack; on sale in Japan from 11 September 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Honda_N-ONE_e_L.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_N-ONE_e_L.jpg",
-       "credit": "TTTNIS",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-n-one-e-2025.jpg",
+       "page_url": "https://global.honda/jp/news/2025/4250911-n-one-e/image_download.html",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1754,11 +1754,11 @@
      "description": "Wider, more powerful (70 kW boost) derivative of the N-One e: with a 29.6 kWh pack; on sale in Japan from 21 May 2026, Australia from August 2026 and the UK as the Super-N.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Honda_Super-ONE_%28JG6%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_Super-ONE_(JG6).jpg",
-       "credit": "Tokumeigakarinoaoshima",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-super-one-2026.jpg",
+       "page_url": "https://global.honda/jp/news/2026/4260521-super-one/image_download.html",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1896,11 +1896,11 @@
      "description": "Battery-electric version of the N-Van kei van, sold in Japan from 2024; business-only one- and two-seat versions are lease-only.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Honda_N-VAN_e%EF%BC%9AFUN_%28ZAB-JJ3%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Honda_N-VAN_e：FUN_(ZAB-JJ3).jpg",
-       "credit": "Tokumeigakarinoaoshima",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/honda-n-van-e-2024.jpg",
+       "page_url": "https://global.honda/jp/news/2024/4240613-n-van-e/image_download.html",
+       "credit": "Honda press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

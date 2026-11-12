@@ -187,11 +187,11 @@
           "description": "Dual-motor AWD with 430 hp or 544 hp; WLTP up to 548 km.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hongqi_E-HS9_IMG_0753_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_E-HS9_IMG_0753_(cropped).jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hongqi-e-hs9-2020.jpg",
+              "page_url": "https://www.hongqi-auto.com/pages/cartype/cartype_E-hs9_new.html",
+              "credit": "Hongqi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -343,11 +343,11 @@
           "description": "100 kW front motor and a 55 kWh FinDreams LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/2021_FAW_Hongqi_E-QM5_%28front%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2021_FAW_Hongqi_E-QM5_(front).jpg",
-              "credit": "User3204",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hongqi-e-qm5-2021.jpg",
+              "page_url": "https://www.hongqi-auto.com/pages/cartype/cartype_E-qm5.html",
+              "credit": "Hongqi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -398,11 +398,11 @@
           "description": "Restyled front and rear.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hongqi_E-QM5_facelift_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_E-QM5_facelift_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hongqi-e-qm5-2025.jpg",
+              "page_url": "https://hongqi.faw.cn/model/E-QM5",
+              "credit": "Hongqi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -462,11 +462,11 @@
           "description": "FME platform; 339 hp rear motor or 611 hp dual motor; 75-111 kWh packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hongqi_EH7_01_China_2025-03-31.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_EH7_01_China_2025-03-31.jpg",
-              "credit": "Navigator84",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hongqi-eh7-2024.jpg",
+              "page_url": "https://www.hongqi-auto.com/pages/cartype/cartype_eh7.html",
+              "credit": "Hongqi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -804,12 +804,12 @@
           "description": "Major facelift renamed Tiangong 07: 800 V, 340 kW rear motor, CANE LFP packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Hongqi_Tiangong_07_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_Tiangong_07_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hongqi-eh7-2026.jpg",
+              "page_url": "https://hongqi.faw.cn/model/%E5%A4%A9%E5%B7%A507",
+              "credit": "Hongqi press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -1016,11 +1016,11 @@
           "description": "Tiangong architecture; 253 kW RWD or 455 kW AWD, 111 kWh CATL Qilin option.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Hongqi_Tiangong_05_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_Tiangong_05_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hongqi-tiangong-05-2025.jpg",
+              "page_url": "https://hongqi.faw.cn/model/%E5%A4%A9%E5%B7%A505",
+              "credit": "Hongqi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1146,11 +1146,11 @@
           "description": "253 kW RWD or 455 kW AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Hongqi_Tiangong_06_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Hongqi_Tiangong_06_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hongqi-tiangong-06-2025.jpg",
+              "page_url": "https://hongqi.faw.cn/model/%E5%A4%A9%E5%B7%A506",
+              "credit": "Hongqi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

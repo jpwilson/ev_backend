@@ -2508,11 +2508,11 @@
           "description": "BYD Blade LFP pack of 49.9 or 65.3 kWh; 135-180 kW front motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/%28CHN-Zhejiang%29_Private_FAW-Toyota_bZ3_%E6%B5%99ABT59A6_2024-12-15.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Zhejiang)_Private_FAW-Toyota_bZ3_%E6%B5%99ABT59A6_2024-12-15.jpg",
-              "credit": "S5A-0043",
-              "license": "CC BY 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-bz3-2023.jpg",
+              "page_url": "https://global.toyota/en/album/images/38131700/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2641,11 +2641,11 @@
           "description": "LFP packs of 50.03, 58 or 67.9 kWh with a 150 kW front motor; CLTC range 430-620 km.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Toyota_bZ3X_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_bZ3X_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-bz3x-2025.jpg",
+              "page_url": "https://www.gac-toyota.com.cn/vehicle/detail/boz3x",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -2995,11 +2995,11 @@
           "description": "207 kW Huawei DriveONE rear motor, CALB LFP packs of 71 or 88 kWh.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Toyota_bZ7_at_Auto_Guangzhou_2025_20251123.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_bZ7_at_Auto_Guangzhou_2025_20251123.jpg",
-              "credit": "Tim Wu",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-bz7-2026.jpg",
+              "page_url": "https://www.gac-toyota.com.cn/vehicle/detail/boz-7",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3207,11 +3207,11 @@
           "description": "BYD LFP packs of 49 or 61 kWh, front motor or dual-motor AWD, 67 kW DC charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Toyota_Urban_Cruiser_%28electric%29_Auto_Zuerich_2025_DSC_3051.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_Urban_Cruiser_(electric)_Auto_Zuerich_2025_DSC_3051.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-urban-cruiser-2025.jpg",
+              "page_url": "https://newsroom.toyota.eu/world-premiere-of-the-all-new-toyota-urban-cruiser/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3555,11 +3555,11 @@
           "description": "Dual-motor AWD with a 59.2 kWh pack; 240 km WLTP range.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2026_Toyota_Hilux_BEV.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Toyota_Hilux_BEV.jpg",
-              "credit": "TTTNIS",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-hilux-bev-2026.jpg",
+              "page_url": "https://newsroom.toyota.eu/the-all-new-toyota-hilux/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3927,11 +3927,11 @@
           "description": "Shared Stellantis eK0 drive: 100 kW motor with 50 or 75 kWh packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Toyota_ProAce_Verso_Electric_IMG_5614.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_ProAce_Verso_Electric_IMG_5614.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-proace-electric-2021.jpg",
+              "page_url": "https://newsroom.toyota.eu/toyota-proace-and-proace-city-raise-their-game-with-all-round-enhancements/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -4092,11 +4092,11 @@
           "description": "100 kW motor with a 50 kWh-class pack; 330 km WLTP.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Toyota_ProAce_City_Electric_1X7A0251.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Toyota_ProAce_City_Electric_1X7A0251.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/toyota-proace-city-electric-2021.jpg",
+              "page_url": "https://newsroom.toyota.eu/toyota-proace-and-proace-city-raise-their-game-with-all-round-enhancements/",
+              "credit": "Toyota press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

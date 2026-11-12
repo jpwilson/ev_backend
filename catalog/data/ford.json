@@ -2552,11 +2552,11 @@
           "description": "Ford-designed body on the MEB platform with rear or dual-motor drive.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Ford_Explorer_EV_IMG_2120.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_Explorer_EV_IMG_2120.jpg",
-              "credit": "Alexander Migl (Alexander-93)",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/ford-explorer-ev-2024.jpg",
+              "page_url": "https://www.ford.dk/modeller/explorer",
+              "credit": "Ford press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3374,11 +3374,11 @@
           "description": "Electric version of the 2023 Transit Custom (V710); rear motor, with AWD added later.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ford_E-Transit_Custom_MS-RT_DSC_9288.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_E-Transit_Custom_MS-RT_DSC_9288.jpg",
-              "credit": "Alexander Migl (Alexander-93)",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/ford-e-transit-custom-2024.jpg",
+              "page_url": "https://www.ford.dk/modeller/transit-custom/e-transit-custom",
+              "credit": "Ford press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3656,11 +3656,11 @@
           "description": "Electric passenger van based on the 2023 Tourneo Custom.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ford_E-Tourneo_Custom_%282023%29_Auto_Zuerich_2023_1X7A1173.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_E-Tourneo_Custom_(2023)_Auto_Zuerich_2023_1X7A1173.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/ford-e-tourneo-custom-2024.jpg",
+              "page_url": "https://www.ford.dk/modeller/e-tourneo-custom",
+              "credit": "Ford press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -3868,12 +3868,12 @@
           "description": "First electric Transit Courier; launched with the second-generation body.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/IAA_Transportation_2026%2C_Hanover_%2820260914-P1086903%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:IAA_Transportation_2026,_Hanover_(20260914-P1086903).jpg",
-              "credit": "Matti Blume",
-              "license": "CC BY-SA 4.0",
-              "view": "side",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/ford-e-transit-courier-2024.jpg",
+              "page_url": "https://www.ford.se/bilar/transportbilar-och-pickups/courier",
+              "credit": "Ford press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "front_3q",
               "verified_by_viewing": true
             }
           ],
@@ -3977,11 +3977,11 @@
           "description": "First electric Tourneo Courier; launched with the second-generation body.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ford_E-Tourneo_Courier_DSC_0743.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Ford_E-Tourneo_Courier_DSC_0743.jpg",
-              "credit": "Alexander Migl (Alexander-93)",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/ford-e-tourneo-courier-2024.jpg",
+              "page_url": "https://www.ford.com.tr/ticari-araclar/e-tourneo-courier",
+              "credit": "Ford press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -4083,12 +4083,12 @@
           "description": "Dual-motor BEV with a 105.4 kWh LFP pack; an EREV with a 1.5-litre generator is sold alongside.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/2026_Ford_Bronco_Basecamp_Outer_Banks_EV_CX835_China_Front_Three_Quarter_View.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2026_Ford_Bronco_Basecamp_Outer_Banks_EV_CX835_China_Front_Three_Quarter_View.jpg",
-              "credit": "Hyins",
-              "license": "CC0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/ford-bronco-new-energy-2025.jpg",
+              "page_url": "https://www.ford.com.cn/new-energy-vehicles/BroncoBasecamp",
+              "credit": "Ford press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

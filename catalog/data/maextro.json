@@ -74,11 +74,11 @@
           "description": "BEV: dual motors (390 kW) and a 97 kWh CATL NMC pack with 5C charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/2025_Maextro_S800_%28front%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Maextro_S800_(front).jpg",
-              "credit": "User3204",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/maextro-s800-2025.jpg",
+              "page_url": "https://hima.auto/zunjie/s800/",
+              "credit": "Maextro press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

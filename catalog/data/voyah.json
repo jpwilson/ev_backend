@@ -340,11 +340,11 @@
           "description": "Huawei Qiankun ADS and HarmonyOS cockpit; BEV uprated to 475 kW.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/2025_Dongfeng-Voyah_Dream_%28facelift%29%2C_front_7.26.25.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2025_Dongfeng-Voyah_Dream_(facelift),_front_7.26.25.jpg",
-              "credit": "Kevauto",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/voyah-dream-2024.jpg",
+              "page_url": "https://www.voyah.com.cn/newDreamer.html",
+              "credit": "Voyah press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -593,11 +593,11 @@
           "description": "RWD with 77 or 109 kWh packs, or 543 hp AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Voyah_Courage_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Voyah_Courage_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/voyah-courage-2024.jpg",
+              "page_url": "https://www.voyah.com.cn/courage.html",
+              "credit": "Voyah press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -802,11 +802,11 @@
           "description": "98 kWh Amber 2.0 NMC pack, 5C charging; single or dual motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Voyah_Passion_S_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Voyah_Passion_S_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/voyah-passion-s-2026.jpg",
+              "page_url": "https://www.voyah.com.cn/passion_s.html",
+              "credit": "Voyah press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

@@ -83,11 +83,11 @@
           "description": "Carbon-tub hypercar with a 93 kWh pack (the 2019 prototype had 70 kWh) and one motor per wheel.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2020_Lotus_Evija.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:2020_Lotus_Evija.jpg",
-              "credit": "Liam Walker",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/lotus-evija-2023.jpg",
+              "page_url": "https://www.lotuscars.com/en/press/galleries/evija",
+              "credit": "Lotus press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -203,11 +203,11 @@
           "description": "Dual-motor AWD SUV with a 112 kWh pack and 800-volt charging; trims renamed 600 and 900 for model year 2026.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lotus_Eletre_Automesse_Ludwigsburg_2025_DSC_2658.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Lotus_Eletre_Automesse_Ludwigsburg_2025_DSC_2658.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/lotus-eletre-2023.jpg",
+              "page_url": "https://www.lotuscars.com/en/press/galleries/eletre",
+              "credit": "Lotus press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -373,12 +373,12 @@
           "description": "Dual-motor AWD GT with a 102 kWh pack; the R/900 versions use a two-speed rear gearbox.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lotus_Emeya_Auto_Zuerich_2024_DSC_6171.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Lotus_Emeya_Auto_Zuerich_2024_DSC_6171.jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/lotus-emeya-2024.jpg",
+              "page_url": "https://www.lotuscars.com/en/press/galleries/emeya",
+              "credit": "Lotus press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],

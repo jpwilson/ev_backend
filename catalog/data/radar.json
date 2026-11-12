@@ -78,11 +78,11 @@
      "description": "Only generation; LFP (63 to 73.9 kWh) or NMC (66 to 100 kWh) packs, 149-200 kW RWD or 280-315 kW 4WD, up to 600 km CLTC.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/2022_Radar_RD6_%28front%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Radar_RD6_%28front%29.jpg",
-       "credit": "User3204",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/radar-rd6-2022.jpg",
+       "page_url": "https://www.riddara.com/rd6-4wd",
+       "credit": "Radar (Riddara) press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

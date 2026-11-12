@@ -193,13 +193,13 @@
      "description": "November 2021 update with a revised grille and bumper, a 10-inch screen and a 130 kW motor; still listed on Buick China's site in November 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Buick_Velite_6_EV_001.jpg",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/buick-velite-6-2022.jpg",
+       "page_url": "https://www.buick.com.cn/velite6",
+       "credit": "Buick press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
-       "verified_by_viewing": true,
-       "page_url": "https://commons.wikimedia.org/wiki/File:Buick_Velite_6_EV_001.jpg",
-       "credit": "Jengtingchen",
-       "license": "CC BY-SA 4.0"
+       "verified_by_viewing": true
       }
      ],
      "sources": [
@@ -541,13 +541,13 @@
      "description": "2025 facelift sold as the 'new Buick Electra E5' with a CTP Ultium battery and a lower starting price.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Buick_Electra_E5_facelift_002.jpg",
-       "view": "front_3q",
-       "verified_by_viewing": true,
-       "page_url": "https://commons.wikimedia.org/wiki/File:Buick_Electra_E5_facelift_002.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0"
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/buick-electra-e5-2025.jpg",
+       "page_url": "https://www.buick.com.cn/electra_e5",
+       "credit": "Buick press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "rear_3q",
+       "verified_by_viewing": true
       }
      ],
      "sources": [

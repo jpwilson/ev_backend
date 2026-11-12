@@ -543,11 +543,11 @@
      "description": "20 kWh battery, 195 Nm motor, 180 km WLTC range.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Mitsubishi_eK_X_EV_P_%28ZAA-B5AW-LDEB%29_front.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Mitsubishi_eK_X_EV_P_(ZAA-B5AW-LDEB)_front.jpg",
-       "credit": "Tokumeigakarinoaoshima",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mitsubishi-ek-x-ev-2022.jpg",
+       "page_url": "https://www.mitsubishi-motors.co.jp/lineup/ek_x_ev/",
+       "credit": "Mitsubishi Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -680,11 +680,11 @@
      "description": "87 kWh battery, 160 kW front motor, 150 kW DC charging; a smaller-battery version was expected in 2026.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Mitsubishi_Eclipse_Cross_%28second_generation%29_IMG_5745.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Eclipse_Cross_(second_generation)_IMG_5745.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/mitsubishi-eclipse-cross-2025.jpg",
+       "page_url": "https://presse.mitsubishi-motors.de/",
+       "credit": "Mitsubishi Motors press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

@@ -96,11 +96,11 @@
      "description": "Only generation; 30.1 or 40.2 kWh CATL LFP at launch, a 47.1 kWh pack added with the 2026 update.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2025_Geely_Xingyuan%2C_front_7.28.25.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_Geely_Xingyuan%2C_front_7.28.25.jpg",
-       "credit": "Kevauto",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-xingyuan-2024.jpg",
+       "page_url": "https://www.galaxy-geely.com/xingyuan",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -331,11 +331,11 @@
      "description": "Launch version: 160 kW front motor and 49.5/60.2 kWh LFP Aegis blade packs; a 68.4 kWh pack arrived in July 2025.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Geely_Galaxy_E5_003_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_E5_003_%28cropped%29.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-galaxy-e5-2024.jpg",
+       "page_url": "https://global.geely.com/models/ex5",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -546,11 +546,11 @@
      "description": "Facelift revealed 21 September 2026: switches to a 245 kW rear motor, second-generation Aegis packs (61.5/70 kWh) and up to 460 kW DC charging.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Geely_Galaxy_E5_facelift_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_E5_facelift_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-galaxy-e5-2026.jpg",
+       "page_url": "https://www.galaxy-geely.com/quanxinE5",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -675,11 +675,11 @@
      "description": "Only generation so far; rear-drive or 475 kW dual-motor AWD, LFP packs from 62 to 76 kWh.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Geely_Galaxy_E8_20231120_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_E8_20231120_%28cropped%29.jpg",
-       "credit": "Nissangeniss",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-galaxy-e8-2024.jpg",
+       "page_url": "https://www.galaxy-geely.com/E8",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1018,11 +1018,11 @@
      "description": "Battery-electric version with a 160 kW front motor and 49.5 or 58 kWh LFP packs.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Geely_Galaxy_A7_EV_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Geely_Galaxy_A7_EV_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-galaxy-a7-2026.jpg",
+       "page_url": "https://www.galaxy-geely.com/A7EV",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -1501,11 +1501,11 @@
      "description": "Only generation; rear motor, 20 or 30 kW.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/2022_Geely_Panda_Mini_EV_%28front%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Geely_Panda_Mini_EV_%28front%29.jpg",
-       "credit": "User3204",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-panda-mini-2023.jpg",
+       "page_url": "https://www.galaxy-geely.com/xmmn",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -2212,11 +2212,11 @@
      "description": "Facelift sold as Geometry M6 from September 2022 with restyled ends and Huawei HarmonyOS; same 53/70 kWh NMC packs.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/2022_Geely_Geometry_M6_%28front%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2022_Geely_Geometry_M6_%28front%29.jpg",
-       "credit": "User3204",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/geely-geometry-c-2022.jpg",
+       "page_url": "https://www.geometryauto.com/m6",
+       "credit": "Geely press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

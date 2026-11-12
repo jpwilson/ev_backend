@@ -531,11 +531,11 @@
      "description": "March 2026 facelift: triangular headlights and taillights, physical steering-wheel buttons, Android-based infotainment.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/2026_Cupra_Born_IMG_7551.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2026_Cupra_Born_IMG_7551.jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/cupra-born-2026.jpg",
+       "page_url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/presskits/new-cupra-born",
+       "credit": "CUPRA press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -719,11 +719,11 @@
      "description": "Production from December 2023 in Hefei, China; 82 kWh (77 usable) battery at launch, 2026 update adds a 58 kWh version and Android-based infotainment.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cupra_Tavascan_Endurance_%E2%80%93_f_18042026.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Cupra_Tavascan_Endurance_%E2%80%93_f_18042026.jpg",
-       "credit": "© M 93",
-       "license": "CC BY-SA 3.0 de",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/cupra-tavascan-2024.jpg",
+       "page_url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/cupra-news/2025/cupra-tavascan-sharpens-its-emotional-edge-with-new-options-bold-details",
+       "credit": "CUPRA press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -961,11 +961,11 @@
      "description": "Production from June 2026 in Martorell; 37 kWh LFP and 52 kWh NMC batteries, up to 166 kW in the VZ.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cupra_Raval_VZ_IMG_6967_%28cropped%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Cupra_Raval_VZ_IMG_6967_(cropped).jpg",
-       "credit": "Alexander Migl",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/cupra-raval-2026.jpg",
+       "page_url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/presskits/new-cupra-raval",
+       "credit": "CUPRA press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

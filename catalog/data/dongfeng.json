@@ -81,11 +81,11 @@
           "description": "Front motor with a 31.45 or 42.3 kWh LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nammi_01_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nammi_01_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/dongfeng-nammi-01-2024.jpg",
+              "page_url": "https://www.yipai.com.cn/nami01",
+              "credit": "Dongfeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -297,11 +297,11 @@
           "description": "181 hp front motor with a 44.9 or 51.9 kWh Sunwoda LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Nammi_06_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nammi_06_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/dongfeng-nammi-06-2025.jpg",
+              "page_url": "https://www.yipai.com.cn/nami06new",
+              "credit": "Dongfeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -620,11 +620,11 @@
           "description": "Quantum Architecture; BEV with 56.8 or 70.3 kWh LFP packs (58.4 / 73.5 kWh from 2025).",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Dongfeng_e%CF%80_007_range_extended_electric_sedan_01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Dongfeng_e%CF%80_007_range_extended_electric_sedan_01.jpg",
-              "credit": "Nuo Nuo cars",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/dongfeng-epi-007-2024.jpg",
+              "page_url": "https://www.yipai.com.cn/",
+              "credit": "Dongfeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -904,11 +904,11 @@
           "description": "268 hp rear motor; BEV uses an 82.3 kWh Sunwoda LFP pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Dongfeng_e%CF%80_008_range_extended_electric_crossover_SUV_01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Dongfeng_e%CF%80_008_range_extended_electric_crossover_SUV_01.jpg",
-              "credit": "Nuo Nuo cars",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/dongfeng-epi-008-2024.jpg",
+              "page_url": "https://www.yipai.com.cn/model008",
+              "credit": "Dongfeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -973,11 +973,11 @@
           "description": "Refreshed M8 with a 77.4 kWh CATL pack and 310 kW peak charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Dongfeng_e%CF%80_M8_001.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Dongfeng_e%CF%80_M8_001.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/dongfeng-epi-008-2026.jpg",
+              "page_url": "https://www.yipai.com.cn/m8",
+              "credit": "Dongfeng press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

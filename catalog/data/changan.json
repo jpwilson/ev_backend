@@ -286,11 +286,11 @@
           "description": "First production A06: new SDA platform, BEV with 51.5 or 63.2 kWh LFP packs, the larger one on 800 V.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Nevo_A06_MY2026_IMG03.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_A06_MY2026_IMG03.jpg",
-              "credit": "Poprace",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/changan-nevo-a06-2025.jpg",
+              "page_url": "https://www.globalchangan.com/nevo.html",
+              "credit": "Changan press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -452,11 +452,11 @@
           "description": "BEV with 58 or 80 kWh packs (515 or 710 km CLTC).",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Nevo_A07_006.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_A07_006.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/changan-nevo-a07-2023.jpg",
+              "page_url": "https://www.globalchangan.com/nevo.html",
+              "credit": "Changan press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -613,11 +613,11 @@
           "description": "All-new battery-electric only SUV with 40.3 or 51.9 kWh LFP packs and a 120 kW front motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Nevo_Q05_II_01_China_2026-03-21.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Nevo_Q05_II_01_China_2026-03-21.jpg",
-              "credit": "Navigator84",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/changan-nevo-q05-2025.jpg",
+              "page_url": "https://www.globalchangan.com/nevo.html",
+              "credit": "Changan press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

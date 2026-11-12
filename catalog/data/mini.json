@@ -422,11 +422,11 @@
           "description": "All-new electric-only hatch on a dedicated EV platform with a round OLED centre screen; built in Zhangjiagang, China. Planned Oxford production was paused in 2025.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Mini_Hatch_%28J01%29_Ditzingen_Mobil_IMG_9772_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Mini_Hatch_(J01)_Ditzingen_Mobil_IMG_9772_(cropped).jpg",
-              "credit": "Alexander-93",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mini-cooper-2024.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/global/the-reinvention-of-the-original-the-all-electric-mini-cooper",
+              "credit": "MINI press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -667,11 +667,11 @@
           "description": "Production version revealed at the 2024 Beijing show; shares the J01 Cooper's platform and drivetrains.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Mini_Aceman_DSC_7114.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Mini_Aceman_DSC_7114.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/mini-aceman-2024.jpg",
+              "page_url": "https://newsroom.bmwgroup.com/global/the-new-mini-aceman",
+              "credit": "MINI press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

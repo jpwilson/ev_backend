@@ -67,11 +67,11 @@
      "description": "Only generation; 100 kWh FWD or 116/140 kWh NMC packs with 400 kW dual-motor AWD.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LEVC_L380_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:LEVC_L380_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/levc-l380-2024.jpg",
+       "page_url": "https://www.levc.com/news/levcs-e-mobility-transition-accelerates-as-new-l380-luxury-mpv-goes-on-sale-in-china/",
+       "credit": "LEVC press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

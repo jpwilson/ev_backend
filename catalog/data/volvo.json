@@ -1515,11 +1515,11 @@
           "description": "Moved to an 800-volt electrical system with new 92 kWh and 106 kWh CATL packs, new motors (up to 500 kW in the Twin Motor Performance) and up to 350 kW DC charging.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Volvo_EX90_MY2026_IMG01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_EX90_MY2026_IMG01.jpg",
-              "credit": "Poprace",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/volvo-ex90-2026.jpg",
+              "page_url": "https://www.volvocars.com.cn/zh-cn/cars/ex90-electric/",
+              "credit": "Volvo press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1779,12 +1779,12 @@
           "description": "Executive liftback on SPA2 with an 800-volt system and 92 or 106 kWh CATL packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Volvo_ES90_Auto_Zuerich_2025_DSC_2985.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_ES90_Auto_Zuerich_2025_DSC_2985.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
-              "view": "front_3q",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/volvo-es90-2025.jpg",
+              "page_url": "https://www.volvocars.com.cn/zh-cn/cars/es90-electric/",
+              "credit": "Volvo press photo",
+              "license": "Manufacturer press photo, editorial use",
+              "view": "side",
               "verified_by_viewing": true
             }
           ],
@@ -2023,11 +2023,11 @@
           "description": "Restyled Zeekr 009 with Volvo front and rear ends and a 116 kWh CATL pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Volvo_EM90_20231120.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Volvo_EM90_20231120.jpg",
-              "credit": "Nissangeniss",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/volvo-em90-2024.jpg",
+              "page_url": "https://www.volvocars.com.cn/zh-cn/cars/em90-electric/",
+              "credit": "Volvo press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

@@ -583,11 +583,11 @@
           "description": "e-Platform 3.0 EV with a 103.36 kWh Blade battery; front-drive or 275 kW AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Denza_D9_EV_001_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_D9_EV_001_(cropped).jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-d9-2022.jpg",
+              "page_url": "https://www.denza.com/eu/model-page/d9",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1033,11 +1033,11 @@
           "description": "Launch EV with a 100 kWh Blade battery and three motors.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Denza_Z9_GT_001_%28cropped%29.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_Z9_GT_001_(cropped).jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-z9-gt-2024.jpg",
+              "page_url": "https://www.denza.com/eu/model-page/z9gt",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1535,11 +1535,11 @@
           "description": "Tri-motor AWD with a 76 kWh second-generation Blade pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Denza_Z_Auto_Zuerich_2026_IMG_8686.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_Z_Auto_Zuerich_2026_IMG_8686.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-z-2026.jpg",
+              "page_url": "https://www.denza.com/eu/model-page/z",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -1841,11 +1841,11 @@
           "description": "EV with a 130.15 kWh second-generation Blade pack, 370 kW rear motor and 10-97% charging in 9 minutes.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Denza_N8L_005.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Denza_N8L_005.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/denza-n8l-2026.jpg",
+              "page_url": "https://www.tengshiauto.com/product-detail/N8L-EV.html",
+              "credit": "Denza press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

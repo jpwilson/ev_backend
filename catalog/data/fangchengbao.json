@@ -77,11 +77,11 @@
           "description": "e-Platform 3.0 Evo; 160 kW rear drive or 310 kW dual-motor AWD, Blade packs of 65 to 79 kWh.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Fangchengbao_Tai_3_%28%E9%92%9B3%29_02_China_2025-03-31.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Fangchengbao_Tai_3_(%E9%92%9B3)_02_China_2025-03-31.jpg",
-              "credit": "Navigator84",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/fangchengbao-tai-3-2025.jpg",
+              "page_url": "https://www.fangchengbao.com/tai3",
+              "credit": "Fangchengbao press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -239,11 +239,11 @@
           "description": "Only the 2026 battery-electric versions are listed: 92 or 106 kWh Blade packs, rear drive or AWD.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Fangchengbao_Ti7_004.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Fangchengbao_Ti7_004.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/fangchengbao-ti7-2025.jpg",
+              "page_url": "https://www.fangchengbao.com/tai7EVSCB",
+              "credit": "Fangchengbao press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

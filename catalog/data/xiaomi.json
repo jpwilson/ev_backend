@@ -245,11 +245,11 @@
           "description": "V6s Plus motors, mechanical semi-hidden door handles, wider rear tyres, 752 V (Standard/Pro) and 897 V (Max) electrics, and longer range.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Xiaomi_SU7_MY2026_IMG01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_SU7_MY2026_IMG01.jpg",
-              "credit": "Poprace",
-              "license": "CC0 1.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xiaomi-su7-2026.jpg",
+              "page_url": "https://www.xiaomiev.com/su7",
+              "credit": "Xiaomi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -464,11 +464,11 @@
           "description": "Two HyperEngine V8s rear motors and one V6s front motor, 93.7 kWh Qilin 2.0 pack, carbon-ceramic brakes.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Xiaomi_SU7_Ultra_0001_China_2025-03-28.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_SU7_Ultra_0001_China_2025-03-28.jpg",
-              "credit": "Navigator84",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xiaomi-su7-ultra-2025.jpg",
+              "page_url": "https://www.xiaomiev.com/ultra",
+              "credit": "Xiaomi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -569,11 +569,11 @@
           "description": "HyperEngine V6s Plus motors on an 871 V architecture; LFP pack on YU7/Pro, NMC on Max/GT.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Xiaomi_YU7_Emerald_Green_Metallic_01.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_YU7_Emerald_Green_Metallic_01.jpg",
-              "credit": "Ethan Llamas",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/xiaomi-yu7-2025.jpg",
+              "page_url": "https://www.xiaomiev.com/yu7",
+              "credit": "Xiaomi press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

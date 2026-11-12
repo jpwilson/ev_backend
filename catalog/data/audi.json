@@ -3884,11 +3884,11 @@
      "description": "China-only long-wheelbase PPE SUV.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Audi_Q6L_e-tron_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_Q6L_e-tron_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/audi-q6l-e-tron-2025.jpg",
+       "page_url": "https://www.audi.com/en/images/detail/audi-q6l-e-tron-124448",
+       "credit": "Audi press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }
@@ -3955,12 +3955,12 @@
      "description": "China-only long-wheelbase PPE sedan.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Audi_A6L_e-tron_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Audi_A6L_e-tron_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
-       "view": "front_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/audi-a6l-e-tron-2025.jpg",
+       "page_url": "https://www.audi.com/en/images/detail/audi-at-auto-china-2026-130034",
+       "credit": "Audi press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "side",
        "verified_by_viewing": true
       }
      ],
@@ -4195,11 +4195,11 @@
      "description": "100 kWh CATL battery, rear- or all-wheel drive, up to 770 km CLTC.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/2025_SAIC-Audi_E5_Sportback_%28front%29.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:2025_SAIC-Audi_E5_Sportback_(front).jpg",
-       "credit": "User 3204",
-       "license": "CC BY-SA 4.0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/audi-e5-sportback-2025.jpg",
+       "page_url": "https://www.audi.com/en/images/detail/audi-e5-sportback-127604",
+       "credit": "Audi press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

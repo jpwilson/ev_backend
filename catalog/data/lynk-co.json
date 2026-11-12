@@ -283,12 +283,12 @@
      "description": "May 2026 facelift and rename: 900V system, 6C/12C-rated LFP packs (77 and 95 kWh), up to 816 km CLTC and a 680 kW 10+ AWD.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Lynk_%26_Co_10%2B_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_10%2B_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
-       "view": "front_3q",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/lynk-co-10-2026.jpg",
+       "page_url": "https://www.lynkco.com.cn/cars/10ev",
+       "credit": "Lynk & Co press photo",
+       "license": "Manufacturer press photo, editorial use",
+       "view": "rear_3q",
        "verified_by_viewing": true
       }
      ],
@@ -662,11 +662,11 @@
      "description": "September 2026 facelift and rename: 245 kW rear motor, 61.5 or 70 kWh 6C LFP packs, up to 460 kW DC charging, lidar as standard.",
      "images": [
       {
-       "source": "commons",
-       "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Lynk_%26_Co_20_001.jpg",
-       "page_url": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_20_001.jpg",
-       "credit": "JustAnotherCarDesigner",
-       "license": "CC0",
+       "source": "press",
+       "file_url": "/pub_assets/car_images/catalog/lynk-co-20-2026.jpg",
+       "page_url": "https://www.lynkco.com.cn/cars/20",
+       "credit": "Lynk & Co press photo",
+       "license": "Manufacturer press photo, editorial use",
        "view": "front_3q",
        "verified_by_viewing": true
       }

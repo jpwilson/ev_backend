@@ -107,11 +107,11 @@
           "description": "BYD LFP packs of 49 or 61 kWh; front motor or ALLGRIP-e dual-motor AWD; eAxles co-developed with Toyota.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Suzuki_e_Vitara_Auto_Zuerich_2025_DSC_3426.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Suzuki_e_Vitara_Auto_Zuerich_2025_DSC_3426.jpg",
-              "credit": "Alexander Migl",
-              "license": "CC BY-SA 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/suzuki-e-vitara-2025.jpg",
+              "page_url": "https://www.globalsuzuki.com/automobile/lineup/evitara/index.html",
+              "credit": "Suzuki press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

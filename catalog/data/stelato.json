@@ -75,11 +75,11 @@
           "description": "227 kW rear motor (385 kW AWD) and a 100 kWh CATL/Huawei 'Whale' NMC pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/%28CHN-Hubei%29_Showcar_Stelato_S9_No-plate_2024-12-04.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:(CHN-Hubei)_Showcar_Stelato_S9_No-plate_2024-12-04.jpg",
-              "credit": "S5A-0043",
-              "license": "CC BY 4.0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/stelato-s9-2024.jpg",
+              "page_url": "https://hima.auto/xiangjie/s9/",
+              "credit": "Stelato press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -320,11 +320,11 @@
           "description": "Dual-motor AWD (586 hp) with a 120 kWh CATL Qilin pack.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stelato_G9_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Stelato_G9_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/stelato-g9-2026.jpg",
+              "page_url": "https://hima.auto/xiangjie/g9/",
+              "credit": "Stelato press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }

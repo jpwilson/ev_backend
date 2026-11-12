@@ -221,11 +221,11 @@
           "description": "Rear-motor sedan with 70 or 80 kWh packs.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Aion_Hyper_GT_008.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Aion_Hyper_GT_008.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hyptec-gt-2023.jpg",
+              "page_url": "https://www.hyptec.com/",
+              "credit": "Hyptec press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
@@ -764,11 +764,11 @@
           "description": "800 V, 5C charging; single 250 kW motor or 280 kW dual motor.",
           "images": [
             {
-              "source": "commons",
-              "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hyptec_HL_003.jpg",
-              "page_url": "https://commons.wikimedia.org/wiki/File:Hyptec_HL_003.jpg",
-              "credit": "JustAnotherCarDesigner",
-              "license": "CC0",
+              "source": "press",
+              "file_url": "/pub_assets/car_images/catalog/hyptec-hl-2025.jpg",
+              "page_url": "https://www.gacgroup.com/en-et/suv/hyptec-hl",
+              "credit": "Hyptec press photo",
+              "license": "Manufacturer press photo, editorial use",
               "view": "front_3q",
               "verified_by_viewing": true
             }
