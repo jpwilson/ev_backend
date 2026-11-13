@@ -13,7 +13,7 @@ from sqlalchemy.exc import OperationalError, ProgrammingError
 
 import services.catalog_service as svc
 from dependencies import db_dependency
-from routers.seo import CANONICAL_HOST, COMPARE_PAIRS, STATIC_PATHS
+from routers.seo import CANONICAL_HOST, STATIC_PATHS
 
 router = APIRouter(prefix="/catalog", tags=["catalog"])
 
@@ -155,6 +155,25 @@ async def catalog_model(make: str, model: str, db: db_dependency, response: Resp
     return cat.model_tree(m)
 
 
+@router.get("/models/{make}/{model}/alternatives")
+@_guard
+async def catalog_model_alternatives(make: str, model: str, db: db_dependency, response: Response,
+                                     market: Optional[str] = Query(None, description="one of the response's `markets`")):
+    """Model-page links: similar cars in one market, indexable comparisons, lists the model is ranked in."""
+    import services.catalog_compare as compare
+    cat = svc.cached_catalog(_conn(db))
+    m = next((x for x in cat.models.values() if x["url_slug"] == model.lower()
+              and cat.makes[x["make_id"]]["slug"] == make.lower()), None)
+    if m is None:
+        raise HTTPException(status_code=404, detail="Model not found")
+    mk = market.upper() if market else None
+    data = compare.alternatives(cat, m, mk)
+    if mk and mk not in data["markets"]:
+        raise HTTPException(status_code=400, detail="Market must be one of: %s" % (", ".join(data["markets"]) or "none"))
+    response.headers["Cache-Control"] = CACHE_DETAIL
+    return data
+
+
 @router.get("/variants/{make}/{model}/{generation}/{variant}")
 @_guard
 async def catalog_variant(make: str, model: str, generation: str, variant: str,
@@ -217,12 +236,77 @@ async def catalog_resolve(db: db_dependency, response: Response,
 @router.get("/best/{key}")
 @_guard
 async def catalog_best(key: str, db: db_dependency, response: Response,
-                       limit: Optional[int] = Query(None, ge=1, le=100)):
+                       limit: Optional[int] = Query(None, ge=1, le=100, description="capped at 25")):
+    """A generated list from the registry in services/catalog_lists.py (GET /catalog/lists)."""
+    import services.catalog_lists as lists
     data = svc.best(_conn(db), key, limit)
     if data is None:
-        raise HTTPException(status_code=404, detail="Unknown best-list key; one of: %s" % ", ".join(svc.BEST))
+        raise HTTPException(status_code=404, detail="Unknown best-list key; one of: %s" % ", ".join(lists.LIST))
     response.headers["Cache-Control"] = CACHE_LIST
     return data
+
+
+@router.get("/lists")
+@_guard
+async def catalog_lists(db: db_dependency, response: Response):
+    """The best-list registry with each list's rule, count and indexable flag (the /best hub)."""
+    import services.catalog_lists as lists
+    out = lists.build_all(svc.cached_catalog(_conn(db)))
+    items = [lists.summary(out, cfg["key"]) for cfg in lists.LISTS]
+    response.headers["Cache-Control"] = CACHE_LIST
+    return {"count": len(items), "indexable": sum(1 for i in items if i["indexable"]), "max": lists.MAX_LISTS,
+            "lists": items}
+
+
+def _model_by_slug(conn, cat, slug: str):
+    """A model by catalog slug or legacy slug (url_redirects), or None."""
+    from services.catalog_compare import by_slug
+    slug = (slug or "").strip().lower()
+    m = by_slug(cat).get(slug)
+    if m is None:
+        hit = svc.resolve(conn, "model", slug)
+        if hit and hit["entity_type"] == "model":
+            m = cat.models.get(hit["entity_id"])
+    return m
+
+
+@router.get("/compare/{a}/{b}")
+@_guard
+async def catalog_compare(a: str, b: str, db: db_dependency, response: Response,
+                          market: Optional[str] = Query(None, description="one of the pair's `markets`; default chosen by the API")):
+    """Model vs model. Either order and legacy slugs are accepted; `path` is canonical (alphabetical slugs)."""
+    import services.catalog_compare as compare
+    conn = _conn(db)
+    cat = svc.cached_catalog(conn)
+    ma, mb = _model_by_slug(conn, cat, a), _model_by_slug(conn, cat, b)
+    if ma is None or mb is None:
+        raise HTTPException(status_code=404, detail="Model not found")
+    if ma["id"] == mb["id"]:
+        raise HTTPException(status_code=404, detail="A model cannot be compared with itself")
+    mk = market.upper() if market else None
+    if mk and mk not in compare.pair_markets(cat, ma, mb):
+        raise HTTPException(status_code=400, detail="No offerings in market %s for these models" % mk)
+    response.headers["Cache-Control"] = CACHE_DETAIL
+    return compare.page(cat, ma, mb, mk)
+
+
+@router.get("/compare-pairs")
+@_guard
+async def catalog_compare_pairs(db: db_dependency, response: Response,
+                                model: Optional[str] = Query(None, description="model slug: pairs including it"),
+                                indexable: Optional[bool] = Query(None)):
+    """Every selected comparison pair in priority order (the /compare hub, links, sitemap)."""
+    import services.catalog_compare as compare
+    conn = _conn(db)
+    cat = svc.cached_catalog(conn)
+    slug = None
+    if model:
+        m = _model_by_slug(conn, cat, model)
+        if m is None:
+            raise HTTPException(status_code=404, detail="Model not found")
+        slug = m["slug"]
+    response.headers["Cache-Control"] = CACHE_LIST
+    return compare.pairs_response(cat, slug, indexable)
 
 
 def _url(loc: str, lastmod: Optional[datetime], priority: str) -> str:
@@ -240,16 +324,6 @@ async def catalog_sitemap(db: db_dependency):
         if path == "/marketplace":  # placeholder page; design 9: only pages that exist
             continue
         parts.append(_url(CANONICAL_HOST + path, None, "1.0" if path == "/" else "0.6"))
-    for key in svc.BEST:
-        parts.append(_url("%s/best/%s" % (CANONICAL_HOST, key), None, "0.8"))
-    seen = set()
-    for pair in COMPARE_PAIRS:
-        a, _, b = pair.partition("-vs-")
-        if a in model_slugs and b in model_slugs:
-            canon = "-vs-".join(sorted((a, b)))
-            if canon not in seen:
-                seen.add(canon)
-                parts.append(_url("%s/compare/%s" % (CANONICAL_HOST, canon), None, "0.8"))
     for path, lastmod, prio in entries:
         parts.append(_url(CANONICAL_HOST + path, lastmod, prio))
     parts.append("</urlset>\n")
